@@ -1,4 +1,4 @@
-<svg fill="inherit" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<!-- shirt -->
 	<path d="M36 36v-2c0-3.314-2.686-6-6-6H14c-3.313 0-6 2.686-6 6v2h28z" fill="#E1E8ED" data-gender="neutral,male"/>
 	<path d="M35 36v-3.5c0-3.314-3.685-5.5-7-5.5H16c-3.313 0-7 2.186-7 5.5V36h26z" fill="#E1E8ED" data-gender="female"/>
