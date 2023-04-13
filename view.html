@@ -1,0 +1,133 @@
+<!doctype html><meta charset=utf-8>
+
+<style>
+	html, body, form {
+		background: white;
+		overflow: hidden;
+		
+	}
+	:root {
+		/*font-family: ms pmincho;*/
+	}
+	
+	.compare-box {
+		display: grid;
+		background: white;
+		contain: content;
+	}
+	.compare-box > * {
+		grid-area: 1/1/1/1;
+		width: 360px;
+		aspect-ratio: 1/1;
+		background: white;
+		border-left: 5px solid blue;
+		contain: strict;
+	}
+	.compare-box > :last-child {
+		border-left: 5px dotted blue;
+	}
+	.compare-box.diff > :last-child {
+		mix-blend-mode: difference;
+	}
+	.compare-box.hide > :last-child {
+		opacity: 0;
+	}
+	.field-table {
+		display: grid;
+		grid-template-columns: auto 1fr;
+		column-gap: 1ch;
+	}
+	.field-table > label {
+		display: contents;
+	}
+	.field-table > label > span {
+		text-align: right;
+		font-weight: bold;
+	}
+</style>
+
+<body>
+
+<form autocomplete="off" id=$controls>
+	<label>Hide Upper<input type=checkbox name=hide></label>
+	<label>Difference<input type=checkbox name=diff checked></label>
+	<hr>
+	<div class='field-table'>
+		<label><span>Name:</span><output name=name></output></label>
+		<label><span>Variant:</span><output name=variant></output></label>
+		<label><span>encoding:</span><output name=codes></output></label>
+		<label><span>twemoji file:</span><output name=filename></output></label>
+	</div>
+</form>
+<hr>
+<div id=$box class='compare-box diff'></div>
+
+<script type=module>
+	import cmap from './cmap.mjs'
+	window.cmap = cmap
+	
+	$controls.onchange = ev=>{
+		$box.classList.toggle(ev.target.name, ev.target.checked)
+	}
+	
+	function load(file) {
+		let x = new XMLHttpRequest()
+		x.open('GET', file, false)
+		x.send()
+		return x.responseXML
+	}
+	
+	window.go = function(name, variant, palette) {
+		let svg = load('./emoji/'+name+'.svg')
+		console.log(svg)
+		let codes = cmap.find(x=>x.ident==name).variants[variant][palette]
+		console.log(codes)
+		let orig = load('../twemoji/assets/svg/'+codes[1]+'.svg')
+		console.log(svg, orig)
+		svg = svg.documentElement
+		select_variant(svg, variant, palette, name=="PeopleKissing")
+		$box.replaceChildren(orig.documentElement, svg)
+		$controls.name.value = name
+		$controls.variant.value = variant
+		$controls.codes.value = codes[0].join(" ").replace(/0x/g,"U+")
+		$controls.filename.value = codes[1]+".svg"
+		
+	}
+	
+	function correct(i, hack) {
+		if (!hack)
+			return [0,1,12,19,20,21,22,23,24,25,2,3,4,5,6,7,8,9,10,11,13,14,15,16,17,18][i]
+		return [0,1,2,3,4,5,7,6,8,9,10,12,13,11,14,15,17,18,19,16,20,22,23,24,25,21][i]
+	}
+	// 6,7,11,12,13,16,17,18,19,21,22,23,24,25,26
+	
+	function select_variant(svg, gender, skin, hack) {
+		for (let elem of svg.getElementsByTagName('*')) {
+			let g = elem.getAttribute('data-gender')
+			let gc = elem.getAttribute('data-gender-color')
+			let s = elem.getAttribute('data-skin')
+			if (g) {
+				g = g.split(/[,| ]/)
+				elem.style.setProperty('display', g.includes(gender) ? '' : 'none')
+			}
+			let fill
+			if (gc) {
+				gc = gc.split(/[| ,]/)
+				if (gender=='male')
+					fill = gc[0]
+				if (gender=='female')
+					fill = gc[1]
+			}
+			if (s) {
+				s = s.split(/[| ,]/)
+				if (skin) {
+					let skin2 = skin
+					if (s.length==25)
+						skin2 = correct(skin2, hack)
+					fill = s[skin2-1]
+				}
+			}
+			elem.style.setProperty('fill', fill || '')
+		}
+	}
+</script>
