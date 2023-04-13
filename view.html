@@ -60,12 +60,14 @@
 		/*font-family: courier, monospace;*/
 		/*font-size: 14px;*/
 		border: 1px solid gray;
-		background: indigo;
-		color: yellow;
+		/*background: indigo;
+			color: yellow;*/
+		background: midnightblue;
+		color: white;
 		font-weight: bold;
 		display: block;
 		line-height: 1.5em;
-		padding: 0 2px;
+		padding: 0 3px;
 		line-break: anywhere;
 		white-space: pre-wrap;
 	}
@@ -127,6 +129,9 @@
 	window.go = function(name, variant, palette) {
 		let ok
 		try {
+			variant = variant || 'neutral'
+			palette = palette || 0
+			
 			let svg = load('./emoji/'+name+'.svg')
 			console.log(svg)
 			let codes = cmap.find(x=>x.ident==name).variants[variant][palette]
