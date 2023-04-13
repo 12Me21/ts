@@ -4,10 +4,19 @@
 	html, body, form {
 		background: white;
 		overflow: hidden;
-		
 	}
 	:root {
-		/*font-family: ms pmincho;*/
+		font-family: ms pmincho;
+	}
+	* {
+		font-family: unset;
+		font-size: unset;
+	}
+	* {
+		appearance: none;
+	}
+	input[type=checkbox] {
+		appearance: auto;
 	}
 	
 	.compare-box {
@@ -36,7 +45,9 @@
 		display: grid;
 		grid-template-columns: auto 1fr;
 		column-gap: 1ch;
+		row-gap: 3px;
 		align-items: center;
+		margin-bottom: 0.5em;
 	}
 	.field-table > label {
 		display: contents;
@@ -45,20 +56,37 @@
 		text-align: right;
 		font-weight: bold;
 	}
+	output {
+		/*font-family: courier, monospace;*/
+		/*font-size: 14px;*/
+		border: 1px solid gray;
+		background: indigo;
+		color: yellow;
+		font-weight: bold;
+		display: block;
+		line-height: 1.5em;
+		padding: 0 2px;
+		line-break: anywhere;
+		white-space: pre-wrap;
+	}
+	output::after {
+		content: ""
+	}
 </style>
 
 <body>
 
-<form autocomplete=off method=dialog id=$controls style="width: 400px;">
+<form method=dialog id=$controls>
 	<div class='field-table'>
 		<label><span>Name:</span><input name=name></label>
 		<label><span>Variant:</span><input name=variant></label>
 		<label><span>Color:</span><input min=0 max=25 type=number name=color></label>
+		<label><span>emoji:</span><output name=current></output></label>
 		<label><span>encoding:</span><output name=codes></output></label>
 		<label><span>twemoji file:</span><output name=filename></output></label>
 	</div>
-	<label>Hide Upper<input type=checkbox name=hide></label>
-	<label>Difference<input type=checkbox name=diff checked></label>
+	<label>Show Orig<input autocomplete=off type=checkbox name=hide></label>
+	<label>Difference<input autocomplete=off type=checkbox name=diff checked></label>
 	<button>Load</button>
 </form>
 <hr>
@@ -70,7 +98,12 @@
 	
 	Object.assign($controls, {
 		onchange(ev) {
-			$box.classList.toggle(ev.target.name, ev.target.checked)
+			if (ev.target.name=='hide')
+				this.diff.checked = false
+			if (ev.target.name=='diff')
+				this.hide.checked = false
+			$box.classList.toggle('hide', this.hide.checked)
+			$box.classList.toggle('diff', this.diff.checked)
 		},
 		onsubmit(ev) {
 			window.go(this.name.value, this.variant.value, this.color.value)
@@ -84,21 +117,35 @@
 		return x.responseXML
 	}
 	
+	function clear() {
+		$box.replaceChildren()
+		$controls.current.value = ""
+		$controls.codes.value = ""
+		$controls.filename.value = ""
+	}
+	
 	window.go = function(name, variant, palette) {
-		let svg = load('./emoji/'+name+'.svg')
-		console.log(svg)
-		let codes = cmap.find(x=>x.ident==name).variants[variant][palette]
-		console.log(codes)
-		let orig = load('../twemoji/assets/svg/'+codes[1]+'.svg')
-		console.log(svg, orig)
-		svg = svg.documentElement
-		select_variant(svg, variant, palette, name=="PeopleKissing")
-		$box.replaceChildren(orig.documentElement, svg)
-		$controls.name.value = name
-		$controls.variant.value = variant
-		$controls.codes.value = codes[0].join(" ").replace(/0x/g,"U+")
-		$controls.filename.value = codes[1]+".svg"
-		
+		let ok
+		try {
+			let svg = load('./emoji/'+name+'.svg')
+			console.log(svg)
+			let codes = cmap.find(x=>x.ident==name).variants[variant][palette]
+			console.log(codes)
+			let orig = load('../twemoji/assets/svg/'+codes[1]+'.svg')
+			console.log(svg, orig)
+			svg = svg.documentElement
+			select_variant(svg, variant, palette, name=="PeopleKissing")
+			$box.replaceChildren(orig.documentElement, svg)
+			//$controls.name.value = name
+			//$controls.variant.value = variant
+			$controls.current.value = name+" / "+variant+" / "+palette
+			$controls.codes.value = codes[0].join(" ").replace(/0x/g,"")
+			$controls.filename.value = codes[1]+".svg"
+			ok = true
+		} finally {
+			if (!ok)
+				clear()	
+		}
 	}
 	
 	function correct(i, hack) {
