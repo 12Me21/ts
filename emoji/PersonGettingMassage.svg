@@ -35,5 +35,6 @@
 	<!-- nose -->
 	<path d="M19 19.5h-2c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h2c.276 0 .5.224.5.5s-.224.5-.5.5z" fill="#C1694F" data-skin="#C1694F|#C1694F|#C1694F|#915A34|#3D2E24"/>
 	<!-- mouth -->
-	<ellipse cx="18.001" cy="22" rx="2" ry="1" fill="#C1694F" data-skin="#C1694F|#C1694F|#C1694F|#915A34|#3D2E24" data-gender-color="|#DF1F32"/>
+	<ellipse cx="18.001" cy="22" rx="2" ry="1" fill="#C1694F" data-skin="#C1694F|#C1694F|#C1694F|#915A34|#3D2E24" data-gender="neutral,male"/>
+	<ellipse cx="18.001" cy="22" rx="2" ry="1" fill="#DF1F32" data-gender="female"/>
 </svg>
