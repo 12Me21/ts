@@ -36,6 +36,7 @@
 		display: grid;
 		grid-template-columns: auto 1fr;
 		column-gap: 1ch;
+		align-items: center;
 	}
 	.field-table > label {
 		display: contents;
@@ -48,16 +49,17 @@
 
 <body>
 
-<form autocomplete="off" id=$controls>
-	<label>Hide Upper<input type=checkbox name=hide></label>
-	<label>Difference<input type=checkbox name=diff checked></label>
-	<hr>
+<form autocomplete=off method=dialog id=$controls style="width: 400px;">
 	<div class='field-table'>
-		<label><span>Name:</span><output name=name></output></label>
-		<label><span>Variant:</span><output name=variant></output></label>
+		<label><span>Name:</span><input name=name></label>
+		<label><span>Variant:</span><input name=variant></label>
+		<label><span>Color:</span><input min=0 max=25 type=number name=color></label>
 		<label><span>encoding:</span><output name=codes></output></label>
 		<label><span>twemoji file:</span><output name=filename></output></label>
 	</div>
+	<label>Hide Upper<input type=checkbox name=hide></label>
+	<label>Difference<input type=checkbox name=diff checked></label>
+	<button>Load</button>
 </form>
 <hr>
 <div id=$box class='compare-box diff'></div>
@@ -66,9 +68,14 @@
 	import cmap from './cmap.mjs'
 	window.cmap = cmap
 	
-	$controls.onchange = ev=>{
-		$box.classList.toggle(ev.target.name, ev.target.checked)
-	}
+	Object.assign($controls, {
+		onchange(ev) {
+			$box.classList.toggle(ev.target.name, ev.target.checked)
+		},
+		onsubmit(ev) {
+			window.go(this.name.value, this.variant.value, this.color.value)
+		},
+	})
 	
 	function load(file) {
 		let x = new XMLHttpRequest()
