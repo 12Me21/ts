@@ -210,7 +210,7 @@
 				s = s.split(/[| ,]/)
 				if (skin) {
 					let skin2 = skin
-					fill = s[skin2-1]
+					fill = s[(skin2-1) % s.length]
 				}
 			}
 			elem.style.setProperty('fill', fill || '')
