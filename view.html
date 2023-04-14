@@ -139,7 +139,7 @@
 			let orig = load('../twemoji/assets/svg/'+codes[1]+'.svg')
 			console.log(svg, orig)
 			svg = svg.documentElement
-			select_variant(svg, variant, palette, name=="PeopleKissing")
+			select_variant(svg, variant, palette)
 			$box.replaceChildren(orig.documentElement, svg)
 			//$controls.name.value = name
 			//$controls.variant.value = variant
@@ -160,7 +160,7 @@
 	}
 	// 6,7,11,12,13,16,17,18,19,21,22,23,24,25,26
 	
-	function select_variant(svg, gender, skin, hack) {
+	function select_variant(svg, gender, skin) {
 		for (let elem of svg.getElementsByTagName('*')) {
 			let g = elem.getAttribute('data-gender')
 			let gc = elem.getAttribute('data-gender-color')
@@ -181,8 +181,6 @@
 				s = s.split(/[| ,]/)
 				if (skin) {
 					let skin2 = skin
-					if (s.length==25)
-						skin2 = correct(skin2, hack)
 					fill = s[skin2-1]
 				}
 			}
