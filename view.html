@@ -32,11 +32,11 @@
 		width: 360px;
 		aspect-ratio: 1/1;
 		background: white;
-		border-left: 5px solid blue;
+		border: 5px solid blue;
 		contain: strict;
 	}
 	.compare-box > :last-child {
-		border-left: 5px dotted blue;
+		border: 5px dotted blue;
 	}
 	.compare-box.diff > :last-child {
 		mix-blend-mode: difference;
@@ -87,14 +87,14 @@
 <form method=dialog id=$controls>
 	<div class='field-table'>
 		<label>
-			<span>Name:</span><input name=name value=PersonBouncingBall style='grid-column-end: -2'>
+			<span>Name:</span><input list=$emojinames name=name value="PersonBouncingBall" style='grid-column-end: -2'>
 		</label>
 		<label>
-			<span>Variant:</span><input name=variant value=neutral style='grid-column: span 1'>
+			<span>Variant:</span><input name=variant value="neutral" style='grid-column: span 1'>
 		</label>
 		<label>
 			<span>Color:</span>
-			<input min=0 max=25 type=number value=0 name=color style='grid-column: span 2'>
+			<input min=0 max=25 type=number value="0" name=color style='grid-column: span 2'>
 		</label>
 		<button style='grid-area: 1/-2/1/-1'>Load</button>
 		
@@ -102,6 +102,14 @@
 		<label><span>encoding:</span><output name=codes></output></label>
 		<label><span>twemoji file:</span><output name=filename></output></label>
 	</div>
+	<datalist id=$emojinames></datalist>
+	<datalist id=$variants>
+		<option value="neutral"></option>
+		<option value="male"></option>
+		<option value="female"></option>
+		<option value="mixed"></option>
+	</datalist>
+	
 	<div>
 		<label>Show Orig<input autocomplete=off type=checkbox name=hide></label>
 		<label>Difference<input autocomplete=off type=checkbox name=diff></label>
@@ -113,6 +121,11 @@
 <script type=module>
 	import cmap from './cmap.mjs'
 	window.cmap = cmap
+	
+	for (let item of cmap) {
+		if (item.gender || item.skin)
+			$emojinames.append(new Option(cmap.ident, cmap.ident))
+	}
 	
 	if (location=='file:///home/twelve/Code/twemoji-COLR/ts/view.html')
 		window.TWEMOJI_BASE = '../twemoji/assets/svg/'
@@ -151,7 +164,13 @@
 			variant = variant || 'neutral'
 			palette = palette || 0
 			//
-			let codes = cmap.find(x=>x.ident==name).variants[variant][palette]
+			let item = cmap.find(x=>x.ident==name)
+			let codes
+			if (item.variants) {
+				codes = item.variants[variant][palette]
+			} else {
+				codes = item.codes
+			}
 			console.log(codes)
 			//
 			let svg = load('./emoji/'+name+'.svg')
