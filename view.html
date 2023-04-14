@@ -118,6 +118,12 @@
 <hr>
 <div id=$box class='compare-box'></div>
 
+<script>
+	window.onerror = (message, source, line, col, error)=>{
+		alert('error:\n'+line+" : "+col+" in "+source+"\n\n"+message)
+	}
+</script>
+
 <script type=module>
 	import cmap from './cmap.mjs'
 	window.cmap = cmap
