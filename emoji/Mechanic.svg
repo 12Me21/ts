@@ -39,7 +39,7 @@
 	<path d="M13 9s-.5 3 1.5 3c1 0 2.5-2 7.5-2s6.5 2 7.5 2c2 0 1.5-3 1.5-3s-1.5.5-9 .5-9-.5-9-.5z" fill="#55ACEE" data-gender="neutral,female"/>
 	<path d="M13.056 9s-.5 3 1.5 3c1 0 2.5-2 7.5-2s6.5 2 7.5 2c2 0 1.5-3 1.5-3s-1.5.5-9 .5-9-.5-9-.5z" fill="#55ACEE" data-gender="male"/>
 	<!-- badge -->
-	<ellipse cx="27.75" cy="33.75" fill="#F5F8FA" rx="2.25" ry="1.25" data-gender="neutral,male,female"></ellipse>
+	<ellipse cx="27.75" cy="33.75" fill="#F5F8FA" rx="2.25" ry="1.25" data-gender="neutral,male,female"/>
 	<!-- wrench -->
 	<!--<path d="M9.501 23.635c-.005-1.805-1.026-3.353-2.511-4.153l.012 4.409c0 .553-1.006 1.003-2.249 1.005-1.242.003-2.25-.443-2.251-.995l-.01-4.408c-1.48.806-2.494 2.358-2.492 4.163.006 2.091 1.37 3.845 3.25 4.475V36h3v-7.869c1.888-.632 3.256-2.397 3.251-4.496z" fill="#66757F" data-gender=""/>-->
 	<path d="M3.25 27.396h3V36h-3z" fill="#66757F" data-gender="neutral,male,female"/>
