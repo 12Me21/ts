@@ -14,9 +14,9 @@
 	<path d="M36 36v-4.5c0-3.314-3.561-5.5-6.875-5.5h-12C13.812 26 10 28.186 10 31.5V36h26z" fill="#226798" data-gender="female"/>
 	<path d="M28.25 26l-3.182 10h-4.091L18.25 26" fill="#F4F7F9" data-gender="female"/>
 	<path d="M16.667 36H20.2L17 28h-2l-1 6 3 1z " fill="#3A87C2" data-gender="neutral,male"/>
-	<path d="M27.33300000,36.00000000 H23.8l3.2-8h2l1 6-3 1z" fill="#3A87C2" data-gender="neutral,male"/>
+	<path d="M27.333,36 H23.8l3.2-8h2l1 6-3 1z" fill="#3A87C2" data-gender="neutral,male"/>
 	<path d="M19 26h-1.5l-1 5.5 3 1L19 36h3.5z " fill="#3A87C2" data-gender="female"/>
-	<path d="M27.50000000,26.00000000 H29l.5 5.5-3 1L27 36h-3.5z" fill="#3A87C2" data-gender="female"/>
+	<path d="M27.5,26 H29l.5 5.5-3 1L27 36h-3.5z" fill="#3A87C2" data-gender="female"/>
 	<path d="M24 36l3-6H17l3 6z" fill="#CCD6DC" data-gender="neutral"/>
 	<path d="M20.461 36H24l2-4-3.99-1.867L18 32l2 4z" fill="#CCD6DC" data-gender="male"/>
 	<path d="M22.031 33.957c.744 0 1.246 1.025 1.562 2.043h.549c-.394-1.262-.841-2.438-.841-2.438s.375-.625.531-.906c.184-.33.453-1.57.453-1.57l-2.188-.963c0-.006-.16.006-.16.006l-.184.043-.172.062c-.217.07.094.008.094.014l-1.973.838s.287 1.24.469 1.57c.156.281.529.906.529.906s-.43 1.106-.797 2.438h.559c.319-1.018.826-2.043 1.569-2.043z" fill="#9F1D22" data-gender="male"/>

@@ -28,6 +28,6 @@
 	<path d="M19 19.5h-2c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h2c.276 0 .5.224.5.5s-.224.5-.5.5z" fill="#C1694F" data-skin="#C1694F|#C1694F|#C1694F|#915A34|#3D2E24" data-gender="neutral,female"/>
 	<path d="M19 19.5h-2c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h2c.276 0 .5.224.5.5s-.224.5-.5.5z" fill="#BF6952" data-skin="#BF6952|#BF6952|#BF6952|#915A34|#3D2E24" data-gender="male"/> <!-- different colors -->
 	<!-- mouth -->
-	<path d="M20.50000000,23.00000000 H20c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h.5c.276 0 .5.224.5.5s-.224.5-.5.5z" fill="#C1694F" data-skin="#C1694F|#C1694F|#C1694F|#915A34|#3D2E24" data-gender-color="#BF6952|#DF1F32" data-gender="neutral male"/>
+	<path d="M20.5,23 H20c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h.5c.276 0 .5.224.5.5s-.224.5-.5.5z" fill="#C1694F" data-skin="#C1694F|#C1694F|#C1694F|#915A34|#3D2E24" data-gender-color="#BF6952|#DF1F32" data-gender="neutral male"/>
 	<path d="M20.5,23 H20c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h.5c.276 0 .5.224.5.5s-.224.5-.5.5z" fill="#DF1F32" data-gender="female"/>
 </svg>
