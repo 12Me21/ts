@@ -45,10 +45,10 @@
 		opacity: 0;
 	}
 	.field-table {
-		display: grid;
-		grid-template-columns: auto 1fr auto 1fr;
-		column-gap: 1ch;
-		row-gap: 3px;
+		display: inline-grid;
+		grid-template-columns: auto auto auto auto auto;
+		column-gap: 0.75ch;
+		row-gap: 4px;
 		align-items: center;
 		margin-bottom: 0.5em;
 	}
@@ -59,11 +59,8 @@
 		text-align: right;
 		font-weight: bold;
 	}
-	.field-table > :not(.half) > :first-child {
-		grid-column: 1/1;
-	}
-	.field-table > :not(.half) > :last-child {
-		grid-column: 2/5;
+	.field-table > label > :last-child {
+		grid-column: 2/-1;
 	}
 	output {
 		/*font-family: courier, monospace;*/
@@ -89,20 +86,29 @@
 
 <form method=dialog id=$controls>
 	<div class='field-table'>
-		<label><span>Name:</span><input name=name></label>
-		<label class='half'><span>Variant:</span><input name=variant></label>
-		<label class='half'><span>Color:</span><input min=0 max=25 type=number name=color></label>
+		<label>
+			<span>Name:</span><input name=name value=PersonBouncingBall style='grid-column-end: -2'>
+		</label>
+		<label>
+			<span>Variant:</span><input name=variant value=neutral style='grid-column: span 1'>
+		</label>
+		<label>
+			<span>Color:</span>
+			<input min=0 max=25 type=number value=0 name=color style='grid-column: span 2'>
+		</label>
+		<button style='grid-area: 1/-2/1/-1'>Load</button>
+		
 		<label><span>emoji:</span><output name=current></output></label>
 		<label><span>encoding:</span><output name=codes></output></label>
 		<label><span>twemoji file:</span><output name=filename></output></label>
 	</div>
-	<button>Load</button>
-	<span style="padding:1em;"></span>
-	<label>Show Orig<input autocomplete=off type=checkbox name=hide></label>
-	<label>Difference<input autocomplete=off type=checkbox name=diff></label>
+	<div>
+		<label>Show Orig<input autocomplete=off type=checkbox name=hide></label>
+		<label>Difference<input autocomplete=off type=checkbox name=diff></label>
+	</div>
 </form>
 <hr>
-<div id=$box class='compare-box diff'></div>
+<div id=$box class='compare-box'></div>
 
 <script type=module>
 	import cmap from './cmap.mjs'
