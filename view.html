@@ -125,7 +125,7 @@
 </script>
 
 <script type=module>
-	import cmap from './cmap.mjs'
+	import cmap from './cmap.mjs?1'
 	window.cmap = cmap
 	
 	for (let item of cmap) {
@@ -133,6 +133,7 @@
 			$emojinames.append(new Option(cmap.ident, cmap.ident))
 	}
 	
+	window.TWEMOJI_BASE = null
 	if (location=='file:///home/twelve/Code/twemoji-COLR/ts/view.html')
 		window.TWEMOJI_BASE = '../twemoji/assets/svg/'
 	
