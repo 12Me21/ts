@@ -219,11 +219,13 @@
 	}
 	// 6,7,11,12,13,16,17,18,19,21,22,23,24,25,26
 	
+	const xmlns = 'data:,a'
+	
 	function select_variant(svg, gender, skin) {
 		for (let elem of svg.getElementsByTagName('*')) {
-			let g = elem.getAttribute('data-gender')
-			let gc = elem.getAttribute('data-gender-color')
-			let s = elem.getAttribute('data-skin')
+			let g = elem.getAttributeNS(xmlns,'gender')
+			let gc = elem.getAttributeNS(xmlns,'gender-color')
+			let s = elem.getAttributeNS(xmlns,'skin')
 			if (g) {
 				g = g.split(/[,| ]/)
 				elem.style.setProperty('display', g.includes(gender) ? '' : 'none')
