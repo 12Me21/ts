@@ -29,7 +29,7 @@
 	<!-- eyes -->
 	<rect x="17.109" y="14.705" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/><rect x="24.734" y="14.705" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
 	<rect x="17" y="14" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/><rect x="25" y="14" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/>
-	<rect x="17.762" y="15.349" width="1.693" height="2.537" rx="0.84625" fill="#662113" ts:skin="#60352A,#60352A,#662113,#60352A,#000000" ts:gender="female"/><rect x="24.527" y="15.349" width="1.692" height="2.537" rx="0.846" fill="#662113" ts:skin="#60352A,#60352A,#662113,#60352A,#000000" ts:gender="female"/> <!-- wrong color ! -->
+	<rect x="17.762" y="15.349" width="1.693" height="2.537" rx="0.84625" fill="#662113" ts:skin="eyes" ts:gender="female"/><rect x="24.527" y="15.349" width="1.692" height="2.537" rx="0.846" fill="#662113" ts:skin="eyes" ts:gender="female"/> <!-- wrong color in orig! -->
 	<!-- nose -->
 	<rect x="20.444" y="19.946" width="2.86" height="0.954" rx="0.477" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
 	<rect x="20.5" y="18.25" width="3" height="1.5" rx="0.75" fill="#C1694F" ts:skin="nose" ts:gender="male"/>

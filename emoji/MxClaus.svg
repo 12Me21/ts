@@ -24,7 +24,7 @@
 	<rect x="11" y="19" width="2" height="4" rx="1" fill="#662113" ts:skin="eyes" ts:gender="female"/><rect x="23" y="19" width="2" height="4" rx="1" fill="#662113" ts:skin="eyes" ts:gender="female"/>
 	<!-- nose -->
 	<rect x="14" y="24" width="4" height="2" rx="1" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
-	<rect x="13" y="24" width="4" height="2" rx="1" fill="#B7755E" ts:skin="#B7755E,#B7755E,#B7755E,#915A34,#3D2E24" ts:gender="male"/> <!-- color ?? -->
+	<rect x="13" y="24" width="4" height="2" rx="1" fill="#B7755E" ts:skin="nose" ts:gender="male"/> <!-- color wrong in orig ?? -->
 	<rect x="16" y="24" width="4" height="2" rx="1" fill="#C1694F" ts:skin="nose" ts:gender="female"/>
 	<!-- mouth -->
 	<path d="M16 31c-2.347 0-3.575-1.16-3.707-1.293-.391-.391-.391-1.023 0-1.414.387-.387 1.013-.39 1.404-.01.051.047.806.717 2.303.717 1.519 0 2.273-.69 2.305-.719.398-.373 1.027-.362 1.408.029.379.393.38 1.011-.006 1.397C19.575 29.84 18.347 31 16 31z " fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>

@@ -24,10 +24,8 @@
 	<!-- eyes -->
 	<rect x="13" y="13" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes2"/><rect x="21" y="13" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes2"/>
 	<!-- nose -->
-	<rect x="16.5" y="18.5" width="3" height="1" rx="0.5" fill="#C1694F" ts:skin="nose" ts:gender="neutral,female"/>
-	<rect x="16.5" y="18.5" width="3" height="1" rx="0.5" fill="#BF6952" ts:skin="#BF6952,#BF6952,#BF6952,#915A34,#3D2E24" ts:gender="male"/> <!-- different colors -->
+	<rect x="16.5" y="18.5" width="3" height="1" rx="0.5" fill="#C1694F" ts:skin="nose" ts:gender="neutral,male,female"/>
 	<!-- mouth -->
-	<rect x="19.5" y="22" width="1.5" height="1" rx="0.5" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
-	<rect x="19.5" y="22" width="1.5" height="1" rx="0.5" fill="#BF6952" ts:skin="#BF6952,#BF6952,#BF6952,#915A34,#3D2E24" ts:gender="male"/>
+	<rect x="19.5" y="22" width="1.5" height="1" rx="0.5" fill="#C1694F" ts:skin="nose" ts:gender="neutral,male"/>
 	<rect x="19.5" y="22" width="1.5" height="1" rx="0.5" fill="#DF1F32" ts:gender="female"/>
 </svg>
