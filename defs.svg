@@ -30,8 +30,12 @@ neutral: 1.37 | 0.73
 <use href="defs.svg#face_male" x="22" y="16.959" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
 <use href="defs.svg#face_female" x="13.734" y="15.717" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 
-<use href="defs.svg#ears_female" x="9.734" y="15.9355" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
+<use href="defs.svg#ears_female" x="22" y="15.9355" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 
+30.194 + 13.805 / 2 ~= 22
+31.449 + 15.06 / 2 = 23.2545
+26.253 + 9.864 / 2 = 18.0585
+9.747 + 26.135 / 2 = 17.941
 -->
 	
 	<path id="face_female" d="M 0,0 c 0,-5.834 3.676,-10.563 8.21,-10.563 s 8.21,4.729 8.21,10.563 s -3.676,10.285 -8.21,10.285 s -8.21,-4.452 -8.21,-10.285 Z"/>

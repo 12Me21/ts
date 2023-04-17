@@ -21,7 +21,7 @@
 	<!-- front hair -->
 	<use href="defs.svg#hair_male" x="22" y="3.48" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
 	<use href="defs.svg#hair_front_female" x="21.945" y="5.069" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
-	<ellipse cx="13.805" cy="15.9355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/><ellipse cx="30.194" cy="15.9355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
+	<use href="defs.svg#ears_female" x="22" y="15.9355" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- nose -->
 	<rect x="20.578" y="19.752" width="2.86" height="0.954" rx="0.477" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
 	<rect x="20.5" y="18.25" width="3" height="1.5" rx="0.75" fill="#C1694F" ts:skin="nose" ts:gender="male"/>

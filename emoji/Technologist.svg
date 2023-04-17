@@ -18,7 +18,7 @@
 	<!-- hair -->
 	<path d="M21 0c5.648 0 9.178 4.648 9.178 8.121 0 3.473-.706 4.863-1.412 3.473l-1.412-2.778s-4.235 0-5.647-1.39c0 0 2.118 4.168-2.118 0 0 0 .706 2.779-3.53-.694 0 0-2.118 1.389-2.824 4.862-.196.964-1.412 0-1.412-3.473C11.822 4.648 14.646 0 21 0" fill="#FFAC33" ts:skin="hair" ts:gender="male"/> <!-- special -->
 	<use href="defs.svg#hair_front_female" x="21.944" y="1.569" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
-	<ellipse cx="13.805" cy="13.4355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/><ellipse cx="30.194" cy="13.4355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
+	<use href="defs.svg#ears_female" x="22" y="13.4355" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->
 	<rect x="16.242" y="11.719" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/><rect x="23.868" y="11.719" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
 	<rect x="16" y="11" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/><rect x="24" y="11" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/>

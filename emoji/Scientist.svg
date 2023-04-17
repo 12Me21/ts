@@ -22,7 +22,7 @@
 	<use href="defs.svg#hair_male" x="22" y="1.48" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
 	<use href="defs.svg#hair_front_female" x="21.887" y="4.081" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
 	<!-- ears -->
-	<ellipse cx="13.747" cy="14.9465" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/><ellipse cx="30.135" cy="14.9465" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
+	<use href="defs.svg#ears_female" x="22" y="14.9465" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->
 	<rect x="17.109" y="12.259" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/><rect x="24.734" y="12.259" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
 	<rect x="17" y="12" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/><rect x="25" y="12" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/>
