@@ -13,9 +13,9 @@
 	<ellipse cx="22.071" cy="5.337" rx="3.202" ry="2.594" fill="#6D6E71" ts:gender="female"/>
 	<!-- face -->
 	<use href="defs.svg#face_neutral" x="29.413" y="13.466" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
-	<ellipse cx="13.805" cy="15.9355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/><ellipse cx="30.194" cy="15.9355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
-	<ellipse cx="21.9995" cy="16.959" rx="8.5225" ry="10.121" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
+	<use href="defs.svg#face_male" x="22" y="16.959" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
 	<path d="M31.799 16.362c0-1.388-.683-2.511-1.539-2.581-.89-4.841-4.213-8.444-8.188-8.444s-7.299 3.603-8.188 8.444c-.857.07-1.539 1.193-1.539 2.581 0 1.396.691 2.527 1.555 2.583.913 4.516 4.22 7.145 8.172 7.145 3.952 0 7.259-2.629 8.173-7.145.862-.056 1.554-1.187 1.554-2.583" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
+	<!-- hair -->
 	<use href="defs.svg#hair_male" x="22" y="3.48" fill="#6D6E71" ts:gender="male"/>
 	<path d="M31.799 10.525c-1.297-4.54-5.188-5.837-7.255-5.837-1.176 0-2.473.649-2.473.649s-1.297-.649-2.594-.649c-1.945 0-5.836 1.297-7.133 5.837-1.069 3.741 1.297 7.134 1.297 7.134 0-1.946 1.297-5.837 4.539-5.837 3.243 0 3.892-2.594 3.892-2.594s.51 2.594 3.753 2.594c3.242 0 4.678 3.891 4.678 5.837-.001 0 2.365-3.393 1.296-7.134" fill="#808285" ts:gender="female"/>
 	<!-- moustache -->

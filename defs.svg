@@ -25,7 +25,14 @@ neutral: 1.37 | 0.73
 		<ellipse cx=" 8.194" cy="-1.024" rx="1.639" ry=" 2.623"/>
 		<ellipse cx=" 0    " cy=" 0    " rx="8.523" ry="10.121"/>
 	</g>
+	
+	<!-- 
+<use href="defs.svg#face_male" x="22" y="16.959" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
+<use href="defs.svg#face_female" x="13.734" y="15.717" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 
+-->
+	
+	<path id="face_female" d="M 0,0 c 0,-5.834 3.676,-10.563 8.21,-10.563 s 8.21,4.729 8.21,10.563 s -3.676,10.285 -8.21,10.285 s -8.21,-4.452 -8.21,-10.285 Z"/>
 	
 	<!--
 		 <use href="defs.svg#hair_neutral" x="25.597" y="3.516" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>

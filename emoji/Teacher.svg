@@ -21,15 +21,15 @@
 	<path d="M18.321 25.179c1.023 1.155 2.291 1.468 3.669 1.468 1.379 0 2.647-.312 3.67-1.468v-2.936h-7.339v2.936z" fill="#F9CA55" ts:skin="dark" ts:gender="female"/>
 	<!-- face -->
 	<use href="defs.svg#face_neutral" x="29.547" y="13.273" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
-	<ellipse cx="13.805" cy="15.9355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/><ellipse cx="30.194" cy="15.9355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
-	<ellipse cx="21.9995" cy="16.959" rx="8.5225" ry="10.121" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
-	<path d="M13.734 15.717c0-5.834 3.676-10.563 8.21-10.563 4.534 0 8.211 4.729 8.211 10.563 0 5.833-3.677 10.286-8.211 10.286-4.534 0-8.21-4.452-8.21-10.286" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
-	
+	<use href="defs.svg#face_male" x="22" y="16.959" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
+	<use href="defs.svg#face_female" x="13.734" y="15.717" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
+	<!-- hair -->
 	<use href="defs.svg#hair_male" x="22" y="3.48" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
 	<use href="defs.svg#hair_front_female" x="21.944" y="5.069" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
 	<ellipse cx="13.805" cy="15.9355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/><ellipse cx="30.194" cy="15.9355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- moustache -->
 	<path d="M26.525 21.346l-1.268-.274c-.404-.094-1.173-.072-1.535-.072h-3.689c-.362 0-1.131-.022-1.536.071l-1.266.274c-.348.101-.55.393-.45.74.082.288.345.441.63.441.059 0 .12-.026.18-.042l1.267-.371c-.143.191-.181.446-.066.676.115.228.347.36.587.36.099 0 .199-.024.293-.071l1.034-.518c.022.215.139.414.346.518.094.046.195.069.293.069.241 0 .473-.134.587-.363l.068-.138-.053.138c.114.229.224.363.465.363.098 0 .198-.023.292-.069.207-.104.323-.303.347-.518l1.033.518c.095.047.195.071.293.071.241 0 .472-.132.587-.36.114-.229.076-.484-.066-.676l1.266.371c.059.016.121.042.181.042.285 0 .547-.152.63-.441.099-.347-.102-.639-.45-.739zz" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
+	<!-- eyes -->
 	<rect x="17.242" y="14.511" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/><rect x="24.868" y="14.511" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
 	<rect x="17" y="14" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/><rect x="25" y="14" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/>
 	<rect x="17.762" y="15.349" width="1.693" height="2.537" rx="0.8465" ry="0.846" fill="#662113" ts:skin="eyes" ts:gender="female"/><rect x="24.527" y="15.349" width="1.692" height="2.537" rx="0.846" fill="#662113" ts:skin="eyes" ts:gender="female"/>

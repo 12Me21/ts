@@ -16,9 +16,8 @@
 	<path d="M18.264 24.19c1.022 1.156 2.29 1.469 3.668 1.469 1.379 0 2.647-.312 3.67-1.469v-2.936h-7.338v2.936z" fill="#F9CA55" ts:skin="dark" ts:gender="female"/>
 	<!-- face -->
 	<use href="defs.svg#face_neutral" x="29.413" y="11.021" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
-	<ellipse cx="13.805" cy="13.9355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/><ellipse cx="30.194" cy="13.9355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
-	<ellipse cx="21.9995" cy="14.96" rx="8.5225" ry="10.121" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
-	<path d="M13.675 14.729c0-5.834 3.676-10.563 8.211-10.563 4.533 0 8.209 4.73 8.209 10.563s-3.676 10.284-8.209 10.284c-4.534.001-8.211-4.451-8.211-10.284" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
+	<use href="defs.svg#face_male" x="22" y="14.959" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
+	<use href="defs.svg#face_female" x="13.675" y="14.729" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- front hair -->
 	<use href="defs.svg#hair_male" x="22" y="1.48" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
 	<use href="defs.svg#hair_front_female" x="21.887" y="4.081" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
