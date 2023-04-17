@@ -18,7 +18,7 @@
 	<path d="M24 28v8h3v-7.702c-.898-.195-1.897-.298-3-.298z" fill="#FFF75F" ts:gender="neutral"/>	
 	
 	<!-- back hair -->
-	<path d="M21.513 4.15c-1.881-.608-6.306-.443-7.412.996-2.876.055-6.25 2.654-6.693 6.084-.438 3.394.538 4.97.885 7.523.393 2.892 2.019 3.817 3.319 4.204 1.87 2.47 3.858 2.365 7.195 2.365 6.518 0 9.622-4.361 9.896-11.768.167-4.481-2.462-7.874-7.19-9.404z" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>
+	<use href="defs.svg#hair_neutral" transform="translate(21.513 4.15) scale(0.977)" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>
 	<use href="defs.svg#hair_back_female" x="17.945" y="5.069" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
 	<!-- neck -->
 	<path d="M13.64 30.038c1.745 1.268 2.849 1.963 4.36 1.963s2.615-.696 4.359-1.963v-5.749h-8.72v5.749z" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral,male"/>

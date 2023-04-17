@@ -8,7 +8,7 @@
 	<path d="M13 28h3v8h-3z M28,28 h3v8h-3z" fill="#269" ts:gender="neutral,male"/>
 	<path d="M28 27v4H16v-4c-1.004 0-2.041.203-3 .575V36h18v-8.425c-.959-.372-1.996-.575-3-.575z" fill="#269" ts:gender="female"/>
 	<!-- hair -->
-	<path d="M25.152 3.3c-1.925-.623-5.876-.46-7.008 1.012-2.944.057-6.083 2.932-6.536 6.443-.448 3.475.235 4.874.591 7.486.403 2.96 2.067 3.907 3.397 4.303 1.914 2.529 3.949 2.421 7.366 2.421 6.672 0 9.271-4.458 9.552-12.04.169-4.585-2.522-8.059-7.362-9.625z" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>
+	<use href="defs.svg#hair_neutral_narrow" x="25.152" y="3.3" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>
 	<use href="defs.svg#hair_back_female" x="21.945" y="5.069" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
 	<!-- neck -->
 	<path d="M17.64 28.038c0 2.846 8.72 2.962 8.72 0v-3.749h-8.72v3.749z" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral,male"/>
@@ -22,7 +22,7 @@
 	<use href="defs.svg#hair_front_female" x="21.945" y="5.069" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
 	<ellipse cx="13.805" cy="15.9355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="male,female"/><ellipse cx="30.194" cy="15.9355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="male,female"/>
 	<ellipse cx="22" cy="16.959" rx="8.5225" ry="10.121" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
-	<path d="M22 3.48c5.648 0 9.178 4.168 9.178 7.641s-.706 4.863-1.412 3.473l-1.412-2.778s-4.235 0-5.647-1.39c0 0 2.118 4.168-2.118 0 0 0 .706 2.779-3.53-.694 0 0-2.118 1.389-2.824 4.862-.196.964-1.412 0-1.412-3.473C12.822 7.648 15.646 3.48 22 3.48" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
+	<use href="defs.svg#hair_male" x="22" y="3.48" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
 	<!-- eyes -->
 	<rect x="17.242" y="14.511" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/><rect x="24.868" y="14.511" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
 	<rect x="17" y="14" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/><rect x="25" y="14" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/>

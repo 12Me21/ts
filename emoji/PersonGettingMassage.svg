@@ -1,6 +1,6 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
 	<!-- back hair -->
-	<path d="M21.906 1.262c-2.02-.654-6.772-.475-7.96 1.069-3.089.059-6.713 2.851-7.188 6.535-.47 3.645.578 5.338.951 8.079.422 3.106 2.168 4.099 3.564 4.515C13.281 24.114 15.415 24 19 24c7 0 10.334-4.684 10.629-12.639.178-4.812-2.645-8.456-7.723-10.099z" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>
+	<use href="defs.svg#hair_neutral" transform="translate(21.906 1.262) scale(1.049)" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>
 	<ellipse cx="18.001" cy="19.656" rx="12" ry="12" transform="rotate(-80.781 18 19.656)" fill="#FFAC33" ts:skin="hair" ts:gender="female"/> <!-- wrong color in original !! -->
 	<circle cx="13.001" cy="8" fill="#FFAC33" ts:skin="hair" r="7" ts:gender="female"/>
 	<circle cx="19.001" cy="11" fill="#FFAC33" ts:skin="hair" r="11" ts:gender="female"/>

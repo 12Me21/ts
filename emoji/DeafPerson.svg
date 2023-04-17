@@ -8,7 +8,7 @@
 	<!-- arm shadow -->
 	<path d="M4.335 28.053L3.002 36h5l.721-7.588z" fill="#FA743E" ts:gender-color="#4289C1,#9268CA"/>
 	<!-- back hair -->
-	<path d="M25.906 2.262c-2.02-.653-6.772-.475-7.96 1.069-3.089.059-6.713 2.851-7.188 6.535-.47 3.645.578 5.338.951 8.079.422 3.106 2.168 4.099 3.564 4.515C17.281 25.114 19.416 25 23 25c7 0 10.334-4.684 10.629-12.639.178-4.812-2.645-8.456-7.723-10.099z" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>
+	<use href="defs.svg#hair_neutral" transform="translate(25.906 2.262) scale(1.05)" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>
 	<use href="defs.svg#hair_back_female" x="20.889" y="5.069" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
 	<!-- neck -->
 	<path d="M19 23v6c0 1.657 1.343 3 3 3s3-1.343 3-3v-6h-6z" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>

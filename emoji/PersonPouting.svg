@@ -1,6 +1,6 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
 	<!-- back hair -->
-	<path d="M21.906 1.262c-2.02-.654-6.772-.475-7.96 1.069-3.089.059-6.713 2.851-7.188 6.535-.47 3.645.578 5.338.951 8.079.422 3.106 2.168 4.099 3.564 4.515C13.281 24.114 15.415 24 19 24c7 0 10.334-4.684 10.629-12.639.178-4.812-2.645-8.456-7.723-10.099z" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>
+	<use href="defs.svg#hair_neutral" transform="translate(21.906 1.262) scale(1.049)" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>
 	<path d="M19 0c-1.721 0-3.343.406-4.793 1.111C13.814 1.043 13.412 1 13 1 9.134 1 6 4.134 6 8v12h.018C6.201 26.467 11.489 31.656 18 31.656S29.799 26.467 29.982 20H30v-9c0-6.075-4.925-11-11-11z" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
 	<!-- body -->
 	<path d="M27 27H9c-2.209 0-4 1.791-4 4v5h26v-5c0-2.209-1.791-4-4-4z" fill="#FA743E" ts:gender-color="#4289C1,#9268CA"/>

@@ -1,7 +1,7 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
 	<!-- back hair -->
-	<path d="M20.591 5.419c-1.666-.539-5.587-.392-6.567.882-2.548.049-5.538 2.352-5.93 5.391-.388 3.008.476 4.404.784 6.666.348 2.562 1.789 3.382 2.941 3.725 1.657 2.189 3.418 2.095 6.375 2.095 5.775 0 8.525-3.864 8.769-10.427.146-3.97-2.183-6.976-6.372-8.332z" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>
-	<path d="M17.455 6.546c3.741 0 9.974 1.871 9.974 9.974 0 8.106 0 9.975-1.87 9.975s-4.363-1.869-8.104-1.869c-3.741 0-6.182 1.869-8.104 1.869-2.084 0-1.871-7.482-1.871-9.975-.001-8.103 6.233-9.974 9.975-9.974" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
+	<use href="defs.svg#hair_neutral" transform="translate(20.591 5.419) scale(.8655)" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>
+	<use href="defs.svg#hair_back_female" transform="translate(17.455 6.546) scale(.911)" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
 	<!-- body -->
 	<path d="M26 26.163l.017.836H6V36h24v-9.835z" fill="#FA743E" ts:gender-color="#77B255,#9266CC"/>
 	<path d="M10 30h1v6h-1z M25,27 h1v9h-1z" fill="#DD551F" ts:gender-color="#5C913B,#744EAA"/>
@@ -22,8 +22,8 @@
 	<ellipse cx="17.546" cy="17.087" rx="7.416" ry="8.893" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
 	<path d="M9.972 16.249c0-5.316 3.35-9.625 7.482-9.625 4.13 0 7.48 4.309 7.48 9.625 0 5.313-3.35 9.37-7.48 9.37-4.132-.001-7.482-4.057-7.482-9.37" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- hair -->
-	<path d="M17.546 5.243c4.914 0 7.986 3.663 7.986 6.714 0 3.051-.614 4.273-1.229 3.051l-1.229-2.44s-3.686 0-4.915-1.223c0 0 1.845 3.663-1.843 0 0 0 .614 2.442-3.071-.609 0 0-1.843 1.221-2.457 4.272-.17.847-1.229 0-1.229-3.051.001-3.052 2.459-6.714 7.987-6.714" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
-	<path d="M8.142 19.239c-.019-.912-.04-.205-.04-.424 0-3.118 1.871.449 1.871-1.771 0-2.222 1.247-2.444 2.494-3.69.624-.625 1.87-1.847 1.87-1.847s3.117 1.883 5.612 1.883c2.491 0 4.987 1.253 4.987 3.747 0 2.492 1.87-1.442 1.87 1.674 0 .223-.021-.484-.037.428h.655c.005-1.822.005-1.753.005-2.918 0-8.104-6.233-11.122-9.975-11.122-3.74 0-9.974 2.967-9.974 11.072 0 .723-.019 1.146.007 2.968h.655z" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
+	<use href="defs.svg#hair_male" transform="translate(17.546 5.243) scale(.87 .879)" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
+	<use href="defs.svg#hair_front_female" transform="translate(17.455 6.546) scale(.911)" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
 	<!-- eyes -->
 	<rect x="13.244" y="15.103" width="1.65" height="2.475" rx="0.825" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/><rect x="19.844" y="15.103" width="1.65" height="2.475" rx="0.825" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
 	<rect x="13.196" y="14.487" width="1.74" height="2.635" rx="0.87" ry="0.878" fill="#662113" ts:skin="eyes" ts:gender="male"/><rect x="20.157" y="14.487" width="1.74" height="2.635" rx="0.87" ry="0.878" fill="#662113" ts:skin="eyes" ts:gender="male"/> <!-- uneven -->

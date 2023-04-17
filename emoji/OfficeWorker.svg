@@ -7,7 +7,7 @@
 	<rect x="9" y="7" width="2" height="19" rx="1" fill="#77B255"/>
 	<rect x="13" y="17" width="2" height="9" rx="1" fill="#DD2F45" ts:gender="neutral,male"/> <!-- :( -->
 	<!-- back hair -->
-	<path d="M25.731 3.323c-1.925-.623-6.455-.453-7.588 1.019-2.944.057-6.398 2.718-6.851 6.228-.448 3.475.551 5.088.906 7.701.403 2.96 2.067 3.907 3.397 4.303 1.914 2.529 3.949 2.421 7.366 2.421 6.672 0 9.85-4.464 10.131-12.047.17-4.585-2.521-8.059-7.361-9.625z" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>
+	<use href="defs.svg#hair_neutral" x="25.731" y="3.323" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>
 	<use href="defs.svg#hair_back_female" x="23.2" y="3.979" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
 	<!-- body -->
 	<path d="M36 36v-2c0-3.314-2.685-6-6-6H14c-3.313 0-6 2.686-6 6v2h28z" fill="#226798" ts:gender="neutral,male"/>
@@ -38,7 +38,7 @@
 	<ellipse cx="22.001" cy="16.96" rx="8.523" ry="10.121" fill="#FFDB5E" ts:skin="skin" ts:gender="male"/>
 	<path d="M14.989 14.627c0-5.834 3.676-10.563 8.211-10.563 4.533 0 8.209 4.729 8.209 10.563 0 5.833-3.676 10.285-8.209 10.285-4.535 0-8.211-4.452-8.211-10.285" fill="#FFDB5E" ts:skin="skin" ts:gender="female"/>
 	<!-- front hair -->
-	<path d="M22 3.48c5.648 0 9.178 4.168 9.178 7.641s-.706 4.863-1.412 3.473l-1.412-2.778s-4.235 0-5.647-1.39c0 0 2.118 4.168-2.118 0 0 0 .706 2.779-3.53-.694 0 0-2.118 1.389-2.824 4.862-.196.964-1.412 0-1.412-3.473C12.822 7.648 15.646 3.48 22 3.48" fill="#FAAA35" ts:skin="hair" ts:gender="male"/>
+	<use href="defs.svg#hair_male" x="22" y="3.48" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
 	<use href="defs.svg#hair_front_female" x="23.2" y="3.979" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
 	<!-- ears -->
 	<ellipse cx="31.449" cy="14.8445" rx="1.639" ry="2.6225" fill="#FFDB5E" ts:skin="skin" ts:gender="female"/><ellipse cx="15.06" cy="14.8445" rx="1.639" ry="2.6225" fill="#FFDB5E" ts:skin="skin" ts:gender="female"/>
