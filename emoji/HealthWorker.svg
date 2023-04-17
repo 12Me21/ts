@@ -24,7 +24,7 @@
 	<path d="M14 24c1.216 1.374 2.355 1.719 3.996 1.719 1.639 0 2.787-.346 4.004-1.719v-4h-8v4z" fill="#F9CA55" ts:skin="dark" ts:gender="neutral,male"/>
 	<path d="M14.5 24c1.023 1.155 2.112 1.5 3.49 1.5 1.379 0 2.487-.345 3.51-1.5v-2.937h-7V24z" fill="#F9CA55" ts:skin="dark" ts:gender="female"/>
 	<!-- face -->
-	<path d="M25.413 11.318c-.646-.894-1.472-1.614-3.284-1.868.68.311 1.331 1.387 1.416 1.982.085.595.17 1.076-.368.481-2.155-2.382-4.502-1.444-6.827-2.899-1.624-1.016-2.119-2.141-2.119-2.141s-.198 1.5-2.661 3.029c-.714.443-1.566 1.43-2.038 2.888-.34 1.048-.234 1.982-.234 3.578 0 4.66 3.841 8.578 8.578 8.578s8.578-3.953 8.578-8.578c-.001-2.899-.305-4.031-1.041-5.05z" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
+	<use href="defs.svg#face_neutral" x="25.413" y="11.318" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
 	<ellipse cx="9.805" cy="13.9355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/><ellipse cx="26.194" cy="13.9355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
 	<ellipse cx="18" cy="14.96" rx="8.5225" ry="10.121" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
 	<path d="M9.734 14.627c0-5.834 3.676-10.563 8.211-10.563 4.533 0 8.209 4.73 8.209 10.563s-3.676 10.285-8.209 10.285c-4.535 0-8.211-4.452-8.211-10.285" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>

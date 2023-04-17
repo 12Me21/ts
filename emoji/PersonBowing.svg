@@ -9,7 +9,7 @@
 	<!-- neck -->
 	<circle cx="18" cy="28" fill="#F9CA55" ts:skin="dark" r="3"/>
 	<!-- head -->
-	<path d="M25.89 15.686c-.677-.938-1.545-1.693-3.445-1.96.713.327 1.396 1.455 1.485 2.079.089.624.178 1.129-.386.505-2.261-2.499-4.723-1.515-7.163-3.041-1.704-1.066-2.223-2.246-2.223-2.246s-.208 1.574-2.792 3.178c-.749.465-1.643 1.5-2.139 3.03-.357 1.099-.246 2.079-.246 3.754 0 4.889 4.029 9 9 9s9-4.147 9-9c0-3.041-.318-4.23-1.091-5.299z" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
+	<use href="defs.svg#face_neutral" transform="translate(25.89 15.686) scale(1.049)" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
 	<ellipse cx="9.059" cy="17.715" rx="1.788" ry="2.861" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/><ellipse cx="26.941" cy="17.715" rx="1.788" ry="2.861" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
 	<path d="M9 9.938V21c0 4.971 4.029 9 9 9s9-4.029 9-9V10.25L9 9.938z" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
 	<path d="M14 11s-.003 5.308-5 5.936V21c0 4.971 4.029 9 9 9s9-4.029 9-9v-3.019C15.89 17.605 14 11 14 11z " fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
