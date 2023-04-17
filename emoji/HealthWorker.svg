@@ -29,7 +29,7 @@
 	<ellipse cx="18" cy="14.96" rx="8.5225" ry="10.121" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
 	<path d="M9.734 14.627c0-5.834 3.676-10.563 8.211-10.563 4.533 0 8.209 4.73 8.209 10.563s-3.676 10.285-8.209 10.285c-4.535 0-8.211-4.452-8.211-10.285" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- hair -->
-	<path d="M18 1.48c5.648 0 9.178 4.168 9.178 7.641s-.706 4.863-1.412 3.473l-1.412-2.778s-4.235 0-5.647-1.39c0 0 2.118 4.168-2.118 0 0 0 .706 2.779-3.53-.694 0 0-2.118 1.389-2.824 4.862-.196.964-1.412 0-1.412-3.473C8.822 5.648 11.646 1.48 18 1.48" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
+	<use href="defs.svg#hair_male" x="18" y="1.48" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
 	<use href="defs.svg#hair_front_female" x="17.945" y="3.978" fill="#FFAC33" ts:skin="hair" ts:gender="female"/> <!-- wrong color hair in original -->
 	<ellipse cx="9.805" cy="14.8445" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/><ellipse cx="26.194" cy="14.8445" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->

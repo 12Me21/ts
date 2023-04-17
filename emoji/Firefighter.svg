@@ -26,7 +26,7 @@
 	<ellipse cx="18" cy="16.9595" rx="8.522" ry="10.1205" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
 	<path d="M9.734 15.717c0-5.834 3.676-10.563 8.211-10.563 4.534 0 8.211 4.729 8.211 10.563 0 5.833-3.676 10.285-8.211 10.285-4.535.001-8.211-4.451-8.211-10.285z" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- hair -->
-	<path d="M18 3.479c5.648 0 9.178 4.168 9.178 7.641s-.706 4.863-1.412 3.473l-1.412-2.778s-4.236 0-5.648-1.39c0 0 2.118 4.168-2.118 0 0 0 .706 2.779-3.53-.695 0 0-2.118 1.39-2.824 4.863-.196.963-1.412 0-1.412-3.473S11.646 3.479 18 3.479z" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
+	<use href="defs.svg#hair_male" x="22" y="3.479" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
 	<use href="defs.svg#hair_front_female" x="17.945" y="5.069" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
 	<!-- eyes -->
 	<rect x="13.242" y="14.482" width="1.906" height="2.859" rx="0.953" ts:skin="eyes2" ts:gender="neutral"/><rect x="20.868" y="14.482" width="1.906" height="2.859" rx="0.953" ts:skin="eyes2" ts:gender="neutral"/>
