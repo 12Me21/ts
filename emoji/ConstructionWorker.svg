@@ -31,11 +31,9 @@
 	<use href="defs.svg#face_male" x="18" y="16.959" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
 	<use href="defs.svg#face_female" x="9.734" y="15.717" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- hair 2 -->
-	<use href="defs.svg#hair_front_female" x="17.945" y="5.069" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
-	<!-- ears -->
-	<ellipse cx="9.805" cy="15.9355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/><ellipse cx="26.194" cy="15.9355" rx="1.639" ry="2.6225" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
-	<!-- hair 3-->
 	<use href="defs.svg#hair_male" x="18" y="3.48" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
+	<use href="defs.svg#hair_front_female" x="17.945" y="5.069" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
+	<use href="defs.svg#ears_female" x="18" y="15.9355" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->
 	<rect x="13.221" y="15.079" width="1.862" height="2.793" rx="0.931" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/><rect x="20.67" y="15.079" width="1.862" height="2.793" rx="0.931" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
 	<rect x="13" y="14" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/><rect x="21" y="14" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/>
