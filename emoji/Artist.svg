@@ -18,7 +18,7 @@
 	<!-- hand -->
 	<path d="M1 30c.078-1.208 1.394-3.184 3-3 1.665.19.129 3.129 0 4s.144 2.938-1 3c-1.546.084-2.14-1.814-2-4z" fill="#FFDC5D" ts:skin="skin"/>
 	<!-- face -->
-	<use href="defs.svg#face_neutral" x="29.547" y="13.243" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
+	<use href="defs.svg#face_neutral2" x="22.01" y="26.871" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
 	<use href="defs.svg#face_male" x="22" y="16.959" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
 	<use href="defs.svg#face_female" x="13.734" y="15.717" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- front hair -->
