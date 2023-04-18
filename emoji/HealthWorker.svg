@@ -37,7 +37,7 @@
 	<rect x="13.762" y="14.258" width="1.693" height="2.538" rx="0.8465" fill="#662113" ts:skin="eyes" ts:gender="female"/><rect x="20.527" y="14.258" width="1.692" height="2.538" rx="0.84625" fill="#662113" ts:skin="eyes" ts:gender="female"/>
 	<!-- nose -->
 	<use href="defs.svg#nose_neutral2" x="17.874" y="18.274" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
-	<use href="defs.svg#nose_male" x="16.5" y="16.25" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
+	<use href="defs.svg#nose_male2" x="18.0" y="17.0" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
 	<use href="defs.svg#nose_female2" x="17.9915" y="18.909" fill="#C1694F" ts:skin="nose" ts:gender="female"/>
 	<!-- mouth -->
 	<use href="defs.svg#mouth_neutral" x="18" y="22.731" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>

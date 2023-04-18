@@ -23,7 +23,7 @@
 	
 	<!-- nose -->
 	<use href="defs.svg#nose_neutral2" x="17.874" y="20.506" fill="#55ACEE" ts:gender="neutral"/>
-	<use href="defs.svg#nose_male" x="16.5" y="18.25" fill="#55ACEE" ts:gender="male"/>
+	<use href="defs.svg#nose_male2" x="18.0" y="19.0" fill="#55ACEE" ts:gender="male"/>
 	<use href="defs.svg#nose_female2" x="17.9915" y="18.909" fill="#55ACEE" ts:gender="female"/>
 	
 	<!-- eyes -->

@@ -34,7 +34,7 @@
 	<rect x="16.706" y="15.349" width="1.693" height="2.538" rx="0.8465" fill="#662113" ts:skin="eyes2" ts:gender="female"/><rect x="23.471" y="15.349" width="1.692" height="2.538" rx="0.84625" fill="#662113" ts:skin="eyes2" ts:gender="female"/>
 	<!-- nose -->
 	<rect x="20.5" y="19.5" width="3" height="1" rx="0.5" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/> <!-- different-->
-	<use href="defs.svg#nose_male" x="19.502" y="18.25" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
+	<use href="defs.svg#nose_male2" x="21.002" y="19.0" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
 	<use href="defs.svg#nose_female2" x="20.9355" y="20.0" fill="#C1694F" ts:skin="nose" ts:gender="female"/>
 	<!-- mouth -->
 	<use href="defs.svg#mouth_neutral" x="22.002" y="23.802" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
