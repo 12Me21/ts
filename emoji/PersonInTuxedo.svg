@@ -22,7 +22,7 @@
 	<path d="M14 24c1.216 1.374 2.355 1.719 3.996 1.719 1.639 0 2.787-.346 4.004-1.719v-4h-8v4z" fill="#F9CA55" ts:skin="dark" ts:gender="neutral,male"/>
 	<path d="M14.5 24.054c.975 1.102 2.185 1.4 3.499 1.4 1.315 0 2.526-.298 3.501-1.4v-1.051h-7v1.051z" fill="#F9CA55" ts:skin="dark" ts:gender="female"/>
 	<!-- head -->
-	<use href="defs.svg#face_neutral2" x="17.876" y="25.094" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
+	<use href="defs.svg#face_neutral" x="25.413" y="11.466" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
 	<use href="defs.svg#face_male" x="18" y="14.959" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
 	<use href="defs.svg#face_female" x="9.793" y="14.627" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- hair -->

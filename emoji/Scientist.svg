@@ -15,7 +15,7 @@
 	<path d="M18 24c1.216 1.374 2.355 1.719 3.996 1.719 1.639 0 2.787-.346 4.004-1.719v-4h-8v4z" fill="#F9CA55" ts:skin="dark" ts:gender="neutral,male"/>
 	<path d="M18.264 24.19c1.022 1.156 2.29 1.469 3.668 1.469 1.379 0 2.647-.312 3.67-1.469v-2.936h-7.338v2.936z" fill="#F9CA55" ts:skin="dark" ts:gender="female"/>
 	<!-- face -->
-	<use href="defs.svg#face_neutral2" x="21.876" y="24.649" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
+	<use href="defs.svg#face_neutral" x="29.413" y="11.021" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
 	<use href="defs.svg#face_male" x="22" y="14.959" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
 	<use href="defs.svg#face_female" x="13.675" y="14.729" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- front hair -->

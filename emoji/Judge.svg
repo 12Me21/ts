@@ -12,7 +12,7 @@
 	<use href="defs.svg#hair_neutral" x="25.597" y="3.516" fill="#6D6E71" ts:gender="neutral"/>
 	<ellipse cx="22.071" cy="5.337" rx="3.202" ry="2.594" fill="#6D6E71" ts:gender="female"/>
 	<!-- face -->
-	<use href="defs.svg#face_neutral2" x="21.876" y="27.094" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
+	<use href="defs.svg#face_neutral" x="29.413" y="13.466" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
 	<use href="defs.svg#face_male" x="22" y="16.959" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
 	<path d="M31.799 16.362c0-1.388-.683-2.511-1.539-2.581-.89-4.841-4.213-8.444-8.188-8.444s-7.299 3.603-8.188 8.444c-.857.07-1.539 1.193-1.539 2.581 0 1.396.691 2.527 1.555 2.583.913 4.516 4.22 7.145 8.172 7.145 3.952 0 7.259-2.629 8.173-7.145.862-.056 1.554-1.187 1.554-2.583" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/> <!-- shape ? -->
 	<!-- hair -->
