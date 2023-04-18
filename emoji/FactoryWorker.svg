@@ -23,13 +23,14 @@
 	<!-- hair -->
 	<use href="defs.svg#hair_male" x="22" y="3.48" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
 	<use href="defs.svg#hair_front_female" x="21.945" y="5.069" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
+	<use href="defs.svg#ears_female" x="22" y="15.9355" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- nose -->
 	<rect x="20.578" y="19.723" width="2.86" height="0.954" rx="0.477" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
 	<rect x="20.5" y="18.25" width="3" height="1.5" rx="0.75" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
 	<rect x="20.723" y="19.5" width="2.537" height="1" rx="0.4235" fill="#C1694F" ts:skin="nose" ts:gender="female"/>
 	<!-- mouth -->
-	<path d="M22.134 24.657c-2.754 0-3.6-.705-3.741-.848-.256-.256-.256-.671 0-.927.248-.248.646-.255.902-.023.052.037.721.487 2.839.487 2.2 0 2.836-.485 2.842-.49.256-.255.657-.243.913.015.256.256.242.683-.014.939-.142.142-.987.847-3.741.847" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
-	<path d="M22 23.802c-2.754 0-3.6-.705-3.741-.848-.256-.256-.256-.671 0-.927.248-.248.646-.255.902-.023.052.037.721.487 2.839.487 2.2 0 2.836-.485 2.842-.49.256-.255.657-.243.913.015.256.256.242.683-.014.938-.141.143-.987.848-3.741.848z" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
+	<use href="defs.svg#mouth_neutral" x="22.134" y="24.657" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
+	<use href="defs.svg#mouth_neutral" x="22" y="23.802" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
 	<use href="defs.svg#mouth_female" x="21.945" y="23.543" fill="#DF1F32" ts:gender="female"/>
 	<!--<path d="M18.195 17.341c-.526 0-.953-.427-.953-.953v-.953c0-.526.427-.953.953-.953s.953.427.953.953v.953c0 .526-.426.953-.953.953z " fill="#662113" ts:skin="eyes2" ts:gender=""/>
 		 <path d="M25.821,17.341 c-.526 0-.953-.427-.953-.953v-.953c0-.526.427-.953.953-.953s.953.427.953.953v.953c0 .526-.427.953-.953.953z" fill="#662113" ts:skin="eyes2" ts:gender=""/> eyes..-->
