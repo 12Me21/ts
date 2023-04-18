@@ -32,7 +32,7 @@
 	<!-- nose -->
 	<use href="defs.svg#nose_neutral2" x="18.023" y="19.364" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
 	<path d="M16.294,19.059 h3.412s0 1.706-1.706 1.706-1.706-1.706-1.706-1.706z" fill="#C1694F" ts:skin="nose" ts:gender="male"/> <!-- old style -->
-	<use href="defs.svg#nose_female" x="16.723" y="19.5" fill="#C1694F" ts:skin="nose" ts:gender="female"/>
+	<use href="defs.svg#nose_female2" x="17.9915" y="20.0" fill="#C1694F" ts:skin="nose" ts:gender="female"/>
 	<!-- mouth -->
 	<path d="M21.749 22.168h-7.498s.937 1.875 3.749 1.875 3.749-1.875 3.749-1.875z " fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
 	<path d="M21.412 22.471h-6.824s0 1.706 3.412 1.706 3.412-1.706 3.412-1.706z " fill="#C1694F" ts:skin="nose" ts:gender="male"/>
