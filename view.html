@@ -4,6 +4,8 @@
 <style>
 	html, body, form {
 		background: white;
+	}
+	form {
 		overflow: hidden;
 	}
 	:root {
@@ -16,6 +18,24 @@
 	* {
 		appearance: none;
 	}
+	@keyframes dash {
+		from {
+			stroke-dashoffset: 0;
+		}
+		from {
+			stroke-dashoffset: 2;
+		}
+	}
+	
+/*	use {
+		stroke: #08F;
+		stroke-width: 0.5px;
+		stroke-dasharray: 0.5;
+		stroke-dashoffset: 0;
+		stroke-linejoin: bevel;
+		animation: dash 1s linear infinite;
+		fill: linear-gradient(red, blue);
+	}*/
 	input {
 		min-width: 1em;
 	}
