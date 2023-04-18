@@ -32,8 +32,8 @@
 	<rect x="20.723" y="19.5" width="2.537" height="1" rx="0.4235" fill="#C1694F" ts:skin="nose" ts:gender="female"/>
 	<rect x="20.578" y="19.753" width="2.86" height="0.954" rx="0.477" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
 	<!-- mouth -->
-	<path d="M22.134 24.686c-2.754 0-3.6-.705-3.741-.848-.256-.256-.256-.671 0-.927.248-.248.646-.255.902-.023.052.037.721.487 2.839.487 2.2 0 2.836-.485 2.842-.49.256-.255.657-.243.913.015.256.256.242.683-.014.938-.142.143-.987.848-3.741.848z" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
-	<path d="M22 23.802c-2.754 0-3.6-.705-3.741-.848-.256-.256-.256-.671 0-.927.248-.248.646-.255.902-.023.052.037.721.487 2.839.487 2.2 0 2.836-.485 2.842-.49.256-.255.657-.243.913.015.256.256.242.683-.014.938-.141.143-.987.848-3.741.848" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
+	<use href="defs.svg#mouth_neutral" x="22.134" y="24.686" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
+	<use href="defs.svg#mouth_neutral" x="22" y="23.802" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
 	<use href="defs.svg#mouth_female" x="21.945" y="23.543" fill="#DF1F32" ts:gender="female"/>
 	<!-- hat -->
 	<path d="M31 9.5c0 1.32-18 1.32-18 0C13 5.954 14 1 22 1c7 0 9 4.954 9 8.5z" fill="#3B88C3" ts:gender="neutral,female"/>

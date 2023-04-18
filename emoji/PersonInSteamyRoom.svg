@@ -41,8 +41,8 @@
 	<rect x="16.723" y="18.409" width="2.537" height="1" rx="0.4235" fill="#C1694F" ts:skin="nose" ts:gender="neutral,female"/>
 	<rect x="16.5" y="16.25" width="3" height="1.5" rx="0.75" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
 	<!-- mouth -->
-	<path d="M17.945 22.452c-1.606 0-2.447-.794-2.537-.885-.268-.267-.268-.7 0-.967.266-.265.692-.267.961-.007.035.032.551.491 1.576.491 1.038 0 1.555-.473 1.576-.492.273-.256.703-.248.963.02.26.269.26.691-.004.955-.089.091-.929.885-2.535.885" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
-	<path d="M18 21.802c-2.754 0-3.6-.705-3.741-.848-.256-.256-.256-.671 0-.927.248-.248.646-.255.902-.023.052.037.721.487 2.839.487 2.2 0 2.836-.485 2.842-.49.256-.255.657-.243.913.015.256.256.242.683-.014.938-.141.143-.987.848-3.741.848" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
+	<use href="defs.svg#mouth_neutral" x="17.945" y="22.452" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
+	<use href="defs.svg#mouth_neutral" x="18" y="21.802" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
 	<use href="defs.svg#mouth_female" x="17.945" y="22.452" fill="#DF1F32" ts:gender="female"/>
 	<!-- bathrobe -->
 	<path d="M24.125 26h-1.567c-1.62 7.571-6.822 10-6.822 10H31v-4.5c0-3.314-3.56-5.5-6.875-5.5z" fill="#DD551F" ts:gender="neutral"/>
