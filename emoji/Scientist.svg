@@ -36,8 +36,8 @@
 	<use href="defs.svg#mouth_neutral" x="22" y="21.802" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
 	<use href="defs.svg#mouth_female" x="21.887" y="22.555" fill="#DF1F32" ts:gender="female"/>
 	<!-- goggles (transparent) -->
-	<path d="M14.753 10.75h14.5V16h-14.5z" fill="#FFF" opacity=".4" ts:gender="neutral,male"/>
-	<path d="M14.753 12.75h14.5V18h-14.5z" fill="#FFF" opacity=".4" ts:gender="female"/>
+	<path d="M14.753 10.75h14.5V16h-14.5z" fill="#FFFFFF66" ts:gender="neutral,male"/>
+	<path d="M14.753 12.75h14.5V18h-14.5z" fill="#FFFFFF66" ts:gender="female"/>
 	<!-- goggles (layer has hole) -->
 	<path d="M29 10H15c-1 0-1 1-1 1v4c0 1.461 2.333 2 4 2s2.599-1 4-1 2.333 1 4 1 4-.539 4-2v-4c0-1-1-1-1-1 Z M29,14 c0 1.325-.852 2-3 2-1.539 0-2.804-1-4-1s-2.461 1-4 1c-2.148 0-3-.675-3-2v-3h14v3z" fill="#F5F8FA" ts:gender="neutral,male"/>
 	<path d="M29 12H15c-1 0-1 1-1 1v4c0 1.461 2.333 2 4 2s2.599-1 4-1 2.333 1 4 1 4-.539 4-2v-4c0-1.001-1-1-1-1 Z M29,16 c0 1.325-.852 2-3 2-1.539 0-2.804-1-4-1s-2.461 1-4 1c-2.148 0-3-.675-3-2v-3h14v3z" fill="#F5F8FA" ts:gender="female"/>
