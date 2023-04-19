@@ -2,11 +2,27 @@
 <meta name=viewport content="width=device-width, height=device-height, initial-scale=1" id=$meta_viewport>
 
 <style>
-	html, body, form {
+	html, body {
+		position: fixed;
+		inset: 0;
+	}
+	html, body, form, .scroll {
 		background: white;
+	}
+	body {
+		display: grid;
+		grid-template:
+			'form form'
+			'compare layers'
+			/ auto 1fr;
+		gap: 8px;
+	}
+	.scroll {
+		overflow-y: scroll;
 	}
 	form {
 		overflow: hidden;
+		grid-area: form;
 	}
 	:root {
 		font-family: ms pmincho;
@@ -107,13 +123,11 @@
 		grid-template:
 			'svg row1' 1fr
 		'svg row2' 1fr
-			/ 36px 128px;
-		border: solid;
-		height: 36px;
+			/ auto 128px;
 		margin: 2px;
 		column-gap: 4px;
+		padding-right: 4px;
 		--color: orange;
-		border-color: var(--color);
 		background: linear-gradient(#FFFE,#FFFD), var(--color);
 	}
 	.layer-box[data-kind=use] {
@@ -128,6 +142,12 @@
 	.layer-box > svg {
 		grid-area: svg;
 		background: white;
+		border: solid var(--color);
+		width: 36px;
+		height: 36px;
+	}
+	#\$layers {
+		place-self: stretch start;
 	}
 </style>
 
@@ -164,11 +184,8 @@
 		<label>Difference<input autocomplete=off type=checkbox name=diff></label>
 	</div>
 </form>
-<hr>
-<div style=display:flex;>
-	<div id=$box class='compare-box'></div>
-	<div id=$layers></div>
-</div>
+<div id=$box class='compare-box'></div>
+<div id=$layers class='scroll'></div>
 
 <script>
 	window.onerror = (message, source, line, col, error)=>{
@@ -289,7 +306,7 @@
 				g = g.split(/[, ]/)
 				if (g.length == 1)
 					box.$root.dataset.new = ""
-				box.$variants.append(" "+g.map(x=>x[0]))
+				box.$variants.append(" "+g.map(x=>({neutral:'X',male:'M',female:'F',mixed:'2'}[x])).join(""))
 			}
 			
 			let skin = elem.getAttribute('ts:skin')
