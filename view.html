@@ -101,6 +101,34 @@
 	output::after {
 		content: ""
 	}
+	
+	.layer-box {
+		display: grid;
+		grid-template:
+			'svg row1' 1fr
+		'svg row2' 1fr
+			/ 36px 128px;
+		border: solid;
+		height: 36px;
+		margin: 2px;
+		column-gap: 4px;
+		--color: orange;
+		border-color: var(--color);
+		background: linear-gradient(#FFFE,#FFFD), var(--color);
+	}
+	.layer-box[data-kind=use] {
+		--color: blue;
+	}
+	.layer-box[data-kind=path] {
+		--color: darkorange;
+	}
+	.layer-box[data-kind=path][data-new] {
+		--color: red;
+	}
+	.layer-box > svg {
+		grid-area: svg;
+		background: white;
+	}
 </style>
 
 <body>
@@ -137,7 +165,10 @@
 	</div>
 </form>
 <hr>
-<div id=$box class='compare-box'></div>
+<div style=display:flex;>
+	<div id=$box class='compare-box'></div>
+	<div id=$layers></div>
+</div>
 
 <script>
 	window.onerror = (message, source, line, col, error)=>{
@@ -149,7 +180,7 @@
 </script>
 
 <script type=module>
-	import cmap from './cmap.js?1'
+	import cmap from './cmap.js?1' // todo: use the async syntax trick
 	import palette from './palette.js?0'
 	
 	window.cmap = cmap
@@ -184,12 +215,91 @@
 		return x.responseXML
 	}
 	
+	let HTML = ([html])=>{
+		let temp = document.createElement('template')
+		temp.innerHTML = html.replace(/\s*?\n\s*/g, "")
+		let content = temp.content
+		let root = content
+		if (root.childNodes.length==1)
+			root = root.firstChild
+		
+		let get_path = (root, node)=>{
+			let path = ""
+			while (node!==root) {
+				let parent = node.parentNode
+				let pos = [].indexOf.call(parent.childNodes, node)
+				path = ".firstChild"+".nextSibling".repeat(pos) + path
+				node = parent
+			}
+			return path
+		}
+		
+		let init = `const node=document.importNode(this, true)\nholder.$root=node`
+		for (let node of content.querySelectorAll("[\\$]")) {
+			let path = get_path(root, node)
+			let id = node.getAttribute('$')
+			node.removeAttribute('$')
+			id = id.replace(/,/g, " = holder.$")
+			init += `\nholder.$${id} = node${path}`
+		}
+		init += `\nreturn holder`
+		let c = new Function("holder={}", init).bind(root)
+		//c.prototype = {__proto__: null, template: root}
+		return c
+	}
+
+	
 	function clear() {
 		$box.replaceChildren()
 		$controls.modified.value = ""
 		$controls.current.value = ""
 		$controls.codes.value = ""
 		$controls.filename.value = ""
+	}
+	
+	let layer = HTML`
+<div class='layer-box'>
+	<div $=row1><div $=variants style='float:right'></div></div>
+	<div $=row2></div>
+</div>
+	`
+	
+	function show_layers(svg) {
+		$layers.textContent = ""
+		for (let elem of svg.children) {
+			if (elem.style.display=="none")
+				continue
+			let box = layer()
+			let svg2 = svg.cloneNode(false)
+			svg2.append(elem.cloneNode(true))
+			box.$root.prepend(svg2)
+			
+			box.$root.dataset.kind = elem.nodeName
+			
+			let sym 
+			if (elem.nodeName=="use") {
+				sym = elem.getAttribute('href').split("#")[1]
+			} else {
+				sym = "<"+elem.nodeName+">"
+			}
+			box.$row1.append(sym)
+			
+			let g = elem.getAttribute('ts:gender')
+			if (g) {
+				g = g.split(/[, ]/)
+				if (g.length == 1)
+					box.$root.dataset.new = ""
+				box.$variants.append(" "+g.map(x=>x[0]))
+			}
+			
+			let skin = elem.getAttribute('ts:skin')
+			if (skin) {
+				box.$row2.append(skin + " : ")
+			}
+			box.$row2.append(elem.getAttribute('fill'))
+			$layers.append(box.$root)
+			//▬●⬬ ▭⬭○ ▢ ⬤⬛
+		}
 	}
 	
 	window.go = function(name, variant, palette) {
@@ -228,6 +338,7 @@
 			$controls.current.value = name+" / "+variant+" / "+palette
 			$controls.codes.value = codes[0].join(" ").replace(/0x/g,"")
 			$controls.filename.value = codes[1]+".svg"
+			show_layers(svg)
 			ok = true
 		} finally {
 			if (!ok)
