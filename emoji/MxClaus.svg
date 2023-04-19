@@ -19,7 +19,7 @@
 	<!-- ears -->
 	<ellipse cx="5.5" cy="21" rx="2.5" ry="4" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/><ellipse cx="30.5" cy="21" rx="2.5" ry="4" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->
-	<rect x="10" y="18" width="2" height="4" rx="1" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/><rect x="20" y="18" width="2" height="4" rx="1" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
+	<use href="defs.svg#eyes_big" x="16" y="20" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
 	<rect x="9" y="17" width="2" height="4" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/><rect x="19" y="17" width="2" height="4" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/>
 	<rect x="11" y="19" width="2" height="4" rx="1" fill="#662113" ts:skin="eyes" ts:gender="female"/><rect x="23" y="19" width="2" height="4" rx="1" fill="#662113" ts:skin="eyes" ts:gender="female"/>
 	<!-- nose -->

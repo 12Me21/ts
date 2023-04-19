@@ -11,7 +11,7 @@
 	<!-- palette -->
 	<path d="M27.47 36c-.279-3.867-4.091-7.954-9.64-9.879-6.703-2.325-13.384-.613-14.923 3.823-.672 1.936-.252 4.071.989 6.056H27.47z" fill="#D99E82"/>
 	<!-- paints -->
-	<ellipse rx="1.654" ry="2.141" transform="translate(7.424 33.703) rotate(-70.866)" fill="#226699"/>
+	<ellipse rx="1.654" ry="2.141" transform="translate(7.424 33.703) rotate(-70.866)" fill="#269"/>
 	<ellipse rx="1.654" ry="2.141" transform="translate(9.272 28.722) rotate(-70.866)" fill="#DD2E44"/>
 	<ellipse rx="1.654" ry="2.141" transform="translate(21.805 32.083) rotate(-70.866)" fill="#5C913B"/>
 	<ellipse rx="1.654" ry="2.141" transform="translate(16.32 28.642) rotate(-72.681)" fill="#FFCC4D"/>
@@ -27,9 +27,9 @@
 	<!-- moustache -->
 	<use href="defs.svg#moustache1" x="26.524" y="21.346" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
 	<!-- eyes -->
-	<use href="defs.svg#eyes_neutral" x="22.008" y="15.9115" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
+	<use href="defs.svg#eyes_neutral" x="22.008" y="15.9115" fill="#662113" ts:skin="eyes" ts:gender="neutral"/>
 	<use href="defs.svg#eyes_male" x="22" y="15.5" fill="#662113" ts:skin="eyes" ts:gender="male"/>
-	<rect x="17.762" y="15.349" width="1.693" height="2.537" rx="0.84625" fill="#662113" ts:skin="eyes" ts:gender="female"/><rect x="24.527" y="15.349" width="1.692" height="2.537" rx="0.846" fill="#662113" ts:skin="eyes" ts:gender="female"/>
+	<use href="defs.svg#eyes_female" x="21.99075" y="16.6175" fill="#662113" ts:skin="eyes" ts:gender="female"/>
 	<!-- nose -->
 	<use href="defs.svg#nose_neutral2" x="22.008" y="20.2" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
 	<use href="defs.svg#nose_male2" x="22.0" y="19.0" fill="#C1694F" ts:skin="nose" ts:gender="male"/>

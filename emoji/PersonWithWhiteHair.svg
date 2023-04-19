@@ -10,8 +10,8 @@
 	<path d="M18 1c8 0 13 6 13 11s-1 7-2 5l-2-4s-6 0-8-2c0 0 3 6-3 0 0 0 1 4-5-1 0 0-3 2-4 7-.277 1.387-2 0-2-5S9 1 18 1z" fill="#E1E8ED" ts:gender="male"/>
 	<path d="M3.064 24c-.03-.325-.064-.647-.064-1 0-5 3 .562 3-3 0-3.563 2-4 4-6l3-3s5 3 9 3 8 2 8 6 3-2 3 3c0 .355-.033.673-.058 1h1.049C34 22.523 34 20.868 34 19 34 6 24 1 18 1S2 6 2 19c0 1.158-.028 2.986.012 5h1.052z" fill="#E1E8ED" ts:gender="female"/>
 	<!-- eyes -->
-	<rect x="12" y="18" width="2" height="4" rx="1" fill="#662113" ts:skin="eyes2" ts:gender="neutral,female"/><rect x="22" y="18" width="2" height="4" rx="1" fill="#662113" ts:skin="eyes2" ts:gender="neutral,female"/>
-	<rect x="12" y="17" width="2" height="4" rx="1" fill="#662113" ts:skin="eyes2" ts:gender="male"/><rect x="22" y="17" width="2" height="4" rx="1" fill="#662113" ts:skin="eyes2" ts:gender="male"/>
+	<use href="defs.svg#eyes_big" x="18" y="20" fill="#662113" ts:skin="eyes2" ts:gender="neutral,female"/>
+	<use href="defs.svg#eyes_big" x="18" y="19" fill="#662113" ts:skin="eyes2" ts:gender="male"/>
 	<!-- nose -->
 	<rect x="16" y="24" width="4" height="2" rx="1" fill="#C1694F" ts:skin="nose" ts:gender="neutral,male"/>
 	<rect x="16" y="23" width="4" height="2" rx="1" fill="#C1694F" ts:skin="nose" ts:gender="female"/>

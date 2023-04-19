@@ -21,7 +21,7 @@
 	<use href="defs.svg#hair_male" x="18" y="3.48" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
 	<path d="M5.863 20c-.025 0-.052-.59-.052-.876 0-4.063 2.438.425 2.438-2.47s1.625-3.266 3.25-4.891c.812-.812 2.438-2.446 2.438-2.446s4.063 2.434 7.314 2.434c3.25 0 6.5 1.624 6.5 4.874s2.438-1.563 2.438 2.5c0 .289-.027.875-.047.875h.853C31 19 31 17.392 31 15.874 31 5.311 22.875 1.216 17.999 1.216c-4.876 0-13.001 4.11-13.001 14.674 0 .942-.023 2.11.01 4.11h.855z" fill="#FFAC33" ts:skin="hair" ts:gender="female"/> <!-- alt -->
 	<!-- eyes -->
-	<rect x="13.242" y="14.482" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/><rect x="20.868" y="14.482" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
+	<use href="defs.svg#eyes_neutral" x="18.008" y="15.9115" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
 	<use href="defs.svg#eyes_male" x="18" y="15.5" fill="#662113" ts:skin="eyes2" ts:gender="male"/>
 	<use href="defs.svg#eyes_male" x="18" y="16.5" fill="#662113" ts:skin="eyes2" ts:gender="female"/>
 	<!-- nose -->

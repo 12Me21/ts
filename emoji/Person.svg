@@ -14,8 +14,8 @@
 	<!-- moustache -->
 	<path d="M25.274 27.038l-3.294-.941c.003-.034.02-.063.02-.097 0-.553-.447-1-1-1h-6c-.552 0-1 .447-1 1 0 .034.016.063.019.097l-3.294.941c-.531.152-.838.706-.686 1.236.125.44.525.726.961.726.091 0 .184-.013.275-.038l1.931-.552c-.216.293-.274.688-.1 1.037.175.351.528.553.895.553.15 0 .303-.034.446-.105l1.577-.788c.036.326.213.631.529.788.143.071.296.105.446.105.367 0 .72-.202.896-.553l.105-.211.105.211c.176.351.529.553.896.553.15 0 .303-.034.446-.105.315-.157.493-.462.529-.788l1.576.788c.144.071.297.105.447.105.367 0 .72-.202.896-.553.174-.349.116-.744-.1-1.037l1.931.552c.091.025.183.038.275.038.434 0 .835-.286.961-.726.151-.53-.156-1.084-.688-1.236z" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
 	<!-- eyes -->
-	<rect x="12" y="18" width="2" height="4" rx="1" fill="#662113" ts:skin="eyes2" ts:gender="neutral,female"/><rect x="22" y="18" width="2" height="4" rx="1" fill="#662113" ts:skin="eyes2" ts:gender="neutral,female"/>
-	<rect x="12" y="16" width="2" height="4" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/><rect x="22" y="16" width="2" height="4" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/>
+	<use href="defs.svg#eyes_big" x="18" y="20" fill="#662113" ts:skin="eyes2" ts:gender="neutral,female"/>
+	<use href="defs.svg#eyes_big" x="18" y="18" fill="#662113" ts:skin="eyes2" ts:gender="male"/>
 	<!-- nose -->
 	<rect x="16" y="24" width="4" height="2" rx="1" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
 	<rect x="16" y="23" width="4" height="2" rx="1" fill="#C1694F" ts:skin="nose" ts:gender="female"/>

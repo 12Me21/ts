@@ -150,7 +150,7 @@
 	.layer-box > svg {
 		grid-area: svg;
 		background: white;
-		border: solid; var(--color);
+		border: solid; /*var(--color);*/
 		width: 36px;
 		height: 36px;
 		paint-order: stroke;
@@ -211,7 +211,7 @@
 
 <script type=module>
 	import cmap from './cmap.js?1' // todo: use the async syntax trick
-	import palette from './palette.js?0'
+	import palette from './palette.js?1'
 	
 	window.cmap = cmap
 	
@@ -431,7 +431,6 @@
 					skin1 = (skin1-1) % 5
 				
 				fill = s[skin1 + ofs]
-				console.log('fill?', fill)
 			}
 			elem.style.setProperty('fill', fill || '')
 		}

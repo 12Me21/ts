@@ -26,9 +26,9 @@
 	<use href="defs.svg#hair_male" x="22" y="3.48" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
 	<use href="defs.svg#hair_front_female" x="21.944" y="5.069" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
 	<!-- eyes -->
-	<use href="defs.svg#eyes_neutral" x="21.8745" y="16.1345" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
+	<use href="defs.svg#eyes_neutral" x="21.8745" y="16.1345" fill="#662113" ts:skin="eyes" ts:gender="neutral"/>
 	<use href="defs.svg#eyes_male" x="22" y="15.5" fill="#662113" ts:skin="eyes" ts:gender="male"/>
-	<rect x="17.762" y="15.349" width="1.693" height="2.537" rx="0.84625" fill="#662113" ts:skin="eyes" ts:gender="female"/><rect x="24.527" y="15.349" width="1.692" height="2.537" rx="0.846" fill="#662113" ts:skin="eyes" ts:gender="female"/> <!-- wrong color in orig! -->
+	<use href="defs.svg#eyes_female" x="21.99075" y="16.6175" fill="#662113" ts:skin="eyes" ts:gender="female"/> <!-- wrong color in orig! -->
 	<!-- nose -->
 	<use href="defs.svg#nose_neutral2" x="21.874" y="20.423" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
 	<use href="defs.svg#nose_male2" x="22.0" y="19.0" fill="#C1694F" ts:skin="nose" ts:gender="male"/>

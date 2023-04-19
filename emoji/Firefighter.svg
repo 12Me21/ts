@@ -30,7 +30,7 @@
 	<!-- eyes -->
 	<use href="defs.svg#eyes_neutral" x="18.008" y="15.9115" ts:skin="eyes2" ts:gender="neutral"/>
 	<use href="defs.svg#eyes_male" x="18" y="15.5" fill="#662113" ts:skin="eyes" ts:gender="male"/>
-	<rect x="13.763" y="15.348" width="1.692" height="2.538" rx="0.846" ts:skin="eyes" ts:gender="female"/><rect x="20.527" y="15.348" width="1.692" height="2.538" rx="0.846" ts:skin="eyes" ts:gender="female"/>
+	<use href="defs.svg#eyes_female" x="17.991" y="16.617" ts:skin="eyes" ts:gender="female"/>
 	<!-- nose -->
 	<use href="defs.svg#nose_neutral2" x="18.008" y="20.2" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
 	<use href="defs.svg#nose_male2" x="18.0" y="19.0" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
