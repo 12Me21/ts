@@ -29,8 +29,8 @@
 	<use href="defs.svg#eyes_female" x="17.99075" y="16.6175" fill="#662113" ts:skin="eyes" ts:gender="female"/>
 	<!-- nose -->
 	<rect x="16.5" y="20.5" width="3" height="1" rx="0.5" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/> <!-- diff -->
-	<use href="defs.svg#nose_male2" x="17.99" y="19.0" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
-	<use href="defs.svg#nose_female2" x="17.9915" y="20.0" ry="0.4235" fill="#C1694F" ts:skin="nose" ts:gender="female"/>
+	<use href="defs.svg#nose_male" x="17.99" y="19.0" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
+	<use href="defs.svg#nose_female" x="17.9915" y="20.0" ry="0.4235" fill="#C1694F" ts:skin="nose" ts:gender="female"/>
 	<!-- mouth -->
 	<path d="M22 24h-8s1 2 4 2 4-2 4-2z " fill="#C1694F" ts:skin="nose" ts:gender="neutral"/> <!-- old shape -->
 	<use href="defs.svg#mouth_female" x="17.944" y="23.543" fill="#DF1F32" ts:gender="female"/>

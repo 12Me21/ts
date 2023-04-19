@@ -9,7 +9,7 @@
 	<!-- eyes -->
 	<use href="defs.svg#eyes_female" x="17.99075" y="16.6175" fill="#662113" ts:skin="eyes2"/>
 	<!-- nose -->
-	<use href="defs.svg#nose_female2" x="17.9915" y="20.0" ry="0.4235" fill="#C1694F" ts:skin="nose"/>
+	<use href="defs.svg#nose_female" x="17.9915" y="20.0" ry="0.4235" fill="#C1694F" ts:skin="nose"/>
 	<!-- mouth -->
 	<use href="defs.svg#mouth_female" x="17.944" y="23.543" fill="#DF1F32"/>
 	<!-- headscarf (continued) -->

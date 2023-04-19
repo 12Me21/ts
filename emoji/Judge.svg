@@ -27,8 +27,8 @@
 	<use href="defs.svg#eyes_male" x="22" y="15.5" fill="#662113" ts:skin="eyes" ts:gender="male"/>
 	<rect x="17.75" y="15.75" width="1.5" height="2.5" rx="0.75" fill="#662113" ts:skin="eyes" ts:gender="female"/><rect x="24.75" y="15.75" width="1.5" height="2.5" rx="0.75" fill="#662113" ts:skin="eyes" ts:gender="female"/> <!-- yes ! yeah ! -->
 	<!-- nose -->
-	<use href="defs.svg#nose_neutral2" x="21.874" y="20.423" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
-	<use href="defs.svg#nose_male2" x="22.0" y="19.0" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
+	<use href="defs.svg#nose_neutral" x="21.874" y="20.423" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
+	<use href="defs.svg#nose_male" x="22.0" y="19.0" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
 	<rect x="20.775" y="20" width="2.594" height="1" rx="0.6485" ry="0.5" fill="#C1694F" ts:skin="nose" ts:gender="female"/> <!-- slightly off -->
 	<!-- mouth -->
 	<use href="defs.svg#mouth_neutral" x="22" y="24.88" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>

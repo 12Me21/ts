@@ -33,8 +33,8 @@
 	<use href="defs.svg#eyes_male" x="18" y="15.5" fill="#662113" ts:skin="eyes2" ts:gender="male"/>
 	<rect x="13.65" y="15.25" width="1.7" height="2.5" rx="0.85" fill="#662113" ts:skin="eyes2" ts:gender="female"/><rect x="20.65" y="15.25" width="1.7" height="2.5" rx="0.85" fill="#662113" ts:skin="eyes2" ts:gender="female"/> <!-- this is nicer -->
 	<!-- nose -->
-	<use href="defs.svg#nose_neutral2" x="17.867" y="20.423" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
-	<use href="defs.svg#nose_male2" x="18.0" y="19.0" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
+	<use href="defs.svg#nose_neutral" x="17.867" y="20.423" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
+	<use href="defs.svg#nose_male" x="18.0" y="19.0" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
 	<rect x="16.75" y="20" width="2.5" height="1.2" rx="0.6" fill="#C1694F" ts:skin="nose" ts:gender="female"/>
 	<!-- mouth -->
 	<use href="defs.svg#mouth_neutral" x="17.993" y="24.88" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
