@@ -12,8 +12,8 @@
 	body {
 		display: grid;
 		grid-template:
-			'form form'
-			'compare layers'
+			'form form' max-content
+			'compare layers' 1fr
 			/ auto 1fr;
 		gap: 8px;
 	}
@@ -123,28 +123,41 @@
 		grid-template:
 			'svg row1' 1fr
 		'svg row2' 1fr
-			/ auto 128px;
-		margin: 2px;
+			/ auto 150px;
+		margin: 4px;
 		column-gap: 4px;
 		padding-right: 4px;
-		--color: orange;
-		background: linear-gradient(#FFFE,#FFFD), var(--color);
+		background: linear-gradient(to left, white -10px , var(--color) 400% );
+		border-left: 12px solid white;
+		background-clip: padding-box;
+		--color: gray;
 	}
 	.layer-box[data-kind=use] {
 		--color: blue;
 	}
-	.layer-box[data-kind=path] {
-		--color: darkorange;
+	.layer-box[data-kind=use] > svg{
+		border-color: slateblue;
+		/*deepskyblue;*/
+		/*border-radius: 10px;*/
 	}
-	.layer-box[data-kind=path][data-new] {
-		--color: red;
+	.layer-box[data-shared] {
+		--color: #797;
+	}
+	.layer-box[data-hidden] {
+		opacity: 0.2;
+		--color: black !important;
 	}
 	.layer-box > svg {
 		grid-area: svg;
 		background: white;
-		border: solid var(--color);
+		border: solid; var(--color);
 		width: 36px;
 		height: 36px;
+		paint-order: stroke;
+		stroke: black;
+		margin: -1px;
+		margin-left: -12px;
+		border-radius: 5px;
 	}
 	#\$layers {
 		place-self: stretch start;
@@ -285,6 +298,7 @@
 		$layers.textContent = ""
 		for (let elem of svg.children) {
 			if (elem.style.display=="none")
+				//box.$root.dataset.hidden = ""
 				continue
 			let box = layer()
 			let svg2 = svg.cloneNode(false)
@@ -295,7 +309,7 @@
 			
 			let sym 
 			if (elem.nodeName=="use") {
-				sym = elem.getAttribute('href').split("#")[1]
+				sym = "* " + elem.getAttribute('href').split("#")[1] + ""
 			} else {
 				sym = "<"+elem.nodeName+">"
 			}
@@ -304,16 +318,16 @@
 			let g = elem.getAttribute('ts:gender')
 			if (g) {
 				g = g.split(/[, ]/)
-				if (g.length == 1)
-					box.$root.dataset.new = ""
 				box.$variants.append(" "+g.map(x=>({neutral:'X',male:'M',female:'F',mixed:'2'}[x])).join(""))
-			}
+			} else
+				box.$root.dataset.shared = ""
+
 			
 			let skin = elem.getAttribute('ts:skin')
 			if (skin) {
-				box.$row2.append(skin + " : ")
-			}
-			box.$row2.append(elem.getAttribute('fill'))
+				box.$row2.append("🎨︎ "+skin+"")
+			} else
+				box.$row2.append(elem.getAttribute('fill'))
 			$layers.append(box.$root)
 			//▬●⬬ ▭⬭○ ▢ ⬤⬛
 		}
