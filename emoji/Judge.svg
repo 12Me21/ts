@@ -24,7 +24,7 @@
 	<rect x="17" y="14" width="3" height="1" rx="0.5" fill="#808285" ts:gender="female"/><rect x="24" y="14" width="3" height="1" rx="0.5" fill="#808285" ts:gender="female"/>
 	<!-- eyes -->
 	<rect x="17.109" y="14.705" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/><rect x="24.734" y="14.705" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
-	<rect x="17" y="14" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/><rect x="25" y="14" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/>
+	<use href="defs.svg#eyes_male" x="22" y="15.5" fill="#662113" ts:skin="eyes" ts:gender="male"/>
 	<rect x="17.75" y="15.75" width="1.5" height="2.5" rx="0.75" fill="#662113" ts:skin="eyes" ts:gender="female"/><rect x="24.75" y="15.75" width="1.5" height="2.5" rx="0.75" fill="#662113" ts:skin="eyes" ts:gender="female"/>
 	<!-- nose -->
 	<use href="defs.svg#nose_neutral2" x="21.874" y="20.423" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>

@@ -17,11 +17,11 @@
 	<!-- hands -->
 	<path d="M19.240,2.396 c.042-.521.593-.727 1.146-.708 0 0 5.456.311 7.521 1.271C30.522 4.174 32 6.625 32 6.625h-5S25.917 5.104 25.062 4.5c-.881-.623-4.222-1.215-4.719-1.312s-1.145-.271-1.103-.792z M16.760,2.396 c-.042-.521-.593-.727-1.146-.708 0 0-5.456.311-7.521 1.271C5.478 4.174 4 6.625 4 6.625h5s1.083-1.521 1.938-2.125c.881-.623 4.222-1.215 4.719-1.312.496-.098 1.145-.271 1.103-.792z" fill="#FFDC5D" ts:skin="skin"/>
 	<!-- eyes -->
-	<rect x="13" y="13" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes2"/><rect x="21" y="13" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes2"/>
+	<use href="defs.svg#eyes_male" x="18" y="14.5" fill="#662113" ts:skin="eyes2"/>
 	<!-- nose -->
 	<rect x="16.5" y="18.5" width="3" height="1" rx="0.5" fill="#C1694F" ts:skin="nose"/>
 	<!-- mouth -->
 	<path d="M22 21h-8s1 2 4 2 4-2 4-2z " fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
 	<path d="M14 22h8s-1 2-4 2-4-2-4-2z " fill="#C1694F" ts:skin="nose" ts:gender="male"/>
-	<path d="M22 21h-8s1 2 4 2 4-2 4-2z " fill="#DF1F32" ts:skin="nose" ts:gender="female"/>
+	<path d="M22 21h-8s1 2 4 2 4-2 4-2z " fill="#DF1F32" ts:gender="female"/>
 </svg>

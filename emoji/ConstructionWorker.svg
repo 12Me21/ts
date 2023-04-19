@@ -36,7 +36,7 @@
 	<use href="defs.svg#ears_female" x="18" y="15.9355" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->
 	<rect x="13.221" y="15.079" width="1.862" height="2.793" rx="0.931" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/><rect x="20.67" y="15.079" width="1.862" height="2.793" rx="0.931" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
-	<rect x="13" y="14" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/><rect x="21" y="14" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/>
+	<use href="defs.svg#eyes_male" x="18" y="15.5" fill="#662113" ts:skin="eyes" ts:gender="male"/>
 	<rect x="13.762" y="15.349" width="1.693" height="2.538" rx="0.8465" fill="#662113" ts:skin="eyes" ts:gender="female"/><rect x="20.527" y="15.349" width="1.692" height="2.538" rx="0.84625" fill="#662113" ts:skin="eyes" ts:gender="female"/>
 	<!-- nose -->
 	<use href="defs.svg#nose_neutral2" x="17.909" y="20.676" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>

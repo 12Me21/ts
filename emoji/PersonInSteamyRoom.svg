@@ -35,7 +35,7 @@
 	<use href="defs.svg#hair_front_female" x="17.945" y="3.978" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
 	<!-- eyes -->
 	<rect x="13.736" y="13.983" width="1.706" height="2.559" rx="0.853" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/><rect x="20.558" y="13.983" width="1.706" height="2.559" rx="0.853" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
-	<rect x="13" y="12" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes2" ts:gender="male"/><rect x="21" y="12" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes2" ts:gender="male"/>
+	<use href="defs.svg#eyes_male" x="18" y="13.5" fill="#662113" ts:skin="eyes2" ts:gender="male"/>
 	<rect x="13.762" y="14.258" width="1.693" height="2.538" rx="0.8465" fill="#662113" ts:skin="eyes2" ts:gender="female"/><rect x="20.527" y="14.258" width="1.692" height="2.538" rx="0.84625" fill="#662113" ts:skin="eyes2" ts:gender="female"/>
 	<!-- nose -->
 	<use href="defs.svg#nose_female2" x="17.9915" y="18.909" fill="#C1694F" ts:skin="nose" ts:gender="neutral,female"/>

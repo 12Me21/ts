@@ -409,6 +409,8 @@
 					fill = gc[1]
 			}
 			skin: if (s) {
+				if (s=="eyes")
+					s = gender=="neutral" ? "eyes2" : "eyes"
 				let ofs = 0
 				if (palette[s]) {
 					s = palette[s]

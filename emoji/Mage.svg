@@ -18,7 +18,7 @@
 	<path d="M25.361 15.852c-.02 0-.039.008-.06.01-.771-4.678-3.743-8.168-7.298-8.168-3.557 0-6.529 3.49-7.3 8.169-.022-.001-.043-.01-.065-.01C9.734 15.852 9 17.027 9 18.475s.734 2.622 1.639 2.622c.05 0 .097-.017.146-.024.881 4.388 3.776 7.469 7.219 7.469 3.442 0 6.335-3.08 7.217-7.468.047.007.092.023.14.023.905 0 1.639-1.174 1.639-2.622s-.733-2.623-1.639-2.623z" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->
 	<rect x="14.011" y="18.422" width="1.596" height="2.393" rx="0.797875" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/><rect x="20.393" y="18.422" width="1.596" height="2.393" rx="0.797875" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
-	<rect x="13" y="17.709" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes2" ts:gender="male"/><rect x="21" y="17.709" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes2" ts:gender="male"/>
+	<use href="defs.svg#eyes_male" x="18" y="19.209" fill="#662113" ts:skin="eyes2" ts:gender="male"/>
 	<rect x="13.821" y="18.846" width="1.693" height="2.538" rx="0.8465" fill="#662113" ts:skin="eyes2" ts:gender="female"/><rect x="20.586" y="18.846" width="1.692" height="2.538" rx="0.84625" fill="#662113" ts:skin="eyes2" ts:gender="female"/>
 	<!-- nose -->
 	<rect x="16.804" y="22.809" width="2.393" height="0.798" rx="0.399" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/> <!-- diff -->

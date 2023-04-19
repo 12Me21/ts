@@ -14,7 +14,8 @@
 	<path d="M18.729 13.715c0-1.548-.769-2.801-1.729-2.852v-.011c-6.887-.019-10.896-3.02-12.951-5.326C3.497 7.259 2.3 9.869 0 10.586v10.525c1.042 2.023 2.834 3.583 5 4.353V28c0 1.657 1.343 3 3 3s3-1.343 3-3v-2.523c3.493-1.237 6-4.56 6-8.477v-.433c.96-.051 1.729-1.304 1.729-2.852z" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
 	<path d="M4 5s-.01 4.562-4 5.724v10.394c1.044 2.019 2.831 3.591 5 4.359V28c0 1.657 1.343 3 3 3s3-1.343 3-3v-2.523c3.494-1.237 6-4.56 6-8.477v-5.019C5.89 11.605 4 5 4 5z" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->
-	<rect x="3" y="13" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes2"/><rect x="11" y="13" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes2"/>
+	<use href="defs.svg#eyes_male" x="8" y="14.5" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
+	<use href="defs.svg#eyes_male" x="8" y="14.5" fill="#662113" ts:skin="eyes" ts:gender="male,female"/>
 	<!-- nose -->
 	<rect x="6.5" y="18.5" width="3" height="1" rx="0.5" fill="#C1694F" ts:skin="nose"/>
 	<!-- mouth -->

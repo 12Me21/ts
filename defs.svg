@@ -115,20 +115,27 @@ X
 <use href="defs.svg#hair_neutral" transform="translate(21.906 1.262) scale(1.049)" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>
 -->
 	<!--
-<use href="defs.svg#hair_back_female" x="21.945" y="5.069" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
-<use href="defs.svg#hair_front_female" x="21.945" y="5.069" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
-
-<use href="defs.svg#hair_male" x="22" y="3.48" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
-<path d="M21 0c5.648 0 9.178 4.648 9.178 8.121 0 3.473-.706 4.863-1.412 3.473l-1.412-2.778s-4.235 0-5.647-1.39c0 0 2.118 4.168-2.118 0 0 0 .706 2.779-3.53-.694 0 0-2.118 1.389-2.824 4.862-.196.964-1.412 0-1.412-3.473C11.822 4.648 14.646 0 21 0" fill="#FFAC33" ts:skin="hair" ts:gender="male"/> Technologist (alt taller male hair)
+		 <use href="defs.svg#hair_back_female" x="21.945" y="5.069" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
+		 <use href="defs.svg#hair_front_female" x="21.945" y="5.069" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
+		 
+		 <use href="defs.svg#hair_male" x="22" y="3.48" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
+		 <path d="M21 0c5.648 0 9.178 4.648 9.178 8.121 0 3.473-.706 4.863-1.412 3.473l-1.412-2.778s-4.235 0-5.647-1.39c0 0 2.118 4.168-2.118 0 0 0 .706 2.779-3.53-.694 0 0-2.118 1.389-2.824 4.862-.196.964-1.412 0-1.412-3.473C11.822 4.648 14.646 0 21 0" fill="#FFAC33" ts:skin="hair" ts:gender="male"/> Technologist (alt taller male hair)
 	-->
-<!-- 
-<use href="defs.svg#face_neutral" x="29.413" y="11.021" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
-<use href="defs.svg#face_neutral" x="25.413" y="13.466" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
-<use href="defs.svg#face_neutral" x="29.547" y="13.273" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
-<use href="defs.svg#face_neutral" x="25.547" y="13.243" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
-
-<use href="defs.svg#face_neutral" transform="translate(25.89 15.686) scale(1.049)" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
-
--->	
-
+	<!-- 
+		  <use href="defs.svg#face_neutral" x="29.413" y="11.021" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
+		  <use href="defs.svg#face_neutral" x="25.413" y="13.466" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
+		  <use href="defs.svg#face_neutral" x="29.547" y="13.273" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
+		  <use href="defs.svg#face_neutral" x="25.547" y="13.243" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
+		  
+		  <use href="defs.svg#face_neutral" transform="translate(25.89 15.686) scale(1.049)" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
+		  
+		  <rect x="\([^"]*\)"\([^>]*\)/><rect x="\([^"]*\)"\2/> → <rects cx="\,(/ (+ (string-to-number \1) (string-to-number \3)) 2)" dx="\,(- (string-to-number \3) (string-to-number \1))"\2/>
+		  
+	-->	
+	
+	<g id="eyes_male">
+		<rect x="-5" y="-1.5" width="2" height="3" rx="1"/>
+		<rect x="3" y="-1.5" width="2" height="3" rx="1"/>
+	</g>
+	
 </svg>
