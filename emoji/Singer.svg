@@ -42,7 +42,7 @@
 	<ellipse cx="13.555" cy="14.8445" rx="1.639" ry="2.6225" fill="#FFDB5E" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->
 	<rect x="17.037" y="12.482" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/><rect x="24.663" y="12.482" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
-	<rect x="24.782" y="12" width="2" height="3" rx="1" fill="#662213" ts:skin="eyes2" ts:gender="male"/><rect x="16.782" y="12" width="2" height="3" rx="1" fill="#662213" ts:skin="eyes2" ts:gender="male"/>
+	<use href="defs.svg#eyes_male" x="21.782" y="13.5" fill="#662113" ts:skin="eyes2" ts:gender="male"/>
 	<rect x="24.277" y="14.258" width="1.692" height="2.538" rx="0.846" ry="0.8465" fill="#662213" ts:skin="eyes" ts:gender="female"/><rect x="17.512" y="14.258" width="1.693" height="2.538" rx="0.8465" fill="#662213" ts:skin="eyes" ts:gender="female"/>
 	<!-- nose -->
 	<use href="defs.svg#nose_neutral2" x="21.803" y="18.2" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>

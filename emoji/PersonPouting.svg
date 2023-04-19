@@ -13,7 +13,7 @@
 	<path d="M9 5.938V17c0 4.971 4.029 9 9 9s9-4.029 9-9V6.25L9 5.938z" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
 	<path d="M9 5v12c0 4.971 4.029 9 9 9s9-4.029 9-9V5H9z" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->
-	<rect x="13" y="13" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes2"/><rect x="21" y="13" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes2"/>
+	<use href="defs.svg#eyes_male" x="18" y="14.5" fill="#662113" ts:skin="eyes"/>
 	<!-- nose -->
 	<rect x="16.5" y="18.5" width="3" height="1" rx="0.5" fill="#C1694F" ts:skin="nose"/>
 	<!-- mouth -->

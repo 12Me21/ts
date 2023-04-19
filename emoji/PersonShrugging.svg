@@ -22,9 +22,10 @@
 	<!-- hair -->
 	<path d="M18 .823c-7.019 0-10.139 4.684-10.139 8.588 0 3.903 1.343 4.986 1.56 3.903.78-3.903 3.12-5.101 3.12-5.101 4.68 3.904 3.9.781 3.9.781 4.679 4.684 2.34 0 2.34 0 1.56 1.562 6.239 1.562 6.239 1.562s.78 1.198 1.559 2.759c.78 1.562 1.56 0 1.56-3.903 0-3.905-3.9-8.589-10.139-8.589z" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
 	<!-- eyes -->
-	<rect x="13" y="13" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes2"/><rect x="21" y="13" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes2"/>
+	<use href="defs.svg#eyes_male" x="18" y="14.5" fill="#662113" ts:skin="eyes" ts:gender="neutral,female"/>
+	<use href="defs.svg#eyes_male" x="18" y="14.5" fill="#662113" ts:skin="eyes2" ts:gender="male"/> <!-- color -->
 	<!-- nose -->
-	<rect x="16.5" y="18.5" width="3" height="1" rx="0.5" fill="#C1694F" ts:skin="nose" ts:gender="neutral,male,female"/>
+	<rect x="16.5" y="18.5" width="3" height="1" rx="0.5" fill="#C1694F" ts:skin="nose"/>
 	<!-- mouth -->
 	<rect x="19.5" y="22" width="1.5" height="1" rx="0.5" fill="#C1694F" ts:skin="nose" ts:gender="neutral,male"/>
 	<rect x="19.5" y="22" width="1.5" height="1" rx="0.5" fill="#DF1F32" ts:gender="female"/>
