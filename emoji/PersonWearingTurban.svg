@@ -24,8 +24,8 @@
 	<!-- beard (has hole) -->
 	<path d="M24.308 20.273c-.704.789-2.115 2.366-3.526 1.577-1.993-1.114-2.82-.788-2.82-.788s-.826-.326-2.82.788c-1.41.789-2.82-.788-3.525-1.577-.498-.557-2.115-1.576-2.115 0 0 2.366 1.41 3.943 1.41 3.943 1.411 3.941 4.23 3.941 4.23 3.941.706.789 4.936.789 5.641 0 0 0 2.822 0 4.23-3.941 0 0 1.411-1.577 1.411-3.943-.001-1.576-1.618-.556-2.116 0 Z M18 23.881c-3 0-5-1.381 0-1.381s3 1.381 0 1.381z" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
 	<!-- eyes -->
-	<rect x="13" y="15" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/><rect x="21" y="15" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
-	<rect x="12.99" y="14" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/><rect x="20.99" y="14" width="2" height="3" rx="1" fill="#662113" ts:skin="eyes" ts:gender="male"/>
+	<use href="defs.svg#eyes_male" x="18" y="16.5" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
+	<use href="defs.svg#eyes_male" x="17.99" y="15.5" fill="#662113" ts:skin="eyes" ts:gender="male"/>
 	<rect x="13.762" y="15.349" width="1.693" height="2.537" rx="0.8465" ry="0.846" fill="#662113" ts:skin="eyes" ts:gender="female"/><rect x="20.527" y="15.349" width="1.692" height="2.537" rx="0.846" fill="#662113" ts:skin="eyes" ts:gender="female"/>
 	<!-- nose -->
 	<rect x="16.5" y="20.5" width="3" height="1" rx="0.5" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/> <!-- diff -->

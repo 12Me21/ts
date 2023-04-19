@@ -135,7 +135,11 @@ X
 	
 	<g id="eyes_male">
 		<rect x="-5" y="-1.5" width="2" height="3" rx="1"/>
-		<rect x="3" y="-1.5" width="2" height="3" rx="1"/>
+		<rect x=" 3" y="-1.5" width="2" height="3" rx="1"/>
+	</g>
+	<g id="eyes_neutral">
+		<rect x="-4.766" y="-1.4295" width="1.906" height="2.859" rx="0.953"/>
+		<rect x=" 2.860" y="-1.4295" width="1.906" height="2.859" rx="0.953"/>
 	</g>
 	
 </svg>

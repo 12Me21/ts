@@ -41,7 +41,7 @@
 	<use href="defs.svg#hair_front_female" x="23.2" y="3.979" fill="#FFAC33" ts:skin="hair" ts:gender="female"/>
 	<use href="defs.svg#ears_female" x="23.2545" y="14.8445" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->
-	<rect x="17.242" y="14.511" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/><rect x="24.868" y="14.511" width="1.906" height="2.859" rx="0.953" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
+	<use href="defs.svg#eyes_neutral" x="22.008" y="15.9405" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
 	<use href="defs.svg#eyes_male" x="22" y="15.5" fill="#662113" ts:skin="eyes2" ts:gender="male"/>
 	<rect x="25.782" y="14.258" width="1.692" height="2.538" rx="0.84625" fill="#662213" ts:skin="eyes2" ts:gender="female"/><rect x="19.017" y="14.258" width="1.693" height="2.538" rx="0.8465" fill="#662213" ts:skin="eyes2" ts:gender="female"/>
 	<!-- nose -->
