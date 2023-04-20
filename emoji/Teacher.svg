@@ -38,8 +38,8 @@
 	<use href="defs.svg#nose_male" x="22.0" y="19.0" ts:skin="nose" ts:gender="male"/>
 	<use href="defs.svg#nose_female" x="21.9915" y="20.0" ry="0.4235" ts:skin="nose" ts:gender="female"/>
 	<!-- mouth -->
-	<use href="defs.svg#mouth_neutral" x="22.134" y="24.686" ts:skin="nose" ts:gender="neutral"/>
-	<use href="defs.svg#mouth_female" x="21.944" y="23.543" fill="#DF1F32" ts:gender="female"/>
+	<use href="defs.svg#mouth_neutral" x="22.134" y="24.686" ts:skin="mouth" ts:gender="neutral"/>
+	<use href="defs.svg#mouth_female" x="21.944" y="23.543" ts:skin="mouth" ts:gender="female"/>
 	<!-- collar shadow -->
 	<path d="M21.94 30.883s3.381 2.494 4.094 2.777c.156.062-.367-3.656-.367-3.656h-7.453s-.524 3.781-.235 3.625c.64-.342 3.961-2.746 3.961-2.746" fill="#99AAB5" ts:gender="male"/>
 	<path d="M22 30.222s3.381 2.494 4.094 2.777c.156.062-.367-3.656-.367-3.656h-7.453s-.523 3.781-.234 3.625c.64-.342 3.96-2.746 3.96-2.746" fill="#744EAA" ts:gender="female"/>

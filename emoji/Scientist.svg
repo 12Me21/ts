@@ -8,12 +8,12 @@
 	<!-- neck -->
 	<path d="M18 27l4 4 4-4v-5h-8z" ts:skin="skin" ts:gender="neutral,male"/>
 	<path d="M18.27 28.49c1.466 1.064 5.866 1.064 7.332 0v-5.664H18.27v5.664z" ts:skin="skin" ts:gender="female"/>
+	<path d="M18 24c1.216 1.374 2.355 1.719 3.996 1.719 1.639 0 2.787-.346 4.004-1.719v-4h-8v4z" ts:skin="dark" ts:gender="neutral,male"/>
+	<path d="M18.264 24.19c1.022 1.156 2.29 1.469 3.668 1.469 1.379 0 2.647-.312 3.67-1.469v-2.936h-7.338v2.936z" ts:skin="dark" ts:gender="female"/>
 	<!-- shirt -->
 	<path d="M19.059 36L18 26.781s1.41 1.645 4 1.645 4.219-1.645 4.219-1.645L24.996 36h-5.937z" fill="#66757F" ts:gender="neutral,male"/>
 	<path d="M19 36l-1.059-9.219s1.41 1.645 4 1.645 4.219-1.645 4.219-1.645L24.938 36H19z" fill="#66757F" ts:gender="female"/>
-	<!-- neck shadow -->
-	<path d="M18 24c1.216 1.374 2.355 1.719 3.996 1.719 1.639 0 2.787-.346 4.004-1.719v-4h-8v4z" ts:skin="dark" ts:gender="neutral,male"/>
-	<path d="M18.264 24.19c1.022 1.156 2.29 1.469 3.668 1.469 1.379 0 2.647-.312 3.67-1.469v-2.936h-7.338v2.936z" ts:skin="dark" ts:gender="female"/>
+
 	<!-- face -->
 	<use href="defs.svg#face_neutral" x="29.413" y="11.021" ts:skin="skin" ts:gender="neutral"/>
 	<use href="defs.svg#face_male" x="22" y="14.959" ts:skin="skin" ts:gender="male"/>
@@ -32,9 +32,9 @@
 	<use href="defs.svg#nose_male" x="22.0" y="17.0" ts:skin="nose" ts:gender="male"/>
 	<use href="defs.svg#nose_female" x="21.9325" y="19.012" ts:skin="nose" ts:gender="female"/>
 	<!-- mouth -->
-	<use href="defs.svg#mouth_neutral" x="22" y="22.434" ts:skin="nose" ts:gender="neutral"/>
-	<use href="defs.svg#mouth_neutral" x="22" y="21.802" ts:skin="nose" ts:gender="male"/>
-	<use href="defs.svg#mouth_female" x="21.887" y="22.555" fill="#DF1F32" ts:gender="female"/>
+	<use href="defs.svg#mouth_neutral" x="22" y="22.434" ts:skin="mouth" ts:gender="neutral"/>
+	<use href="defs.svg#mouth_neutral" x="22" y="21.802" ts:skin="mouth" ts:gender="male"/>
+	<use href="defs.svg#mouth_female" x="21.887" y="22.555" ts:skin="mouth" ts:gender="female"/>
 	<!-- goggles (transparent) -->
 	<path d="M14.753 10.75h14.5V16h-14.5z" fill="#FFFFFF66" ts:gender="neutral,male"/>
 	<path d="M14.753 12.75h14.5V18h-14.5z" fill="#FFFFFF66" ts:gender="female"/>

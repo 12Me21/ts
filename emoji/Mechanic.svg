@@ -21,6 +21,7 @@
 	<use href="defs.svg#face_female" x="13.734" y="15.717" ts:skin="skin" ts:gender="female"/>
 	<!-- hair -->
 	<use href="defs.svg#hair_male" x="22" y="3.48" ts:skin="hair" ts:gender="male"/>
+	<!-- TODO: this is wrong ? -->
 	<use href="defs.svg#hair_front_female" x="21.945" y="5.069" ts:skin="hair" ts:gender="female"/>
 	<use href="defs.svg#ears_female" x="22" y="15.9355" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->
