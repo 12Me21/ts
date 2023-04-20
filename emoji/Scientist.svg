@@ -3,8 +3,8 @@
 	<use href="defs.svg#hair_neutral" x="25.597" y="1.071" ts:skin="hair" ts:gender="neutral"/>
 	<use href="defs.svg#hair_back_female" x="21.887" y="4.081" ts:skin="hair" ts:gender="female"/>
 	<!-- body -->
-	<path d="M36 36v-4c0-3.314-2.686-6-6-6H14c-3.313 0-6 2.686-6 6v4h28z" fill="#CCD6DD" ts:gender="neutral,male"/>
-	<path d="M34.941 36v-4.488c0-3.314-3.685-5.5-7-5.5h-12c-3.313 0-7 2.186-7 5.5V36h26z" fill="#CCD6DD" ts:gender="female"/>
+	<use href="defs.svg#shoulders_male_tall" x="22" fill="#CCD6DD" ts:gender="neutral,male"/>
+	<use href="defs.svg#shoulders_female_tall" x="21.941" fill="#CCD6DD" ts:gender="female"/>
 	<!-- neck -->
 	<path d="M18 27l4 4 4-4v-5h-8z" ts:skin="skin" ts:gender="neutral,male"/>
 	<path d="M18.27 28.49c1.466 1.064 5.866 1.064 7.332 0v-5.664H18.27v5.664z" ts:skin="skin" ts:gender="female"/>

@@ -8,7 +8,7 @@
 	<use href="defs.svg#hair_neutral" x="25.731" y="3.323" ts:skin="hair" ts:gender="neutral"/>
 	<use href="defs.svg#hair_back_female" x="21.944" y="5.069" ts:skin="hair" ts:gender="female"/>
 	<!-- body -->
-	<path d="M36 36v-2c0-3.314-2.686-6-6-6H14c-3.313 0-6 2.686-6 6v2h28z" fill="#CCD6DD" ts:gender="neutral,male" ts:gender-color="#E1E8ED,"/>
+	<path d="M8,36 v-2 a 6,6 0 01 6,-6 h16 a 6,6 0 01 6,6 v2 z" ts:gender="neutral,male" fill="#CCD6DD" ts:gender-color="#E1E8ED,"/>
 	<path d="M35 36v-3.5c0-3.314-3.685-5.5-7-5.5H16c-3.313 0-7 2.186-7 5.5V36h26z" fill="#9266CC" ts:gender="female"/>
 	<path d="M22.073 30.805s3.297.891 4.545 1.307c.16.053-.951-2.108-.951-2.108h-7.453s-.679 1.542-1.071 2.197c1.96-.624 4.798-1.485 4.798-1.485" fill="#99AAB5" ts:gender="neutral"/>
 	<!-- unused -->

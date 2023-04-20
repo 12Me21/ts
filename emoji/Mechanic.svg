@@ -1,11 +1,9 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
 	<!-- shirt -->
-	<path d="M36 36v-2c0-3.314-2.686-6-6-6H14c-3.313 0-6 2.686-6 6v2h28z" fill="#CCD6DD" ts:gender="neutral,male"/>
-	<path d="M31 27.575c-.959-.372-1.996-.575-3-.575H16c-1.004 0-2.041.203-3 .575-2.207.855-4 2.614-4 4.925V36h26v-3.5c0-2.311-1.792-4.07-4-4.925z" fill="#CCD6DD" ts:gender="female"/>
+	<path d="M8,36 v-2 a 6,6 0 01 6,-6 h16 a 6,6 0 01 6,6 v2 z" fill="#CCD6DD" ts:gender="neutral,male"/>
+	<path d="M9,36 v-3.5 a 7,5.5 0 01 7,-5.5 h12 a 7,5.5 0 01 7,5.5 v3.5 z" fill="#CCD6DD" ts:gender="female"/>
 	<!-- overalls -->
-	<!--<path d="M13 31h18v5H13z" fill="#269" ts:gender=""/>-->
-	<path d="M30 31H14l-.875 5H31z" fill="#269" ts:gender="neutral,male"/>
-	<path d="M13 28h3v8h-3z M28,28 h3v8h-3z" fill="#269" ts:gender="neutral,male"/>
+	<path d="M13,36 v-8 h3 v3 h12 v-3 h3 v8 z" fill="#269" ts:gender="neutral,male"/>
 	<path d="M28 27v4H16v-4c-1.004 0-2.041.203-3 .575V36h18v-8.425c-.959-.372-1.996-.575-3-.575z" fill="#269" ts:gender="female"/>
 	<!-- hair -->
 	<use href="defs.svg#hair_neutral_narrow" x="25.152" y="3.3" ts:skin="hair" ts:gender="neutral"/>
@@ -37,18 +35,20 @@
 	<use href="defs.svg#mouth_neutral" x="22" y="23.802" ts:skin="nose" ts:gender="male"/>
 	<use href="defs.svg#mouth_female" x="21.945" y="23.543" fill="#DF1F32" ts:gender="female"/>
 	<!-- hat -->
-	<path d="M31 9.5c0 1.32-18 1.32-18 0C13 5.954 14 1 22 1c7 0 9 4.954 9 8.5z" fill="#3B88C3" ts:gender="neutral,female"/>
-	<path d="M31.056 9.5c0 1.32-4.092 0-9 0-4.909 0-9 1.32-9 0 0-3.547 1-8.5 9-8.5 7 0 9 4.953 9 8.5z" fill="#3B88C3" ts:gender="male"/>
-	<path d="M20.5 1.5S20.5 0 22 0s1.5 1.5 1.5 1.5h-3z" fill="#269" ts:gender="neutral,female"/>
-	<path d="M20.556 1.5s0-1.5 1.5-1.5 1.5 1.5 1.5 1.5h-3z" fill="#269" ts:gender="male"/>
-	<path d="M13.056 9.5s-.5 3 1.5 3c1 0 2.5-2 7.5-2s6.5 2 7.5 2c2 0 1.5-3 1.5-3s-1.5.5-9 .5-9-.5-9-.5z" fill="#269" ts:gender="neutral,female"/>
-	<path d="M13.111 9.5s-.5 3 1.5 3c1 0 2.5-2 7.5-2s6.5 2 7.5 2c2 0 1.5-3 1.5-3s-1.5.5-9 .5-9-.5-9-.5z" fill="#269" ts:gender="male"/>
-	<path d="M13 9s-.5 3 1.5 3c1 0 2.5-2 7.5-2s6.5 2 7.5 2c2 0 1.5-3 1.5-3s-1.5.5-9 .5-9-.5-9-.5z" fill="#55ACEE" ts:gender="neutral,female"/>
-	<path d="M13.056 9s-.5 3 1.5 3c1 0 2.5-2 7.5-2s6.5 2 7.5 2c2 0 1.5-3 1.5-3s-1.5.5-9 .5-9-.5-9-.5z" fill="#55ACEE" ts:gender="male"/>
+	<path d="M 31,9.5 c 0,1.32 -18,1.32 -18,0 c 0,-3.546 1,-8.5 9,-8.5 c 7,0 9,4.954 9,8.5 Z" fill="#3B88C3" ts:gender="neutral,female"/>
+	<path d="M 31.056,9.5 c 0,1.32 -4.092,0 -9,0 c -4.909,0 -9,1.32 -9,0 c 0,-3.547 1,-8.5 9,-8.5 c 7,0 9,4.953 9,8.5 Z" fill="#3B88C3" ts:gender="male"/>
+	
+	<path d="M 20.5  ,1.5 s 0,-1.5 1.5,-1.5 s 1.5,1.5 1.5,1.5 h -3 Z" fill="#269" ts:gender="neutral,female"/>
+	<path d="M 20.556,1.5 s 0,-1.5 1.5,-1.5 s 1.5,1.5 1.5,1.5 h -3 Z" fill="#269" ts:gender="male"/>
+	
+	<path d="M 13.056,9.5 s 1.5,0.5 9,0.5 s 9,-0.5 9,-0.5 s 0.5,3 -1.5,3 c -1,0 -2.5,-2 -7.5,-2 s -6.5,2 -7.5,2 c -2,0 -1.5,-3 -1.5,-3 Z" fill="#269" ts:gender="neutral,female"/>
+	<path d="M 13.111,9.5 s 1.5,0.5 9,0.5 s 9,-0.5 9,-0.5 s 0.5,3 -1.5,3 c -1,0 -2.5,-2 -7.5,-2 s -6.5,2 -7.5,2 c -2,0 -1.5,-3 -1.5,-3 Z" fill="#269" ts:gender="male"/>
+	
+	<path d="M 13    ,9 s 1.5,0.5 9,0.5 s 9,-0.5 9,-0.5 s 0.5,3 -1.5,3 c -1,0 -2.5,-2 -7.5,-2 s -6.5,2 -7.5,2 c -2,0 -1.5,-3 -1.5,-3 Z" fill="#55ACEE" ts:gender="neutral,female"/>
+	<path d="M 13.056,9 s 1.5,0.5 9,0.5 s 9,-0.5 9,-0.5 s 0.5,3 -1.5,3 c -1,0 -2.5,-2 -7.5,-2 s -6.5,2 -7.5,2 c -2,0 -1.5,-3 -1.5,-3 Z" fill="#55ACEE" ts:gender="male"/>
 	<!-- badge -->
-	<ellipse cx="27.75" cy="33.75" fill="#F5F8FA" rx="2.25" ry="1.25"/>
+	<ellipse cx="27.75" cy="33.75" rx="2.25" ry="1.25" fill="#F5F8FA"/>
 	<!-- wrench -->
-	<!--<path d="M9.501 23.635c-.005-1.805-1.026-3.353-2.511-4.153l.012 4.409c0 .553-1.006 1.003-2.249 1.005-1.242.003-2.25-.443-2.251-.995l-.01-4.408c-1.48.806-2.494 2.358-2.492 4.163.006 2.091 1.37 3.845 3.25 4.475V36h3v-7.869c1.888-.632 3.256-2.397 3.251-4.496z" fill="#66757F" ts:gender=""/>-->
 	<rect x="3.25" y="26" width="3" height="10" fill="#66757F"/>
 	<path d="M6.99 19.481l.012 4.409c0 .553-1.006 1.003-2.249 1.005-1.242.003-2.25-.443-2.251-.995l-.01-4.408c-1.48.807-2.494 2.359-2.492 4.164.007 2.622 2.137 4.746 4.761 4.74 2.624-.007 4.746-2.139 4.74-4.762-.005-1.804-1.026-3.352-2.511-4.153z" fill="#66757F"/>
 </svg>

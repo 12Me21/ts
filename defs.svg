@@ -161,5 +161,19 @@ X
 <use href="defs.svg#mouth_female_big" x="18" y="30" ts:skin="mouth" ts:gender="neutral"/>
 	<use href="defs.svg#mouth_male_big" x="18" y="30" ts:skin="mouth" ts:gender="male"/>
 	<use href="defs.svg#mouth_female_big" x="18" y="29" ts:skin="mouth" ts:gender="female"/>
+	-->
+	
+	<path id="shoulders_male"         d="M -14,36 v-2   c 0,-3.314 2.686,-6   6,-6   h16 c 3.314,0 6,2.686 6,6   v2   Z"/>
+	<path id="shoulders_male_tall"    d="M -14,36 v-4   c 0,-3.314 2.686,-6   6,-6   h16 c 3.314,0 6,2.686 6,6   v4   Z"/>
+	
+	<path id="shoulders_female"       d="M -13,36 v-3.5 c 0,-3.314 3.686,-5.5 7,-5.5 h12 c 3.314,0 7,2.186 7,5.5 v3.5 Z"/>
+	<path id="shoulders_female_tall"  d="M -13,36 v-4.5 c 0,-3.314 3.686,-5.5 7,-5.5 h12 c 3.314,0 7,2.186 7,5.5 v4.5 Z"/>
+	<!-- messy -->
+	<path id="shoulders_neutral_tall" d="M -13.957,36 l -0.043,-1 c 0,-4 3.043,-7 8.043,-7 h 12 c 5,0 7.957,3 7.957,7 l 0.043,1 Z" />
+	<!--<path id="shoulders_neutral_tall" d="M -14,36 v-1 c 0,-4 3,-7 8,-7 h 12 c 5,0 8,3 8,7 v1 Z" fill="#F2760F" ts:gender="neutral"/>-->
+	
+	<!-- 
+<use href="defs.svg#shoulders_male_tall" x="22"
+<use href="defs.svg#shoulders_female_tall" x="21.941"
 -->
 </svg>

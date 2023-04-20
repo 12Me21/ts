@@ -1,8 +1,11 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
+	<!-- back hair -->
+	<use href="defs.svg#hair_neutral" transform="translate(21.513 4.15) scale(0.977)" ts:skin="hair" ts:gender="neutral"/>
+	<use href="defs.svg#hair_back_female" x="17.945" y="5.069" ts:skin="hair" ts:gender="female"/>
 	<!-- shirt -->
-	<path d="M32.043 36L32 35c0-4-2.957-7-7.957-7h-12C7.043 28 4 31 4 35l.043 1h28z" fill="#F2760F" ts:gender="neutral"/>
-	<path d="M32 36v-2c0-3.314-2.685-6-6-6H10c-3.313 0-6 2.686-6 6v2h28z" fill="#F2760F" ts:gender="male"/>
-	<path d="M31 36v-3.5c0-3.314-3.685-5.5-7-5.5H12c-3.313 0-7 2.186-7 5.5V36h26z" fill="#F2760F" ts:gender="female"/>
+	<use href="defs.svg#shoulders_neutral_tall" x="18" fill="#F2760F" ts:gender="neutral"/>
+	<use href="defs.svg#shoulders_female" x="18" fill="#F2760F" ts:gender="female"/>
+	<use href="defs.svg#shoulders_male" x="18" fill="#F2760F" ts:gender="male"/>
 	<!-- ridiculous collection of random shapes -->
 	<!--<path d="M14 27h8s-1.018 5-4 5-4-5-4-5" fill="#292F33"/>
 	<path d="M19 34.938l-1 1.061-1-1L16 31h3.5z" fill="#292F33"/>
@@ -16,10 +19,6 @@
 	<path d="M9 28h3v8H9zm15 0h3v8h-3z" fill="#FFF75F" ts:gender="male"/>
 	<path d="M9 28.298V36h3v-8c-1.103 0-2.102.103-3 .298z" fill="#FFF75F" ts:gender="neutral"/>
 	<path d="M24 28v8h3v-7.702c-.898-.195-1.897-.298-3-.298z" fill="#FFF75F" ts:gender="neutral"/>	
-	
-	<!-- back hair -->
-	<use href="defs.svg#hair_neutral" transform="translate(21.513 4.15) scale(0.977)" ts:skin="hair" ts:gender="neutral"/>
-	<use href="defs.svg#hair_back_female" x="17.945" y="5.069" ts:skin="hair" ts:gender="female"/>
 	<!-- neck -->
 	<path d="M13.64 30.038c1.745 1.268 2.849 1.963 4.36 1.963s2.615-.696 4.359-1.963v-5.749h-8.72v5.749z" ts:skin="skin" ts:gender="neutral,male"/>
 	<path d="M14.328 27.018c1.466 1.065 2.964.98 3.672.98s2.194.085 3.66-.98v-3.203h-7.332v3.203z" ts:skin="skin" ts:gender="female"/>

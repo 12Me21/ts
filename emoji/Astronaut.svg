@@ -1,7 +1,8 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
 	<!-- body -->
-	<path d="M36 36v-2c0-3.313-2.687-6-6-6H14c-3.313 0-6 2.687-6 6v2h28z" fill="#E1E8ED" ts:gender="neutral,male"/>
-	<path d="M35 36v-3.5c0-2.486-2.073-4.337-4.508-5.107-.409-.129-17.117.044-17.117.044C10.998 28.232 9 30.06 9 32.5V36h26z" fill="#E1E8ED" ts:gender="female"/>
+	<use href="defs.svg#shoulders_male" x="22" fill="#E1E8ED" ts:gender="neutral,male"/>
+	<use href="defs.svg#shoulders_female" x="22" fill="#E1E8ED" ts:gender="female"/>
+	
 	<path d="M 29.799,28.127 l 1.416,-0.004 l -0.015,0.974 c -0.145,2.404 -4.202,3.413 -9.199,3.413 c -5.018,0 -9.09,-0.987 -9.204,-3.392 l -0.005,-1.019 Z" fill="#EA596E" ts:gender="neutral,male"/>
 	<path d="M 29.799,27.127 l 1.416,-0.004 l -0.015,0.974 c -0.145,2.404 -4.202,3.413 -9.199,3.413 c -5.018,0 -9.09,-0.987 -9.204,-3.392 l -0.005,-1.019 Z" fill="#EA596E" ts:gender="female"/>
 	
