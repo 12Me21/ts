@@ -144,8 +144,14 @@ X
 		<rect x=" 2.53625" y="-1.269" width="1.6925" height="2.538" rx="0.8465"/>
 	</g>
 
+	<!-- 
+<rect x="\([^"]*\)"\( y="\([^"]*\)"[^>]*\)/><rect x="\([^"]*\)"\2/> → <use href="defs.svg#eyes_male" x="\,(+ (/ (+ (string-to-number \1) (string-to-number \4)) 2) 1)" dx="\,(- (string-to-number \4) (string-to-number \1))"\2/>
+	-->
+	
 	<g id="eyes_big">
 		<rect x="-6" y="-2" width="2" height="4" rx="1"/>
 		<rect x=" 4" y="-2" width="2" height="4" rx="1"/>
 	</g>
+	
+	<rect id="nose_big" x="-2" y="-1" width="4" height="2" rx="1"/>
 </svg>

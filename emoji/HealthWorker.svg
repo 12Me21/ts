@@ -1,7 +1,7 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
 	<!-- back hair -->
-	<use href="defs.svg#hair_neutral" x="21.597" y="1.368" fill="#FFAC33" ts:skin="hair" ts:gender="neutral"/>
-	<use href="defs.svg#hair_back_female" x="17.945" y="3.978" fill="#FFAC33" ts:skin="hair" ts:gender="female"/> <!-- wrong color hair in original -->
+	<use href="defs.svg#hair_neutral" x="21.597" y="1.368" ts:skin="hair" ts:gender="neutral"/>
+	<use href="defs.svg#hair_back_female" x="17.945" y="3.978" ts:skin="hair" ts:gender="female"/> <!-- wrong color hair in original -->
 	<!-- body -->
 	<path d="M32 36v-4c0-3.314-2.685-6-6-6H10c-3.313 0-6 2.686-6 6v4h28z" fill="#3B88C3" ts:gender="neutral,male"/>
 	<path d="M31 36v-4.5c0-3.314-3.56-5.5-6.875-5.5h-12C8.812 26 5 28.186 5 31.5V36h26z" fill="#3B88C3" ts:gender="female"/>
@@ -19,28 +19,28 @@
 	<circle cx="9" cy="32.5" fill="#F5F8FA" r="2" ts:gender="neutral,male"/>
 	<circle cx="9.5" cy="32.5" fill="#F5F8FA" r="2" ts:gender="female"/>
 	<!-- neck -->
-	<path d="M14 26l4 5.001L22 26v-4h-8z" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral,male"/>
-	<path d="M14.5 22.409V26l3.5 5 3.5-5v-3.591z" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
-	<path d="M14 24c1.216 1.374 2.355 1.719 3.996 1.719 1.639 0 2.787-.346 4.004-1.719v-4h-8v4z" fill="#F9CA55" ts:skin="dark" ts:gender="neutral,male"/>
-	<path d="M14.5 24c1.023 1.155 2.112 1.5 3.49 1.5 1.379 0 2.487-.345 3.51-1.5v-2.937h-7V24z" fill="#F9CA55" ts:skin="dark" ts:gender="female"/>
+	<path d="M14 26l4 5.001L22 26v-4h-8z" ts:skin="skin" ts:gender="neutral,male"/>
+	<path d="M14.5 22.409V26l3.5 5 3.5-5v-3.591z" ts:skin="skin" ts:gender="female"/>
+	<path d="M14 24c1.216 1.374 2.355 1.719 3.996 1.719 1.639 0 2.787-.346 4.004-1.719v-4h-8v4z" ts:skin="dark" ts:gender="neutral,male"/>
+	<path d="M14.5 24c1.023 1.155 2.112 1.5 3.49 1.5 1.379 0 2.487-.345 3.51-1.5v-2.937h-7V24z" ts:skin="dark" ts:gender="female"/>
 	<!-- face -->
-	<use href="defs.svg#face_neutral" x="25.413" y="11.318" fill="#FFDC5D" ts:skin="skin" ts:gender="neutral"/>
-	<use href="defs.svg#face_male" x="18" y="14.959" fill="#FFDC5D" ts:skin="skin" ts:gender="male"/>
-	<use href="defs.svg#face_female" x="9.734" y="14.627" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
+	<use href="defs.svg#face_neutral" x="25.413" y="11.318" ts:skin="skin" ts:gender="neutral"/>
+	<use href="defs.svg#face_male" x="18" y="14.959" ts:skin="skin" ts:gender="male"/>
+	<use href="defs.svg#face_female" x="9.734" y="14.627" ts:skin="skin" ts:gender="female"/>
 	<!-- hair -->
-	<use href="defs.svg#hair_male" x="18" y="1.48" fill="#FFAC33" ts:skin="hair" ts:gender="male"/>
-	<use href="defs.svg#hair_front_female" x="17.945" y="3.978" fill="#FFAC33" ts:skin="hair" ts:gender="female"/> <!-- wrong color hair in original -->
-	<use href="defs.svg#ears_female" x="18" y="14.8355" fill="#FFDC5D" ts:skin="skin" ts:gender="female"/>
+	<use href="defs.svg#hair_male" x="18" y="1.48" ts:skin="hair" ts:gender="male"/>
+	<use href="defs.svg#hair_front_female" x="17.945" y="3.978" ts:skin="hair" ts:gender="female"/> <!-- wrong color hair in original -->
+	<use href="defs.svg#ears_female" x="18" y="14.8355" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->
-	<use href="defs.svg#eyes_neutral" x="17.8745" y="13.9855" fill="#662113" ts:skin="eyes2" ts:gender="neutral"/>
-	<use href="defs.svg#eyes_male" x="18" y="13.5" fill="#662113" ts:skin="eyes" ts:gender="male"/>
-	<use href="defs.svg#eyes_female" x="17.99075" y="15.527" fill="#662113" ts:skin="eyes" ts:gender="female"/>
+	<use href="defs.svg#eyes_neutral" x="17.8745" y="13.9855" ts:skin="eyes2" ts:gender="neutral"/>
+	<use href="defs.svg#eyes_male" x="18" y="13.5" ts:skin="eyes" ts:gender="male"/>
+	<use href="defs.svg#eyes_female" x="17.99075" y="15.527" ts:skin="eyes" ts:gender="female"/>
 	<!-- nose -->
-	<use href="defs.svg#nose_neutral" x="17.874" y="18.274" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
-	<use href="defs.svg#nose_male" x="18.0" y="17.0" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
-	<use href="defs.svg#nose_female" x="17.9915" y="18.909" fill="#C1694F" ts:skin="nose" ts:gender="female"/>
+	<use href="defs.svg#nose_neutral" x="17.874" y="18.274" ts:skin="nose" ts:gender="neutral"/>
+	<use href="defs.svg#nose_male" x="18.0" y="17.0" ts:skin="nose" ts:gender="male"/>
+	<use href="defs.svg#nose_female" x="17.9915" y="18.909" ts:skin="nose" ts:gender="female"/>
 	<!-- mouth -->
-	<use href="defs.svg#mouth_neutral" x="18" y="22.731" fill="#C1694F" ts:skin="nose" ts:gender="neutral"/>
-	<use href="defs.svg#mouth_neutral" x="18" y="21.802" fill="#C1694F" ts:skin="nose" ts:gender="male"/>
+	<use href="defs.svg#mouth_neutral" x="18" y="22.731" ts:skin="nose" ts:gender="neutral"/>
+	<use href="defs.svg#mouth_neutral" x="18" y="21.802" ts:skin="nose" ts:gender="male"/>
 	<use href="defs.svg#mouth_female" x="17.945" y="22.452" fill="#DF1F32" ts:gender="female"/>
 </svg>

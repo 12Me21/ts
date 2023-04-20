@@ -358,7 +358,7 @@
 				orig = orig.documentElement
 			}
 			//
-			console.log(svg, orig)
+			//console.log(svg, orig)
 			clear()
 			 $controls.modified.value = modified + " - " + ((Date.now() - new Date(modified)) / 1000 / 60).toFixed(0) + " minutes ago"
 			if (orig)
@@ -411,6 +411,8 @@
 			skin: if (s) {
 				if (s=="eyes")
 					s = gender=="neutral" ? "eyes2" : "eyes1"
+				if (s=="mouth")
+					s = gender=="female" ? "lips" : "nose"
 				let ofs = 0
 				if (palette[s]) {
 					s = palette[s]
