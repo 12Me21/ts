@@ -3,7 +3,7 @@
 	<use href="defs.svg#hair_neutral" transform="translate(21.906 1.262) scale(1.049)" ts:skin="hair" ts:gender="neutral"/>
 	<path d="M19 0c-1.721 0-3.343.406-4.793 1.111C13.814 1.043 13.412 1 13 1 9.134 1 6 4.134 6 8v12h.018C6.201 26.467 11.489 31.656 18 31.656S29.799 26.467 29.982 20H30v-9c0-6.075-4.925-11-11-11z" ts:skin="hair" ts:gender="female"/>
 	<!-- body -->
-	<path d="M27 27H9c-2.209 0-4 1.791-4 4v5h26v-5c0-2.209-1.791-4-4-4z" fill="#FA743E" ts:gender-color="#4289C1,#9268CA"/>
+	<use href="defs.svg#shoulders_simple" x="18" fill="#FA743E" ts:gender-color="#4289C1,#9268CA"/>
 	<path d="M9 32h1v4H9z M26,32 h1v4h-1z" fill="#DD551F" ts:gender-color="#2A6797,#7450A8"/>
 	<!-- neck -->
 	<path d="M15 24v4c0 1.657 1.343 3 3 3s3-1.343 3-3v-4h-6z" ts:skin="skin"/>
@@ -17,8 +17,7 @@
 	<!-- nose -->
 	<rect x="16.5" y="18.5" width="3" height="1" rx="0.5" ts:skin="nose"/>
 	<!-- mouth -->
-	<circle cx="18" cy="23" ts:skin="nose" r="1" ts:gender="neutral,male"/>
-	<circle cx="18" cy="23" fill="#DF1F32" r="1" ts:gender="female"/>
+	<circle cx="18" cy="23" r="1" ts:skin="mouth"/>
 	<!-- hair -->
 	<path d="M18 .823c-7.019 0-10.139 4.684-10.139 8.588 0 3.903 1.343 4.986 1.56 3.903.78-3.903 3.12-5.101 3.12-5.101 4.68 3.904 3.9.781 3.9.781 4.679 4.684 2.34 0 2.34 0 1.56 1.562 6.239 1.562 6.239 1.562s.78 1.198 1.559 2.759c.78 1.562 1.56 0 1.56-3.903 0-3.905-3.9-8.589-10.139-8.589z" ts:skin="hair" ts:gender="male"/>
 	<path d="M27.999 5L26 4H8v7c6 0 6-6 6-6s2 7 14 7l-.001-7z" ts:skin="hair" ts:gender="female"/>
