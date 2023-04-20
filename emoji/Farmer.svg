@@ -1,7 +1,10 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
+	<!-- back hair -->
+	<path d="M25.152 3.3c-1.925-.623-5.876-.46-7.008 1.012-1.873.036-1.596 3.71-5.113 2.967-.738 1.004-1.259 2.198-1.424 3.476-.448 3.475.235 4.874.591 7.486.403 2.96 2.067 3.907 3.397 4.303 1.914 2.529 3.949 2.421 7.366 2.421 6.672 0 9.271-4.458 9.552-12.04.08-2.157-.473-4.067-1.584-5.649-3.837 1.49-3.213-3.146-5.777-3.976z" ts:skin="hair" ts:gender="neutral"/> <!-- special version for hats -->
+	<use href="defs.svg#hair_back_female" x="21.945" y="5.069" ts:skin="hair" ts:gender="female"/>
 	<!-- body -->
-	<path d="M36 36v-2c0-3.314-2.686-6-6-6H14c-3.313 0-6 2.686-6 6v2h28z" fill="#77B255" ts:gender="neutral,male"/>
-	<path d="M31 27.575c-.959-.372-1.996-.575-3-.575H16c-1.004 0-2.041.203-3 .575-2.207.855-4 2.614-4 4.925V36h26v-3.5c0-2.311-1.792-4.07-4-4.925z" fill="#77B255" ts:gender="female"/>
+	<use href="defs.svg#shoulders_male" x="22" fill="#77B255" ts:gender="neutral,male"/>
+	<use href="defs.svg#shoulders_female" x="22" fill="#77B255" ts:gender="female"/>
 	<!-- collar? -->
 	<path d="M22 34c.767 0 5-3 5-6H17c0 3 4.233 6 5 6z" fill="#3E721D" ts:gender="neutral,male"/>
 	<path d="M18 27h8l-4 7-4-7" fill="#3E721D" ts:gender="female"/>
@@ -9,9 +12,6 @@
 	<path d="M13 28h3v8h-3z M28,28 h3v8h-3z" fill="#3B88C3" ts:gender="neutral,male"/>
 	<path d="M13.125 35H31v1H13.125z" fill="#3B88C3" ts:gender="neutral,male"/>
 	<path d="M28 27v7.5H16V27c-1.004 0-2.041.203-3 .575V36h18v-8.425c-.959-.372-1.996-.575-3-.575z" fill="#269" ts:gender="female"/>
-	<!-- back hair -->
-	<path d="M25.152 3.3c-1.925-.623-5.876-.46-7.008 1.012-1.873.036-1.596 3.71-5.113 2.967-.738 1.004-1.259 2.198-1.424 3.476-.448 3.475.235 4.874.591 7.486.403 2.96 2.067 3.907 3.397 4.303 1.914 2.529 3.949 2.421 7.366 2.421 6.672 0 9.271-4.458 9.552-12.04.08-2.157-.473-4.067-1.584-5.649-3.837 1.49-3.213-3.146-5.777-3.976z" ts:skin="hair" ts:gender="neutral"/> <!-- special version for hats -->
-	<use href="defs.svg#hair_back_female" x="21.945" y="5.069" ts:skin="hair" ts:gender="female"/>
 	<!-- neck -->
 	<path d="M17.64 28.038c0 2.846 8.72 2.962 8.72 0v-3.749h-8.72v3.749z" ts:skin="skin" ts:gender="neutral,male"/>
 	<path d="M18.328 27.018c1.466 1.065 2.964.98 3.672.98s2.194.085 3.66-.98v-3.203h-7.332v3.203z" ts:skin="skin" ts:gender="female"/>

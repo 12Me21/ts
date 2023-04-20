@@ -1,20 +1,21 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
-	<!-- body -->
-	<path d="M32 36v-2c0-3.313-2.687-6-6-6H10c-3.313 0-6 2.687-6 6v2h28z" fill="#CE9E5D" ts:gender="neutral,male"/>
-	<path d="M31 36v-3.5c0-3.313-3.687-5.5-7-5.5H12c-3.313 0-7 2.187-7 5.5V36h26z" fill="#CE9E5D" ts:gender="female"/>
-	<path d="M4.09 33c-.055.326-.09.659-.09 1v2h28v-2c0-.341-.035-.674-.09-1H4.09z" fill="#FFF35F" ts:gender="neutral,male"/>
-	<path d="M5 33h26v3H5z" fill="#FFF35F" ts:gender="female"/>
-	<path d="M4 34h28v1H4z" fill="#CCD6DD" ts:gender="neutral,male"/>
-	<path d="M5.122 34h26v1h-26z" fill="#CCD6DD" ts:gender="female"/>
 	<!-- hat inside -->
 	<path d="M32 13.656c0 3.59-6.268 6.5-14 6.5s-14-2.91-14-6.5 6.268-2.5 14-2.5 14-1.09 14 2.5z" fill="#A0041E"/>
 	<!-- back hair -->
 	<use href="defs.svg#hair_neutral_narrow" x="21.152" y="3.3" ts:skin="hair" ts:gender="neutral"/>
 	<use href="defs.svg#hair_back_female" x="17.945" y="5.069" ts:skin="hair" ts:gender="female"/>
+	<!-- body -->
+	<use href="defs.svg#shoulders_male" x="18" fill="#CE9E5D" ts:gender="neutral,male"/>
+	<use href="defs.svg#shoulders_female" x="18" fill="#CE9E5D" ts:gender="female"/>
+	
+	<path d="M4.09 33c-.055.326-.09.659-.09 1v2h28v-2c0-.341-.035-.674-.09-1H4.09z" fill="#FFF35F" ts:gender="neutral,male"/>
+	<path d="M5 33h26v3H5z" fill="#FFF35F" ts:gender="female"/>
+	<path d="M4 34h28v1H4z" fill="#CCD6DD" ts:gender="neutral,male"/>
+	<path d="M5.122 34h26v1h-26z" fill="#CCD6DD" ts:gender="female"/>
 	<!-- clothes -->
 	<path d="M14 27h8s-1.018 7-4 7-4-7-4-7z" fill="#292F33" ts:gender="neutral,male"/>
 	<path d="M14 27h8s-1.018 5-4 5-4-5-4-5z" fill="#292F33" ts:gender="female"/>
-	<path d="M27 36v-9c0-.55-.45-1-1-1h-1c-.55 0-1 .45-1 1v9h3z M12,36 v-9c0-.55-.45-1-1-1h-1c-.55 0-1 .45-1 1v9h3z" fill="#292F33"/>
+	<path d="M27 36v-9c0-.55-.45-1-1-1h-1c-.55 0-1 .45-1 1v9h3z M12,36 v-9c0-.55-.45-1-1-1h-1c-.55 0-1 .45-1 1v9h3z" fill="#292F33"/> <!-- blanking layer, could be simpler -->
 	<!-- neck -->
 	<path d="M13.64 28.101c1.744 1.267 2.848 1.962 4.36 1.962 1.511 0 2.616-.696 4.36-1.962V24.29h-8.72v3.811z" ts:skin="skin" ts:gender="neutral,male"/>
 	<path d="M14.328 27.02c1.467 1.065 2.964.98 3.672.98s2.194.084 3.66-.98v-3.205h-7.332v3.205z" ts:skin="skin" ts:gender="female"/>

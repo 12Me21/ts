@@ -3,7 +3,7 @@
 	<use href="defs.svg#hair_neutral" x="21.597" y="1.368" ts:skin="hair" ts:gender="neutral"/>
 	<use href="defs.svg#hair_back_female" x="17.945" y="3.978" ts:skin="hair" ts:gender="female"/> <!-- wrong color hair in original -->
 	<!-- body -->
-	<path d="M32 36v-4c0-3.314-2.685-6-6-6H10c-3.313 0-6 2.686-6 6v4h28z" fill="#3B88C3" ts:gender="neutral,male"/>
+	<use href="defs.svg#shoulders_male_tall" x="18" fill="#3B88C3" ts:gender="neutral,male"/>
 	<path d="M31 36v-4.5c0-3.314-3.56-5.5-6.875-5.5h-12C8.812 26 5 28.186 5 31.5V36h26z" fill="#3B88C3" ts:gender="female"/>
 	<!-- stethoscope -->
 	<path d="M10 32.5H8c0-4.094 1.877-8.5 6-8.5v2c-3.164 0-4 4.252-4 6.5z M27,28.5 h-2c0-.411-.521-2.5-3-2.5v-2c3.533 0 5 2.931 5 4.5z" fill="#292F33" ts:gender="neutral,male"/>

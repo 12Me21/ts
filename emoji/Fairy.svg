@@ -7,7 +7,7 @@
 	<path d="M18.853 2c-2.024 0-3.893.647-5.426 1.737-3.15.164-5.662 2.749-5.662 5.94 0 2.63.012 5.943 3.477 7.177 1.703 2.365 4.474 3.911 7.611 3.911 5.181 0 9.382-4.2 9.382-9.381C28.235 6.201 24.034 2 18.853 2z" ts:skin="hair" ts:gender="male"/>
 	<use href="defs.svg#hair_back_female" x="17.945" y="5.069" ts:skin="hair" ts:gender="female"/>
 	<!-- body -->
-	<path d="M31 36v-3.5c0-3.314-3.685-5.5-7-5.5H12c-3.313 0-7 2.186-7 5.5V36h26z" ts:skin="skin"/>
+	<use href="defs.svg#shoulders_female" x="18" ts:skin="skin"/>
 	<!-- neck -->
 	<path d="M14 20.059v8c0 2.209 1.791 4 4 4s4-1.791 4-4v-8h-8z" ts:skin="skin" ts:gender="neutral"/>
 	<path d="M13.983 20.008v8.034c0 2.218 1.799 4.017 4.017 4.017s4.017-1.799 4.017-4.017v-8.034h-8.034z" ts:skin="skin" ts:gender="male"/>

@@ -3,8 +3,9 @@
 	<use href="defs.svg#hair_neutral_narrow" x="25.152" y="3.3" ts:skin="hair" ts:gender="neutral"/>
 	<use href="defs.svg#hair_back_female" x="21.945" y="5.069" ts:skin="hair" ts:gender="female"/>
 	<!-- shirt -->
-	<path d="M36 36v-2c0-3.314-2.686-6-6-6H14c-3.313 0-6 2.686-6 6v2h28z" fill="#3B88C3" ts:gender="neutral,male"/>
-	<path d="M35 36v-3.5c0-3.314-3.685-5.5-7-5.5H16c-3.313 0-7 2.186-7 5.5V36h26z" fill="#3B88C3" ts:gender="female"/>
+	<use href="defs.svg#shoulders_male" x="22" fill="#3B88C3" ts:gender="neutral,male"/>
+	<use href="defs.svg#shoulders_female" x="22" fill="#3B88C3" ts:gender="female"/>
+	
 	<path d="M22 35.999L16.4 27h11.2z" fill="#292F33" ts:gender="neutral,male"/>
 	<path d="M22 35.999L16 27h12z" fill="#292F33" ts:gender="female"/>
 	<!-- neck -->

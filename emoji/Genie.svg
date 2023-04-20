@@ -3,8 +3,10 @@
 	<path d="M21.597 3.6c-1.925-.623-6.455-.453-7.588 1.019-2.944.057-6.398 2.718-6.851 6.228-.448 3.475.551 5.088.906 7.701.403 2.96 2.067 3.907 3.397 4.303 1.914 2.529 3.949 2.421 7.366 2.421 6.672 0 9.85-4.464 10.131-12.047.17-4.585-2.521-8.059-7.361-9.625z" fill="#292F33" ts:gender="neutral"/>
 	<ellipse cx="18" cy="16" fill="#292F33" rx="12" ry="10" ts:gender="female"/>
 	<ellipse cx="18" cy="3.5" fill="#292F33" rx="4" ry="3.5" ts:gender="female"/>
-	<path d="M32 36v-2c0-3.313-2.687-6-6-6H10c-3.313 0-6 2.687-6 6v2h28z" fill="#88C9F9" ts:gender="neutral,male"/>
-	<path d="M31 36v-4.5c0-3.314-3.56-5.5-6.875-5.5h-12C8.812 26 5 28.186 5 31.5V36h26z" fill="#88C9F9" ts:gender="female"/>
+	<!-- body -->
+	<use href="defs.svg#shoulders_male" x="18" fill="#88C9F9" ts:gender="neutral,male"/>
+	<use href="defs.svg#shoulders_female_tall" x="18" fill="#88C9F9" ts:gender="female"/>
+	
 	<path d="M14 28.267l4 1.88 4-1.88V23.97h-8z" fill="#88C9F9" ts:gender="neutral"/>
 	<path d="M13.64 28.101c1.744 1.267 2.849 3.728 4.36 3.728 1.511 0 2.616-2.462 4.36-3.728V24.29h-8.72v3.811z " fill="#88C9F9" ts:gender="male"/>
 	<path d="M14.5 26.518c1.466 1.065 2.792.98 3.5.98s2.194.085 3.488-.949l.012-4.14h-7v4.109z" fill="#88C9F9" ts:gender="female"/>
