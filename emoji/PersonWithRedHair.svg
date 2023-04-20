@@ -16,7 +16,7 @@
 	<use href="defs.svg#nose_big" x="18" y="25" ts:skin="nose" ts:gender="neutral,male"/>
 	<use href="defs.svg#nose_big" x="18" y="24" ts:skin="nose" ts:gender="female"/>
 	<!-- mouth -->
-	<path d="M18 31c-2.347 0-3.575-1.16-3.707-1.293-.391-.391-.391-1.023 0-1.414.387-.387 1.013-.39 1.404-.01.051.047.806.717 2.303.717 1.519 0 2.273-.69 2.305-.719.398-.373 1.027-.362 1.408.029.379.393.38 1.011-.006 1.397C21.575 29.84 20.347 31 18 31z" ts:skin="mouth" ts:gender="neutral"/>
-	<path d="M18 31c-4.201 0-5.491-1.077-5.707-1.293-.391-.391-.391-1.023 0-1.414.378-.379.984-.39 1.376-.036.08.058 1.1.743 4.331.743 3.355 0 4.326-.739 4.336-.747.39-.389 1.001-.37 1.393.021.391.391.369 1.043-.021 1.434C23.491 29.923 22.201 31 18 31z" ts:skin="mouth" ts:gender="male"/>
-	<path d="M18 30c-2.347 0-3.575-1.16-3.707-1.293-.391-.391-.391-1.023 0-1.414.387-.387 1.013-.39 1.404-.01.051.047.806.717 2.303.717 1.519 0 2.273-.69 2.305-.719.398-.373 1.027-.362 1.408.029.379.393.38 1.011-.006 1.397C21.575 28.84 20.347 30 18 30z" ts:skin="mouth" ts:gender="female"/>
+	<use href="defs.svg#mouth_female_big" x="18" y="30" ts:skin="mouth" ts:gender="neutral"/>
+	<use href="defs.svg#mouth_male_big" x="18" y="30" ts:skin="mouth" ts:gender="male"/>
+	<use href="defs.svg#mouth_female_big" x="18" y="29" ts:skin="mouth" ts:gender="female"/>
 </svg>
