@@ -25,17 +25,17 @@
 	<use href="defs.svg#hair_male" transform="translate(17.546 5.243) scale(.87 .879)" ts:skin="hair" ts:gender="male"/>
 	<use href="defs.svg#hair_front_female" transform="translate(17.455 6.546) scale(.911)" ts:skin="hair" ts:gender="female"/>
 	<!-- eyes -->
-	<rect x="13.244" y="15.103" width="1.65" height="2.475" rx="0.825" ts:skin="eyes2" ts:gender="neutral"/><rect x="19.844" y="15.103" width="1.65" height="2.475" rx="0.825" ts:skin="eyes2" ts:gender="neutral"/>
-	<rect x="13.196" y="14.487" width="1.74" height="2.635" rx="0.87" ry="0.878" ts:skin="eyes" ts:gender="male"/><rect x="20.157" y="14.487" width="1.74" height="2.635" rx="0.87" ry="0.878" ts:skin="eyes" ts:gender="male"/> <!-- uneven -->
-	<rect x="13.644" y="15.913" width="1.541" height="2.311" rx="0.77075" ts:skin="eyes" ts:gender="female"/><rect x="19.806" y="15.913" width="1.542" height="2.311" rx="0.771" ts:skin="eyes" ts:gender="female"/>
+	<use href="defs.svg#eyes_male" transform="translate(17.369 16.3405) scale(.825)" ts:skin="eyes" ts:gender="neutral"/>
+	<rect x="13.196" y="14.487" width="1.74" height="2.635" rx="0.87" ry="0.878" ts:skin="eyes" ts:gender="male"/><rect x="20.157" y="14.487" width="1.74" height="2.635" rx="0.87" ry="0.878" ts:skin="eyes" ts:gender="male"/> <!-- uneven? -->
+	<use href="defs.svg#eyes_male" transform="translate(17.49575 17.0685) scale(.771)" ts:skin="eyes" ts:gender="female"/>
 	<!-- nose -->
 	<rect x="16.241" y="18.221" width="2.61" height="1.318" rx="0.652" ry="0.659" ts:skin="nose" ts:gender="male"/> <!-- uneven -->
 	<rect x="16.341" y="19.691" width="2.311" height="0.915" rx="0.385" ry="0.388" ts:skin="nose" ts:gender="female"/> <!-- uneven -->
 	<rect x="16.132" y="19.641" width="2.474" height="0.824" rx="0.412" ts:skin="nose" ts:gender="neutral"/>
 	<!-- mouth -->
-	<path d="M17.359 23.566c-2.396 0-3.132-.62-3.256-.745-.222-.225-.222-.59 0-.815.216-.218.562-.223.786-.02.045.032.627.428 2.47.428 1.915 0 2.466-.426 2.472-.431.223-.223.573-.213.796.014.223.225.21.6-.013.824-.123.125-.858.745-3.255.745 z" ts:skin="nose" ts:gender="neutral"/>
-	<path d="M17.546 23.099c-2.396 0-3.132-.62-3.256-.745-.222-.225-.222-.59 0-.815.216-.218.562-.223.786-.019.045.032.627.428 2.47.428 1.914 0 2.466-.426 2.472-.431.223-.223.573-.213.796.014.223.225.21.6-.013.824-.122.124-.858.744-3.255.744" ts:skin="nose" ts:gender="male"/>
-	<path d="M17.455 23.378c-1.464 0-2.229-.723-2.312-.807-.243-.244-.243-.639 0-.883.242-.238.631-.24.876-.004.032.029.502.447 1.436.447.946 0 1.417-.432 1.435-.449.25-.232.642-.226.877.018.237.246.237.631-.003.871-.08.084-.846.807-2.309.807" ts:skin="mouth" ts:gender="female"/>
+	<use href="defs.svg#mouth_male_big" transform="translate(17.359 22.99) scale(.57 .576)" ts:skin="mouth" ts:gender="neutral"/>
+	<use href="defs.svg#mouth_male_big" transform="translate(17.546 22.523) scale(.57 .576)" ts:skin="mouth" ts:gender="male"/>
+	<use href="defs.svg#mouth_female_big" transform="translate(17.455 22.775) scale(.623)" ts:skin="mouth" ts:gender="female"/>
 	<!-- balls -->
 	<path d="M5.895 14.205s-3.834 1.39-4.214 6.221c0 0-2.4-4.817-.522-10.149l4.736 3.928z M20.051,5.977 s-2.758-3.005-7.363-1.497c0 0 3.522-4.069 9.167-4.387l-1.804 5.884z M29.271,16.337 s1.972-3.571-.923-7.457c0 0 4.978 2.046 7.075 7.296l-6.152.161z" fill="#D1D3D4"/>
 	<circle cx="4.603" cy="10.986" fill="#5C913B" r="3.5"/>
