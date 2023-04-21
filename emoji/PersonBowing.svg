@@ -6,20 +6,27 @@
 	<!-- hair -->
 	<use href="defs.svg#hair_neutral1" x="18" y="29" ts:skin="hair" ts:gender="neutral"/>
 	<!-- neck -->
-	<circle cx="18" cy="28" ts:skin="dark" r="3"/>
+	<circle cx="18" cy="28" r="3" ts:skin="dark"/>
 	<!-- head -->
 	<use href="defs.svg#face_neutral1" x="18" y="30" ts:skin="skin" ts:gender="neutral"/>
-	<ellipse cx="9.059" cy="17.715" rx="1.788" ry="2.861" ts:skin="skin" ts:gender="male"/><ellipse cx="26.941" cy="17.715" rx="1.788" ry="2.861" ts:skin="skin" ts:gender="male"/>
-	<path d="M 9,7 l 5,-3 13,3 v 10 a 9,9 0 01 -18,0 v-10 z" ts:skin="skin" ts:gender="male"/>
-	<path d="M14 11s-.003 5.308-5 5.936V21c0 4.971 4.029 9 9 9s9-4.029 9-9v-3.019C15.89 17.605 14 11 14 11z " ts:skin="skin" ts:gender="female"/> <!-- !! -->
+	<use href="defs.svg#face_male_old" x="18" y="30" ts:skin="skin" ts:gender="male"/>
+	<path d="M14 11s-.003 5.308-5 5.936V21c0 4.971 4.029 9 9 9s9-4.029 9-9v-3.019C15.89 17.605 14 11 14 11z " ts:skin="skin" ts:gender="female"/> <!-- shorter face -->
 	<!-- hands -->
-	<path d="M17 34l-5-1-2-1H7l-1 4h11c1 0 1-1 1-1 0-.553-1-1-1-1z M26,32 l-2 1-5 1s-1 .447-1 1c0 0 0 1 1 1h11l-1-4h-3z" ts:skin="skin"/>
+	<path d="M 17,34 s 1,0.447 1,1 c 0,0 0,1 -1,1 h -11 l 1,-4 h 3 l 2,1 l 5,1 Z M 26,32 h 3 l 1,4 h -11 c -1,0 -1,-1 -1,-1 c 0,-0.553 1,-1 1,-1 l 5,-1 l 2,-1 Z" ts:skin="skin"/>
 	<!-- hair -->
-	<path d="M18 4.823c-7.019 0-10.139 4.684-10.139 8.588 0 3.903 1.343 4.986 1.56 3.903.78-3.903 3.12-5.101 3.12-5.101 4.68 3.904 3.9.781 3.9.781 4.679 4.684 2.34 0 2.34 0 1.56 1.562 6.239 1.562 6.239 1.562s.78 1.198 1.559 2.759c.78 1.562 1.56 0 1.56-3.903 0-3.905-3.9-8.589-10.139-8.589z" ts:skin="hair" ts:gender="male"/><!-- alt -->
+	<use href="defs.svg#hair_male2" x="18" y="4.823" ts:skin="hair" ts:gender="male"/>
 	<!-- eyes -->
 	<use href="defs.svg#eyes_male" x="18" y="20.5" ts:skin="eyes"/>
 	<!-- nose -->
-	<rect x="16.5" y="25.5" width="3" height="1" rx="0.5" ts:skin="nose"/>
+	<use href="defs.svg#nose_neutral1" x="18" y="26" ts:skin="nose"/>
 	<!-- lines -->
 	<path d="M5.499 8c-.209 0-.419-.065-.599-.2l-4-3C.458 4.469.369 3.842.7 3.4c.332-.441.958-.531 1.4-.2l4 3c.442.331.531.958.2 1.4-.197.262-.497.4-.801.4z M8.501,5 c-.323 0-.64-.156-.833-.445l-2-3c-.306-.46-.182-1.081.277-1.387.459-.307 1.08-.182 1.387.277l2 3c.306.459.182 1.081-.277 1.387-.171.114-.364.168-.554.168z M30.501,8 c-.305 0-.604-.138-.801-.4-.332-.442-.242-1.069.2-1.4l4-3c.44-.333 1.068-.242 1.399.2.332.442.242 1.069-.2 1.4l-4 3c-.179.135-.389.2-.598.2z M27.499,5 c-.19 0-.383-.054-.554-.168-.46-.306-.584-.927-.277-1.387l2-3c.306-.459.925-.585 1.387-.277.46.306.584.927.277 1.387l-2 3c-.193.289-.51.445-.833.445z" fill="#5DADEC"/>
+	<!--
+SOURCE:
+(i dont want to use strokes though, it's a pain to deal with)
+	<line x1="1.5" y1="4" x2="5.5" y2="7" stroke-linecap="round" stroke-width="2" stroke="#5DADEC"/>
+	<line x1="6.5" y1="1" x2="8.5" y2="4" stroke-linecap="round" stroke-width="2" stroke="#5DADEC"/>
+	<line x1="34.5" y1="4" x2="30.5" y2="7" stroke-linecap="round" stroke-width="2" stroke="#5DADEC"/>
+	<line x1="29.5" y1="1" x2="27.5" y2="4" stroke-linecap="round" stroke-width="2" stroke="#5DADEC"/>
+-->
 </svg>
