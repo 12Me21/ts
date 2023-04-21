@@ -4,8 +4,10 @@
 	<use href="defs.svg#hair_back_female" x="18.004" y="3.979" ts:skin="hair" ts:gender="female"/>
 	<!-- shirt -->
 	<path d="M32 36v-3c0-4-3.685-7-7-7H11c-3.313 0-7 3-7 7v3h28z" fill="#292F33" ts:gender="neutral"/>
-	<path d="M32 36v-4c0-3.314-2.685-6-6-6H10c-3.313 0-6 2.686-6 6v4h28z" fill="#292F33" ts:gender="male"/>
+	<use href="defs.svg#shoulders_male_tall" x="18" fill="#292F33" ts:gender="male"/>
 	<path d="M31 36v-4.5c0-3.314-3.56-5.5-6.875-5.5h-12C8.812 26 5 28.186 5 31.5V36h26z" fill="#292F33" ts:gender="female"/>
+	
+	
 	<path d="M13.5 30.003l-4.292-.916L11.12 26l2.38.003z" fill="#546170" ts:gender="neutral,male"/>
 	<path d="M22.5 30.003l4.292-.916L24.879 26l-2.379.003z" fill="#546170" ts:gender="neutral,male"/>
 	<path d="M13.95 29.603l-3.863-.825L11.808 26l2.142.003z" fill="#546170" ts:gender="female"/>
@@ -26,7 +28,7 @@
 	<use href="defs.svg#face_male" x="18" y="14.959" ts:skin="skin" ts:gender="male"/>
 	<use href="defs.svg#face_female" x="9.793" y="14.627" ts:skin="skin" ts:gender="female"/>
 	<!-- hair -->
-	<use href="defs.svg#hair_male" x="18" y="1.48" ts:skin="hair" ts:gender="male"/>
+	<use href="defs.svg#hair_male1" x="18" y="1.48" ts:skin="hair" ts:gender="male"/>
 	<use href="defs.svg#hair_front_female" x="18.004" y="3.979" ts:skin="hair" ts:gender="female"/>
 	<use href="defs.svg#ears_female" x="18.058" y="14.8445" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->
@@ -38,9 +40,9 @@
 	<use href="defs.svg#nose_male" x="18.0" y="17.0" ts:skin="nose" ts:gender="male"/>
 	<use href="defs.svg#nose_female" x="18.0505" y="18.909" ts:skin="nose" ts:gender="female"/>
 	<!-- mouth -->
-	<use href="defs.svg#mouth_neutral" x="18" y="22.88" ts:skin="nose" ts:gender="neutral"/>
-	<use href="defs.svg#mouth_neutral" x="18" y="21.802" ts:skin="nose" ts:gender="male"/>
-	<use href="defs.svg#mouth_female" x="18.004" y="22.452" fill="#DF1F32" ts:gender="female"/>
+	<use href="defs.svg#mouth_neutral" x="18" y="22.88" ts:skin="mouth" ts:gender="neutral"/>
+	<use href="defs.svg#mouth_neutral" x="18" y="21.802" ts:skin="mouth" ts:gender="male"/>
+	<use href="defs.svg#mouth_female" x="18.004" y="22.452" ts:skin="mouth" ts:gender="female"/>
 	<!-- collar -->
 	<path d="M13.927 24.744L18 27.637l-2.656 2.818-3.011-4.472z M22.073,24.744 L18 27.637l2.656 2.818 3.011-4.472z" fill="#F4F7F9" ts:gender="neutral,male"/>
 	<path d="M14.294 24.872L18 26.966l-2.417 2.564-2.74-3.53z M21.706,24.872 L18 26.966l2.417 2.564 2.74-3.53z" fill="#F4F7F9" ts:gender="female"/>

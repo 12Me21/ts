@@ -11,14 +11,14 @@
 	<rect x="20" y="23" width="9" height="4" fill="#E1E8ED"/>
 	<rect x="31" y="26.5" width="5" height="6.5" fill="#E1E8ED"/>
 	<!-- back hair -->
-	<use href="defs.svg#hair_neutral" transform="translate(21.33 3.975) scale(.895)" ts:skin="hair" ts:gender="neutral"/>
+	<use href="defs.svg#hair_neutral1" transform="translate(18 25.068) scale(.853)" ts:skin="hair" ts:gender="neutral"/>
 	<use href="defs.svg#hair_back_female" x="17.945" y="3.978" ts:skin="hair" ts:gender="female"/>
 	<!-- back towel -->
 	<path d="M23.35 20c1.014.324 2.845 1.15 2.65 2.941 1.924.357 2.306 1.966 2.436 2.907.248 1.79-7.436-.198-7.436-.198l-1-3.482L23.35 20z M12.970,20.5 c-.769.185-2.749.5-3.64 2.793-1.99 0-2.33 2.02-2.33 3.538 0 2.253 7.336 1.955 8.495.678 1.158-1.277.784-5.36.784-5.36L12.97 20.5z" fill="#77B255" ts:gender="male"/>
 	<!-- body -->
 	<!-- neutral form doesnt have body layer since it's covered by clothing later -->
-	<path d="M31 36v-4.5c0-3.314-3.56-5.5-6.875-5.5h-12C8.812 26 5 28.186 5 31.5V36h26z" ts:skin="skin" ts:gender="female"/>
-	<path d="M32 36v-4c0-3.314-2.685-6-6-6H10c-3.313 0-6 2.686-6 6v4h28z" ts:skin="skin" ts:gender="male"/>
+	<use href="defs.svg#shoulders_female_tall" x="18" ts:skin="skin" ts:gender="female"/>
+	<use href="defs.svg#shoulders_male_tall" x="18" ts:skin="skin" ts:gender="male"/>
 	<!-- neck -->
 	<path d="M 15.442,21.658 h 5.116 v 10.232 h -5.116 Z" ts:skin="skin" ts:gender="neutral"/>
 	<path d="M13.667 27.122L18 31.001l4.316-2.627L22 22h-8z" ts:skin="skin" ts:gender="male"/>
@@ -28,14 +28,14 @@
 	<path d="M14 24c1.216 1.374 2.355 1.719 3.996 1.719 1.639 0 2.787-.346 4.004-1.719v-4h-8v4z" ts:skin="dark" ts:gender="male"/>
 	<path d="M14.322 24.088c1.022 1.155 2.29 1.468 3.668 1.468 1.379 0 2.647-.312 3.67-1.468v-2.937h-7.338v2.937z" ts:skin="dark" ts:gender="female"/>
 	<!-- face -->
-	<path d="M24.744 12.876c-.578-.8-1.317-1.444-2.938-1.672.608.279 1.19 1.241 1.266 1.773.076.532.152.963-.329.431-1.928-2.131-4.027-1.292-6.108-2.593C15.182 9.906 14.74 8.9 14.74 8.9s-.177 1.342-2.381 2.71c-.639.397-1.401 1.279-1.824 2.583-.304.937-.21 1.773-.21 3.201 0 4.169 3.436 7.674 7.674 7.674s7.674-3.536 7.674-7.674c.001-2.593-.27-3.606-.929-4.518z" ts:skin="skin" ts:gender="neutral"/>
+	<use href="defs.svg#face_neutral1" transform="translate(18 25.068) scale(0.853)" ts:skin="skin" ts:gender="neutral"/>
 	<use href="defs.svg#face_male" x="18" y="14.959" ts:skin="skin" ts:gender="male"/>
 	<use href="defs.svg#face_female" x="9.734" y="14.627" ts:skin="skin" ts:gender="female"/>
 	<!-- hair -->
-	<use href="defs.svg#hair_male" x="18" y="1.48" ts:skin="hair" ts:gender="male"/>
+	<use href="defs.svg#hair_male1" x="18" y="1.48" ts:skin="hair" ts:gender="male"/>
 	<use href="defs.svg#hair_front_female" x="17.945" y="3.978" ts:skin="hair" ts:gender="female"/>
 	<!-- eyes -->
-	<rect x="13.736" y="13.983" width="1.706" height="2.559" rx="0.853" ts:skin="eyes2" ts:gender="neutral"/><rect x="20.558" y="13.983" width="1.706" height="2.559" rx="0.853" ts:skin="eyes2" ts:gender="neutral"/>
+	<use href="defs.svg#eyes_male" transform="translate(18 15.25) scale(0.853)" ts:skin="eyes2" ts:gender="neutral"/>
 	<use href="defs.svg#eyes_male" x="18" y="13.5" ts:skin="eyes2" ts:gender="male"/>
 	<use href="defs.svg#eyes_female" x="17.99075" y="15.527" ts:skin="eyes2" ts:gender="female"/>
 	<!-- nose -->
