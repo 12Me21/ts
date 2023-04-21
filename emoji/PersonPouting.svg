@@ -13,13 +13,12 @@
 	<use href="defs.svg#face_neutral1" x="18" y="26" ts:skin="skin" ts:gender="neutral"/>
 	<use href="defs.svg#face_male_old" x="18" y="26" ts:skin="skin" ts:gender="male"/>
 	<use href="defs.svg#face_female_old" x="18" y="26" ts:skin="skin" ts:gender="female"/>
+	<!-- hair -->
+	<use href="defs.svg#hair_male2" x="18" y="0.823" ts:skin="hair" ts:gender="male"/>
 	<!-- eyes -->
 	<use href="defs.svg#eyes_male" x="18" y="14.5" ts:skin="eyes"/>
 	<!-- nose -->
 	<use href="defs.svg#nose_neutral1" x="18" y="19" ts:skin="nose"/>
 	<!-- mouth -->
-	<circle cx="18" cy="23" r="1" ts:skin="mouth"/>
-	<!-- hair -->
-	<path d="M18 .823c-7.019 0-10.139 4.684-10.139 8.588 0 3.903 1.343 4.986 1.56 3.903.78-3.903 3.12-5.101 3.12-5.101 4.68 3.904 3.9.781 3.9.781 4.679 4.684 2.34 0 2.34 0 1.56 1.562 6.239 1.562 6.239 1.562s.78 1.198 1.559 2.759c.78 1.562 1.56 0 1.56-3.903 0-3.905-3.9-8.589-10.139-8.589z" ts:skin="hair" ts:gender="male"/>
-	
+	<circle cx="18" cy="23" r="1" ts:skin="mouth"/>	
 </svg>

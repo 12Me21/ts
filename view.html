@@ -56,8 +56,9 @@
 	}*/
 	input {
 		min-width: 1em;
+		vertical-align: top;
 	}
-	input[type=checkbox] {
+	input[type=checkbox], input[type=range] {
 		appearance: auto;
 	}
 	
@@ -87,7 +88,7 @@
 		display: inline-grid;
 		grid-template-columns: auto auto auto auto auto;
 		column-gap: 0.75ch;
-		row-gap: 4px;
+		row-gap: 2px;
 		align-items: center;
 		margin-bottom: 0.5em;
 	}
@@ -111,7 +112,7 @@
 		color: white;
 		font-weight: bold;
 		display: block;
-		line-height: 1.5em;
+		line-height: 1.2em;
 		padding: 0 3px;
 		line-break: anywhere;
 		white-space: pre-wrap;
@@ -168,7 +169,7 @@
 
 <body>
 
-<form method=dialog id=$controls>
+<form method=dialog id=$form>
 	<div class='field-table'>
 		<label>
 			<span>Name:</span><input list=$emojinames name=name value="PersonBouncingBall" style='grid-column-end: -2'>
@@ -193,13 +194,15 @@
 		<option value="female"></option>
 		<option value="mixed"></option>
 	</datalist>
-	
-	<div>
-		<label>Show Orig<input autocomplete=off type=checkbox name=hide></label>
-		<label>Difference<input autocomplete=off type=checkbox name=diff></label>
-	</div>
 </form>
-<div id=$box class='compare-box'></div>
+<div>
+	<form id=$controls>
+		<label style="line-height: 1.5;">Show: <input autocomplete=off type=range min=0 max=2 name=diff></label>
+		<!--<label>Original<input autocomplete=off type=checkbox name=hide></label>
+		<label>Difference<input autocomplete=off type=checkbox name=diff></label>-->
+	</form>
+	<div id=$box class='compare-box'></div>
+</div>
 <div id=$layers class='scroll'></div>
 
 <script>
@@ -226,19 +229,15 @@
 	if (location=='file:///home/twelve/Code/twemoji-COLR/ts/view.html')
 		window.TWEMOJI_BASE = '../twemoji/assets/svg/'
 	
-	Object.assign($controls, {
-		onchange(ev) {
-			if (ev.target.name=='hide')
-				this.diff.checked = false
-			if (ev.target.name=='diff')
-				this.hide.checked = false
-			$box.classList.toggle('hide', this.hide.checked)
-			$box.classList.toggle('diff', this.diff.checked)
-		},
-		onsubmit(ev) {
-			window.go(this.name.value, this.variant.value, this.color.value)
-		},
-	})
+	$form.onsubmit = function(ev) {
+		window.go(this.name.value, this.variant.value, this.color.value)
+	}
+	$controls.oninput = function(ev) {
+		let v = this.diff.value
+		console.log(v)
+		$box.classList.toggle('hide', v==0)
+		$box.classList.toggle('diff', v==2)
+	}
 	
 	function load(file) {
 		let x = new XMLHttpRequest()
@@ -283,10 +282,10 @@
 	
 	function clear() {
 		$box.replaceChildren()
-		$controls.modified.value = ""
-		$controls.current.value = ""
-		$controls.codes.value = ""
-		$controls.filename.value = ""
+		$form.modified.value = ""
+		$form.current.value = ""
+		$form.codes.value = ""
+		$form.filename.value = ""
 	}
 	
 	let layer = HTML`
@@ -363,15 +362,15 @@
 			//
 			//console.log(svg, orig)
 			clear()
-			 $controls.modified.value = modified + " - " + ((Date.now() - new Date(modified)) / 1000 / 60).toFixed(0) + " minutes ago"
+			 $form.modified.value = modified + " - " + ((Date.now() - new Date(modified)) / 1000 / 60).toFixed(0) + " minutes ago"
 			if (orig)
 				$box.append(orig)
 			$box.append(svg)
 			//$controls.name.value = name
 			//$controls.variant.value = variant
-			$controls.current.value = name+" / "+variant+" / "+palette
-			$controls.codes.value = codes[0].join(" ").replace(/0x/g,"")
-			$controls.filename.value = codes[1]+".svg"
+			$form.current.value = name+" / "+variant+" / "+palette
+			$form.codes.value = codes[0].join(" ").replace(/0x/g,"")
+			$form.filename.value = codes[1]+".svg"
 			show_layers(svg)
 			ok = true
 		} finally {

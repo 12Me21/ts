@@ -1,9 +1,9 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
 	<!-- back hair -->
-	<use href="defs.svg#hair_neutral" transform="translate(16.906 1.262) scale(1.049)" ts:skin="hair" ts:gender="neutral"/>
-	<path d="M14 0c-1.721 0-3.343.406-4.793 1.111C8.814 1.043 8.412 1 8 1 4.134 1 1 4.134 1 8v12h.018C1.201 26.467 6.489 31.656 13 31.656c6.511 0 11.799-5.189 11.982-11.656H25v-9c0-6.075-4.925-11-11-11z" ts:skin="hair" ts:gender="female"/>
+	<use href="defs.svg#hair_neutral1" x="13" y="26" ts:skin="hair" ts:gender="neutral"/>
+	<use href="defs.svg#hair_back_female_old" x="13" y="26" ts:skin="hair" ts:gender="female"/>
 	<!-- body -->
-	<path d="M22 27H4c-2.209 0-4 1.791-4 4v5h26v-5c0-2.209-1.791-4-4-4z" fill="#FA743E" ts:gender-color="#4289C1,#9268CA"/>
+	<use href="defs.svg#shoulders_simple" x="13" fill="#FA743E" ts:gender-color="#4289C1,#9268CA"/>
 	<!-- arm -->
 	<path d="M29 36h-7l1-17h6z" fill="#FA743E" ts:gender-color="#4289C1,#9268CA"/>
 	<rect x="4" y="32" width="1" height="4" fill="#DD551F" ts:gender-color="#2A6797,#7450A8"/>
@@ -12,19 +12,17 @@
 	<path d="M31.541 15.443c-.144-.693-.822-1.139-1.517-.997L27.35 15H25c-1.104 0-2 .896-2 2v2h5c1.079 0 1.953-.857 1.992-1.927l.355-.073H31c0-.074-.028-.144-.045-.216.444-.276.698-.799.586-1.341z" ts:skin="dark"/>
 	<path d="M36 16c0-.552-.447-1-1-1l-6 1h-5c-.553 0-1 .448-1 1v2h6l6-2s1-.447 1-1z" ts:skin="skin"/>
 	<!-- neck -->
-	<path d="M10 22v6c0 1.657 1.343 3 3 3s3-1.343 3-3v-6h-6z" ts:skin="skin"/>
+	<use href="defs.svg#neck_old" x="13" y="31" ts:skin="skin"/>
 	<!-- head -->
-	<path d="M20.909 11.701c-.677-.938-1.545-1.693-3.446-1.96.713.327 1.396 1.455 1.485 2.079.089.624.178 1.129-.386.505-2.26-2.499-4.722-1.515-7.162-3.041-1.704-1.067-2.223-2.246-2.223-2.246s-.208 1.574-2.792 3.178c-.749.465-1.643 1.5-2.139 3.03C3.889 14.345 4 15.325 4 17c0 4.889 4.029 9 9 9s9-4.147 9-9c0-3.041-.319-4.229-1.091-5.299z" ts:skin="skin" ts:gender="neutral"/>
-	<ellipse cx="4.059" cy="13.715" rx="1.788" ry="2.861" ts:skin="skin" ts:gender="male"/><ellipse cx="21.941" cy="13.715" rx="1.788" ry="2.861" ts:skin="skin" ts:gender="male"/>
-	<path d="M4 5.938V17c0 4.971 4.029 9 9 9s9-4.029 9-9V6.25L4 5.938z" ts:skin="skin" ts:gender="male"/>
-	<path d="M9 5s-.003 5.308-5 5.936V17c0 4.971 4.029 9 9 9s9-4.029 9-9v-5.019C10.89 11.605 9 5 9 5z" ts:skin="skin" ts:gender="female"/>
+	<use href="defs.svg#face_neutral1" x="13" y="26" ts:skin="skin" ts:gender="neutral"/>
+	<use href="defs.svg#face_male_old" x="13" y="26" ts:skin="skin" ts:gender="male"/>
+	<use href="defs.svg#face_female_old" x="13" y="26" ts:skin="skin" ts:gender="female"/>
 	<!-- hair -->
-	<path d="M13 .823C5.981.823 2.861 5.507 2.861 9.411c0 3.903 1.343 4.986 1.56 3.903.78-3.903 3.12-5.101 3.12-5.101 4.68 3.904 3.9.781 3.9.781 4.679 4.684 2.34 0 2.34 0 1.56 1.562 6.239 1.562 6.239 1.562s.78 1.198 1.559 2.759c.78 1.562 1.56 0 1.56-3.903 0-3.905-3.9-8.589-10.139-8.589z" ts:skin="hair" ts:gender="male"/>
+	<use href="defs.svg#hair_male2" x="13" y="0.823" ts:skin="hair" ts:gender="male"/>
 	<!-- eyes -->
-	<rect x="8" y="13" width="2" height="3" rx="1" ts:skin="eyes2"/><rect x="16" y="13" width="2" height="3" rx="1" ts:skin="eyes2"/>
+	<use href="defs.svg#eyes_male" x="13" y="14.5" ts:skin="eyes"/>
 	<!-- nose -->
-	<rect x="11.5" y="18.5" width="3" height="1" rx="0.5" ts:skin="nose"/>
+	<use href="defs.svg#nose_neutral1" x="13" y="19" ts:skin="nose"/>
 	<!-- mouth -->
-	<path d="M17 22H9s1 2 4 2 4-2 4-2z" ts:skin="nose" ts:gender="neutral,male"/>
-	<path d="M17 22H9s1 2 4 2 4-2 4-2z" ts:skin="mouth" ts:gender="female"/>
+	<use href="defs.svg#mouth_smile_old" x="13" y="24" ts:skin="mouth"/>
 </svg>
