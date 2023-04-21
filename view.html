@@ -32,6 +32,7 @@
 	* {
 		font-family: unset;
 		font-size: unset;
+		word-wrap: break-word;
 	}
 	* {
 		appearance: none;
@@ -122,10 +123,11 @@
 	}
 	
 	.layer-box {
+		line-break: anywhere;
 		display: grid;
 		grid-template:
-			'svg row1' 1fr
-		'svg row2' 1fr
+			'svg row1' auto
+		'svg row2' auto
 			/ auto 150px;
 		margin: 4px;
 		column-gap: 4px;
