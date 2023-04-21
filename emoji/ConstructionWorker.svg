@@ -44,7 +44,7 @@
 	<!-- mouth -->
 	<use href="defs.svg#mouth_neutral" x="18" y="24.467" ts:skin="nose" ts:gender="neutral"/>
 	<use href="defs.svg#mouth_neutral" x="18" y="23.802" ts:skin="nose" ts:gender="male"/>
-	<use href="defs.svg#mouth_female" x="17.945" y="23.543" fill="#DF1F32" ts:gender="female"/>
+	<use href="defs.svg#mouth_female" x="17.945" y="23.543" ts:skin="mouth" ts:gender="female"/>
 	<!-- collar -->
 	<path d="M10.5 27c0 1.068 1.5 3.662 3.5 5.798C15.581 34.485 18 36 18 36c0-3.271-1-4.27-2-5.338-1-1.066-3-1.526-3-3.662 0-1.066-2.5 0-2.5 0m15 0c0 1.068-1.5 3.662-3.5 5.798C20.419 34.485 18 36 18 36c0-3.271 1-4.27 2-5.338 1-1.066 3-1.526 3-3.662 0-1.066 2.5 0 2.5 0" fill="#55ACEE" ts:gender="female"/>
 	<path d="M11 28c0 1 1 3 3 5 1.582 1.581 4 3 4 3 0-3.063-1-4-2-5s-3-2-3-4c0-1-2 1-2 1m14 0c0 1-1 3-3 5-1.58 1.581-4 3-4 3 0-3.063 1-4 2-5s3-2 3-4c0-1 2 1 2 1" fill="#55ACEE" ts:gender="neutral,male"/>

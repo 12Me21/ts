@@ -44,7 +44,7 @@
 	<!-- mouth -->
 	<path d="M14.558 11.141h-4.132s.517 1.033 2.066 1.033 2.066-1.033 2.066-1.033z " ts:skin="nose" ts:gender="neutral"/>
 	<path d="M14.267 11.223h-3.728s0 .932 1.864.932 1.864-.932 1.864-.932z" ts:skin="nose" ts:gender="male"/>
-	<path d="M14.419 11.244h-3.714s0 .928 1.857.928 1.857-.928 1.857-.928z" fill="#DF1F32" ts:gender="female"/>
+	<path d="M14.419 11.244h-3.714s0 .928 1.857.928 1.857-.928 1.857-.928z" ts:skin="mouth" ts:gender="female"/>
 	
 	<!-- front hair -->
 	<use href="defs.svg#hair_male" transform="translate(12.403 1.013) scale(.5664)" fill="#4292E0" ts:gender="male"/>

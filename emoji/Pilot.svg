@@ -30,7 +30,7 @@
 	<!-- mouth -->
 	<use href="defs.svg#mouth_neutral" x="18" y="24.704" ts:skin="nose" ts:gender="neutral"/>
 	<use href="defs.svg#mouth_neutral" x="18" y="23.802" ts:skin="nose" ts:gender="male"/>
-	<use href="defs.svg#mouth_female" x="17.944" y="23.543" fill="#DF1F32" ts:gender="female"/>
+	<use href="defs.svg#mouth_female" x="17.944" y="23.543" ts:skin="mouth" ts:gender="female"/>
 	<!-- tie -->
 	<path d="M18.001 30.878s3.381 2.494 4.093 2.778c.156.063-.366-3.656-.366-3.656h-7.454s-.524 3.781-.232 3.625c.639-.343 3.959-2.747 3.959-2.747" fill="#99AAB5"/>
 	<path d="M19.312 33.438s.375-.625.531-.906c.183-.329.453-1.57.453-1.57L18.108 30c0-.007-.16.006-.16.006l-.184.042-.172.062c-.218.07.094.008.094.015l-1.974.837s.287 1.241.47 1.57c.156.281.528.906.528.906s-.753.562-1.035 2.563h4.668c-.281-1.595-1.031-2.563-1.031-2.563" fill="#292F33"/>

@@ -36,7 +36,7 @@
 	<!-- mouth -->
 	<path d="M21.749 22.168h-7.498s.937 1.875 3.749 1.875 3.749-1.875 3.749-1.875z " ts:skin="nose" ts:gender="neutral"/>
 	<path d="M21.412 22.471h-6.824s0 1.706 3.412 1.706 3.412-1.706 3.412-1.706z " ts:skin="nose" ts:gender="male"/>
-	<use href="defs.svg#mouth_female" x="17.945" y="23.543" fill="#DF1F32" ts:gender="female"/>
+	<use href="defs.svg#mouth_female" x="17.945" y="23.543" ts:skin="mouth" ts:gender="female"/>
 	<!-- clothes -->
 	<path d="M25 27h-3s-.938 6-4 6-4-6-4-6h-3c-3 0-4 1-4 1s2 2 2 5v3h18v-3c0-2.983 2-5 2-5s-1-1-4-1z" fill="#FA743E" ts:gender="neutral"/>
 	<path d="M25 27h-3l-4 6-4-6h-3c-3 0-4 1-4 1l2 5v3h18v-3l2-5s-1-1-4-1z" fill="#5C913B" ts:gender="male"/>

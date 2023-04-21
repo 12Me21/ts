@@ -28,5 +28,5 @@
 	<rect x="16.5" y="18.5" width="3" height="1" rx="0.5" ts:skin="nose"/>
 	<!-- mouth -->
 	<rect x="19.5" y="22" width="1.5" height="1" rx="0.5" ts:skin="nose" ts:gender="neutral,male"/>
-	<rect x="19.5" y="22" width="1.5" height="1" rx="0.5" fill="#DF1F32" ts:gender="female"/>
+	<rect x="19.5" y="22" width="1.5" height="1" rx="0.5" ts:skin="mouth" ts:gender="female"/>
 </svg>

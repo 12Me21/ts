@@ -11,7 +11,7 @@
 	<!-- nose -->
 	<use href="defs.svg#nose_female" x="17.9915" y="20.0" ry="0.4235" ts:skin="nose"/>
 	<!-- mouth -->
-	<use href="defs.svg#mouth_female" x="17.944" y="23.543" fill="#DF1F32"/>
+	<use href="defs.svg#mouth_female" x="17.944" y="23.543" ts:skin="mouth"/>
 	<!-- headscarf (continued) -->
 	<path d="M10 17s3-5 8-5 8 5 8 5-1-8-8-8-8 8-8 8z" fill="#553788"/>
 </svg>

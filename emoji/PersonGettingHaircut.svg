@@ -20,7 +20,7 @@
 	<rect x="6.5" y="18.5" width="3" height="1" rx="0.5" ts:skin="nose"/>
 	<!-- mouth -->
 	<path d="M12 22H4s1 2 4 2 4-2 4-2z " ts:skin="nose" ts:gender="neutral,male"/>
-	<path d="M12 21H4s1 2 4 2 4-2 4-2z" fill="#DF1F32" ts:gender="female"/>
+	<path d="M12 21H4s1 2 4 2 4-2 4-2z" ts:skin="mouth" ts:gender="female"/>
 	<!-- scissors -->
 	<path d="M24 6v21s2-1 2-3V6h-2z" fill="#9AAAB4" ts:gender="neutral,female"/>
 	<path d="M22.143 21.74l-.001-21s2 1 2 3l.001 18h-2z" fill="#9AAAB4" ts:gender="male"/>

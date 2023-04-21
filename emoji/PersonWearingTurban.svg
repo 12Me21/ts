@@ -33,7 +33,7 @@
 	<use href="defs.svg#nose_female" x="17.9915" y="20.0" ry="0.4235" ts:skin="nose" ts:gender="female"/>
 	<!-- mouth -->
 	<path d="M22 24h-8s1 2 4 2 4-2 4-2z " ts:skin="nose" ts:gender="neutral"/> <!-- old shape -->
-	<use href="defs.svg#mouth_female" x="17.944" y="23.543" fill="#DF1F32" ts:gender="female"/>
+	<use href="defs.svg#mouth_female" x="17.944" y="23.543" ts:skin="mouth" ts:gender="female"/>
 	<!-- turban -->
 	<path d="M18.295 9.73s9.543 2.516 11.006 7.046c.638-1.383 1.008-4.409 1.008-6.118 0-5.197-4.005-8.962-10.512-8.962h-3.003c-5.506 0-10.512 3.765-10.512 8.962 0 1.708.37 4.96 1.007 6.342 1.463-4.532 11.006-7.27 11.006-7.27z" fill="#E6E7E8" ts:gender="neutral"/>
 	<path d="M18 9.934s7.149 1.858 8.245 5.204c.478-1.021.755-3.257.755-4.518C27 6.781 24 4 19.125 4h-2.25C12.75 4 9 6.781 9 10.62c0 1.262.277 3.664.754 4.684C10.851 11.957 18 9.934 18 9.934z" fill="#E6E7E8" ts:gender="male"/>

@@ -25,12 +25,12 @@
 	<use href="defs.svg#eyes_female" x="21.99075" y="13.1175" ts:skin="eyes" ts:gender="female"/>
 	<!-- nose -->
 	<use href="defs.svg#nose_neutral" x="21.008" y="17.437" ts:skin="nose" ts:gender="neutral"/>
-	<use href="defs.svg#nose_male" x="21.0" y="16.0" ts:skin="nose" ts:gender="male"/>
+	<use href="defs.svg#nose_male" x="21" y="16" ts:skin="nose" ts:gender="male"/>
 	<use href="defs.svg#nose_female" x="21.9915" y="16.5" ry="0.4235" ts:skin="nose" ts:gender="female"/>
 	<!-- mouth -->
 	<use href="defs.svg#mouth_neutral" x="21.134" y="21.894" ts:skin="nose" ts:gender="neutral"/>
 	<use href="defs.svg#mouth_neutral" x="21" y="20.802" ts:skin="nose" ts:gender="male"/>
-	<use href="defs.svg#mouth_female" x="21.944" y="20.043" fill="#DF1F32" ts:gender="female"/>
+	<use href="defs.svg#mouth_female" x="21.944" y="20.043" ts:skin="mouth" ts:gender="female"/>
 	<!-- laptop -->
 	<rect x="21" y="34" width="12" height="2" rx="1" fill="#E1E8ED"/>
 	<path d="M20.24 22H3.759c-1.524 0-3.478.771-2.478 3.531l3.072 8.475C4.354 34.006 4.75 36 7 36h20l-4-11.24c-.438-1.322-1.235-2.76-2.76-2.76z" fill="#E1E8ED"/>

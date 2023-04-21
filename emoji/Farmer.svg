@@ -36,7 +36,7 @@
 	<!-- mouth -->
 	<use href="defs.svg#mouth_neutral" x="22.134" y="24.657" ts:skin="nose" ts:gender="neutral"/>
 	<use href="defs.svg#mouth_neutral" x="22" y="23.802" ts:skin="nose" ts:gender="male"/>
-	<use href="defs.svg#mouth_female" x="21.945" y="23.543" fill="#DF1F32" ts:gender="female"/>
+	<use href="defs.svg#mouth_female" x="21.945" y="23.543" ts:skin="mouth" ts:gender="female"/>
 	<!-- pitchfork handle -->
 	<path d="M7 31.75c0-.69-.56-1.25-1.25-1.25s-1.25.56-1.25 1.25V36H7v-4.25z" fill="#C1694F"/>
 	<!-- hat -->

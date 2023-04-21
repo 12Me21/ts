@@ -44,5 +44,5 @@
 	<!-- mouth -->
 	<path d="M20.271 11.916h-4.518s.565 1.13 2.259 1.13 2.259-1.13 2.259-1.13z " ts:skin="nose" ts:gender="neutral"/>
 	<path d="M19.982 12.057h-3.964s0 .991 1.982.991 1.982-.991 1.982-.991z" ts:skin="nose" ts:gender="male"/>
-	<path d="M20 12h-4s0 1 2 1 2-1 2-1z" fill="#DF1F32" ts:gender="female"/>
+	<path d="M20 12h-4s0 1 2 1 2-1 2-1z" ts:skin="mouth" ts:gender="female"/>
 </svg>

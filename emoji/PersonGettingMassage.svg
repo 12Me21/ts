@@ -37,5 +37,5 @@
 	<rect x="16.5" y="18.5" width="3" height="1" rx="0.5" ts:skin="nose"/>
 	<!-- mouth -->
 	<ellipse cx="18.001" cy="22" rx="2" ry="1" ts:skin="nose" ts:gender="neutral,male"/>
-	<ellipse cx="18.001" cy="22" rx="2" ry="1" fill="#DF1F32" ts:gender="female"/>
+	<ellipse cx="18.001" cy="22" rx="2" ry="1" ts:skin="mouth" ts:gender="female"/>
 </svg>

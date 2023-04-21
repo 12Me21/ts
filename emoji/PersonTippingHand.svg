@@ -26,5 +26,5 @@
 	<rect x="11.5" y="18.5" width="3" height="1" rx="0.5" ts:skin="nose"/>
 	<!-- mouth -->
 	<path d="M17 22H9s1 2 4 2 4-2 4-2z" ts:skin="nose" ts:gender="neutral,male"/>
-	<path d="M17 22H9s1 2 4 2 4-2 4-2z" fill="#DF1F32" ts:gender="female"/>
+	<path d="M17 22H9s1 2 4 2 4-2 4-2z" ts:skin="mouth" ts:gender="female"/>
 </svg>

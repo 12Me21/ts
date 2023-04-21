@@ -44,7 +44,7 @@
 	<!-- mouth -->
 	<use href="defs.svg#mouth_female" x="17.945" y="22.452" ts:skin="nose" ts:gender="neutral"/>
 	<use href="defs.svg#mouth_neutral" x="18" y="21.802" ts:skin="nose" ts:gender="male"/>
-	<use href="defs.svg#mouth_female" x="17.945" y="22.452" fill="#DF1F32" ts:gender="female"/>
+	<use href="defs.svg#mouth_female" x="17.945" y="22.452" ts:skin="mouth" ts:gender="female"/>
 	<!-- bathrobe -->
 		<!--
 ideas:
