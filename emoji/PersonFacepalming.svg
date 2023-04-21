@@ -1,23 +1,20 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
 	<!-- back hair -->
 	<use href="defs.svg#hair_neutral" transform="translate(21.906 1.262) scale(1.049)" ts:skin="hair" ts:gender="neutral"/>
-	<path d="M19 0c-1.721 0-3.343.406-4.793 1.111C13.814 1.043 13.412 1 13 1 9.134 1 6 4.134 6 8v12h.018C6.201 26.467 11.489 31.656 18 31.656S29.799 26.467 29.982 20H30v-9c0-6.075-4.925-11-11-11z" ts:skin="hair" ts:gender="female"/>
+	<use href="defs.svg#hair_back_female_old" x="18" y="26" ts:skin="hair" ts:gender="female"/>
 	<!-- body -->
 	<path d="M27 27H10v9h21v-5c0-2.209-1.791-4-4-4z" fill="#FA743E" ts:gender-color="#4289C1,#9268CA"/>
+	<rect x="26" y="32" width="1" height="4" fill="#DD551F" ts:gender-color="#2A6797,#7450A8"/>
 	<!-- neck -->
-	<path d="M15 22v6c0 1.657 1.343 3 3 3s3-1.343 3-3v-6h-6z" ts:skin="skin" ts:gender="neutral,male,female"/>
+	<use href="defs.svg#neck_old" x="18" y="31" ts:skin="skin"/>
 	<!-- head -->
-	<path d="M25.909 11.701c-.677-.938-1.545-1.693-3.446-1.96.713.327 1.396 1.455 1.485 2.079.089.624.178 1.129-.386.505-2.26-2.499-4.722-1.515-7.162-3.041-1.704-1.066-2.223-2.246-2.223-2.246s-.208 1.574-2.792 3.178c-.749.465-1.643 1.5-2.139 3.03C8.889 14.345 9 15.325 9 17c0 4.889 4.029 9 9 9s9-4.147 9-9c0-3.041-.319-4.229-1.091-5.299z" ts:skin="skin" ts:gender="neutral"/>
-	<path d="M9 5.938V17c0 4.971 4.029 9 9 9s9-4.029 9-9V6.25L9 5.938z" ts:skin="skin" ts:gender="male,female"/>
-	<!-- ears -->
-	<ellipse cx="9.059" cy="13.715" rx="1.788" ry="2.861" ts:skin="skin" ts:gender="male"/><ellipse cx="26.941" cy="13.715" rx="1.788" ry="2.861" ts:skin="skin" ts:gender="male"/>
+	<use href="defs.svg#face_neutral1" x="18" y="26" ts:skin="skin" ts:gender="neutral"/>
+	<use href="defs.svg#face_male_old" x="18" y="26" ts:skin="skin" ts:gender="male"/>
+	<use href="defs.svg#face_female_old" x="18" y="26" ts:skin="skin" ts:gender="female"/>
 	<!-- hair hack -->
 	<path d="M12.737 5.97h2.75v3.89h-2.75z" ts:skin="hair" ts:gender="neutral"/>
 	<path d="M18 .823c-7.019 0-10.139 4.684-10.139 8.588 0 3.903 1.343 4.986 1.56 3.903.78-3.903 3.12-5.101 3.12-5.101 4.68 3.904 3.9.781 3.9.781 4.679 4.684 2.34 0 2.34 0 1.56 1.562 6.239 1.562 6.239 1.562s.78 1.198 1.559 2.759c.78 1.562 1.56 0 1.56-3.903 0-3.905-3.9-8.589-10.139-8.589z" ts:skin="hair" ts:gender="male"/>
-	<path d="M26.999 5V4H8v7c6 0 6-6 6-6s2 7 14 7V5h-1.001z" ts:skin="hair" ts:gender="female"/>
 	<path d="M12.252 4.589h4.01v4.703h-4.01z" ts:skin="hair" ts:gender="female"/>
-	<!-- clothes -->
-	<path d="M26 32h1v4h-1z" fill="#DD551F" ts:gender-color="#2A6797,#7450A8"/>
 	<!-- eye -->
 	<path d="M 24.087,16.655 c -0.084,0.068,-0.203,0.07 -0.292,0.005 -0.014,-0.01,-0.612,-0.432 -1.774,-0.432 s -1.76,0.422 -1.774,0.432 c -0.089,0.065,-0.209,0.063 -0.293,-0.005 s -0.113,-0.184 -0.069,-0.283 c 0.029,-0.065,0.719,-1.58 2.136,-1.58 s 2.107,1.515 2.136,1.58 c 0.044,0.099,0.014,0.216 -0.07,0.283 z" ts:skin="eyes"/>
 	<!-- mouth -->

@@ -26,9 +26,14 @@ neutral: 1.37 | 0.73
 	
 	<!-- female face overlay -->
 	<!--<path id="face_female_old" d="M14 11s-.003 5.308-5 5.936V21 a 9,9 0 00 18,0 v-3.019C15.89 17.605 14 11 14 11z" ts:skin="skin" ts:gender="female"/>  !! -->
-	<path id="face_female_old" d="M -4,-19 s 1.889,6.605 13,6.981 v 5.019 c 0,4.971 -4.029,9 -9,9 s -9,-4.029 -9,-9 v -6.064 c 4.997,-0.628 5,-5.936 5,-5.936 Z"/>
+	<path id="face_female_old" d="M -4,-21 s 1.889,6.605 13,6.981 v 5.019 c 0,4.971 -4.029,9 -9,9 s -9,-4.029 -9,-9 v -6.064 c 4.997,-0.628 5,-5.936 5,-5.936 Z"/>
 	
 	<path id="hair_back_female_old" d="M 1,-26 c 6.075,0 11,4.925 11,11 v 9 h -0.018 c -0.183,6.467 -5.471,11.656 -11.982,11.656 s -11.799,-5.189 -11.982,-11.656 h -0.018 v -12 c 0,-3.866 3.134,-7 7,-7 c 0.412,0 0.814,0.043 1.207,0.111 c 1.45,-0.705 3.072,-1.111 4.793,-1.111 Z"/>
+	
+	<!-- female hair front old
+	<path d="M 28,6 l -14,-3 -6,3 v 5 c 6,0 6,-6 6,-6 s 2,7 14,7 z" ts:skin="hair" ts:gender="female"/>
+	<path d="M26.999 5V4H8v7c6 0 6-6 6-6s2 7 14 7V5h-1.001z" ts:skin="hair" ts:gender="female"/>
+	-->
 	
 	<!-- 
 origin of the male hair shape:
@@ -133,6 +138,8 @@ the facial features are redrawn though. so this just applies to hair/face/ears s
 <rect x="\([^"]*\)" y="\([^"]*\)" width="[^"]*" height="[^"]*" rx="[^"]*"\(.* ts:gender="\([a-z]+\)"\) → <use href="defs.svg#nose_\4" x="\1" y="\2"\3
 
 -->
+	
+	<path id="neck_old" d="M-3,-9 h6 v6 a 3,3 0 01 -6,0 z" ts:skin="skin"/>
 	
 		<!--
 vampire mouth
@@ -254,5 +261,24 @@ X
 <use href="defs.svg#shoulders_male" x="18"
 <use href="defs.svg#shoulders_simple" x="18" 
 <use href="defs.svg#shoulders_female" x="18"
+	-->
+	
+	<!--
+PersonShrugging hands (also used by PersonJuggling)
+<path d="M4.702 26.495l-.283-.059h-.511c0-.058.023-.112.035-.169-.348-.215-.546-.625-.458-1.048.112-.542.643-.89 1.186-.779l2.091.433h1.676c.863 0 1.562.7 1.562 1.564V28H6.253s-1.481-.669-1.551-1.505z" ts:skin="line"/>
+	<path d="M31.298 26.495l.283-.059h.511c0-.058-.023-.112-.035-.169.348-.215.546-.625.458-1.048-.112-.542-.642-.89-1.185-.779l-2.091.433h-1.676c-.863 0-1.562.7-1.562 1.564V28h3.747c-.001 0 1.48-.669 1.55-1.505z" ts:skin="line"/>
+	<path d="M0 25.655c0-.432.35-.782.781-.782l4.69.782h3.747c.432 0 .781.351.781.781V28H5L.781 26.437S0 26.087 0 25.655z" ts:skin="skin"/>
+	<path d="M36 25.655c0-.432-.35-.782-.781-.782l-4.691.782h-3.747c-.432 0-.781.351-.781.781V28h5l4.219-1.563s.781-.35.781-.782z" ts:skin="skin"/>
 -->
+	
+	<g id="face_male_old">
+		<ellipse cx="-8.941" cy="-12.285" rx="1.788" ry="2.861"/>
+		<ellipse cx=" 8.941" cy="-12.285" rx="1.788" ry="2.861"/>
+		<path d="M -9,-19 l 5,-3 13,3 v 10 a 9,9 0 01 -18,0 v-10 z"/>
+	</g>
+	
+	<!-- old smile -->
+	<path id="mouth_smile_old" d="M-4,-2h8s-1 2-4 2-4-2-4-2z"/>
+-->
+	
 </svg>

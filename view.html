@@ -134,6 +134,9 @@
 		background-clip: padding-box;
 		--color: gray;
 	}
+	.layer-box[data-shared] {
+		--color: #797;
+	}
 	.layer-box[data-kind=use] {
 		--color: blue;
 	}
@@ -141,9 +144,6 @@
 		border-color: slateblue;
 		/*deepskyblue;*/
 		/*border-radius: 10px;*/
-	}
-	.layer-box[data-shared] {
-		--color: #797;
 	}
 	.layer-box[data-hidden] {
 		opacity: 0.2;
@@ -311,7 +311,8 @@
 			
 			let sym 
 			if (elem.nodeName=="use") {
-				sym = "* " + elem.getAttribute('href').split("#")[1] + ""
+				sym = (elem.hasAttribute('transform') ? "t*" : "*") + " " + elem.getAttribute('href').split("#")[1] + ""
+				
 			} else {
 				sym = "<"+elem.nodeName+">"
 			}

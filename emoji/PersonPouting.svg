@@ -5,20 +5,21 @@
 	<use href="defs.svg#hair_back_female_old" x="18" y="26" ts:skin="hair" ts:gender="female"/>
 	<!-- body -->
 	<use href="defs.svg#shoulders_simple" x="18" fill="#FA743E" ts:gender-color="#4289C1,#9268CA"/>
-	<path d="M9 32h1v4H9z M26,32 h1v4h-1z" fill="#DD551F" ts:gender-color="#2A6797,#7450A8"/>
+	<rect x="9" y="32" width="1" height="4" fill="#DD551F" ts:gender-color="#2A6797,#7450A8"/>
+	<rect x="26" y="32" width="1" height="4" fill="#DD551F" ts:gender-color="#2A6797,#7450A8"/>
 	<!-- neck -->
-	<path d="M15 22 h6 v6 a 3,3 0 01 -6,0 z" ts:skin="skin"/>
+	<use href="defs.svg#neck_old" x="18" y="31" ts:skin="skin"/>
 	<!-- head -->
 	<use href="defs.svg#face_neutral1" x="18" y="26" ts:skin="skin" ts:gender="neutral"/>
-	<ellipse cx="9.059" cy="13.715" rx="1.788" ry="2.861" ts:skin="skin" ts:gender="male"/><ellipse cx="26.941" cy="13.715" rx="1.788" ry="2.861" ts:skin="skin" ts:gender="male"/>
-	<path d="M 9,7 l 5,-3 13,3 v 10 a 9,9 0 01 -18,0 v-10 z" ts:skin="skin" ts:gender="male,female"/>
+	<use href="defs.svg#face_male_old" x="18" y="26" ts:skin="skin" ts:gender="male"/>
+	<use href="defs.svg#face_female_old" x="18" y="26" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->
 	<use href="defs.svg#eyes_male" x="18" y="14.5" ts:skin="eyes"/>
 	<!-- nose -->
-	<rect x="16.5" y="18.5" width="3" height="1" rx="0.5" ts:skin="nose"/>
+	<use href="defs.svg#nose_neutral1" x="18" y="19" ts:skin="nose"/>
 	<!-- mouth -->
 	<circle cx="18" cy="23" r="1" ts:skin="mouth"/>
 	<!-- hair -->
 	<path d="M18 .823c-7.019 0-10.139 4.684-10.139 8.588 0 3.903 1.343 4.986 1.56 3.903.78-3.903 3.12-5.101 3.12-5.101 4.68 3.904 3.9.781 3.9.781 4.679 4.684 2.34 0 2.34 0 1.56 1.562 6.239 1.562 6.239 1.562s.78 1.198 1.559 2.759c.78 1.562 1.56 0 1.56-3.903 0-3.905-3.9-8.589-10.139-8.589z" ts:skin="hair" ts:gender="male"/>
-	<path d="M 28,6 l -14,-3 -6,3 v 5 c 6,0 6,-6 6,-6 s 2,7 14,7 z" ts:skin="hair" ts:gender="female"/>
+	
 </svg>
