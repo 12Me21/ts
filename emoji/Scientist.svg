@@ -19,7 +19,7 @@
 	<use href="defs.svg#face_male" x="22" y="14.959" ts:skin="skin" ts:gender="male"/>
 	<use href="defs.svg#face_female" x="13.675" y="14.729" ts:skin="skin" ts:gender="female"/>
 	<!-- front hair -->
-	<use href="defs.svg#hair_male" x="22" y="1.48" ts:skin="hair" ts:gender="male"/>
+	<use href="defs.svg#hair_male1" x="22" y="1.48" ts:skin="hair" ts:gender="male"/>
 	<use href="defs.svg#hair_front_female" x="21.887" y="4.081" ts:skin="hair" ts:gender="female"/>
 	<!-- ears -->
 	<use href="defs.svg#ears_female" x="22" y="14.9465" ts:skin="skin" ts:gender="female"/>

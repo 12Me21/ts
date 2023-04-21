@@ -1,18 +1,17 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
 	<!-- hair -->
-	<path d="M19 4c-1.721 0-3.343.406-4.793 1.111C13.814 5.043 13.412 5 13 5c-3.866 0-7 3.134-7 7v12h.018C6.201 30.467 11.489 35.656 18 35.656c6.511 0 11.799-5.189 11.982-11.656H30v-9c0-6.075-4.925-11-11-11z" ts:skin="hair" ts:gender="female"/>
+	<use href="defs.svg#hair_back_female_old" x="18" y="30" ts:skin="hair" ts:gender="female"/>
 	<!-- body -->
 	<path d="M27 22H9s-9 0-9 7c0 3.156 4 7 4 7h28s4-3.844 4-7c0-7-9-7-9-7z" fill="#FA743E" ts:gender-color="#4289C1,#9268CA"/>
 	<!-- hair -->
-	<use href="defs.svg#hair_neutral" transform="translate(21.906 4.262) scale(1.049)" ts:skin="hair" ts:gender="neutral"/>
-	
+	<use href="defs.svg#hair_neutral1" x="18" y="29" ts:skin="hair" ts:gender="neutral"/>
 	<!-- neck -->
 	<circle cx="18" cy="28" ts:skin="dark" r="3"/>
 	<!-- head -->
-	<use href="defs.svg#face_neutral" transform="translate(25.89 15.686) scale(1.049)" ts:skin="skin" ts:gender="neutral"/>
+	<use href="defs.svg#face_neutral1" x="18" y="30" ts:skin="skin" ts:gender="neutral"/>
 	<ellipse cx="9.059" cy="17.715" rx="1.788" ry="2.861" ts:skin="skin" ts:gender="male"/><ellipse cx="26.941" cy="17.715" rx="1.788" ry="2.861" ts:skin="skin" ts:gender="male"/>
-	<path d="M9 9.938V21c0 4.971 4.029 9 9 9s9-4.029 9-9V10.25L9 9.938z" ts:skin="skin" ts:gender="male"/>
-	<path d="M14 11s-.003 5.308-5 5.936V21c0 4.971 4.029 9 9 9s9-4.029 9-9v-3.019C15.89 17.605 14 11 14 11z " ts:skin="skin" ts:gender="female"/>
+	<path d="M 9,7 l 5,-3 13,3 v 10 a 9,9 0 01 -18,0 v-10 z" ts:skin="skin" ts:gender="male"/>
+	<path d="M14 11s-.003 5.308-5 5.936V21c0 4.971 4.029 9 9 9s9-4.029 9-9v-3.019C15.89 17.605 14 11 14 11z " ts:skin="skin" ts:gender="female"/> <!-- !! -->
 	<!-- hands -->
 	<path d="M17 34l-5-1-2-1H7l-1 4h11c1 0 1-1 1-1 0-.553-1-1-1-1z M26,32 l-2 1-5 1s-1 .447-1 1c0 0 0 1 1 1h11l-1-4h-3z" ts:skin="skin"/>
 	<!-- hair -->
