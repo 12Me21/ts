@@ -349,6 +349,9 @@ Hand from PersonRaisingHand (also used by PersonFacePalming?)
 	<path d="M19.755 26c1 1.982 2.792 4.5 3.5 4.5s2.512-2.549 3.5-4.5v-3.591h-7V26z" ts:skin="skin" ts:gender="female"/>
 	<path d="M14.5 26c1 1.982 2.792 2 3.5 2s2.512-.049 3.5-2v-3.591h-7V26z" ts:skin="skin" ts:gender="female"/>
 	<path d="M14 26 l4 1.75 4-1.75v-4h-8z" ts:skin="skin" ts:gender="neutral,male"/>
+	<path d="M13.64 28.106c0 .894 2.36 1.993 4.36 1.993s4.359-1.099 4.359-1.992V24.29h-8.72v3.816z" ts:skin="skin" ts:gender="neutral"/>
+	<path d="M13.64 28.101c1.744 1.268 2.857 2.032 4.37 2.032 1.512 0 2.606-.766 4.35-2.032V24.29h-8.72v3.811z" ts:skin="skin" ts:gender="male"/>
+	<path d="M15 27 V29 h-3 v5 h12 v-5 h-3 v-2 z" ts:skin="skin" ts:gender="female"/>
 
 shadow: (8)
 <path d="M14 24.971c1.115 1.26 2.497 1.6 3.999 1.6 1.503 0 2.886-.341 4.001-1.6V21.77h-8v3.201z" ts:skin="dark" ts:gender="neutral"/>
@@ -360,6 +363,7 @@ shadow: (8)
 <path d="M14.5 24c1.023 1.155 2.112 1.5 3.49 1.5 1.379 0 2.487-.345 3.51-1.5v-2.937h-7V24z" ts:skin="dark" ts:gender="female"/>
 <path d="M19.755 24.054c.975 1.102 2.185 1.4 3.499 1.4 1.315 0 2.526-.298 3.501-1.4v-2.801h-7v2.801z" ts:skin="dark" ts:gender="female"/>
 <path d="M14.5 24.054c.975 1.102 2.185 1.4 3.499 1.4 1.315 0 2.526-.298 3.501-1.4v-1.051h-7v1.051z" ts:skin="dark" ts:gender="female"/>
-
+6:
+<path d="M27.75 15.455c0-6.928-4.366-12.544-9.751-12.544s-9.75 5.616-9.75 12.544c0 5.581 2.835 10.305 6.751 11.934 h6 c3.916-1.629 6.75-6.353 6.75-11.932z" ts:skin="skin" ts:gender="female"/>
 	-->
 </svg>
