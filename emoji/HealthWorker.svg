@@ -19,8 +19,9 @@
 	<circle cx="9" cy="32.5" fill="#F5F8FA" r="2" ts:gender="neutral,male"/>
 	<circle cx="9.5" cy="32.5" fill="#F5F8FA" r="2" ts:gender="female"/>
 	<!-- neck -->
-	<path d="M14 26l4 5.001L22 26v-4h-8z" ts:skin="skin" ts:gender="neutral,male"/>
-	<path d="M14.5 22.409V26l3.5 5 3.5-5v-3.591z" ts:skin="skin" ts:gender="female"/>
+	<path d="M 14,26 v -4 h 8 v 4 l -4,5 l -4,-5 Z" ts:skin="skin" ts:gender="neutral,male"/>
+	<path d="M 14.5,22.5 h 7 v 3.5 l -3.5,5 l -3.5,-5 v -3.5 Z" ts:skin="skin" ts:gender="female"/>
+	
 	<path d="M14 24c1.216 1.374 2.355 1.719 3.996 1.719 1.639 0 2.787-.346 4.004-1.719v-4h-8v4z" ts:skin="dark" ts:gender="neutral,male"/>
 	<path d="M14.5 24c1.023 1.155 2.112 1.5 3.49 1.5 1.379 0 2.487-.345 3.51-1.5v-2.937h-7V24z" ts:skin="dark" ts:gender="female"/>
 	<!-- face -->
