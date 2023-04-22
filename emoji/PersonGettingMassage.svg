@@ -1,6 +1,6 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
 	<!-- back hair -->
-	<use href="defs.svg#hair_neutral" transform="translate(21.906 1.262) scale(1.049)" ts:skin="hair" ts:gender="neutral"/>
+	<use href="defs.svg#hair_neutral1" x="18" y="26" ts:skin="hair" ts:gender="neutral"/>
 	<use href="defs.svg#hair_back_female_old" x="18" y="26" ts:skin="hair" ts:gender="female"/> <!-- wrong color in original !! -->
 	<!-- body -->
 	<use href="defs.svg#shoulders_simple" x="18" fill="#FA743E" ts:gender-color="#4289C1,#9268CA"/>
