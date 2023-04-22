@@ -52,9 +52,9 @@
 	<use href="defs.svg#face_neutral1" transform="translate(18.002 13.915) scale(.4075)" ts:skin="skin" ts:gender="neutral"/>
 	<path d="M21.75 5.602h-7.5v4.5c0 2.072 1.679 3.75 3.75 3.75 2.072 0 3.75-1.678 3.75-3.75v-4.5z" ts:skin="skin" ts:gender="male,female"/>
 	<!-- eyes -->
-	<rect x="15.964" y="8.62" width="0.814" height="1.222" rx="0.407" ry="0.40725" ts:skin="eyes2" ts:gender="neutral"/><rect x="19.222" y="8.62" width="0.814" height="1.222" rx="0.407" ry="0.40725" ts:skin="eyes2" ts:gender="neutral"/>
-	<circle cx="16.125" cy="9.728" r=".375" ts:skin="eyes2" ts:gender="male,female"/>
-	<ellipse cx="19.8755" cy="9.728" rx="0.3745" ry="0.375" ts:skin="eyes2" ts:gender="male,female"/>
+	<use href="defs.svg#eyes_male" transform="translate(18 9.231) scale(.4075)" ts:skin="eyes" ts:gender="neutral"/>
+	<circle cx="16.125" cy="9.728" r=".375" ts:skin="eyes" ts:gender="male,female"/>
+	<circle cx="19.876" cy="9.728" r=".375" ts:skin="eyes" ts:gender="male,female"/>
 	<!-- nose -->
 	<use href="defs.svg#nose_neutral1" transform="translate(18 11.063) scale(.4075)" ts:skin="nose" ts:gender="neutral"/>
 	<path d="M17.25 10.853h1.5s0 .75-.75.75-.75-.75-.75-.75z" ts:skin="nose" ts:gender="male,female"/>
