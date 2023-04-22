@@ -240,7 +240,6 @@
 	}
 	$controls.oninput = function(ev) {
 		let v = this.diff.value
-		console.log(v)
 		$box.classList.toggle('hide', v==0)
 		$box.classList.toggle('diff', v==2)
 	}
@@ -418,7 +417,6 @@
 					fill = gc[1]
 			}
 			skin: if (s) {
-				console.log(s, second)
 				if (s=="eyes")
 					s = gender=="neutral" ? "eyes2" : "eyes1"
 				if (s=="mouth")

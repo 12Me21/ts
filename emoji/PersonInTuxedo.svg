@@ -16,6 +16,7 @@
 	<!-- neck -->
 	<path d="M14.5 26c1 1.982 2.792 2 3.5 2s2.512-.049 3.5-2v-3.591h-7V26z" ts:skin="skin" ts:gender="female"/>
 	<path d="M14 26 l4 1.75 4-1.75v-4h-8z" ts:skin="skin" ts:gender="neutral,male"/>
+	
 	<path d="M14 24c1.216 1.374 2.355 1.719 3.996 1.719 1.639 0 2.787-.346 4.004-1.719v-4h-8v4z" ts:skin="dark" ts:gender="neutral,male"/>
 	<path d="M14.5 24.054c.975 1.102 2.185 1.4 3.499 1.4 1.315 0 2.526-.298 3.501-1.4v-1.051h-7v1.051z" ts:skin="dark" ts:gender="female"/>
 	<!-- head -->
