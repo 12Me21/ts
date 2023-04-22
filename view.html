@@ -401,8 +401,9 @@
 			let s = elem.getAttributeNS(xmlns,'skin')
 			let s2 = elem.getAttributeNS(xmlns,'skin2')
 			let second = s2
-			if (second)
+			if (second) {
 				s = s2
+			}
 				
 			if (g) {
 				g = g.split(/[,| ]/)
@@ -417,10 +418,11 @@
 					fill = gc[1]
 			}
 			skin: if (s) {
+				console.log(s, second)
 				if (s=="eyes")
 					s = gender=="neutral" ? "eyes2" : "eyes1"
 				if (s=="mouth")
-					s = gender=="female" ? "lips" : "nose"
+					s = (second && gender=="mixed" || gender=="female") ? "lips" : "nose"
 				let ofs = 0
 				if (palette[s]) {
 					s = palette[s]
