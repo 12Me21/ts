@@ -1,10 +1,10 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
 	<!-- body -->
-	<path d="M32 36.001V35c0-4-3.685-7-7-7H11c-3.313 0-7 3-7 7v1.001h28z" fill="#2A6797" ts:gender="neutral"/>
+	<path d="M32 36V35c0-4-3.685-7-7-7H11c-3.313 0-7 3-7 7v1h28z" fill="#2A6797" ts:gender="neutral"/>
 	<path d="M32 36v-2c0-3.314-2.685-6-6-6H10c-3.313 0-6 2.686-6 6v2h28z" fill="#2A6797" ts:gender="male"/>
 	<path d="M30.941 36v-3.5c0-3.314-3.686-5.5-7-5.5h-12c-3.313 0-7 2.186-7 5.5V36h26z" fill="#2A6797" ts:gender="female"/>
 	<!-- hat back -->
-	<ellipse cx="18.003" cy="7.501" fill="#2A6797" rx="12" ry="7.5"/>
+	<ellipse cx="18" cy="7.5" fill="#2A6797" rx="12" ry="7.5"/>
 	<!-- back hair -->
 	<path d="M9.002 8.5c-.372.702-1.092 1.47-1.193 2.288-.425 3.448.522 5.05.86 7.643.382 2.938 1.961 3.878 3.224 4.271 1.816 2.51 3.747 2.402 6.989 2.402 6.331 0 9.088-4.491 9.355-12.016.061-1.722-.379-3.224-1.058-4.587H9.002z" ts:skin="hair" ts:gender="neutral"/> <!-- nonstandard -->
 	<use href="defs.svg#hair_back_female" x="17.887" y="5.069" ts:skin="hair" ts:gender="female"/>
