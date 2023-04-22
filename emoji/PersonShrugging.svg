@@ -1,6 +1,6 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
 	<!-- back hair -->
-	<use href="defs.svg#hair_neutral" transform="translate(21.906 1.262) scale(1.049)" ts:skin="hair" ts:gender="neutral"/>
+	<use href="defs.svg#hair_neutral1" x="18" y="26" ts:skin="hair" ts:gender="neutral"/>
 	<use href="defs.svg#hair_back_female_old" x="18" y="26" ts:skin="hair" ts:gender="female"/>
 	<!-- body -->
 	<path d="M27 21H9c-2.209 0-4 1.791-4 4v11h26V25c0-2.209-1.791-4-4-4z" fill="#FA743E" ts:gender-color="#4289C1,#9268CA"/>
@@ -20,7 +20,7 @@
 	<!-- hair -->
 	<use href="defs.svg#hair_male2" x="18" y="0.823" ts:skin="hair" ts:gender="male"/>
 	<!-- eyes -->
-	<use href="defs.svg#eyes_male" x="18" y="14.5" ts:skin="eyes"/>
+	<use href="defs.svg#eyes_male" x="18" y="14.5" ts:skin="eyes" ts:gender="neutral,female"/>
 	<use href="defs.svg#eyes_male" x="18" y="14.5" ts:skin="eyes2" ts:gender="male"/> <!-- color -->
 	<!-- nose -->
 	<use href="defs.svg#nose_neutral1" x="18" y="19" ts:skin="nose"/>

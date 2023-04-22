@@ -19,12 +19,14 @@
 	<!-- neutral form doesnt have body layer since it's covered by clothing later -->
 	<use href="defs.svg#shoulders_female_tall" x="18" ts:skin="skin" ts:gender="female"/>
 	<use href="defs.svg#shoulders_male_tall" x="18" ts:skin="skin" ts:gender="male"/>
-	<!-- neck -->
-	<path d="M 15.442,21.658 h 5.116 v 10.232 h -5.116 Z" ts:skin="skin" ts:gender="neutral"/>
-	<path d="M13.667 27.122L18 31.001l4.316-2.627L22 22h-8z" ts:skin="skin" ts:gender="male"/>
-	<path d="M14.5 26c1 1.982 2.792 4.5 3.5 4.5s2.512-2.549 3.5-4.5v-3.591h-7V26z" ts:skin="skin" ts:gender="female"/>
-	<path d="M15.442 24.698c.713.805 1.597 1.024 2.558 1.024.961 0 1.844-.219 2.558-1.024v-2.047h-5.116v2.047z" ts:skin="dark" ts:gender="neutral"/>
+	<!-- shadow -->
 	<path d="M 15.442,24.986 c 2.294,7 6.98,11.014 6.98,11.014 h -6.98 Z" ts:skin="dark" ts:gender="neutral"/>
+	<!-- neck -->
+	<rect x="15.442" y="21.658" width="5.116" height="10.232" ts:skin="skin" ts:gender="neutral"/>
+	<path d="M 13.667,27.122 l 0.333,-5.122 h 8 l 0.316,6.374 Z" ts:skin="skin" ts:gender="male"/>
+	<path d="M 14.5,27 v -4 h 7 v 4 Z" ts:skin="skin" ts:gender="female"/>
+	
+	<path d="M15.442 24.698c.713.805 1.597 1.024 2.558 1.024.961 0 1.844-.219 2.558-1.024v-2.047h-5.116v2.047z" ts:skin="dark" ts:gender="neutral"/>
 	<path d="M14 24c1.216 1.374 2.355 1.719 3.996 1.719 1.639 0 2.787-.346 4.004-1.719v-4h-8v4z" ts:skin="dark" ts:gender="male"/>
 	<path d="M14.322 24.088c1.022 1.155 2.29 1.468 3.668 1.468 1.379 0 2.647-.312 3.67-1.468v-2.937h-7.338v2.937z" ts:skin="dark" ts:gender="female"/>
 	<!-- face -->
