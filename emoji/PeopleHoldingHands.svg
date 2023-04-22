@@ -65,22 +65,19 @@
 	<path d="M30.201 6.191c-.37-.512-.844-.925-1.882-1.071.389.178.762.795.811 1.135.049.341.097.616-.211.276-1.235-1.365-2.579-.827-3.912-1.661-.931-.582-1.214-1.226-1.214-1.226s-.114.86-1.525 1.736c-.409.254-.897.819-1.168 1.655-.195.6-.134 1.136-.134 2.05 0 2.67 2.201 4.915 4.915 4.915s4.915-2.265 4.915-4.915c.001-1.661-.173-2.31-.595-2.894z" ts:skin="skin" ts:gender="neutral"/>
 	<path d="M31 3H21v6c0 2.762 2.238 5 5 5s5-2.237 5-5V3z" ts:skin="skin" ts:gender="male,female,mixed"/>
 	<!-- front hair -->
-	<path d="M5 2.5L4.5 5 5 7c2.333 0 2.85-2.412 2.965-3.488C8.004 4.588 8.779 7 15 7l.5-2-.5-2.5H5z" fill="#FFAC33" ts:skin2="hair" ts:gender="male"/>
-	<path d="M15 2H5L4 7c4 0 4-4 4-4s0 4 8 4l-1-5z" fill="#FFAC33" ts:skin2="" ts:gender="female,mixed"/>
+	<path d="M5 2.5L4.5 5 5 7c2.333 0 2.85-2.412 2.965-3.488C8.004 4.588 8.779 7 15 7l.5-2-.5-2.5H5z" ts:skin2="hair" ts:gender="male"/>
+	<path d="M15 2H5L4 7c4 0 4-4 4-4s0 4 8 4l-1-5z" ts:skin2="hair" ts:gender="female,mixed"/>
 	<path d="M21 2.5L20.5 5l.5 2c2.333 0 2.85-2.412 2.965-3.488C24.004 4.588 24.779 7 31 7l.5-2-.5-2.5H21z" ts:skin="hair" ts:gender="male,mixed"/>
 	<path d="M31 2H21l-1 5c4 0 4-4 4-4s0 4 8 4l-1-5z" ts:skin="hair" ts:gender="female"/>
 	<!-- eyes -->
-	<circle cx="7.5" cy="8.5" r=".5" fill="#662113" ts:skin2="eyes2"/>
-	<circle cx="12.5" cy="8.5" r=".5" fill="#662113" ts:skin2="eyes2"/>
+	<circle cx="7.5" cy="8.5" r=".5" ts:skin2="eyes2"/>
+	<circle cx="12.5" cy="8.5" r=".5" ts:skin2="eyes2"/>
 	<circle cx="23.5" cy="8.5" r=".5" ts:skin="eyes2"/>
 	<circle cx="28.5" cy="8.5" r=".5" ts:skin="eyes2"/>
 	<!-- noses -->
-	<path d="M9 10h2s0 1-1 1-1-1-1-1z" fill="#C1694F" ts:skin2="nose"/>
+	<path d="M9 10h2s0 1-1 1-1-1-1-1z" ts:skin2="nose"/>
 	<path d="M25 10h2s0 1-1 1-1-1-1-1z" ts:skin="nose"/>
 	<!-- mouths -->
-	<path d="M12 12H8s0 1 2 1 2-1 2-1z" fill="#C1694F" ts:skin2="nose" ts:gender="neutral,male"/>
-	<path d="M12 12H8s0 1 2 1 2-1 2-1z" ts:skin="mouth" ts:gender="female,mixed"/>
-	
-	<path d="M28 12h-4s0 1 2 1 2-1 2-1z" ts:skin="nose" ts:gender="neutral,male,mixed"/>
-	<path d="M28 12h-4s0 1 2 1 2-1 2-1z" ts:skin="mouth" ts:gender="female"/>
+	<path d="M12 12H8s0 1 2 1 2-1 2-1z" ts:skin2="mouth"/>
+	<path d="M28 12h-4s0 1 2 1 2-1 2-1z" ts:skin="mouth"/>
 </svg>
