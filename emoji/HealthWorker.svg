@@ -6,24 +6,29 @@
 	<use href="defs.svg#shoulders_male_tall" x="18" fill="#3B88C3" ts:gender="neutral,male"/>
 	<path d="M31 36v-4.5c0-3.314-3.56-5.5-6.875-5.5h-12C8.812 26 5 28.186 5 31.5V36h26z" fill="#3B88C3" ts:gender="female"/>
 	<!-- stethoscope -->
-	<path d="M10 32.5H8c0-4.094 1.877-8.5 6-8.5v2c-3.164 0-4 4.252-4 6.5z M27,28.5 h-2c0-.411-.521-2.5-3-2.5v-2c3.533 0 5 2.931 5 4.5z" fill="#292F33" ts:gender="neutral,male"/>
-	<path d="M10.5 32.5h-2c0-4.094 1.877-8.5 6-8.5v2c-3.164 0-4 4.252-4 6.5z M26.5,28.5 h-2c0-.411-.521-2.5-3-2.5v-2c3.533 0 5 2.931 5 4.5z" fill="#292F33" ts:gender="female"/>
-	<path d="M30 34h-2c0-.835-.108-5-2.25-5s-2.25 4.165-2.25 5h-2c0-4.383 1.589-7 4.25-7S30 29.617 30 34z" fill="#292F33" ts:gender="neutral,male"/>
-	<path d="M29.5 34h-2c0-.835-.108-5-2.25-5S23 33.165 23 34h-2c0-4.383 1.589-7 4.25-7s4.25 2.617 4.25 7z" fill="#292F33" ts:gender="female"/>
-	<circle cx="9" cy="32.5" fill="#CCD6DD" r="3" ts:gender="neutral,male"/>
-	<circle cx="9.5" cy="32.5" fill="#CCD6DD" r="3" ts:gender="female"/>
-	<circle cx="22.5" cy="34" fill="#CCD6DD" r="1" ts:gender="neutral,male"/>
-	<circle cx="22" cy="34" fill="#CCD6DD" r="1" ts:gender="female"/>
-	<circle cx="29" cy="34" fill="#CCD6DD" r="1" ts:gender="neutral,male"/>
-	<circle cx="28.5" cy="34" fill="#CCD6DD" r="1" ts:gender="female"/>
-	<circle cx="9" cy="32.5" fill="#F5F8FA" r="2" ts:gender="neutral,male"/>
-	<circle cx="9.5" cy="32.5" fill="#F5F8FA" r="2" ts:gender="female"/>
-	<!-- neck -->
-	<path d="M 14,26 v -4 h 8 v 4 l -4,5 l -4,-5 Z" ts:skin="skin" ts:gender="neutral,male"/>
-	<path d="M 14.5,22.5 h 7 v 3.5 l -3.5,5 l -3.5,-5 v -3.5 Z" ts:skin="skin" ts:gender="female"/>
+	<path d="M 10  ,32.5 h -2 c 0,-4.094 1.877,-8.5 6,-8.5 v 2 c -3.164,0 -4,4.252 -4,6.5 Z" fill="#292F33" ts:gender="neutral,male"/>
+	<path d="M 10.5,32.5 h -2 c 0,-4.094 1.877,-8.5 6,-8.5 v 2 c -3.164,0 -4,4.252 -4,6.5 Z" fill="#292F33" ts:gender="female"/>
 	
-	<path d="M14 24c1.216 1.374 2.355 1.719 3.996 1.719 1.639 0 2.787-.346 4.004-1.719v-4h-8v4z" ts:skin="dark" ts:gender="neutral,male"/>
-	<path d="M14.5 24c1.023 1.155 2.112 1.5 3.49 1.5 1.379 0 2.487-.345 3.51-1.5v-2.937h-7V24z" ts:skin="dark" ts:gender="female"/>
+	<path d="M 27  ,28.5 h -2 c 0,-0.411 -0.521,-2.5 -3,-2.5 v -2 c 3.533,0 5,2.931 5,4.5 Z" fill="#292F33" ts:gender="neutral,male"/>
+	<path d="M 26.5,28.5 h -2 c 0,-0.411 -0.521,-2.5 -3,-2.5 v -2 c 3.533,0 5,2.931 5,4.5 Z" fill="#292F33" ts:gender="female"/>
+	
+	<path d="M 30  ,34 h -2 c 0,-0.835 -0.108,-5 -2.25,-5 s -2.25,4.165 -2.25,5 h -2 c 0,-4.383 1.589,-7 4.25,-7 s 4.25,2.617 4.25,7 Z" fill="#292F33" ts:gender="neutral,male"/>
+	<path d="M 29.5,34 h -2 c 0,-0.835 -0.108,-5 -2.25,-5 s -2.25,4.165 -2.25,5 h -2 c 0,-4.383 1.589,-7 4.25,-7 s 4.25,2.617 4.25,7 Z" fill="#292F33" ts:gender="female"/>
+	
+	<circle cx="9  " cy="32.5" r="3" fill="#CCD6DD" ts:gender="neutral,male"/>
+	<circle cx="9.5" cy="32.5" r="3" fill="#CCD6DD" ts:gender="female"/>
+	<circle cx="22.5" cy="34" r="1" fill="#CCD6DD" ts:gender="neutral,male"/>
+	<circle cx="22  " cy="34" r="1" fill="#CCD6DD" ts:gender="female"/>
+	<circle cx="29  " cy="34" r="1" fill="#CCD6DD" ts:gender="neutral,male"/>
+	<circle cx="28.5" cy="34" r="1" fill="#CCD6DD" ts:gender="female"/>
+	<circle cx="9  " cy="32.5" r="2" fill="#F5F8FA" ts:gender="neutral,male"/>
+	<circle cx="9.5" cy="32.5" r="2" fill="#F5F8FA" ts:gender="female"/>
+	<!-- neck -->
+	<path d="M 18,31 l -4,-5 v -4 h 8 v 4 l -4,5 Z" ts:skin="skin" ts:gender="neutral,male"/>
+	<path d="M 18,31 l -3.5,-5 v -3.5 h 7 v 3.5 l -3.5,5 Z" ts:skin="skin" ts:gender="female"/>
+	
+	<path d="M 17.996,25.719 c -1.641,0 -2.78,-0.345 -3.996,-1.719 v -4 h 8 v 4 c -1.217,1.373 -2.365,1.719 -4.004,1.719 Z" ts:skin="dark" ts:gender="neutral,male"/>
+	<path d="M 17.99,25.5 c -1.378,0 -2.467,-0.345 -3.49,-1.5 v -2.937 h 7 v 2.937 c -1.023,1.155 -2.131,1.5 -3.51,1.5 Z" ts:skin="dark" ts:gender="female"/>
 	<!-- face -->
 	<use href="defs.svg#face_neutral" x="25.413" y="11.318" ts:skin="skin" ts:gender="neutral"/>
 	<use href="defs.svg#face_male" x="18" y="14.959" ts:skin="skin" ts:gender="male"/>
@@ -41,7 +46,7 @@
 	<use href="defs.svg#nose_male" x="18.0" y="17.0" ts:skin="nose" ts:gender="male"/>
 	<use href="defs.svg#nose_female" x="17.9915" y="18.909" ts:skin="nose" ts:gender="female"/>
 	<!-- mouth -->
-	<use href="defs.svg#mouth_neutral" x="18" y="22.731" ts:skin="nose" ts:gender="neutral"/>
-	<use href="defs.svg#mouth_neutral" x="18" y="21.802" ts:skin="nose" ts:gender="male"/>
+	<use href="defs.svg#mouth_neutral" x="18" y="22.731" ts:skin="mouth" ts:gender="neutral"/>
+	<use href="defs.svg#mouth_neutral" x="18" y="21.802" ts:skin="mouth" ts:gender="male"/>
 	<use href="defs.svg#mouth_female" x="17.945" y="22.452" ts:skin="mouth" ts:gender="female"/>
 </svg>
