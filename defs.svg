@@ -144,6 +144,11 @@
 		<rect x="-6" y="-2" width="2" height="4" rx="1"/>
 		<rect x=" 4" y="-2" width="2" height="4" rx="1"/>
 	</g>
+	
+	<!-- alt eyes:
+		guard, female: <rect x="14.381" y="18.569" width="1.441" height="2.162" rx="0.652" ts:skin="eyes" ts:gender="female"/><rect x="20.145" y="18.569" width="1.441" height="2.162" rx="0.652" ts:skin="eyes" ts:gender="female"/>
+		genie, male: todo
+	-->
 
 	<!-- ********** -->
 	<!-- ** NOSE ** -->
