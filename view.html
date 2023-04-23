@@ -84,6 +84,7 @@
 	}
 	.compare-box.hide > :last-child {
 		opacity: 0;
+		z-index: -5;
 	}
 	.field-table {
 		display: inline-grid;
@@ -287,6 +288,7 @@
 	
 	function clear() {
 		$box.replaceChildren()
+		$layers.textContent = ""
 		$form.modified.value = ""
 		$form.current.value = ""
 		$form.codes.value = ""
@@ -343,16 +345,21 @@
 	window.go = function(name, variant, palette) {
 		let ok
 		try {
+			$form.modified.value = "loading..."
 			variant = variant || 'neutral'
 			palette = palette || 0
 			//
 			let item = cmap.find(x=>x.ident==name)
+			if (!item)
+				return
 			let codes
 			if (item.variants) {
-				codes = item.variants[variant][palette]
+				codes = item.variants?.[variant]?.[palette]
 			} else {
 				codes = item.codes
 			}
+			if (!codes)
+				return
 			//
 			let svg = load('./emoji/'+name+'.svg')
 			let modified = svg.lastModified
@@ -367,7 +374,7 @@
 			//
 			//console.log(svg, orig)
 			clear()
-			 $form.modified.value = modified + " - " + ((Date.now() - new Date(modified)) / 1000 / 60).toFixed(0) + " minutes ago"
+			$form.modified.value = modified + " - " + ((Date.now() - new Date(modified)) / 1000 / 60).toFixed(0) + " minutes ago"
 			if (orig)
 				$box.append(orig)
 			$box.append(svg)

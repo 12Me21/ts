@@ -1,13 +1,13 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
 	<!-- hair color is very messed up here -->
 	
-	<ellipse cx="18" cy="4.5" ts:skin="eyes" rx="4" ry="3.5" ts:gender="female"/>
-	<ellipse cx="18" cy="6" fill="#EA596E" rx="4" ry="3" ts:gender="female"/>
+	<ellipse cx="18" cy="4.5" rx="4" ry="3.5" ts:skin="eyes" ts:gender="female"/>
+	<ellipse cx="18" cy="6" rx="4" ry="3" fill="#EA596E" ts:gender="female"/>
 	<!-- back hair -->
-	<path d="M8 14l10-1v20h-11c0-5 1-19 1-19zm20 0s1 14 1 19H18V13l10 1z" ts:skin="eyes" ts:gender="male,female"/>
-	<path d="M18 12c-2 0-5-3-7 1-.447.894-3 6-3 0s5-9 10-9v8zm0 0V4c5 0 10 3 10 9s-2.553.894-3 0c-2-4-5-1-7-1z" ts:skin="eyes" ts:gender="male,female"/>
-	<path d="M28 14H8S7 28 7 33h22c0-5-1-19-1-19z" fill="#662113" ts:gender="neutral"/>
-	<path d="M21.597 3.516c-1.925-.623-6.455-.453-7.588 1.019-2.944.057-6.398 2.718-6.851 6.228-.448 3.475.551 5.088.906 7.701.403 2.96 2.067 3.907 3.397 4.303 1.914 2.529 3.949 2.421 7.366 2.421 6.672 0 9.85-4.464 10.131-12.047.17-4.585-2.521-8.059-7.361-9.625z" fill="#662113" ts:gender="neutral"/>
+	<path d="M28 14H8S7 28 7 33h22c0-5-1-19-1-19z" ts:skin="eyes"/>
+	
+	<path d="M 18,4 c 5,0 10,3 10,9 s -2.553,0.894 -3,0 h -14 c -0.447,0.894 -3,6 -3,0 s 5,-9 10,-9 Z" ts:skin="eyes" ts:gender="male,female"/>
+	<use href="defs.svg#hair_neutral1" transform="translate(17.876 27.094) scale(0.953)" ts:skin="eyes" ts:gender="neutral"/>
 	<!-- body -->
 	<path d="M32 36v-1.64c0-3.313-2.687-6.36-6-6.36H10c-3.313 0-6 3.046-6 6.36V36h28z" fill="#FA743E" ts:gender="neutral"/>
 	<use href="defs.svg#shoulders_male" x="18" fill="#3B88C3" ts:gender="male"/>
@@ -21,7 +21,7 @@
 	<use href="defs.svg#neck_shadow_male" x="17.996" y="27.719" ts:skin="dark" ts:gender="male"/>
 	<path d="M13.632 25.973C14.848 27.347 16.356 28 17.996 28c1.639 0 3.147-.654 4.364-2.027v-3.491h-8.728v3.491z" ts:skin="dark" ts:gender="female"/>
 	<!-- face -->
-	<use href="defs.svg#face_neutral" x="25.413" y="13.466" ts:skin="skin" ts:gender="neutral"/>
+	<use href="defs.svg#face_neutral1" transform="translate(17.876 27.094) scale(0.953)" ts:skin="skin" ts:gender="neutral"/>
 	<ellipse cx="18" cy="16.96" rx="8.522" ry="10.1205" ts:skin="skin" ts:gender="male"/>
 	<path d="M10 15c0-5.589 3.293-8.879 8-8.879s8 3.29 8 8.879c0 8-5 12-8 12s-8-4-8-12z" ts:skin="skin" ts:gender="female"/>
 	<!-- ears -->
@@ -41,11 +41,10 @@
 	<use href="defs.svg#mouth_neutral" x="18" y="23.802" ts:skin="nose" ts:gender="male"/>
 	<path d="M18 24.339c-1.256 0-2.353-.361-2.933-.968-.229-.239-.221-.619.018-.849.239-.229.619-.221.848.019.348.363 1.159.598 2.067.598.907 0 1.719-.234 2.066-.598.229-.24.608-.249.849-.019.239.229.247.609.019.849-.581.607-1.678.968-2.934.968z" ts:skin="mouth" ts:gender="female"/> <!-- small -->
 	<!-- hair -->
-	<path d="M9 12.467L8 36h4s-2.627-21.017-1-23.533c.698-1.08-2 0-2 0z" fill="#662113" ts:gender="neutral"/>
-	<path d="M9 13L8 36h4s-2.627-20.484-1-23c.698-1.08-2 0-2 0z " ts:skin="eyes" ts:gender="male,female"/>
-	<path d="M27.058 13l1 23H24s2.685-20.484 1.058-23c-.698-1.08 2 0 2 0z" fill="#662113" ts:gender="neutral"/>
-	<path d="M27.058 13l1 23H24s2.685-20.484 1.058-23c-.698-1.08 2 0 2 0z" ts:skin="eyes" ts:gender="male"/>
-	<path d="M26.985,13 l.986 23h-4s2.646-20.484 1.043-23c-.688-1.08 1.971 0 1.971 0z" ts:skin="eyes" ts:gender="female"/>
+	<path d="M  9,12.467 L 8,36 h 4 s-2.627,-21.017 -1,-23.533 c 0.698,-1.08 -2,0 -2,0 Z" ts:skin="eyes" ts:gender="neutral"/> <!-- slightly longer to align with different hairstyle -->
+	<path d="M  9,13 l-1,23 h 4 s-2.627,-20.484 -1,-23 c 0.698,-1.08 -2,0 -2,0 Z" ts:skin="eyes" ts:gender="male,female"/>
+	<path d="M 27,13 l 1,23 h-4 s 2.627,-20.484  1,-23 c-0.698,-1.08  2,0  2,0 Z" ts:skin="eyes"/>
+	
 	<path d="M18 4c-5 0-9 3-9 9s1.553.894 2 0c2-4 5-3 7-3s5-1 7 3c.447.894 2 6 2 0s-4-9-9-9z" ts:skin="eyes" ts:gender="male"/>
 	<path d="M18 4c-5 0-9 3-9 9s1.445.832 2 0c2-3 5-1 7-1s5-2 7 1c.555.832 2 6 2 0s-4-9-9-9z" ts:skin="eyes" ts:gender="female"/>
 	<path d="M18 7c4 0 8 2 8 4 0 0-2-3-8-3s-8 3-8 3 1-4 8-4z" fill="#EA596E" ts:gender="female"/>

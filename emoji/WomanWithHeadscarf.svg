@@ -1,6 +1,6 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
 	<!-- body -->
-	<path d="M31 36v-3.5c0-3.314-3.685-5.5-7-5.5H12c-3.313 0-7 2.186-7 5.5V36h26z" fill="#9266CC"/>
+	<use href="defs.svg#shoulders_female" x="18" fill="#9266CC"/>
 	<!-- headscarf -->
 	<path d="M27.235 16.761c0-8.494-5.309-11.026-9.229-11.026s-9.8 2.559-9.8 11.026c0 3.489 1.255 6.182.644 8.238C7.65 29.037 11.778 32.506 15 34c4.94 2.29 10-3 10-3 3.975 0 2.235-4.248 2.235-14.239z" fill="#744EAA"/>
 	<path d="M27.807 16.761C27.807 8.267 21.926 5 18.006 5s-9.8 3.294-9.8 11.761c0 8.494 7.187 11.761 11.107 11.761C22.252 28.521 23.065 30 25 30c5.281 0 2.807-4.419 2.807-13.239z" fill="#9266CC"/>
@@ -11,7 +11,7 @@
 	<!-- nose -->
 	<use href="defs.svg#nose_female" x="17.9915" y="20.0" ry="0.4235" ts:skin="nose"/>
 	<!-- mouth -->
-	<use href="defs.svg#mouth_female" x="17.944" y="23.543" ts:skin="mouth"/>
+	<use href="defs.svg#mouth_female" x="17.944" y="23.543" fill="#DF1F32"/>
 	<!-- headscarf (continued) -->
 	<path d="M10 17s3-5 8-5 8 5 8 5-1-8-8-8-8 8-8 8z" fill="#553788"/>
 </svg>
