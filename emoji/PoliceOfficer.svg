@@ -20,7 +20,7 @@
 	<use href="defs.svg#face_male" x="18" y="16.959" ts:skin="skin" ts:gender="male"/>
 	<use href="defs.svg#face_female" x="9.675" y="15.717" ts:skin="skin" ts:gender="female"/>
 	<!-- hair -->
-	<path d="M18 4.406c5.648 0 9.178 3.242 9.178 6.715s-.706 4.863-1.412 3.473l-1.412-2.778s-4.235 0-5.647-1.39c0 0 2.118 4.168-2.118 0 0 0 .706 2.779-3.53-.694 0 0-2.118 1.389-2.824 4.862-.196.964-1.412 0-1.412-3.473C8.822 7.648 11.646 4.406 18 4.406" ts:skin="hair" ts:gender="male"/> <!-- nonstandard -->
+	<path d="M18 4.406c5.648 0 9.178 3.242 9.178 6.715s-.706 4.863-1.412 3.473l-1.412-2.778s-4.235 0-5.647-1.39c0 0 2.118 4.168-2.118 0 0 0 .706 2.779-3.53-.694 0 0-2.118 1.389-2.824 4.862-.196.964-1.412 0-1.412-3.473C8.822 7.648 11.646 4.406 18 4.406z" ts:skin="hair" ts:gender="male"/> <!-- nonstandard -->
 	<use href="defs.svg#hair_front_female" x="17.887" y="5.069" ts:skin="hair" ts:gender="female"/> <!-- not sure.. -->
 	<use href="defs.svg#ears_female" x="17.941" y="15.9355" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->

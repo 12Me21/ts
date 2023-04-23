@@ -5,7 +5,7 @@
 	<!-- body -->
 	<path d="M27 27H10v9h21v-5c0-2.209-1.791-4-4-4z" fill="#FA743E" ts:gender-color="#4289C1,#9268CA"/>
 	<rect x="26" y="32" width="1" height="4" fill="#DD551F" ts:gender-color="#2A6797,#7450A8"/>
-	<path d="M18.734 18.386l1.827.691s-6.529 13.746-7.413 15.022c-.884 1.276-1.87 2.055-4.57 1.76l10.156-17.473" fill="#DD551F" ts:gender-color="#2A6797,#7450A8"/>
+	<path d="M18.734 18.386l1.827.691s-6.529 13.746-7.413 15.022c-.884 1.276-1.87 2.055-4.57 1.76l10.156-17.473z" fill="#DD551F" ts:gender-color="#2A6797,#7450A8"/>
 	<!-- neck -->
 	<use href="defs.svg#neck_old" x="18" y="31" ts:skin="skin"/>
 	<!-- head -->

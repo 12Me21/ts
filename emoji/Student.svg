@@ -15,7 +15,7 @@
 	<path d="M18 34.411C22.078 32.463 23.62 27 23.62 27H12.38s1.542 5.463 5.62 7.411z" fill="#9266CC" ts:gender="female"/>
 	
 	<path d="M18 32c2.329 0 3.882-1.02 4.85-2.029.53-1.133.77-1.971.77-1.971H12.38s.24.838.77 1.971C14.118 30.98 15.671 32 18 32z" fill="#DD551F" ts:gender="neutral,male" ts:gender-color="#5C913B,"/>
-	<path d="M13 27h9.875s-1.256 3.5-4.938 3.5S13 27 13 27" fill="#744EAA" ts:gender="female"/>
+	<path d="M13 27h9.875s-1.256 3.5-4.938 3.5S13 27 13 27z" fill="#744EAA" ts:gender="female"/>
 	<!-- neck -->
 	<path d="M13.64 28.106c0 .894 2.36 1.993 4.36 1.993s4.359-1.099 4.359-1.992V24.29h-8.72v3.816z" ts:skin="skin" ts:gender="neutral,male"/>
 	<path d="M14.328 27.02C14.328 28.5 16.5 29 18 29s3.66-.5 3.66-1.98v-3.205h-7.332v3.205z" ts:skin="skin" ts:gender="female"/>
@@ -27,7 +27,7 @@
 	<use href="defs.svg#face_male" x="18" y="16.959" ts:skin="skin" ts:gender="male"/>
 	<use href="defs.svg#face_female" x="9.734" y="15.717" ts:skin="skin" ts:gender="female"/>
 	<!-- hair -->
-	<path d="M18 3c5.648 0 9.178 4.648 9.178 8.121 0 3.473-.971 4.968-1.412 3.473C25 12 24 12 24 12s-3.882 1.538-5.294.148c0 0 2.118 4.168-2.118 0 0 0 .706 2.779-3.53-.694 0 0-2.118-.333-2.824 3.14-.196.964-1.412 0-1.412-3.473S11.646 3 18 3" ts:skin="hair" ts:gender="male"/> <!-- special -->
+	<path d="M18 3c5.648 0 9.178 4.648 9.178 8.121 0 3.473-.971 4.968-1.412 3.473C25 12 24 12 24 12s-3.882 1.538-5.294.148c0 0 2.118 4.168-2.118 0 0 0 .706 2.779-3.53-.694 0 0-2.118-.333-2.824 3.14-.196.964-1.412 0-1.412-3.473S11.646 3 18 3z" ts:skin="hair" ts:gender="male"/> <!-- special -->
 	<use href="defs.svg#hair_front_female" x="17.944" y="5.069" ts:skin="hair" ts:gender="female"/>
 	<use href="defs.svg#ears_female" x="18" y="15.9355" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->

@@ -7,7 +7,7 @@
 	<use href="defs.svg#shoulders_female" x="22" fill="#E1E8ED" ts:gender="female"/>
 	<!-- inner shirt -->
 	<path d="M22 36l5-8H17z" fill="#269" ts:gender="neutral,male"/>
-	<path d="M18 27h8l-4 9-4-9" fill="#269" ts:gender="female"/>
+	<path d="M18 27h8l-4 9-4-9z" fill="#269" ts:gender="female"/>
 	<!-- neck -->
 	<path d="M17.64 28.038c0 1.962 8.72 1.962 8.72 0v-3.749h-8.72v3.749z" ts:skin="skin" ts:gender="neutral,male"/>
 	<path d="M18.328 27.018c1.466 1.065 2.964.98 3.672.98s2.194.085 3.66-.98v-3.203h-7.332v3.203z" ts:skin="skin" ts:gender="female"/>
