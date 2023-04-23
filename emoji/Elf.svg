@@ -4,22 +4,20 @@
 	<ellipse cx="18" cy="4.5" rx="4" ry="3.5" ts:skin="eyes" ts:gender="female"/>
 	<ellipse cx="18" cy="6" rx="4" ry="3" fill="#EA596E" ts:gender="female"/>
 	<!-- back hair -->
-	<path d="M28 14H8S7 28 7 33h22c0-5-1-19-1-19z" ts:skin="eyes"/>
-	
-	<path d="M 18,4 c 5,0 10,3 10,9 s -2.553,0.894 -3,0 h -14 c -0.447,0.894 -3,6 -3,0 s 5,-9 10,-9 Z" ts:skin="eyes" ts:gender="male,female"/>
+	<path d="M 18,4 c -5,0 -10,3 -10,9 v 1 S7 28 7 33 h22 c0-5-1-19-1-19 v -1 c 0,-6 -5,-9 -10,-9 Z" ts:skin="eyes"/>
 	<use href="defs.svg#hair_neutral1" transform="translate(17.876 27.094) scale(0.953)" ts:skin="eyes" ts:gender="neutral"/>
 	<!-- body -->
 	<path d="M32 36v-1.64c0-3.313-2.687-6.36-6-6.36H10c-3.313 0-6 3.046-6 6.36V36h28z" fill="#FA743E" ts:gender="neutral"/>
 	<use href="defs.svg#shoulders_male" x="18" fill="#3B88C3" ts:gender="male"/>
 	<path d="M32 36v-1c0-3.313-3.687-7-7-7H11c-3.313 0-7 3.687-7 7v1h28z" fill="#5C913B" ts:gender="female"/>
 	<!-- neck -->
-	<path d="M13.507 27.995s2.285 3.59 4.36 3.59 4.36-3.59 4.36-3.59v-3.139h-8.72v3.139z" ts:skin="skin" ts:gender="neutral"/>
-	<path d="M13.64 28.101c1.744 1.267 2.848 1.962 4.36 1.962 1.511 0 2.616-.696 4.36-1.962V24.29h-8.72v3.811z" ts:skin="skin" ts:gender="male"/>
-	<path d="M13.64 28.101C15.384 29.368 18 35 18 35s2.616-5.633 4.36-6.899V24.29h-8.72v3.811z" ts:skin="skin" ts:gender="female"/>
-	
-	<path d="M13.507 26.024c1.325 1.177 2.568 1.473 4.356 1.473 1.786 0 3.038-.296 4.364-1.473v-3.427h-8.72v3.427z" ts:skin="dark" ts:gender="neutral"/>
-	<use href="defs.svg#neck_shadow_male" x="17.996" y="27.719" ts:skin="dark" ts:gender="male"/>
-	<path d="M13.632 25.973C14.848 27.347 16.356 28 17.996 28c1.639 0 3.147-.654 4.364-2.027v-3.491h-8.728v3.491z" ts:skin="dark" ts:gender="female"/>
+	<path d="M 17.867,31.585 c -2.075,0 -4.36,-3.59 -4.36,-3.59 v -3.139 h 8.72 v 3.139 s -2.285,3.59 -4.36,3.59 Z" ts:skin="skin" ts:gender="neutral"/>
+	<path d="M 18,30.063 c -1.512,0 -2.616,-0.695 -4.36,-1.962 v -3.811 h 8.72 v 3.811 c -1.744,1.266 -2.848,1.962 -4.36,1.962 Z" ts:skin="skin" ts:gender="male"/>
+	<path d="M 18,35 s -2.616,-5.632 -4.36,-6.899 v -3.811 h 8.72 v 3.811 c -1.744,1.266 -4.36,6.899 -4.36,6.899 Z" ts:skin="skin" ts:gender="female"/>
+	<!-- neck shadow -->
+	<path d="M 17.863,27.497 c -1.788,0 -3.031,-0.296 -4.356,-1.473 v -3.427 h 8.72 v 3.427 c -1.326,1.177 -2.578,1.473 -4.364,1.473 Z" ts:skin="dark" ts:gender="neutral"/>
+	<use href="defs.svg#neck_shadow_male" x="18" y="27.719" ts:skin="dark" ts:gender="male"/>
+	<path d="M 18,28 c -1.64,0 -3.148,-0.653 -4.364,-2.027 v -3.491 h 8.728 v 3.491 c -1.217,1.373 -2.725,2.027 -4.364,2.027 Z" ts:skin="dark" ts:gender="female"/>
 	<!-- face -->
 	<use href="defs.svg#face_neutral1" transform="translate(17.876 27.094) scale(0.953)" ts:skin="skin" ts:gender="neutral"/>
 	<ellipse cx="18" cy="16.96" rx="8.522" ry="10.1205" ts:skin="skin" ts:gender="male"/>

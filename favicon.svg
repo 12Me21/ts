@@ -1,0 +1,47 @@
+<svg viewBox="1 2 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:ts="data:,a">
+	<style>
+		@namespace ts "data:,a";
+		[ts|skin=hair] { fill: #963B22 }
+		[ts|skin=skin] { fill: #D5AB88 }
+		[ts|skin=eyes] { fill: #662113 }
+		[ts|skin=nose] { fill: #C1694F }
+		[ts|skin=lips] { fill: #DF1F32 }
+	</style>
+	
+	<defs>
+		<g id="hair_back_female_old">
+			<circle cx="0" cy="-6.344" r="12"/>
+			<path d="M 12,-6 h-24 v-12 l 24,3 v9 z"/>
+			<circle cx="1" cy="-15"     r="11"/>
+			<circle cx="-5" cy="-18"      r="7"/>
+		</g>
+		<path id="shoulders_old" d="M -13,36 v -5 c 0,-2.209 1.791,-4 4,-4 h 18 c 2.209,0 4,1.791 4,4 v 5 Z" />
+		<path id="neck_old" d="M-3,-6.5 h6 v3.5 a 3,3 0 01 -6,0 z"/>
+		<path id="face_female_old" d="M -4,-21 s 1.889,6.605 13,6.981 v 5.019 c 0,4.971 -4.029,9 -9,9 s -9,-4.029 -9,-9 v -6.064 c 4.997,-0.628 5,-5.936 5,-5.936 Z"/>
+		<g id="eyes_old">
+			<rect x="-5" y="-1.5" width="2" height="3" rx="1"/>
+			<rect x=" 3" y="-1.5" width="2" height="3" rx="1"/>
+		</g>
+		<rect id="nose_neutral1" x="-1.5" y="-0.5" width="3" height="1" rx="0.5"/>
+	</defs>
+	<rect x="0" y="0" width="36" height="36" fill="yellowgreen"/>
+	
+	<!-- back hair -->
+	<use href="#hair_back_female_old" x="18" y="26" ts:skin="hair"/>
+	<!-- body -->
+	<use href="#shoulders_old" x="18" fill="#9268CA"/>
+	<rect x="9" y="32" width="1" height="4" fill="#7450A8"/>
+	<rect x="26" y="32" width="1" height="4" fill="#7450A8"/>
+	<!-- neck -->
+	<use href="#neck_old" x="18" y="31" ts:skin="skin"/>
+	<!-- head -->
+	<use href="#face_female_old" x="18" y="26" ts:skin="skin"/>
+	<!-- eyes -->
+	<use href="#eyes_old" x="18" y="14.5" ts:skin="eyes"/>
+	<!-- nose -->
+	<use href="#nose_neutral1" x="18" y="19" ts:skin="nose"/>
+	<!-- mouth -->
+	<circle cx="18" cy="23" r="1" ts:skin="lips"/>
+	
+	
+</svg>
