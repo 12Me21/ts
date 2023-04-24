@@ -1,19 +1,10 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-	<defs>
-		<g id="mouth">
-			<path d="M 0,-10 c 3.623,0 6.027,-0.422 9,-1 c 0.679,-0.132 2,0 2,2 c 0,4 -4.596,9 -11,9 c -6.405,0 -11,-5 -11,-9 c 0,-2 1.321,-2.131 2,-2 c 2.973,0.578 5.377,1 9,1 Z" fill="#65471B" />
-			<path d="M -9,-9 s 3,1 9,1 s 9,-1 9,-1 s -2,4 -9,4 s -9,-4 -9,-4 Z" fill="#FFF" />
-		</g>
-		<path id="eye" d="M 11,-8 a 1,1 0 01 0.002,2 c -0.036,0 -2.783,0.027 -5.258,1.268 c 3.905,0.75 6.713,2.825 6.856,2.932 a 1,1 0 01 -1.199,1.601 c -0.038,-0.029 -3.811,-2.801 -8.401,-2.801 a 1,1 0 01 -0.707,-1.707 c 3.256,-3.255 8.486,-3.293 8.707,-3.293 Z" fill="#65471B"/>
-		<path id="tear" d="M 5,10 a 5,5 0 01 -10,0 c 0,-2.762 4,-10 5,-10 s 5,7.238 5,10 Z" fill="#64AADD"/>
-	</defs>
-	
-	<circle fill="#FFCB4C" cx="18" cy="18" r="18"/>
+	<circle cx="18" cy="18" r="18" fill="#FFCC4D"/>
 	<g transform="rotate(-45 18 18)">
-		<use href="#mouth" transform="translate(18 33.447) scale(1.3636)"/>
-		<use href="#eye" transform="translate(18 16.231)"/>
-		<use href="#eye" transform="translate(18 16.231) scale(-1, 1)"/>
-		<use href="#tear" transform="translate(7.61189 11.3963) rotate(38.06)"/>
-		<use href="#tear" transform="translate(28.5331 11.397) rotate(-38.06)"/>
+		<use href="F.svg#mouth_grinning" transform="translate(18 33.447) scale(1.3636)"/>
+		<use href="F.svg#eye_squinting" transform="translate(18 8.231)"/>
+		<use href="F.svg#eye_squinting" transform="translate(18 8.231) scale(-1, 1)"/>
+		<use href="F.svg#water_drop" transform="translate(7.61189 11.396) rotate(38.06)"/>
+		<use href="F.svg#water_drop" transform="translate(28.5331 11.397) rotate(-38.06)"/>
 	</g>
 </svg>
