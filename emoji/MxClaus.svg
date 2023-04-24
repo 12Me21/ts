@@ -24,7 +24,7 @@
 	<rect x="11" y="19" width="2" height="4" rx="1" ts:skin="eyes" ts:gender="female"/><rect x="23" y="19" width="2" height="4" rx="1" ts:skin="eyes" ts:gender="female"/>
 	<!-- nose -->
 	<use href="defs.svg#nose_big" x="16" y="25" ts:skin="nose" ts:gender="neutral"/>
-	<use href="defs.svg#nose_big" x="15" y="25" ts:skin="nose" ts:gender="male"/> <!-- different color in orig ?? -->
+	<use href="defs.svg#nose_big" x="15" y="25" ts:skin="nose_santa" ts:gender="male"/>
 	<use href="defs.svg#nose_big" x="18" y="25" ts:skin="nose" ts:gender="female"/>
 	<!-- mouth -->
 	<use href="defs.svg#mouth_female_big" x="16" y="30" ts:skin="mouth" ts:gender="neutral"/>

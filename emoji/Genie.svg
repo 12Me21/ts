@@ -12,7 +12,7 @@
 	<rect x="13.64" y="24" width="8.72" height="5" fill="#88C9F9" ts:gender="male"/>
 	<rect x="14.5" y="22" width="6.988" height="5" fill="#88C9F9" ts:gender="female"/>
 	<!-- neck shadow -->
-	<path d="M 17.996,28.059 c -1.641,0 -2.78,-0.443 -3.996,-1.817 v -4.158 h 8 v 4 c -1.217,1.373 -2.365,1.975 -4.004,1.975 Z" fill="#539AE0" ts:gender="neutral"/>
+	<path d="M 17.996,28.059 c -1.641,0 -2.78,-0.443 -3.996,-1.817 v -4.158 h 8 v 4 c -1.217,1.373 -2.365,1.975 -4.004,1.975 Z" fill="#539AE0" ts:gender="neutral"/> <!-- - wrong color? -->
 	<path d="M 17.991,25.556 c -0.834,0 -2.535,-0.18 -3.508,-1.118 h 0.001 v -3.286 h 7.017 v 3.286 c -0.973,0.937 -2.687,1.118 -3.51,1.118 Z" fill="#55ACEE" ts:gender="female"/>
 	<!-- head -->
 	<use href="defs.svg#face_neutral1" transform="translate(17.876 27.178) scale(0.953)" fill="#88C9F9" ts:gender="neutral"/>
