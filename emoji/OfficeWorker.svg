@@ -10,8 +10,8 @@
 	<use href="defs.svg#hair_neutral" x="25.731" y="3.323" ts:skin="hair" ts:gender="neutral"/>
 	<use href="defs.svg#hair_back_female" x="23.2" y="3.979" ts:skin="hair" ts:gender="female"/>
 	<!-- body -->
-	<use href="defs.svg#shoulders_male" x="22" fill="#226699" ts:gender="neutral,male"/>
-	<use href="defs.svg#shoulders_female_tall" x="23" fill="#226699" ts:gender="female"/>
+	<use href="defs.svg#shoulders_male" x="22" fill="#269" ts:gender="neutral,male"/>
+	<use href="defs.svg#shoulders_female_tall" x="23" fill="#269" ts:gender="female"/>
 	<path d="M28.25 26l-3.182 10h-4.091L18.25 26z" fill="#F5F8FA" ts:gender="female"/>
 	<!-- lapel -->
 	<path d="M 16.667,36 l 0.333,-1 l -3,-1 l 1,-6 h 2 l 3.2,8 h -3.533 Z M 27.333,36 h -3.533 l 3.2,-8 h 2 l 1,6 l -3,1 l 0.333,1 Z" fill="#3B88C3" ts:gender="neutral,male"/>
