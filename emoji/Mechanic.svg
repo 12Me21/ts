@@ -10,7 +10,7 @@
 	<path d="M28 27v4H16v-4c-1.004 0-2.041.203-3 .575V36h18v-8.425c-.959-.372-1.996-.575-3-.575z" fill="#269" ts:gender="female"/>
 	<!-- neck -->
 	<path d="M17.64 28.038c0 2.846 8.72 2.962 8.72 0v-3.749h-8.72v3.749z" ts:skin="skin" ts:gender="neutral,male"/>
-	<path d="M18.328 27.018C19 29 21.292 30.5 22 30.5s3-1.5 3.66-3.482v-3.203h-7.332v3.203z" ts:skin="skin" ts:gender="female"/>
+	<path d="M 22,30.5 c -0.708,0 -3,-1.5 -3.672,-3.482 v -3.203 h 7.332 v 3.203 c -0.66,1.982 -2.952,3.482 -3.66,3.482 Z" ts:skin="skin" ts:gender="female"/>
 	<use href="defs.svg#neck_shadow_male" x="21.996" y="27.719" ts:skin="dark" ts:gender="neutral,male"/>
 	<use href="defs.svg#neck_shadow_female" x="21.99" y="26.647" ts:skin="dark" ts:gender="female"/>
 	<!-- head -->
@@ -35,17 +35,11 @@
 	<use href="defs.svg#mouth_neutral" x="22" y="23.802" ts:skin="nose" ts:gender="male"/>
 	<use href="defs.svg#mouth_female" x="21.945" y="23.543" ts:skin="mouth" ts:gender="female"/>
 	<!-- hat -->
-	<path d="M 31,9.5 c 0,1.32 -18,1.32 -18,0 c 0,-3.546 1,-8.5 9,-8.5 c 7,0 9,4.954 9,8.5 Z" fill="#3B88C3" ts:gender="neutral,female"/>
-	<path d="M 31.056,9.5 c 0,1.32 -4.092,0 -9,0 c -4.909,0 -9,1.32 -9,0 c 0,-3.547 1,-8.5 9,-8.5 c 7,0 9,4.953 9,8.5 Z" fill="#3B88C3" ts:gender="male"/>
-	
-	<path d="M 20.5  ,1.5 s 0,-1.5 1.5,-1.5 s 1.5,1.5 1.5,1.5 h -3 Z" fill="#269" ts:gender="neutral,female"/>
-	<path d="M 20.556,1.5 s 0,-1.5 1.5,-1.5 s 1.5,1.5 1.5,1.5 h -3 Z" fill="#269" ts:gender="male"/>
-	
-	<path d="M 13.056,9.5 s 1.5,0.5 9,0.5 s 9,-0.5 9,-0.5 s 0.5,3 -1.5,3 c -1,0 -2.5,-2 -7.5,-2 s -6.5,2 -7.5,2 c -2,0 -1.5,-3 -1.5,-3 Z" fill="#269" ts:gender="neutral,female"/>
-	<path d="M 13.111,9.5 s 1.5,0.5 9,0.5 s 9,-0.5 9,-0.5 s 0.5,3 -1.5,3 c -1,0 -2.5,-2 -7.5,-2 s -6.5,2 -7.5,2 c -2,0 -1.5,-3 -1.5,-3 Z" fill="#269" ts:gender="male"/>
-	
-	<path d="M 13    ,9 s 1.5,0.5 9,0.5 s 9,-0.5 9,-0.5 s 0.5,3 -1.5,3 c -1,0 -2.5,-2 -7.5,-2 s -6.5,2 -7.5,2 c -2,0 -1.5,-3 -1.5,-3 Z" fill="#55ACEE" ts:gender="neutral,female"/>
-	<path d="M 13.056,9 s 1.5,0.5 9,0.5 s 9,-0.5 9,-0.5 s 0.5,3 -1.5,3 c -1,0 -2.5,-2 -7.5,-2 s -6.5,2 -7.5,2 c -2,0 -1.5,-3 -1.5,-3 Z" fill="#55ACEE" ts:gender="male"/>
+	<path d="M 22.056,1 c 7,0 9,4.953 9,8.5 c 0,1.32 -4.092,0 -9,0 c -4.909,0 -9,1.32 -9,0 c 0,-3.547 1,-8.5 9,-8.5 Z" fill="#3B88C3"/>
+	<path d="M 22.056,0 c 1.5,0 1.5,1.5 1.5,1.5 h -3 s 0,-1.5 1.5,-1.5 Z" fill="#269"/>
+	<path d="M 22.056,10.5 c -5,0 -6.5,2 -7.5,2 c -2,0 -1.5,-3 -1.5,-3 s 1.5,0.5 9,0.5 s 9,-0.5 9,-0.5 s 0.5,3 -1.5,3 c -1,0 -2.5,-2 -7.5,-2 Z" fill="#269"/>
+	<path d="M 22.056,10   c -5,0 -6.5,2 -7.5,2 c -2,0 -1.5,-3 -1.5,-3 s 1.5,0.5 9,0.5 s 9,-0.5 9,-0.5 s 0.5,3 -1.5,3 c -1,0 -2.5,-2 -7.5,-2 Z" fill="#55ACEE"/>
+
 	<!-- badge -->
 	<ellipse cx="27.75" cy="33.75" rx="2.25" ry="1.25" fill="#F5F8FA"/>
 	<!-- wrench -->
