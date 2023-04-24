@@ -186,7 +186,7 @@
 			<span>Name:</span><input list=$emojinames name=name value="PersonBouncingBall" style='grid-column-end: -2'>
 		</label>
 		<label>
-			<span>Variant:</span><input name=variant value="neutral" style='grid-column: span 1'>
+			<span>Variant:</span><input autocomplete="off" name=variant value="neutral" style='grid-column: span 1'>
 		</label>
 		<label>
 			<span>Color:</span>
@@ -232,8 +232,9 @@
 	window.cmap = cmap
 	
 	for (let item of cmap) {
-		if (item.gender || item.skin)
-			$emojinames.append(new Option(cmap.ident, cmap.ident))
+		//if (item.gender || item.skin)
+		//console.log(item)
+		$emojinames.append(new Option(item.ident + String.fromCodePoint(...(item.codes ?? item.variants.neutral[0])[0]),item.ident))
 	}
 	
 	window.TWEMOJI_BASE = null
@@ -365,7 +366,7 @@
 			if (!codes)
 				return
 			//
-			let svg = load('./emoji/'+name+'.svg')
+			let svg = load('./faces/'+name+'.svg')
 			let modified = svg.lastModified
 			svg = svg.documentElement
 			select_variant(svg, variant, palette)

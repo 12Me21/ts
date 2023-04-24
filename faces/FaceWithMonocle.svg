@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<circle cx="18" cy="18" r="18" fill="#FFCB4C" />
 	<ellipse fill="#65471B" cx="12.176" cy="14.71" rx="2.647" ry="3.706"/>
 	<circle fill="#F4F7F9" cx="24.882" cy="14.294" r="6.882"/>
