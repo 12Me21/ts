@@ -40,8 +40,8 @@
 	<use href="defs.svg#mouth_neutral" x="18" y="21.802" ts:skin="mouth" ts:gender="male"/>
 	<use href="defs.svg#mouth_female" x="18.004" y="22.452" ts:skin="mouth" ts:gender="female"/>
 	<!-- shirt -->
-	<path d="M 20.805,36 h -5.61 l -2.862,-10 l 5.667,1.637 l 5.667,-1.637 l -2.862,10 Z" fill="#DFE7EC" ts:gender="neutral,male"/>
-	<path d="M 20.145,36 h -4.29 l -3.011,-10 l 5.156,0.966 l 5.156,-0.966 l -3.011,10 Z" fill="#DFE7EC" ts:gender="female"/>
+	<path d="M 20.805,36 h -5.61 l -2.862,-10 l 5.667,1.637 l 5.667,-1.637 l -2.862,10 Z" fill="#E1E8ED" ts:gender="neutral,male"/>
+	<path d="M 20.145,36 h -4.29 l -3.011,-10 l 5.156,0.966 l 5.156,-0.966 l -3.011,10 Z" fill="#E1E8ED" ts:gender="female"/>
 	<!-- collar -->
 	<path d="M13.927 24.744L18 27.637l-2.656 2.818-3.011-4.472z M22.073,24.744 L18 27.637l2.656 2.818 3.011-4.472z" fill="#F5F8FA" ts:gender="neutral,male"/>
 	<path d="M14.294 24.872L18 26.966l-2.417 2.564-2.74-3.53z M21.706,24.872 L18 26.966l2.417 2.564 2.74-3.53z" fill="#F5F8FA" ts:gender="female"/>
