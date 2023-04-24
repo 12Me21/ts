@@ -18,9 +18,7 @@
 	<use href="defs.svg#face_male" x="22" y="16.959" ts:skin="skin" ts:gender="male"/>
 	<use href="defs.svg#face_female" x="13.734" y="15.717" ts:skin="skin" ts:gender="female"/>
 	<!-- hair -->
-	<use href="defs.svg#hair_male" x="22" y="3.48" ts:skin="hair" ts:gender="male"/>
-	<!-- TODO: this is wrong ? -->
-	<use href="defs.svg#hair_front_female" x="21.945" y="5.069" ts:skin="hair" ts:gender="female"/>
+	<path d="M11.725 19.012c-.021-1-.044-.224-.044-.465 0-3.422 2.053.494 2.053-1.943 0-2.439 1.368-2.683 2.736-4.051.685-.684 2.053-2.026 2.053-2.026s3.421 2.067 6.158 2.067c2.736 0 5.474 1.375 5.474 4.112 0 2.736 2.053-1.584 2.053 1.837 0 .244-.022-.531-.04.469h.719c.006-2 .006-1.924.006-3.202 0-8.895-6.842-9.81-10.948-9.81-4.104 0-10.947.859-10.947 9.755 0 .793-.02 1.257.008 3.257h.719z" ts:skin="hair" ts:gender="female"/>
 	<use href="defs.svg#ears_female" x="22" y="15.9355" ts:skin="skin" ts:gender="female"/>
 	<!-- eyes -->
 	<use href="defs.svg#eyes_neutral" x="22.008" y="15.9405" ts:skin="eyes2" ts:gender="neutral"/>
