@@ -45,6 +45,10 @@
 		d="M -9,-7 s 4,3 9,3 s 9,-3 9,-3 s -3,6.5 -9,6.5 s -9,-6.5 -9,-6.5 Z"
 		stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
 	<path
+		id="mouth.smiling2c" stroke-width="1"
+		d="M -7,-5.5 s 3,2 7,2 s 7,-2 7,-2 s -3,5 -7,5 s -7,-5 -7,-5 Z"
+		stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
+	<path
 		id="mouth.smiling3" stroke-width="1"
 		d="M -7,-4.5 s 2 2 7 2 s 7 -2 7 -2 s -1 4 -7 4 s -7 -4 -7 -4 z"
 		stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
