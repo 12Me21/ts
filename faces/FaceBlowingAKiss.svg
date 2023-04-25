@@ -5,7 +5,7 @@
 	<use href="F.svg#eyebrow.5" x="21" y="10" color="#664500"/>
 	eyes
 	<ellipse fill="#664500" cx="11.5" cy="15.5" rx="2.5" ry="3.5"/>
-	<use href="F.svg#mouth.smiling1b" transform="translate(24 21) rotate(180)" color="#664500"/>
+	<use href="F.svg#mouth.smiling1b" transform="translate(24 14.5) rotate(180)" color="#664500"/>
 	mouth
 	<use href="F.svg#mouth.kiss" x="17.208" y="27.042" color="#664500"/>
 	heart

@@ -4,8 +4,8 @@
 	<use href="F.svg#eyebrow.2" transform="translate(13.078 7) rotate(2.2)" color="#664500"/>
 	<use href="F.svg#eyebrow.2" transform="translate(22.692 8.658) scale(-1 1) rotate(10.3)" color="#664500"/>
 	<!-- eyes -->
-	<use href="F.svg#mouth.smiling1b" transform="translate(11.5 20.5) rotate(180)" color="#664500"/>
-	<use href="F.svg#mouth.smiling1b" transform="translate(24.5 20.5) rotate(180)" color="#664500"/>
+	<use href="F.svg#mouth.smiling1b" transform="translate(11.5 14) rotate(180)" color="#664500"/>
+	<use href="F.svg#mouth.smiling1b" transform="translate(24.5 14) rotate(180)" color="#664500"/>
 	<!-- mouth -->
 	<path d="M 22.5,25 c 0.825,0 1.5,0.175 1.5,1 s -1.175,2 -2,2 h -4 c -5.6,0 -7,-4 -7,-4 s 1.4,1 7,1 h 4.5 Z" fill="#664500" />
 	<!-- drool -->

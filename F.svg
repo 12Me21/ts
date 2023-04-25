@@ -1,5 +1,5 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-	<path id="cat_face_bg" d="M 18,36 c -2,0 -8,-1 -12,-4 c -2.633,-1.975 -4.61,-4.284 -5,-5 c -0.343,-0.63 -1.129,-3.487 -0.734,-7.071 c 0.359,-3.269 0.734,-4.929 1.734,-6.929 c 0,0 -3,-9 -1,-12.7 c 0.674,-1.246 7.404,1.688 10,3.7 c 0,0 4,-0.998 7,-0.998 s 7,0.998 7,0.998 c 2.596,-2.012 9.326,-4.946 10,-3.7 c 2,3.7 -1,12.7 -1,12.7 c 1,2 1.375,3.66 1.734,6.929 c 0.395,3.584 -0.391,6.441 -0.734,7.071 c -0.39,0.716 -2.367,3.025 -5,5 c -4,3 -10,4 -12,4 Z" fill="#FFCC4D"/>
+	<path id="bg.cat" d="M 18,36 c -2,0 -8,-1 -12,-4 c -2.633,-1.975 -4.61,-4.284 -5,-5 c -0.343,-0.63 -1.129,-3.487 -0.734,-7.071 c 0.359,-3.269 0.734,-4.929 1.734,-6.929 c 0,0 -3,-9 -1,-12.7 c 0.674,-1.246 7.404,1.688 10,3.7 c 0,0 4,-0.998 7,-0.998 s 7,0.998 7,0.998 c 2.596,-2.012 9.326,-4.946 10,-3.7 c 2,3.7 -1,12.7 -1,12.7 c 1,2 1.375,3.66 1.734,6.929 c 0.395,3.584 -0.391,6.441 -0.734,7.071 c -0.39,0.716 -2.367,3.025 -5,5 c -4,3 -10,4 -12,4 Z" fill="#FFCC4D"/>
 	
 	<path id="water_drop" d="M 5,10 a 5,5 0 01 -10,0 c 0,-2.762 4,-10 5,-10 s 5,7.238 5,10 Z" fill="#5DADEC"/>
 	
@@ -50,7 +50,7 @@
 	<path id="mouth.kiss" d="M 0,0 s 5,0.25 5,2.5 s -5,2.5 -5,2.5 s 4,-0.25 4,-2.5 s -4,-2.5 -4,-2.5 s 4,-0.25 4,-2.5 s -4,-2.5 -4,-2.5 s 5,0.25 5,2.5 s -5,2.5 -5,2.5 Z" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" fill="currentColor"/>
 	
 	<path id="mouth.smiling1" d="M -5,-4.5 s 1 1 5 1s5 -1 5 -1s-1 4 -5 4s-5 -4 -5 -4z" stroke-width="1" fill="currentColor" stroke-linejoin="round" stroke="currentColor"/>
-	<path id="mouth.smiling1b" d="M -4,3 s 1.3,3 4,3 s 4,-3 4,-3 s -1.4,1 -4,1 s-4,-1 -4,-1 z" stroke-width="1" fill="currentColor" stroke-linejoin="round" stroke="currentColor"/> smaller
+	<path id="mouth.smiling1b" d="M -4,-3.5 s 1.3,3 4,3 s 4,-3 4,-3 s -1.4,1 -4,1 s-4,-1 -4,-1 z" stroke-width="1" fill="currentColor" stroke-linejoin="round" stroke="currentColor"/> smaller
 	
 	covering for top of head (cold, anxious, fearful, etc.)
 	<path id="bg.sweat" d="M 18,11 c -8.748,0 -16.033,4.509 -17.656,10.484 c -0.221,-1.128 -0.344,-2.292 -0.344,-3.484 c 0,-9.94 8.06,-18 18,-18 c 9.941,0 18,8.06 18,18 c 0,1.192 -0.122,2.356 -0.344,3.484 c -1.623,-5.975 -8.907,-10.484 -17.656,-10.484 Z" fill="#BDDDF4"/>
