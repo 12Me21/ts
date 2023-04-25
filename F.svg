@@ -39,6 +39,8 @@
 	<path id="eyebrow.3" d="M 0,0 c 6,0 7,-4 7,-4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	<path id="eyebrow.3b" d="M 0,0 c 5,0 7,-4 7,-4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	<path id="eyebrow.4" d="M0 0 s 4,0 7,-4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/> <!-- oh this is just eyebrow2 but flipped.. -->
+	<path id="eyebrow.5" d="M 0,0 s 5,-1 8,3" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	
 	<path id="mouth.zigzag" d="M-8 -2 l 1 1 l 3 -4 l 4 5 l 4 -5 l 3 4 l 1 -1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" fill="none"/>
 	
 	<path id="mouth.smiling1" d="M -5,-4.5 s 1 1 5 1s5 -1 5 -1s-1 4 -5 4s-5 -4 -5 -4z" stroke-width="1" fill="currentColor" stroke-linejoin="round" stroke="currentColor"/>
