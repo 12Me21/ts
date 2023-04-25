@@ -1,6 +1,8 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-	<circle cx="18" cy="18" r="18" fill="#FFCC4D" />
-	<rect x="10" y="24" width="16" height="2" rx="1" fill="#664500" />
-	<rect x="7" y="16" width="9" height="2" rx="1" fill="#664500" />
-	<rect x="20" y="16" width="9" height="2" rx="1" fill="#664500" />
-	</svg>
+	<circle cx="18" cy="18" r="18" fill="#FFCC4D"/>
+	<!-- eyes -->
+	<rect x="7" y="16" width="9" height="2" rx="1" fill="#664500"/>
+	<rect x="20" y="16" width="9" height="2" rx="1" fill="#664500"/>
+	<!-- mouth -->
+	<rect x="10" y="24" width="16" height="2" rx="1" fill="#664500"/>
+</svg>
