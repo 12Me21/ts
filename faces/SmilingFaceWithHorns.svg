@@ -1,9 +1,8 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.horns" color="#AA8DD8"/>
-	
-	<use href="F.svg#eyebrow.1" x="7" y="16" color="#553986"/>
-	<use href="F.svg#eyebrow.1" transform="translate(29 16) scale(-1 1)" color="#553986"/>
-	<ellipse cx="12.5" cy="20.5" rx="2.5" ry="3.5" fill="#553986"/>
-	<ellipse cx="23.5" cy="20.5" rx="2.5" ry="3.5" fill="#553986"/>
-	<use href="F.svg#mouth.smiling2" x="18" y="31" color="#553986"/>
+	<g color="#553986">
+		<use href="F.svg#eye.angry1" x="12.5" y="20.5"/>
+		<use href="F.svg#eye.angry1" transform="translate(23.5 20.5) scale(-1 1)"/>
+		<use href="F.svg#mouth.smiling2" x="18" y="31"/>
+	</g>
 </svg>

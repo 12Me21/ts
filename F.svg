@@ -29,6 +29,11 @@
 	
 	<path id="eyebrow.1" d="M 0,0 s 5,0 8,3" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	
+	<g id="eye.angry1">
+		<use href="F.svg#eyebrow.1" x="-5.5" y="-4.5"/>
+		<ellipse cx="0" cy="0" rx="2.5" ry="3.5" fill="currentColor"/>
+	</g>
+	
 	covering for top of head
 	<path d="M 18,11 c -8.748,0 -16.033,4.509 -17.656,10.484 c -0.221,-1.128 -0.344,-2.292 -0.344,-3.484 c 0,-9.94 8.06,-18 18,-18 c 9.941,0 18,8.06 18,18 c 0,1.192 -0.122,2.356 -0.344,3.484 c -1.623,-5.975 -8.907,-10.484 -17.656,-10.484 Z" fill="#BDDDF4" />
 	
