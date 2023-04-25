@@ -20,7 +20,7 @@
 	<!-- width: 35.77 -->
 	<path id="heart" d="M 0,0 c -6.784,-2.466 -16.249,-11.447 -17.619,-19.96 c -0.168,-0.721 -0.266,-1.469 -0.266,-2.241 c 0,-5.451 4.418,-9.868 9.868,-9.868 c 3.307,0 6.226,1.633 8.017,4.129 c 1.791,-2.496 4.71,-4.129 8.018,-4.129 c 5.449,0 9.867,4.418 9.867,9.868 c 0,0.773 -0.098,1.521 -0.268,2.242 c -1.368,8.512 -10.834,17.493 -17.617,19.959 Z"/>
 	
-	<path id="mouth.smiling2" d="M -9,-5 s 4,3 9,3 s 9,-3 9,-3 s -3,5 -9,5 s -9,-5 -9,-5 Z" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
+	<path id="mouth.smiling2" d="M -9,-5.5 s 4,3 9,3 s 9,-3 9,-3 s -3,5 -9,5 s -9,-5 -9,-5 Z" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
 	<path id="mouth.smiling2b" d="M -9,-5 s 4,3 9,3 s 9,-3 9,-3 s -3,6.5 -9,6.5 s -9,-6.5 -9,-6.5 Z" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
 	
 	<path id="bg.horn" d="M 0,0 s 4,4 8,4 l -2,4 c -6,0 -6,-8 -6,-8 Z" stroke-width="4" stroke-linejoin="round" stroke="currentColor" fill="currentColor"/>

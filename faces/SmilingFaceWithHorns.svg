@@ -3,6 +3,6 @@
 	<g color="#553986">
 		<use href="F.svg#eye.angry1" x="12.5" y="20.5"/>
 		<use href="F.svg#eye.angry1" transform="translate(23.5 20.5) scale(-1 1)"/>
-		<use href="F.svg#mouth.smiling2" x="18" y="31"/>
+		<use href="F.svg#mouth.smiling2" x="18" y="31.5"/>
 	</g>
 </svg>
