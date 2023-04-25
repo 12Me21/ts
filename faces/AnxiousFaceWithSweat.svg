@@ -1,11 +1,11 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
-	<path d="M 18,11 c -8.748,0 -16.033,4.509 -17.656,10.484 c -0.221,-1.128 -0.344,-2.292 -0.344,-3.484 c 0,-9.94 8.06,-18 18,-18 c 9.941,0 18,8.06 18,18 c 0,1.192 -0.122,2.356 -0.344,3.484 c -1.623,-5.975 -8.907,-10.484 -17.656,-10.484 Z" fill="#BDDDF4" />
+	<use href="F.svg#bg.sweat"/>
 	
 	<use href="F.svg#eyebrow.3" x="6" y="11" color="#664500"/>
 	<use href="F.svg#eyebrow.3b" transform="translate(30 11) scale(-1, 1)" color="#664500"/>
-	<ellipse cx="11.5" cy="16.5" rx="2.5" ry="3.5" fill="#664500"/>
-	<ellipse cx="24.5" cy="16.5" rx="2.5" ry="3.5" fill="#664500"/>
+	
+	<use href="F.svg#eyes.normal13" y="16.5" color="#664500"/>
 	
 	<use href="F.svg#mouth.smiling1" transform="translate(18 23.5) rotate(180)" color="#664500"/>
 	<use href="F.svg#water_drop" x="5" y="20"/>
