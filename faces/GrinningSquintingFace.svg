@@ -1,6 +1,6 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
-	<use href="F.svg#eye_squinting" x="18" y="12"/>
-	<use href="F.svg#eye_squinting" transform="translate(18 12) scale(-1 1)"/>
+	<use href="F.svg#eye_squinting" x="7" y="13"/>
+	<use href="F.svg#eye_squinting" transform="translate(29 13) scale(-1 1)"/>
 	<use href="F.svg#mouth_grinning" x="18" y="32"/>
 </svg>

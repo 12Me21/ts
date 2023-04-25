@@ -2,7 +2,7 @@
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	<use href="F.svg#eyebrow.4" transform="translate(6 12)" color="#664500"/>
 	<use href="F.svg#eyebrow.4" transform="translate(30 12) scale(-1 1)" color="#664500"/>
-	<use href="F.svg#eye_squinting" x="18" y="14"/>
-	<use href="F.svg#eye_squinting" transform="translate(18 14) scale(-1 1)"/>
+	<use href="F.svg#eye_squinting" x="7" y="15"/>
+	<use href="F.svg#eye_squinting" transform="translate(29 15) scale(-1 1)"/>
 	<use href="F.svg#mouth.zigzag" x="18" y="29" color="#664500"/>
 </svg>
