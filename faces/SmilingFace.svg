@@ -10,6 +10,6 @@
 		<path d="M 16,17 s -4,-1 -6,1"/>
 		<path d="M 20,17 s  4,-1  6,1"/>
 		<!-- mouth -->
-		<path d="M13 25 s 1 1 5 1s5 -1 5 -1s-1 4 -5 4s-5 -4 -5 -4z" stroke-width="1" fill="#664500"/>
+		<use href="F.svg#mouth.smiling1" x="18" y="29.5" color="#664500"/>
 	</g>
 </svg>
