@@ -38,12 +38,17 @@
 	<path id="eyebrow.2" d="M 0,0 s -4,0 -7,4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	<path id="eyebrow.3" d="M 0,0 c 6,0 7,-4 7,-4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	<path id="eyebrow.3b" d="M 0,0 c 5,0 7,-4 7,-4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.4" d="M0 0 s 4,0 7,-4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/> <!-- oh this is just eyebrow2 but flipped.. -->
 	
 	<path id="mouth.smiling1" d="M -5,-4.5 s 1 1 5 1s5 -1 5 -1s-1 4 -5 4s-5 -4 -5 -4z" stroke-width="1" fill="currentColor" stroke-linejoin="round" stroke="currentColor"/>
 	
 	covering for top of head (cold, anxious, etc.)
 	<path d="M 18,11 c -8.748,0 -16.033,4.509 -17.656,10.484 c -0.221,-1.128 -0.344,-2.292 -0.344,-3.484 c 0,-9.94 8.06,-18 18,-18 c 9.941,0 18,8.06 18,18 c 0,1.192 -0.122,2.356 -0.344,3.484 c -1.623,-5.975 -8.907,-10.484 -17.656,-10.484 Z" fill="#BDDDF4" />
 	<path d="M 18,11 c -8.748,0 -16.033,4.509 -17.656,10.484 c -0.221,-1.128 -0.344,-2.292 -0.344,-3.484 c 0,-9.94 8.06,-18 18,-18 c 9.941,0 18,8.06 18,18 c 0,1.192 -0.122,2.356 -0.344,3.484 c -1.623,-5.975 -8.907,-10.484 -17.656,-10.484 Z" fill="#BDDDF4" />
+	
+	<!-- mouth showing teeth (cold) -->
+	<rect x="6.985" y="21.833" width="22" height="8" rx="4" fill="#FFF" />
+	<path fill="#1C6399" d="M24.985 20.812h-14c-2.757 0-5 2.243-5 5s2.243 5 5 5h14c2.757 0 5-2.243 5-5s-2.243-5-5-5zm0 2c1.483 0 2.71 1.084 2.949 2.5h-3.449v-2.5h.5zm-1.5 0v2.5h-3v-2.5h3zm-4 0v2.5h-3v-2.5h3zm-4 0v2.5h-3v-2.5h3zm-4.5 0h.5v2.5h-3.45c.24-1.415 1.467-2.5 2.95-2.5zm0 6c-1.483 0-2.71-1.084-2.949-2.5h3.449v2.5h-.5zm1.5 0v-2.5h3v2.5h-3zm4 0v-2.5h3v2.5h-3zm4 0v-2.5h3v2.5h-3zm4.5 0h-.5v-2.5h3.449c-.239 1.416-1.466 2.5-2.949 2.5z"/>
 	
 	eye pairs:
 	<ellipse fill="#664500" cx="11.5" cy="16.5" rx="2.5" ry="3.5"/><ellipse fill="#664500" cx="24.5" cy="16.5" rx="2.5" ry="3.5"/>
