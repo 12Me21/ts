@@ -6,6 +6,6 @@
 	
 	<use href="F.svg#eyes.normal12" y="14.5" color="#664500"/>
 	
-	<ellipse fill="#664500" cx="18" cy="27" rx="5" ry="6"/>
+	<ellipse cx="18" cy="27" rx="5" ry="6" fill="#664500"/>
 	<path d="M 15,27 a 3,4 0 01 6,0 h-6 Z" fill="#F5F8FA" /> <!-- half ellipse -->
 </svg>
