@@ -22,6 +22,7 @@
 	
 	<path id="mouth.smiling2" d="M -9,-5.5 s 4,3 9,3 s 9,-3 9,-3 s -3,5 -9,5 s -9,-5 -9,-5 Z" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
 	<path id="mouth.smiling2b" d="M -9,-7 s 4,3 9,3 s 9,-3 9,-3 s -3,6.5 -9,6.5 s -9,-6.5 -9,-6.5 Z" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
+	<path id="mouth.smiling3" d="M -7,-4.5 s 2 2 7 2 s 7 -2 7 -2 s -1 4 -7 4 s -7 -4 -7 -4 z" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
 	
 	<path id="bg.horn" d="M 0,0 s 4,4 8,4 l -2,4 c -6,0 -6,-8 -6,-8 Z" stroke-width="4" stroke-linejoin="round" stroke="currentColor" fill="currentColor"/>
 	<g id="bg.horns">
