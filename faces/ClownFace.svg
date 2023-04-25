@@ -9,7 +9,7 @@
 		<circle cx="3" cy="8" r="3"/>
 		<circle cx="3" cy="4" r="3"/>
 	</g>
-	<circle cx="18" cy="18" r="18" fill="#FEE7B8" />
+	<use href="F.svg#bg.normal" color="#FEE7B8"/>
 	<g fill="#4289C1">
 		<circle cx="30.5" cy="4.5" r="2.5"/>
 		<circle cx="32" cy="7" r="2"/>

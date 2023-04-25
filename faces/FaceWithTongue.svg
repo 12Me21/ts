@@ -1,5 +1,5 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-	<circle cx="18" cy="18" r="18" fill="#FFCC4D" />
+	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	<ellipse fill="#664500" cx="11.5" cy="14.5" rx="2.5" ry="3.5"/>
 	<ellipse fill="#664500" cx="24.5" cy="14.5" rx="2.5" ry="3.5"/>
 	<path d="M 7,21.262 c 11.667,2.756 22,0 22,0 c 0,4 -4.596,9 -11,9 s -11,-5.036 -11,-9 Z" fill="#664500" />

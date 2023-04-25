@@ -1,5 +1,5 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-	<circle cx="18" cy="18" r="18" fill="#FFCC4D"/>
+	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	<!-- eyes -->
 	<!-- todo: transform these too (might get nicer cx/cy) -->
 	<circle cx="22.700" cy="10.423" r="6.734" fill="#F5F8FA"/>

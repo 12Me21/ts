@@ -1,5 +1,5 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-	<circle fill="#50A5E6" cx="18" cy="18" r="18"/>
+	<use href="F.svg#bg.normal" color="#50A5E6"/>
 	<!-- eyebrows -->
 	<use href="F.svg#eyebrow.4" transform="translate(5.984 10.375)" color="#1C6399"/>
 	<use href="F.svg#eyebrow.4" transform="translate(29.989 10.375) scale(-1 1)" color="#1C6399"/>

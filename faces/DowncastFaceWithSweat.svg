@@ -1,5 +1,5 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-	<circle cx="18" cy="18" r="18" fill="#FFCC4D" />
+	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	<use href="F.svg#mouth.smiling1b" transform="translate(13 21) rotate(180)" color="#664500"/>
 	<use href="F.svg#mouth.smiling1b" transform="translate(24 21) rotate(180)" color="#664500"/>
 	<path d="M 13,28 s 1,-4 5,-4 s 5,4 5,4 s -1,-1 -5,-1 s -5,1 -5,1 Z" fill="#664500"/> <!-- mouth.smiling1 -->

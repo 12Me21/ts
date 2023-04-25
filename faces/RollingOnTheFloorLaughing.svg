@@ -1,5 +1,5 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-	<circle cx="18" cy="18" r="18" fill="#FFCC4D"/>
+	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	<g transform="rotate(-45 18 18)">
 		<use href="F.svg#mouth_grinning" transform="translate(18 33.447) scale(1.3636)"/>
 		<use href="F.svg#eye_squinting" transform="translate(18 8.231)"/>
