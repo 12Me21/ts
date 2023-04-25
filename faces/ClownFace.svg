@@ -23,5 +23,5 @@
 	<ellipse fill="#664500" cx="11.5" cy="11.5" rx="2.5" ry="3.5"/>
 	<ellipse fill="#664500" cx="25.5" cy="11.5" rx="2.5" ry="3.5"/>
 	<circle fill="#BB1A34" cx="18.5" cy="19.5" r="3.5"/>
-	<use href="F.svg#mouth.smiling2b" x="18" y="29" color="#DA2F47"/>
+	<use href="F.svg#mouth.smiling2b" x="18" y="31" color="#DA2F47"/>
 </svg>
