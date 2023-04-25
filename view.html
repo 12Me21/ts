@@ -79,12 +79,15 @@
 		contain: strict;
 	}
 	.compare-box > :last-child {
+		background: unset;
+	}
+	.compare-box > .mine {
 		border: 5px dotted blue;
 	}
-	.compare-box.diff > :last-child {
+	.compare-box.diff > .mine {
 		mix-blend-mode: difference;
 	}
-	.compare-box.hide > :last-child {
+	.compare-box.hide > .mine {
 		opacity: 0;
 		z-index: -5;
 	}
@@ -145,6 +148,9 @@
 	}
 	.layer-box[data-kind=use] {
 		--color: blue;
+	}
+	.layer-box[data-kind=ellipse], .layer-box[data-kind=circle], .layer-box[data-kind=rect] {
+		--color: teal;
 	}
 	.layer-box[data-kind=use] > svg{
 		border-color: slateblue;
@@ -207,12 +213,19 @@
 	</datalist>
 </form>
 <div>
-	<form id=$controls>
+	<form id=$controls method=dialog>
 		<label style="line-height: 1.5;">Show: <input autocomplete=off type=range min=0 max=2 name=diff></label>
 		<!--<label>Original<input autocomplete=off type=checkbox name=hide></label>
 		<label>Difference<input autocomplete=off type=checkbox name=diff></label>-->
 	</form>
-	<div id=$box class='compare-box'></div>
+	<div id=$box class='compare-box'>
+		<svg viewBox="0 0 36 36" id=$custom></svg>
+	</div>
+	<form onsubmit="$custom.innerHTML=this.t.value;return undefined" method=dialog onkeydown="if (event.key=='Enter' && !event.shiftKey) event.preventDefault(),this.submit.click()">
+		<textarea name=t style="width:100%;line-break:anywhere;width:-moz-available;display:block;"></textarea>
+		<br>
+		<button name=submit>update</button>
+	</form>
 </div>
 <div id=$layers class='scroll'></div>
 
@@ -228,6 +241,8 @@
 <script type=module>
 	import cmap from './cmap.js?1' // todo: use the async syntax trick
 	import palette from './palette.js?1'
+	
+	let custom = $custom
 	
 	window.cmap = cmap
 	
@@ -382,7 +397,9 @@
 			$form.modified.value = modified + " - " + ((Date.now() - new Date(modified)) / 1000 / 60).toFixed(0) + " minutes ago"
 			if (orig)
 				$box.append(orig)
+			svg.classList.add('mine')
 			$box.append(svg)
+			$box.append(custom)
 			//$controls.name.value = name
 			//$controls.variant.value = variant
 			$form.current.value = name+" / "+variant+" / "+palette
