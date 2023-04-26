@@ -39,6 +39,8 @@
 	
 	<path id="eye.smiling" d="M -3,3 s 1,-3 3,-3 s 3,3 3,3" fill="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="#664500"/>
 	
+	<path id="eye.closed" d="M 0,0 s 4,-2 8,0" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	
 	<!-- width: 35.77 -->
 	<path id="heart" d="M 0,0 c -6.784,-2.466 -16.249,-11.447 -17.619,-19.96 c -0.168,-0.721 -0.266,-1.469 -0.266,-2.241 c 0,-5.451 4.418,-9.868 9.868,-9.868 c 3.307,0 6.226,1.633 8.017,4.129 c 1.791,-2.496 4.71,-4.129 8.018,-4.129 c 5.449,0 9.867,4.418 9.867,9.868 c 0,0.773 -0.098,1.521 -0.268,2.242 c -1.368,8.512 -10.834,17.493 -17.617,19.959 Z"/>
 	
@@ -81,6 +83,9 @@
 	<path id="eyebrow.4" d="M0 0 s 4,0 7,-4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/> <!-- oh this is just eyebrow2 but flipped.. -->
 	<path id="eyebrow.5" d="M 0,0 s 5,-1 8,3" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	<path id="eyebrow.2b" d="M 0,0 s 4,0 8,4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.2b" d="M 0,0 s 4,0 8,4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	
+	<path id="eyebrow.6" d="M 0,0 s -2,3 -7,5" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	
 	<path id="mouth.zigzag" d="M-8 -2 l 1 1 l 3 -4 l 4 5 l 4 -5 l 3 4 l 1 -1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" fill="none"/>
 	<!-- 3 -->
