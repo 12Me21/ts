@@ -5,6 +5,5 @@
 	<circle fill="#292F33" cx="24.5" cy="13.5" r="2.5"/>
 	<use href="F.svg#mouth.grinning3" x="18" y="30.262" color="#664500"/>
 	
-	<path d="M 12,29.964 v-6.961 s 5.709,1.333 12,0.041 v6.92 c 0,3 -2,6 -6,6 s -6,-3 -6,-6 Z" fill="#E8596E" /> <!-- had to go back to the oldest twemoji release to get a perfect version of this -->
-	<path d="M 18.545,31.298 a 0.5455,0.5455 0 01 -1.091,0 v-7.700 h1.091  Z" fill="#DD2E44"/>
+	<use href="F.svg#tongue.1" x="18" y="35.964"/>
 </svg>
