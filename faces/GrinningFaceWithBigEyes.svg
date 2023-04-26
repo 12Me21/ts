@@ -1,7 +1,6 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
-	<ellipse fill="#664500" cx="11.5" cy="12.5" rx="2.5" ry="5.5"/>
-	<ellipse fill="#664500" cx="24.5" cy="12.5" rx="2.5" ry="5.5"/>
-	<path d="M 18,22 c 3.623,0 6.027,-0.422 9,-1 c 0.679,-0.132 2,0 2,2 c 0,4 -4.596,9 -11,9 c -6.405,0 -11,-5 -11,-9 c 0,-2 1.321,-2.131 2,-2 c 2.973,0.578 5.377,1 9,1 Z" fill="#664500" />
-	<path d="M 9,23 s 3,1 9,1 s 9,-1 9,-1 s -2,4 -9,4 s -9,-4 -9,-4 Z" fill="#FFF" />
-	</svg>
+	<ellipse cx="11.5" cy="12.5" rx="2.5" ry="5.5" fill="#664500"/>
+	<ellipse cx="24.5" cy="12.5" rx="2.5" ry="5.5" fill="#664500"/>
+	<use href="F.svg#mouth_grinning" x="18" y="32"/>
+</svg>
