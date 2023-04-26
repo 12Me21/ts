@@ -1,4 +1,5 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+	<!-- this is just GrinningCatWithSmilingEyes, with tears added -->
 	<use href="F.svg#bg.cat"/>
 	
 	<use href="F.svg#eyebrow.2" transform="translate(12 11) scale(1 1)" color="#292F33"/>
@@ -7,8 +8,7 @@
 	<use href="F.svg#mouth.smiling1c" transform="translate(12 15.5) scale(1 -1)" color="#292F33"/>
 	<use href="F.svg#mouth.smiling1c" transform="translate(24 15.5) scale(1 -1)" color="#292F33"/>
 	
-	<path d="M 28.023,24.191 c 0.977,-0.191 1.092,1.073 0.535,2.941 c -0.558,1.868 -3.558,5.868 -10.558,5.868 s -10,-4 -10.558,-5.868 c -0.557,-1.868 -0.442,-3.132 0.535,-2.941 c 0.977,0.192 5.023,1.809 10.023,1.809 s 9.046,-1.617 10.023,-1.809 Z" fill="#292F33" />
-	<path d="M 8,25 s 5,2 10,2 s 10,-2 10,-2 s -0.5,3 -1.5,3 s -1.5,-1 -1.5,-1 s -4,2 -7,2 s -7,-2 -7,-2 s -0.5,1 -1.5,1 s -1.5,-3 -1.5,-3 Z" fill="#F5F8FA" />
+	<use href="F.svg#mouth.cat_grin"/>
 	
 	<use href="F.svg#nose.cat"/>
 	
