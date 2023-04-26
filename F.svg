@@ -142,5 +142,7 @@ a 1.444,1.444 0 01 0,2.888" stroke-width="1.75" stroke-linecap="round" stroke="c
 	<ellipse fill="#664500" cx="12" cy="13.5" rx="2.5" ry="3.5"/>
 	<ellipse fill="#664500" cx="24" cy="13.5" rx="2.5" ry="3.5"/>
 	
+	m
+	<path d="M 16,29 c 2,-5 13,-5 13,-3 c 0,1 -8,-1 -13,3 Z" fill="#664500" />
 	
 </svg>
