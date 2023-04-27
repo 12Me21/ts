@@ -4,6 +4,6 @@
 	<use href="F.svg#eyebrow.2" transform="translate(23 8.5) scale(-1, 1)" color="#664500"/>
 	<ellipse cx="11.5" cy="17" rx="2.5" ry="3.5" fill="#664500"/>
 	<ellipse cx="24.5" cy="17" rx="2.5" ry="3.5" fill="#664500"/>
-	<use href="F.svg#mouth.smiling1" transform="translate(18 24) rotate(180)" color="#664500"/>
+	<use href="F.svg#mouth.smiling1" transform="translate(18 24) scale(1 -1)" color="#664500"/>
 	<use href="F.svg#water_drop" x="11" y="21"/>
 </svg>
