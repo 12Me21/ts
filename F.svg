@@ -137,6 +137,11 @@ a 1.444,1.444 0 01 0,2.888" stroke-width="1.75" stroke-linecap="round" stroke="c
 		id="mouth.grinning3"
 		d="M -11,-9 c 11.667,2.756 22,0 22,0 c 0,4 -4.596,9 -11,9 s -11,-5.036 -11,-9 Z" fill="currentColor"/>
 	
+	<path 
+		id="mouth.grinning4" stroke-width="1"
+		d="M10 8.5 s -1 -8 -10 -8s-10 8 -10 8s6 -2 10 -2c1 0 5.25 0 10 2z"
+		stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
+	
 	<g id="tongue.1">
 		<path d="M -6,-6 v-6.961 s 5.709,1.333 12,0.041 v6.92 c 0,3 -2,6 -6,6 s -6,-3 -6,-6 Z" fill="#E8596E" /> <!-- had to go back to the oldest twemoji release to get a decent version of this -->
 		<path d="M 0.545,-4.666 a 0.5455,0.5455 0 01 -1.091,0 v-7.700 h1.091  Z" fill="#DD2E44"/>
