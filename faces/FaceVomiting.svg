@@ -1,9 +1,14 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-	<circle cx="18" cy="17" r="17" fill="#FFCC4D" />
-	<use href="F.svg#eye_squinting" transform="scale(.944) translate(8.064 13)"/>
-	<use href="F.svg#eye_squinting" transform="scale(.944) translate(30.072 13) scale(-1 1)"/>
+	<!-- some weird scaling going on here... -->
+	<circle cx="18" cy="17" r="17" fill="#FFCC4D"/>
+	
+	<use href="F.svg#eye.squinting" transform="scale(.944) translate(8.064 13)" color="#664500"/>
+	<use href="F.svg#eye.squinting" transform="scale(.944) translate(30.072 13) scale(-1 1)" color="#664500"/>
+	
 	<use href="F.svg#mouth_grinning2" transform="translate(18 17.931) scale(.9205, -.9205)"/>
-	<path d="M 25.712,32.287 c 4.403,0.349 7.359,0.985 7.359,1.713 c 0,1.105 -6.777,2 -15.137,2 s -15.137,-0.895 -15.137,-2 c 0,-0.728 2.956,-1.364 7.359,-1.713 v-7.101 c 0,-2.592 3.889,-5.185 7.778,-5.185 s 7.778,2.592 7.778,5.185 v7.101 Z" fill="#77AF57"/>
+	
+	<ellipse rx="15.137" ry="2" cx="17.934" cy="34" fill="#77AF57"/>
+	<path d="M 25.712,32.287 h -15.556 v-7.101 c 0,-2.592 3.889,-5.185 7.778,-5.185 s 7.778,2.592 7.778,5.185 v7.101 Z" fill="#77AF57"/>
 	<g fill="#5D9040">
 		<circle cx="15.875" cy="23.228" r="1.235"/>
 		<circle cx="20.698" cy="25.64 " r="1.235"/>
