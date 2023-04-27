@@ -106,7 +106,19 @@ a 1.444,1.444 0 01 0,2.888" stroke-width="1.75" stroke-linecap="round" stroke="c
 	
 	<path id="eyebrow.12" d="M 0,0 s -4,-1 -7,1" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	
+	<path id="eyebrow.13" d="M 0,0 s 2,0 4,-2" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	
 	<path id="eye.squinting" d="M 0,0 s 5,0 8,3 c -5,0 -9,3 -9,3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" fill="none"/>
+	
+	<g id="eye.shiny">
+		<circle r="5.5" fill="#F5F8FA"/>
+		<circle cy="-0.5" r="5" fill="#292F33"/>
+		<g transform="rotate(45)">
+			<ellipse cx="-2.667" cy="-0.353" rx="2.0825" ry="2.6745" fill="#F5F8FA"/>
+			<ellipse cx="2.837" cy="-0.666" rx="0.9145" ry="1.175" fill="#F5F8FA"/>
+		</g>
+	</g>
+
 	
 	<path id="mouth.zigzag" d="M-8 -2 l 1 1 l 3 -4 l 4 5 l 4 -5 l 3 4 l 1 -1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" fill="none"/>
 	<!-- 3 -->
