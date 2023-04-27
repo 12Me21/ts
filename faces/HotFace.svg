@@ -4,8 +4,8 @@
 	
 	<use href="F.svg#eyebrow.3b" transform="translate(29 11) scale(-1 1)" color="#292F33"/>
 	<use href="F.svg#eyebrow.3" transform="translate(7 11) scale(1 1)" color="#292F33"/>
-	<ellipse cx="12" cy="16.5" rx="2.5" ry="3.5" fill="#292F33"/>
-	<ellipse cx="24" cy="16.5" rx="2.5" ry="3.5" fill="#292F33"/>
+	
+	<use href="F.svg#eyes.normal12" y="16.5" color="#292F33"/>
 	
 	<!-- the paths for the mouth+tongue are irregular, off center, etc., need to be redrawn -->
 	<path d="M 26.125,29.261 c 0.084,0 0.166,-0.029 0.233,-0.081 c 0.09,-0.071 0.142,-0.18 0.142,-0.294 c 0,-3.178 -3.713,-6.872 -8.5,-6.872 s -8.5,3.694 -8.5,6.872 c 0,0.116 0.054,0.225 0.145,0.297 c 0.093,0.071 0.213,0.094 0.324,0.066 c 0.076,-0.02 7.648,-1.94 16.072,0.002 c 0.027,0.007 0.056,0.01 0.084,0.01 Z" fill="#292F33" />
