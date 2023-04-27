@@ -105,8 +105,11 @@ a 1.444,1.444 0 01 0,2.888" stroke-width="1.75" stroke-linecap="round" stroke="c
 	<path id="eyebrow.11" d="M 0,0 s 3,-2 7,0" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	
 	<path id="eyebrow.12" d="M 0,0 s -4,-1 -7,1" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.12b" d="M 0,0 s -4,-1 -6,1" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	
 	<path id="eyebrow.13" d="M 0,0 s 2,0 4,-2" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	
+	<path id="eyebrow.14" d="M 0,0 s -5,-1 -8,2" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	
 	<path id="eye.squinting" d="M 0,0 s 5,0 8,3 c -5,0 -9,3 -9,3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" fill="none"/>
 	
