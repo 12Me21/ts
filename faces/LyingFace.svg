@@ -1,7 +1,11 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+	<!-- scaled ? -->
 	<circle cx="16" cy="18" r="16" fill="#FFCC4D"/>
-	<ellipse cx="9.265" cy="13.529" rx="2.206" ry="3.088" fill="#664500" />
-	<ellipse cx="20.794" cy="13.529" rx="2.206" ry="3.088" fill="#664500" />
-	<path d="M 10.118,29.382 c 1.765,-4.412 11.471,-4.412 11.471,-2.647 c -0.001,0.883 -7.06,-0.882 -11.471,2.647 Z" fill="#664500" />
-	<rect x="14.266" y="17.5" width="20.734" height="6" rx="2.736" ry="3" fill="#F4900C" />
+	
+	<ellipse rx="2.5" ry="3.5" transform="translate(9.265 13.529) scale(0.8824)" fill="#664500" />
+	<ellipse rx="2.5" ry="3.5" transform="translate(20.794 13.529) scale(0.8824)" fill="#664500" />
+	
+	<path d="M 0,0 c 2,-5 13,-5 13,-3 c 0,1 -8,-1 -13,3" transform="translate(10.118 29.382) scale(0.8824)" fill="#664500"/>
+	
+	<rect width="23.497" height="6.8" rx="3.1" ry="3.4" transform="translate(14.266 17.5) scale(0.8824)" fill="#F4900C" />
 </svg>

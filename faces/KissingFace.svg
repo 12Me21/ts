@@ -1,5 +1,6 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
+	
 	<ellipse cx="12.5" cy="15.5" rx="2.5" ry="3.5" fill="#664500"/>
 	<ellipse cx="23.5" cy="15.5" rx="2.5" ry="3.5" fill="#664500"/>
 	
