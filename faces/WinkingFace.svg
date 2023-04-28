@@ -1,11 +1,11 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
-	
-	<use href="F.svg#eyebrow.4" transform="translate(13 7.458) scale(-1 -1)" color="#664500"/>
-	<use href="F.svg#eyebrow.5" transform="translate(21 10.5825)" color="#664500"/>
-	
+	<!-- eyes -->
 	<ellipse cx="11.5" cy="16.5" rx="2.5" ry="3.5" fill="#664500"/>
 	<use href="F.svg#mouth.smiling1b" transform="translate(24 14.5) scale(1 -1)" color="#664500"/>
-	
+	<!-- mouth -->
 	<use href="F.svg#mouth.smiling1" transform="translate(18 28.5)" color="#664500"/>
+	<!-- eyebrows -->
+	<use href="F.svg#eyebrow.4" transform="translate(13 7.458) scale(-1 -1)" color="#664500"/>
+	<use href="F.svg#eyebrow.5" transform="translate(21 10.5825)" color="#664500"/>
 </svg>
