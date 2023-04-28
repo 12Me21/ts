@@ -137,6 +137,8 @@ a 1.444,1.444 0 01 0,2.888" stroke-width="1.75" stroke-linecap="round" stroke="c
 		d="M -4,-2.5 s 1.5,1 4,1 s 4,-1 4,-1 s -1.25,2 -4,2 s -4,-2 -4,-2 Z"
 		stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
 	
+	<path id="mouth.smiling1d" d="M -5,-3 s 1,1 5,1 s 5,-1 5,-1 s -1,2.5 -5,2.5 s -5,-2.5 -5,-2.5 z" stroke-width="1" fill="currentColor" stroke-linejoin="round" stroke="currentColor"/>
+	
 	<path 
 		id="mouth.grinning3"
 		d="M -11,-9 c 11.667,2.756 22,0 22,0 c 0,4 -4.596,9 -11,9 s -11,-5.036 -11,-9 Z" fill="currentColor"/>
