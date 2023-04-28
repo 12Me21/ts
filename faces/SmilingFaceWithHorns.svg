@@ -1,8 +1,6 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.horns" color="#AA8DD8"/>
-	<g color="#553986">
-		<use href="F.svg#eye.angry1" x="12.5" y="20.5"/>
-		<use href="F.svg#eye.angry1" transform="translate(23.5 20.5) scale(-1 1)"/>
-		<use href="F.svg#mouth.smiling2" x="18" y="31.5"/>
-	</g>
+	<use href="F.svg#eye.angry1" x="12.5" y="20.5" color="#553986"/>
+	<use href="F.svg#eye.angry1" transform="translate(23.5 20.5) scale(-1 1)" color="#553986"/>
+	<use href="F.svg#mouth.smiling2" x="18" y="31.5" color="#553986"/>
 </svg>

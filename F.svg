@@ -38,6 +38,7 @@
 	<ellipse id="eye.1" rx="2.5" ry="3.5" fill="currentColor"/>
 	
 	<path id="eye.smiling" d="M -3,3 s 1,-3 3,-3 s 3,3 3,3" fill="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="#664500"/>
+	<path id="eye.smiling2" d="M -4,2 s 1,-2 4,-2 s 4,2 4,2" fill="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="#664500"/>
 	
 	<path id="eye.closed" d="M 0,0 s 4,-2 8,0" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	
