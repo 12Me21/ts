@@ -1,0 +1,22 @@
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+	<path d="M 0,34 h36 v2 h-36 v-2 Z" fill="#939598"/>
+	<circle cx="5" cy="32" r="3" fill="#58595B"/>
+	<circle cx="13" cy="32" r="3" fill="#58595B"/>
+	<circle fill="#58595B" cx="24" cy="32" r="3"/>
+	<circle fill="#58595B" cx="32" cy="32" r="3"/>
+	<circle cx="5" cy="32" r="2" fill="#292F33"/>
+	<circle cx="13" cy="32" r="2" fill="#292F33"/>
+	<circle fill="#292F33" cx="24" cy="32" r="2"/>
+	<circle fill="#292F33" cx="32" cy="32" r="2"/>
+	<path d="M 0,28 h36 v4 h-36 v-4 Z" fill="#5C913B"/>
+	<path d="M 0,16 h36 v12 h-36 v-12 Z" fill="#FFE8B6"/>
+	<path d="M 0,26 h36 v2 h-36 v-2 Z" fill="#FFAC33"/>
+	<path d="M 0,16 a 4,4 0 01 3.445,-2 h29.11 a 4,4 0 01 3.445,2 h-36 Z"  fill="#77B255"/>
+	
+	<rect x="1" y="19" width="4" height="4" rx="1" fill="#55ACEE"/>
+	<rect x="7" y="19" width="4" height="4" rx="1" fill="#55ACEE"/>
+	<rect x="13" y="19" width="4" height="4" rx="1" fill="#55ACEE"/>
+	<rect x="19" y="19" width="4" height="4" rx="1" fill="#55ACEE"/>
+	<rect x="25" y="19" width="4" height="4" rx="1" fill="#55ACEE"/>
+	<rect x="31" y="19" width="4" height="4" rx="1" fill="#55ACEE"/>
+</svg>
