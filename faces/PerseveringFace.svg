@@ -2,8 +2,8 @@
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	<use href="F.svg#eyebrow.3" transform="translate(7 9)" color="#664500"/>
 	<use href="F.svg#eyebrow.3b" transform="translate(29 9) scale(-1 1)" color="#664500"/>
-	<use href="F.svg#eye_squinting" transform="translate(7 16)" color="#664500"/>
-	<use href="F.svg#eye_squinting" transform="translate(29 16) scale(-1, 1)" color="#664500"/>
+	<use href="F.svg#eye.squinting" transform="translate(7 16)" color="#664500"/>
+	<use href="F.svg#eye.squinting" transform="translate(29 16) scale(-1, 1)" color="#664500"/>
 	<!-- idk.. -->
 	<path d="M 25.454,30.791 c 0.1,0.218 0.032,0.475 -0.162,0.615 c -0.192,0.14 -0.459,0.122 -0.634,-0.04 c -0.026,-0.024 -2.671,-2.454 -6.414,-2.454 c -3.77,0 -6.902,2.455 -6.933,2.479 c -0.091,0.073 -0.201,0.109 -0.311,0.109 c -0.114,0 -0.228,-0.039 -0.321,-0.117 c -0.182,-0.152 -0.232,-0.412 -0.119,-0.621 c 0.138,-0.255 3.435,-6.262 7.684,-6.262 c 4.272,0 7.092,6.034 7.21,6.291 Z" fill="#664500" />
 </svg>

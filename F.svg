@@ -1,4 +1,13 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+	<circle id="bg.normal" cx="18" cy="18" r="18" fill="currentColor"/>
+	
+	<path id="bg.horn" d="M 0,0 s 4,4 8,4 l -2,4 c -6,0 -6,-8 -6,-8 Z" stroke-width="4" stroke-linejoin="round" stroke="currentColor" fill="currentColor"/>
+	<g id="bg.horns">
+		<circle fill="currentColor" cx="18" cy="18" r="18"/>
+		<use href="#bg.horn" x="2" y="2"/>
+		<use href="#bg.horn" transform="translate(34 2) scale(-1 1)"/>
+	</g>
+	
 	<g id="bg.cat">
 		<path d="M 18,36 c -2,0 -8,-1 -12,-4 c -2.633,-1.975 -4.61,-4.284 -5,-5 c -0.343,-0.63 -1.129,-3.487 -0.734,-7.071 c 0.359,-3.269 0.734,-4.929 1.734,-6.929 c 0,0 -3,-9 -1,-12.7 c 0.674,-1.246 7.404,1.688 10,3.7 c 0,0 4,-0.998 7,-0.998 s 7,0.998 7,0.998 c 2.596,-2.012 9.326,-4.946 10,-3.7 c 2,3.7 -1,12.7 -1,12.7 c 1,2 1.375,3.66 1.734,6.929 c 0.395,3.584 -0.391,6.441 -0.734,7.071 c -0.39,0.716 -2.367,3.025 -5,5 c -4,3 -10,4 -12,4 Z" fill="#FFCC4D"/>
 		<!-- ears -->
@@ -7,6 +16,7 @@
 		<path d="M 4.934,5.603 c 0,-1.414 6.066,1.397 5.066,2.397 s -2,1.603 -3,2.603 s -2.066,-4 -2.066,-5 Z" fill="#FFCC4D" />
 		<path d="M 31.066,5.603 c 0,1 -1.066,6 -2.066,5 s -2,-1.603 -3,-2.603 s 5.066,-3.811 5.066,-2.397 Z" fill="#FFCC4D" />
 	</g>
+	
 	<g id="nose.cat">
 		<!-- nose -->
 		<path d="M 18,19.5 c 3,0 3,0.5 3,1.5 s -1.5,3 -3,3 s -3,-2 -3,-3 s -0.001,-1.5 3,-1.5 Z" fill="#E75A70" />
@@ -17,10 +27,12 @@
 		<path d="M 26.431,20.337 c 0.049,0 0.1,-0.007 0.149,-0.022 c 4.79,-1.497 8.737,-0.347 8.777,-0.336 c 0.265,0.081 0.543,-0.07 0.623,-0.335 c 0.079,-0.265 -0.071,-0.543 -0.335,-0.622 c -0.173,-0.052 -4.286,-1.247 -9.362,0.338 c -0.264,0.083 -0.411,0.363 -0.328,0.627 c 0.065,0.213 0.263,0.35 0.476,0.35 Z" fill="#FEE7B8" />
 	</g>
 	
-	<path id="water_drop" d="M 5,10 a 5,5 0 01 -10,0 c 0,-2.762 4,-10 5,-10 s 5,7.238 5,10 Z" fill="#5DADEC"/>
+	covering for top of head (cold, anxious, fearful, etc.)
+	<path id="bg.sweat" d="M 18,11 c -8.748,0 -16.033,4.509 -17.656,10.484 c -0.221,-1.128 -0.344,-2.292 -0.344,-3.484 c 0,-9.94 8.06,-18 18,-18 c 9.941,0 18,8.06 18,18 c 0,1.192 -0.122,2.356 -0.344,3.484 c -1.623,-5.975 -8.907,-10.484 -17.656,-10.484 Z" fill="#BDDDF4"/>
 	
-	<path id="eye.squinting" d="M 0,0 s 5,0 8,3 c -5,0 -9,3 -9,3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="currentColor"/>
-	<path id="eye_squinting" d="M 0,-1 c 0.221,0 5.451,0.038 8.707,3.293 a 1,1 0 01 -0.707,1.707 c -4.59,0 -8.363,2.772 -8.401,2.801 a 1,1 0 01 -1.199,-1.601 c 0.143,-0.107 2.951,-2.182 6.856,-2.932 c -2.475,-1.241 -5.222,-1.268 -5.258,-1.268 a 1,1 0 01 0.002,-2 Z" fill="#664500"/><!-- i think this could be built from 2 other shapes -->
+	<path id="water_drop" d="M 5,10 a 5,5 0 01 -10,0 c 0,-2.762 4,-10 5,-10 s 5,7.238 5,10 Z" fill="#5DADEC"/>
+	<!-- width: 35.77 -->
+	<path id="heart" d="M 0,0 c -6.784,-2.466 -16.249,-11.447 -17.619,-19.96 c -0.168,-0.721 -0.266,-1.469 -0.266,-2.241 c 0,-5.451 4.418,-9.868 9.868,-9.868 c 3.307,0 6.226,1.633 8.017,4.129 c 1.791,-2.496 4.71,-4.129 8.018,-4.129 c 5.449,0 9.867,4.418 9.867,9.868 c 0,0.773 -0.098,1.521 -0.268,2.242 c -1.368,8.512 -10.834,17.493 -17.617,19.959 Z"/>
 	
 	<g id="mouth_grinning">
 		<path d="M 0,-10 c 3.623,0 6.027,-0.422 9,-1 c 0.679,-0.132 2,0 2,2 c 0,4 -4.596,9 -11,9 c -6.405,0 -11,-5 -11,-9 c 0,-2 1.321,-2.131 2,-2 c 2.973,0.578 5.377,1 9,1 Z" fill="#664500" />
@@ -35,28 +47,61 @@
 		<path d="M 8,25 s 5,2 10,2 s 10,-2 10,-2 s -0.5,3 -1.5,3 s -1.5,-1 -1.5,-1 s -4,2 -7,2 s -7,-2 -7,-2 s -0.5,1 -1.5,1 s -1.5,-3 -1.5,-3 Z" fill="#F5F8FA" />
 	</g>
 	
+	<path 
+		id="mouth.grinning3"
+		d="M -11,-9 c 11.667,2.756 22,0 22,0 c 0,4 -4.596,9 -11,9 s -11,-5.036 -11,-9 Z" fill="currentColor"/>
+	
+	<path 
+		id="mouth.grinning4" stroke-width="1"
+		d="M10 8.5 s -1 -8 -10 -8s-10 8 -10 8s6 -2 10 -2c1 0 5.25 0 10 2z"
+		stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
+	
+	<path id="mouth.zigzag" d="M-8 -2 l 1 1 l 3 -4 l 4 5 l 4 -5 l 3 4 l 1 -1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" fill="none"/>
+	<!-- 3 -->
+	<path id="mouth.kiss" d="M 0,0 s 5,0.25 5,2.5 s -5,2.5 -5,2.5 s 4,-0.25 4,-2.5 s -4,-2.5 -4,-2.5 s 4,-0.25 4,-2.5 s -4,-2.5 -4,-2.5 s 5,0.25 5,2.5 s -5,2.5 -5,2.5 Z" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" fill="currentColor"/>
+	
+	<path id="mouth.smirking" d="M 0,0 s 5,0 7,-1 l 4,-2 s -1,3 -4,3 z" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" fill="currentColor"/>
+	
+	<g id="mouth.grimacing">
+		<rect x="-12" y="-10" width="24" height="10" rx="5" fill="currentColor"/>
+		<path d="M 7,-8 c 1.483,0 2.71,1.084 2.949,2.5 h-3.449 v-2.5 h0.5 Z M 5.5,-8 v2.5 h-3 v-2.5 h3 Z M 1.5,-8 v2.5 h-3 v-2.5 h3 Z M -2.5,-8 v2.5 h-3 v-2.5 h3 Z M -7,-8 h0.5 v2.5 h-3.449 c 0.239,-1.416 1.466,-2.5 2.949,-2.5 Z M -7,-2 c -1.483,0 -2.71,-1.084 -2.949,-2.5 h3.449 v2.5 h-0.5 Z M -5.5,-2 v-2.5 h3 v2.5 h-3 Z M -1.5,-2 v-2.5 h3 v2.5 h-3 Z M 2.5,-2 v-2.5 h3 v2.5 h-3 Z M 7,-2 h-0.5 v-2.5 h3.449 c -0.239,1.416 -1.466,2.5 -2.949,2.5 Z" fill="#FFF" />
+	</g>
+	
+	**********************
+	
 	<ellipse id="eye.1" rx="2.5" ry="3.5" fill="currentColor"/>
+	<g id="eyes.normal13" fill="currentColor">
+		<ellipse cx="11.5" rx="2.5" ry="3.5"/>
+		<ellipse cx="24.5" rx="2.5" ry="3.5"/>
+	</g>
+	<g id="eyes.normal12" fill="currentColor">
+		<ellipse cx="12" rx="2.5" ry="3.5"/>
+		<ellipse cx="24" rx="2.5" ry="3.5"/>
+	</g>
 	
 	<path id="eye.smiling" d="M -3,3 s 1,-3 3,-3 s 3,3 3,3" fill="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="#664500"/>
 	<path id="eye.smiling2" d="M -4,2 s 1,-2 4,-2 s 4,2 4,2" fill="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="#664500"/>
 	
 	<path id="eye.closed" d="M 0,0 s 4,-2 8,0" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	
-	<path id="eye.spiral" d="
-M -5.774,1.444
-a 5.7745,5.7745 0 01 5.774,-5.775
-a 4.331,4.331 0 01 0,8.662
-a 2.8875,2.8875 0 01 0,-5.775
-a 1.444,1.444 0 01 0,2.888" stroke-width="1.75" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eye.spiral" d="M -5.774,1.444 a 5.7745,5.7745 0 01 5.774,-5.775 a 4.331,4.331 0 01 0,8.662 a 2.8875,2.8875 0 01 0,-5.775 a 1.444,1.444 0 01 0,2.888" stroke-width="1.75" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	
-	<!-- width: 35.77 -->
-	<path id="heart" d="M 0,0 c -6.784,-2.466 -16.249,-11.447 -17.619,-19.96 c -0.168,-0.721 -0.266,-1.469 -0.266,-2.241 c 0,-5.451 4.418,-9.868 9.868,-9.868 c 3.307,0 6.226,1.633 8.017,4.129 c 1.791,-2.496 4.71,-4.129 8.018,-4.129 c 5.449,0 9.867,4.418 9.867,9.868 c 0,0.773 -0.098,1.521 -0.268,2.242 c -1.368,8.512 -10.834,17.493 -17.617,19.959 Z"/>
+	<path id="eye.squinting" d="M 0,0 s 5,0 8,3 c -5,0 -9,3 -9,3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="currentColor"/>
 	
+	<path id="mouth.smiling1" d="M -5,-4.5 s 1 1 5 1s5 -1 5 -1s-1 4 -5 4s-5 -4 -5 -4z" stroke-width="1" fill="currentColor" stroke-linejoin="round" stroke="currentColor"/>
+	<path id="mouth.smiling1b" d="M -4,-3.5 s 1.3,3 4,3 s 4,-3 4,-3 s -1.4,1 -4,1 s-4,-1 -4,-1 z" stroke-width="1" fill="currentColor" stroke-linejoin="round" stroke="currentColor"/> smaller
+	<path
+		id="mouth.smiling1c" stroke-width="1"
+		d="M -4,-2.5 s 1.5,1 4,1 s 4,-1 4,-1 s -1.25,2 -4,2 s -4,-2 -4,-2 Z"
+		stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
+	
+	<path id="mouth.smiling1d" d="M -5,-3 s 1,1 5,1 s 5,-1 5,-1 s -1,2.5 -5,2.5 s -5,-2.5 -5,-2.5 z" stroke-width="1" fill="currentColor" stroke-linejoin="round" stroke="currentColor"/>
+
 	<path
 		id="mouth.smiling2" stroke-width="1"
 		d="M -9,-5.5 s 4,3 9,3 s 9,-3 9,-3 s -3,5 -9,5 s -9,-5 -9,-5 Z"
 		stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
-	<path
+	<path class='test'
 		id="mouth.smiling2b" stroke-width="1"
 		d="M -9,-7 s 4,3 9,3 s 9,-3 9,-3 s -3,6.5 -9,6.5 s -9,-6.5 -9,-6.5 Z"
 		stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
@@ -69,51 +114,32 @@ a 1.444,1.444 0 01 0,2.888" stroke-width="1.75" stroke-linecap="round" stroke="c
 		d="M -7,-4.5 s 2 2 7 2 s 7 -2 7 -2 s -1 4 -7 4 s -7 -4 -7 -4 z"
 		stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
 	
-	<path id="bg.horn" d="M 0,0 s 4,4 8,4 l -2,4 c -6,0 -6,-8 -6,-8 Z" stroke-width="4" stroke-linejoin="round" stroke="currentColor" fill="currentColor"/>
-	<g id="bg.horns">
-		<circle fill="currentColor" cx="18" cy="18" r="18"/>
-		<use href="#bg.horn" x="2" y="2"/>
-		<use href="#bg.horn" transform="translate(34 2) scale(-1 1)"/>
-	</g>
-	
-	<circle id="bg.normal" cx="18" cy="18" r="18" fill="currentColor"/>
-	
-	<path id="eyebrow.1" d="M 0,0 s 5,0 8,3" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
-	
 	<g id="eye.angry1">
 		<use href="F.svg#eyebrow.1" x="-5.5" y="-4.5"/>
 		<ellipse cx="0" cy="0" rx="2.5" ry="3.5" fill="currentColor"/>
 	</g>
 	
-	<path id="eyebrow.2" d="M 0,0 s -4,0 -7,4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
-	<path id="eyebrow.3" d="M 0,0 c 6,0 7,-4 7,-4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
-	<path id="eyebrow.3b" d="M 0,0 c 5,0 7,-4 7,-4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
-	<path id="eyebrow.4" d="M0 0 s 4,0 7,-4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/> <!-- oh this is just eyebrow2 but flipped.. -->
-	<path id="eyebrow.5" d="M 0,0 s 5,-1 8,3" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
-	<path id="eyebrow.2b" d="M 0,0 s 4,0 8,4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
-	<!--<path id="eyebrow.2b" d="M 0,0 s 4,0 8,4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>-->
+	<path id="eyebrow.13"  d="M 0,0 s 2, 0  4,-2" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	
-	<path id="eyebrow.6" d="M 0,0 s -2,3 -7,5" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.12b" d="M 0,0 s-4,-1 -6, 1" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	
-	<path id="eyebrow.7" d="M 0,0 s -5,-3 -8,1" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.11"  d="M 0,0 s 3,-2  7, 0" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.10"  d="M 0,0 s 3,-3  7,-1" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.12"  d="M 0,0 s-4,-1 -7, 1" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.9"   d="M 0,0 s 3,-2  7,-2" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.2"   d="M 0,0 s-4, 0 -7, 4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.3"   d="M 0,0 c 6, 0  7,-4 7,-4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.3b"  d="M 0,0 c 5, 0  7,-4 7,-4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.4"   d="M 0,0 s 4, 0  7,-4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.6"   d="M 0,0 s-2, 3 -7, 5" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.8"   d="M 0,0 s-5, 1 -7, 6" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.8b"  d="M 0,0 s-1,-6 -7,-6" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	
-	<path id="eyebrow.8" d="M 0,0 s -5,1 -7,6" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
-	<path id="eyebrow.8b" d="M 0,0 s -1,-6 -7,-6" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
-	
-	<path id="eyebrow.9" d="M 0,0 s 3,-2 7,-2" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
-	
-	<path id="eyebrow.10" d="M 0,0 s 3,-3 7,-1" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
-	
-	<path id="eyebrow.11" d="M 0,0 s 3,-2 7,0" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
-	
-	<path id="eyebrow.12" d="M 0,0 s -4,-1 -7,1" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
-	<path id="eyebrow.12b" d="M 0,0 s -4,-1 -6,1" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
-	
-	<path id="eyebrow.13" d="M 0,0 s 2,0 4,-2" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
-	
-	<path id="eyebrow.14" d="M 0,0 s -5,-1 -8,2" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
-	
-	<path id="eye.squinting" d="M 0,0 s 5,0 8,3 c -5,0 -9,3 -9,3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.7"   d="M 0,0 s-5,-3 -8, 1" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.14"  d="M 0,0 s-5,-1 -8, 2" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.1"   d="M 0,0 s 5, 0  8, 3" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.5"   d="M 0,0 s 5,-1  8, 3" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	<path id="eyebrow.2b"  d="M 0,0 s 4, 0  8, 4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	
 	<g id="eye.shiny">
 		<circle r="5.5" fill="#F5F8FA"/>
@@ -123,58 +149,12 @@ a 1.444,1.444 0 01 0,2.888" stroke-width="1.75" stroke-linecap="round" stroke="c
 			<ellipse cx="2.837" cy="-0.666" rx="0.9145" ry="1.175" fill="#F5F8FA"/>
 		</g>
 	</g>
-
-	
-	<path id="mouth.zigzag" d="M-8 -2 l 1 1 l 3 -4 l 4 5 l 4 -5 l 3 4 l 1 -1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" fill="none"/>
-	<!-- 3 -->
-	<path id="mouth.kiss" d="M 0,0 s 5,0.25 5,2.5 s -5,2.5 -5,2.5 s 4,-0.25 4,-2.5 s -4,-2.5 -4,-2.5 s 4,-0.25 4,-2.5 s -4,-2.5 -4,-2.5 s 5,0.25 5,2.5 s -5,2.5 -5,2.5 Z" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" fill="currentColor"/>
-	
-	<path id="mouth.smirking" d="M 0,0 s 5,0 7,-1 l 4,-2 s -1,3 -4,3 z" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" fill="currentColor"/>
-	
-	<path id="mouth.smiling1" d="M -5,-4.5 s 1 1 5 1s5 -1 5 -1s-1 4 -5 4s-5 -4 -5 -4z" stroke-width="1" fill="currentColor" stroke-linejoin="round" stroke="currentColor"/>
-	<path id="mouth.smiling1b" d="M -4,-3.5 s 1.3,3 4,3 s 4,-3 4,-3 s -1.4,1 -4,1 s-4,-1 -4,-1 z" stroke-width="1" fill="currentColor" stroke-linejoin="round" stroke="currentColor"/> smaller
-	<path
-		id="mouth.smiling1c" stroke-width="1"
-		d="M -4,-2.5 s 1.5,1 4,1 s 4,-1 4,-1 s -1.25,2 -4,2 s -4,-2 -4,-2 Z"
-		stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
-	
-	<path id="mouth.smiling1d" d="M -5,-3 s 1,1 5,1 s 5,-1 5,-1 s -1,2.5 -5,2.5 s -5,-2.5 -5,-2.5 z" stroke-width="1" fill="currentColor" stroke-linejoin="round" stroke="currentColor"/>
-	
-	<path 
-		id="mouth.grinning3"
-		d="M -11,-9 c 11.667,2.756 22,0 22,0 c 0,4 -4.596,9 -11,9 s -11,-5.036 -11,-9 Z" fill="currentColor"/>
-	
-	<path 
-		id="mouth.grinning4" stroke-width="1"
-		d="M10 8.5 s -1 -8 -10 -8s-10 8 -10 8s6 -2 10 -2c1 0 5.25 0 10 2z"
-		stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
 	
 	<g id="tongue.1">
 		<path d="M -6,-6 v-6.961 s 5.709,1.333 12,0.041 v6.92 c 0,3 -2,6 -6,6 s -6,-3 -6,-6 Z" fill="#E8596E" /> <!-- had to go back to the oldest twemoji release to get a decent version of this -->
 		<path d="M 0.545,-4.666 a 0.5455,0.5455 0 01 -1.091,0 v-7.700 h1.091  Z" fill="#DD2E44"/>
 	</g>
 	
-	<g id="mouth.grimacing">
-		<rect x="-12" y="-10" width="24" height="10" rx="5" fill="currentColor"/>
-		<path d="M 7,-8 c 1.483,0 2.71,1.084 2.949,2.5 h-3.449 v-2.5 h0.5 Z M 5.5,-8 v2.5 h-3 v-2.5 h3 Z M 1.5,-8 v2.5 h-3 v-2.5 h3 Z M -2.5,-8 v2.5 h-3 v-2.5 h3 Z M -7,-8 h0.5 v2.5 h-3.449 c 0.239,-1.416 1.466,-2.5 2.949,-2.5 Z M -7,-2 c -1.483,0 -2.71,-1.084 -2.949,-2.5 h3.449 v2.5 h-0.5 Z M -5.5,-2 v-2.5 h3 v2.5 h-3 Z M -1.5,-2 v-2.5 h3 v2.5 h-3 Z M 2.5,-2 v-2.5 h3 v2.5 h-3 Z M 7,-2 h-0.5 v-2.5 h3.449 c -0.239,1.416 -1.466,2.5 -2.949,2.5 Z" fill="#FFF" />
-	</g>
-	
-	covering for top of head (cold, anxious, fearful, etc.)
-	<path id="bg.sweat" d="M 18,11 c -8.748,0 -16.033,4.509 -17.656,10.484 c -0.221,-1.128 -0.344,-2.292 -0.344,-3.484 c 0,-9.94 8.06,-18 18,-18 c 9.941,0 18,8.06 18,18 c 0,1.192 -0.122,2.356 -0.344,3.484 c -1.623,-5.975 -8.907,-10.484 -17.656,-10.484 Z" fill="#BDDDF4"/>
-	
-	<!-- mouth showing teeth (cold) -->
-	<rect x="6.985" y="21.833" width="22" height="8" rx="4" fill="#FFF" />
-	<path fill="#1C6399" d="M24.985 20.812h-14c-2.757 0-5 2.243-5 5s2.243 5 5 5h14c2.757 0 5-2.243 5-5s-2.243-5-5-5zm0 2c1.483 0 2.71 1.084 2.949 2.5h-3.449v-2.5h.5zm-1.5 0v2.5h-3v-2.5h3zm-4 0v2.5h-3v-2.5h3zm-4 0v2.5h-3v-2.5h3zm-4.5 0h.5v2.5h-3.45c.24-1.415 1.467-2.5 2.95-2.5zm0 6c-1.483 0-2.71-1.084-2.949-2.5h3.449v2.5h-.5zm1.5 0v-2.5h3v2.5h-3zm4 0v-2.5h3v2.5h-3zm4 0v-2.5h3v2.5h-3zm4.5 0h-.5v-2.5h3.449c-.239 1.416-1.466 2.5-2.949 2.5z"/>
-	<path fill="#664500" d="M25 20H11c-2.757 0-5 2.243-5 5s2.243 5 5 5h14c2.757 0 5-2.243 5-5s-2.243-5-5-5zm0 2c1.483 0 2.71 1.084 2.949 2.5H24.5V22h.5zm-1.5 0v2.5h-3V22h3zm-4 0v2.5h-3V22h3zm-4 0v2.5h-3V22h3zM11 22h.5v2.5H8.051C8.29 23.084 9.517 22 11 22zm0 6c-1.483 0-2.71-1.084-2.949-2.5H11.5V28H11zm1.5 0v-2.5h3V28h-3zm4 0v-2.5h3V28h-3zm4 0v-2.5h3V28h-3zm4.5 0h-.5v-2.5h3.449C27.71 26.916 26.483 28 25 28z"/>
-	
-	<g id="eyes.normal13" fill="currentColor">
-		<ellipse cx="11.5" rx="2.5" ry="3.5"/>
-		<ellipse cx="24.5" rx="2.5" ry="3.5"/>
-	</g>
-	<g id="eyes.normal12" fill="currentColor">
-		<ellipse cx="12" rx="2.5" ry="3.5"/>
-		<ellipse cx="24" rx="2.5" ry="3.5"/>
-	</g>
 	<use href="F.svg#eyes.normal13" y="" color="#664500"/>
 	<use href="F.svg#eyes.normal12" y="" color="#664500"/>
 	

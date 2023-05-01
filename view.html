@@ -79,7 +79,7 @@
 		contain: strict;
 	}
 	.compare-box > :last-child {
-		background: unset;
+		/background: unset;
 	}
 	.compare-box > .mine {
 		border: 5px dotted blue;
@@ -87,7 +87,11 @@
 	.compare-box.diff > .mine {
 		mix-blend-mode: difference;
 	}
-	.compare-box.hide > .mine {
+	.compare-box.showold > .mine, .compare-box.showolder > .mine {
+		opacity: 0;
+		z-index: -5;
+	}
+	.compare-box.showolder > .svg-old {
 		opacity: 0;
 		z-index: -5;
 	}
@@ -182,14 +186,25 @@
 		background: #A804;
 		padding: 0 0.5ch;
 	}
+	
+	.color-square {
+		display: inline-block;
+		vertical-align: top;
+		width: 1em;
+		height: 1em;
+		background-color: currentColor;
+		margin-right: 3px;
+		border: 1px solid black;
+		box-sizing: border-box;
+	}
 </style>
 
 <body>
 
-<form method=dialog id=$form>
+<form method=dialog id=$form autocomplete="off">
 	<div class='field-table'>
 		<label>
-			<span>Name:</span><input list=$emojinames name=name value="PersonBouncingBall" style='grid-column-end: -2'>
+			<span>Name:</span><input onkeydown="if (event.key=='1') { let old = cmap.findIndex(x=>x.ident==this.value) ; this.value = cmap[old+1]?.ident ; event.preventDefault() }" list=$emojinames name=name value="PersonBouncingBall" style='grid-column-end: -2'>
 		</label>
 		<label>
 			<span>Variant:</span><input autocomplete="off" name=variant value="neutral" style='grid-column: span 1'>
@@ -214,7 +229,7 @@
 </form>
 <div>
 	<form id=$controls method=dialog>
-		<label style="line-height: 1.5;">Show: <input autocomplete=off type=range min=0 max=2 name=diff></label>
+		<label style="line-height: 1.5;">Show: <input autocomplete=off type=range min=-1 max=2 name=diff></label>
 		<!--<label>Original<input autocomplete=off type=checkbox name=hide></label>
 		<label>Difference<input autocomplete=off type=checkbox name=diff></label>-->
 	</form>
@@ -253,15 +268,18 @@
 	}
 	
 	window.TWEMOJI_BASE = null
-	if (location=='file:///home/twelve/Code/twemoji-COLR/ts/view.html')
+	if (location=='file:///home/twelve/Code/twemoji-COLR/ts/view.html') {
 		window.TWEMOJI_BASE = '../twemoji/assets/svg/'
+		window.TWEMOJI_BASE2 = '../twemoji/2.4/svg/'
+	}
 	
 	$form.onsubmit = function(ev) {
 		window.go(this.name.value, this.variant.value, this.color.value)
 	}
 	$controls.oninput = function(ev) {
 		let v = this.diff.value
-		$box.classList.toggle('hide', v==0)
+		$box.classList.toggle('showolder', v==-1)
+		$box.classList.toggle('showold', v==0)
 		$box.classList.toggle('diff', v==2)
 	}
 	
@@ -357,8 +375,21 @@
 			let skin = elem.getAttribute('ts:skin')
 			if (skin) {
 				box.$row2.append("🎨︎ "+skin+"")
-			} else
-				box.$row2.append(elem.getAttribute('fill'))
+			} else {
+				let col = elem.getAttribute('fill')
+				if (!col || col=="none")
+					 col = elem.getAttribute('stroke')
+				let cs = document.createElement('div')
+				cs.classList.add('color-square')
+				cs.style.color = col
+				box.$row2.append(cs, col)
+			}
+			box.$root.onpointerenter = ev=>{
+				elem.style.filter = 'drop-shadow(0px 0px 0.2px red)'
+			}
+			box.$root.onpointerleave = ev=>{
+				elem.style.filter = ''
+			}
 			$layers.append(box.$root)
 			//▬●⬬ ▭⬭○ ▢ ⬤⬛
 		}
@@ -383,25 +414,39 @@
 			if (!codes)
 				return
 			//
-			let svg = load('./faces/'+name+'.svg')
+			let svg = load('./simple/'+name+'.svg')
 			let modified = svg.lastModified
 			svg = svg.documentElement
 			select_variant(svg, variant, palette)
 			//
-			let orig
+			let orig, older
 			if (TWEMOJI_BASE) {
-				orig = load(TWEMOJI_BASE+codes[1]+'.svg')
-				orig = orig.documentElement
+				try {
+					orig = load(TWEMOJI_BASE+codes[1]+'.svg')
+					orig = orig.documentElement
+				} catch {
+				}
+				try {
+					older = load(TWEMOJI_BASE2+codes[1]+'.svg')
+					older = older.documentElement
+				} catch {
+				}
 			}
 			//
 			//console.log(svg, orig)
 			clear()
 			$form.modified.value = modified + " - " + ((Date.now() - new Date(modified)) / 1000 / 60).toFixed(0) + " minutes ago"
-			if (orig)
+			if (older)
+				$box.append(older)
+			if (orig) {
 				$box.append(orig)
+				orig.classList.add('svg-old')
+			}
 			svg.classList.add('mine')
+			
+			
 			$box.append(svg)
-			$box.append(custom)
+//			$box.append(custom)
 			//$controls.name.value = name
 			//$controls.variant.value = variant
 			$form.current.value = name+" / "+variant+" / "+palette
