@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<path d="M 3,16 h30 v18 h-30 v-18 Z"  fill="#66757F"/>
+	<path d="M 36,11 h-36 l 18,-11 l 18,11 Z"  fill="#66757F"/>
+	<path d="M 15,26 a 3,3 0 01 6,0 v6 h-6 v-6 Z"   fill="#292F33"/>
+	<path d="M 2,34 h32 a 2,2 0 01 2,2 h-36 a 2,2 0 01 2,-2 Z"  fill="#CCD6DD"/>
+	<path d="M 18,2.4 l 16,9.6 v4 h-32 v-4 l 16,-9.6 Z"  fill="#CCD6DD"/>
+	<path d="M 1,12 h34 v5 h-34 v-5 Z"  fill="#CCD6DD"/>
+	
+	<path d="M 3,21 h4 v11 h-4 v-11 Z"  fill="#CCD6DD"/>
+	<path d="M 9,21 h4 v11 h-4 v-11 Z"  fill="#CCD6DD"/>
+	<path d="M 23,21 h4 v11 h-4 v-11 Z"  fill="#CCD6DD"/>
+	<path d="M 29,21 h4 v11 h-4 v-11 Z"  fill="#CCD6DD"/>
+	<path d="M 3,19 h4 v2 h-4 v-2 Z"  fill="#8899A6"/>
+	<path d="M 9,19 h4 v2 h-4 v-2 Z"  fill="#8899A6"/>
+	<path d="M 23,19 h4 v2 h-4 v-2 Z"  fill="#8899A6"/>
+	<path d="M 29,19 h4 v2 h-4 v-2 Z"  fill="#8899A6"/>
+	
+	<path d="M 2,32 h32 v2 h-32 v-2 Z"  fill="#AAB8C2"/>
+	<rect x="0" y="10" width="36" height="3" rx="1"  fill="#AAB8C2"/>
+	<rect x="0" y="16" width="36" height="3" rx="1"  fill="#AAB8C2"/>
+	<path d="M 13,32 h10 v2 h-10 v-2 Z"  fill="#E1E8ED"/>
+	<path d="M 11,34 h14 v2 h-14 v-2 Z"  fill="#F5F8FA"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<circle fill="#99AAB5" cx="8.5" cy="9.5" r="8.5"/>
+	<circle fill="#99AAB5" cx="27.5" cy="9.5" r="8.5"/>
+	<circle cx="7.968" cy="10.031" r="5.844"  fill="#F4ABBA"/>
+	<circle cx="28.031" cy="10.031" r="5.844"  fill="#F4ABBA"/>
+	<path d="M 30,18 c 0,7.18 -8,15 -12,15 s -12,-7.82 -12,-15 s 7,-9 12,-9 s 12,1.82 12,9 Z"  fill="#99AAB5"/>
+	
+	<rect x="12" y="19" width="4" height="6" rx="2"  fill="#272B2B"/>
+	<rect x="20" y="19" width="4" height="6" rx="2"  fill="#272B2B"/>
+	
+	<path d="M 20.905,29.648 c 0,1.604 -2.011,3.352 -2.905,3.352 s -2.905,-1.748 -2.905,-3.352 c 0,-1.605 1.788,-1.956 2.905,-1.956 s 2.905,0.351 2.905,1.956 Z"  fill="#F4ABBA"/>
+	
+	<path d="m -12,2 c 5,-3 12,-2 12,-2 s -6,1 -9,5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(13, 29.16)" stroke="#66757F"/>
+	<path d="m -12,2 c 5,-3 12,-2 12,-2 s -6,1 -9,5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(23, 29.16) scale(-1 1)" stroke="#66757F"/>
+</svg>

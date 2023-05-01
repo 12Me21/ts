@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<rect x="14" y="12" width="22" height="24" rx="2"  fill="#FFCC4D"/>
+	<path d="M 34,12 a 2,2 0 01 2,2 h-16 v-2 h14 Z"  fill="#BCBEC0"/>
+	<path d="M 18,0 a 2,2 0 01 2,2 v34 h-18 a 2,2 0 01 -2,-2 v-32 a 2,2 0 01 2,-2 h16 Z"  fill="#FFE8B6"/>
+	<path d="M 18,0 a 2,2 0 01 2,2 h-20 a 2,2 0 01 2,-2 h16 Z"  fill="#BCBEC0"/>
+	
+	<path d="M 2,4 h16 v4 h-16 v-4 Z"  fill="#55ACEE"/>
+	<path d="M 2,10 h16 v4 h-16 v-4 Z"  fill="#55ACEE"/>
+	<path d="M 2,16 h16 v4 h-16 v-4 Z"  fill="#55ACEE"/>
+	<path d="M 2,22 h16 v4 h-16 v-4 Z"  fill="#55ACEE"/>
+	
+	<path d="M 2,28 h16 v8 h-16 v-8 Z"  fill="#55ACEE"/>
+	
+	<path d="M 20,22 h14 v4 h-14 v-4 Z"  fill="#55ACEE"/>
+	<path d="M 20,16 h14 v4 h-14 v-4 Z"  fill="#55ACEE"/>
+	<path d="M 20,28 h14 v8 h-14 v-8 Z"  fill="#55ACEE"/>
+	
+	<path d="M 6,32 h8 v4 h-8 v-4 Z"  fill="#3B88C3"/>
+	<path d="M 23,32 h8 v4 h-8 v-4 Z"  fill="#3B88C3"/>
+	
+	<path d="M 26,9 h2 v3 h-2 v-3 Z"  fill="#58595B"/>
+	<path d="M 30,9 h2 v3 h-2 v-3 Z"  fill="#58595B"/>
+	<rect x="22" y="3" width="14" height="6" rx="2"  fill="#DD2E44"/>
+	<path d="M 24,5 h10 v2 h-10 v-2 Z"  fill="#F4ABBA"/>
+	<path d="M 26,5 h2 v2 h-2 v-2 Z"  fill="#FFF"/>
+	<path d="M 30,5 h2 v2 h-2 v-2 Z"  fill="#FFF"/>
+</svg>

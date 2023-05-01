@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<path d="M 10.308,9 l 0.154,2 h-4.924 l 0.154,-2 h4.616 Z"  fill="#BE1931"/>
+	<path d="M 10,5 l 0.154,2 h-4.308 l 0.154,-2 h4 Z"  fill="#BE1931"/>
+	<path d="M 10.615,13 l 0.154,2 h-5.538 l 0.154,-2 h5.23 Z"  fill="#BE1931"/>
+	<path d="M 5,18 l 0.077,-1 h5.846 l 0.077,1 h-6 Z"  fill="#BE1931"/>
+	<path d="M 20.615,13 l 0.154,2 h-5.538 l 0.154,-2 h5.23 Z"  fill="#BE1931"/>
+	<path d="M 15,18 l 0.077,-1 h5.846 l 0.077,1 h-6 Z"  fill="#BE1931"/>
+	<path d="M 20.308,9 l 0.154,2 h-4.924 l 0.154,-2 h4.616 Z"  fill="#BE1931"/>
+	<path d="M 20,5 l 0.154,2 h-4.308 l 0.154,-2 h4 Z"  fill="#BE1931"/>
+	<path d="M 30.308,9 l 0.154,2 h-4.924 l 0.154,-2 h4.616 Z"  fill="#BE1931"/>
+	<path d="M 25.077,17 h5.846 l 0.077,1 h-6 l 0.077,-1 Z"  fill="#BE1931"/>
+	<path d="M 30.615,13 l 0.154,2 h-5.538 l 0.154,-2 h5.23 Z"  fill="#BE1931"/>
+	<path d="M 30,5 l 0.154,2 h-4.308 l 0.154,-2 h4 Z"  fill="#BE1931"/>
+	<path d="M 10.462,11 l 0.153,2 h-5.23 l 0.153,-2 h4.924 Z"  fill="#E6E7E8"/>
+	<path d="M 10.154,7 l 0.154,2 h-4.616 l 0.154,-2 h4.308 Z"  fill="#E6E7E8"/>
+	<path d="M 5.231,15 h5.538 l 0.154,2 h-5.846 l 0.154,-2 Z"  fill="#E6E7E8"/>
+	<path d="M 20.462,11 l 0.153,2 h-5.23 l 0.153,-2 h4.924 Z"  fill="#E6E7E8"/>
+	<path d="M 20.154,7 l 0.154,2 h-4.616 l 0.154,-2 h4.308 Z"  fill="#E6E7E8"/>
+	<path d="M 15.231,15 h5.538 l 0.154,2 h-5.846 l 0.154,-2 Z"  fill="#E6E7E8"/>
+	<path d="M 30.462,11 l 0.153,2 h-5.23 l 0.153,-2 h4.924 Z"  fill="#E6E7E8"/>
+	<path d="M 30.769,15 l 0.154,2 h-5.846 l 0.154,-2 h5.538 Z"  fill="#E6E7E8"/>
+	<path d="M 30.154,7 l 0.154,2 h-4.616 l 0.154,-2 h4.308 Z"  fill="#E6E7E8"/>
+	<rect x="1" y="18" width="34" height="18" rx="2"  fill="#A0041E"/>
+	<path d="M 1,20 h34 v2 h-34 v-2 Z"  fill="#C1694F"/>
+	<path d="M 6,24 h4 v4 h-4 v-4 Z"  fill="#AAB8C2"/>
+	<path d="M 16,24 h4 v4 h-4 v-4 Z"  fill="#AAB8C2"/>
+	<path d="M 26,24 h4 v4 h-4 v-4 Z"  fill="#AAB8C2"/>
+	<path d="M 6,30 h4 v4 h-4 v-4 Z"  fill="#AAB8C2"/>
+	<path d="M 16,30 h4 v4 h-4 v-4 Z"  fill="#AAB8C2"/>
+	<path d="M 26,30 h4 v4 h-4 v-4 Z"  fill="#AAB8C2"/>
+	
+	<circle cx="8" cy="4" r="1" fill="#D1D3D4"/>
+	<circle cx="18" cy="4" r="1" fill="#D1D3D4"/>
+	<circle cx="28" cy="4" r="1" fill="#D1D3D4"/>
+	<circle cx="9" cy="2" r="2" fill="#D1D3D4"/>
+	<circle cx="19" cy="2" r="2" fill="#D1D3D4"/>
+	<circle cx="29" cy="2" r="2" fill="#D1D3D4"/>
+	
+	<!--<g transform="translate(8 18)">
+		<circle cx="0" cy="-14" r="1" fill="#D1D3D4"/>
+		<circle cx="1" cy="-16" r="2" fill="#D1D3D4"/>
+
+
+		<path d="M -3,0 l 1,-13 h 4 l 1,13 h -6 z" fill="#BE1931"/>
+or
+		<path d="M 2,-13 l 0.154,2 h-4.308 l 0.154,-2 h4 Z"  fill="#BE1931"/>
+		<path d="M 2.308,-9 l 0.154,2 h-4.924 l 0.154,-2 h4.616 Z"  fill="#BE1931"/>
+		<path d="M 2.615,-5 l 0.154,2 h-5.538 l 0.154,-2 h5.23 Z"  fill="#BE1931"/>
+		<path d="M -3,0 l 0.077,-1 h5.846 l 0.077,1 h-6 Z"  fill="#BE1931"/>
+
+
+		<path d="M 2.154,-11 l 0.154,2 h-4.616 l 0.154,-2 h4.308 Z"  fill="#E6E7E8"/>
+		<path d="M 2.462,-7 l 0.153,2 h-5.23 l 0.153,-2 h4.924 Z"  fill="#E6E7E8"/>
+		<path d="M -2.769,-3 h5.538 l 0.154,2 h-5.846 l 0.154,-2 Z"  fill="#E6E7E8"/>
+	</g>
+	-->
+</svg>

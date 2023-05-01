@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<!-- similar to Night With Stars -->
+	<path d="M 32,0 a 4,4 0 01 4,4 v22 h-36 v-22 a 4,4 0 01 4,-4 h28 Z"  fill="#88C9F9"/>
+	<path d="M 10,36 v-29 l 4,-4 h2 l 4,4 v29 h-10 Z"  fill="#66757F"/>
+	<path d="M 33,11 v25 h-9 v-25 c 0,-1 1,-1 1,-1 h7 s 1,0 1,1 Z"  fill="#66757F"/>
+	<path d="M 28,17 v19 h-10 v-19 s 0,-1 1,-1 h8 s 1,0 1,1 Z"  fill="#292F33"/>
+	<path d="M 11,19 c 1,0 1,1 1,1 v16 h-8 a 4,4 0 01 -4,-4 v-19 h5 c 1,0 1,1 1,1 v5 h5 Z"  fill="#292F33"/>
+	<path d="M 32,25 h4 v7 a 4,4 0 01 -4,4 h-1 v-10 s 0,-1 1,-1 Z"  fill="#292F33"/>
+	<path d="M 8,29 h2 v2 h-2 v-2 Z"  fill="#FFCC4D"/>
+	<path d="M 8,21 h2 v2 h-2 v-2 Z"  fill="#FFCC4D"/>
+	<path d="M 6,25 h2 v2 h-2 v-2 Z"  fill="#FFCC4D"/>
+	<path d="M 16,9 h2 v2 h-2 v-2 Z"  fill="#FFCC4D"/>
+	<path d="M 16,13 h2 v2 h-2 v-2 Z"  fill="#FFCC4D"/>
+	<path d="M 14,17 h2 v2 h-2 v-2 Z"  fill="#FFCC4D"/>
+	<path d="M 24,18 h2 v2 h-2 v-2 Z"  fill="#FFCC4D"/>
+	<path d="M 22,22 h2 v2 h-2 v-2 Z"  fill="#FFCC4D"/>
+	<path d="M 20,28 h2 v2 h-2 v-2 Z"  fill="#FFCC4D"/>
+	<path d="M 29,12 h2 v2 h-2 v-2 Z"  fill="#FFCC4D"/>
+	<path d="M 29,16 h2 v2 h-2 v-2 Z"  fill="#FFCC4D"/>
+</svg>
