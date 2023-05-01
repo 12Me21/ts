@@ -1,0 +1,37 @@
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+	<!-- this reuses the design from Tram, but smaller -->
+	<!-- (redrawn to still be aligned to the grid, NOT just resized) -->
+	<path d="M 0,36 l 9.625,-17 h8.75 l 9.625,17 h-28 Z" fill="#A7A9AC"/>
+	<path d="M 2.625,36 l 8.75,-17 h5.25 l 8.75,17 h-22.75 Z" fill="#58595B"/>
+	<path d="M 23,22.94 v-1.94 l 13,10 v5 h-4 l -9,-13.06 Z" fill="#58595B"/>
+	<path d="M 5.25,36 l 7.875,-17 h1.75 l 7.875,17 h-17.5 Z" fill="#808285"/>
+	<rect x="8" y="26" width="12" height="2" rx="1" fill="#A7A9AC"/>
+	<rect x="6" y="30" width="16" height="2" rx="1" fill="#A7A9AC"/>
+	<rect x="4" y="34" width="20" height="2" rx="1" fill="#A7A9AC"/>
+	<path d="M 36,31 h-4 l -9,-10 h13 v10 Z" fill="#A7A9AC"/>
+	<path d="M 6.896,23.82 l 2.167,-3.828 c 1.197,0.031 2.78,0.008 4.937,0.008 c 2.119,0 3.685,-0.021 4.874,-0.118 l 2.23,3.938 c -0.984,1.225 -2.291,2.18 -3.604,2.18 h-7 c -1.314,0 -2.62,-0.954 -3.604,-2.18 Z" fill="#58595B"/>
+	<rect x="13" y="1" width="2" height="3" rx="1" fill="#414042"/>
+	<rect x="10" y="3" width="8" height="4" rx="2" fill="#6D6E71"/>
+	
+	<path d="M 23,18 l -9,5.5 l -9,-5.5 v-10 a 3.6,4 0 01 3.6,-4 h10.8 a 3.6,4 0 01 3.6,4 v10 Z" fill="#D1D3D4"/>
+	
+	<rect x="7" y="7" width="14" height="13" rx="4" fill="#808285"/>
+	
+	<rect x="7" y="6" width="14" height="6" rx="2" fill="#292F33"/>
+	<path d="M 11,15 a 4,4 0 01 -4,-4 v-1 h14 v1 a 4,4 0 01 -4,4 h-6 Z" fill="#55ACEE"/>
+	
+	<path d="M 14,20 c 6.3,0 7.879,-2.161 9,-3.891 v1.891 c 0,2.209 -2.7,6 -5.4,6 h-7.2 c -2.7,0 -5.4,-3.791 -5.4,-6 v-1.242 c 1.122,1.441 2.7,3.242 9,3.242 Z" fill="#5C913B"/> <!-- bottom corner radius was created by resizing a 5,4 ellipse after converting to cubic beziers --> <!-- ah it came from Tram.svg -->
+	
+	<circle cx="9.5" cy="17.5" r="1.5" fill="#FFD983"/>
+	<circle cx="18.5" cy="17.5" r="1.5" fill="#FFD983"/>
+	
+	<rect x="11" y="7" width="6" height="2" rx="1" fill="#6D6E71"/>
+	
+	<rect x="31" y="12" width="2" height="13" rx="1" fill="#6D6E71"/>
+	
+	<path d="M 33,24 c 0,1 0,1 -1,1 s -1,0 -1,-1 v-11 h2 v11 Z"  fill="#6D6E71"/>
+	<path d="M 33,17 c 0,1 0,1 -1,1 s -1,0 -1,-1 v-7 h2 v7 Z"  fill="#939598"/>
+	
+	<rect x="28" y="7" width="8" height="6" rx="2" fill="#58595B"/>
+	<rect x="30" y="9" width="4" height="2" rx="1" fill="#939598"/>
+</svg>
