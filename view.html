@@ -284,6 +284,7 @@
 	}
 	
 	function load(file) {
+		console.warn('loading', file)
 		let x = new XMLHttpRequest()
 		x.open('GET', file, false)
 		x.send()
