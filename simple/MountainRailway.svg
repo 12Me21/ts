@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<path d="M 0,35 v-21 s 4,-7 5,-7 s 2.5,1.5 4,3 s 4,3 6,1 s 9,-11 12,-11 s 9,10 9,10 v25 h-36 Z"   fill="#D1D3D4"/>
+	<path d="M 0,34 h36 v2 h-36 v-2 Z"   fill="#939598"/>
+	<circle fill="#58595B" cx="11" cy="32" r="3"/>
+	<circle cx="19" cy="32" r="3"  fill="#58595B"/>
+	<circle fill="#292F33" cx="11" cy="32" r="2"/>
+	<circle cx="19" cy="32" r="2"  fill="#292F33"/>
+	<path d="M 36,14 v14 h-33 v-10 a 4,4 0 01 4,-4 h29 Z"   fill="#FFE8B6"/>
+	<path d="M 36,14 v2 h-32.445 a 4,4 0 01 3.445,-2 h29 Z"   fill="#77B255"/>
+	<path d="M 36,27 v5 h-29 a 4,4 0 01 -4,-4 l 1,-1 h32 Z"   fill="#5C913B"/>
+	<path d="M 3,26 h33 v2 h-33 v-2 Z"   fill="#FFAC33"/>
+	<path d="M 3,19 h6 v5 h-6 v-5 Z"   fill="#55ACEE"/>
+	<rect x="11" y="19" width="4" height="4" rx="1"  fill="#55ACEE"/>
+	<rect x="16" y="19" width="4" height="4" rx="1"  fill="#55ACEE"/>
+	<rect x="23" y="19" width="4" height="4" rx="1"  fill="#55ACEE"/>
+	<rect x="30" y="19" width="4" height="4" rx="1"  fill="#55ACEE"/>
+	
+	<path d="M 27.5,30 h-5 a 1.5,1.5 0 01 -1.5,-1.5 v-10 a 1.5,1.5 0 01 1.5,-1.5 h5 a 1.5,1.5 0 01 1.5,1.5 v10 a 1.5,1.5 0 01 -1.5,1.5 Z M 22.5,18 a 0.5,0.5 0 00 -0.5,0.5 v10 a 0.5,0.5 0 00 0.5,0.5 h5 a 0.5,0.5 0 00 0.5,-0.5 v-10 a 0.5,0.5 0 00 -0.5,-0.5 h-5 Z" fill="#66757F"/>
+</svg>

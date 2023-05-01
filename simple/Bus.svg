@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<path d="M 0,21 h36 v7 a 3,3 0 01 -3,3 h-30 a 3,3 0 01 -3,-3 v-7 Z"   fill="#808285"/>
+	<path d="M 36,22 h-36 v-8 c 0,-1.657 3,-4 11,-4 h20 c 1.657,0 5,1.343 5,3 v9 Z"   fill="#CCD6DD"/>
+	<path d="M 1,13 h35 v11 h-35 v-11 Z"   fill="#58595B"/>
+	<path d="M 0,23 h36 v2 h-36 v-2 Z"   fill="#939598"/>
+	
+	
+	
+	<path d="M 7,25 a 6,6 0 01 6,6 h-10 a 3,3 0 01 -1.95,-0.737 a 6,6 0 01 5.95,-5.263 Z"   fill="#BCBEC0"/>
+	<path d="M 34.95,30.263 a 3,3 0 01 -1.95,0.737 h-10 a 6,6 0 01 6,-6 a 6,6 0 01 5.95,5.263 Z"   fill="#BCBEC0"/>
+	<circle cx="7" cy="31" r="4" fill="#000"/> <!-- should these really be pure black? -->
+	<circle cx="29" cy="31" r="4" fill="#000"/>
+	<circle fill="#99AAB5" cx="7" cy="31" r="2"/>
+	<circle fill="#99AAB5" cx="29" cy="31" r="2"/>
+	
+	
+	<path d="M 0,25 h1 v2 h-1 v-2 Z"   fill="#F4900C"/>
+	<path d="M 35,23 h1 v2 h-1 v-2 Z"   fill="#F4900C"/>
+	<path d="M 35,19 h1 v2 h-1 v-2 Z"   fill="#FFAC33"/>
+	
+	<path d="M 2,13 a 2,2 0 01 2,2 v8 a 2,2 0 01 -2,2 h-2 v-11 c 0,-0.55 0.342,-1 0.342,-1 h1.658 Z"   fill="#292F33"/>
+	<path d="M 1,15 a 1,1 0 01 1,1 v6 a 1,1 0 01 -1,1 h-1 v-8 h1 Z"   fill="#55ACEE"/>
+	
+	<rect x="6" y="15" width="25" height="6" rx="1"  fill="#55ACEE"/>
+</svg>
