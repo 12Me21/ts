@@ -1,4 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	color changes ideas:
+	
+	lower saturation to match pink:
+	#88C9F9 
+	#F4ABBA
+	#EEE / #E1E8ED
+	
+	higher saturation to match blue:
+	#5BCEFA
+	#F4A2B2
+	#EEE
+
 	<path d="
 M 36,9
 v 1.2
@@ -30,6 +42,6 @@ v -5.2
 h 36
 v 5.2
 z
-" fill="#F5A9B8"/>
+" fill="#F5A9B8"/> rounding error; should be #F4ABBA ?
 	<path d="M 0,15.4 h36 v5.2 h-36 v-5.2 Z" fill="#EEE"/>
 </svg>
