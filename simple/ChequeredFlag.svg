@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<!-- similar to Black Flag -->
+	
 	<!-- these 2 layers were duplicated before -->
 	<rect x="3" y="1" width="4" height="35" rx="2"  fill="#8899A6"/>
 	<path d="M 3,3 a 2,2 0 01 4,0 h-1.586 a 1.414,1.414 0 00 -1.414,1.414 v29.586 a 0.5,0.5 0 01 -1,0 v-31 Z"  fill="#AAB8C2"/>
