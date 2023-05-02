@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" xml:space="preserve">
+	<path d="M 0,27 v-0.5 h36 v0.5 a 4,4 0 01 -4,4 h-28 a 4,4 0 01 -4,-4 Z" fill="#880082"/>
+	<path d="M 0,22.07 h36 v4.6 h-36 v-4.6 Z" fill="#3558A0"/>
+	<path d="M 0,17.83 h36 v4.5 h-36 v-4.5 Z" fill="#059334"/>
+	<path d="M 0,13.5 h36 v4.5 h-36 v-4.5 Z" fill="#FAD220"/>
+	<path d="M 0,9.17 h36 v4.5 h-36 v-4.5 Z" fill="#F4900C"/>
+	<path d="M 32,5 a 4,4 0 01 4,4 v0.33 h-36 v-0.33 a 4,4 0 01 4,-4 h28 Z" fill="#ED1C23"/>
+	<!-- yeahh i changed the colors shh (red, orange, green)-->
+</svg>
