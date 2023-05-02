@@ -59,7 +59,8 @@
 	}*/
 	input {
 		min-width: 1em;
-		vertical-align: top;
+		vertical-align: middle;
+		height: 1.2em;
 	}
 	input[type=checkbox], input[type=range] {
 		appearance: auto;
@@ -86,6 +87,13 @@
 	}
 	.compare-box.diff > .mine {
 		mix-blend-mode: difference;
+	}
+	.compare-box.glass > svg * {
+		fill-opacity: 0.5 !important;
+		/*stroke-opacity: 0.5;
+		filter: drop-shadow(.1px .1px) drop-shadow(-.1px -.1px);*/
+		stroke: #C0A !important;
+		stroke-width: 0.2 !important;
 	}
 	.compare-box.showold > .mine, .compare-box.showolder > .mine {
 		opacity: 0;
@@ -228,13 +236,17 @@
 	</datalist>
 </form>
 <div>
-	<form id=$controls method=dialog>
-		<label style="line-height: 1.5;">Show: <input autocomplete=off type=range min=-1 max=2 name=diff></label>
+	<form id=$controls method=dialog autocomplete=off>
+		<label>Show: <input type=range min=-1 max=2 name=diff></label>
+		<label>Glass: <input type=checkbox name=glass></label>
 		<!--<label>Original<input autocomplete=off type=checkbox name=hide></label>
 		<label>Difference<input autocomplete=off type=checkbox name=diff></label>-->
 	</form>
 	<div id=$box class='compare-box'>
-		<svg viewBox="0 0 36 36" id=$custom></svg>
+		<br>
+		<br>
+		<br>
+		<!--<svg viewBox="0 0 36 36" id=$custom></svg>-->
 	</div>
 	<form onsubmit="$custom.innerHTML=this.t.value;return undefined" method=dialog onkeydown="if (event.key=='Enter' && !event.shiftKey) event.preventDefault(),this.submit.click()">
 		<textarea name=t style="width:100%;line-break:anywhere;width:-moz-available;display:block;"></textarea>
@@ -257,7 +269,7 @@
 	import cmap from './cmap.js?1' // todo: use the async syntax trick
 	import palette from './palette.js?1'
 	
-	let custom = $custom
+	//let custom = $custom
 	
 	window.cmap = cmap
 	
@@ -273,6 +285,9 @@
 		window.TWEMOJI_BASE2 = '../twemoji/2.4/svg/'
 	}
 	
+	let box_items = [...$box.children]
+	let box_items0 = [...$box.children]
+	
 	$form.onsubmit = function(ev) {
 		window.go(this.name.value, this.variant.value, this.color.value)
 	}
@@ -281,14 +296,20 @@
 		$box.classList.toggle('showolder', v==-1)
 		$box.classList.toggle('showold', v==0)
 		$box.classList.toggle('diff', v==2)
+		$box.classList.toggle('glass', this.glass.checked)
 	}
 	
-	function load(file) {
+	function load(file, a=false) {
 		console.warn('loading', file)
 		let x = new XMLHttpRequest()
-		x.open('GET', file, false)
+		x.open('GET', file, a)
 		x.send()
-		return x.responseXML
+		if (!a)
+			return x.responseXML
+		return new Promise((y,n)=>{
+			x.onload = function(ev) { y(this.responseXML) }
+			x.onerror = function(ev) { n(x) }
+		})
 	}
 	
 	let HTML = ([html])=>{
@@ -326,7 +347,8 @@
 
 	
 	function clear() {
-		$box.replaceChildren()
+		$box.replaceChildren(...box_items0)
+		box_items = box_items0.slice(0)
 		$layers.textContent = ""
 		$form.modified.value = ""
 		$form.current.value = ""
@@ -396,6 +418,8 @@
 		}
 	}
 	
+	let gen = 0
+	
 	window.go = function(name, variant, palette) {
 		let ok
 		try {
@@ -415,38 +439,36 @@
 			if (!codes)
 				return
 			//
+			
+			if (TWEMOJI_BASE) {
+				gen++
+				let gen2 = gen
+				load(TWEMOJI_BASE+codes[1]+'.svg', true).then(doc=>{
+					if (gen!=gen2) return
+					doc = doc.documentElement
+					doc.classList.add('svg-old')
+					box_items[0].replaceWith(box_items[0] = doc)
+				}, ()=>{})
+				load(TWEMOJI_BASE2+codes[1]+'.svg', true).then(doc=>{
+					if (gen!=gen2) return
+					doc = doc.documentElement
+					box_items[1].replaceWith(box_items[1] = doc)
+				}, ()=>{})
+			}
+			
 			let svg = load('./simple/'+name+'.svg')
 			let modified = svg.lastModified
 			svg = svg.documentElement
 			select_variant(svg, variant, palette)
 			//
-			let orig, older
-			if (TWEMOJI_BASE) {
-				try {
-					orig = load(TWEMOJI_BASE+codes[1]+'.svg')
-					orig = orig.documentElement
-				} catch {
-				}
-				try {
-					older = load(TWEMOJI_BASE2+codes[1]+'.svg')
-					older = older.documentElement
-				} catch {
-				}
-			}
+			clear()
+			
 			//
 			//console.log(svg, orig)
-			clear()
+			
 			$form.modified.value = modified + " - " + ((Date.now() - new Date(modified)) / 1000 / 60).toFixed(0) + " minutes ago"
-			if (older)
-				$box.append(older)
-			if (orig) {
-				$box.append(orig)
-				orig.classList.add('svg-old')
-			}
 			svg.classList.add('mine')
-			
-			
-			$box.append(svg)
+			box_items[2].replaceWith(box_items[2] = svg)
 //			$box.append(custom)
 			//$controls.name.value = name
 			//$controls.variant.value = variant
@@ -456,8 +478,11 @@
 			show_layers(svg)
 			ok = true
 		} finally {
-			if (!ok)
-				clear()	
+			if (!ok) {
+				//$box.replaceChildren()
+				gen++
+				clear()
+			}
 		}
 	}
 	
