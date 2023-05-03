@@ -453,6 +453,9 @@
 					if (gen!=gen2) return
 					doc = doc.documentElement
 					box_items[0].replaceWith(box_items[0] = doc)
+					let c = doc.querySelectorAll('clipPath')
+					if (c && c.length>1)
+						console.info('clip path!', c)
 				}, ()=>{})
 			}
 			
