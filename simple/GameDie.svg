@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<!-- left -->
+	<path d="M 4,11 l 14,11 v11.375 s 0.488,3.015 -1.333,1.583 c -1.822,-1.432 -11.574,-9.099 -11.574,-9.099 s -1.093,-0.442 -1.093,-2.484 v-12.375 Z" fill="#A0041E" />
+	<!-- right -->
+	<path d="M 32,11 v12.375 c 0,2.042 -1.063,2.484 -1.063,2.484 s -9.767,7.667 -11.588,9.099 c -1.823,1.432 -1.349,-1.583 -1.349,-1.583 v-11.375 l 14,-11 Z" fill="#DD2E44" />
+	<!-- top -->
+	<path d="M 19.2891,0.5
+l 12.146,9.445
+a 2,1.6 0 01 0,2.216
+l -12.104,9.731
+a 2,1.6 0 01 -2.743,0
+l -12.023,-9.647
+a 2,1.6 0 01  0,-2.216
+l 11.982,-9.529
+a 2,1.6 0 01 2.742,0
+Z" fill="#EA596E" />
+	<!-- front edge -->
+	<path d="M 17,34.672 v-12.927 a 1,1.078 0 01 2,0 v12.927 a 1,1.078 0 01 -2,0 Z"  fill="#EA596E" />
+	
+	<!-- eggs.. -->
+	<!-- 1 -->
+	<ellipse rx="2.916" ry="2.333" transform="translate(18.5 11)" fill="#FFFFFF"/> <!-- aspect ratio 5:4 -->
+	<!-- 3 -->
+	<ellipse rx="1.579" ry="2.0165" transform="translate(29 18.5162) skewX(-12.29)" fill="#FFFFFF"/>
+	<ellipse rx="1.6" ry="2.121" transform="translate(25.9161 23.6212) skewX(-12.29)" fill="#FFFFFF"/>
+	<ellipse rx="1.519" ry="2.0575" transform="translate(22.458 28.8912) skewX(-12.03)" fill="#FFFFFF"/>
+	<!-- 2 -->
+	<ellipse rx="1.8" ry="2.25" transform="translate(7.7075 20.25) skewX(13)" fill="#E1E8ED"/>
+	<ellipse rx="1.8" ry="2.25" transform="translate(13.291 27.75) skewX(13)" fill="#E1E8ED"/>
+</svg>
