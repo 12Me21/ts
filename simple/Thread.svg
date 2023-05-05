@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<path d="M 25,31 c 6,0 9,1 10,4" stroke-width="2" stroke-linecap="round" fill="none" stroke="#553788"/>
+	
+	<path d="M 3,3 h22 v30 h-22 v-30 Z"  fill="#553788"/>
+	
+	<path d="M 26,4 h-24 c -0.55,0 -2,-3 -2,-3 a 1,1 0 01 1,-1 h26 a 1,1 0 01 1,1 s -1.45,3 -2,3 Z" fill="#C1694F"/>
+	<path d="M 26,32 c 0.55,0 2,3 2,3 a 1,1 0 01 -1,1 h-26 a 1,1 0 01 -1,-1 s 1.45,-3 2,-3 h24 Z" fill="#C1694F"/> <!-- 0.55 is from 0.5523 (magic bezier circle constant) -->
+	
+	<rect x="4" y="5" width="20" height="2" rx="1" fill="#744EAA"/>
+	<rect x="4" y="9" width="20" height="2" rx="1" fill="#744EAA"/>
+	<rect x="4" y="13" width="20" height="2" rx="1" fill="#744EAA"/>
+	<rect x="4" y="17" width="20" height="2" rx="1" fill="#744EAA"/>
+	<rect x="4" y="21" width="20" height="2" rx="1" fill="#744EAA"/>
+	<rect x="4" y="25" width="20" height="2" rx="1" fill="#744EAA"/>
+	<rect x="4" y="29" width="20" height="2" rx="1" fill="#744EAA"/>
+	<rect x="7" y="5" width="11" height="2" rx="0.739" fill="#9266CC"/>
+	<rect x="7" y="9" width="11" height="2" rx="0.739" fill="#9266CC"/>
+	<rect x="7" y="13" width="11" height="2" rx="0.739" fill="#9266CC"/>
+	<rect x="7" y="17" width="11" height="2" rx="0.739" fill="#9266CC"/>
+	<rect x="7" y="21" width="11" height="2" rx="0.739" fill="#9266CC"/>
+	<rect x="7" y="25" width="11" height="2" rx="0.739" fill="#9266CC"/>
+	<rect x="7" y="29" width="11" height="2" rx="0.739" fill="#9266CC"/>
+</svg>
