@@ -18,8 +18,8 @@
 	</g>
 	<path id="eyebrow.13"  d="M 0,0 s 2, 0  4,-2" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	
-	<use href="#eyebrow.13" transform="translate(9 8) scale(1 1)" color="#65471B"/>
-	<use href="#eyebrow.13" transform="translate(27 8) scale(-1 1)" color="#65471B"/>
+	<use href="#eyebrow.13" transform="translate(8 8) scale(1 1)" color="#65471B"/>
+	<use href="#eyebrow.13" transform="translate(28 8) scale(-1 1)" color="#65471B"/>
 
 	<!--<path d="M3.5,0 s -3.5,-1.5 -7,0" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" color="#664500" transform="translate(18 26)"/>-->
 	<path d="M3,0 s -3,-1.5 -6,0" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" color="#664500" transform="translate(18 26)"/>
