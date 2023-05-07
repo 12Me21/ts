@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<ellipse fill="#939598" cx="18" cy="25" rx="18" ry="10"/>
+	<ellipse fill="#F1F2F2" cx="18" cy="23" rx="18" ry="10"/>
+	<ellipse fill="#FFF" cx="18" cy="22.611" rx="14.8" ry="7.611"/>
+	<path d="M 8,28 c 0,-3.044 0.417,-7.208 0.042,-13.875 c 0.601,-1.377 6.146,-2.472 6.625,-3.792 c 1.287,-3.546 -1.209,-5.916 1.333,-8.333 c 2.05,-1.949 5,-2 6,1 c 2,-2 6,-1 6,2 c 4,-1 6,3 3,6 c 0,1 -1,9 -1,11 s -0.208,1.792 -5.208,2.792 s -16.792,3.208 -16.792,3.208 Z"  fill="#E1E8ED"/>
+	<path d="M 8,27 v-12 s 21,-7 21,-2.458 v10.458 l -21,4 Z"  fill="#FFAC33"/>
+	<path d="M 8,26 v-10 s 12.375,-4.208 20,-4 v10 l -20,4 Z"  fill="#FFD983"/>
+	<path d="M 8,21 v-1 l 21,-4 v1 l -21,4 Z"  fill="#FFAC33"/>
+	<path d="M 8,14 l 9,-9 c 2,0 8,1 11,5 l -20,4 Z"  fill="#E1E8ED"/>
+	<path d="M 30,10 s -4,-3 -14,-6 c 1,-2 6,-1 6,0 c 3,-2 5,1 5,2 c 4,-1 4,3 3,4 Z"  fill="#FFF"/>
+	<path d="M 17.958,10.458 c -1.833,-0.208 -4.417,-1.083 -3.917,-3.5 s 2.474,-4.881 3.75,-5.542 c 1.126,-0.583 2.326,-0.156 3.209,3.251 c 0.583,2.25 2.75,5.125 -1.667,5.75 c -0.458,0 -1.375,0.041 -1.375,0.041 Z"  fill="#DD2E44"/>
+	
+	<path d="M 18.375,4.542 l -0.5,-0.667" stroke-linecap="round" fill="none" stroke-width="1" stroke="#F4ABBA"/>
+	<path d="M 15.9585,8.0425 l 0.25,-0.958" stroke-linecap="round" fill="none" stroke-width="1" stroke="#F4ABBA"/>
+	<path d="M 20.333,8.125 l -0.75,-0.458" stroke-linecap="round" fill="none" stroke-width="1" stroke="#F4ABBA"/>
+</svg>

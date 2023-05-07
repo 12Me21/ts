@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<!-- same as speech balloon -->
+	<path d="M -4.284,28.584 c -2.277,2.655 -5.958,5.456 -11.716,6.416 c 2.859,-3.431 4.08,-6.856 4.604,-9.165 Z" transform="translate(18 0) scale(-1 1)" fill="#8CCAF7"/>
+	<ellipse cx="18" cy="15" rx="18" ry="14" fill="#8CCAF7"/>
+</svg>
