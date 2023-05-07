@@ -411,7 +411,7 @@
 	
 	function show_layers(svg) {
 		$layers.textContent = ""
-		for (let elem of svg.querySelectorAll('*:not(g,svg)')) {
+		for (let elem of svg.querySelectorAll('*:not(g,svg,clipPath,defs)')) {
 			if (elem.style.display=="none")
 				//box.$root.dataset.hidden = ""
 				continue
