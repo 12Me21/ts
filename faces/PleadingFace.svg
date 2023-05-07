@@ -1,28 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	<clipPath id="eyes">
-		<ellipse rx="6" ry="6" transform="translate(11 15)"/>
-		<ellipse rx="6" ry="6" transform="translate(25 15)"/>
-	</clipPath>
-	
+	<defs>
+		<clipPath id="eyes">
+			<circle r="6" cx="11" cy="15"/>
+			<circle r="6" cx="25" cy="15"/>
+		</clipPath>
+		<g id="pupil">
+			<circle r="5" fill="currentColor"/>
+			<ellipse rx="2.082" ry="2.675" transform="translate(-1.636,-0.636) rotate(45)" fill="#FFF"/>
+			<ellipse rx="0.914" ry="1.175" transform="translate(2.5,2) rotate(45)" fill="#FFF"/>
+		</g>
+		<path id="mouth" d="M 3,0 s -3,-1.5 -6,0" stroke-width="2" stroke-linecap="round" fill="none" stroke="currentColor"/>
+		<path id="eyebrow" d="M -2,1 s 2,0  4,-2" stroke-width="2" stroke-linecap="round" fill="none" stroke="currentColor"/>
+	</defs>
+	<!-- head -->
 	<circle cx="18" cy="18" r="18" fill="#FFCC4D"/>
+	<!-- mouth -->
+	<use href="#mouth" x="18" y="26" color="#664500"/>
+	<!-- eyes -->
+	<circle r="6" cx="11" cy="15" fill="#F5F8FA"/>
+	<circle r="6" cx="25" cy="15" fill="#F5F8FA"/>
+	<!-- pupils -->
 	<g clip-path="url(#eyes)">
-		<rect width="36" height="36" fill="#FFF"/>
-
-		<circle r="5" transform="translate(11.5 13)" fill="#65471B"/>
-
-		<circle r="5" transform="translate(24.5 13)" fill="#65471B"/>
-	<g transform="translate(0 -4)">
-	<path fill="#FFF" d="M24.337 17.836c1.044-1.046 1.23-2.552.417-3.364-.813-.813-2.32-.625-3.363.42-1.045 1.046-1.231 2.552-.418 3.364.814.813 2.32.625 3.364-.42Zm3.288 1.845c.458-.459.54-1.12.183-1.477-.357-.357-1.019-.274-1.478.185-.458.459-.54 1.12-.183 1.477.357.357 1.019.275 1.478-.184Z"/>
-	<path fill="#FFF" d="M11.337 17.836c1.044-1.046 1.23-2.552.417-3.364-.813-.813-2.32-.625-3.363.42-1.045 1.046-1.231 2.552-.418 3.364.814.813 2.32.625 3.364-.42Zm3.287 1.845c.46-.459.541-1.12.184-1.477-.357-.357-1.019-.274-1.478.185-.458.459-.54 1.12-.183 1.477.357.357 1.019.275 1.477-.184Z"/>
+		<use href="#pupil" x="11.5" y="14" color="#664500"/>
+		<use href="#pupil" x="24.5" y="14" color="#664500"/>
 	</g>
-	</g>
-	<path id="eyebrow.13"  d="M 0,0 s 2, 0  4,-2" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
-	
-	<use href="#eyebrow.13" transform="translate(8 8) scale(1 1)" color="#65471B"/>
-	<use href="#eyebrow.13" transform="translate(28 8) scale(-1 1)" color="#65471B"/>
-
-	<!--<path d="M3.5,0 s -3.5,-1.5 -7,0" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" color="#664500" transform="translate(18 26)"/>-->
-	<path d="M3,0 s -3,-1.5 -6,0" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" color="#664500" transform="translate(18 26)"/>
+	<!-- eyebrows -->
+	<use href="#eyebrow" transform="translate(10 7)" color="#664500"/>
+	<use href="#eyebrow" transform="translate(26 7) scale(-1 1)" color="#664500"/>
 </svg>
 
 <!--<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
