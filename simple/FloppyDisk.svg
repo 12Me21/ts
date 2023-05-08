@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<path d="M 4,36 s -4,0 -4,-4 v-28 s 0,-4 4,-4 h26 c 1,0 2,1 2,1 l 3,3 s 1,1 1,2 v26 s 0,4 -4,4 h-28 Z"  fill="#31373D"/>
+	<path d="M 10,3 s 0,-1 1,-1 h18 c 1.048,0 1,1 1,1 v10 s 0,1 -1,1 h-18 s -1,0 -1,-1 v-10 Z M 22,13 h5 v-10 h-5 v10 Z"  fill="#E1E8ED" /><!-- i feel like moving the cover 1 unit upwards would make sense here, it should be at the top -->
+	
+	<path d="M 5,32 v-13 l 1,-1 h 23 l 1,1 v13 s 0,2 -2,2 h-21 c -2,0 -2,-2 -2,-2 Z" fill="#E1E8ED" />
+	<path d="M 5,19 v-1 s 0,-2 2,-2 h21 c 2,0 2,2 2,2 v1 h-25 Z"  fill="#55ACEE"/>
+</svg>
