@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<!-- made from Envelope -->
+	<defs>
+		<clipPath id="clipPath28">
+			<rect x="0" y="5" width="36" height="26" rx="4"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clipPath28)">
+		<rect y="9" width="36" height="27"  fill="#CCD6DD"/>
+		<path d="M 1.344,29.6565 L 12.6575,18.343" stroke-linecap="round" fill="none" stroke-width="2" stroke="#99AAB5"/>
+		<path d="M 34.656,29.657 L 23.3435,18.343" stroke-linecap="round" fill="none" stroke-width="2" stroke="#99AAB5"/>
+		<path d="M 0,4 h36 v6
+l -14.588,14.526
+a 4.868,4.868 0 01 -6.884,0
+l -14.528,-14.526
+v-6 Z"   fill="#99AAB5"/>
+		<path d="M 36,6.87 L 20.828,22.042 a 4,4 0 01 -5.657,0 L 0,6.87 V 4 h 36 z"  fill="#E1E8ED"/>
+	</g>
+	<path d="M 15,9.27 c 0,-0.73 0.365,-1.27 1,-1.27 h3.62 c 0.839,0 1.174,0.49 1.174,1 c 0,0.496 -0.349,1 -1.035,1 h-2.708 v2 h2.533 c 0.716,0 1.065,0.489 1.065,1 c 0,0.496 -0.366,1 -1.065,1 h-2.533 v2 h2.84 c 0.699,0 1.037,0.489 1.037,1 c 0,0.496 -0.353,1 -1.037,1 h-3.766 c -0.643,0 -1.125,-0.531 -1.125,-1.188 v-7.542 Z"  fill="#66757F"/>
+</svg>

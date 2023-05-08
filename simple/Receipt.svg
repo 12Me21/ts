@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<path d="M 32,36 l -2,-2 l -2,2 l -2,-2 l -2,2 l -2,-2 l -2,2 l -2,-2 l -2,2 l -2,-2 l -2,2 l -2,-2 l -2,2 l -2,-2 l -2,2 v-36 l 2,2 l 2,-2 l 2,2 l 2,-2 l 2,2 l 2,-2 l 2,2 l 2,-2 l 2,2 l 2,-2 l 2,2 l 2,-2 l 2,2 l 2,-2 v36 Z"  fill="#CCD6DD"/> <!-- a few points here were slightly off which i /assume/ was a mistake -->
+	<circle fill="#99AAB5" cx="18" cy="8" r="4"/>
+	<rect x="8" y="15" width="12" height="2" rx="1"  fill="#99AAB5"/>
+	<rect x="22" y="15" width="6" height="2" rx="1"  fill="#99AAB5"/>
+	<rect x="8" y="19" width="12" height="2" rx="1"  fill="#99AAB5"/>
+	<rect x="22" y="19" width="6" height="2" rx="1"  fill="#99AAB5"/>
+	<rect x="8" y="25" width="20" height="2" rx="1"  fill="#99AAB5"/>
+	<rect x="22" y="29" width="6" height="2" rx="1"  fill="#99AAB5"/>
+</svg>
