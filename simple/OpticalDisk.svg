@@ -8,7 +8,7 @@
 	<g clip-path="url(#clipPath28)" id="g26">
 		<path d="M 18,18 l -18,-2 v-16 h16 l 2,18 Z" fill="#ccd6dd" />
 		<path d="M 18,18 l 18,2 v16 h-16 l -2,-18 Z" fill="#ccd6dd" />
-		<path d="M 18,18 l 18,18 l -15.875,1 l -2.124,-19 Z" fill="#f5f8fa" />
+		<path d="M 18,18 l 18,18 l -15.875,1 l -2.125,-19 Z" fill="#f5f8fa" />
 		<path d="M 18,18 l -18,-18 l 16,-1 l 2,19 Z" fill="#f5f8fa" />
 	</g>
 </svg>
