@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<!-- similar to TeacupWithoutHandle -->
+	<ellipse fill="#99AAB5" cx="18" cy="26" rx="18" ry="10"/>
+	<ellipse fill="#CCD6DD" cx="18" cy="24" rx="18" ry="10"/>
+	<path d="M 18,31 c -14.958,0 -17,-15 -17,-19 h34 c 0,2 -1.958,19 -17,19 Z"  fill="#F5F8FA"/>
+	
+	<path d="
+M 34.385,9.644 
+l -2.503,-2.692
+c -0.57,-2.559 -3.246,-2.826 -5.121,-2.25 
+l -4.58,-0.857
+c 2.423,-1.907 14.646,-4.324 12.204,5.799 
+Z"   fill="#CCD6DD"/>
+	
+	<path d=" M
+35,12.055
+ A 17,9.445 0 01
+18,21.5
+ A 17,9.445 0 01
+1,12.055
+ C 1,6.84 8.611,3.611
+18,3.611
+ S 35,6.84
+35,12.055
+ Z" fill="#CCD6DD"/>
+	
+	<ellipse fill="#8A4B38" cx="18" cy="13" rx="15" ry="7"/>
+	
+	<path d="M17.957 2c1.043 0 4.503 3.28 2.043 7c-2 3 -2 5 0 7
+M 12 1 c 1 0 4.48 2.29 2 6 c -2 3 -2 5 0 7" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#D99E82"/> <!-- ehhh .. -->
+</svg>
