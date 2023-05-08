@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<rect x="0" y="0" width="36" height="36" rx="4" fill="#3B88C3"/>
+	<ellipse fill="#FFF" cx="23" cy="7.5" rx="3" ry="3.5"/>
+	<path d="M 29,13 v7 c 0,2 -2,2 -2,2 v9 c 0,1 -1,1 -1,1 h-1 c -1,0 -1,-1 -1,-1 v-8 s 0,-1 -1,-1 s -1,1 -1,1 v8 c 0,1 -1,1 -1,1 h-1 c -1,0 -1,-1 -1,-1 v-17 l -2,2 h-5 s -1,0 -1,-1 s 1,-1 1,-1 h4 l 2,-2 s 1,-1 2,-1 h7 c 2,0 2,2 2,2 Z" fill="#FFF"/>
+	<path d="M 6,22 s -1,0 -1,-1 s 1,-1 1,-1 s 2,0 2,2 v8 h6 v-8 c 0,-2 2,-2 2,-2 s 1,0 1,1 s -1,1 -1,1 v8 s 0,2 -2,2 h-6 s -2,0 -2,-2 v-8 Z" fill="#FFF"/>
+	<circle fill="#FFF" cx="11" cy="20" r="2"/> <!-- u -->
+</svg>
