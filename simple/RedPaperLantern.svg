@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<clipPath id="paper">
+			<path d="M 35,18 c 0,5.658 -1.617,10.7 -5.699,14 h-22.602 c -4.083,-3.3 -5.699,-8.342 -5.699,-14 s 1.615,-10.7 5.698,-14 h22.604 c 4.082,3.3 5.698,8.342 5.698,14 Z"  />
+		</clipPath>
+	</defs>
+	<rect x="7" y="0" width="22" height="36" rx="2"  fill="#292F33"/>
+	
+	<g clip-path="url(#paper)">
+		<rect width="36" height="36" fill="#BE1931"/>
+		<rect width="36" height="2" y="6" fill="#DD2E44"/>
+		<rect width="36" height="2" y="10" fill="#DD2E44"/>
+		<rect width="36" height="2" y="14" fill="#DD2E44"/>
+		<rect width="36" height="2" y="18" fill="#DD2E44"/>
+		<rect width="36" height="2" y="22" fill="#DD2E44"/>
+		<rect width="36" height="2" y="26" fill="#DD2E44"/>
+		<rect width="36" height="2" y="30" fill="#DD2E44"/>
+	</g>
+</svg>
