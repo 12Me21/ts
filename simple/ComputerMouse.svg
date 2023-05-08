@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs id="defs6">
+		<clipPath id="clipPath28">
+			<path d="M 18,2 c 10,0 12,2.984 12,5 v17 a 12,12 0 01 -24,0 v-17 c 0,-2.016 2,-5 12,-5 Z"  />
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clipPath28)" id="g26">
+		<rect width="36" height="36" fill="#99aab5"/>
+		<path d="M 18,9 c 10,0 12,2.984 12,5 v2 c 0,-2.016 -2,-5 -12,-5 s -12,2.984 -12,5 v-2 c 0,-2.016 2,-5 12,-5 Z"  fill="#292f33"/>
+		<path d="M 22,10 h-8 v-8 h8 v8 Z"  fill="#292f33"/>
+		<ellipse cx="18" cy="10.5" rx="4" ry="2.5" fill="#292f33" />
+	</g>
+	<rect x="16" y="0" width="4" height="11" rx="2" fill="#99aab5"/>
+</svg>
