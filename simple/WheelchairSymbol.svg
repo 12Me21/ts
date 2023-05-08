@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<rect x="0" y="0" width="36" height="36" rx="4"  fill="#269"/>
+	<circle fill="#FFF" cx="27" cy="7" r="3"/>
+	
+	<!-- arm/leg defined as:
+		<clipPath id="person">
+		<path d="M 23,24 a 10,10 0 00 -10,-10 h-8 v-12 h28 v30 h-10 v-8 z" />
+		</clipPath>
+		<path d="M 26,28 l 2,-9 l -11,1 l 8,-8 l -10,-3 l -3,3" fill="none" stroke="#FFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#person)"/>
+-->
+	
+	<path d="M 13.06,13.06 a 1.5,1.5 0 01 -2.121,0.001 a 1.5,1.5 0 01 0,-2.121 l 3,-3 a 1.5,1.5 0 01 1.492,-0.376 l 9.999,3 a 1.5,1.5 0 01 0.63,2.497 l -5.017,5.017 a 10,10 0 00 -4.392,-3.379 l 2.635,-2.847 l -3.859,-1.158 l -2.367,2.366 Z"  fill="#FFF"/>
+	<path d="M 27.863,17.506 a 1.5,1.5 0 01 1.6,1.819 l -2,9
+a 1.499,1.499 0 01 -2.928,-0.65
+l 1.554,-6.995 l -3.548,0.322 a 10,10 0 00 -1.464,-2.879 l 6.786,-0.617 Z"   fill="#FFF"/>
+	
+	<circle cx="13" cy="24" r="7" fill="none" stroke="#FFF" stroke-width="2"/>
+</svg>

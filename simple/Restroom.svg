@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<rect x="0" y="0" width="36" height="36" rx="4" fill="#3B88C3"/>
+	
+	<ellipse rx="3" ry="3.5" cx="10" cy="8.5" fill="#FFF"/>
+	<path d="M 4,19 s 3,-7 6,-7 s 6,7 6,7" fill="none" stroke="#FFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+	<path d="M 7.5,31.5 v-9 M 12.5,31.5 v-9" fill="none" stroke="#FFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+	<path d="M 6,24 v-9.5 l 4,-2.5 l 4,2.5 v 9.5 h -3 a 1,1 0 00 -2,0 h-3 z" fill="#FFF"/>
+	
+	<ellipse rx="3" ry="3.5" cx="26" cy="8.5" fill="#FFF"/>
+	<path d="M 23.5,31.5 v-9 M 28.5,31.5 v-9" fill="none" stroke="#FFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+	<path d="M 30.996,20.125 l -1.996,-2.125 v2 l 4,6 h-14 l 4,-6 v-2 l -1.883,2 a 1.5,1.5 0 11 -2.235,-2.001 l 5.739,-6.408 l 2.923,-0.105 l 5.73,6.686 a 1.5,1.5 0 01 -2.278,1.953 Z"  fill="#FFF"/> <!-- the arms are totally messed up for some reason -->
+</svg>
