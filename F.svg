@@ -182,4 +182,17 @@
 		<!-- <path d="M 1.404,19 c 4.639,0 7.064,10.04 5.874,17 h-6.46 c 2.031,-7.46 -2.148,-15.002 -0.286,-17.293 c -0.114,0.14 -0.209,0.297 -0.281,0.476 c 0.313,-0.117 0.689,-0.183 1.153,-0.183 Z" fill="#FCAB40"/> -->
 		<path d="M 35.753,19.183 c 1.086,2.728 -2.476,9.772 -0.57,16.817 h-6.46 c -1.192,-6.998 1.232,-17 5.873,-17 c 0.466,0 0.843,0.066 1.157,0.183 Z" fill="currentColor" />
 	</g>
+	
+	<g id="bg.blush">
+		<circle cx=" 7" r="5" fill="#FF7892"/>
+		<circle cx="29" r="5" fill="#FF7892"/>
+	</g>
+	
+	<!-- licking lips features
+<path d="M 7,22 s 2,8 11,8 s 11,-8 11,-8" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" color="#664500"/>
+	<path d="M -4,2 s 1,-2 4,-2 s 4,2 4,2" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" transform="translate(11 14)" color="#664500"/>
+	-->
+	<!-- face with peeking eye 
+<path d="M 0,0 a 9,9 0 00 -6,0" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" transform="translate(14.99 8.191) rotate(-7.08)" color="#664500"/> nnn
+-->
 </svg>

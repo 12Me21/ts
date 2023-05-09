@@ -1,11 +1,5 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
-	<!-- eyes -->
-	<!-- todo: transform these too (might get nicer cx/cy) -->
-	<circle cx="22.700" cy="10.423" r="6.734" fill="#F5F8FA"/>
-	<circle cx="22.306" cy=" 9.291" r="2.037" fill="#292F33"/>
-	<circle cx="10.238" cy="15.107" r="3.937" fill="#F5F8FA"/>
-	<circle cx="10.239" cy="15.856" r="1.942" fill="#292F33"/>
 	<!-- mouth (mouth.grinning + tongue+1, modified) -->
 	<use y="13" href="F.svg#mouth_grinning2" transform="translate(18 18) rotate(-12.095)" color="#664500"/>
 	
@@ -13,4 +7,10 @@
 	<path d="M 17,31.883 c -0.301,0 -0.545,-0.244 -0.546,-0.545 v-6.295 h1.091 v6.295 c 0,0.301 -0.244,0.545 -0.545,0.545 Z" fill="#DD2E44" />
 	
 	<path d="M 9,22 s 3,1 9,1 s 9,-1 9,-1 s -2,4 -9,4 s -9,-4 -9,-4 Z" transform="rotate(-12.095 18,18)" fill="#FFF" />
+	<!-- eyes -->
+	<!-- todo: transform these too (might get nicer cx/cy) -->
+	<circle cx="22.700" cy="10.423" r="6.734" fill="#F5F8FA"/>
+	<circle cx="10.238" cy="15.107" r="3.937" fill="#F5F8FA"/>
+	<circle cx="22.306" cy=" 9.291" r="2.037" fill="#292F33"/>
+	<circle cx="10.239" cy="15.856" r="1.942" fill="#292F33"/>
 </svg>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
-	<use href="F.svg#mouth.smiling1b" transform="translate(12 14.5) scale(1 -1)" color="#664500"/>
-	<use href="F.svg#mouth.smiling1b" transform="translate(24 14.5) scale(1 -1)" color="#664500"/>
+	<use href="F.svg#mouth.smiling1b" transform="matrix(1 0 0 -1 12 14.5)" color="#664500"/>
+	<use href="F.svg#mouth.smiling1b" transform="matrix(1 0 0 -1 24 14.5)" color="#664500"/>
 	<use href="F.svg#mouth_grinning" x="18" y="32"/>
 </svg>

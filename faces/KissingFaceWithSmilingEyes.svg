@@ -1,6 +1,8 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
+	
 	<use href="F.svg#mouth.kiss" x="18" y="28" color="#664500"/>
+	
 	<use href="F.svg#eye.smiling" x="13" y="15" color="#664500"/>
 	<use href="F.svg#eye.smiling" x="23" y="15" color="#664500"/>
 </svg>

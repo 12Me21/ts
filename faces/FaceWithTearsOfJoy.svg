@@ -1,14 +1,14 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	
-	<use href="F.svg#eyebrow.8" transform="translate(12 9)" color="#664500"/>
-	<use href="F.svg#eyebrow.8" transform="translate(24 9) scale(-1 1)" color="#664500"/>
-	
-	<use href="F.svg#mouth.smiling1b" transform="translate(12 14.5) scale(1 -1)" color="#664500"/>
-	<use href="F.svg#mouth.smiling1b" transform="translate(24 14.5) scale(1 -1)" color="#664500"/>
-	
 	<use href="F.svg#mouth_grinning" x="18" y="32" color="#664500"/>
 	
-	<use href="F.svg#water_drop" transform="translate(8.461 17.306) rotate(14.25)"/>
-	<use href="F.svg#water_drop" transform="translate(27.518 17.306) rotate(-14.25)"/>
+	<use href="F.svg#mouth.smiling1b" transform="matrix(1 0 0 -1 12 14.5)" color="#664500"/>
+	<use href="F.svg#mouth.smiling1b" transform="matrix(1 0 0 -1 24 14.5)" color="#664500"/>
+	
+	<use href="F.svg#eyebrow.8" transform="translate(12 9)" color="#664500"/>
+	<use href="F.svg#eyebrow.8" transform="matrix(-1 0 0 1 24 9)" color="#664500"/>
+	
+	<use href="F.svg#water_drop" y="-10" transform="translate(6 27) rotate(14.25)"/>
+	<use href="F.svg#water_drop" y="-10" transform="translate(30 27) rotate(-14.25)"/>
 </svg>

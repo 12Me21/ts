@@ -1,7 +1,6 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
-	<circle cx="7" cy="18" r="5" fill="#FF7892"/>
-	<circle cx="29" cy="18" r="5" fill="#FF7892"/>
+	<use href="F.svg#bg.blush" y="18"/>
 	
 	<use href="F.svg#mouth.smiling2" transform="translate(18 27.5)" color="#664500"/>
 	

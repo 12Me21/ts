@@ -1,13 +1,12 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
-	<circle cx=" 7" cy="22" r="5" fill="#FF7892"/>
-	<circle cx="29" cy="22" r="5" fill="#FF7892"/>
-	
-	<use href="F.svg#eyebrow.14" transform="translate(15 11)" color="#664500"/>
-	<use href="F.svg#eyebrow.14" transform="translate(21 11) scale(-1 1)" color="#664500"/>
-	
-	<use href="F.svg#eyebrow.12b" transform="translate(16 17)" color="#664500"/>
-	<use href="F.svg#eyebrow.12b" transform="translate(20 17) scale(-1 1)" color="#664500"/>
+	<use href="F.svg#bg.blush" y="22"/>
 	
 	<use href="F.svg#mouth.smiling1" x="18" y="29.5" color="#664500"/>
+	<!-- eyes -->
+	<use href="F.svg#eyebrow.12b" transform="translate(16 17)" color="#664500"/>
+	<use href="F.svg#eyebrow.12b" transform="matrix(-1 0 0 1 20 17)" color="#664500"/>
+	<!-- eyebrow -->
+	<use href="F.svg#eyebrow.14" transform="translate(15 11)" color="#664500"/>
+	<use href="F.svg#eyebrow.14" transform="matrix(-1 0 0 1 21 11)" color="#664500"/>
 </svg>

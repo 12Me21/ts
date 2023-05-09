@@ -5,7 +5,7 @@
 			<circle r="6" cx="25" cy="15"/>
 		</clipPath>
 		<g id="pupil">
-			<circle r="5" fill="currentColor"/>
+			<circle r="5.25" fill="currentColor"/>
 			<ellipse rx="2.082" ry="2.675" transform="translate(-1.636,-0.636) rotate(45)" fill="#FFF"/>
 			<ellipse rx="0.914" ry="1.175" transform="translate(2.5,2) rotate(45)" fill="#FFF"/>
 		</g>
@@ -14,19 +14,21 @@
 	</defs>
 	<!-- head -->
 	<circle cx="18" cy="18" r="18" fill="#FFCC4D"/>
-	<!-- mouth -->
-	<use href="#mouth" x="18" y="26" color="#664500"/>
-	<!-- eyes -->
-	<circle r="6" cx="11" cy="15" fill="#F5F8FA"/>
-	<circle r="6" cx="25" cy="15" fill="#F5F8FA"/>
-	<!-- pupils -->
-	<g clip-path="url(#eyes)">
-		<use href="#pupil" x="11.5" y="14" color="#664500"/>
-		<use href="#pupil" x="24.5" y="14" color="#664500"/>
+	<g transform="translate(0 2)">
+		<!-- mouth -->
+		<use href="#mouth" x="18" y="26" color="#664500"/>
+		<!-- eyes -->
+		<circle r="6" cx="11" cy="15" fill="#F5F8FA"/>
+		<circle r="6" cx="25" cy="15" fill="#F5F8FA"/>
+		<!-- pupils -->
+		<g clip-path="url(#eyes)">
+			<use href="#pupil" x="11.25" y="14.25" color="#664500"/>
+			<use href="#pupil" x="24.75" y="14.25" color="#664500"/>
+		</g>
+		<!-- eyebrows -->
+		<use href="#eyebrow" transform="translate(10 7)" color="#664500"/>
+		<use href="#eyebrow" transform="translate(26 7) scale(-1 1)" color="#664500"/>
 	</g>
-	<!-- eyebrows -->
-	<use href="#eyebrow" transform="translate(10 7)" color="#664500"/>
-	<use href="#eyebrow" transform="translate(26 7) scale(-1 1)" color="#664500"/>
 </svg>
 
 <!--<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">

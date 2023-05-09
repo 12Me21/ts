@@ -1,11 +1,13 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
-	<!-- eyes -->
-	<use href="F.svg#mouth.smiling1b" transform="translate(11 12.518) scale(1 -1)" color="#664500"/>
-	<circle cx="24.5" cy="13.5" r="6.5" fill="#F5F8FA" />
-	<circle fill="#292F33" cx="24.5" cy="13.5" r="2.5"/>
 	
 	<use href="F.svg#mouth.grinning3" x="18" y="30.262" color="#664500"/>
+	<!-- eyes -->
+	<use href="F.svg#mouth.smiling1b" transform="matrix(1 0 0 -1 11 12.518)" color="#664500"/>
+	<g>
+		<circle r="6.5" cx="24.5" cy="13.5" fill="#F5F8FA"/>
+		<circle r="2.5" cx="24.5" cy="13.5" fill="#292F33"/>
+	</g>
 	
 	<use href="F.svg#tongue.1" x="18" y="35.964"/>
 </svg>

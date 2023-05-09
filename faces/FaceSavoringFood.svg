@@ -1,10 +1,10 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
-	
+	<!-- are these used elsewhere ? -->
 	<path d="M 7,22 s 2,8 11,8 s 11,-8 11,-8" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" color="#664500"/>
 	<path d="M -4,2 s 1,-2 4,-2 s 4,2 4,2" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" transform="translate(11 14)" color="#664500"/>
 	<path d="M -4,2 s 1,-2 4,-2 s 4,2 4,2" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" transform="translate(25 14)" color="#664500"/>
-	
+	<!-- tongue. messy -->
 	<path d="M 32.407,26.681 c 1.729,1.729 1.825,4.691 -0.175,6.691 s -5.272,1.728 -7,0 l -2.726,-2.726 l -0.296,-0.296 s -0.466,0.174 -1.051,0.301 c 0,0 -0.347,-0.795 0.388,-0.964 c 0.558,-0.129 1.916,-0.799 2.697,-1.318 c 1.859,-1.236 3.154,-2.849 3.934,-4.171 c 0.593,-1.006 1.273,-0.568 1.273,-0.568 l 2.956,3.051 Z" fill="#E8596E"/>
 	<path d="M 29.915,31.074 c -0.213,0.213 -0.559,0.213 -0.772,0.001 l -3.653,-3.653 l 0.796,-0.748 l 3.629,3.629 c 0.213,0.213 0.213,0.558 0,0.771 Z" fill="#DD2F45" />
 </svg>

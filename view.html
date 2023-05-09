@@ -291,7 +291,7 @@
 		<br>
 		<br>
 		<br>
-		<!--<svg viewBox="0 0 36 36" id=$custom></svg>-->
+		<svg viewBox="0 0 36 36" id=$custom style="background:none;pointer-events:none !important;"></svg>
 	</div>
 	<form onsubmit="$custom.innerHTML=this.t.value;return undefined" method=dialog onkeydown="if (event.key=='Enter' && !event.shiftKey) event.preventDefault(),this.submit.click()">
 		<textarea name=t style="width:100%;line-break:anywhere;width:-moz-available;display:block;"></textarea>
@@ -508,7 +508,7 @@
 				}, ()=>{})
 			}
 			
-			let svg = load('./simple/'+name+'.svg')
+			let svg = load('./faces/'+name+'.svg')
 			let modified = svg.lastModified
 			svg = svg.documentElement
 			select_variant(svg, variant, palette)
