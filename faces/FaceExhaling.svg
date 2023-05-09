@@ -1,13 +1,13 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	
-	<use href="F.svg#eyebrow.2" transform="translate(22.776 10.42) scale(-0.963 1)" color="#664500"/>
-	<use href="F.svg#eyebrow.2" transform="translate(11.223 10.42) scale(0.963 1)" color="#664500"/>
+	<use href="F.svg#mouth.smiling1" transform="matrix(1 0 0 -1 17 23.92)" color="#664500"/>
 	
 	<use href="F.svg#mouth.smiling1c" x="11" y="19.92" color="#664500"/>
 	<use href="F.svg#mouth.smiling1c" x="23" y="19.92" color="#664500"/>
 	
-	<use href="F.svg#mouth.smiling1" transform="translate(17 23.92) scale(1 -1)" color="#664500"/>
+	<use href="F.svg#eyebrow.2" transform="translate(11.223 10.42) scale(0.963 1)" color="#664500"/>
+	<use href="F.svg#eyebrow.2" transform="matrix(-1 0 0 1 22.776 10.42) scale(0.963 1)" color="#664500"/>
 	
 	<!-- todo -->
 	<path d="M 3.24,29.842 c -0.677,-0.95 -0.727,-2.255 -0.015,-3.262 c 0.9,-1.271 2.661,-1.572 3.932,-0.671 c 0.923,0.653 1.325,1.757 1.139,2.801 c 1.121,-0.409 2.418,-0.282 3.465,0.46 c 1.695,1.2 2.096,3.548 0.895,5.243 c -1.2,1.695 -3.548,2.096 -5.243,0.895 c -0.415,-0.294 -0.751,-0.659 -1.006,-1.064 c -0.843,0.31 -1.819,0.215 -2.607,-0.343 c -1.27,-0.9 -1.571,-2.661 -0.671,-3.932 c 0.034,-0.047 0.076,-0.083 0.111,-0.127 Z" fill="#DEE7ED" />

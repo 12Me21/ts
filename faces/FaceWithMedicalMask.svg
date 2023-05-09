@@ -1,10 +1,18 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<clipPath id="circle">
+			<circle r="18" cx="18" cy="18"/>
+		</clipPath>
+	</defs>
+	
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	
 	<use href="F.svg#eyebrow.9" transform="translate(7 14)" color="#664500"/>
-	<use href="F.svg#eyebrow.9" transform="translate(29 14) scale(-1 1)" color="#664500"/>
+	<use href="F.svg#eyebrow.9" transform="matrix(-1 0 0 1 29 14)" color="#664500"/>
 	
-	<path d="M 10.99,27 v2 l -8.29709,-1.50856 a 18,18 0 01 -1.17058,-2.21283 l 9.46767,1.72139 Z M 10.99,21 v2 l -11,-5 a 18,18 0 01 0.104662,-1.95243 l 10.895338,4.95243 Z" fill="#F5F8FA"/>
-	<path d="M 25.01,23 v-2 l 10.8953,-4.95243 a 18,18 0 01 0.104662,1.95243 l -10.999962,5 Z M 25.01,29 v-2 l 9.46767,-1.7214 a 18,18 0 01 -1.17058,2.21283 l -8.29709,1.50857 Z" fill="#F5F8FA"/>
-	<rect x="9" y="17" width="18" height="15" rx="2" fill="#F5F8FA"/>
+	<g clip-path="url(#circle)">
+		<path d="M11 27v2l-11 -2v-2zM11 21v2l-11 -5v-2z" fill="#F5F8FA"/>
+		<path d="M11 27v2l-11 -2v-2zM11 21v2l-11 -5v-2z" transform="matrix(-1 0 0 1 36 0)" fill="#F5F8FA"/>
+		<rect x="9" y="17" width="18" height="15" rx="2" fill="#F5F8FA"/>
+	</g>
 </svg>
