@@ -194,5 +194,8 @@
 	-->
 	<!-- face with peeking eye 
 <path d="M 0,0 a 9,9 0 00 -6,0" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" transform="translate(14.99 8.191) rotate(-7.08)" color="#664500"/> nnn
--->
+	-->
+	
+	<!-- the mouth from Sneezing Face might be related to the mouth from Face With Rolling Eyes -->
+	<path d="M 16,29 c 2,-5 13,-5 13,-3 c 0,1 -8,-1 -13,3 Z" fill="#664500" />
 </svg>

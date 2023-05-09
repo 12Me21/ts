@@ -1,10 +1,11 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#50A5E6"/>
+	<!-- eyes -->
+	<use href="F.svg#eyes.normal12" x="-0.015" y="15.188" color="#1C6399"/>	
 	<!-- eyebrows -->
 	<use href="F.svg#eyebrow.4" transform="translate(5.984 10.375)" color="#1C6399"/>
-	<use href="F.svg#eyebrow.4" transform="translate(29.989 10.375) scale(-1 1)" color="#1C6399"/>
-	<!-- eyes -->
-	<use href="F.svg#eyes.normal12" x="-0.015" y="15.188" color="#1C6399"/>
+	<use href="F.svg#eyebrow.4" transform="matrix(-1 0 0 1 29.989 10.375)" color="#1C6399"/>
+	
 	<!-- mouth -->
 	<use href="F.svg#mouth.grimacing" x="17.985" y="30.812" color="#1C6399"/>
 	

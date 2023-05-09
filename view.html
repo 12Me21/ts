@@ -204,6 +204,7 @@
 	.layer-genders {
 		background: #A804;
 		padding: 0 0.5ch;
+		line-height: 1.2;
 	}
 	
 	.color-square {
@@ -431,6 +432,20 @@
 				if (elem instanceof SVGPathElement)
 					sym += " ("+elem.getAttribute('d').length+")"
 			}
+			let id = elem.id || elem.parentNode?.id
+			if (id) {
+				id = {
+					eye1: "👁",
+					eye2: "👁",
+					mouth: "👄",
+					eyebrow1: "〰️",
+					eyebrow2: "〰️",
+					head: "🟡",
+				}[id] ?? "#"+id
+				
+				box.$variants.append(id)
+			}
+			
 			box.$row1.append(sym)
 			
 			let g = elem.getAttribute('ts:gender')
@@ -445,7 +460,9 @@
 			if (skin) {
 				box.$row2.append("🎨︎ "+skin+"")
 			} else {
-				let col = elem.getAttribute('fill')
+				let col = elem.getAttribute('color')
+				if (!col)
+					col = elem.getAttribute('fill')
 				if (!col || col=="none")
 					 col = elem.getAttribute('stroke')
 				let cs = document.createElement('div')

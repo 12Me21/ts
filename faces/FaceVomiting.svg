@@ -2,17 +2,17 @@
 	<!-- some weird scaling going on here... -->
 	<circle cx="18" cy="17" r="17" fill="#FFCC4D"/>
 	
-	<use href="F.svg#eye.squinting" transform="scale(.944) translate(8.064 13)" color="#664500"/>
-	<use href="F.svg#eye.squinting" transform="scale(.944) translate(30.072 13) scale(-1 1)" color="#664500"/>
+	<use href="F.svg#mouth_grinning2" transform="matrix(1 0 0 -1 18 17.931) scale(.9205)"/>
 	
-	<use href="F.svg#mouth_grinning2" transform="translate(18 17.931) scale(.9205, -.9205)"/>
+	<use href="F.svg#eye.squinting" transform="scale(.944) translate(8.064 13)" color="#664500"/>
+	<use href="F.svg#eye.squinting" transform="scale(.944) matrix(-1 0 0 1 30.072 13)" color="#664500"/>
 	
 	<ellipse rx="15.137" ry="2" cx="17.934" cy="34" fill="#77AF57"/>
 	<path d="M 25.712,32.287 h -15.556 v-7.101 c 0,-2.592 3.889,-5.185 7.778,-5.185 s 7.778,2.592 7.778,5.185 v7.101 Z" fill="#77AF57"/>
 	<g fill="#5D9040">
-		<circle cx="15.875" cy="23.228" r="1.235"/>
-		<circle cx="20.698" cy="25.64 " r="1.235"/>
-		<circle cx="21.233" cy="30.514" r="1.235"/>
-		<circle cx="15.107" cy="32.548" r="1.765"/>
+		<circle r="1.235" cx="15.875" cy="23.228"/>
+		<circle r="1.235" cx="20.698" cy="25.64 "/>
+		<circle r="1.235" cx="21.233" cy="30.514"/>
+		<circle r="1.765" cx="15.107" cy="32.548"/>
 	</g>
 </svg>

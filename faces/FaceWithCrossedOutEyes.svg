@@ -1,11 +1,11 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-	<use href="F.svg#bg.normal" color="#FFCC4D"/>
+	<use id="head" href="F.svg#bg.normal" color="#FFCC4D"/>
 	
-	<use href="F.svg#eyebrow.4" transform="translate(13 6) scale(-1 -1)" color="#664500"/>
-	<use href="F.svg#eyebrow.4" transform="translate(23 6) scale(1 -1)" color="#664500"/>
+	<ellipse id="mouth" rx="5" ry="6" cx="18" cy="27" fill="#664500"/>
 	
-	<path d="M 10,13 l 5,5 m -5,0 l5,-5" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" color="#664500"/>
-	<path d="M 21,13 l 5,5 m -5,0 l5,-5" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" color="#664500"/>
+	<path id="eye1" d="M 10,13 l 5,5 m -5,0 l5,-5" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" color="#664500"/>
+	<path id="eye2" d="M 21,13 l 5,5 m -5,0 l5,-5" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" color="#664500"/>
 	
-	<ellipse cx="18" cy="27" rx="5" ry="6" fill="#664500"/>
+	<use id="eyebrow1" href="F.svg#eyebrow.2" transform="translate(13 6)" color="#664500"/>
+	<use id="eyebrow2" href="F.svg#eyebrow.2" transform="matrix(-1 0 0 1 23 6)" color="#664500"/>
 </svg>

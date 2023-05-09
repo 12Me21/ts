@@ -15,7 +15,7 @@
 	<g clip-path="url(#circle)">
 		<path d="M 35.831,6.381 c 0,3.588 -8.264,5.771 -17.831,5.771 s -17.831,-2.183 -17.831,-5.771 l 17.831,3 l 17.831,-3 Z" fill="#FFAC33"/>
 	</g>
-
+	
 	<path d="M 33.175,8.316 c 0.181,0.265 0.555,0.929 0.555,0.929 l -0.078,0.047 c -3.076,1.82 -9.056,2.86 -15.652,2.86 c -6.663,0 -12.684,-1.061 -15.727,-2.917 l 0.521,-0.876 Z" fill="#FFAC33" /> <!-- idea: split halo into front and back halves. also, then we can reuse the front half to draw the shadow using a clip path -->
 	
 	<!-- need to clean up -->
