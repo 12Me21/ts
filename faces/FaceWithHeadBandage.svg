@@ -1,43 +1,24 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-	<defs id="defs6">
-		<clipPath id="clipPath40" clipPathUnits="userSpaceOnUse">
-			<path d="M 18,0 c -9.941,0 -18,8.059 -18,18 v0 c 0,9.941 8.059,18 18,18 v0 c 9.941,0 18,-8.059 18,-18 v0 c 0,-9.941 -8.059,-18 -18,-18 Z" id="path42" />
+	<defs>
+		<clipPath id="circle">
+			<circle r="18" cx="18" cy="18"/>
 		</clipPath>
 	</defs>
 	
-	<path d="M 35.625,14.338 a 18,18 0 01  0.375,3.662 a 18,18 0 01 -36,0 a 18,18 0 01 1.348,-6.824 l 9.955,-9.875 a 18,18 0 01 6.697,-1.301 a 18,18 0 01 5.135,0.753 l 12.49,13.585 Z" fill="#FFCC4D"/>
+	<path d="M 35.625,14.338 a 18,18 0 01 0.375,3.662 a 18,18 0 01 -36,0 a 18,18 0 01 1.348,-6.824 l 9.955,-9.875 a 18,18 0 01 6.697,-1.301 a 18,18 0 01 5.135,0.753 l 12.49,13.585 Z" fill="#FFCC4D"/> <!-- we could make this into like, a polygon, and clip it using the same clip path, i suppose.. -->
 	
 	<path d="M 13,28 s 1,-4 5,-4 s 5,4 5,4 s -1,-1 -5,-1 s -5,1 -5,1 Z" fill="#664500"/>
 	<use href="F.svg#mouth.smiling1b" transform="translate(11.5 14.5) scale(1 -1)" color="#664500"/>
 	<use href="F.svg#mouth.smiling1b" transform="translate(24.5 14.5) scale(1 -1)" color="#664500"/>
 	
-	<g clip-path="url(#clipPath40)" id="g38">
-		<g transform="translate(43.4307,-20.2417)" id="g44">
-			<path d="M 0,36 l -45.835,-8.342 l 0.379,-2.083 l 45.835,8.342 l -0.379,2.083 Z" id="path46" fill="#e6e7e8" />
-		</g>
-		<g transform="translate(43.8096,-22.3252)" id="g48">
-			<path d="M 0,36 l -45.835,-8.342 l 0.189,-1.042 l 45.835,8.342 l -0.189,1.042 Z" id="path50" fill="#bcbec0" />
-		</g>
-		<g transform="translate(43.999,-23.3672)" id="g52">
-			<path d="M 0,36 l -45.835,-8.342 l 0.379,-2.083 l 45.836,8.342 l -0.38,2.083 Z" id="path54" fill="#e6e7e8" />
-		</g>
-		<g transform="translate(44.3789,-25.4507)" id="g56">
-			<path d="M 0,36 l -45.836,-8.342 l 0.19,-1.041 l 45.834,8.342 l -0.188,1.041 Z" id="path58" fill="#d1d3d4" />
-		</g>
-		<g transform="translate(44.5674,-26.4922)" id="g60">
-			<path d="M 0,36 l -45.834,-8.342 l 0.378,-2.083 l 45.836,8.342 l -0.38,2.083 Z" id="path62" fill="#e6e7e8" />
-		</g>
-		<g transform="translate(-6.8877,-23.3252)" id="g64">
-			<path d="M 0,36 l -0.189,-1.042 l 45.834,-8.342 l 0.19,1.042 l -45.835,8.342 Z" id="path66" fill="#bcbec0" />
-		</g>
-		<g transform="translate(-7.0771,-24.3672)" id="g68">
-			<path d="M 0,36 l -0.38,-2.083 l 45.836,-8.342 l 0.379,2.083 l -45.835,8.342 Z" id="path70" fill="#e6e7e8" />
-		</g>
-		<g transform="translate(-7.457,-26.4507)" id="g72">
-			<path d="M 0,36 l -0.188,-1.042 l 45.835,-8.341 l 0.189,1.041 l -45.836,8.342 Z" id="path74" fill="#d1d3d4" />
-		</g>
-		<g transform="translate(-7.6455,-27.4922)" id="g76">
-			<path d="M 0,36 l -0.38,-2.083 l 45.836,-8.342 l 0.379,2.083 l -45.835,8.342 Z" id="path78" fill="#e6e7e8" />
-		</g>
+	<!-- pivot 1: 11.263,1.296	pivot 2: 23.172,0.747 -->
+	
+	<g clip-path="url(#circle)">
+		<path d="M 43.431,15.758 L -2.404,7.416 L -0.889,-0.917 L 44.947,7.425 L 43.431,15.758 Z" fill="#e6e7e8"/>
+		<path d="M 43.81,13.675 L -2.025,5.333 L -1.836,4.291 L 43.999,12.633 L 43.81,13.675 Z" fill="#bcbec0"/>
+		<path d="M 44.379,10.549 L -1.457,2.207 L -1.267,1.166 L 44.567,9.508 L 44.379,10.549 Z" fill="#d1d3d4"/>
+		<path d=" M -6.983,12.154 L -8.025,6.425 L 37.811,-1.917 L 38.852,3.812 L -6.983,12.154 Z" fill="#e6e7e8"/>
+		<path d=" M -6.888,12.675 L -7.077,11.633 L 38.757,3.291 L 38.947,4.333 L -6.888,12.675 Z" fill="#bcbec0"/>
+		<path d=" M -7.457,9.549 L -7.645,8.507 L 38.19,0.166 L 38.379,1.207 L -7.457,9.549 Z" fill="#d1d3d4"/>
 	</g>
 </svg>
