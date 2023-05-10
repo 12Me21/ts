@@ -27,8 +27,19 @@
 		<path d="M 26.431,20.337 c 0.049,0 0.1,-0.007 0.149,-0.022 c 4.79,-1.497 8.737,-0.347 8.777,-0.336 c 0.265,0.081 0.543,-0.07 0.623,-0.335 c 0.079,-0.265 -0.071,-0.543 -0.335,-0.622 c -0.173,-0.052 -4.286,-1.247 -9.362,0.338 c -0.264,0.083 -0.411,0.363 -0.328,0.627 c 0.065,0.213 0.263,0.35 0.476,0.35 Z" fill="#FEE7B8" />
 	</g>
 	
-	covering for top of head (cold, anxious, fearful, etc.)
-	<path id="bg.sweat" d="M 18,11 c -8.748,0 -16.033,4.509 -17.656,10.484 c -0.221,-1.128 -0.344,-2.292 -0.344,-3.484 c 0,-9.94 8.06,-18 18,-18 c 9.941,0 18,8.06 18,18 c 0,1.192 -0.122,2.356 -0.344,3.484 c -1.623,-5.975 -8.907,-10.484 -17.656,-10.484 Z" fill="#BDDDF4"/>
+	(cold, anxious, fearful, etc.)
+	<g id="bg.sweating">
+		<defs>
+			<clipPath id="circle12">
+				<circle r="18" cx="18" cy="18"/>
+			</clipPath>
+		</defs>
+		<g clip-path="url(#circle12)">
+			<rect width="36" height="36" fill="#BDDDF4"/>
+			<ellipse rx="18" ry="13" cx="18" cy="24" fill="currentColor"/>
+		</g>
+	</g>
+	<!--<path id="bg.sweat" d="M 18,11 c -8.748,0 -16.033,4.509 -17.656,10.484 c -0.221,-1.128 -0.344,-2.292 -0.344,-3.484 c 0,-9.94 8.06,-18 18,-18 c 9.941,0 18,8.06 18,18 c 0,1.192 -0.122,2.356 -0.344,3.484 c -1.623,-5.975 -8.907,-10.484 -17.656,-10.484 Z" fill="#BDDDF4"/>-->
 	
 	<path id="water_drop" d="M 5,10 a 5,5 0 01 -10,0 c 0,-2.762 4,-10 5,-10 s 5,7.238 5,10 Z" fill="#5DADEC"/>
 	<!-- width: 35.77 -->
@@ -158,8 +169,7 @@
 	<use href="F.svg#eyes.normal13" y="" color="#664500"/>
 	<use href="F.svg#eyes.normal12" y="" color="#664500"/>
 	
-	m
-	<path d="M 16,29 c 2,-5 13,-5 13,-3 c 0,1 -8,-1 -13,3 Z" fill="#664500" />
+	<path id="mouth.confused" d="M -13,3 c 2,-5 13,-5 13,-3 c 0,1 -8,-1 -13,3 Z" fill="currentColor"/>
 	
 	<path d="M 13,28 s 1,-4 5,-4 s 5,4 5,4 s -1,-1 -5,-1 s -5,1 -5,1 Z" fill="#664500"/> <!-- from downcastfacewithsweat,facewithheadbandage -->
 	
@@ -197,5 +207,13 @@
 	-->
 	
 	<!-- the mouth from Sneezing Face might be related to the mouth from Face With Rolling Eyes -->
-	<path d="M 16,29 c 2,-5 13,-5 13,-3 c 0,1 -8,-1 -13,3 Z" fill="#664500" />
+	
+	
+	<ellipse cx="24.528" cy="14.024" rx="2.096" ry="3.104" fill="#664500" />
+	<ellipse cx="11.553" cy="14.024" rx="2.096" ry="3.104" fill="#664500" /> <!-- nerd face and Disguised Face both use these strange eyes -->
+	
+	<!--translate(\([-0-9.]+,? [-0-9.]+\)) scale(\([-0-9.]+\),? \([-0-9.]+\)) → matrix(\2 0 0 \3 \1)-->
+	
+	
+	<rect x="13" y="28" width="10" height="2" rx="1" fill="#664500" /> Flushed etc.
 </svg>

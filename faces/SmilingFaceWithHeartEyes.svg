@@ -1,8 +1,8 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	
-	<use href="F.svg#mouth_grinning2" transform="translate(18 30.037) scale(.819)" color="#664500"/>
+	<use id="mouth" href="F.svg#mouth_grinning2" transform="translate(18 30.037) scale(0.819)" color="#664500"/>
 	
-	<use href="F.svg#heart" transform="translate(12.165 16) rotate(-19.43) scale(0.473)" fill="#DD2E44"/>
-	<use href="F.svg#heart" transform="translate(23.835 16) rotate(19.43) scale(0.473)" fill="#DD2E44"/>
+	<use id="eye2" href="F.svg#heart" transform="translate(12.165 16) rotate(-19.43) scale(0.473)" fill="#DD2E44"/>
+	<use id="eye2" href="F.svg#heart" transform="translate(23.835 16) rotate(19.43) scale(0.473)" fill="#DD2E44"/>
 </svg>

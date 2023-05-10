@@ -1,4 +1,6 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+	<!-- this one actually has an alternate design hidden behind the main layers, in early versions.. -->
+	
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	<ellipse cx="24.528" cy="14.024" rx="2.096" ry="3.104" fill="#664500" />
 	<ellipse cx="11.553" cy="14.024" rx="2.096" ry="3.104" fill="#664500" />

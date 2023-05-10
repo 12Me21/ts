@@ -1,10 +1,10 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	
-	<use href="F.svg#eyebrow.4" transform="translate(12 6) scale(-1 -1)" color="#664500"/>
-	<use href="F.svg#eyebrow.4" transform="translate(24 6) scale(1 -1)" color="#664500"/>
+	<ellipse id="mouth" cx="18" cy="25.5" rx="3" ry="3.5" fill="#664500"/>
+	
+	<use id="eyebrow1" href="F.svg#eyebrow.2" transform="translate(12 6)" color="#664500"/>
+	<use id="eyebrow1" href="F.svg#eyebrow.2" transform="matrix(-1 0 0 1 24 6)" color="#664500"/>
 	
 	<use href="F.svg#eyes.normal12" y="14.5" color="#664500"/>
-	
-	<ellipse cx="18" cy="25.5" rx="3" ry="3.5" fill="#664500"/>
 </svg>

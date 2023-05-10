@@ -1,7 +1,7 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	
-	<path d="M 16,29 c 2,-5 13,-5 13,-3 c 0,1 -8,-1 -13,3 Z" fill="#664500" />
+	<use href="F.svg#mouth.confused" x="29" y="26" color="#664500"/>
 	
 	<use href="F.svg#eye.squinting" x="7" y="12" color="#664500"/>
 	<use href="F.svg#eye.squinting" transform="matrix(-1 0 0 1 29 12)" color="#664500"/>

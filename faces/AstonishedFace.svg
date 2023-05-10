@@ -1,11 +1,13 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	
-	<use href="F.svg#eyebrow.2" transform="translate(13 6)" color="#664500"/>
-	<use href="F.svg#eyebrow.2" transform="translate(23 6) scale(-1 1)" color="#664500"/>
+	<g id="mouth">
+		<ellipse cx="18" cy="27" rx="5" ry="6" fill="#664500"/>
+		<path d="M 15,27 a 3,4 0 01 6,0 h-6 Z" fill="#F5F8FA" /> <!-- half ellipse -->
+	</g>
 	
 	<use href="F.svg#eyes.normal12" y="14.5" color="#664500"/>
 	
-	<ellipse cx="18" cy="27" rx="5" ry="6" fill="#664500"/>
-	<path d="M 15,27 a 3,4 0 01 6,0 h-6 Z" fill="#F5F8FA" /> <!-- half ellipse -->
+	<use id="eyebrow1" href="F.svg#eyebrow.2" transform="translate(13 6)" color="#664500"/>
+	<use id="eyebrow2" href="F.svg#eyebrow.2" transform="matrix(-1 0 0 1 23 6)" color="#664500"/>
 </svg>

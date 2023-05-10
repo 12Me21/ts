@@ -1,7 +1,7 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	
-	<use href="F.svg#eyes.normal12" y="13.5" color="#664500"/>
+	<ellipse id="mouth" rx="4" ry="5" cx="18" cy="25" fill="#664500"/>
 	
-	<ellipse cx="18" cy="25" rx="4" ry="5" fill="#664500"/>
+	<use href="F.svg#eyes.normal12" y="13.5" color="#664500"/>
 </svg>

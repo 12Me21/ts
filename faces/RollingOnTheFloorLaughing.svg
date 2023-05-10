@@ -1,10 +1,10 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	<g transform="rotate(-45 18 18)">
-		<use href="F.svg#mouth_grinning" transform="translate(18 33.447) scale(1.364)"/>
+		<use id="mouth" href="F.svg#mouth_grinning" transform="translate(18 33.447) scale(1.364)"/> <!-- scale is 30.005/22 -->
 		
-		<use href="F.svg#eye.squinting" transform="translate(7 9.231)" color="#664500"/>
-		<use href="F.svg#eye.squinting" transform="matrix(-1 0 0 1 29 9.231)" color="#664500"/>
+		<use id="eye1" href="F.svg#eye.squinting" transform="translate(7 9.231)" color="#664500"/>
+		<use id="eye2" href="F.svg#eye.squinting" transform="matrix(-1 0 0 1 29 9.231)" color="#664500"/>
 		
 		<use href="F.svg#water_drop" transform="translate(7.612 11.396) rotate(38.06)"/>
 		<use href="F.svg#water_drop" transform="translate(28.533 11.397) rotate(-38.06)"/>

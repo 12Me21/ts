@@ -1,21 +1,24 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-	<g transform="scale(1.0588)">
-		<!-- bg -->
-		<circle cx="17" cy="17" r="17" fill="#FFCC4D"/>
-		<!-- eyebrow -->
-		<path d="M 0,0 c 1,-1 4,-3 7,1" stroke-width="2" stroke-linecap="round" fill="none" stroke="currentColor" transform="translate(7 7.394)" color="#664500"/>
-		<!-- eye -->
-		<ellipse cx="11.5" cy="13.893" rx="2.5" ry="3.5" fill="#664500"/>
-		<!-- mouth-->
-		<path d="M 0,0 c 2,-1 4,-1 6,0" stroke-width="2" stroke-linecap="round" fill="none" stroke="currentColor" transform="translate(14,26)" color="#664500"/>
+	<!-- this one was created at a size of 34x34 and then scaled up later. -->
+	<g transform="scale(1.0588)"> <!-- 36/34 -->
+		<circle id="head" cx="17" cy="17" r="17" fill="#FFCC4D"/>
+		
+		<path id="eyebrow1" d="M 0,0 c 1,-1 4,-3 7,1" stroke-width="2" stroke-linecap="round" fill="none" stroke="currentColor" transform="translate(7 7.394)" color="#664500"/>
+		
+		<ellipse id="eye1" rx="2.5" ry="3.5" cx="11.5" cy="13.893" fill="#664500"/>
+		
+		<path id="mouth" d="M 0,0 c 2,-1 4,-1 6,0" stroke-width="2" stroke-linecap="round" fill="none" stroke="currentColor" transform="translate(14,26)" color="#664500"/>
+		
 		<!-- monocle -->
-		<!-- handle -->
-		<rect x="30" y="13" width="2" height="21" rx="1" fill="#292F33" />
-		<circle cx="31" cy="14" r="2" fill="#67757F"/>
-		<!-- lens -->
-		<circle cx="23.5" cy="13.5" r="6.5" fill="#BDDDF4"/>
-		<rect x="-1.5" y="-6.5"  width="3" height="13" transform="translate(23.5 14) rotate(45)" fill="#F5F8FA"/>
-		<!-- frame -->
-		<path d="M 23.5,21 a 7.5,7.5 0 01 0,-15 a 7.5,7.5 0 01 0,15 z m 0,-2 a 5.5,5.5 0 00 0,-11 a 5.5,5.5 0 00 0,11 z" fill="#67757F" />
+		<g>
+			<!-- handle -->
+			<rect width="2" height="21" rx="1" x="30" y="13" fill="#292F33"/>
+			<circle r="2" cx="31" cy="14" fill="#67757F"/>
+			<!-- lens -->
+			<circle cx="23.5" cy="13.5" r="6.5" fill="#BDDDF4"/>
+			<rect width="3" height="13" x="-1.5" y="-6.5" transform="translate(23.5 14) rotate(45)" fill="#F5F8FA"/>
+			<!-- frame -->
+			<circle cx="23.5" cy="13.5" r="6.5" stroke-width="2" fill="none" stroke="#67757F"/>
+		</g>
 	</g>
 </svg>
