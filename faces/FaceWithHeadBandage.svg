@@ -5,20 +5,19 @@
 		</clipPath>
 	</defs>
 	
-	<path d="M 35.625,14.338 a 18,18 0 01 0.375,3.662 a 18,18 0 01 -36,0 a 18,18 0 01 1.348,-6.824 l 9.955,-9.875 a 18,18 0 01 6.697,-1.301 a 18,18 0 01 5.135,0.753 l 12.49,13.585 Z" fill="#FFCC4D"/> <!-- we could make this into like, a polygon, and clip it using the same clip path, i suppose.. -->
+	<path id="head" clip-path="url(#circle)" d="M 1.338 11.178 L 11.278 1.297 L 18,-3 L 23.158 0.75 L 35.627 14.338 L 38,18 V 38 H -2 V 15 Z" fill="#FFCC4D"/>
 	
-	<path d="M 13,28 s 1,-4 5,-4 s 5,4 5,4 s -1,-1 -5,-1 s -5,1 -5,1 Z" fill="#664500"/>
-	<use href="F.svg#mouth.smiling1b" transform="translate(11.5 14.5) scale(1 -1)" color="#664500"/>
-	<use href="F.svg#mouth.smiling1b" transform="translate(24.5 14.5) scale(1 -1)" color="#664500"/>
+	<path id="mouth" d="M 13,28 s 1,-4 5,-4 s 5,4 5,4 s -1,-1 -5,-1 s -5,1 -5,1 Z" fill="#664500"/>
 	
-	<!-- pivot 1: 11.263,1.296	pivot 2: 23.172,0.747 -->
+	<use id="eye1" href="F.svg#mouth.smiling1b" transform="matrix(1 0 0 -1 11.5 14.5)" color="#664500"/>
+	<use id="eye2" href="F.svg#mouth.smiling1b" transform="matrix(1 0 0 -1 24.5 14.5)" color="#664500"/>
 	
 	<g clip-path="url(#circle)">
-		<path d="M 43.431,15.758 L -2.404,7.416 L -0.889,-0.917 L 44.947,7.425 L 43.431,15.758 Z" fill="#e6e7e8"/>
-		<path d="M 43.81,13.675 L -2.025,5.333 L -1.836,4.291 L 43.999,12.633 L 43.81,13.675 Z" fill="#bcbec0"/>
-		<path d="M 44.379,10.549 L -1.457,2.207 L -1.267,1.166 L 44.567,9.508 L 44.379,10.549 Z" fill="#d1d3d4"/>
-		<path d=" M -6.983,12.154 L -8.025,6.425 L 37.811,-1.917 L 38.852,3.812 L -6.983,12.154 Z" fill="#e6e7e8"/>
-		<path d=" M -6.888,12.675 L -7.077,11.633 L 38.757,3.291 L 38.947,4.333 L -6.888,12.675 Z" fill="#bcbec0"/>
-		<path d=" M -7.457,9.549 L -7.645,8.507 L 38.19,0.166 L 38.379,1.207 L -7.457,9.549 Z" fill="#d1d3d4"/>
+		<path d="M 43.431,15.758 L -2.404,7.416 L -0.889,-0.917 L 44.947,7.425 Z" fill="#e6e7e8"/>
+		<path d="M 43.81,13.675 L -2.025,5.333 L -1.836,4.291 L 43.999,12.633 Z" fill="#bcbec0"/>
+		<path d="M 44.379,10.549 L -1.457,2.207 L -1.267,1.166 L 44.567,9.508 Z" fill="#d1d3d4"/>
+		<path d=" M -6.983,12.154 L -8.025,6.425 L 37.811,-1.917 L 38.852,3.812 Z" fill="#e6e7e8"/>
+		<path d=" M -6.888,12.675 L -7.077,11.633 L 38.757,3.291 L 38.947,4.333 Z" fill="#bcbec0"/>
+		<path d=" M -7.457,9.549 L -7.645,8.507 L 38.19,0.166 L 38.379,1.207 Z" fill="#d1d3d4"/>
 	</g>
 </svg>
