@@ -1,12 +1,14 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	
-	<rect x="10" y="24" width="16" height="2" rx="1" fill="#664500" />
+	<use id="mouth" href="F.svg#mouth.flat" x="18" y="25" color="#664500"/>
 	
-	<ellipse cx="12" cy="16.5" rx="2.5" ry="2.75" fill="#664500"/>
-	<ellipse cx="24" cy="16.5" rx="2.5" ry="3.5" fill="#664500"/>
+	<ellipse id="eye1" cx="12" cy="16.5" rx="2.5" ry="2.75" fill="#664500"/>
+	<ellipse id="eye2" cx="24" cy="16.5" rx="2.5" ry="3.5" fill="#664500"/>
 	
-	<!-- not sure about these.. -->
-	<path d="M 15.7075,12.511 c -0.1345,-0.094 -3.3475,-2.283 -8.028,-0.7685" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" color="#664500"/>
-	<path d="M 20.2325,7.321 c 0.535,-0.5185 2.199,-1.9215 3.4755,-1.9215 c 1.51,0 4.7285,1.796 6.292,3.758" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" color="#664500"/>
+	<!-- ok i think i kinda figured this one out, it's like, 8,1 so rotated -1.65°. and then the control point is at.. 4.85,1.4 ? yeah..
+	OH WAIT, i just realized: 8²+1²=65 is not the only solution, theres 4²+7²=65 too!! ee -->
+	<use id="eyebrow1" href="F.svg#eyebrow.2" transform="translate(15.707 12.511) rotate(35.2)" color="#664500"/>
+	<!-- not sure about this.. - i think i computed it from the outline but was computed but that was yesterday and i forgot.. -->
+	<path id="eyebrow2" d="M 20.2325,7.321 c 0.535,-0.5185 2.199,-1.9215 3.4755,-1.9215 c 1.51,0 4.7285,1.796 6.292,3.758" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" color="#664500"/>
 </svg>

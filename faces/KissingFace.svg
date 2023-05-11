@@ -1,8 +1,8 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	
-	<use href="F.svg#mouth.kiss" x="18" y="28" color="#664500"/>
+	<use id="mouth" href="F.svg#mouth.kiss" x="18" y="28" color="#664500"/>
 	
-	<ellipse cx="12.5" cy="15.5" rx="2.5" ry="3.5" fill="#664500"/>
-	<ellipse cx="23.5" cy="15.5" rx="2.5" ry="3.5" fill="#664500"/>
+	<ellipse id="eye1" cx="12.5" cy="15.5" rx="2.5" ry="3.5" fill="#664500"/>
+	<ellipse id="eye2" cx="23.5" cy="15.5" rx="2.5" ry="3.5" fill="#664500"/>
 </svg>

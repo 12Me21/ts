@@ -418,7 +418,8 @@
 				continue
 			let box = layer()
 			let svg2 = svg.cloneNode(false)
-			svg2.append(elem.cloneNode(true))
+			elem = elem.cloneNode(true)
+			svg2.append(elem)
 			box.$root.prepend(svg2)
 			
 			box.$root.dataset.kind = elem.nodeName
@@ -478,6 +479,8 @@
 			}
 			$layers.append(box.$root)
 			//▬●⬬ ▭⬭○ ▢ ⬤⬛
+			
+			elem.removeAttribute('id')
 		}
 	}
 	

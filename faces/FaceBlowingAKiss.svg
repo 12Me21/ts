@@ -6,16 +6,15 @@
 	</defs>
 	
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
-	mouth
-	<use href="F.svg#mouth.kiss" x="17.208" y="27.042" color="#664500"/>
-	eyes
-	<ellipse fill="#664500" cx="11.5" cy="15.5" rx="2.5" ry="3.5"/>
-	<use href="F.svg#mouth.smiling1b" transform="translate(24 14.5) rotate(180)" color="#664500"/>
-	eyebrows
-	<use href="F.svg#eyebrow.2" x="13" y="6" color="#664500"/>
-	<use href="F.svg#eyebrow.5" x="21" y="10" color="#664500"/>
-	heart
-	<!--<path d="M 34.202,25.803 c -0.92,1.905 -2.153,3.628 -3.653,5.088 c -1.56,0.675 -3.283,1.003 -4.513,0.873 c -1.552,-1.607 -2.967,-5.392 -2.192,-7.948 c 0.05,-0.222 0.125,-0.444 0.23,-0.659 c 0.739,-1.516 2.57,-2.146 4.087,-1.406 c 0.92,0.448 1.51,1.301 1.67,2.237 c 0.837,-0.451 1.871,-0.509 2.793,-0.06 c 0.799,0.389 1.342,1.085 1.578,1.875 Z" fill="#FFAC33" />-->
+	
+	<use id="mouth" href="F.svg#mouth.kiss" x="17.208" y="27.043" color="#664500"/>
+	
+	<ellipse id="eye1" rx="2.5" ry="3.5" cx="11.5" cy="15.5" fill="#664500"/>
+	<use id="eye2" href="F.svg#mouth.smiling1b" transform="matrix(1 0 0 -1 24 14.5)" color="#664500"/>
+	
+	<use id="eyebrow1" href="F.svg#eyebrow.2" x="13" y="6" color="#664500"/>
+	<use id="eyebrow2" href="F.svg#eyebrow.5" x="21" y="10" color="#664500"/>
+	
 	<g clip-path="url(#circle)"> <!-- produces #FFAC33 -->
 		<use href="F.svg#heart" transform="translate(26.036 31.764) rotate(26) scale(.30966)" fill="#FF6D0056"/>
 	</g>

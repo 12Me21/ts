@@ -1,14 +1,17 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
-	<!-- mouth -->
-	<use href="F.svg#mouth.smirking" x="13" y="27" color="#664500"/>
-	<!-- eyes -->
-	<circle cx="14" cy="18" r="2" fill="#664500"/>
-	<circle cx="26" cy="18" r="2" fill="#664500"/>
-	<!-- eyelids -->
-	<use href="F.svg#eyebrow.12" transform="translate(15 17)" color="#664500"/>
-	<use href="F.svg#eyebrow.12" transform="translate(27 17)" color="#664500"/>
-	<!-- eyebrows -->
-	<use href="F.svg#eyebrow.2" transform="translate(12 11) scale(1 1)" color="#664500"/>
-	<use href="F.svg#eyebrow.2" transform="translate(24 11) scale(-1 1)" color="#664500"/>
+	
+	<use id="mouth" href="F.svg#mouth.smirking" x="13" y="27" color="#664500"/>
+	
+	<g id="eye1">
+		<circle cx="14" cy="18" r="2" fill="#664500"/>
+		<use href="F.svg#eyebrow.12" transform="translate(15 17)" color="#664500"/>
+	</g>
+	<g id="eye2">
+		<circle cx="26" cy="18" r="2" fill="#664500"/>
+		<use href="F.svg#eyebrow.12" transform="translate(27 17)" color="#664500"/>
+	</g>
+	
+	<use id="eyebrow1" href="F.svg#eyebrow.2" transform="translate(12 11)" color="#664500"/>
+	<use id="eyebrow2" href="F.svg#eyebrow.2" transform="matrix(-1 0 0 1 24 11)" color="#664500"/>
 </svg>

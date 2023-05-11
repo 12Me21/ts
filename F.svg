@@ -104,7 +104,7 @@
 	<path
 		id="mouth.smiling1c" stroke-width="1"
 		d="M -4,-2.5 s 1.5,1 4,1 s 4,-1 4,-1 s -1.25,2 -4,2 s -4,-2 -4,-2 Z"
-		stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/>
+		stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor"/> <!-- m not sure this is quite right, it doenst line up as well .. zz -->
 	
 	<path id="mouth.smiling1d" d="M -5,-3 s 1,1 5,1 s 5,-1 5,-1 s -1,2.5 -5,2.5 s -5,-2.5 -5,-2.5 z" stroke-width="1" fill="currentColor" stroke-linejoin="round" stroke="currentColor"/>
 
@@ -151,6 +151,9 @@
 	<path id="eyebrow.1"   d="M 0,0 s 5, 0  8, 3" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	<path id="eyebrow.5"   d="M 0,0 s 5,-1  8, 3" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	<path id="eyebrow.2b"  d="M 0,0 s 4, 0  8, 4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
+	
+	<!-- dont use this -->
+	<path id="eyebrow.6a9" d="M 0,0 a 9,9 0 00 -6,0" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none"/>
 	
 	<g id="eye.shiny">
 		<circle r="5.5" fill="#F5F8FA"/>
@@ -207,7 +210,7 @@
 	-->
 	
 	<!-- the mouth from Sneezing Face might be related to the mouth from Face With Rolling Eyes -->
-	
+	<!-- <path d="M 23.109,23.424 c 1.28,0.308 1.985,0.868 1.985,1.576 s -0.901,0.708 -2.536,0.708 c -2.6,0 -6.952,0 -10.036,2.58 a 0.375,0.375 0 01 -0.575,-0.459 c 2.289,-4.465 8.399,-5.072 11.162,-4.405 Z"  fill="#664500"/> -->
 	
 	<ellipse cx="24.528" cy="14.024" rx="2.096" ry="3.104" fill="#664500" />
 	<ellipse cx="11.553" cy="14.024" rx="2.096" ry="3.104" fill="#664500" /> <!-- nerd face and Disguised Face both use these strange eyes -->
@@ -216,4 +219,15 @@
 	
 	
 	<rect x="13" y="28" width="10" height="2" rx="1" fill="#664500" /> Flushed etc.
+	
+	saluting face
+	<path id="mouth" d="M 15,27.75 s 2,0.5 6,0.5 s 6,-.5 6,-.5" stroke-width="2" stroke-linecap="round" fill="none" stroke="currentColor" color="#664500"/>
+	
+	expressionless mouth
+	<rect id="mouth.flat" width="16" height="2" rx="1" x="-8" y="-1" fill="currentColor"/>
+	
+	unamused, expressionless
+	<rect x="7" y="15" width="9" height="2" rx="1" fill="#664500"/>
+	
+
 </svg>

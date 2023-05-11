@@ -1,13 +1,17 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	
-	<use href="F.svg#mouth.smiling3" transform="matrix(1 0 0 -1 18 23.5)" color="#664500"/>
+	<use id="mouth" href="F.svg#mouth.smiling3" transform="matrix(1 0 0 -1 18 23.5)" color="#664500"/>
 	
-	<circle cx="14.5" cy="16.5" r="1.5" fill="#664500"/>
-	<circle cx="27.5" cy="16.5" r="1.5" fill="#664500"/>
-	<rect x="7" y="15" width="9" height="2" rx="1" fill="#664500"/>
-	<rect x="20" y="15" width="9" height="2" rx="1" fill="#664500"/>
+	<g id="eye1">
+		<circle cx="14.5" cy="16.5" r="1.5" fill="#664500"/>
+		<rect x="7" y="15" width="9" height="2" rx="1" fill="#664500"/>
+	</g>
+	<g id="eye2">
+		<circle cx="27.5" cy="16.5" r="1.5" fill="#664500"/>
+		<rect x="20" y="15" width="9" height="2" rx="1" fill="#664500"/>
+	</g>
 	
-	<use href="F.svg#eyebrow.7" transform="translate(15 12)" color="#664500"/>
-	<use href="F.svg#eyebrow.7" transform="matrix(-1 0 0 1 21 12)" color="#664500"/>
+	<use id="eyebrow1" href="F.svg#eyebrow.7" transform="translate(15 12)" color="#664500"/>
+	<use id="eyebrow2" href="F.svg#eyebrow.7" transform="matrix(-1 0 0 1 21 12)" color="#664500"/>
 </svg>
