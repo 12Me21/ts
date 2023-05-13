@@ -1,8 +1,8 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	
-	<use href="F.svg#mouth.smiling1b" y="3" transform="translate(10.996 18.541) rotate(-193.83)" color="#664500"/>
-	<use href="F.svg#mouth.smiling1b" y="3" transform="translate(25.004 18.541) rotate(193.83)" color="#664500"/> <!-- i set y=3 to position the origin (i.e. the rotation pivot point) at the bottom edge instead of the top -->
+	<use id="mouth" href="F.svg#mouth.smiling1" transform="matrix(1 0 0 -1 18 24.5)" color="#664500"/>
 	
-	<use href="F.svg#mouth.smiling1" transform="translate(18 24.5) rotate(180)" color="#664500"/>
+	<use id="eye1" href="F.svg#mouth.smiling1b" y="3" transform="matrix(1 0 0 -1 10.996 18.541) rotate(13.83)" color="#664500"/>
+	<use id="eye2" href="F.svg#mouth.smiling1b" y="3" transform="matrix(1 0 0 -1 25.004 18.541) rotate(-13.83)" color="#664500"/> <!-- i set y=3 to position the origin (i.e. the rotation pivot point) at the bottom edge instead of the top -->
 </svg>

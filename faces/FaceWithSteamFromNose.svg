@@ -1,14 +1,14 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	
-	<use href="F.svg#eyebrow.11" transform="translate(8 16) scale(1 -1)" color="#664500"/>
-	<use href="F.svg#eyebrow.11" transform="translate(28 16) scale(-1 -1)" color="#664500"/>
+	<use id="mouth" href="F.svg#mouth.smiling5" transform="matrix(1 0 0 -1 18 22)" color="#664500"/>
 	
-	<use href="F.svg#eyebrow.8b" transform="translate(16 12) scale(1 1)" color="#664500"/>
-	<use href="F.svg#eyebrow.8b" transform="translate(20 12) scale(-1 1)" color="#664500"/>
+	<use id="eye1" href="F.svg#eyebrow.11" transform="matrix(1 0 0 -1 8 16)" color="#664500"/>
+	<use id="eye2" href="F.svg#eyebrow.11" transform="matrix(-1 0 0 -1 28 16)" color="#664500"/>
 	
-	<path d="M -8,4 s 3,-4 8,-4 s 8,4 8,4" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" transform="translate(18 22)" color="#664500"/>
-
+	<use id="eyebrow1" href="F.svg#eyebrow.8b" transform="translate(16 12)" color="#664500"/>
+	<use id="eyebrow2" href="F.svg#eyebrow.8b" transform="matrix(-1 0 0 1 20 12)" color="#664500"/>
+	
 	<use href="F.svg#nose_steam" transform="translate(15 21)"/>
-	<use href="F.svg#nose_steam" transform="translate(21 21) scale(-1 1)"/>
+	<use href="F.svg#nose_steam" transform="matrix(-1 0 0 1 21 21)"/>
 </svg>

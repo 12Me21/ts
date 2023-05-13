@@ -7,12 +7,13 @@
 	
 	<path id="head" clip-path="url(#circle)" d="M 1.338 11.178 L 11.278 1.297 L 18,-3 L 23.158 0.75 L 35.627 14.338 L 38,18 V 38 H -2 V 15 Z" fill="#FFCC4D"/>
 	
-	<path id="mouth" d="M 13,28 s 1,-4 5,-4 s 5,4 5,4 s -1,-1 -5,-1 s -5,1 -5,1 Z" fill="#664500"/>
+	<use id="mouth" href="F.svg#mouth.smiling1f" transform="matrix(1 0 0 -1 18 24)" color="#664500"/>
 	
 	<use id="eye1" href="F.svg#mouth.smiling1b" transform="matrix(1 0 0 -1 11.5 14.5)" color="#664500"/>
 	<use id="eye2" href="F.svg#mouth.smiling1b" transform="matrix(1 0 0 -1 24.5 14.5)" color="#664500"/>
 	
 	<g clip-path="url(#circle)">
+		<!-- 11:2 slope -->
 		<path d="M 43.431,15.758 L -2.404,7.416 L -0.889,-0.917 L 44.947,7.425 Z" fill="#e6e7e8"/>
 		<path d="M 43.81,13.675 L -2.025,5.333 L -1.836,4.291 L 43.999,12.633 Z" fill="#bcbec0"/>
 		<path d="M 44.379,10.549 L -1.457,2.207 L -1.267,1.166 L 44.567,9.508 Z" fill="#d1d3d4"/>

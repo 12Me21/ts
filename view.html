@@ -418,22 +418,37 @@
 				continue
 			let box = layer()
 			let svg2 = svg.cloneNode(false)
-			elem = elem.cloneNode(true)
-			svg2.append(elem)
+			let elem2 = elem.cloneNode(true)
+			svg2.append(elem2)
 			box.$root.prepend(svg2)
 			
-			box.$root.dataset.kind = elem.nodeName
+			box.$root.dataset.kind = elem2.nodeName
 			
 			let sym 
-			if (elem.nodeName=="use") {
-				sym = (elem.hasAttribute('transform') ? "t*" : "*") + " " + elem.getAttribute('href').split("#")[1] + ""
-				
+			if (elem2.nodeName=="use") {
+				sym = "*" + " " + elem2.getAttribute('href').split("#")[1] + ""
 			} else {
-				sym = "<"+elem.nodeName+">"
-				if (elem instanceof SVGPathElement)
-					sym += " ("+elem.getAttribute('d').length+")"
+				sym = "<"+elem2.nodeName+">"
+				if (elem2 instanceof SVGPathElement)
+					sym += " ("+elem2.getAttribute('d').length+")"
 			}
-			let id = elem.id || elem.parentNode?.id
+			let tf = elem2.transform?.baseVal
+			if (tf)
+				for (let {type, matrix} of tf) {
+					// only indicate 'strange' matricies (i.e. not ones that just flip or translate)
+					if (matrix.b || matrix.c || Math.abs(matrix.a)!=1 || Math.abs(matrix.d)!=1) {
+						if (type==SVGTransform.SVG_TRANSFORM_ROTATE)
+							sym = "r" + sym
+						if (type==SVGTransform.SVG_TRANSFORM_SCALE)
+							sym = "s" + sym
+						else
+							sym = "t" + sym
+					} else if (matrix.a==-1 || matrix.d==-1) {
+						sym = "f" + sym
+					}
+				}
+			
+			let id = elem2.id || elem2.parentNode?.id
 			if (id) {
 				id = {
 					eye1: "👁",
@@ -449,23 +464,23 @@
 			
 			box.$row1.append(sym)
 			
-			let g = elem.getAttribute('ts:gender')
+			let g = elem2.getAttribute('ts:gender')
 			if (g) {
 				g = g.split(/[, ]/)
 				box.$variants.append(" "+g.map(x=>({neutral:'X',male:'M',female:'F',mixed:'2'}[x])).join(""))
 			} else
 				box.$root.dataset.shared = ""
-
 			
-			let skin = elem.getAttribute('ts:skin')
+			
+			let skin = elem2.getAttribute('ts:skin')
 			if (skin) {
 				box.$row2.append("🎨︎ "+skin+"")
 			} else {
-				let col = elem.getAttribute('color')
+				let col = elem2.getAttribute('color')
 				if (!col)
-					col = elem.getAttribute('fill')
+					col = elem2.getAttribute('fill')
 				if (!col || col=="none")
-					 col = elem.getAttribute('stroke')
+					 col = elem2.getAttribute('stroke')
 				let cs = document.createElement('div')
 				cs.classList.add('color-square')
 				cs.style.color = col
@@ -477,10 +492,12 @@
 			box.$root.onpointerleave = ev=>{
 				elem.style.filter = ''
 			}
+			box.$root.title = elem.outerHTML
+			
 			$layers.append(box.$root)
 			//▬●⬬ ▭⬭○ ▢ ⬤⬛
 			
-			elem.removeAttribute('id')
+			elem2.removeAttribute('id')
 		}
 	}
 	

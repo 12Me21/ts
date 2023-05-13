@@ -1,13 +1,14 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	
-	<use href="F.svg#eyebrow.3" transform="translate(7 9)" color="#664500"/>
-	<use href="F.svg#eyebrow.3b" transform="translate(29 9) scale(-1 1)" color="#664500"/>
+	<g id="mouth" transform="translate(18 21.5)">
+		<use href="F.svg#mouth.grinning4" color="#664500"/>
+		<path d="M -6,3.5 s 2,-2 6,-2 s 6,2 6,2 h-12 Z" fill="#CCD6DD"/> <!-- color ? -->
+	</g>
 	
-	<use href="F.svg#eye.squinting" transform=" translate(7 12)" color="#664500"/>
-	<use href="F.svg#eye.squinting" transform=" translate(29 12) scale(-1 1)" color="#664500"/>
+	<use id="eye1" href="F.svg#eye.squinting" transform="translate(7 12)" color="#664500"/>
+	<use id="eye2" href="F.svg#eye.squinting" transform="matrix(-1 0 0 1 29 12)" color="#664500"/>
 	
-	<!--<path d="M 18,21.5 c 9.333,0 10.485,8.354 10.496,8.437 c 0.023,0.182 -0.056,0.361 -0.203,0.468 c -0.149,0.107 -0.346,0.124 -0.507,0.047 c -0.041,-0.019 -4.191,-1.952 -9.786,-1.952 c -3.874,0 -9.783,1.955 -9.842,1.975 c -0.052,0.016 -0.105,0.025 -0.158,0.025 c -0.114,0 -0.227,-0.039 -0.317,-0.113 c -0.133,-0.109 -0.2,-0.278 -0.179,-0.449 c 0.011,-0.084 1.163,-8.438 10.496,-8.438 Z" fill="#664500" />-->
-	<use href="F.svg#mouth.grinning4" transform="translate(18 21.5)" color="#664500"/>
-	<path d="M 18,23 c 4,0 6,2 6,2 h-12 s 2,-2 6,-2 Z" fill="#CC96DD" /> <!-- color ? -->
+	<use id="eyebrow1" href="F.svg#eyebrow.3" transform="translate(7 9)" color="#664500"/>
+	<use id="eyebrow2" href="F.svg#eyebrow.3b" transform="matrix(-1 0 0 1 29 9)" color="#664500"/>
 </svg>

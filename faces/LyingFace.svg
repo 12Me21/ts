@@ -1,11 +1,13 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-	<!-- scaled ? but the positions don't line up. so it's like everything was scaled and then repositioned at the new scale... -->
-	<circle cx="16" cy="18" r="16" fill="#FFCC4D"/>
+	<!-- scaled ? but the positions don't line up. ugh -->
+	<circle r="16" cx="16" cy="18" fill="#FFCC4D"/>
 	
-	<path d="M 0,0 c 2,-5 13,-5 13,-3 c 0,1 -8,-1 -13,3" transform="translate(10.118 29.382) scale(0.8824)" fill="#664500"/>
-	
-	<ellipse rx="2.5" ry="3.5" transform="translate(9.265 13.529) scale(0.8824)" fill="#664500" />
-	<ellipse rx="2.5" ry="3.5" transform="translate(20.794 13.529) scale(0.8824)" fill="#664500" />
-	
-	<rect width="23.497" height="6.8" rx="3.1" ry="3.4" transform="translate(14.266 17.5) scale(0.8824)" fill="#F4900C" />
+	<g transform="translate(0 2) scale(0.8824) translate(0.067 0.066)">
+		<use id="mouth" href="F.svg#mouth.confused" transform="translate(24.4 27.966)" color="#664500"/>
+		
+		<ellipse rx="2.5" ry="3.5" transform="translate(10.433 13)" fill="#664500"/>
+		<ellipse rx="2.5" ry="3.5" transform="translate(23.499 13)" fill="#664500"/>
+		
+		<rect width="23.498" height="6.8" rx="3.098" ry="3.4" transform="translate(16.101 17.5)" fill="#F4900C" />
+	</g>
 </svg>

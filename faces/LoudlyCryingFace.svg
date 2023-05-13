@@ -1,16 +1,23 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/> <!-- this one should maybe be reverted back to a smaller circle .. -->
+	
+	<g id="mouth"> <!-- made from edited ellipses -->
+		<path d="M 18,30 c -2.209,0 -4,-0.239 -4,-3 s 1.791,-6 4,-6 s 4,3.239 4,6 s -1.791,3 -4,3 Z" fill="#664500" />
+		<path d="M 18,29 c -1.657,0 -3,-0.343 -3,-2 s 1.343,-2 3,-2 s 3,0.343 3,2 s -1.343,2 -3,2 Z" fill="#E75A70"/>
+	</g>
+	
 	<!-- eyebrows -->
-	<use href="F.svg#eyebrow.6" transform="translate(13 9)" color="#664500"/>
-	<use href="F.svg#eyebrow.6" transform="translate(23 9) scale(-1 1)" color="#664500"/>
-	<!-- mouth -->
-	<path d="M 18,30 c -2.209,0 -4,-0.239 -4,-3 s 1.791,-6 4,-6 s 4,3.239 4,6 s -1.791,3 -4,3 Z" fill="#664500" />
-	<path d="M 18,29 c -1.657,0 -3,-0.343 -3,-2 s 1.343,-2 3,-2 s 3,0.343 3,2 s -1.343,2 -3,2 Z" fill="#E75A70"/>
+	<use id="eyebrow1" href="F.svg#eyebrow.6" transform="translate(13 9)" color="#664500"/>
+	<use id="eyebrow2" href="F.svg#eyebrow.6" transform="translate(23 9) scale(-1 1)" color="#664500"/>
+
 	<!-- tears -->
-	<rect x="8" y="16" width="4" height="19" fill="#5DADEC"/>
-	<rect x="24" y="16" width="4" height="19" fill="#5DADEC"/>
-	<ellipse cx="18" cy="34" rx="18" ry="2" fill="#5DADEC"/>
+	<g>
+		<rect x="8" y="16" width="4" height="19" fill="#5DADEC"/>
+		<rect x="24" y="16" width="4" height="19" fill="#5DADEC"/>
+		<ellipse cx="18" cy="34" rx="18" ry="2" fill="#5DADEC"/>
+	</g>
+	
 	<!-- eyes -->
-	<use href="F.svg#eye.closed" transform="translate(7 17)" color="#664500"/>
-	<use href="F.svg#eye.closed" transform="translate(21 17)" color="#664500"/> <!-- not mirrored -->
+	<use id="eye1" href="F.svg#eye.closed" transform="translate(7 17)" color="#664500"/>
+	<use id="eye2" href="F.svg#eye.closed" transform="translate(21 17)" color="#664500"/> <!-- not mirrored -->
 </svg>

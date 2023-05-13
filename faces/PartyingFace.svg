@@ -6,7 +6,7 @@
 	<path d="M 24.5525,21.1645 c -0.955,0.582 -1.5995,1.8665 -1.624,3.2415 c -0.024,1.3165 0.507,2.4305 1.455,3.056" stroke-width="1.499" stroke-linecap="round" stroke="currentColor" fill="none" color="#E2A62D"/> <!-- COMPUTED -->
 	<!-- mouth -->
 	<ellipse id="mouth" cx="18" cy="26" rx="2" ry="2.5" fill="#664500"/>
-	<!-- eyes -->
+	<!-- eyes (rotated as a pair, since they're aligned)-->
 	<use id="eye1" href="F.svg#eyebrow.10" transform="translate(8.1125 20.383) rotate(-12.8) scale(1 1)" color="#664500"/>
 	<use id="eye2" href="F.svg#eyebrow.10" transform="translate(27.133 16.068) rotate(-12.8) scale(-1 1)" color="#664500"/>
 	<!-- hat -->

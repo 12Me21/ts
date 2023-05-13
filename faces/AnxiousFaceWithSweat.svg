@@ -1,11 +1,12 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+	<!-- Similar to FearfulFace, with different eyebrows and sweat drop -->
 	<use href="F.svg#bg.sweating" color="#FFCC4D"/>
 	
 	<use id="mouth" href="F.svg#mouth.smiling1" transform="matrix(1 0 0 -1 18 23.5)" color="#664500"/>
 	
 	<use href="F.svg#eyes.normal13" y="16.5" color="#664500"/>
 	
-	<use id="eyebrow1" href="F.svg#eyebrow.3" x="6" y="11" color="#664500"/>
+	<use id="eyebrow1" href="F.svg#eyebrow.3" transform="translate(6, 11)" color="#664500"/>
 	<use id="eyebrow2" href="F.svg#eyebrow.3b" transform="matrix(-1 0 0 1 30 11)" color="#664500"/>
 	
 	<use href="F.svg#water_drop" x="5" y="20"/>

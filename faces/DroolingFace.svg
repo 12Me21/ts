@@ -1,13 +1,13 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
-	<!-- eyes -->
-	<use href="F.svg#mouth.smiling1b" transform="matrix(1 0 0 -1 11.5 14)" color="#664500"/>
-	<use href="F.svg#mouth.smiling1b" transform="matrix(1 0 0 -1 24.5 14)" color="#664500"/>
-	<!-- eyebrows -->
-	<use href="F.svg#eyebrow.2" transform="translate(13.078 7) rotate(2.2)" color="#664500"/>
-	<use href="F.svg#eyebrow.2" transform="matrix(-1 0 0 1 22.692 8.658) rotate(10.3)" color="#664500"/>
-	<!-- mouth -->
-	<path d="M 22.5,25 c 0.825,0 1.5,0.175 1.5,1 s -1.175,2 -2,2 h -4 c -5.6,0 -7,-4 -7,-4 s 1.4,1 7,1 h 4.5 Z" fill="#664500" />
+	
+	<use id="eye1" href="F.svg#mouth.smiling1b" transform="matrix(1 0 0 -1 11.5 14)" color="#664500"/>
+	<use id="eye2" href="F.svg#mouth.smiling1b" transform="matrix(1 0 0 -1 24.5 14)" color="#664500"/>
+	
+	<use id="eyebrow1" href="F.svg#eyebrow.2" transform="translate(13.078 7) rotate(2.2)" color="#664500"/>
+	<use id="eyebrow2" href="F.svg#eyebrow.2" transform="matrix(-1 0 0 1 22.692 8.658) rotate(10.3)" color="#664500"/>
+	
+	<path id="mouth" d="M 22.5,25 c 0.825,0 1.5,0.175 1.5,1 s -1.175,2 -2,2 h -4 c -5.6,0 -7,-4 -7,-4 s 1.4,1 7,1 h 4.5 Z" fill="#664500" />
 	<!-- drool -->
 	<path d="M 23,26 a 1,1 0 01 1,1 v7.5 a 1.5,1.5 0 01 -3,0 v-3.5 a 1,1 0 01 -2,0 v-4 a 1,1 0 01 1,-1 h3 Z" fill="#88C9F9" />
 </svg>

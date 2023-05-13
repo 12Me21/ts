@@ -1,13 +1,12 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#50A5E6"/>
-	<!-- eyes -->
-	<use href="F.svg#eyes.normal12" x="-0.015" y="15.188" color="#1C6399"/>	
-	<!-- eyebrows -->
-	<use href="F.svg#eyebrow.4" transform="translate(5.984 10.375)" color="#1C6399"/>
-	<use href="F.svg#eyebrow.4" transform="matrix(-1 0 0 1 29.989 10.375)" color="#1C6399"/>
 	
-	<!-- mouth -->
-	<use href="F.svg#mouth.grimacing" x="17.985" y="30.812" color="#1C6399"/>
+	<use id="mouth" href="F.svg#mouth.grimacing" x="17.985" y="30.82" color="#1C6399"/>
+	
+	<use href="F.svg#eyes.normal12" x="-0.015" y="15.188" color="#1C6399"/>	
+	
+	<use id="eyebrow1" href="F.svg#eyebrow.2" transform="matrix(-1 0 0 -1 5.986 10.375)" color="#1C6399"/>
+	<use id="eyebrow2" href="F.svg#eyebrow.2" transform="matrix(1 0 0 -1 29.986 10.375)" color="#1C6399"/>
 	
 	<!-- icicles -->
 	<path d="M 35.756,15.188 c 0,0.001 0.52,2.895 0.042,5.792 c -0.08,0.485 -0.379,2.472 -0.479,2.979 c -0.098,0.499 -0.637,2.576 -0.734,3.067 c -0.102,0.515 -0.373,3.692 -0.465,4.156 c -0.111,0.562 -0.133,0.92 -0.218,1.349 c -0.183,0.928 -0.19,2.053 -0.599,2.053 c -0.408,0 -0.648,-0.669 -0.832,-1.598 c -0.085,-0.43 -0.189,-0.835 -0.3,-1.398 c -0.092,-0.467 -0.228,-2.341 -0.333,-2.873 c -0.095,-0.483 -0.502,-2.082 -0.602,-2.589 c -0.099,-0.5 -0.417,-2.417 -0.497,-4.392 c -0.023,-0.572 -0.196,-2.697 1.265,-3.152 c 3.706,-1.154 3.752,-3.839 3.752,-3.394 Z" fill="#BDDDF4" />
