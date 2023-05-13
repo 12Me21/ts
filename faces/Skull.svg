@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<g id="head">
+		<rect x="8" y="26" width="6" height="10" rx="3" fill="#CCD6DD"/>
+		<rect x="15" y="26" width="6" height="10" rx="3" fill="#CCD6DD"/>
+		<rect x="22" y="26" width="6" height="10" rx="3" fill="#CCD6DD"/>
+		<path d="M 2,16 c 0,-10 7.164,-16 16,-16 s 16,6 16,16 c 0,7.732 0,14 -16,14 s -16,-6.268 -16,-14 z" fill="#CCD6DD"/> <!-- derived from a 16×14 ellipse -->
+	</g>
+		
+	<path id="eye1" d="M 16,14 c 0,2.761 0,5 -5,5 s -5,-2.239 -5,-5 a 5,5 0 01 10,0" fill="#292F33"/>
+	<path id="eye2" d="M 30,14 c 0,2.761 0,5 -5,5 s -5,-2.239 -5,-5 a 5,5 0 01 10,0 Z" fill="#292F33"/>
+	
+	<!-- nose -->
+	<g transform="translate(18 23.5)">
+		<circle r="1.5" cx="-1.5" cy="1" fill="#292F33"/>
+		<ellipse rx="2" ry="1.5" fill="#292F33"/>
+		<circle r="1.5" cx="1.5" cy="1" fill="#292F33"/>
+	</g>
+</svg>
