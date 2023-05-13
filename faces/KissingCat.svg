@@ -1,14 +1,14 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.cat"/>
 	
-	<use href="F.svg#mouth.kiss" x="19" y="30" />
+	<use id="mouth" href="F.svg#mouth.kiss" x="19" y="30" color="#292F33"/>
 	
 	<!-- same eyes + eyebrows as grinning cat with smiling eyes, and cat with tears of joy -->
-	<use href="F.svg#eyebrow.2" transform="translate(12 11) scale(1 1)" color="#292F33"/>
-	<use href="F.svg#eyebrow.2" transform="translate(24 11) scale(-1 1)" color="#292F33"/>
+	<use id="eye1" href="F.svg#mouth.smiling1c" transform="matrix(1 0 0 -1 12 15.5)" color="#292F33"/>
+	<use id="eye2" href="F.svg#mouth.smiling1c" transform="matrix(1 0 0 -1 24 15.5)" color="#292F33"/>
 	
-	<use href="F.svg#mouth.smiling1c" transform="translate(12 15.5) scale(1 -1)" color="#292F33"/>
-	<use href="F.svg#mouth.smiling1c" transform="translate(24 15.5) scale(1 -1)" color="#292F33"/>
+	<use id="eyebrow1" href="F.svg#eyebrow.2" transform="matrix(1 0 0 1 12 11)" color="#292F33"/>
+	<use id="eyebrow2" href="F.svg#eyebrow.2" transform="matrix(-1 0 0 1 24 11)" color="#292F33"/>
 	
 	<use href="F.svg#nose.cat"/>
 </svg>

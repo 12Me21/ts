@@ -1,7 +1,10 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.cat"/>
-	<use href="F.svg#mouth.cat_grin"/>
+	
+	<use id="mouth" href="F.svg#mouth.cat_grin"/>
+	
+	<use id="eye1" href="F.svg#heart" transform="translate(11.741 17.836) rotate(-19.45) scale(.4731)" fill="#DD2E44"/>
+	<use id="eye2" href="F.svg#heart" transform="translate(24.259 17.836) rotate(19.45) scale(.4731)" fill="#DD2E44"/>
+	
 	<use href="F.svg#nose.cat"/>
-	<use href="F.svg#heart" transform="translate(11.741 17.836) rotate(-19.45) scale(.4731)" fill="#DD2E44"/>
-	<use href="F.svg#heart" transform="translate(24.259 17.836) rotate(19.45) scale(.4731)" fill="#DD2E44"/>
 </svg>

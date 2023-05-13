@@ -1,14 +1,38 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-	<g id="head">
-		<path d="M 0,18 l 18,-16 l 18,16 h-2.439 c -4.273,0 -6.668,8.48 -6.091,15.287 a 18,18 0 01 -18.938,0.001 c 0.574,-6.782 -1.822,-15.288 -6.092,-15.288 h-2.44 Z" fill="#FFCC4D"/> <!-- simplified, maybe too much -->
-		<path d="M 0,18 a 18,18 0 01 36,0 c 0,1.192 -0.122,2.356 -0.343,3.484 l 0.095,-2.301 c -0.262,-0.661 -0.822,-1.049 -1.772,-1.143 c -2.992,-4.179 -9.016,-7.04 -15.98,-7.04 c -6.963,0 -12.988,2.862 -15.98,7.041 c -0.946,0.094 -1.504,0.483 -1.768,1.142 l 0.092,2.301 c -0.221,-1.128 -0.344,-2.292 -0.344,-3.484 Z" fill="#BDDDF4"/> <!-- based on bg.sweat -->
+	<defs>
+		<clipPath id="clip2">
+			<path d="M 0.251,19.183 V 20 H 0 V 0 H 36 V 20 H 35.753 L 35.753,19.183 C 35.452,18.426 34.794,18 33.561,18 C 29.288,18 26.893,26.48 27.47,33.287 V 36 H 8.533 L 8.533,33.288 C 9.106,26.507 6.71,18 2.44,18 C 1.211,18 0.554,18.426 0.251,19.183 Z"/>
+		</clipPath>
+	</defs>
+	
+	<g id="head" clip-path="url(#clip2)">
+		<use href="F.svg#bg.sweating" color="#FFCC4D"/>
 	</g>
 	
 	<rect id="mouth" width="10" height="16" rx="5" x="13" y="18" fill="#664500"/>
 	
-	<!-- eyes -->
+	<ellipse id="eye1" rx="4.242" ry="6" transform="translate(11.413 13.122) rotate(16.6)" fill="#F5F8FA"/>
+	<ellipse id="eye2" rx="4.242" ry="6" transform="translate(24.5865 13.122) rotate(-16.6)" fill="#F5F8FA"/>
+	
+	<!-- i really wish i knew what shape these were originally, before being clipped.. -->
+	<path d="M 1.4043,19 c 4.639,0 7.063,10.04 5.875,17 h-6.461 c 2.03,-7.46 -2.148,-15.002 -0.286,-17.294 c -0.114,0.141 -0.209,0.298 -0.281,0.477 c 0.313,-0.117 0.689,-0.183 1.153,-0.183 Z" fill="#FCAB40"/>
+	<path d="M 35.7529,19.1826 c 1.086,2.729 -2.476,9.772 -0.57,16.817 h-6.46 c -1.193,-6.998 1.232,-17 5.873,-17 c 0.467,0 0.844,0.067 1.157,0.183 Z" fill="#FCAB40"/>
+	<!--<use href="F.svg#hands_scream" color="#FCAB40"/>-->
+</svg>
+
+<!--
+my simplified version, without clip paths
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+	<g id="head">
+		<path d="M 0,18 l 18,-16 l 18,16 h-2.439 c -4.273,0 -6.668,8.48 -6.091,15.287 a 18,18 0 01 -18.938,0.001 c 0.574,-6.782 -1.822,-15.288 -6.092,-15.288 h-2.44 Z" fill="#FFCC4D"/> simplified, maybe too much
+		<path d="M 0,18 a 18,18 0 01 36,0 c 0,1.192 -0.122,2.356 -0.343,3.484 l 0.095,-2.301 c -0.262,-0.661 -0.822,-1.049 -1.772,-1.143 c -2.992,-4.179 -9.016,-7.04 -15.98,-7.04 c -6.963,0 -12.988,2.862 -15.98,7.041 c -0.946,0.094 -1.504,0.483 -1.768,1.142 l 0.092,2.301 c -0.221,-1.128 -0.344,-2.292 -0.344,-3.484 Z" fill="#BDDDF4"/> based on bg.sweating
+	</g>
+	
+	<rect id="mouth" width="10" height="16" rx="5" x="13" y="18" fill="#664500"/>
+	
 	<ellipse id="eye1" rx="4.242" ry="6" transform="translate(11.413 13.122) rotate(16.6)" fill="#F5F8FA"/>
 	<ellipse id="eye2" rx="4.242" ry="6" transform="translate(24.5865 13.122) rotate(-16.6)" fill="#F5F8FA"/>
 	
 	<use href="F.svg#hands_scream" color="#FCAB40"/>
 </svg>
+-->
