@@ -1,13 +1,13 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.cat"/>
 	
-	<use href="F.svg#eyebrow.2b" transform="translate(6.5245 10.0905) rotate(-15) scale(0.911 1)" color="#292F33"/>
-	<use href="F.svg#eyebrow.2b" transform="translate(29.474 10.0885) scale(-1 1) rotate(-15) scale(0.911 1)" color="#292F33"/>
+	<use id="mouth" href="F.svg#mouth.smiling2c" transform="matrix(1 0 0 -1 18 26) scale(1 0.8335)" color="#292F33"/> <!-- 4 → 3.333 - bad, should just make a new mouth with the desired size -->
 	
-	<ellipse cx="12" cy="14.5" rx="2" ry="3.5" fill="#292F33"/>
-	<ellipse cx="24" cy="14.5" rx="2" ry="3.5" fill="#292F33"/>
+	<ellipse id="eye1" cx="12" cy="14.5" rx="2" ry="3.5" fill="#292F33"/>
+	<ellipse id="eye2" cx="24" cy="14.5" rx="2" ry="3.5" fill="#292F33"/>
 	
-	<use href="F.svg#mouth.smiling2c" transform="translate(18 26) scale(1 -.8335)" color="#292F33"/> <!-- 4 → 3.333 - bad, should just make a new mouth with the desired size -->
+	<use id="eyebrow1" href="F.svg#eyebrow.2b" transform="translate(6.5245 10.0905) rotate(-15) scale(0.911 1)" color="#292F33"/>
+	<use id="eyebrow2" href="F.svg#eyebrow.2b" transform="matrix(-1 0 0 1 29.474 10.0885) rotate(-15) scale(0.911 1)" color="#292F33"/>
 
 	<use href="F.svg#nose.cat"/>
 </svg>

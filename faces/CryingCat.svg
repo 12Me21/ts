@@ -1,15 +1,15 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.cat"/>
 	
-	<use href="F.svg#eyebrow.2" transform="translate(12 9) scale(1 1)" color="#292F33"/>
-	<use href="F.svg#eyebrow.2" transform="translate(24 9) scale(-1 1)" color="#292F33"/>
+	<use id="mouth" href="F.svg#mouth.smiling2c" transform="matrix(1 0 0 -1 18 25.5)" color="#292F33"/>
 	
-	<ellipse cx="12" cy="14.5" rx="2" ry="3.5" fill="#292F33"/>
-	<ellipse cx="24" cy="14.5" rx="2" ry="3.5" fill="#292F33"/>
+	<ellipse id="eye1" rx="2" ry="3.5" cx="12" cy="14.5" fill="#292F33"/>
+	<ellipse id="eye2" rx="2" ry="3.5" cx="24" cy="14.5" fill="#292F33"/>
 	
-	<use href="F.svg#mouth.smiling2c" transform="translate(18 25.5) scale(1 -1)" color="#292F33"/>
+	<use id="eyebrow1" href="F.svg#eyebrow.2" transform="translate(12 9)" color="#292F33"/>
+	<use id="eyebrow2" href="F.svg#eyebrow.2" transform="matrix(-1 0 0 1 24 9)" color="#292F33"/>
 	
 	<use href="F.svg#nose.cat"/>
 	
-	<path d="M 15,31 c 0,2.762 -2.239,5 -5,5 s -5,-2.238 -5,-5 s 4,-13 5,-13 s 5,10.238 5,13 Z" fill="#5DADEC" /> <!-- longer than default tear -->
+	<path d="M 15,31 a 5,5 0 01 -10,0 c 0,-2.762 4,-13 5,-13 s 5,10.238 5,13 Z" fill="#5DADEC"/> <!-- longer than default tear -->
 </svg>
