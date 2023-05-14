@@ -194,10 +194,10 @@
 	
 	<g id="eye.shiny">
 		<circle r="5.5" fill="#F5F8FA"/>
-		<circle cy="-0.5" r="5" fill="#292F33"/>
+		<circle r="5" cy="-0.5" fill="#292F33"/>
 		<g transform="rotate(45)">
-			<ellipse cx="-2.667" cy="-0.353" rx="2.0825" ry="2.6745" fill="#F5F8FA"/>
-			<ellipse cx="2.837" cy="-0.666" rx="0.9145" ry="1.175" fill="#F5F8FA"/>
+			<ellipse cx="-2.667" cy="-0.353" rx="2.0825" ry="2.6745" fill="#FFF"/>
+			<ellipse cx="2.837" cy="-0.666" rx="0.9145" ry="1.175" fill="#FFF"/>
 		</g>
 	</g>
 	

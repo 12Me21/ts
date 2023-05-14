@@ -1,4 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<!-- similar to FaceHoldingBackTears -->
+	<use href="F.svg#bg.normal" color="#FFCC4D"/>
+	
+	<path id="mouth" d="M 15,27.5 a 9.5,9.5 0 01 6,0" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" color="#664500"/>
+	
+	<use id="eye1" href="F.svg#eye.shiny" transform="translate(11.5 17.5)"/>
+	<use id="eye2" href="F.svg#eye.shiny" transform="translate(24.5 17.5)"/>
+	
+	<use id="eyebrow1" href="F.svg#eyebrow.13" transform="translate(8 10)" color="#664500"/>
+	<use id="eyebrow2" href="F.svg#eyebrow.13" transform="matrix(-1 0 0 1 28 10)" color="#664500"/>
+	
+</svg>
+
+<!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<defs>
 		<clipPath id="eyes">
 			<circle r="6" cx="11" cy="15"/>
@@ -12,24 +26,25 @@
 		<path id="mouth" d="M 3,0 s -3,-1.5 -6,0" stroke-width="2" stroke-linecap="round" fill="none" stroke="currentColor"/>
 		<path id="eyebrow" d="M -2,1 s 2,0  4,-2" stroke-width="2" stroke-linecap="round" fill="none" stroke="currentColor"/>
 	</defs>
-	<!-- head -->
+	<!- head ->
 	<circle cx="18" cy="18" r="18" fill="#FFCC4D"/>
 	<g transform="translate(0 2)">
-		<!-- mouth -->
+		<!- mouth ->
 		<use href="#mouth" x="18" y="26" color="#664500"/>
-		<!-- eyes -->
+		<!- eyes ->
 		<circle r="6" cx="11" cy="15" fill="#F5F8FA"/>
 		<circle r="6" cx="25" cy="15" fill="#F5F8FA"/>
-		<!-- pupils -->
+		<!- pupils ->
 		<g clip-path="url(#eyes)">
 			<use href="#pupil" x="11.25" y="14.25" color="#664500"/>
 			<use href="#pupil" x="24.75" y="14.25" color="#664500"/>
 		</g>
-		<!-- eyebrows -->
+		<!- eyebrows ->
 		<use href="#eyebrow" transform="translate(10 7)" color="#664500"/>
-		<use href="#eyebrow" transform="translate(26 7) scale(-1 1)" color="#664500"/>
+		<use href="#eyebrow" transform="matrix(-1 0 0 1 26 7)" color="#664500"/>
 	</g>
 </svg>
+-->
 
 <!--<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<rect x="2" y="11" width="32" height="12" fill="#F5F8FA"/>
@@ -75,8 +90,8 @@ M 11,20.5 c 4,0 5.5,-2 +5.5,-6 c 0,-3 0,-7 -3,-7 c -4,0 -9.5,5 -9.5,+8 s 3,5 +7,
 	<path fill="#FFF" d="M24.337 16.836c1.044-1.046 1.23-2.552.417-3.364-.813-.813-2.32-.625-3.363.42-1.045 1.046-1.231 2.552-.418 3.364.814.813 2.32.625 3.364-.42Zm3.288 2.845c.458-.459.54-1.12.183-1.477-.357-.357-1.019-.274-1.478.185-.458.459-.54 1.12-.183 1.477.357.357 1.019.275 1.478-.184Z"/>
 	<path fill="#FFF" d="M11.337 16.836c1.044-1.046 1.23-2.552.417-3.364-.813-.813-2.32-.625-3.363.42-1.045 1.046-1.231 2.552-.418 3.364.814.813 2.32.625 3.364-.42Zm3.287 2.845c.46-.459.541-1.12.184-1.477-.357-.357-1.019-.274-1.478.185-.458.459-.54 1.12-.183 1.477.357.357 1.019.275 1.477-.184Z"/>
 	</g>
-	<use href="#eyebrow.13" transform="translate(9 8) scale(1 1)" color="#65471B"/>
-	<use href="#eyebrow.13" transform="translate(27 8) scale(-1 1)" color="#65471B"/>
+	<use href="#eyebrow.13" transform="matrix(1 0 0 1 9 8)" color="#65471B"/>
+	<use href="#eyebrow.13" transform="matrix(-1 0 0 1 27 8)" color="#65471B"/>
 
 	 d="M3.5,0 s -3.5,-1.5 -7,0" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" color="#664500" transform="translate(18 26)"/>
 	<path d="M3,0 s -3,-1.5 -6,0" stroke-width="2" stroke-linecap="round" stroke="currentColor" fill="none" color="#664500" transform="translate(18 26)"/>
