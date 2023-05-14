@@ -2,13 +2,13 @@
 	<use href="F.svg#bg.normal" color="#FFCC4D"/> <!-- this one should maybe be reverted back to a smaller circle .. -->
 	
 	<g id="mouth"> <!-- made from edited ellipses -->
-		<path d="M 18,30 c -2.209,0 -4,-0.239 -4,-3 s 1.791,-6 4,-6 s 4,3.239 4,6 s -1.791,3 -4,3 Z" fill="#664500" />
+		<path d="M 18,30 c -2.209,0 -4,-0.239 -4,-3 s 1.791,-6 4,-6 s 4,3.239 4,6 s -1.791,3 -4,3 Z" fill="#664500"/>
 		<path d="M 18,29 c -1.657,0 -3,-0.343 -3,-2 s 1.343,-2 3,-2 s 3,0.343 3,2 s -1.343,2 -3,2 Z" fill="#E75A70"/>
 	</g>
 	
 	<!-- eyebrows -->
 	<use id="eyebrow1" href="F.svg#eyebrow.6" transform="translate(13 9)" color="#664500"/>
-	<use id="eyebrow2" href="F.svg#eyebrow.6" transform="translate(23 9) scale(-1 1)" color="#664500"/>
+	<use id="eyebrow2" href="F.svg#eyebrow.6" transform="matrix(-1 0 0 1 23 9)" color="#664500"/>
 
 	<!-- tears -->
 	<g>
