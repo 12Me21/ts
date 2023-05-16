@@ -23,6 +23,13 @@ let pop = ()=>stack.pop()
 let pops = n=>stack.splice(-n,n)
 let push = x=>stack.push(x)
 
+function unflip(a) {
+	for (let i=1; i<a.length; i+=2) {
+		a[i] = -a[i]
+	}
+	return a
+}
+
 class Elem {
 	path = ""
 	fill = null
@@ -30,19 +37,34 @@ class Elem {
 	children = []
 	toString() {
 		let out = ""
-		//if (this.children) {
-		out += `<g`
-		//}
-		if (this.fill)
+		
+		let g = !(!this.children.length && this.path)
+		
+		if (g)
+			out += `<g`
+		else
+			out += `<path`
+		
+		if (this.fill && this.path)
 			out += ` fill="${this.fill}"`
 		if (this.transform.length)
 			out += ` transform="${this.transform.join(" ")}"`
 		
-		out += ">"
-		if (this.path)
-			out += `<path d="${this.path}"/>`
-		out += this.children.join("\n")
-		out += "</g>"
+		if (g)
+			out += ">\n"
+		
+		if (this.path) {
+			if (g)
+				out += "<path"
+			out += ` d="${this.path}"/>\n`
+		}
+		if (g) {
+			for (let c of this.children)
+				if (!c.fill && this.fill)
+					c.fill = this.fill
+			out += this.children.join("")
+			out += "</g>\n"
+		}
 		return out
 	}
 }
@@ -53,6 +75,11 @@ root.children.push(elem)
 let estack = [root]
 
 let viewbox
+
+function format_hex(col) {
+	col = col.map(x=>Math.round(x*255).toString(16).toUpperCase().padStart(2,'0'))
+	return "#"+col.join("")
+}
 
 for (let [x] of text.matchAll(token)) {
 	if (x.startsWith("%"))
@@ -83,7 +110,7 @@ for (let [x] of text.matchAll(token)) {
 			stack = stack0
 			stack.push(array)
 		},
-		'h'() { elem.path += "Z" },
+		'h'() { elem.path += " Z" },
 		'f'() { 'fill' },
 		'q'() {
 			let nw = new Elem()
@@ -104,27 +131,36 @@ for (let [x] of text.matchAll(token)) {
 			if (col.length==1 && col[0]=="0")
 				col = "none"
 			else
-				col = "rgb("+col.map(x=>Math.round(x*255))+")"
+				col = format_hex(col)
 			elem.fill = col
 		},
 		'SC'() {
 			elem.stroke = pop()
 		},
 		'cm'() {
-			elem.transform.push("matrix("+pop().join(" ")+")")
+			let matrix = pop()
+			//matrix[3] *= -1
+			matrix[5] = 36 - matrix[5] + 1
+			matrix[4] -= 1
+			if (matrix[0]==1 && matrix[1]==0 && matrix[2]==0 && matrix[3]==1)
+				elem.transform.push("translate("+matrix[4]+" "+matrix[5]+")")
+			else
+				elem.transform.push("matrix("+matrix.join(" ")+")")
 		},
 		'm'() {
-			elem.path += "M "+pops(2)
+			elem.path += " M "+unflip(pops(2))
 		},
 		'l'() {
-			elem.path += "L "+pops(2)
+			elem.path += " L "+unflip(pops(2))
 		},
 		'c'() {
-			elem.path += "C "+pops(6)
+			elem.path += " C "+unflip(pops(6))
 		},
 		're'() {
 			let [x,y,w,h] = pops(4)
-			elem.path += "M "+[x,y]+" h "+w+" v "+h+" h "+-w+" v "+-h+" Z"
+			;[x,y] = unflip([x,y])
+			h = -h
+			elem.path += " M "+[x,y]+" h "+w+" v "+h+" h "+-w+" v "+-h+" Z"
 		},
 		'W'() { 'set clip path' },
 		'w'() {
@@ -180,7 +216,7 @@ for (let [x] of text.matchAll(token)) {
 		f()
 }
 
-let out = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" transform="matrix(1 0 0 -1 0 0)">
+let out = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 ${String(elem)}
 </svg>`
 

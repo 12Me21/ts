@@ -267,7 +267,7 @@
 			<input min=0 max=25 type=number value="0" name=color style='grid-column: span 2'>
 		</label>
 		<button style='grid-area: 1/-2/1/-1'>Load</button>
-		<label><span>modified:</span><output name=modified></output></label>
+		<label style=display:none><span>modified:</span><output name=modified></output></label>
 		<label><span>emoji:</span><output name=current></output></label>
 		<label><span>encoding:</span><output name=codes></output></label>
 		<label><span>twemoji file:</span><output name=filename></output></label>
@@ -412,7 +412,10 @@
 	
 	function show_layers(svg) {
 		$layers.textContent = ""
-		for (let elem of svg.querySelectorAll('*:not(g,svg,clipPath,defs)')) {
+		
+		let items = svg.children//querySelectorAll('*:not(g,svg,clipPath,defs)')
+		
+		for (let elem of items) {
 			if (elem.style.display=="none")
 				//box.$root.dataset.hidden = ""
 				continue
@@ -545,7 +548,7 @@
 				}, ()=>{})
 			}
 			
-			let svg = load('./faces/'+name+'.svg')
+			let svg = load('./simple/'+name+'.svg')
 			let modified = svg.lastModified
 			svg = svg.documentElement
 			select_variant(svg, variant, palette)
