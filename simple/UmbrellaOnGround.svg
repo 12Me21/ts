@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<path d="M 34,31 a 2,2 0 01 2,2 v3 h-36 v-3 a 2,2 0 01 2,-2 h32 Z" fill="#FFAC33"/>
+	<path d="M 15.53,32.1815 L 21.4695,1.818" stroke-linecap="round" fill="none" stroke-width="3" stroke="#66757F"/> <!-- actually pivot point at 18.5,17 -->
+	<!-- from Umbrella -->
+	<g transform="translate(21.363 2.307) rotate(12.2467) translate(-19.5 -4)">	
+		<path d="M 19.5,4 a 16.5,13 0 01 16.5,13 s 0,2 -1,2 s -3,-2 -3,-2 h-25 s -2,2 -3,2 s -1,-2 -1,-2 a 16.5,13 0 01 16.5,-13 Z" fill="#DD2E44"/>
+		<path d="M 19.5,4 a 12.5,13 0 01 12.5,13 s 0,2 -2,2 s -5,-2 -5,-2 h-11 s -3,2 -5,2 s -2,-2 -2,-2 a 12.5,13 0 01 12.5,-13 Z" fill="#E1E8ED"/>
+		<path d="M 19.5,4 c 3.59,0 5.5,5.82 5.5,13 c 0,0 -3,2 -5,2 h-1 c -2,0 -5,-2 -5,-2 c 0,-7.18 1.91,-13 5.5,-13 Z" fill="#DD2E44"/>
+	</g>
+</svg>

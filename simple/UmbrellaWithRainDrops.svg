@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<!-- similar to raindrops from other weather emojis. maybe could be simplified because this one is kinda rotated and hecked, really it's just a radius ~3 circle with a triangle -->
+		<path id="raindrop" d="M -2.591,-1.528 l 2.679,-4.382 l 2.482,4.353 c 0.578,0.922 0.628,2.122 0.021,3.114 c -0.863,1.412 -2.723,1.866 -4.154,1.014 s -1.891,-2.686 -1.028,-4.099 Z" fill="#5DADEC"/>
+	</defs>
+	
+	<!-- from Umbrella -->
+	<path d="M 9,28.5 a 1.5,1.5 0 01 3,0 v0.5 s 0,3 3,3 s 3,-3 3,-3 v-25.5 a 1.5,1.5 0 01 3,0 v25.5 s 0,6 -6,6 s -6,-6 -6,-6 v-0.5 Z" fill="#66757F"/>
+	
+	<path d="M 19.5,4 a 16.5,13 0 01 16.5,13 s 0,2 -1,2 s -3,-2 -3,-2 h-25 s -2,2 -3,2 s -1,-2 -1,-2 a 16.5,13 0 01 16.5,-13 Z" fill="#744EAA"/>
+	<path d="M 19.5,4 a 12.5,13 0 01 12.5,13 s 0,2 -2,2 s -5,-2 -5,-2 h-11 s -3,2 -5,2 s -2,-2 -2,-2 a 12.5,13 0 01 12.5,-13 Z" fill="#9266CC"/>
+	<path d="M 19.5,4 c 3.59,0 5.5,5.82 5.5,13 c 0,0 -3,2 -5,2 h-1 c -2,0 -5,-2 -5,-2 c 0,-7.18 1.91,-13 5.5,-13 Z" fill="#744EAA"/>
+	<!-- could totally just round these coords -->
+	<use href="#raindrop" x="3.026" y="11.91"/>
+	<use href="#raindrop" x="13.026" y="6"/>
+	<use href="#raindrop" x="24.974" y="9"/>
+	<use href="#raindrop" x="32.974" y="6"/>
+</svg>
