@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<path id="point1" d="M -1,1 v-10.585 l -4.828,-4.829 s -0.707,-0.707 0,-1.414 s 1.414,0 1.414,0 l 3.414,3.414 v-4.586 s 0,-1 1,-1 s 1,1 1,1 v4.586 l 3.414,-3.414 s 0.707,-0.707 1.414,0 s 0,1.414 0,1.414 l -4.828,4.829 v10.585 h-2 Z" fill="#88C9F9"/>
+	</defs>
+	
+	<use href="#point1" transform="translate(18 18)"/>
+	<use href="#point1" transform="translate(18 18) rotate(60)"/>
+	<use href="#point1" transform="translate(18 18) rotate(120)"/>
+	<use href="#point1" transform="translate(18 18) rotate(180)"/>
+	<use href="#point1" transform="translate(18 18) rotate(-120)"/>
+	<use href="#point1" transform="translate(18 18) rotate(-60)"/>
+</svg>
