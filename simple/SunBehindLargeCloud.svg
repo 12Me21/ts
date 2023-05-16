@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<path id="ray" d="M -2,-1 s 0,-2 2,-2 s 2,2 2,2 v2 s 0,2 -2,2 s -2,-2 -2,-2 v-2 Z" fill="#FFAC33"/>
+	</defs>
+	
+	<use href="#ray" transform="translate(3 19) rotate(-90)"/>
+	<use href="#ray" transform="translate(5.75 10.75) rotate(-45)"/>
+	<use href="#ray" transform="translate(15 7) rotate(0)"/>
+	<use href="#ray" transform="translate(24.25 10.75) rotate(45)"/>
+	<circle fill="#FFAC33" cx="15" cy="19" r="8"/>
+	
+	<g fill="#E1E8ED" transform="translate(36 32) scale(.9722 .95) translate(-36 -20)">
+		<path d="M 5,20 L 5,15 L 10.5,8.5 L 19.5 6.5 L 28,12 L 28,20 Z"/>
+		<circle cx="5" cy="15" r="5"/>
+		<circle cx="10.5" cy="8.5" r="4.5"/>
+		<circle cx="19.5" cy="6.5" r="6.5"/>
+		<circle cx="28" cy="12" r="8"/>
+	</g>
+</svg>

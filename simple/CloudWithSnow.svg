@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<g id="snowflake">
+			<rect x="-0.5" y="-3.5" width="1" height="7" rx="0.5" fill="#5DADEC" transform="rotate(60)"/>
+			<rect x="-0.5" y="-3.5" width="1" height="7" rx="0.5" fill="#5DADEC" transform="rotate(-60)"/>
+			<rect x="-0.5" y="-3.5" width="1" height="7" rx="0.5" fill="#5DADEC"/>
+		</g>
+	</defs>
+	
+	<use href="#snowflake" x="3.5" y="28.5"/>
+	<use href="#snowflake" x="11.5" y="24.5"/>
+	<use href="#snowflake" x="13.5" y="32.5"/>
+	<use href="#snowflake" x="21.5" y="25.5"/>
+	<use href="#snowflake" x="26.5" y="32.5"/>
+	<use href="#snowflake" x="31.5" y="24.5"/>
+	
+	<g fill="#E1E8ED">
+		<path d="M 5,20 L 5,15 L 10.5,8.5 L 19.5 6.5 L 28,12 L 28,20 Z"/>
+		<circle cx="5" cy="15" r="5"/>
+		<circle cx="10.5" cy="8.5" r="4.5"/>
+		<circle cx="19.5" cy="6.5" r="6.5"/>
+		<circle cx="28" cy="12" r="8"/>
+	</g>
+</svg>

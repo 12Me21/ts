@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<path id="raindrop" d="M 2.01,-0.039 c 0.037,1.102 -0.833,2.016 -1.943,2.039 s -2.039,-0.85  -2.076,-1.953 c -0.026,-0.775 0.398,-1.454 1.036,-1.799 l 2.87 ,-1.708 l 0.113,3.421 Z"  fill="#5DADEC"/>
+	</defs>
+	
+	<use href="#raindrop" x="3" y="28"/>
+	<use href="#raindrop" x="8" y="32.46"/>
+	<use href="#raindrop" x="10" y="25"/>
+	<use href="#raindrop" x="15" y="29"/>
+	<use href="#raindrop" x="20" y="33.46"/>
+	<use href="#raindrop" x="21" y="25"/>
+	<use href="#raindrop" x="27" y="28"/>
+	
+	<g fill="#E1E8ED">
+		<path d="M 5,20 L 5,15 L 10.5,8.5 L 19.5 6.5 L 28,12 L 28,20 Z"/>
+		<circle cx="5" cy="15" r="5"/>
+		<circle cx="10.5" cy="8.5" r="4.5"/>
+		<circle cx="19.5" cy="6.5" r="6.5"/>
+		<circle cx="28" cy="12" r="8"/>
+	</g>
+</svg>
