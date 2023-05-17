@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<clipPath id="fish1">
+			<path d="M 31,11 c 0,2.209 6.209,6 4,6 h-25 c -2.209,0 -3,-1.791 -3,-4 v-4 c 0,-2.209 0.791,-4 3,-4 h25 c 2.209,0 -4,3.791 -4,6 Z"/>
+		</clipPath>
+		<clipPath id="fish2">
+			<path d="M 31,27 c 0,2.209 6.209,6 4,6 h-25 c -2.209,0 -3,-1.791 -3,-4 v-4 c 0,-2.209 0.791,-4 3,-4 h25 c 2.209,0 -4,3.791 -4,6 Z"/>
+		</clipPath>
+	</defs>
+	
+	<path d="M 5,3 v33 h-2 v-33 h2 Z" fill="#ccd6dd"/>
+	<circle cx="4" cy="3" r="3" fill="#f4900c"/>
+	
+	<rect x="3" y="10" width="7" height="2" rx="1" fill="#66757f"/>
+	<rect x="3" y="26" width="7" height="2" rx="1" fill="#66757f"/>
+
+	<path d="M 27,6 a 5.5,3 0 01 -11,0 c 0,-1.657 0.462,-4 3.5,-4 c 3.037,0 7.5,2.343 7.5,4 Z" fill="#55acee"/>
+	<g clip-path="url(#fish1)">
+		<rect width="36" height="36" fill="#55acee"/>
+		<path d="M 15,4 s 14,-2 21,-1 s 1,6.333 1,8.792 c 0,2.458 0,6.75 -6,7.208 s -12,0 -16,-1 c 7,-7 2,-12 0,-14 Z" fill="#bbddf5"/>
+	</g>
+	
+	<path d="M 27,22 a 5.5,3 0 01 -11,0 c 0,-1.657 0.462,-4 3.5,-4 c 3.037,0 7.5,2.343 7.5,4 Z" fill="#dd2e44"/>
+	<g clip-path="url(#fish2)">
+		<rect width="36" height="36" fill="#dd2e44"/>
+		<path d="M 15,20 s 14,-2 21,-1 s 1,6.334 1,8.791 c 0,2.459 0,6.751 -6,7.209 s -12,0 -16,-1 c 7,-7 2,-12 0,-14 Z" fill="#f4abba"/>
+	</g>
+	
+	<circle cx="12" cy="9" r="3" fill="#ffffff"/>
+	<circle cx="12" cy="25" r="3" fill="#ffffff"/>  
+	<circle cx="11.5" cy="8.5" r="1.5" fill="#000000"/>
+	<circle cx="11.5" cy="24.5" r="1.5" fill="#000000"/>
+</svg>
