@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<!-- glow -->
+	<g>
+		<circle cx="29" cy="4" r="4" fill="#FFE8B6"/>
+		<circle cx="29" cy="4" r="3" fill="#FFD983"/>
+	</g>
+	<!-- sparks -->
+	<g transform="translate(29 4) rotate(45)">
+		<path d="M 0,-4.95 l 1,4.95 l -1,4.95 l -1,-4.95 l 1,-4.95 Z" fill="#FFCC4D"/>
+		<path d="M -4.95,0 l 4.95,-1 l 4.95,1 l -4.95,1 l -4.95,-1 Z" fill="#FFCC4D"/>
+	</g>
+	<!-- fuse -->
+	<path d="M 29,4 s 0,4 -6,9" stroke-width="1" stroke-linecap="round" fill="none" stroke="#C1694F"/>
+	
+	<!-- idk how the position was chosen (i think it's just placed up against the bottom/left sides), so the translate coords are just measured values -->
+	<g transform="rotate(45) translate(20.456,-9.369)">
+		<rect x="0" y="0" width="10" height="31" rx="2" fill="#DD2E44"/>
+		<rect x="2" y="0" width="2" height="31" fill="#EA596E"/>
+		<rect x="0" y="4" width="10" height="3" fill="#FFCC4D"/>
+		<rect x="0" y="24" width="10" height="3" fill="#FFCC4D"/>
+		<rect x="2" y="4" width="2" height="3" fill="#FFD983"/>
+		<rect x="2" y="24" width="2" height="3" fill="#FFD983"/>
+	</g>
+</svg>
