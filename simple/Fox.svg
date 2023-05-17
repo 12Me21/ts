@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<path d="M -4.569,9.802 c 0.657,2.639 -8.673,10.489 -11.244,4.098 c -1.491,-3.703 -2.793,-11.465 -1.313,-11.834 s 11.9,5.097 12.557,7.736 Z" transform="translate(18 0)" fill="#F4900C"/>
 	<path d="M 4.569,9.802 c 0.657,-2.639 11.077,-8.105 12.557,-7.736 s 0.178,8.131 -1.313,11.834 c -2.571,6.391 -11.901,-1.459 -11.244,-4.098 Z" transform="translate(17.988 0)" fill="#F4900C"/>
-	
+	<!-- todo: were the ears changed on purpose? it seems like just a single point was removed.. could it have been an accidental optimization, where it thought that the change would be obscured behind another layer, but was wrong? -->
+
 	<!--<g fill="#F4900C">
 		<path d="M 13.4312,9.8018 c 0.658,2.639 0.176,4.879 -2.462,5.536 c -2.64,0.657 -6.211,4.953 -8.782,-1.438 c -1.491,-3.703 -2.793,-11.466 -1.313,-11.834 c 1.48,-0.369 11.9,5.097 12.557,7.736 Z"/>
 		<path d="M 22.5566,9.8018 c -0.657,2.639 -0.177,4.879 2.463,5.536 s 6.21,4.953 8.782,-1.438 c 1.49,-3.703 2.792,-11.466 1.313,-11.834 c -1.481,-0.369 -11.9,5.097 -12.558,7.736 Z"/>
