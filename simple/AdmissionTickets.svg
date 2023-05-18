@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<!-- i may have adjusted this one too much (specifically, the outer semicircle cutouts were slightly asymmetric, by like 0.01) it felt like it was clearly meant to be even and that the offset was a mistake -->
+	<g transform="translate(18,18) scale(0.9468) rotate(-45)">
+		<path d="M -15,-11 h30 a 2,2 0 01 2,2 v 3.416 A 5,5 0 00 14,-1 a 5,5 0 00 3,4.584 L 17,9 a 2,2 0 01 -2,2 h-30 a 2,2 0 01 -2,-2 v -5.416 A 5,5 0 00 -14,-1 a 5,5 0 00 -3,-4.584 L -17,-9 a 2,2 0 01 2,-2 z" fill="#ea596e"/>
+		<path d="M -13,-9 h26 a 2,2 0 01 2,2 v 0.805 A 6,6 0 00 12,-1 a 6,6 0 00 3,5.195 L 15,7 a 2,2 0 01 -2,2 h-26 a 2,2 0 01 -2,-2 v -2.805 A 6,6 0 00 -12,-1 a 6,6 0 00 -3,-5.195 L -15,-7 a 2,2 0 01 2,-2 z" fill="#be1931"/>
+		<!-- these extra elements have complete nonsense positioning, probably added after rotation was finished etc -->
+		<ellipse ry="6.043" rx="4.404" fill="#ea596e"/> 
+		<rect x="-9.761" y="-10" width="2.141" height="20" fill="#ea596e"/>
+		<rect x="7.547" y="-10" width="2.141" height="20" fill="#ea596e"/>
+	</g>
+</svg>
