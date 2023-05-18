@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<!-- box -->
+	<rect x="3" y="10" width="30" height="25" rx="4"  fill="#FDD888"/>
+	<rect x="0" y="7" width="36" height="8" rx="4"  fill="#FDD888"/>
+	<rect x="3" y="15" width="30" height="2" fill="#FCAB40"/>
+	<!-- bow -->
+	<!-- made from distorted rounded rects with one corner removed. note that control point distances are always 1.1 regardless of angle etc. -->
+	<path d="M 16,7 h-10 c -1.1,0 -1.554,-0.781 -1.008,-1.736 l 2.016,-3.528 c 0.546,-0.955 1.729,-1.22 2.631,-0.589 l 6.722,4.706 c 0.902,0.631 0.739,1.147 -0.361,1.147 Z" fill="#da2f47"/>
+	<path d="M 20,7 c -1.1,0 -1.263,-0.516 -0.361,-1.147 l 6.722,-4.706 c 0.902,-0.631 2.085,-0.366 2.631,0.589 l 2.016,3.528 c 0.546,0.955 0.092,1.736 -1.008,1.736 h-10 Z" fill="#da2f47"/>
+	<!-- ribbon -->
+	<path d="M 19,3 a 3,3 0 01 3,3 v29 h-8 v-29 a 3,3 0 01 3,-3 h2 Z" fill="#DA2F47"/>
+</svg>
