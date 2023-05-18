@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<!--this one is oddly asymetrical in general but it's kinda cute so i'll leave it -->
+	
+	<defs id="defs6">
+		<clipPath id="bow1">
+			<path d="M 2,3.692 v13.5 c 0,4.5 11.375,-0.9 14.974,-4.5 c 3.6,-3.6 -0.063,-5.4 -0.063,-6.3 s -14.911,-9.9 -14.911,-2.7 Z"/>
+			<path d="M 34,3.692 v13.5 c 0,4.5 -10.99,-0.9 -14.59,-4.5 c -3.6,-3.6 -0.129,-5.4 -0.129,-6.3 s 14.719,-9.9 14.719,-2.7 Z"/>
+		</clipPath>
+	</defs>
+	
+	<path d="M 17,14 c 0,-2 7,1 7,1 c 0,2 5,12 8,17 l -6,-3 c -1,1 -2,4 -3,6 c -2,-2 -6,-19.1 -6,-21 Z" stroke-width="2" stroke-linejoin="round" stroke="#dd2e44" fill="#dd2e44"/>
+	<path d="M 17,14 c 0,-2 7,1 7,1 c 0,2 5,12 8,17 l -6,-3 c -1,1 -2,4 -3,6 c -2,-2 -6,-19.1 -6,-21 Z" stroke-width="2" stroke-linejoin="round" stroke="#dd2e44" fill="#dd2e44" transform="matrix(-1 0 0 1 35 0)"/> <!-- not sure about that 19.1 -->
+	
+	<g clip-path="url(#bow1)">
+		<rect width="36" height="36" fill="#dd2e44"/>
+		<path d="M 18.9,11.791 s -1.8,7.2 -4.5,9.9 s -12.6,-0.9 -12.6,-2.7 s 3.6,-7.2 17.1,-7.2 Z" fill="#a0041e"/>
+		<path d="M 17.77,11.791 c 13.5,0 17.1,5.4 17.1,7.2 s -9.9,5.4 -12.6,2.7 s -4.5,-9.9 -4.5,-9.9 Z" fill="#a0041e"/>
+	</g>
+	
+	<rect x="13" y="4" width="9" height="11" rx="3.6" fill="#ea596e"/>
+</svg>
