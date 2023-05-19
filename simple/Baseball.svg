@@ -3,10 +3,6 @@
 		<clipPath id="ball1">
 			<circle r="18" cx="18" cy="18"/>
 		</clipPath>
-		this shapes were created by:
-		1: drawing a 8x16 ellipse
-		2: convert to 4 cubic bezier curves
-		3: move the top and bottom points inwards by 3 units
 		<path d="M 0,-13 c 4.42,0 8,4.17 8,13 s -3.58,13 -8,13 s -8,-4.17 -8,-13 s 3.58,-13 8,-13 Z" id="seam1" stroke-width="2" fill="none"/>
 	</defs>
 	<g clip-path="url(#ball1)">
