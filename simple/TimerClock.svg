@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<rect id="mark1" x="-1" y="-1" width="2" height="3" rx="1"  fill="#292F33"/>
+	</defs>
+	
+	<path d="M 18,0 a 17,17 0 01 17,17 v17 a 2,2 0 01 -2,2 h-29.971 a 2,2 0 01 -2,-2 v-17 h-0.029 a 17,17 0 01 17,-17 Z" fill="#AAB8C2"/>
+	<circle cx="18" cy="17" r="15" fill="#66757F"/>
+	<circle cx="18" cy="17" r="13" fill="#FFF"/>
+	
+	<use href="#mark1" transform="translate(18 6)"/>
+	<use href="#mark1" transform="translate(26 9) rotate(45)"/>
+	<use href="#mark1" transform="translate(29 17) rotate(90)"/>
+	<use href="#mark1" transform="translate(26 25) rotate(135)"/>
+	<use href="#mark1" transform="translate(18 28) rotate(180)"/>
+	<use href="#mark1" transform="translate(10 25) rotate(-135)"/>
+	<use href="#mark1" transform="translate(7 17) rotate(-90)"/>
+	<use href="#mark1" transform="translate(10 9) rotate(-45)"/>
+	
+	<path d="M 17.9983,16.9795 L 9.8443,13.4695" stroke="#DD2E44" stroke-width="2" stroke-linecap="round" fill="none"/>
+</svg>
