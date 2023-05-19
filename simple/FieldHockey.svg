@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<clipPath id="stick1">
+			<path d="M 4,21 c 2.409,0 2,2 2,3 s 0,3 2,3 s 3.464,-2.465 7,-6 l 21,-21 v7 s -13.5,14.5 -18,19 s -7,7 -10,7 c -3.513,0 -7,-2.605 -7,-7 c 0,-4 2,-5 3,-5 Z"/>
+		</clipPath>
+	</defs>
+	
+	<g clip-path="url(#stick1)">
+		<rect width="36" height="36" fill="#c1694f"/>
+		<rect x="22" y="-1" width="1" height="38" fill="#ffac33"/>
+		<rect x="25" y="-1" width="11" height="38" fill="#ffac33"/>
+	</g>
+	
+	<circle cx="26.5" cy="29.5" r="6.5" fill="#dd2e44"/>
+</svg>
