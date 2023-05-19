@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<!-- mirrored, identical to FirstQuarterMoonFace -->
+	
+	<defs>
+		<clipPath id="moon1">
+			<path d="M 25,13 c 0,-4.984 -1.934,-9.505 -5.073,-12.894 a 18,18 0 01 16.073,17.894 a 18,18 0 01 -18,18 a 18,18 0 01 -11.347,-4.033 c 7.163,-0.245 13.305,-4.451 16.35,-10.485 c 0.622,-1.232 -2.795,-1.201 -2.962,-3.482 c -0.154,-2.13 4.959,-2.74 4.959,-5 Z"/>
+		</clipPath>
+	</defs>
+	
+	<g clip-path="url(#moon1)" transform="matrix(-1 0 0 1 36 0)">
+		<rect width="36" height="36" fill="#FFD983"/>
+		
+		<g fill="#FFCC4D">
+			<circle cx="25.5" cy="28.5" r="3.5"/>
+			<circle cx="27" cy="7" r="1"/>
+			<circle cx="18" cy="32" r="1"/>
+			<circle cx="33" cy="20" r="2"/>
+		</g>
+		
+		<path d="M 0,0 c 0,1.237 -4,4.477 -9,4.477 s -9,-3.24 -9,-4.477 s 2,1.381 9,1.381 s 9,-2.618 9,-1.381 Z" fill="#292f33" transform="translate(29.218 24.178) rotate(16.66)"/> <!-- from NewMoonFace -->
+		
+		<circle cx="28.5" cy="14.5" r="2.5"  fill="#292F33"/>
+	</g>
+</svg>
