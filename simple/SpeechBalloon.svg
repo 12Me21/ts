@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	<path d="M 13.716,28.584 c -2.277,2.655 -5.958,5.456 -11.716,6.416 c 2.859,-3.431 4.08,-6.856 4.604,-9.165 Z" fill="#BDDDF4"/>
+	<path d="M 2,35 c 2.859,-3.431 4.08,-6.856 4.604,-9.165 l 7.112,2.749 c -2.277,2.655 -5.958,5.456 -11.716,6.416 Z" fill="#BDDDF4"/> <!-- i bet this could use integer coords if i found the correct points -->
 	<ellipse cx="18" cy="15" rx="18" ry="14" fill="#BDDDF4"/>
+	
 	<circle fill="#2A6797" cx="10" cy="15" r="2"/>
 	<circle fill="#2A6797" cx="18" cy="15" r="2"/>
 	<circle fill="#2A6797" cx="26" cy="15" r="2"/>
