@@ -1,9 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	<circle fill="#BDDDF4" cx="15.5625" cy="12.5625" r="11.4375"/>o <!-- hm ? -->
-	<circle fill="#BDDDF4" cx="6" cy="15" r="6"/>
-	<circle fill="#BDDDF4" cx="12.5" cy="20.5" r="7.5"/>
-	<circle fill="#BDDDF4" cx="28" cy="12" r="7"/>
-	<circle fill="#BDDDF4" cx="23.5" cy="20.5" r="7.5"/>
+	<g fill="#BDDDF4">
+		<circle cx="15.5625" cy="12.5625" r="11.4375"/>o <!-- hm ? -->
+		<circle cx="6"    cy="15"   r="6"/>
+		<circle cx="12.5" cy="20.5" r="7.5"/>
+		<circle cx="28"   cy="12"   r="7"/>
+		<circle cx="23.5" cy="20.5" r="7.5"/>
+	</g>
 	
 	<circle fill="#BDDDF4" cx="4" cy="31" r="3"/>
 </svg>
