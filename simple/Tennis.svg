@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<clipPath id="ball1">
+			<circle r="18" cx="18" cy="18"/>
+		</clipPath>
+		<path d="M 0,-13 c 4.42,0 8,4.17 8,13 s -3.58,13 -8,13 s -8,-4.17 -8,-13 s 3.58,-13 8,-13 Z" id="seam1" stroke-width="2"/>
+	</defs>
+	<g clip-path="url(#ball1)">
+		<rect width="36" height="36" fill="#77B255"/>
+		<use href="#seam1" x="2" y="18" fill="#A6D388" stroke="#FFFFFF"/>
+		<use href="#seam1" x="34" y="18" fill="#A6D388" stroke="#FFFFFF"/>
+	</g>
+</svg>
