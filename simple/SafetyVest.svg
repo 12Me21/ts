@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<!-- definitely scaled.. -->
+	<defs>
+		<clipPath id="vest1">
+			<path d="M 28.9092,7.958 a 6.066,6.631 0 00 6.066,6.631 v19.037 a 2.123,2.185 0 01 -2.123,2.185 h-11.831 a 3.033,3.317 0 01 -3.033,-3.317 a 3.034,3.317 0 01 -3.034,3.317 h-11.831 a 2.123,2.185 0 01 -2.123,-2.185 v-19.037 a 6.067,6.631 0 00 6.067,-6.631 v-4.79 c 0,-1.082 0.674,-2.026 1.635,-2.289 l 3.219,-0.879 l 6.067,14.589 l 6.067,-14.589 l 3.218,0.879 c 0.961,0.263 1.636,1.207 1.636,2.289 v4.79 Z"/>
+		</clipPath>
+	</defs>
+	
+	i mightve tried to be too clever with the clip paths here..
+	
+	<g fill="#994308">
+		<path d="M 17.9878,2.1846 c -2.988,0 -5.309,-1.092 -6.37,-2.185 v15.292 h12.741 v-15.292 c -1.062,1.093 -3.359,2.185 -6.371,2.185 Z"/>
+	</g>
+	
+	<g clip-path="url(#vest1)">
+		<rect width="4" height="26" x="16" y="9" fill="#994308"/>
+		<rect width="16.926" height="36" fill="#EB7421"/>
+		<rect x="19" width="17" height="36" fill="#EB7421"/>
+	</g>
+	
+	<g fill="#FCFB65" clip-path="url(#vest1)">
+		<rect x="9" y="0" width="3" height="23"/>
+		<rect x="24" y="0" width="3" height="23"/>
+		
+		<rect x="1" y="22" width="15.926" height="3"/>
+		<rect x="1" y="29" width="15.926" height="3"/>
+		<rect x="19" y="22" width="16" height="3"/>
+		<rect x="19" y="29" width="16" height="3"/>
+	</g>
+</svg>
