@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<!-- this one is nice -->
+	<path d="M 17.941,9.529 28.529,7.411 33.822,12.706 29.588,22.235 7.353,36 1,29.648 17.941,9.529 Z" fill="#c1694f"/>
+	<path d="M 1,29.648 1,22 7.353,28 7.353,36 1,29.648 Z" fill="#662113"/>
+	<path d="M 34,5 34,12.706 29.588,22.235 29.588,15 28,8 34,5 Z" fill="#a04e3c"/>
+	<path d="M 28.529,0 L 34,5 L 29.588,14.824 L 7.353,28.588 L 1,22 L 17.941,2.118 L 28.529,0 Z" fill="#d99e82"/>
+	<path d="M 21,5 l -15,16 l 3,3 l 18,-13 l 2,-5 l -2,-2 l -6,1 Z" fill="none" stroke="#c1694f" stroke-width="2" stroke-linejoin="round"/>
+	
+	<g fill="none" stroke="#ffac33" stroke-width="2" stroke-linecap="round">
+		<path d="M 12,29 l 3,-2"/>
+		<path d="M 23,22 l 3,-2"/>
+	</g>
+</svg>
