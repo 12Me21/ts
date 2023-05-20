@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<!-- this is another good new design, the only issue i see is the nonstandard colors (not used by any other emojis)
+		they're nice but don't really match the rest of twemoji, mmm..
+		#FFFFF5 can probably just be #FFF, at least
+	-->
+	
+	<rect width="34" height="22" rx="1.5" x="1" y="6" fill="#DFCEBF"/>
+	
+	<g>
+		<rect width="10" height="12" rx="1" x="4" y="12" fill="#FFFFF5"/>
+		<path d="M 13,24 h-8 a 1,1 0 01 -1,-1 v-0.024 a 0.7,0.7 0 01 0.317,-0.584 c 0.79,-0.513 2.067,-0.926 3.088,-1.058 v-0.77 c -0.638,-0.43 -1.292,-1.206 -1.491,-2.2 c -0.059,0.033 -0.001,0.054 -0.067,0.054 c -0.316,0 -0.573,-0.411 -0.573,-0.917 c 0,-0.477 0.229,-0.864 0.52,-0.908 c -0.038,-0.227 -0.06,-0.521 -0.06,-0.879 c 0,-1.233 1.324,-2.714 3.439,-2.714 c 2.38,0 3.441,1.48 3.441,2.714 c 0,0.37 -0.034,0.658 -0.094,0.873 c 0.309,0.012 0.572,0.416 0.572,0.914 c 0,0.506 -0.229,0.917 -0.545,0.917 c -0.066,0 -0.073,-0.021 -0.132,-0.054 c -0.199,0.994 -0.863,1.77 -1.501,2.2 v0.819 c 0.968,0.166 2.044,0.538 2.746,0.991 a 0.74,0.74 0 01 0.34,0.623 v0.003 a 1,1 0 01 -1,1 Z"  fill="#7D7585"/>
+	</g>
+	
+	<g fill="#7D7585">
+		<rect width="15" height="2" rx="1" x="4" y="8"/>
+		<rect width="14" height="2" rx="1" x="17" y="13"/>
+		<rect width="9" height="2" rx="1" x="17" y="17"/>
+		<rect width="12" height="2" rx="1" x="17" y="21"/>
+	</g>
+</svg>
