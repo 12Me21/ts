@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<g fill="#78B159">
+		<path d="M 5,6 l -5,25 l 14,4 l 11,-29 v-1 h-19 l-1,1 z" transform="matrix(-1 0 0 1 36 0)"/>
+		<path d="M 5,6 l -5,25 l 14,4 l 11,-29 v-1 h-19 l-1,1 z"/>
+		<rect x="5" y="1" width="26" height="3.955" rx="0.955"/>
+	</g>
+	
+	<g fill="#5D9040">
+		<path d="M 17,5 h2 v22.091 l -1,-2.637 l -1,2.637 v-22.091 Z"/>
+		<!-- i wonder why this isn't just a radius=4 arc without the straight segments before/after.. -->
+		<path d="M 18.1494,23 h-0.149 v-2 h0.149 a 2.851,2.851 0 00 2.851,-2.851 v-13.149 h2 v13.149 a 4.851,4.851 0 01 -4.851,4.851 Z"/>
+	</g>
+	
+	<g fill="#5D9040">
+		<path d="M 13.7822,6 c -1.465,5.511 -6.759,7.506 -10.365,7.914 l 0.421,-2.107 c 2.411,-0.408 6.492,-1.7 7.87,-5.807 v-1 h2.074 v1 Z"/>
+		<path d="M 32.583,13.9141 c -3.606,-0.408 -8.901,-2.403 -10.365,-7.914  v-1 h2.073 v1 c 1.379,4.107 5.46,5.399 7.87,5.807 l 0.422,2.107 Z"/>
+		<!-- i wish i could figure out what radius these are.. oh well, i just extended them upwards with straight segments so there's some overlap with the layer above-->
+	</g>
+	
+	<path d="M 5,6 v-2 h26 v2 h-26 Z" fill="#5D9040"/>
+</svg>
