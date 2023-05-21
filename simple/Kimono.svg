@@ -5,8 +5,9 @@
 		<path d="M 11,36 v-31 h14 v31 h-14 Z"/>
 	</g>
 	<g fill="#226699">
-		<path d="M 11,25 l -2,2 l 2,-23 v21 Z"/>
-		<path d="M 25,25 v-21 l 2,23 l -2,-2 Z"/>
+		<!-- tabs on these layers to cover slit between adjacent layer -->
+		<path d="M 11,25 l -2,2 l 2,-23 v10 l 1,1 v4 l -1,1 v5 Z"/>
+		<path d="M 25,25 v-5 l-1,-1 v-4 l1,-1 v-10 l 2,23 l -2,-2 Z"/>
 	</g>
 	<path d="M 11,16 v-2 l 7,-5.25 v0.25 l -7,7 Z" fill="#226699"/>
 	<g>
