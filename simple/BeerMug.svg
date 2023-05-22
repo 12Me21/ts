@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<clipPath id="shadow1">
+			<rect x="3" y="3" width="24" height="11"/>
+		</clipPath>
+	</defs>
+
+	handle:
+	<path d="M 31,5.718 a 4,4 0 01 4,4 v16 a 4,4 0 01 -4,4 h-6 v-4 h4 s 2,0 2,-2 v-12 c 0,-2 -2,-2 -2,-2 h-4 v-4 h6 Z" fill="#FFAC33"/>
+	
+	mug:
+	<path d="M 27,6 v26 a 4,4 0 01 -4,4 h-16 a 4,4 0 01 -4,-4 v-26 h24 Z" fill="#FFCC4D"/>
+	<g fill="#F4900C">
+		<rect x="7.5" y="14" width="2" height="18" rx="1"/>
+		<rect x="14" y="14" width="2" height="18" rx="1"/>
+		<rect x="20.5" y="14" width="2" height="18" rx="1"/>
+	</g>
+	
+	foam shadow:
+	<g fill="#FFAC33" clip-path="url(#shadow1)">
+		<g transform="translate(0 2)">
+			<circle r="4" cx="5" cy="7"/>
+			<circle r="2" cx="10" cy="7"/>
+			<circle r="4" cx="15" cy="6"/>
+			<circle r="2.5" cx="20.5" cy="7.5"/>
+			<circle r="3.5" cx="24.5" cy="5.264"/> <!-- difference -->
+		</g>
+	</g>
+	
+	foam:
+	<g fill="#EEE" class="toolight">
+		<path d="M 24,0 a 3,3 0 01 3,3 v3 l -26,1 v-4 a 3,3 0 01 3,-3 h20 Z"/>
+		<circle r="4" cx="5" cy="7"/>
+		<circle r="2" cx="10" cy="7"/>
+		<circle r="4" cx="15" cy="6"/>
+		<circle r="2.5" cx="20.5" cy="7.5"/>
+		<circle r="3" cx="24" cy="6"/>
+	</g>
+</svg>
