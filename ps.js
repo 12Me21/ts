@@ -35,6 +35,7 @@ class Elem {
 	fill = null
 	transform = []
 	children = []
+	attr = {}
 	toString() {
 		let out = ""
 		
@@ -49,6 +50,9 @@ class Elem {
 			out += ` fill="${this.fill}"`
 		if (this.transform.length)
 			out += ` transform="${this.transform.join(" ")}"`
+		for (let a in this.attr) {
+			out += ` ${a}="${this.attr[a]}"`
+		}
 		
 		if (g)
 			out += ">\n"
@@ -135,7 +139,8 @@ for (let [x] of text.matchAll(token)) {
 			elem.fill = col
 		},
 		'SC'() {
-			elem.stroke = pop()
+			console.warn('stroke color')
+			elem.attr.stroke = pop()
 		},
 		'cm'() {
 			let matrix = pop()
@@ -162,9 +167,12 @@ for (let [x] of text.matchAll(token)) {
 			h = -h
 			elem.path += " M "+[x,y]+" h "+w+" v "+h+" h "+-w+" v "+-h+" Z"
 		},
-		'W'() { 'set clip path' },
+		'W'() {
+			elem.attr['clip-path'] = "TODO"
+		},
 		'w'() {
-			pop() // stroke width
+			let c = pop()
+			elem.attr['stroke-width'] = c
 		},
 		'd'() {
 			assert(pop()==0,'d')
@@ -177,7 +185,10 @@ for (let [x] of text.matchAll(token)) {
 			assert(pop()==0, 'j')
 		},
 		'J'() {
-			assert(pop()==0, 'J')	
+			let c = pop()
+			if (c)
+				elem.attr['stroke-linecap'] = 'round'
+			//assert(pop()==0, 'J')
 		},
 		'M'() {
 			pop() // miter clip

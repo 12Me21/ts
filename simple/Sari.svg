@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	this isn't the newest version, 
+	wanted to look at this one first in case the updated one reuses any components etc.
+	see https://raw.githubusercontent.com/twitter/twemoji/v13.0.0/assets/svg/1f97b.svg etc.
 	<g>
 		<path fill="#FFAC33" d="M 26.7852,9.606 c -0.071,3.25 1.711,8.071 4.49,14.868 c -1.01,0.423 -6.747,2.074 -8.961,-0.597 c -2.214,-2.67 4.471,-14.271 4.471,-14.271 Z"/>
 		<path fill="#5C913B" d="M 27.0791,9.1514 c -0.071,3.25 1.042,7.553 3.821,14.35 c -1.009,0.422 -5.942,1.905 -8.156,-0.765 s 4.335,-13.585 4.335,-13.585 Z"/>
