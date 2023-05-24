@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<defs>
-		<clipPath id="clipPath28">
+		<clipPath id="chocolate1">
 			<path d="M 4,34 a 4,4 0 01 -4,-4 v-27 c 0,-2.209 0.791,-3 3,-3 h12 c 2.209,0 3,0.791 3,3 v27 a 4,4 0 01 -4,4 h-10 Z"/>
 		</clipPath>
-		<clipPath id="clipPath52">
+		<clipPath id="wrapper1">
 			<rect x="-1" y="13" width="20" height="22" rx="4"/>
 		</clipPath>
 	</defs>
 	<g transform="translate(-0.531 12.283) rotate(-45)">
 		<!-- chocolate -->
 		<path d="M 4,34 a 4,4 0 01 -4,-4 v-27 c 0,-2.209 0.791,-3 3,-3 h12 c 2.209,0 3,0.791 3,3 v27 a 4,4 0 01 -4,4 h-10 Z"   fill="#c1694f" />
-		<path d="M 10,36 h-2 v-28.707 h-10.708 v-2 h10.708 v-6.294 h2 v6.294 h8.292 v2 h-8.292 v28.707 Z" clip-path="url(#clipPath28)" fill="#8a4b38" />
+		<path d="M 10,36 h-2 v-28.707 h-10.708 v-2 h10.708 v-6.294 h2 v6.294 h8.292 v2 h-8.292 v28.707 Z" clip-path="url(#chocolate1)" fill="#8a4b38" />
 		<!-- wrapper -->
 		<rect x="-1" y="13" width="20" height="22" rx="4"  fill="#dd2e44" />
-		<path d="M 20.375,17.145 l -22.628,9.9 l -2.121,-6.364 l 24.042,-5.657 l 0.707,2.121 Z" clip-path="url(#clipPath52)" fill="#be1931" />
+		<path d="M 20.375,17.145 l -22.628,9.9 l -2.121,-6.364 l 24.042,-5.657 l 0.707,2.121 Z" clip-path="url(#wrapper1)" fill="#be1931" />
 		<path d="M 19,14 c 0,1 0,2 0,3 c -2,1 -17,5 -20,6 c 0,0 -2,1 -2,-1.5 c 0,-1.756 0,-5.236 0,-7.5 c 0,-0.960 1.031,-2 2,-2 c 5.055,0 17.161,0 18,0 c 2,0 2,2 2,2 Z" fill="#ccd6dd"/>
 	</g>
 </svg>
