@@ -1,15 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<defs>
-		<clipPath id="cap">
-			<path d="M 32,22 h-28 a 4,4 0 01 -4,-4 a 18,18 0 01 36,0 a 4,4 0 01 -4,4 z" fill="#DD2E44"/>
+		<clipPath id="cap1">
+			<path d="M 32,22 h-28 a 4,4 0 01 -4,-4 a 18,18 0 01 36,0 a 4,4 0 01 -4,4 z"/>
 		</clipPath>
 	</defs>
 	
 	<path d="M 23,36 h-10 c -2.209,0 -4,-0.791 -4,-3 s 3,-7 3,-13 s 12,-6 12,0 s 3,10.791 3,13 s -1.791,3 -4,3 Z"   fill="#99AAB5"/>
 	
-	<path d="M 32,22 h-28 a 4,4 0 01 -4,-4 a 18,18 0 01 36,0 a 4,4 0 01 -4,4 z" fill="#DD2E44"/>
-	
-	<g clip-path="url(#cap)">
+	<g clip-path="url(#cap1)">
+		<rect width="36" height="36" fill="#DD2E44"/>
 		<circle r="6.292" cx="7.708" cy="10.292" fill="#F4ABBA"/>
 		<circle r="4.5" cx="30.5" cy="9.5" fill="#F4ABBA"/>
 		<circle r="4.5" cx="21.5" cy="16" fill="#F4ABBA"/>

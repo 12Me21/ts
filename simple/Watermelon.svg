@@ -1,19 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	<path d="M 1,13.5 c 0,-2.462 0.528,-4.802 1.472,-6.928 l 33.396,12.988 c -2.538,6.673 -9.122,11.44 -16.868,11.44 a 18,17.5 0 01 -18,-17.5 Z"    fill="#5C913B"/>
-	<path d="M 3,13.5 c 0,-2.207 0.479,-4.303 1.332,-6.205 l 29.681,11.543 c -2.243,5.958 -8.109,10.218 -15.013,10.218 a 16,15.556 0 01 -16,-15.556 Z"    fill="#FFE8B6"/>
-	<path d="M 5,13.5 c 0,-1.952 0.43,-3.803 1.191,-5.481 l 25.965,10.097 c -1.946,5.242 -7.094,8.995 -13.156,8.995 a 14,13.611 0 01 -14,-13.611 Z"    fill="#DD2E44"/>
+	<defs>
+		<clipPath id="cut1">
+			<path d="M 1,6 L 37,20 V 36 H 0 V6 Z"/>
+		</clipPath>
+	</defs>
 	
-	<ellipse rx="1" ry="0.5" transform="translate( 9.5,14) rotate(-56.3179)" fill="#000"/>
-	<ellipse rx="1" ry="0.5" transform="translate(15.5,15) rotate(-56.3179)" fill="#000"/>
+	<g clip-path="url(#cut1)">
+		<g transform="translate(19 13.5) scale(1 0.9722)"> 0.9722 ≈ 35/36
+			<circle r="18" fill="#5c913b"/>
+			<circle r="16" fill="#ffe8b6"/>
+			<circle r="14" fill="#dd2e44"/>
+		</g>
+	</g>
 	
-	<ellipse rx="1" ry="0.5" transform="translate(25.5,20) rotate(-52.9236)" fill="#000"/>
-	
-	<ellipse rx="1" ry="0.5" transform="translate(15.5,23) rotate(-52.9063)" fill="#000"/>
-	
-	<ellipse rx="1" ry="0.5" transform="translate(16.5,19) rotate(56.7356)" fill="#000"/>
-	
-	<ellipse rx="1" ry="0.5" transform="translate(23.5,24) rotate(60.4650)" fill="#000"/>
-	
-	<ellipse rx="1" ry="0.5" transform="translate(20.5,20) rotate(84.8017)" fill="#000"/>
-	<ellipse rx="1" ry="0.5" transform="translate(11.5,18) rotate(84.8017)" fill="#000"/>
+	<g fill="#000000">
+		<ellipse rx="0.5" ry="1" transform="translate(9.5 14) rotate(33.706)"/>
+		<ellipse rx="0.5" ry="1" transform="translate(15.5 15) rotate(33.706)"/>
+		<ellipse rx="0.5" ry="1" transform="translate(20.5 20) rotate(-5.198)"/>
+		<ellipse rx="0.5" ry="1" transform="translate(11.5 18) rotate(-5.198)"/>
+		<ellipse rx="0.5" ry="1" transform="translate(15.5 23) rotate(37.065)"/>
+		<ellipse rx="0.5" ry="1" transform="translate(23.5 24) rotate(-29.535)"/>
+		<ellipse rx="0.5" ry="1" transform="translate(16.5 19) rotate(-33.257)"/>
+		<ellipse rx="0.5" ry="1" transform="translate(25.5 20) rotate(37.076)"/>
+	</g>
 </svg>

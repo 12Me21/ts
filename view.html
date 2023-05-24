@@ -412,10 +412,95 @@
 </div>
 	`
 	
+	let standard_colors = {
+		'#662113': "brown? 102 33 19",
+		'#664500': "bad R=102 G=69 B=0",
+		'#642116': "bad R=100 G=33 B=22 1",
+		'#8a4b38': "brown? 138 75 56",
+		'#c1694f': "brown? 193 105 79",
+		'#bf6952': "bad R=191 G=105 B=82 1",
+		'#d99e82': "brown? 217 158 130",
+		'#d79e84': "bad R=215 G=158 B=132 1",
+		'#e6aaaa': "brown? 230 170 170",
+		'#e4aaab': "bad R=228 G=170 B=171 1",
+		'#ffd3ad': "brown? 255 211 173",
+		
+		//'#000000': "Black",
+		
+		'#292f33': "Text",
+		'#66757f': "Dark gray",
+		'#67757f': "bad R=103 G=117 B=127 1",
+		'#8899a6': "Medium gray", // ??
+		'#99aab5': "Medium Grey",
+		'#9aaab4': "bad R=154 G=170 B=180 1",
+		'#ccd6dd': "Gray",
+		'#e1e8ed': "Border gray",
+		'#f5f8fa': "Faint gray",
+		'#ffffff': "White",
+		
+		'#553788': "Dark purple",
+		'#553986': "R=85 G=57 B=134 1",
+		'#744eaa': "Deep purple",
+		'#7450a8': "R=116 G=80 B=168 1",
+		'#9266cc': "Purple",
+		'#9268ca': "R=146 G=104 B=202 1",
+		'#aa8dd8': "Light purple",
+		'#aa8ed6': "R=170 G=142 B=214 1",
+		'#cbb7ea': "Faded purple",
+		'#cbb8e9': "R=203 G=184 B=233 1",
+		
+		'#a0041e': "Dark red",
+		'#9d0522': "R=157 G=5 B=34 1",
+		'#be1931': "Deep red",
+		'#bb1a34': "R=187 G=26 B=52 1",
+		'#dd2e44': "Red",
+		'#da2f47': "R=218 G=47 B=71 1",
+		'#ea596e': "Light red",
+		'#e75a70': "R=231 G=90 B=112 1",
+		'#f4abba': "Faded red",
+		'#f2abba': "R=242 G=171 B=186 1",
+		
+		'#3e721d': "Dark green",
+		'#3f7123': "R=63 G=113 B=35 1",
+		'#5c913b': "Deep green",
+		'#5d9040': "R=93 G=144 B=64 1",
+		'#77b255': "Green",
+		'#78b159': "R=120 G=177 B=89 1",
+		'#a6d388': "Light green",
+		'#a7d28b': "R=167 G=210 B=139 1",
+		'#c6e5b3': "Faded green",
+		'#c6e4b5': "R=198 G=228 B=181 1",
+		
+		'#f4900c': "Dark orange",
+		'#f18f26': "R=241 G=143 B=38 1",
+		'#ffac33': "Orange",
+		'#fcab40': "R=252 G=171 B=64 1",
+		'#ffcc4d': "Yellow",
+		'#fdcb58': "R=253 G=203 B=88 1",
+		'#ffd983': "Light yellow",
+		'#fdd888': "R=253 G=216 B=136 1",
+		'#ffe8b6': "Faded yellow",
+		'#fee7b8': "R=254 G=231 B=184 1",
+		
+		'#226699': "Dark blue",
+		'#2a6797': "R=42 G=103 B=151 1",
+		'#3b88c3': "Deep blue",
+		'#4289c1': "R=66 G=137 B=193 1",
+		'#55acee': "Twitter blue",
+		'#5dadec': "R=93 G=173 B=236 1",
+		'#88c9f9': "Light blue",
+		'#8ccaf7': "R=140 G=202 B=247 1",
+		'#bbddf5': "Faded blue",
+		'#bdddf4': "R=189 G=221 B=244 1",
+		
+		'#fcb1e3': 'pink? 252 177 227',
+	}
+	
 	function show_layers(svg) {
 		$layers.textContent = ""
 		
-		let items = svg.children//querySelectorAll('*:not(g,svg,clipPath,defs)')
+		//let items = svg.children
+		let items = svg.querySelectorAll('*:not(g,svg,clipPath,defs)')
 		
 		for (let elem of items) {
 			if (elem.style.display=="none")
@@ -478,18 +563,48 @@
 			
 			
 			let skin = elem2.getAttribute('ts:skin')
-			if (skin) {
+			col: if (skin) {
 				box.$row2.append("🎨︎ "+skin+"")
 			} else {
-				let col = elem2.getAttribute('color')
+				let clip = elem.closest('clipPath')
+				if (clip) {
+					box.$row2.append('✂️ #'+clip.id)
+					elem2.setAttribute('fill', '#A08')
+					break col
+				}
+				/*let col = elem2.getAttribute('color')
 				if (!col)
 					col = elem2.getAttribute('fill')
 				if (!col || col=="none")
-					 col = elem2.getAttribute('stroke')
-				let cs = document.createElement('div')
-				cs.classList.add('color-square')
-				cs.style.color = col
-				box.$row2.append(cs, col)
+					col = elem2.getAttribute('stroke')*/
+				
+				let style = getComputedStyle(elem)
+				let col = style.fill
+				if (!col || col=="none")
+					col = style.stroke 
+				
+				elem2.setAttribute('fill', style.fill)
+				//elem2.setAttribute('stroke', style.stroke)
+				
+				let rgb = col.match(/\d+/g)
+				if (rgb) {
+					let [r,g,b] = rgb
+					col = ("#"+(+r).toString(16).padStart(2,'0')+(+g).toString(16).padStart(2,'0')+(+b).toString(16).padStart(2,'0'))//.toUpperCase()
+				}
+				
+				//if (col!='#000000') {
+					let cs = document.createElement('div')
+					cs.classList.add('color-square')
+					cs.style.color = col
+					
+					let cn = standard_colors[col]
+					if (cn) {
+						col = cn
+						//box.$row2.style.fontStyle='italic'
+					}
+					
+					box.$row2.append(cs, col)
+				//}
 			}
 			box.$root.onpointerenter = ev=>{
 				elem.style.filter = 'drop-shadow(0px 0px 0.2px red)'
