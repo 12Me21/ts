@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<path id="leaf1" d="M 0,0 L -4.372,0 c -3.492,-0.577 -8.086,-1.993 -10.18,-3.84 c -2.012,-1.775 -2.963,-2.945 -2.14,-4.719 c 0.565,-1.22 2.855,-1.335 4.167,-2.493 c 1.311,-1.157 1.442,-3.176 2.824,-3.675 c 2.01,-0.726 3.337,0.113 5.349,1.888 c 2.094,1.846 3.698,5.899 4.352,8.981 L 0,0 Z"/>
+	</defs>
+	<g fill="#77b255" transform="translate(17.9998 15.0116)">
+		these arent the real original shapes, i just split it into 4 symmetrical leaves.
+		i added a silly extra part to the stem layer to prevent gaps
+		<path d="M 0,-3.858 s 4.372,0 4.372,3.858 s -4.038,3.17 -3.676,6.392 s 1.717,7.257 5.627,11.139 c 1.419,1.409 0.231,2.457 -0.185,2.823 c -0.415,0.364 -1.479,1.297 -2.822,-0.187 c -3.325,-3.671 -4.115,-9.726 -3.853,-14.262 s -3.835,-2.047 -3.835,-5.905 s 4.372,-3.858 4.372,-3.858 Z"/>
+		<use href="#leaf1" transform="scale(1 1)"/>
+		<use href="#leaf1" transform="scale(-1 1)"/>
+		<use href="#leaf1" transform="scale(1 -1)"/>
+		<use href="#leaf1" transform="scale(-1 -1)"/>
+	</g>
+</svg>
