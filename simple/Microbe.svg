@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<path id="cell1" d="M 12.802,4.922 c 4.04,0 9.016,1.515 12.931,6.271 c 7.573,9.587 1.618,19.792 -3.472,19.799 c -6.011,0 -5.031,-8.082 -8.248,-13.15 c -2.697,-5.602 -9.763,-5.842 -8.498,-10.244 c 0.364,-1.267 3.391,-2.676 7.287,-2.676 Z"/>
+		<path id="cilia1" d="M 0,0 s -1.8,-2.4 -4,-2" fill="none" stroke="#5C913B" stroke-width="2" stroke-linecap="round"/>
+	</defs>
+	
+	<g fill="none" stroke="#5C913B" stroke-width="2" stroke-linecap="round">
+		<use href="#cilia1" transform="translate(5.8306,10.4575) rotate(-23.445)"/>
+		<use href="#cilia1" transform="translate(5.4072,7.8404) rotate(-3.1722)"/>
+		<use href="#cilia1" transform="translate(6.0322,5.3457) rotate(17.0991)"/>
+		<use href="#cilia1" transform="translate(7.9009,5.5025) rotate(52.1363)"/>
+		<use href="#cilia1" transform="translate(10.3481,5.5459) rotate(63.512)"/>
+		<use href="#cilia1" transform="translate(12.6235,5.4878) rotate(76.483)"/>
+		<use href="#cilia1" transform="translate(15.2783,5.4292) rotate(86.165)"/>
+		<use href="#cilia1" transform="translate(18.2495,5.8369) rotate(98.223)"/>
+		<use href="#cilia1" transform="translate(21.4126,6.9097) rotate(111.973)"/>
+		<use href="#cilia1" transform="translate(24.5425,8.6655) rotate(121.470)"/>
+		<use href="#cilia1" transform="translate(27.2485,12.322) rotate(132.044)"/>
+		<use href="#cilia1" transform="translate(29.5933,16.683) rotate(142.435)"/>
+		<use href="#cilia1" transform="translate(30.0834,21.3305) rotate(-205.304)"/>
+		<use href="#cilia1" transform="translate(29.623,25.1261) rotate(-192.131)"/>
+		<use href="#cilia1" transform="translate(23.6724,30.6062) rotate(-133.335)"/>
+		<use href="#cilia1" transform="translate(26.3099,29.9072) rotate(-146.569)"/>
+		<use href="#cilia1" transform="translate(19.6047,29.878) rotate(-88.1125)"/>
+		<use href="#cilia1" transform="translate(21.5903,30.5391) rotate(-107.452)"/>
+		<use href="#cilia1" transform="translate(17.4448,28.0998) rotate(-67.150)"/>
+		<use href="#cilia1" transform="translate(16.2443,25.1267) rotate(-56.928)"/>
+		<use href="#cilia1" transform="translate(15.3205,21.841) rotate(-42.669)"/>
+		<use href="#cilia1" transform="translate(13.4532,18.1186) rotate(-47.030)"/>
+		<use href="#cilia1" transform="translate(10.1565,14.9184) rotate(-58.338)"/>
+		<use href="#cilia1" transform="translate(6.6936,12.3349) rotate(-58.338)"/>
+		
+		<use href="#cilia1" transform="translate(28.1945,28.0988) rotate(189.9)"/>
+		
+	</g>
+	<g>
+		<!--<path fill="#3E721D" d="M 12.8018,2.9219 v0 c -3.988,0 -8.432,1.417 -9.209,4.124 c -1.087,3.783 1.763,5.682 4.053,7.207 c 1.751,1.167 3.562,2.373 4.565,4.457 l 0.051,0.105 l 0.062,0.098 c 0.978,1.541 1.545,3.54 2.092,5.473 c 1.087,3.835 2.438,8.606 7.836,8.606 c 2.947,-0.004 5.946,-2.281 7.648,-5.801 c 2.62,-5.418 1.649,-11.862 -2.598,-17.238 c -5.038,-6.121 -11.246,-7.031 -14.5,-7.031 Z"/>-->
+		<use href="#cell1" fill="#3E721D" stroke="#3E721D" stroke-width="4"/>
+		<use href="#cell1" fill="#77B255"/>
+	</g>
+	<g>
+		<circle r="3" cx="23" cy="24" fill="#3E721D"/>
+	</g>
+	<g>
+		<circle r="2" cx="24" cy="17" fill="#C6E5B3"/>
+		<circle r="2" cx="17" cy="15" fill="#C6E5B3"/>
+		<circle r="1" cx="20" cy="10" fill="#C6E5B3"/>
+		<circle r="1" cx="11" cy="8" fill="#C6E5B3"/>
+	</g>
+</svg>
