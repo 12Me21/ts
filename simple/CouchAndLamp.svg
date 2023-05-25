@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<clipPath id="clip1">
+			<rect x="22" width="13" y="27" height="5"/>
+		</clipPath>
+	</defs>
+	
+	<g>
+		<g fill="#ccd6dd">
+			<rect width="3" height="27" rx="1.5" x="28" y="4"/>
+			<g clip-path="url(#clip1)">
+				<ellipse rx="5.5" ry="3.5" cx="29.444" cy="31.5"/>
+			</g>
+		</g>
+		<!-- distorted rounded rectangle -->
+		<path fill="#FFAC33" d="M 35.944,9 c 0.334,1.125 -0.896,2 -2,2 h-9 c -1.104,0 -2.291,-1 -2,-2 l 2,-7 c 0.25,-1.083 0.896,-2 2,-2 h5 c 1.104,0 1.75,1.125 2,2 l 2,7 Z"/> changed from #FCAB40 based on recovered palette data (this color clearly existed as a corruption of Orange despite not being that close)
+	</g>
+	
+	<g>
+		<g fill="#5c913b">
+			<ellipse rx="12.4845" ry="6.125" cx="16.5155" cy="19.125"/>
+			<rect width="24.981" height="14.3" rx="2.271" ry="2.2" x="4.025" y="17"/>
+		</g>
+		back:
+		<g fill="#3e721d">
+			totally off center w
+			<rect width="23.1" height="5.5" rx="2.2" x="4.4" y="28"/>
+		</g>
+		cushions:
+		<g fill="#77b255">
+			<rect width="9.9" height="4.4" rx="2.2" x="6.6" y="25.8"/>
+			<rect width="9.9" height="4.4" rx="2.2" x="16.5" y="25.8"/>
+			<rect width="21" height="3" x="6" y="28"/>
+		</g>
+		armrests:
+		<g fill="#77b255">
+			<rect width="4.4" height="14.3" rx="2.2" x="2.2" y="21.4"/>
+			<circle r="3.3" cx="3.3" cy="23.6"/>
+		</g>
+		<g fill="#77b255">
+			<rect width="4.4" height="14.3" rx="2.2" x="26.4" y="21.4"/>
+			<circle r="3.3" cx="29.7" cy="23.6"/>
+		</g>
+	</g>
+</svg>
