@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	#3B94D9 nonstandard color.. should be changed to Deep Blue (#3B88C3) perhaps
+	<circle r="18" cx="18" cy="18" fill="#3B94D9"/>
+	<g>
+		could probably recreate this stroke, but it's not grid aligned or even the correct thickness..
+		well i made it symmetrical at least (other than the gap in the middle)
+		<path fill="#FFFFFF" d="M 25.565,11.296 a 6.704,6.704 0 01 0,13.408 c -4.207,0 -8.277,-5.229 -8.728,-5.825 c -0.919,-1.213 -4.065,-4.669 -6.402,-4.669 a 3.79,3.79 0 00 0,7.58 c 1.183,0 2.573,-0.887 3.777,-1.919 c 0.258,0.295 0.474,0.557 0.624,0.757 c 0.133,0.175 0.585,0.755 1.255,1.482 c -1.584,1.346 -3.602,2.594 -5.656,2.594 a 6.704,6.704 0 01 0,-13.408 c 4.207,0 8.277,5.229 8.728,5.825 c 0.919,1.213 4.065,4.669 6.402,4.669 a 3.79,3.79 0 00 0,-7.58 c -1.23,0 -2.684,0.96 -3.919,2.043 c -0.31,-0.348 -0.561,-0.654 -0.733,-0.882 c -0.125,-0.165 -0.537,-0.694 -1.147,-1.364 c 1.604,-1.39 3.684,-2.712 5.799,-2.711 Z"/>
+	</g>
+</svg>
