@@ -1,16 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	<g>
-		<path d="M 5.833,6.748 l 5.657,-5.657 l 0.707,2.122 l 2.122,0.707 l 0.707,2.121 l 2.121,0.707 l 0.707,2.121 l 2.121,0.708 l -5.656,5.656 l -8.486,-8.485 Z"  fill="#CCD6DD"/>
-		<g stroke-width="1" stroke-linecap="round" fill="none" stroke="#99AAB5">
-			<path d="M 11.4905,3.9195 l -4.596,4.596"/>
-			<path d="M 12.9045,5.3345 l -4.596,4.596"/>
-			<path d="M 14.3185,6.7485 l -4.596,4.596"/>
-			<path d="M 15.7325,8.1625 l -4.596,4.596"/>
-			<path d="M 17.1475,9.5765 l -4.596,4.596"/>
+	<g transform="translate(11.49 13.82) rotate(-45)">
+		<g>
+			<path fill="#CCD6DD" d="M 1,-9 v12 h8 l -1,-2 l 1,-2 l -1,-2 l 1,-2 l -1,-2 l 1,-2 h-8 Z"/>
+			<g fill="#99AAB5">
+				<rect width="7.5" height="1" rx="0.5" x="0" y="-7.5"/>
+				<rect width="7.5" height="1" rx="0.5" x="0" y="-5.5"/>
+				<rect width="7.5" height="1" rx="0.5" x="0" y="-3.5"/>
+				<rect width="7.5" height="1" rx="0.5" x="0" y="-1.5"/>
+				<rect width="7.5" height="1" rx="0.5" x="0" y="0.5"/>
+			</g>
 		</g>
-	</g>
-	<g>
-		<path d="M 30.582,32.9115 L 12.904,15.234" stroke-width="4" stroke-linecap="round" fill="none" stroke="#289193"/>
-		<path d="M 15.026,17.355 a 4,4 0 01 -2.828,0 l -8.486,-8.486 a 1,1 0 01 0,-1.414 l 1.414,-1.414 c 0.389,-0.389 1.025,-0.389 1.414,0 l 8.485,8.485 c 0.779,0.778 0.779,2.051 0.001,2.829 Z"  fill="#3DB8C1"/>
+		<g>
+			<rect width="4" height="29" rx="2" x="-2" y="0" fill="#289193"/>
+			<g fill="#3DB8C1">
+				<!--<path d="M -2,3 v-12 a 1,1 0 01 1,-1 h2 a 1,1 0 01 1,1 v12 a 2,2 0 01 -2,2 a 2,2 0 01 -2,-2 Z"/>-->
+				<circle cx="0" cy="3" r="2"/>
+				<rect x="-2" y="-10" width="4" height="14" rx="1"/>
+			</g>
+		</g>
 	</g>
 </svg>
