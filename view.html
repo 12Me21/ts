@@ -495,6 +495,19 @@
 		
 		'#fcb1e3': 'pink? 252 177 227',
 	}
+	{
+		let sc2 = {}
+		let prev = ""
+		for (let k in standard_colors) {
+			let val = standard_colors[k]
+			if (val.endsWith(" 1"))
+				sc2[k] = "⚠ →"+prev
+			else
+				sc2[k] = val
+			prev = k
+		}
+		standard_colors = sc2
+	}
 	
 	function show_layers(svg) {
 		$layers.textContent = ""

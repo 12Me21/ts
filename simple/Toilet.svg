@@ -7,7 +7,7 @@
 		<rect width="23" height="2" rx="1.15" ry="1" x="2" y="18" fill="#E1E8ED"/>
 	</g>
 	<g>
-		<rect width="12" height="18" rx="2" x="22" y="2" fill="#E1E8ED"/>
+		<rect width="12" height="18" rx="2" x="22" y="2" fill="#E1E8ED" class="toolight"/>
 		<rect x="22" y="4" width="12" height="2" fill="#CCD6DD"/>
 	</g>
 	<g>
