@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	see also: Passport
 	<defs>
 		<clipPath id="slice1">
 			<path d="M -10,19 l 21,-21 v21 h-21 Z"/>
@@ -16,16 +17,16 @@
 		</g>
 	</defs>
 	
-	<rect width="36" height="36" rx="4" fill="#226699"/>
+	<rect width="36" height="36" rx="4" fill="#226699"/>	
+	
 	<g>
-		<use href="#guy1" x="25" y="17"/>
+		<use href="#guy1" x="26.828" y="15"/>
 		arm:
-		<path d="M 9,21 s 2,3 6,3 s 6,-3 6,-3" stroke-width="4" stroke-linecap="round" stroke="#f5f8fa" fill="none"/>
-		passport:
+		<path d="M 15,25 L 20.828,19 H 22.828" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke="#f5f8fa" fill="none"/> the shoulder was kinda hecked so i fixed(?) that
+		
 		<g fill="#f5f8fa">
-			<path d="M 12,3.04 c 0.552,-0.157 1,0.162 1,0.715 v8 c 0,0.553 -0.448,1.128 -1,1.285 v-5.795 c 0,-0.552 -0.448,-1.128 -1,-1.285 l -5.426,-1.266 c 0.131,-0.099 0.272,-0.18 0.426,-0.224 l 6,-1.43 Z" fill="#f5f8fa"/>
-			- dang they messed around with this one too much :(		
-			<rect width="7" height="10" rx="1" transform="translate(3 5.755) matrix(1 0.2857 0 1 0 0)"/> 0.2857 ≈ 2/7
+			<rect x="2" y="17" width="4" height="13" rx="2"/>
+			<rect x="4" y="28" width="13" height="4" rx="2"/>
 		</g>
 	</g>
 </svg>
