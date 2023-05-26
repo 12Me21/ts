@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<circle r="17" cx="18" cy="18" fill="#000000"/>
+	<g>
+		seat:
+		<path d="M 23.294,10.994 l -5.672,-0.708 c -0.372,-0.047 -0.643,-0.374 -0.62,-0.748 s 0.333,-0.664 0.707,-0.665 c 0.041,0 4.067,-0.018 5.989,-1.299 c 0.25,-0.168 0.582,-0.157 0.824,0.026 c 0.24,0.185 0.337,0.501 0.242,0.788 l -0.709,2.127 c -0.097,0.293 -0.37,0.485 -0.672,0.485 c -0.03,0 -0.059,-0.002 -0.089,-0.006 Z" fill="#ffffff"/>
+		frame:
+		<path d="M 8.6,9.2 l 3.733,2.8 l -1.51,1.367 s -2.666,-4.499 -2.223,-4.167 Z" fill="#ffffff"/>
+		<g stroke-width="2" stroke-linejoin="round" stroke="#ffffff" fill="none">
+			<g>
+				<path d="M 20.5,9.4 l -4.5,12.6 h11 l -7,-11"/>
+				<path d="M 9,22 l 3,-9 h9" stroke-linecap="round"/>
+				<path d="M 9,8 L 14,8" stroke-linecap="round"/>
+			</g>
+			wheels:
+			<circle r="6" cx="9" cy="22"/>
+			<circle r="6" cx="27" cy="22"/>
+		</g>
+	</g>
+	<g stroke="#dd2e44" fill="none">
+		<path d="M 6,6 L 30,30" stroke-width="2.5"/>
+		<circle r="17" cx="18" cy="18" stroke-width="2"/>
+	</g>
+</svg>
