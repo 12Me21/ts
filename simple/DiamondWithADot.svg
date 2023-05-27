@@ -1,14 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	<g transform="translate(18 18) scale(0.801) rotate(45)">
-		<rect x="1" y="1" width="15" height="15" rx="2" fill="#55ACEE"/>
-		<rect x="1" y="1" width="15" height="15" rx="2" fill="#55ACEE" transform="rotate(90)"/>
-		<rect x="1" y="1" width="15" height="15" rx="2" fill="#55ACEE" transform="rotate(180)"/>
-		<rect x="1" y="1" width="15" height="15" rx="2" fill="#55ACEE" transform="rotate(-90)"/>
-		<!-- this should be a circle with radius 7 and clip path set to those rectangles, but clipPath sucks and it's not worth it. -->
-		<path d="M 8.682,1 A 8.739,8.739 0 01 1,8.682 L 1,1 Z" fill="#3B88C3"/>
-		<path d="M 8.682,1 A 8.739,8.739 0 01 1,8.682 L 1,1 Z" fill="#3B88C3" transform="rotate(90)"/>
-		<path d="M 8.682,1 A 8.739,8.739 0 01 1,8.682 L 1,1 Z" fill="#3B88C3" transform="rotate(180)"/>
-		<path d="M 8.682,1 A 8.739,8.739 0 01 1,8.682 L 1,1 Z" fill="#3B88C3" transform="rotate(-90)"/>
+	<defs>
+		gosh what did i do here..
+		<clipPath id="petals1" transform="translate(18 18) scale(0.801) rotate(45)">
+			<rect x="1" y="1" width="15" height="15" rx="2"/>
+			<rect x="1" y="1" width="15" height="15" rx="2" transform="rotate(90)"/>
+			<rect x="1" y="1" width="15" height="15" rx="2" transform="rotate(180)"/>
+			<rect x="1" y="1" width="15" height="15" rx="2" transform="rotate(-90)"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#petals1)">
+		<rect width="36" height="36" fill="#55ACEE"/>
+		<circle r="7" cx="18" cy="18" fill="#3B88C3"/>
 	</g>
 	<circle fill="#BBDDF5" cx="18" cy="18" r="5"/>
 </svg>
