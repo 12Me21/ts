@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<path d="M 6,2 l 11,11 l 11,-11 v 21 l -11,11 l -11,-11 v-21 z" fill="#66757F" stroke="#66757F" stroke-width="4" stroke-linejoin="round"/>
+	these are unique colors but i guess that's necessary here
 	<path d="M 6,2 l 11,11 v21 l -11,-11 v-21 Z"  fill="#FFFF87"/>
 	<path d="M 17,13 l 11,-11 v21 l -11,11 v-21 Z"  fill="#47DED4"/>
 </svg>
