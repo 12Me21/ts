@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<g stroke-width="2" stroke-linecap="round" fill="none" stroke="#66757f">
+		<path d="M 15,34.375 L 15,26"/>
+	</g>
+	
+	scaled :(
+	i tried to preserve as much as possible but nhh..
+	
+	<g transform="translate(15.41 15.625) scale(1.02765)">
+		<g fill="#e1e8ed">
+			<circle r="13.5" cx="0" cy="0"/>
+			<path d="M 3.5,-13 s 12.995,4.556 14.375,5 c 3.625,1.167 2.125,5.083 -0.375,4.458 c -4.946,-1.236 -14,-3.958 -15,-3.958 s 1,-5.5 1,-5.5 Z"/>
+		</g>
+		<g>
+			<path d="M -11.5,0.5 h23 a 11.51,11.51 0 01 -11.5,11.096 a 11.51,11.51 0 01 -11.5,-11.096 Z" fill="#50a5e6"/>
+			<ellipse rx="11.5" ry="1.5847" cx="0" cy="0.5" fill="#3B94D9"/>
+		</g>
+	</g>
+	<ellipse rx="0.97452" ry="1.34066" transform="translate(34.0469,9.98135) rotate(15.63473)" fill="#AAB8C2"/>
+	<!-- <ellipse rx="0.9483" ry="1.30459" transform="translate(18.13549,-5.49181) rotate(15.63473)"/> hm. -->
+	<g>
+		<g stroke-width="2" stroke-linecap="round" fill="none" stroke="#66757f">
+			<path d="M 1.6801,34.8705 L 4.9971,25.6085"/>
+			<path d="M 29.3204,34.8705 L 25.9609,25.5255"/>
+		</g>
+		<rect width="29" height="4" rx="2" x="1" y="22" fill="#66757f"/>
+		<rect width="27" height="2" rx="1" x="2" y="22" fill="#99aab5"/>
+	</g>
+</svg>
