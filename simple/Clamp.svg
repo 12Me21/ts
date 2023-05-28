@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	really good
+	<g>
+		<g fill="#66757f">
+			<rect x="13" y="32" width="19" height="2"/>
+			<circle r="3" cx="13" cy="33"/>
+			<circle r="3" cx="32" cy="33"/>
+		</g>
+		
+		<g>
+			<path d="M 20,15.5 h5 v18 a 2.5,2.5 0 01 -5,0 v-18 Z" fill="#99aab5"/>
+			<path d="M 27,15 a 2,2 0 01 -2,2 h-5 a 2,2 0 01 -2,-2 c 0,-1.104 0.896,-1 2,-1 h5 c 1.104,0 2,-0.104 2,1 Z" fill="#66757f"/>	
+		</g>
+	</g>
+	
+	<g>
+		<g fill="#dd2e44">
+			<path d="M 13,22 h12 v1 a 4,4 0 01 -4,4 h-14 a 4,4 0 01 -4,-4 v-19 a 4,4 0 01 4,-4 h17 a 4,4 0 01 4,4 v1 h-15 a 2,2 0 00 -2,2 v13 a 2,2 0 00 2,2 Z"/>
+			<rect width="11" height="9" rx="2" x="17" y="20"/>
+			<rect width="11" height="5" rx="2" x="17" y="2"/>
+		</g>
+		<rect width="4" height="17" rx="2" x="5" y="5" fill="#ea596e"/>
+	</g>
+</svg>

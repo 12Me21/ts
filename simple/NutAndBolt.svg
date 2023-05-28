@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	gosh finally one that's properly aligned
+	<g>
+		<g>
+			todo: this stroke isnt reaally true
+			<path d="M 34,32 L 32,34 L 8,10 L 10,8 Z" stroke-width="3.83" stroke-linejoin="round" stroke="#8899a6" fill="#8899a6"/>
+		</g>
+		<g stroke-width="2" stroke-linecap="round" fill="none" stroke="#66757f">
+			<path d="M 30,34 l 2,-6"/>
+			<path d="M 27,31 l 2,-6"/>
+			<path d="M 24,28 l 2,-6"/>
+			<path d="M 21,25 l 2,-6"/>
+			<path d="M 16,20 l 2,-6"/>
+			<path d="M 13,17 l 2,-6"/>
+			<path d="M 10,14 l 2,-6"/>
+		</g>
+	</g>
+	<g>
+		<path d="M 3,9 L 9,3 h5 v5 l -6,6 h-5 v-5 z" fill="#ccd6dd"/>
+		<path d="M 3,9 L 9,3 h5 v5 l -6,6 h-5 v-5 z" fill="#ccd6dd" transform="translate(12 12)"/>
+		<path d="M 9,3 l 2,-2 s 1,-1 2,0 l 3,3 s 1,1 0,2 L 14,8 z" fill="#e1e8ed"/>
+		<path d="M 9,3 l 2,-2 s 1,-1 2,0 l 3,3 s 1,1 0,2 L 14,8 z" fill="#e1e8ed" transform="translate(12 12)"/>
+		<path d="M 3,9 l -2,2 s -1,1 0,2 l 3,3 s 1,1 2,0 l 2,-2 l -5,-5 Z" fill="#8899a6"/>
+		<path d="M 3,9 l -2,2 s -1,1 0,2 l 3,3 s 1,1 2,0 l 2,-2 l -5,-5 Z" fill="#8899a6" transform="translate(12 12)"/>
+	</g>
+</svg>
