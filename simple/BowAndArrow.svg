@@ -11,12 +11,15 @@
 		<g>
 			todo: arrange these
 			<ellipse rx="1.5" ry="3.5" transform="translate(24.6144,27.67435) rotate(-10.859)" fill="#dd2e44"/>
-			<ellipse rx="1.5" ry="3.5" transform="translate(25.09615,28.74805) rotate(-10.880)" fill="#f4900c"/>
-			<ellipse rx="1.5" ry="3.5" transform="translate(26.4855,30.13675) rotate(-10.878)" fill="#a0041e"/>
-			<ellipse rx="1.5" ry="3.5" transform="translate(27.8996,31.55085) rotate(-10.878)" fill="#dd2e44"/>
 			<ellipse rx="3.5" ry="1.5" transform="translate(27.67435,24.6144) rotate(10.859)" fill="#dd2e44"/>
+			
+			<ellipse rx="1.5" ry="3.5" transform="translate(25.09615,28.74805) rotate(-10.880)" fill="#f4900c"/>
 			<ellipse rx="3.5" ry="1.5" transform="translate(28.74805,25.09615) rotate(10.880)" fill="#f4900c"/>
+			
+			<ellipse rx="1.5" ry="3.5" transform="translate(26.4855,30.13675) rotate(-10.878)" fill="#a0041e"/>
 			<ellipse rx="3.5" ry="1.5" transform="translate(30.13675,26.4855) rotate(10.878)" fill="#a0041e"/>
+			
+			<ellipse rx="1.5" ry="3.5" transform="translate(27.8996,31.55085) rotate(-10.878)" fill="#dd2e44"/>
 			<ellipse rx="3.5" ry="1.5" transform="translate(31.55085,27.8996) rotate(10.878)" fill="#dd2e44"/>
 		</g>
 		<path d="M 29.692,29.692 L 4.828,4.828" stroke-width="1.958" stroke-linecap="round" fill="none" stroke="#ccd6dd"/>
