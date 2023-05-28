@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<defs>
 		<clipPath id="clipPath36">
-			<rect width="15" height="6" rx="2" ry="2.4" x="29" y="-3"/>
+			<rect width="13" height="6" x="29" y="-3"/>
 		</clipPath>
 	</defs>
 	<g transform="translate(0.75, 36) rotate(-45)">
@@ -12,6 +12,7 @@
 		<g clip-path="url(#clipPath36)">
 			<rect x="18" y="-18" width="36" height="36" fill="#D99E82"/>
 			<g fill="#c1694f">
+				todo: 
 				<path d=" M
 24.71416,-6.37916
  C 25.17449,-6.68676 25.99332,-6.26532
@@ -74,8 +75,8 @@
  Z"/>
 			</g>
 		</g>
+		<circle r="4" cx="44" cy="0" fill="#8a4633"/>
 		<g>
-			<circle r="4" cx="44" cy="0" fill="#8a4633"/>
 			<rect width="2.134" height="9.014" rx="1.067" x="39.954" y="-4.507" fill="#FFAC33"/>
 		</g>
 		<g>
