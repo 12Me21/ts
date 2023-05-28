@@ -1,90 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<defs>
+		<clipPath id="all">
+			<rect width="36" height="36"/>
+		</clipPath>
 		<clipPath id="clipPath28">
-			<path d="M 3,7 a 6,6 0 01 6,-6 a 6,6 0 01 6,6 v4 a 6,6 0 01 -6,6 a 6,6 0 01 -6,-6 v-4 ZM 6,11 a 3,3 0 00 3,3 a 3,3 0 00 3,-3 v-4 a 3,3 0 00 -3,-3 a 3,3 0 00 -3,3 v4 Z"/>
+			<path d="M -6,-2 a 6,6 0 01 6,-6 a 6,6 0 01 6,6 v4 a 6,6 0 01 -6,6 a 6,6 0 01 -6,-6 v-4 ZM -3,2 a 3,3 0 00 3,3 a 3,3 0 00 3,-3 v-4 a 3,3 0 00 -3,-3 a 3,3 0 00 -3,3 v4 Z"/>
 		</clipPath>
-		<clipPath id="clipPath62">
-			<path d="M 3,25 a 6,6 0 01 6,-6 a 6,6 0 01 6,6 v4 a 6,6 0 01 -6,6 a 6,6 0 01 -6,-6 v-4 ZM 6,29 a 3,3 0 00 3,3 a 3,3 0 00 3,-3 v-4 a 3,3 0 00 -3,-3 a 3,3 0 00 -3,3 v4 Z"/>
-		</clipPath>
-		<clipPath id="clipPath130">
-			<path d="M 7,30 a 2,2 0 01 2,-2 a 2,2 0 01 2,2 v6 h-4 v-6 Z"/>
-		</clipPath>
-		<clipPath id="clipPath152">
-			<path d="M 7,0 h4 v6 a 2,2 0 01 -2,2 a 2,2 0 01 -2,-2 v-6 Z"/>
-		</clipPath>
-		<clipPath id="clipPath174">
-			<path d="M 21,16 a 6,6 0 01 6,-6 a 6,6 0 01 6,6 v4 a 6,6 0 01 -6,6 a 6,6 0 01 -6,-6 v-4 ZM 24,20 a 3,3 0 00 3,3 a 3,3 0 00 3,-3 v-4 a 3,3 0 00 -3,-3 a 3,3 0 00 -3,3 v4 Z"/>
-		</clipPath>
-		<clipPath id="clipPath208">
-			<path d="M 30,0 h3 v2 a 6,6 0 01 -6,6 a 6,6 0 01 -6,-6 v-2 h3 v2 a 3,3 0 00 3,3 a 3,3 0 00 3,-3 v-2 Z"/>
-		</clipPath>
-		<clipPath id="clipPath238">
-			<path d="M 21,34 a 6,6 0 01 6,-6 a 6,6 0 01 6,6 v2 h-3 v-2 a 3,3 0 00 -3,-3 a 3,3 0 00 -3,3 v2 h-3 v-2 Z"/>
-		</clipPath>
-		
-		<clipPath id="clipPath268">
-			<rect width="4" height="16" rx="2" x="25" y="19"/>
-		</clipPath>
+		<g id="link1" clip-path="url(#clipPath28)">
+			<rect x="-18" y="-18" width="36" height="36" fill="#c6d5db"/>
+			<rect width="8" height="17" x="-8" y="-8" fill="#e1e8ed"/>
+			<rect width="7" height="12" rx="3.5" x="-3" y="-6" fill="#e1e8ed"/>
+			<rect width="6" height="12" rx="3" ry="3.5" x="-4" y="-6" fill="#c6d5db"/>
+			<!--<rect width="3" height="5" x="0" y="-7" fill="#c6d5db"/> removed -->
+		</g>
 		<clipPath id="clipPath290">
-			<rect width="4" height="16" rx="2" x="7" y="10"/>
+			<rect width="4" height="16" rx="2" x="-2" y="-8"/>
 		</clipPath>
-		<clipPath id="clipPath312">
-			<rect width="4" height="16" rx="2" x="25" y="1"/>
-		</clipPath>
+		<g id="link2" clip-path="url(#clipPath290)">
+			<rect x="-18" y="-18" width="36" height="36" fill="#c6d5db"/>
+			<rect width="3" height="19" x="-3" y="-10" fill="#edf1f4"/>
+		</g>
 	</defs>
 	
-	<g clip-path="url(#clipPath28)">
-		<rect width="36" height="36" fill="#c6d5db"/>
-		<rect width="8" height="17" x="1" y="1" fill="#e1e8ed"/>
-		<rect width="7" height="12" rx="3.5" x="6" y="3" fill="#e1e8ed"/>
-		<rect width="6" height="12" rx="3" ry="3.5" x="5" y="3" fill="#c6d5db"/>
-		<rect width="3" height="5" x="9" y="2" fill="#c6d5db"/>
-	</g>
-	<g clip-path="url(#clipPath62)">
-		<rect width="36" height="36" fill="#c6d5db"/>
-		<rect width="8" height="17" x="1" y="19" fill="#e1e8ed"/>
-		<rect width="7" height="12" rx="3.5" x="6" y="21" fill="#e1e8ed"/>
-		<rect width="6" height="12" rx="3" ry="3.5" x="5" y="21" fill="#c6d5db"/>
-		<rect width="3" height="5" x="9" y="20" fill="#c6d5db"/>
-	</g>
-	<g clip-path="url(#clipPath130)">
-		<rect width="36" height="36" fill="#c6d5db"/>
-		<rect width="3" height="19" x="6" y="26" fill="#edf1f4"/>
-	</g>
-	<g clip-path="url(#clipPath152)">
-		<rect width="36" height="36" fill="#c6d5db"/>
-		<rect width="3" height="19" x="6" y="-9" fill="#edf1f4"/>
-	</g>
-	<g clip-path="url(#clipPath174)">
-		<rect width="36" height="36" fill="#c6d5db"/>
-		<rect width="8" height="17" x="19" y="10" fill="#e1e8ed"/>
-		<rect width="7" height="12" rx="3.5" x="24" y="12" fill="#e1e8ed"/>
-		<rect width="6" height="12" rx="3" ry="3.5" x="23" y="12" fill="#c6d5db"/>
-		<rect width="3" height="5" x="27" y="11" fill="#c6d5db"/>
-	</g>
-	<g clip-path="url(#clipPath208)">
-		<rect width="36" height="36" fill="#c6d5db"/>
-		<rect width="7" height="10" x="20" y="-1" fill="#e1e8ed"/>
-		<rect width="7" height="12" rx="3.5" x="24" y="-6" fill="#e1e8ed"/>
-		<rect width="6" height="12" rx="3" ry="3.5" x="23" y="-6" fill="#c6d5db"/>
-	</g>
-	<g clip-path="url(#clipPath238)">
-		<rect width="36" height="36" fill="#c6d5db"/>
-		<rect width="7" height="10" x="20" y="27" fill="#e1e8ed"/>
-		<rect width="7" height="12" rx="3.5" x="24" y="30" fill="#e1e8ed"/>
-		<rect width="6" height="12" rx="3" ry="3.5" x="23" y="30" fill="#c6d5db"/>
-		<rect width="3" height="5" x="27" y="29" fill="#c6d5db"/>
-	</g>
-	<g clip-path="url(#clipPath268)">
-		<rect width="36" height="36" fill="#c6d5db"/>
-		<rect width="3" height="19" x="24" y="17" fill="#edf1f4"/>
-	</g>
-	<g clip-path="url(#clipPath290)">
-		<rect width="36" height="36" fill="#c6d5db"/>
-		<rect width="3" height="19" x="6" y="8" fill="#edf1f4"/>
-	</g>
-	<g clip-path="url(#clipPath312)">
-		<rect width="36" height="36" fill="#c6d5db"/>
-		<rect width="3" height="19" x="24" y="-1" fill="#edf1f4"/>
+	<g clip-path="url(#all)" class="toolight">
+		<use href="#link1" x="9" y="9"/>
+		<use href="#link1" x="9" y="27"/>
+		<use href="#link1" x="27" y="18"/>
+		<use href="#link1" x="27" y="0"/>
+		<use href="#link1" x="27" y="36"/>
+		
+		<use href="#link2" x="9" y="18"/>
+		<use href="#link2" x="9" y="0"/>
+		<use href="#link2" x="9" y="36"/>
+		<use href="#link2" x="27" y="9"/>
+		<use href="#link2" x="27" y="27"/>
 	</g>
 </svg>
