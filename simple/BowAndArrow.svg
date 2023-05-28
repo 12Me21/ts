@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<g>
+		<path d="M 21.28,4.28 c -9,0 -10.5,1.5 -13,4 s -4,4 -4,13 c 0,11.18 -2,14 -1,14 s 3,-2 3,-4 s -2,-13 5,-20 c 7,-7 18,-5 20,-5 s 4,-2 4,-3 s -2.82,1 -14,1 Z" fill="#c1694f"/>
+		<g stroke-width="1" stroke-linecap="round" fill="none" stroke="#d99e82">
+			<path d="M 29,29.78 h-25.22"/>
+			<path d="M 29.78,29 v-25.22"/>
+		</g>
+	</g>
+	<g>
+		<path d="M 0,0 l 8.45,2.863 l -3.52,2.092 l -2.137,3.565 l -2.793,-8.52 Z" fill="#99aab5"/>
+		<g>
+			todo: arrange these
+			<ellipse rx="1.5" ry="3.5" transform="translate(24.6144,27.67435) rotate(-10.859)" fill="#dd2e44"/>
+			<ellipse rx="1.5" ry="3.5" transform="translate(25.09615,28.74805) rotate(-10.880)" fill="#f4900c"/>
+			<ellipse rx="1.5" ry="3.5" transform="translate(26.4855,30.13675) rotate(-10.878)" fill="#a0041e"/>
+			<ellipse rx="1.5" ry="3.5" transform="translate(27.8996,31.55085) rotate(-10.878)" fill="#dd2e44"/>
+			<ellipse rx="3.5" ry="1.5" transform="translate(27.67435,24.6144) rotate(10.859)" fill="#dd2e44"/>
+			<ellipse rx="3.5" ry="1.5" transform="translate(28.74805,25.09615) rotate(10.880)" fill="#f4900c"/>
+			<ellipse rx="3.5" ry="1.5" transform="translate(30.13675,26.4855) rotate(10.878)" fill="#a0041e"/>
+			<ellipse rx="3.5" ry="1.5" transform="translate(31.55085,27.8996) rotate(10.878)" fill="#dd2e44"/>
+		</g>
+		<path d="M 29.692,29.692 L 4.828,4.828" stroke-width="1.958" stroke-linecap="round" fill="none" stroke="#ccd6dd"/>
+	</g>
+</svg>
