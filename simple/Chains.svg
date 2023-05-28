@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	why does this use #c6d5db?
+	i believe the entire thing should be darkened (note that "Link" uses #8899A6 while "Chains" uses #c6d5db, #e1e8ed, #edf1f4, 2 of which are somewhat nonstandard?)
 	<defs>
 		<clipPath id="all">
 			<rect width="36" height="36"/>
