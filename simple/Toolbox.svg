@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<path fill="none" stroke="#292F33" stroke-width="3" d="M 8,8 V 4 a 2,2 0 01 2,-2 h 16 a 2,2 0 01 2,2 v4"/>
+	<path fill="#DD2E44" d="M 34,-4 s 0,4 -4,4 h-26 c -4,0 -4,-4 -4,-4 v-19 c 0,-4 4,-4 4,-4 h26 s 4,0 4,4 v19 Z" transform="translate(0 36) scale(1.05882)"/> 1.05882.. = 36/34 (i.e. this was initially drawn at 34 units wide and then scaled up to 36)
+	<g fill="#BE1931">
+		<rect width="36" height="2" x="0" y="15"/>
+		<rect width="28" height="2" x="4" y="24"/>
+		<rect width="28" height="2" x="4" y="30"/>
+	</g>
+	<g fill="#CCD6DD">
+		<rect width="28" height="2" x="4" y="22"/>
+		<rect width="28" height="2" x="4" y="28"/>
+	</g>
+	<g fill="#AAB8C2">
+		<rect width="4" height="6" rx="1" x="7" y="13"/>
+		<rect width="4" height="6" rx="1" x="25" y="13"/>
+	</g>
+	<g fill="#292F33">
+		<g>
+			<path d="M 8,18 v-3 h2 v3 h-2 Z"/>
+			<path d="M 7,17 h4 v1 a 1,1 0 01 -1,1 h-2 a 1,1 0 01 -1,-1 v-1 Z"/>
+		</g>
+		<g>
+			<path d="M 26,18 v-3 h2 v3 h-2 Z"/>
+			<path d="M 25,17 h4 v1 a 1,1 0 01 -1,1 h-2 a 1,1 0 01 -1,-1 v-1 Z"/>
+		</g>
+	</g>
+</svg>
