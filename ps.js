@@ -182,7 +182,9 @@ for (let [x] of text.matchAll(token)) {
 			assert(pop()==1, 'i')
 		},
 		'j'() {
-			assert(pop()==0, 'j')
+			let c = pop()
+			if (c)
+				elem.attr['stroke-linejoin'] = 'round'
 		},
 		'J'() {
 			let c = pop()
