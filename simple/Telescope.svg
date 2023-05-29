@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<g>
+		<rect width="12" height="4" rx="2" x="11" y="23" fill="#292f33"/>
+		<circle r="3" cx="17" cy="20" fill="#99aab5"/>
+		<path d="M 9.468,36 h-4.416 l 4.137,-8.846 a 2,2 0 01 2.658,-0.965 a 2,2 0 01 0.965,2.659 l -3.344,7.152 Z" fill="#99aab5"/>
+		<path d="M 24.532,36 l -3.344,-7.152 a 2,2 0 01 0.965,-2.659 a 2,2 0 01 2.658,0.965 l 4.137,8.846 h-4.416 Z" fill="#99aab5"/> nnh
+		<path d="M 19,36 h-4 v-8 a 2,2 0 01 2,-2 a 2,2 0 01 2,2 v8 Z" fill="#99aab5"/>
+	</g>
+	<g transform="rotate(28.07)"> it's rotated around the ORIGIN, woah
+		<rect width="16" height="8" rx="1" x="9" y="-1" fill="#dd2e44"/>
+		<rect width="13" height="6" rx="1" x="25" y="0" fill="#dd2e44"/>
+		<rect width="2" height="6" x="25" y="0" fill="#be1931"/>
+		<rect width="4" height="6" x="36" y="0" fill="#a0041e"/>
+		<path d="M 11,7 h-6 a 1,1 0 01 -1,-1 v-6 a 1,1 0 01 1,-1 h6 v8 Z" fill="#292f33"/>
+	</g>
+</svg>
