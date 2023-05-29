@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	for some reason this was scaled down from 36×36 to 35×35, despite fitting perfectly in the bounding box.
+	I would highly recommend undoing this, since it ruins the alignment, and generally emojis don't have extra padding
+	(also keep in mind that twitter/twemoji adds margins when displaying emojis anyway)
+	<g transform="translate(18 18) scale(0.9722)"> 0.9722.. = 35/36
+		<g>
+			<path fill="#D99E82" d="M -15.5,3.5 l 19,-19 a 6,6 0 01 12,12 l -19,19 a 6,6 0 01 -12,-12 Z"/>
+			<g fill="#C1694F">
+				<circle r="1" cx="-14" cy="8"/>
+				<circle r="1" cx="-11" cy="11"/>
+				<circle r="1" cx="-8" cy="14"/>
+				
+				<circle r="1" cx="-11" cy="5"/>
+				<circle r="1" cx="-8" cy="8"/>
+				<circle r="1" cx="-5" cy="11"/>
+				
+				<circle r="1" transform="translate(5,-11) rotate(6.851)"/> i could've fixed this but it's just too silly www
+				<circle r="1" cx="8" cy="-8"/>
+				<circle r="1" cx="11" cy="-5"/>
+				
+				<circle r="1" cx="8" cy="-14"/>
+				<circle r="1" cx="11" cy="-11"/>
+				<circle r="1" cx="14" cy="-8"/>
+			</g>
+		</g>
+		<g>
+			#EABAA7 and #F7DED5 are unique colors
+			<path fill="#EABAA7" d="M 11.5,0.5 l -11,11 l -12,-12 l 11,-11 l 12,12 Z"/>
+			<path d=" M -8.5,-0.5 L -0.5,-8.5" stroke-width="2" stroke-linecap="round" fill="none" stroke="#F7DED5"/>
+		</g>
+	</g>
+</svg>
