@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	Similar to SpiralNotebook
+	<defs>
+		<clipPath id="clipPath30">
+			<path d="M 6,4 h24 a 4,4 0 01 4,4 v24 a 4,4 0 01 -4,4 h-24 a 4,4 0 01 -4,-4 v-24 a 4,4 0 01 4,-4 Z"/>
+		</clipPath>
+		<path id="ring1" d="M 8.543,7.083 c 0.064,0.579 -0.4,1.302 -1.159,1.026 c -1.525,-0.554 -2.57,-2.072 -2.57,-3.925 c 0,-2.186 1.567,-4.005 3.5,-4.005 c 1.921,0 3.476,1.821 3.497,3.821 h-1.997 c 0,-1 -0.67,-1.905 -1.5,-1.905 c -0.829,0 -1.5,0.99 -1.5,2.095 c 0,0.869 0.515,1.57 1,1.876 c 0.355,0.225 0.674,0.538 0.729,1.017 Z"/>
+	</defs>
+	<g fill="#66757f">
+		<path d="M 10.814,4 l 0.998,-0.998 l 0.999,0.998 v2.391 h-1.997 v-2.391 Z"/>
+		<path d="M 16.814,4 l 0.998,-0.998 l 0.999,0.998 v2.391 h-1.997 v-2.391 Z"/>
+		<path d="M 22.814,4 l 0.998,-0.998 l 0.999,0.998 v2.391 h-1.997 v-2.391 Z"/>
+		<path d="M 28.814,4 l 0.998,-0.998 l 0.999,0.998 v2.391 h-1.997 v-2.391 Z"/>
+	</g>
+	<g clip-path="url(#clipPath30)">
+		<path d="M 0,15 l 3,-3 h 30 l 3,3 V 36 H 0 Z" fill="#ccd6dd"/>
+		<rect width="36" height="13" fill="#dd2e44"/>
+	</g>
+	<g fill="#ffffff">
+		<rect width="4" height="4" x="11" y="15"/>
+		<rect width="4" height="4" x="16" y="15"/>
+		<rect width="4" height="4" x="21" y="15"/>
+		<rect width="4" height="4" x="26" y="15"/>
+		<rect width="4" height="4" x="6" y="20"/>
+		<rect width="4" height="4" x="11" y="20"/>
+		<rect width="4" height="4" x="16" y="20"/>
+		<rect width="4" height="4" x="21" y="20"/>
+		<rect width="4" height="4" x="26" y="20"/>
+		<rect width="4" height="4" x="6" y="25"/>
+		<rect width="4" height="4" x="11" y="25"/>
+		<rect width="4" height="4" x="16" y="25"/>
+		<rect width="4" height="4" x="21" y="25"/>
+		<rect width="4" height="4" x="26" y="25"/>
+		<rect width="4" height="4" x="6" y="30"/>
+		<rect width="4" height="4" x="11" y="30"/>
+		<rect width="4" height="4" x="16" y="30"/>
+	</g>
+	<g fill="#292f33">
+		<ellipse rx="1.2705" ry="1.4895" cx="8.8354" cy="7.241"/>
+		<ellipse rx="1.2705" ry="1.4895" cx="14.8354" cy="7.241"/>
+		<ellipse rx="1.2705" ry="1.4895" cx="20.8354" cy="7.241"/>
+		<ellipse rx="1.2705" ry="1.4895" cx="26.8354" cy="7.241"/>
+	</g>
+	<g fill="#66757f">
+		<use href="#ring1" x="1"/>
+		<use href="#ring1" x="7"/>
+		<use href="#ring1" x="13"/>
+		<use href="#ring1" x="19"/>
+	</g>
+</svg>
