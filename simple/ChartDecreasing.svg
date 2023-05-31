@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<g>
+		<rect width="32" height="32" rx="3" x="2" y="2" fill="#CCD6DD"/>
+		<g stroke-width="2" fill="none" stroke="#E1E8ED">
+			<rect width="32" height="32" rx="3" x="2" y="2"/>
+			<path d="M 10,2 v32"/>
+			<path d="M 18,2 v32"/>
+			<path d="M 26,2 v32"/>
+			<path d="M 2,10 h32"/>
+			<path d="M 2,18 h32"/>
+			<path d="M 2,26 h32"/>
+		</g>
+	</g>
+	<g stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#3B94D9"> kinda weird color, i think this should just be changed to regular blue.
+		<path d="M 5,5 l 7,13 l 8,-8 l 11,21"/>
+	</g>
+</svg>

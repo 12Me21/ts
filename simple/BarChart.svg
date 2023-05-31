@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<g>
+		<rect width="32" height="32" rx="3" x="2" y="2" fill="#CCD6DD"/>
+		<g stroke-width="2" fill="none" stroke="#E1E8ED">
+			<rect width="32" height="32" rx="3" x="2" y="2"/>
+			<path d="M 10,2 v32"/>
+			<path d="M 18,2 v32"/>
+			<path d="M 26,2 v32"/>
+			<path d="M 2,10 h32"/>
+			<path d="M 2,18 h32"/>
+			<path d="M 2,26 h32"/>
+		</g>
+	</g>
+	<path d="M 13,33 h-6 v-17 a 2,2 0 01 2,-2 h2 a 2,2 0 01 2,2 v17 Z" fill="#5C913B"/>
+	<path d="M 29,33 h-6 v-24 a 2,2 0 01 2,-2 h2 a 2,2 0 01 2,2 v24 Z" fill="#3B94D9"/> another weird blue..
+	<path d="M 21,33 h-6 v-10 a 2,2 0 01 2,-2 h2 a 2,2 0 01 2,2 v10 Z" fill="#DD2E44"/>
+</svg>
