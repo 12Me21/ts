@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<g id="drawer1">
+			<rect x="8" y="2" width="20" height="15" rx="1" fill="#66757F"/>
+			<rect x="14" y="4" width="8" height="5" rx="1" fill="#292F33"/>
+			<rect width="6" height="3" x="15" y="5" fill="#E1E8ED"/>
+			<rect x="12" y="12" width="12" height="2" rx="0.97" fill="#E1E8ED"/>
+		</g>
+	</defs>
+	<rect x="6" y="0" width="24" height="36" rx="2" fill="#292F33"/>
+	<g class="interleave">
+		<use href="#drawer1"/>
+		<use href="#drawer1" y="17"/>
+	</g>
+</svg>
