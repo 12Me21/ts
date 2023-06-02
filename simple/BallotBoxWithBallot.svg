@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<g>
+		<path d="M 3.5,11 c 0.25,-1.75 1,-2 2,-2 h25 c 1,0 1.75,0.25 2,2 l 2,14 c 0,2.204 -1.791,2 -4,2 h-25 c -2.209,0 -4,0.204 -4,-2 l 2,-14 Z" fill="#88c9f9"/>
+		<rect width="21" height="3" rx="1.5" x="7.5" y="15" fill="#292f33"/>
+		<path d="M 34.5,25 v8 a 2,2 0 01 -2,2 h-29 a 2,2 0 01 -2,-2 v-8 a 2,2 0 01 2,-2 h29 a 2,2 0 01 2,2 Z" fill="#55acee"/>
+		<g>
+			<rect width="9" height="5" rx="2" x="13.5" y="20" fill="#55acee"/>
+			<path d="M 13.5,23 h9 v6 a 2,2 0 01 -2,2 h-5 a 2,2 0 01 -2,-2 v-6 Z" fill="#3b88c3"/>
+			<rect width="3" height="4" rx="1.5" x="16.5" y="25" fill="#55acee"/>
+		</g>
+	</g>
+	
+	<g>
+		<path d="M 26.5,17 h-17 v-14 a 2,2 0 01 2,-2 h13 a 2,2 0 01 2,2 v14 Z" fill="#FFD983"/> in the 12.1.3 update, the colors of this emoji changed, and they also moved this layer slightly off center, which i'm going to assume was a mistake.
+		<g fill="#C1694F">
+			<rect width="8.5" height="1" rx="0.5" x="15.5" y="4.5"/>
+			<rect width="8.5" height="1" rx="0.5" x="15.5" y="8.5"/>
+			<rect width="8.5" height="1" rx="0.5" x="15.5" y="12.5"/>
+			<circle r="1" cx="13" cy="5"/>
+			<circle r="1" cx="13" cy="9"/>
+			<circle r="1" cx="13" cy="13"/>
+		</g>
+	</g>
+</svg>

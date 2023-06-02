@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<path d="M 22,33 c 0,2.209 -8,2.209 -8,0 v-10 a 4,4 0 01 8,0 v10 Z" fill="#C1694F"/>
+	<g fill="#99AAB5">
+		<path d="M 10,3 h16 a 8,8 0 01 8,8 v12 h-24 v-20 Z"/>
+		<path d="M 2,11 a 8,8 0 01 8,-8 a 8,8 0 01 8,8 v12 h-16 v-12 Z" fill="#292F33"/>
+	</g>
+	<g fill="#DD2E44" transform="matrix(0 1 -1 0 22 15)">
+		<rect width="4" height="14" rx="2" x="-2" y="-12"/>
+		<rect width="8" height="6" rx="2" x="-2" y="-14"/>
+	</g>
+</svg>
