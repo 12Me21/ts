@@ -1,381 +1,417 @@
-1	#005792	JapaneseDolls
-1	#1213BD	NazarAmulet
-1	#138F3E	RainbowFlag
-1	#14171A	VideoGame
-1	#157569	StatueOfLiberty
-1	#17BF63	TestTube
-1	#191919	Wheel
-1	#1D567C	Briefs
+nonstandard colors:
+
+11	#3B94D9	Abacus	Alembic	BarChart	CarouselHorse	ChartDecreasing	FerrisWheel	Fountain	Hamsa	Infinity	NestWithEggs	RollerCoaster
+6	#50A5E6	Alembic	BilledCap	Bubbles	Fountain	VideoGame	XRay
+14	#272B2B	Amphora	Bear	CowFace	Deer	Dog	Fox	GuideDog	Hamster	Lion	MouseFace	Panda	PolarBear	ServiceDog	TigerFace
+1	#B3BEC4	Baseball
+1	#546066	Bat
+1	#EABAA7	AdhesiveBandage
+1	#F7DED5	AdhesiveBandage
+1	#D84864	AnatomicalHeart
+1	#F7DAE2	AnatomicalHeart
 1	#1E5200	AutoRickshaw
-1	#1F2326	Dolphin
+1	#7C3225	Avocado
+4	#E5A157	BaguetteBread	Flatbread	StuffedFlatbread	YenBanknote
+2	#EDB980	BaguetteBread	YenBanknote
+1	#AE3D2F	Beans
+1	#CA694D	Beans
+1	#F6CFB2	Beans
+1	#93493B	Beaver
+2	#FFE9B7	Beaver	Mammoth
+1	#B26304	BentoBox
+1	#B2C2CC	BentoBox
+1	#E3A919	BeverageBox
+1	#2B7BB9	BilledCap
+7	#1C6399	BilledCap	Butterfly	CarouselHorse	Fountain	RollerCoaster	Socks	XRay
+1	#FFF8E8	BirthdayCake
+1	#78273B	BitingLip
+2	#F4F7F9	BitingLip	CreditCard
+1	#7F676D	BlackCat
+1	#C3C914	BlackCat
 1	#253356	Blueberries
+1	#334372	Blueberries
+1	#5864B7	Blueberries
+1	#F2C994	Bone
+1	#E4EBEF	BottleWithPoppingCork
 1	#264612	BottleWithPoppingCork
+2	#A95233	BottleWithPoppingCork	Chestnut
+1	#CC927A	Bread
+2	#004A77	BridgeAtNight	Bucket
+2	#FE5011	BridgeAtNight	Foggy
+1	#9A4E1C	Briefcase
+1	#1D567C	Briefs
+1	#2976AA	Briefs
+3	#F2F9FF	Bubbles	Castle	Fountain
+4	#A8E0F9	Bubbles	Coral	Hamsa	NestWithEggs
+1	#D3A471	BubbleTea
+1	#ECD2A7	BubbleTea
+1	#A6A6A6	Burrito
+1	#BDBDBD	Burrito
+1	#D8D8D8	Burrito
+1	#D67503	Carrot
+1	#FD9	Cat
+1	#FFCC4E	Cat
+1	#C6D5DB	Chains
+1	#EDF1F4	Chains
+1	#A4523A	Chair
+1	#AD743D	Chipmunk
+2	#485359	CityscapeAtDusk	Sunset
+4	#FA743E	ClinkingBeerMugs	ClinkingGlasses	Coral	SpeakingHead
+1	#603913	Coconut
+2	#8B5E3C	Coconut	Eye
+1	#A97C50	Coconut
+2	#A04E3C	Coffin	PottedPlant
+1	#E6E9EA	CookedRice
+1	#FBBEA9	Coral
+2	#846659	Cricket	Otter
+2	#CAB8AC	Cricket	Otter
+3	#A78E81	Cricket	Otter	Sloth
+1	#DB7803	Croissant
+1	#E8EAEB	CrossedFlags
+1	#981CEB	Crown
+1	#3C96CE	DivingMask
+1	#4E9322	DivingMask
+1	#7F031E	DiyaLamp
+1	#E08110	Dodo
+1	#380F09	DogFace
+4	#F4C7B5	DogFace	Dog	GuideDog	ServiceDog
+1	#1F2326	Dolphin
+1	#4292E0	Dolphin
+1	#77BCF7	Dolphin
+1	#AC5640	Door
+2	#AA695B	Drum	SteamingBowl
+1	#F7B82D	EarOfCorn
+1	#E0AA94	Egg
+2	#65471B	EmptyNest	NestWithEggs
+2	#936D46	EmptyNest	NestWithEggs
+2	#A57F5A	EmptyNest	NestWithEggs
+2	#BD9366	EmptyNest	NestWithEggs
+2	#DEAD74	EmptyNest	NestWithEggs
+1	#933813	Falafel
+1	#A0AD55	Falafel
+1	#C15829	Falafel
+1	#C4CE89	Falafel
+1	#9E5200	FirstPlaceMedal
+1	#D372B8	FishCakeWithSwirl
+1	#964F45	Flatbread
+2	#EDB97F	Flatbread	StuffedFlatbread
+1	#FF839B	FriedShrimp
+1	#754C29	Giraffe
+1	#8C989F	GoalNet
+1	#377700	GuideDog
+1	#489C00	GuideDog
+1	#D67909	HammerAndPick
+1	#A06253	Herb
+1	#C7521E	HinduTemple
+1	#FF8044	HinduTemple
+1	#FFA06C	HinduTemple
+1	#7D8B93	Hole
+1	#F7BBA6	HotDog
+1	#9BC2D4	Ice
+1	#CFE1EA	Ice
+2	#ADD3E0	Ice	Syringe
+2	#C1E1EA	Ice	Syringe
+2	#D2ECF3	Ice	Syringe
+1	#7D7585	IdentificationCard
+1	#DFCEBF	IdentificationCard
+1	#FFFFF5	IdentificationCard
+1	#005792	JapaneseDolls
 1	#26AAE1	JapaneseDolls
 1	#27AAE1	JapaneseDolls
-1	#289193	Toothbrush
-1	#292E32	TRex
-1	#2976AA	Briefs
-1	#2B7BB9	BilledCap
-1	#313131	Wheel
-1	#334372	Blueberries
-1	#3558A0	RainbowFlag
-1	#377700	GuideDog
-1	#380F09	DogFace
-1	#383A18	MilitaryHelmet
-1	#394146	GraduationCap
-1	#3A87C2	Bullseye
-1	#3C96CE	DivingMask
-1	#3D130C	MouseTrap
-1	#3DB8C1	Toothbrush
-1	#3E701E	TRex
-1	#3F484C	NightWithStars
-1	#3FC9B9	StatueOfLiberty
-1	#4292E0	Dolphin
-1	#464F25	MilitaryHelmet
-1	#47DED4	JapaneseSymbolForBeginner
-1	#489C00	GuideDog
-1	#49A8FF	MirrorBall
-1	#4A4153	Troll
-1	#4CA0D3	Necktie
-1	#4E9322	DivingMask
-1	#511212	MouseTrap
-1	#53626C	Unicorn
-1	#546066	Bat
-1	#553986	AlienMonster
-1	#583529	Scorpion
-1	#5864B7	Blueberries
-1	#5BCEFA	TransgenderFlag
-1	#5C913A	TRex
-1	#60379A	Unicorn
-1	#603913	Coconut
-1	#627077	SecondPlaceMedal
-1	#66A141	Sari
-1	#677032	MilitaryHelmet
-1	#679E44	LeafyGreen
-1	#68E090	TestTube
-1	#69615D	Troll
-1	#717735	MilitaryHelmet
-1	#732700	Sunflower
-1	#744629	Troll
-1	#7450A0	Stadium
-1	#7450A8	OnePieceSwimsuit
-1	#754C29	Giraffe
-1	#758795	Unicorn
-1	#77B155	TRex
-1	#77BCF7	Dolphin
-1	#78273B	BitingLip
-1	#787878	Wheel
-1	#788895	Tornado
-1	#7A5C44	Sloth
-1	#7C3225	Avocado
-1	#7C4119	ThirdPlaceMedal
-1	#7D7585	IdentificationCard
-1	#7D8B93	Hole
-1	#7F031E	DiyaLamp
-1	#7F676D	BlackCat
-1	#803F29	MansShoe
-1	#8767AC	Rainbow
-1	#880082	RainbowFlag
-1	#89021F	Lobster
-1	#898379	Troll
-1	#8C989F	GoalNet
-1	#8E0042	RoastedSweetPotato
-1	#909B50	Olive
-1	#929497	Pancakes
-1	#933813	Falafel
-1	#934035	TeddyBear
-1	#93493B	Beaver
-1	#964F45	Flatbread
-1	#981CEB	Crown
-1	#994308	SafetyVest
-1	#994500	MoonCake
-1	#9A4E1C	Briefcase
-1	#9BC2D4	Ice
-1	#9E5200	FirstPlaceMedal
-1	#A06253	Herb
-1	#A0AD55	Falafel
-1	#A3A364	MilitaryHelmet
-1	#A4523A	Chair
-1	#A5503C	Mate
-1	#A6373B	PouringLiquid
-1	#A6A6A6	Burrito
-1	#A6D488	Motorway
-1	#A8B6C0	SnowCappedMountain
-1	#A8C1FF	MirrorBall
-1	#A97C50	Coconut
-1	#AC5640	Door
-1	#AD5810	Pretzel
-1	#AD743D	Chipmunk
-1	#ADE3FF	MirrorBall
-1	#AE3D2F	Beans
-1	#AEBBC1	Laptop
-1	#B0F7FF	MirrorBall
-1	#B26304	BentoBox
-1	#B27962	PotOfFood
-1	#B2C2CC	BentoBox
-1	#B3282C	RedEnvelope
-1	#B3BEC4	Baseball
-1	#B52E04	LongDrum
-1	#B90053	RoastedSweetPotato
-1	#BD2032	BuildingConstruction
-1	#BDBDBD	Burrito
-1	#BE2032	GoalNet
-1	#BECA28	Softball
-1	#C09154	Orangutan
-1	#C15829	Falafel
-1	#C1CDD5	Unicorn
-1	#C36446	MansShoe
-1	#C3C914	BlackCat
-1	#C43512	Unicorn
-1	#C45400	Orangutan
-1	#C4CE89	Falafel
-1	#C6D5DB	Chains
-1	#C6E4B5	WiltedFlower
-1	#C7521E	HinduTemple
-1	#C7CC62	Olive
-1	#CA694D	Beans
-1	#CBB8E9	PoundBanknote
-1	#CC6F00	TropicalDrink
-1	#CC927A	Bread
-1	#CCB3FF	MirrorBall
-1	#CDD6DD	TokyoTower
-1	#CDD7DF	BuildingConstruction
-1	#CFE1EA	Ice
 1	#D14A15	JapaneseDolls
-1	#D17A28	Pancakes
-1	#D372B8	FishCakeWithSwirl
-1	#D3790D	Waffle
-1	#D39954	Onion
-1	#D3A471	BubbleTea
-1	#D42544	LowBattery
-1	#D65073	Worm
-1	#D67503	Carrot
-1	#D67909	HammerAndPick
-1	#D84864	AnatomicalHeart
-1	#D8D8D8	Burrito
-1	#D9B981	Orangutan
-1	#D9DDDC	PouringLiquid
-1	#DA9E82	Mammoth
-1	#DA9F83	Cookie
-1	#DAC8B1	OfficeBuilding
-1	#DB7803	Croissant
-1	#DC282C	RedEnvelope
-1	#DD551F	PlaygroundSlide
-1	#DFCEBF	IdentificationCard
-1	#E08110	Dodo
-1	#E0AA94	Egg
-1	#E0E7EC	Calendar
-1	#E18524	Pancakes
-1	#E2121C	RingBuoy
-1	#E26000	Orangutan
-1	#E27E00	TumblerGlass
-1	#E29386	RiceCracker
-1	#E2A759	Onion
-1	#E2D2C7	Sloth
-1	#E2EA55	Softball
-1	#E39F3D	Scroll
-1	#E3A919	BeverageBox
-1	#E4973E	TumblerGlass
-1	#E4EBEF	BottleWithPoppingCork
-1	#E5922E	Pancakes
-1	#E6E9EA	CookedRice
-1	#E85E00	RingedPlanet
-1	#E8EAEB	CrossedFlags
-1	#E954D2	Pinata
-1	#E9AB61	TumblerGlass
-1	#E9EFF3	Stadium
-1	#EA564B	Mango
-1	#EABAA7	AdhesiveBandage
-1	#EB2027	Rainbow
-1	#EB7421	SafetyVest
-1	#EB8CAA	Plunger
-1	#EC9DAD	PoliceCarLight
-1	#ECD2A7	BubbleTea
-1	#EDD6A6	Onion
-1	#EDF1F4	Chains
-1	#EE7C0E	Unicorn
+1	#F26522	JapaneseDolls
+1	#FFB699	JapaneseDolls
+1	#47DED4	JapaneseSymbolForBeginner
+1	#FFFF87	JapaneseSymbolForBeginner
+1	#F9CA55	Jar
+5	#AEB3B2	Jar	PlaygroundSlide	PouringLiquid	RingBuoy	Wheel
+2	#C4C9C8	Jar	PouringLiquid
+1	#679E44	LeafyGreen
+1	#89021F	Lobster
+1	#B52E04	LongDrum
 1	#EF8294	Lotus
-1	#EF8EA7	Worm
+1	#FFD4DE	LoveHotel
+1	#D42544	LowBattery
+1	#FF475C	LowBattery
+1	#EA564B	Mango
+1	#F97253	Mango
+1	#803F29	MansShoe
+1	#C36446	MansShoe
+1	#A5503C	Mate
+1	#383A18	MilitaryHelmet
+1	#464F25	MilitaryHelmet
+1	#677032	MilitaryHelmet
+1	#717735	MilitaryHelmet
+1	#A3A364	MilitaryHelmet
+1	#49A8FF	MirrorBall
+1	#A8C1FF	MirrorBall
+1	#ADE3FF	MirrorBall
+1	#B0F7FF	MirrorBall
+1	#CCB3FF	MirrorBall
 1	#F0FFFF	MirrorBall
 1	#F1C6FF	MirrorBall
-1	#F1DCC1	OfficeBuilding
-1	#F1F1F1	SnowCappedMountain
-1	#F26522	JapaneseDolls
-1	#F2ABBA	PileOfPoo
-1	#F2C994	Bone
-1	#F3D2A2	MediumLightSkinTone
-1	#F492A9	PickupTruck
-1	#F4BD61	TumblerGlass
-1	#F5A9B8	TransgenderFlag
-1	#F6CFB2	Beans
-1	#F7B82D	EarOfCorn
-1	#F7BBA6	HotDog
-1	#F7DAE2	AnatomicalHeart
-1	#F7DED5	AdhesiveBandage
-1	#F97253	Mango
-1	#F98097	ShavedIce
+1	#994500	MoonCake
+1	#3D130C	MouseTrap
+1	#511212	MouseTrap
 1	#F98E00	MouseTrap
-1	#F9CA55	Jar
-1	#F9D2DC	ShavedIce
-1	#FA3C32	RedEnvelope
+1	#1213BD	NazarAmulet
+1	#4CA0D3	Necktie
+1	#3F484C	NightWithStars
+1	#DAC8B1	OfficeBuilding
+1	#F1DCC1	OfficeBuilding
+1	#909B50	Olive
+1	#C7CC62	Olive
+1	#D39954	Onion
+1	#E2A759	Onion
+1	#EDD6A6	Onion
+1	#C09154	Orangutan
+1	#C45400	Orangutan
+1	#D9B981	Orangutan
+1	#E26000	Orangutan
+1	#D17A28	Pancakes
+1	#E18524	Pancakes
+1	#E5922E	Pancakes
+1	#FF886C	Peach
+1	#F492A9	PickupTruck
+1	#E954D2	Pinata
+1	#DD551F	PlaygroundSlide
 1	#FA8948	PlaygroundSlide
 1	#FAA572	PlaygroundSlide
 1	#FAC19C	PlaygroundSlide
-1	#FAD220	RainbowFlag
-1	#FBBEA9	Coral
-1	#FCB1E3	Dango
-1	#FCFB65	SafetyVest
-1	#FD9	Cat
-1	#FF000E	RainbowFlag
-1	#FF4018	RingBuoy
-1	#FF475C	LowBattery
-1	#FF7300	RainbowFlag
-1	#FF8044	HinduTemple
-1	#FF839B	FriedShrimp
-1	#FF886C	Peach
-1	#FF8A3B	ThirdPlaceMedal
-1	#FF960D	Sari
-1	#FFA06C	HinduTemple
-1	#FFB699	JapaneseDolls
-1	#FFB900	TumblerGlass
-1	#FFCB4C	Rainbow
-1	#FFCC4E	Cat
-1	#FFCCD6	Soap
-1	#FFD4DE	LoveHotel
-1	#FFD671	RoastedSweetPotato
-1	#FFD882	Pancakes
-1	#FFE933	RedEnvelope
-1	#FFEBA5	Troll
-1	#FFF8E8	BirthdayCake
-1	#FFFF87	JapaneseSymbolForBeginner
-1	#FFFFF5	IdentificationCard
-2	#004A77	BridgeAtNight	Bucket
-2	#226798	Rainbow	Stadium
-2	#485359	CityscapeAtDusk	Sunset
-2	#65471B	EmptyNest	NestWithEggs
-2	#7C533E	DarkSkinTone	Scorpion
-2	#846659	Cricket	Otter
-2	#854836	CrystalBall	Door
-2	#8B5E3C	Coconut	Eye
-2	#9268CA	CardIndexDividers	OnePieceSwimsuit
-2	#936D46	EmptyNest	NestWithEggs
-2	#A04E3C	Coffin	PottedPlant
-2	#A57F5A	EmptyNest	NestWithEggs
-2	#A7D28B	DollarBanknote	MoneyWithWings
-2	#A95233	BottleWithPoppingCork	Chestnut
-2	#AA695B	Drum	SteamingBowl
-2	#ADD3E0	Ice	Syringe
-2	#AF7E57	MediumDarkSkinTone	Scorpion
-2	#BD9366	EmptyNest	NestWithEggs
+1	#EB8CAA	Plunger
 2	#BF345D	Plunger	Worm
-2	#C1E1EA	Ice	Syringe
-2	#C4C9C8	Jar	PouringLiquid
-2	#CAB8AC	Cricket	Otter
-2	#CCD6DC	Pancakes	Stadium
-2	#D2ECF3	Ice	Syringe
-2	#D5AB88	Abacus	MediumSkinTone
-2	#DD2F45	Calendar	Stadium
 2	#DD637F	Plunger	Worm
-2	#DEAD74	EmptyNest	NestWithEggs
+1	#EC9DAD	PoliceCarLight
+1	#B27962	PotOfFood
+1	#A6373B	PouringLiquid
+1	#D9DDDC	PouringLiquid
+1	#AD5810	Pretzel
+1	#8767AC	Rainbow
+1	#EB2027	Rainbow
+1	#138F3E	RainbowFlag
+1	#3558A0	RainbowFlag
+1	#880082	RainbowFlag
+1	#FAD220	RainbowFlag
+1	#FF000E	RainbowFlag
+1	#FF7300	RainbowFlag
+1	#B3282C	RedEnvelope
+1	#DC282C	RedEnvelope
+1	#FA3C32	RedEnvelope
+1	#FFE933	RedEnvelope
+4	#E95F28	RedHair	Rosette	Volcano	WaterPistol
+1	#E29386	RiceCracker
+1	#E2121C	RingBuoy
+1	#FF4018	RingBuoy
 2	#E1E1E1	RingBuoy	Wheel
-2	#EDB97F	Flatbread	StuffedFlatbread
-2	#EDB980	BaguetteBread	YenBanknote
-2	#EDBB9F	Joker	PostOffice
-2	#F4F7F9	BitingLip	CreditCard
-2	#F7DECE	Egg	LightSkinTone
-2	#FAAA35	BirthdayCake	Pancakes
-2	#FE5011	BridgeAtNight	Foggy
-2	#FFE9B7	Beaver	Mammoth
+1	#E85E00	RingedPlanet
+1	#8E0042	RoastedSweetPotato
+1	#B90053	RoastedSweetPotato
+1	#FFD671	RoastedSweetPotato
+1	#994308	SafetyVest
+1	#EB7421	SafetyVest
+1	#FCFB65	SafetyVest
+1	#66A141	Sari
+1	#FF960D	Sari
+1	#583529	Scorpion
+1	#E39F3D	Scroll
+1	#627077	SecondPlaceMedal
+1	#F98097	ShavedIce
+1	#F9D2DC	ShavedIce
+1	#7A5C44	Sloth
+1	#E2D2C7	Sloth
+1	#FFCCD6	Soap
+1	#BECA28	Softball
+1	#E2EA55	Softball
+1	#E9EFF3	Stadium
+1	#157569	StatueOfLiberty
+1	#3FC9B9	StatueOfLiberty
+1	#732700	Sunflower
+1	#934035	TeddyBear
+1	#17BF63	TestTube
+1	#68E090	TestTube
+1	#7C4119	ThirdPlaceMedal
+1	#FF8A3B	ThirdPlaceMedal
+1	#289193	Toothbrush
+1	#3DB8C1	Toothbrush
+1	#5BCEFA	TransgenderFlag
+1	#F5A9B8	TransgenderFlag
+1	#4A4153	Troll
+1	#69615D	Troll
+1	#744629	Troll
+1	#898379	Troll
+1	#FFEBA5	Troll
+1	#CC6F00	TropicalDrink
+1	#E27E00	TumblerGlass
+1	#E4973E	TumblerGlass
+1	#E9AB61	TumblerGlass
+1	#F4BD61	TumblerGlass
+1	#FFB900	TumblerGlass
+1	#53626C	Unicorn
+1	#60379A	Unicorn
+1	#758795	Unicorn
+1	#C1CDD5	Unicorn
+1	#C43512	Unicorn
+1	#EE7C0E	Unicorn
+1	#14171A	VideoGame
+1	#D3790D	Waffle
+1	#191919	Wheel
+1	#313131	Wheel
+1	#787878	Wheel
+1	#D65073	Worm
+1	#EF8EA7	Worm
+
+
+
+obvious rounding errors:
+1	#FFCB4C	Rainbow
+2	#226798	Rainbow	Stadium
+1	#7450A0	Stadium
+2	#DD2F45	Calendar	Stadium
+4	#5C903F	Mountain	Rainbow	SnowCappedMountain	Stadium
+1	#3E701E	TRex
+1	#5C913A	TRex
+1	#77B155	TRex
+1	#292E32	TRex
+1	#3A87C2	Bullseye
+2	#854836	CrystalBall	Door
 3	#8A4633	Basket	CrossedSwords	Dagger
-3	#9D0522	Drum	Sled	Telescope
-3	#A78E81	Cricket	Otter	Sloth
+1	#929497	Pancakes
+1	#A8B6C0	SnowCappedMountain
+1	#AEBBC1	Laptop
+1	#CDD6DD	TokyoTower
+2	#CCD6DC	Pancakes	Stadium
+1	#CDD7DF	BuildingConstruction
+1	#A6D488	Motorway
+1	#BE2032	GoalNet
+1	#BD2032	BuildingConstruction
+4	#F19020	BuildingConstruction	Jar	Pancakes	Rainbow
+1	#E0E7EC	Calendar
+1	#F1F1F1	SnowCappedMountain
+1	#DA9F83	Cookie
+1	#DA9E82	Mammoth
+2	#FAAA35	BirthdayCake	Pancakes
+1	#FFD882	Pancakes
+
+
+
+skin colors:
+
+5	#FFDC5D	Bald	CurlyHair	Lotus	RedHair	WhiteHair
+2	#F7DECE	Egg	LightSkinTone
+1	#F3D2A2	MediumLightSkinTone
+2	#D5AB88	Abacus	MediumSkinTone
+2	#AF7E57	MediumDarkSkinTone	Scorpion
+2	#7C533E	DarkSkinTone	Scorpion
+
+1	#FCB1E3	Dango
+
+result of transparency:
+1	#394146	GraduationCap
+1	#788895	Tornado
+
+13	#553788	Bikini	Books	BubbleTea	FerrisWheel	Grapes	Joker	MilkyWay	Octopus	PrayerBeads	Sari	SewingNeedle	Thread	WomansClothes
+1	#553986	AlienMonster
+19	#744EAA	Bikini	BookmarkTabs	Bug	ClosedUmbrella	CrystalBall	CupWithStraw	Dna	Eggplant	FerrisWheel	FleurDeLis	Grapes	MilkyWay	Octopus	ShoppingBags	Thread	TopHat	Trackball	Umbrella	UmbrellaWithRainDrops
+1	#7450A8	OnePieceSwimsuit
+53	#9266CC	Aquarius	Aries	AtomSymbol	Books	BubbleTea	Bug	Cancer	Capricorn	ClosedUmbrella	ConfettiBall	Dna	DottedSixPointedStar	FleurDeLis	Gemini	Grapes	GreenSalad	Handbag	IdButton	Joker	Kite	LatinCross	Leo	Libra	MedicalSymbol	Menorah	Octopus	Om	Ophiuchus	OrthodoxCross	PartyPopper	PeaceSymbol	PerformingArts	Pinata	Pisces	PlaceOfWorship	PoundBanknote	Sagittarius	Sari	Scorpio	SlotMachine	Snail	StarAndCrescent	StarOfDavid	Taurus	Thread	TransgenderSymbol	Umbrella	UmbrellaWithRainDrops	Virgo	WheelOfDharma	WomansClothes	WomansHat	YinYang
+2	#9268CA	CardIndexDividers	OnePieceSwimsuit
+15	#AA8DD8	Blueberries	BubbleTea	Bug	ConfettiBall	CrystalBall	Cupcake	FleurDeLis	Grapes	MilkyWay	PartyPopper	Pinata	PoundBanknote	RollerCoaster	Snail	WomansClothes
 3	#AA8ED6	PurpleCircle	PurpleHeart	PurpleSquare
 3	#CBB7EA	FerrisWheel	MilkyWay	PerformingArts
-3	#F2F9FF	Bubbles	Castle	Fountain
-3	#FEE7B8	CardIndexDividers	CatFace	Cat
-4	#2A6797	EuroBanknote	Luggage	Seat	SpeechBalloon
+1	#CBB8E9	PoundBanknote
+
+43	#3E721D	AutoRickshaw	Avocado	Banana	Beetle	BellPepper	Bouquet	Broccoli	Cactus	Camping	ChristmasTree	Crocodile	DeciduousTree	DesertIsland	Desert	DragonFace	Dragon	Duck	EvergreenTree	FlatShoe	GreenApple	GreenBook	LeafyGreen	Lizard	MapOfJapan	Microbe	NationalPark	Olive	PalmTree	Pinata	PottedPlant	Razor	RecyclingSymbol	Rose	Sauropod	Sunflower	SunriseOverMountains	TanabataTree	Tractor	Troll	TropicalDrink	Turtle	WaterPistol	WindChime
 4	#3F7123	ClapperBoard	CouchAndLamp	Headstone	JackOLantern
-4	#5C903F	Mountain	Rainbow	SnowCappedMountain	Stadium
-4	#A8E0F9	Bubbles	Coral	Hamsa	NestWithEggs
-4	#E5A157	BaguetteBread	Flatbread	StuffedFlatbread	YenBanknote
-4	#E95F28	RedHair	Rosette	Volcano	WaterPistol
-4	#F19020	BuildingConstruction	Jar	Pancakes	Rainbow
-4	#F4C7B5	DogFace	Dog	GuideDog	ServiceDog
-4	#FA743E	ClinkingBeerMugs	ClinkingGlasses	Coral	SpeakingHead
-5	#4B545D	BuildingConstruction	Mountain	MountFuji	SnowCappedMountain	Volcano
+77	#5C913B	Abacus	ArtistPalette	AutoRickshaw	BarChart	Battery	Bed	Beetle	BellPepper	BentoBox	Blueberries	Broccoli	Camping	CannedFood	Cherries	ChristmasTree	CocktailGlass	ConfettiBall	Crocodile	Crown	Cucumber	DeciduousTree	DesertIsland	DollarBanknote	Dove	Dragon	EarOfCorn	EmptyNest	EvergreenTree	FerrisWheel	FlagInHole	Frog	GlobeShowingAmericas	GlobeShowingAsiaAustralia	GlobeShowingEuropeAfrica	GreenBook	GreenSalad	Herb	House	HouseWithGarden	LeafyGreen	Lemon	Melon	Microbe	MoneyWithWings	Monorail	Motorway	MountainRailway	NationalPark	NestWithEggs	PalmTree	Parrot	PartyPopper	Peach	PerformingArts	Pineapple	PineDecoration	PotOfFood	PottedPlant	RailwayCar	RailwayTrack	Razor	Sari	Sauropod	Speedboat	Station	SunriseOverMountains	TanabataTree	Tangerine	TeacupWithoutHandle	Tractor	Tram	Trolleybus	TropicalDrink	Turtle	Watermelon	WaterPistol	WorldMap
 5	#5D9040	AirplaneArrival	AirplaneDeparture	CouchAndLamp	Headstone	Shorts
-5	#642116	Banjo	JackOLantern	MonkeyFace	Monkey	Violin
-5	#AEB3B2	Jar	PlaygroundSlide	PouringLiquid	RingBuoy	Wheel
-5	#BDDDF4	Comet	DashingAway	GemStone	SpeechBalloon	ThoughtBalloon
-5	#D79E84	FramedPicture	Kangaroo	MonkeyFace	Monkey	Window
-5	#F1F2F2	CurryRice	Custard	Shortcake	Spaghetti	TumblerGlass
-5	#FFDC5D	Bald	CurlyHair	Lotus	RedHair	WhiteHair
-6	#50A5E6	Alembic	BilledCap	Bubbles	Fountain	VideoGame	XRay
-7	#1C6399	BilledCap	Butterfly	CarouselHorse	Fountain	RollerCoaster	Socks	XRay
-8	#4289C1	BallotBoxWithBallot	EuroBanknote	GemStone	LabCoat	Luggage	Printer	Seat	Zzz
-8	#5B6876	FirstQuarterMoon	LastQuarterMoon	NewMoonFace	NewMoon	WaningCrescentMoon	WaningGibbousMoon	WaxingCrescentMoon	WaxingGibbousMoon
-8	#8CCAF7	BallotBoxWithBallot	Comet	FlyingSaucer	FramedPicture	GemStone	LeftSpeechBubble	Ring	Window
-8	#BB1A34	Balloon	Collision	FramedPicture	Guitar	HundredPoints	LabCoat	Pill	Telescope
-8	#E6AAAA	Bear	CowFace	Deer	Lion	PigNose	Rat	Rhinoceros	TigerFace
-8	#EEE	BeerMug	ClinkingBeerMugs	CurryRice	Panda	RiceBall	Rosette	Sushi	TransgenderFlag
-8	#F18F26	Banjo	Bomb	CardIndexDividers	CatFace	Cat	Drum	Fox	Violin
-8	#FDD888	CardIndexDividers	Dizzy	Drum	Goblin	GraduationCap	HeartWithRibbon	MoneyBag	WrappedGift
-9	#414042	AlarmClock	LightRail	Locomotive	RacingCar	Snowman	SnowmanWithoutSnow	Station	SuspensionRailway	Tram
-9	#C6E5B3	Avocado	FaxMachine	FerrisWheel	Frog	GreenSalad	KiwiFruit	Microbe	Pager	PottedPlant
-10	#8A4B38	Bagel	ChocolateBar	Cookie	Custard	Doughnut	Hedgehog	Horse	HotBeverage	IceCream	Mate
-11	#3B94D9	Abacus	Alembic	BarChart	CarouselHorse	ChartDecreasing	FerrisWheel	Fountain	Hamsa	Infinity	NestWithEggs	RollerCoaster
+104	#77B255	ArticulatedLorry	Battery	Beetle	BellPepper	BentoBox	Blossom	Blueberries	Bouquet	Broccoli	Burrito	Cactus	Carrot	ChartIncreasingWithYen	CheckMarkButton	Cherries	ClutchBag	ConfettiBall	Crocodile	CrossMarkButton	Cucumber	Cupcake	Desert	Dna	DollarBanknote	DragonFace	Dragon	EarOfCorn	Eggplant	EightSpokedAsterisk	EmptyNest	Falafel	FireExtinguisher	FlagInHole	FourLeafClover	Frog	Grapes	GreenApple	GreenBook	GreenSalad	Hamburger	Herb	Hibiscus	HorizontalTrafficLight	HotPepper	HouseWithGarden	InboxTray	JapaneseReservedButton	KiwiFruit	LeafFlutteringInWind	LeafyGreen	Lemon	Lizard	Mango	Mate	Melon	Microbe	MoneyWithWings	MoonViewingCeremony	Motorcycle	Motorway	MountainRailway	NestingDolls	NestWithEggs	Pager	Parrot	PartyPopper	Peach	Peacock	Pinata	PineDecoration	PotOfFood	PottedPlant	RailwayCar	RailwayTrack	Razor	RecyclingSymbol	RedApple	Sandwich	Sari	Sauropod	Seedling	ShallowPanOfFood	Shamrock	SheafOfRice	Snake	Sparkle	Strawberry	StuffedFlatbread	Sushi	Taco	TeacupWithoutHandle	Tennis	Tomato	Tractor	Trolleybus	Troll	TropicalDrink	Tulip	Turtle	VerticalTrafficLight	VideoGame	WaterPistol	WindChime	WorldMap
 11	#78B159	Camping	CardIndexDividers	CouchAndLamp	GreenCircle	GreenHeart	GreenSquare	Headstone	OnePieceSwimsuit	PuzzlePiece	Shorts	WiltedFlower
-11	#BCBEC0	BusStop	Bus	Church	DepartmentStore	DerelictHouse	HighSpeedTrain	MendingHeart	Monorail	Ship	TramCar	Wedding
-11	#DA2F47	Clamp	ControlKnobs	DropOfBlood	Drum	Goblin	HotPepper	Joystick	Popcorn	Telescope	WiltedFlower	WrappedGift
-11	#E75A70	CardFileBox	CatFace	Cat	Clamp	FramedPicture	Goblin	Mouth	RedTrianglePointedDown	RedTrianglePointedUp	Sled	WiltedFlower
+28	#A6D388	Avocado	Banana	Burrito	CannedFood	ChristmasTree	ClutchBag	Dango	Falafel	Ferry	GreenSalad	Herb	KiwiFruit	LeafFlutteringInWind	LeafyGreen	Melon	Peacock	Pear	PerformingArts	PottedPlant	Razor	RollerCoaster	Taco	TanabataTree	TeacupWithoutHandle	Tennis	Troll	WaterPistol	WiltedFlower
+2	#A7D28B	DollarBanknote	MoneyWithWings
+9	#C6E5B3	Avocado	FaxMachine	FerrisWheel	Frog	GreenSalad	KiwiFruit	Microbe	Pager	PottedPlant
+1	#C6E4B5	WiltedFlower
+
+84	#662113	AmericanFootball	Avocado	BabyChick	Backpack	Basket	Beaver	Bison	Blowfish	Boar	Boomerang	BowlWithSpoon	Briefcase	Camping	Chestnut	Chipmunk	Chopsticks	ChristmasTree	Church	Cockroach	CocktailGlass	Coffin	CricketGame	Cupcake	Custard	DeciduousTree	Deer	DerelictHouse	DogFace	Dog	EvergreenTree	Feather	FishingPole	Footprints	FrontFacingBabyChick	FuneralUrn	GreenApple	GuideDog	Hamburger	HatchingChick	Hedgehog	HikingBoot	HinduTemple	HoneyPot	HorseFace	Houses	Hut	InboxTray	Joker	Ladder	Ledger	Lion	LongDrum	Mammoth	MantelpieceClock	MeatOnBone	MilitaryHelmet	Mirror	MoonCake	Mosque	MouseTrap	Mouth	NationalPark	NestingDolls	OutboxTray	Owl	Oyster	Package	PawPrints	Pear	PigFace	PigNose	PottedPlant	RedApple	RollerSkate	ServiceDog	Sloth	StuffedFlatbread	Tangerine	TeddyBear	Tongue	Wedding	WomansBoot	Wood	Yarn
+5	#642116	Banjo	JackOLantern	MonkeyFace	Monkey	Violin
+10	#8A4B38	Bagel	ChocolateBar	Cookie	Custard	Doughnut	Hedgehog	Horse	HotBeverage	IceCream	Mate
+117	#C1694F	AdhesiveBandage	Amphora	Backpack	Bagel	BallotBoxWithBallot	Banana	Basket	Bear	Beaver	Bed	BellhopBell	Bison	Blowfish	Boar	Boomerang	BottleWithPoppingCork	BowAndArrow	Brick	Broom	BrownCircle	BrownHeart	BrownSquare	Burrito	Camel	CarpentrySaw	Chair	Chestnut	ChocolateBar	Chopsticks	Clipboard	ClosedMailboxWithLoweredFlag	ClosedMailboxWithRaisedFlag	ClutchBag	Cockroach	Coffin	CowFace	CricketGame	Cupcake	Custard	Deer	DerelictHouse	DesertIsland	Dodo	Dog	Duck	Factory	FallenLeaf	Feather	FieldHockey	Firecracker	Flatbread	FuneralUrn	GuideDog	Hamster	Hedgehog	HikingBoot	Hook	HorseFace	Horse	Hotel	Houses	House	HouseWithGarden	Hut	InboxTray	Key	KiwiFruit	Label	Llama	LockedWithKey	Locomotive	LongDrum	Mammoth	MantelpieceClock	MeatOnBone	MilitaryHelmet	Mirror	MoonViewingCeremony	MouseTrap	NotebookWithDecorativeCover	Olive	OpenMailboxWithLoweredFlag	OpenMailboxWithRaisedFlag	OutboxTray	Owl	Ox	Oyster	Package	Paintbrush	PalmTree	Peanuts	Pen	Placard	PostOffice	Potato	PottedPlant	PoultryLeg	RailwayTrack	RescueWorkersHelmet	RiceCracker	Scroll	ServiceDog	ShallowPanOfFood	Sled	Speedboat	StuffedFlatbread	Taco	Tamale	TeddyBear	Thread	Trophy	TropicalDrink	Turkey	TwoHumpCamel	WomansBoot	WomansSandal	Wood
+16	#BF6952	Abacus	CrossedSwords	CrystalBall	Dagger	Door	FortuneCookie	FramedPicture	Kangaroo	Ladder	MoneyBag	MonkeyFace	Monkey	PileOfPoo	PouringLiquid	Sled	Window
+73	#D99E82	Accordion	AdhesiveBandage	ArtistPalette	Bagel	Basket	Bear	Bison	Blowfish	Bone	BowAndArrow	Bread	Brick	Burrito	Chair	Chipmunk	Cigarette	Cockroach	Coffin	CricketGame	CrossedSwords	Dagger	Dango	DerelictHouse	DesertIsland	DogFace	Dog	Duck	FallenLeaf	Feather	FlatShoe	FuneralUrn	GuideDog	Hamburger	Headstone	Hedgehog	HorseFace	HotBeverage	HotDog	Hut	InboxTray	JapaneseCastle	Kangaroo	Label	Ladder	Lion	Llama	LongDrum	Memo	Mirror	Motorway	NotebookWithDecorativeCover	Oden	OutboxTray	Package	PalmTree	Peanuts	Pencil	PineDecoration	PingPong	Placard	Plunger	PostOffice	Potato	PotOfFood	RescueWorkersHelmet	ServiceDog	Sled	Taco	Tamale	TeddyBear	WomansBoot	WomansSandal	Wood
+5	#D79E84	FramedPicture	Kangaroo	MonkeyFace	Monkey	Window
+2	#EDBB9F	Joker	PostOffice
+
+8	#E6AAAA	Bear	CowFace	Deer	Lion	PigNose	Rat	Rhinoceros	TigerFace
+
+72	#269	Anchor	ArtistPalette	AtmSign	Badminton	BaggageClaim	Bed	BlueBook	Books	Broom	BulletTrain	BustInSilhouette	BustsInSilhouette	Castle	CheckBoxWithCheck	Coat	Customs	DoubleCurlyLoop	Elevator	Ferry	FileFolder	Fireworks	FishingPole	Fish	Fondue	HighSpeedTrain	JapaneseServiceChargeButton	JapaneseVacancyButton	Jeans	Joker	Kimono	Kite	Knot	Lacrosse	LeftLuggage	LevelSlider	MaleSign	Megaphone	MensRoom	MoonViewingCeremony	MountainCableway	NationalPark	Necktie	NightWithStars	OilDrum	OncomingAutomobile	OpenBook	OpenFileFolder	PassengerShip	PassportControl	PButton	Peacock	PeopleHugging	PotableWater	RadioButton	Robot	RollerSkate	RunningShirt	School	Shield	ShootingStar	Skis	SmallAirplane	Sparkler	SpeakingHead	Sunrise	Teapot	ThongSandal	Train	WaterCloset	WaterWave	WheelchairSymbol	Yarn
+4	#2A6797	EuroBanknote	Luggage	Seat	SpeechBalloon
+128	#3B88C3	Ambulance	AntennaBars	AtmSign	BeachWithUmbrella	BlueBook	Bucket	BulletTrain	Camera	CameraWithFlash	Cinema	CircledM	ClockwiseVerticalArrows	Coat	ConvenienceStore	CoolButton	CounterclockwiseArrowsButton	CupWithStraw	DepartmentStore	DesertIsland	DiamondWithADot	Dna	DownArrow	DownLeftArrow	DownRightArrow	DownwardsButton	Dress	EjectButton	FastDownButton	FastForwardButton	FastReverseButton	FastUpButton	FireEngine	FirstPlaceMedal	FishingPole	Fish	Fountain	FreeButton	GlobeWithMeridians	Helicopter	HighSpeedTrain	Hospital	Hotel	HourglassDone	HourglassNotDone	Houses	IceCream	Information	InputLatinLetters	InputLatinLowercase	InputLatinUppercase	InputNumbers	InputSymbols	JapaneseHereButton	JapanesePostOffice	Jeans	KeycapAsterisk	KeycapEight	KeycapFive	KeycapFour	KeycapNine	KeycapNumberSign	KeycapOne	KeycapSeven	KeycapSix	KeycapTen	KeycapThree	KeycapTwo	KeycapZero	Kimono	Kite	LastTrackButton	LeftArrowCurvingRight	LeftArrow	LeftRightArrow	LightRail	LitterInBinSign	LoveHotel	Megaphone	MotorBoat	NewButton	NextTrackButton	NgButton	OfficeBuilding	OilDrum	OkButton	OncomingAutomobile	Paintbrush	Parrot	PauseButton	Pinata	PlayButton	PlayOrPauseButton	RacingCar	RecordButton	RepeatButton	RepeatSingleButton	Restroom	ReverseButton	RightArrowCurvingDown	RightArrowCurvingLeft	RightArrowCurvingUp	RightArrow	Robot	RugbyFootball	Sake	School	SecondPlaceMedal	ShavedIce	ShuffleTracksButton	Skateboard	Skis	SportsMedal	SportUtilityVehicle	SpoutingWhale	StopButton	Sunrise	SuspensionRailway	Teapot	ThirdPlaceMedal	ThongSandal	TShirt	UpArrow	UpButton	UpDownArrow	UpLeftArrow	UpRightArrow	UpwardsButton	Whale
+8	#4289C1	BallotBoxWithBallot	EuroBanknote	GemStone	LabCoat	Luggage	Printer	Seat	Zzz
+124	#55ACEE	AerialTramway	Airplane	Ambulance	ArticulatedLorry	AutoRickshaw	BabyBottle	Badminton	BarberPole	Bed	BlueBook	BlueCircle	BlueSquare	Books	Broom	BubbleTea	Bucket	BulletTrain	Bullseye	Bus	BustsInSilhouette	Butterfly	Canoe	CardIndex	CarpStreamer	CircusTent	Coat	ConvenienceStore	Cupcake	CupWithStraw	Cyclone	DeliveryTruck	DepartmentStore	DiamondWithADot	Dna	Doughnut	Dress	EnvelopeWithArrow	Ferry	FileFolder	FireEngine	Fireworks	FirstPlaceMedal	FishingPole	Fish	FloppyDisk	Glasses	Headphone	Hospital	Hotel	Houses	House	HouseWithGarden	IceCream	IncomingEnvelope	JapanesePostOffice	Joker	Keycap	KickScooter	Kite	Knot	Lacrosse	LargeBlueDiamond	LightRail	Locomotive	LoveHotel	Megaphone	Metro	Microphone	MilitaryMedal	Minibus	MobilePhone	MobilePhoneWithArrow	Monorail	MotorBoat	MountainCableway	MountainRailway	NationalPark	Newspaper	OfficeBuilding	Ogre	OncomingAutomobile	OncomingPoliceCar	OncomingTaxi	OpenFileFolder	PassengerShip	Peacock	PeopleHugging	Pinata	PoliceCar	RailwayCar	Robot	Rocket	RunningShirt	Sailboat	Sake	Satellite	School	SecondPlaceMedal	ShavedIce	Shield	Ship	Shower	Skis	SmallBlueDiamond	Socks	Sparkler	Speedboat	SpiralNotepad	SportsMedal	SportUtilityVehicle	SpoutingWhale	Station	Taxi	Television	ThirdPlaceMedal	Train	TramCar	Tram	Trolleybus	TShirt	WaterWave	Whale	WorldMap	Yarn
+30	#5DADEC	AirplaneArrival	AirplaneDeparture	BallotBoxWithBallot	BlueHeart	Briefs	CardFileBox	CloudWithLightningAndRain	CloudWithRain	CloudWithSnow	Comet	DesktopComputer	Droplet	EuroBanknote	FlyingSaucer	FramedPicture	GemStone	Hamsa	Laptop	LeafFlutteringInWind	Luggage	MusicalNotes	MusicalNote	NestWithEggs	Printer	Ring	RolledUpNewspaper	Seat	SunBehindRainCloud	SweatDroplets	UmbrellaWithRainDrops
+38	#88C9F9	AerialTramway	BeachWithUmbrella	BubbleTea	Bucket	Cityscape	Cupcake	CupWithStraw	DesertIsland	DivingMask	Doughnut	FilmFrames	Foggy	Fountain	GlobeShowingAmericas	GlobeShowingAsiaAustralia	GlobeShowingEuropeAfrica	Kimono	MapOfJapan	Motorway	MountainCableway	NationalPark	NazarAmulet	Necktie	OncomingBus	Parachute	RacingCar	RailwayTrack	RollerSkate	Sake	Satellite	Skateboard	Snowflake	Snowman	StatueOfLiberty	ThongSandal	Videocassette	WorldMap	XRay
+8	#8CCAF7	BallotBoxWithBallot	Comet	FlyingSaucer	FramedPicture	GemStone	LeftSpeechBubble	Ring	Window
+24	#BBDDF5	AtmSign	Automobile	CarpStreamer	CheckBoxWithCheck	Cupcake	DiamondWithADot	DivingMask	Dress	FerrisWheel	FilmFrames	Fountain	JapaneseDolls	Knot	MagnifyingGlassTiltedLeft	MagnifyingGlassTiltedRight	Mirror	OncomingAutomobile	PickupTruck	RadioButton	Sake	Skis	SportUtilityVehicle	Tractor	WindFace
+5	#BDDDF4	Comet	DashingAway	GemStone	SpeechBalloon	ThoughtBalloon
+
+131	#F4900C	AutoRickshaw	Axe	BabyChick	BabySymbol	Basketball	BeachWithUmbrella	BeerMug	BellhopBell	BentoBox	BeverageBox	Biohazard	Blossom	Books	Bouquet	BowAndArrow	Burrito	BusStop	Bus	Camping	CarouselHorse	CarpStreamer	Carrot	CheeseWedge	Chicken	CityscapeAtDusk	ClinkingBeerMugs	CloudWithLightningAndRain	CloudWithLightning	Coin	Compass	Croissant	Crown	Cupcake	CurryRice	DesertIsland	Desert	DivingMask	DiyaLamp	Doughnut	EarOfCorn	Ferry	Fire	FlyingDisc	FortuneCookie	Fox	FrenchFries	FriedShrimp	FrontFacingBabyChick	Giraffe	HammerAndPick	HammerAndWrench	Hammer	HatchingChick	HeartOnFire	HoneyPot	Hook	IceHockey	JackOLantern	JapaneseAcceptableButton	JapaneseApplicationButton	JapaneseFreeOfChargeButton	JapaneseMonthlyAmountButton	JapaneseNotFreeOfChargeButton	JapaneseOpenForBusinessButton	Lacrosse	LargeOrangeDiamond	Ledger	Leopard	LightRail	Locomotive	Lollipop	Lotus	MobilePhoneOff	MoonCake	Mosque	MotorBoat	MotorScooter	MouseTrap	NestingDolls	Ogre	OncomingTaxi	OrangeBook	OrangeCircle	OrangeHeart	OrangeSquare	Owl	Parachute	Parrot	Pick	Pie	Pinata	Pizza	PrayerBeads	Pretzel	RacingCar	Radioactive	RingedPlanet	Robot	RollerCoaster	RollerSkate	Rosette	Sailboat	Sandwich	ShallowPanOfFood	ShootingStar	ShoppingBags	SlotMachine	SmallOrangeDiamond	Snowman	SnowmanWithoutSnow	SoftIceCream	Sponge	SunriseOverMountains	Sunrise	Sunset	SunWithFace	Sushi	SuspensionRailway	Swan	Taco	Tamale	Tangerine	Taxi	Tent	Tractor	TRex	TropicalDrink	TropicalFish	VibrationMode	VsButton	Waffle
+8	#F18F26	Banjo	Bomb	CardIndexDividers	CatFace	Cat	Drum	Fox	Violin
+154	#FFAC33	Abacus	AlarmClock	AutoRickshaw	BabyBottle	BabyChick	BalanceScale	BeachWithUmbrella	BeerMug	BellhopBell	Bell	BellWithSlash	BentoBox	Bird	Books	BrightButton	Broom	Bullseye	Burrito	Bus	CameraWithFlash	Camping	CannedFood	Canoe	CheeseWedge	Chicken	ChristmasTree	ClinkingBeerMugs	Coffin	Coin	ComputerDisk	ConfettiBall	Cooking	CreditCard	Croissant	CrossedSwords	Crown	Crutch	CurlyHair	Dagger	DesertIsland	Desert	DimButton	DiyaLamp	Dizzy	Dna	Dodo	DollarBanknote	Door	Doughnut	Dumpling	Dvd	EuroBanknote	Ewe	Falafel	FieldHockey	FireEngine	FirstPlaceMedal	FlagInHole	FlyingDisc	Fondue	FriedShrimp	FrontFacingBabyChick	FuelPump	GlowingStar	Goat	Handbag	HeartWithArrow	HighVoltage	HoneyPot	Hook	HourglassDone	HourglassNotDone	Hut	Joker	Kaaba	Ledger	Leopard	Lipstick	Locked	LockedWithKey	LockedWithPen	Lollipop	LotionBottle	MagicWand	Magnet	MantelpieceClock	MilitaryMedal	Mirror	MoneyWithWings	MoonCake	Mosque	MountainRailway	OncomingBus	OncomingTaxi	OrangeBook	Owl	Oyster	Parachute	Parrot	PassengerShip	Penguin	Pen	Pineapple	Popcorn	PostalHorn	PostOffice	PoundBanknote	RailwayCar	ReminderRibbon	Robot	Rocket	Rooster	Rosette	Sailboat	Sandwich	Sari	SatelliteAntenna	Satellite	ShallowPanOfFood	ShootingStar	Shortcake	Snail	Snowman	SnowmanWithoutSnow	SoftIceCream	Spaghetti	Sparkles	Sponge	SportsMedal	Star	SteamingBowl	SunBehindCloud	SunBehindLargeCloud	SunBehindRainCloud	SunBehindSmallCloud	Sunflower	Sun	Taco	Tamale	TanabataTree	Tent	Tiger	Train	Trophy	TropicalDrink	TropicalFish	Turkey	UmbrellaOnGround	Unlocked	Volcano	Waffle	WaterPistol	WomansHat	YenBanknote
 11	#FCAB40	Balloon	Candle	CardFileBox	Collision	CouchAndLamp	Drum	FortuneCookie	GraduationCap	Saxophone	Trumpet	WrappedGift
+147	#FFCC4D	AlarmClock	ArticulatedLorry	ArtistPalette	BabyChick	Banana	BeerMug	BeverageBox	Boomerang	Bouquet	Broom	Burrito	Butter	Camping	CannedFood	Canoe	CarouselHorse	CarpentrySaw	CatFace	CherryBlossom	ChildrenCrossing	ChristmasTree	CityscapeAtDusk	Cityscape	ClinkingBeerMugs	ClinkingGlasses	Coin	ConfettiBall	Construction	CrescentMoon	CrossedSwords	Crown	Cupcake	Custard	Dagger	DeliveryTruck	DepartmentStore	DesertIsland	Desert	DivingMask	DiyaLamp	Duck	Dumpling	Eagle	Ewe	Firecracker	Fire	Fireworks	FirstQuarterMoonFace	FirstQuarterMoon	Flashlight	FrenchFries	FrontFacingBabyChick	FullMoonFace	FullMoon	Giraffe	Goat	Hamburger	Hamster	HatchingChick	HeartOnFire	HeartWithArrow	Helicopter	Hibiscus	Honeybee	HoneyPot	Hook	HorizontalTrafficLight	HotDog	Hotel	Houses	House	HouseWithGarden	JapaneseDolls	LastQuarterMoonFace	LastQuarterMoon	Ledger	Lemon	Leopard	LightBulb	Lion	Lipstick	Lollipop	LotionBottle	Memo	MoonViewingCeremony	MouseTrap	NightWithStars	Ogre	OncomingAutomobile	OncomingBus	OncomingTaxi	Owl	PartAlternationMark	PartyPopper	Pencil	Pen	Pie	Pinata	Pineapple	PingPong	Pizza	PotOfFood	RacingCar	Ram	ReminderRibbon	RingedPlanet	RoastedSweetPotato	Robot	Rocket	Rosette	Sandwich	School	SheafOfRice	ShoppingBags	Snail	Socks	SoftIceCream	Spaghetti	Sparkler	Sparkles	Speedboat	Sponge	StraightRuler	SunriseOverMountains	Sunrise	Sunset	SunWithFace	Synagogue	Taco	Tamale	Taxi	Tent	TigerFace	Tractor	TriangularRuler	TridentEmblem	Trophy	TropicalDrink	TropicalFish	VerticalTrafficLight	VideoGame	WaningCrescentMoon	WaningGibbousMoon	Warning	WaterPistol	WaxingCrescentMoon	WaxingGibbousMoon
 11	#FDCB58	BeatingHeart	Bomb	Candle	CardIndexDividers	HeartWithRibbon	Pill	Saxophone	SparklingHeart	YellowCircle	YellowHeart	YellowSquare
+73	#FFD983	BaguetteBread	BallotBoxWithBallot	Banana	BentoBox	BeverageBox	BottleWithPoppingCork	Burrito	Butter	CheeseWedge	Church	ClinkingGlasses	Coin	Compass	ComputerDisk	CrescentMoon	CurryRice	CutOfMeat	Dango	Dna	Dumpling	Dvd	Firecracker	Fireworks	FirstQuarterMoonFace	FirstQuarterMoon	Flatbread	FlyingDisc	FlyingSaucer	Fox	FullMoonFace	FullMoon	GlowingStar	Handbag	Hook	Hut	Kaaba	Label	LastQuarterMoonFace	LastQuarterMoon	LightBulb	MeatOnBone	Metro	MilitaryMedal	Mirror	MoonViewingCeremony	Mosque	MountainCableway	NestingDolls	Owl	Oyster	Popcorn	PoultryLeg	RunningShirt	Sandwich	Scroll	ShootingStar	Shortcake	SoftIceCream	SportsMedal	Station	SteamingBowl	StuffedFlatbread	SuspensionRailway	Taco	Tamale	Tram	Waffle	WaningCrescentMoon	WaningGibbousMoon	WaxingCrescentMoon	WaxingGibbousMoon	WomansHat	YenBanknote
+8	#FDD888	CardIndexDividers	Dizzy	Drum	Goblin	GraduationCap	HeartWithRibbon	MoneyBag	WrappedGift
+64	#FFE8B6	Accordion	Bacon	Banana	BeachWithUmbrella	BeverageBox	Bone	BottleWithPoppingCork	Bread	Burrito	Butter	Camping	Coin	ComputerDisk	CowFace	Cupcake	CutOfMeat	DepartmentStore	Desert	DollarBanknote	Dvd	EuroBanknote	Firecracker	Fondue	Hamburger	Hamster	HighSpeedTrain	HoneyPot	Hook	Hotel	HourglassDone	HourglassNotDone	Houses	House	HouseWithGarden	IceCream	Lion	LongDrum	LotionBottle	MoneyWithWings	MountainRailway	OncomingTaxi	Orangutan	PineDecoration	PostOffice	PotOfFood	PoundBanknote	Pretzel	RailwayCar	School	Scroll	ShallowPanOfFood	SoftIceCream	Spaghetti	SunriseOverMountains	Sunrise	Sunset	Taco	Tamale	Tent	Tractor	Trolleybus	Watermelon	Wood	YenBanknote
+3	#FEE7B8	CardIndexDividers	CatFace	Cat
+
+51	#A0041E	Accordion	AnatomicalHeart	Backpack	Bird	BowAndArrow	BowlWithSpoon	BoxingGlove	Brick	CarpentrySaw	ClosedBook	ConvenienceStore	CookedRice	Crab	CutOfMeat	Factory	Fox	GameDie	HeartWithArrow	House	HouseWithGarden	JapaneseDolls	Joker	Lobster	Locomotive	MantelpieceClock	MechanicalLeg	Necktie	Ogre	Paintbrush	Parachute	PartyPopper	Pie	Postbox	RescueWorkersHelmet	Ribbon	Rocket	Rose	RunningShoe	Scarf	School	Screwdriver	ServiceDog	Ship	Skateboard	Speedboat	Sushi	TanabataTree	TeddyBear	TramCar	WineGlass	YoYo
+3	#9D0522	Drum	Sled	Telescope
+80	#BE1931	Abacus	Accordion	AdmissionTickets	Ambulance	AnatomicalHeart	AngerSymbol	Backpack	Badminton	BentoBox	Bowling	BoxingGlove	BusStop	Candy	Cherries	ChocolateBar	CircusTent	ClosedBook	ConfettiBall	Crab	Crayon	CricketGame	CrossedFlags	CurlingStone	DiamondSuit	DiyaLamp	DogFace	DoubleExclamationMark	ExclamationQuestionMark	Factory	FerrisWheel	Fly	Fondue	FrenchFries	FuelPump	HeartSuit	Hibiscus	HikingBoot	HoneyPot	Lobster	Locomotive	LongDrum	Loudspeaker	LoveHotel	Magnet	MahjongRedDragon	MechanicalLeg	MotorScooter	NestingDolls	NoEntry	Ogre	Pie	Pizza	PoliceCarLight	PostalHorn	PostOffice	Pushpin	RedExclamationMark	RedPaperLantern	RedQuestionMark	RollerSkate	Rose	RunningShoe	Sandwich	Shibuya	Ship	Shrimp	Skis	SlotMachine	SmallAirplane	Squid	Strawberry	TakeoutBox	TanabataTree	Telephone	TokyoTower	Toolbox	TramCar	Turkey	WomansSandal	YoYo
+8	#BB1A34	Balloon	Collision	FramedPicture	Guitar	HundredPoints	LabCoat	Pill	Telescope
+201	#DD2E44	AbButtonBloodType	AButtonBloodType	AerialTramway	AlarmClock	Ambulance	ArtistPalette	Automobile	Bacon	BarberPole	BarChart	Baseball	BButtonBloodType	BeachWithUmbrella	Bear	BeatingHeart	BellWithSlash	BentoBox	Bicycle	Bird	BirthdayCake	Bookmark	Bouquet	BowAndArrow	Brain	BrokenHeart	Bullseye	Burrito	BusStop	Candy	Canoe	CarouselHorse	CarpStreamer	ChartIncreasing	Chicken	ChocolateBar	ChristmasTree	Church	CircusTent	ClButton	ClosedBook	ClosedMailboxWithLoweredFlag	ClosedMailboxWithRaisedFlag	Compass	ConvenienceStore	CookedRice	Crab	Crayon	CrossMark	Crown	Cupcake	CupWithStraw	DeliveryTruck	DepartmentStore	DogFace	Ferry	FieldHockey	Firecracker	FireEngine	FireExtinguisher	FlagInHole	FlowerPlayingCards	FrenchFries	GameDie	GreenSalad	GrowingHeart	Hamburger	HeartDecoration	HeartExclamation	HeartOnFire	HeartWithArrow	HeartWithRibbon	HighHeeledShoe	HollowRedCircle	HorizontalTrafficLight	Hospital	HotDog	HotSprings	IceSkate	JapaneseBargainButton	JapaneseCongratulationsButton	JapaneseDiscountButton	JapaneseNoVacancyButton	JapanesePassingGradeButton	JapanesePostOffice	JapaneseProhibitedButton	JapaneseSecretButton	Joker	KickScooter	KissMark	LadyBeetle	LightRail	Lion	Lipstick	Lobster	Locomotive	Lollipop	Loudspeaker	LoveHotel	LoveLetter	Lungs	ManualWheelchair	MapleLeaf	MechanicalLeg	MendingHeart	Metro	MilitaryMedal	MotorizedWheelchair	MotorScooter	Mouse	Mushroom	MutedSpeaker	NameBadge	Necktie	NestingDolls	NoBicycles	NoLittering	NoMobilePhones	NonPotableWater	NoOneUnderEighteen	NoPedestrians	NoSmoking	OButtonBloodType	Ogre	OncomingBus	OncomingPoliceCar	OpenMailboxWithLoweredFlag	OpenMailboxWithRaisedFlag	OutboxTray	Pager	Panda	Parachute	PartyPopper	PassengerShip	Peach	PickupTruck	PingPong	PolarBear	PoliceCarLight	PoliceCar	Postbox	Prohibited	Purse	Pushpin	RacingCar	RedApple	RedCircle	RedHeart	RedPaperLantern	RedSquare	RescueWorkersHelmet	RevolvingHearts	Ribbon	Robot	RollerCoaster	Rooster	RoundPushpin	RunningShoe	Scarf	Scissors	Screwdriver	ShintoShrine	ShoppingBags	Shortcake	Shrimp	Skateboard	Snake	Snowman	SnowmanWithoutSnow	Softball	SosButton	Spaghetti	SparklingHeart	Speedboat	SpiralCalendar	StopSign	Stopwatch	StuffedFlatbread	Sushi	Taco	TakeoutBox	Tamale	TearOffCalendar	Telephone	Thermometer	TigerFace	TimerClock	TokyoTower	Tomato	Tongue	Toolbox	TramCar	TriangularFlag	TwoHearts	UmbrellaOnGround	VerticalTrafficLight	VideoGame	Watermelon	Wedding	WhiteCane	WineGlass	YoYo
+11	#DA2F47	Clamp	ControlKnobs	DropOfBlood	Drum	Goblin	HotPepper	Joystick	Popcorn	Telescope	WiltedFlower	WrappedGift
+64	#EA596E	AdmissionTickets	AnatomicalHeart	Bacon	BalletShoes	BeverageBox	Bicycle	BirthdayCake	BitingLip	Bouquet	BowlWithSpoon	Brain	CherryBlossom	CircusTent	Crayon	Dna	FemaleSign	Ferry	Firecracker	FireExtinguisher	Flamingo	Fondue	FriedShrimp	GameDie	GreenSalad	GrowingHeart	Hamster	Hibiscus	KickScooter	Lipstick	Lobster	Locomotive	Lotus	LoveHotel	Lungs	Memo	Mouse	NestingDolls	Parrot	PartyPopper	Pencil	PetriDish	PigFace	Pinata	Purse	Rat	RescueWorkersHelmet	Ribbon	RollerCoaster	RollerSkate	Screwdriver	ShavedIce	SmallAirplane	Soap	Spaghetti	Squid	SteamingBowl	StuffedFlatbread	Sushi	Tongue	Trolleybus	Tulip	WhiteFlower	WomensRoom	YoYo
+11	#E75A70	CardFileBox	CatFace	Cat	Clamp	FramedPicture	Goblin	Mouth	RedTrianglePointedDown	RedTrianglePointedUp	Sled	WiltedFlower
+38	#F4ABBA	AnatomicalHeart	Bacon	BalletShoes	BirthdayCake	Brain	Calendar	CarpStreamer	CherryBlossom	ConvenienceStore	DepartmentStore	Doughnut	FerrisWheel	Flamingo	GrowingHeart	Hibiscus	IceCream	Lipstick	Lotus	LoveHotel	Lungs	MouseFace	Mouse	Mushroom	Parachute	PigFace	Pig	RabbitFace	Rabbit	RevolvingHearts	ServiceDog	Shortcake	Soap	Squid	Strawberry	TearOffCalendar	Trolleybus	Tulip	Wedding
+1	#F2ABBA	PileOfPoo
+
+242	#292F33	Accordion	Alien	Ambulance	ArticulatedLorry	Automobile	AutoRickshaw	Badminton	BallotBoxWithBallot	Banjo	Bank	Bat	Beaver	BentoBox	Bicycle	BilledCap	Bird	Bison	BlackCat	Blowfish	Boar	BubbleTea	Bucket	Bus	Butterfly	Camel	Camping	CardIndex	CarouselHorse	CatFace	Cat	Chicken	Chipmunk	CityscapeAtDusk	Cityscape	ClapperBoard	ClassicalBuilding	Clipboard	ClosedMailboxWithLoweredFlag	ClosedMailboxWithRaisedFlag	Compass	ComputerDisk	ComputerMouse	ConfettiBall	Construction	ControlKnobs	ConvenienceStore	Cooking	Crab	Crayon	CreditCard	CricketGame	Cricket	Crocodile	CurrencyExchange	DeliveryTruck	DerelictHouse	DivingMask	Dodo	DogFace	Dog	DragonFace	Dragon	Duck	Eagle	Elephant	Ewe	Eyes	Eye	FaxMachine	FileCabinet	FireEngine	FireExtinguisher	FirstQuarterMoonFace	FlagInHole	Flamingo	Fondue	FramedPicture	Frog	FullMoonFace	Ghost	Giraffe	Gloves	Goat	Goblin	Goggles	GraduationCap	GreenSalad	GuideDog	Guitar	HeavyDollarSign	HighHeeledShoe	HikingBoot	HinduTemple	Hippopotamus	HorseFace	Horse	Houses	JapaneseDolls	Kaaba	Kangaroo	Keyboard	KickScooter	KiwiFruit	Koala	Lacrosse	LastQuarterMoonFace	Leopard	LevelSlider	Lizard	Llama	Lobster	LockedWithPen	Luggage	MagicWand	Mammoth	MansShoe	ManualWheelchair	MartialArtsUniform	Memo	Metro	MilkyWay	Minibus	MonkeyFace	Monkey	Motorcycle	MotorizedWheelchair	MotorScooter	MountainRailway	Mountain	MountFuji	NationalPark	NazarAmulet	NestingDolls	NewMoonFace	NightWithStars	Notebook	Octopus	Ogre	OncomingAutomobile	OncomingBus	OncomingPoliceCar	OncomingTaxi	OpenBook	OpenMailboxWithLoweredFlag	OpenMailboxWithRaisedFlag	Orangutan	Otter	Owl	Ox	Parachute	Parrot	Peacock	Pencil	Penguin	PersonFencing	PickupTruck	PigFace	Pig	PileOfPoo	PirateFlag	PolarBear	PoliceCar	Poodle	Postbox	PotOfFood	PrayerBeads	Printer	RabbitFace	Rabbit	Raccoon	RacingCar	Radio	RailwayCar	Ram	Rat	RedPaperLantern	Rhinoceros	RiceBall	RiceCracker	RollerSkate	Rooster	RoundPushpin	Scorpion	Seal	ServiceDog	ShallowPanOfFood	Shark	Shibuya	ShintoShrine	Ship	ShoppingCart	Shrimp	SkullAndCrossbones	Skull	Skunk	Sloth	SmallAirplane	Snake	SnowCappedMountain	Speedboat	SpiralCalendar	SpiralNotepad	SportUtilityVehicle	SpoutingWhale	Squid	Station	Stopwatch	StraightRuler	StudioMicrophone	Sunset	Sushi	Swan	Synagogue	Syringe	Taxi	TeacupWithoutHandle	TearOffCalendar	TeddyBear	Telescope	Tent	Thermometer	Tiger	TimerClock	Toolbox	Trackball	Tractor	TramCar	Tram	TRex	TropicalFish	Turkey	Turtle	TwoHumpCamel	Unicorn	Violin	Volcano	WavyDash	Whale	WhiteCane	Wolf	Wood	Zebra
+81	#31373D	Ant	BackArrow	Badger	BlackCircle	BlackFlag	BlackHeart	BlackLargeSquare	BlackMediumSmallSquare	BlackMediumSquare	BlackNib	BlackSmallSquare	BlackSquareButton	Bomb	Bowling	Camera	CameraWithFlash	CheckMark	ChequeredFlag	ChessPawn	ClubSuit	Copyright	Cow	CurlyLoop	Divide	EightPointedStar	ElectricPlug	EndArrow	EyeInSpeechBubble	FilmProjector	FloppyDisk	Fly	FountainPen	Glasses	Gorilla	GraduationCap	Headphone	HeavyEqualsSign	Hole	Honeybee	HorizontalTrafficLight	IceHockey	Joystick	KitchenKnife	LadyBeetle	Microphone	Minus	MobilePhone	MobilePhoneWithArrow	Mosquito	MovieCamera	Multiply	MusicalKeyboard	MusicalScore	OldKey	OnArrow	Pager	Pen	PirateFlag	Plus	PoolEightBall	Registered	SlotMachine	SoccerBall	SoonArrow	SpadeSuit	Spider	Stethoscope	Sunglasses	TelephoneReceiver	Television	TopArrow	TopHat	TradeMark	Turkey	VerticalTrafficLight	VideoCamera	Videocassette	VideoGame	Watch	WaterBuffalo	WhiteSquareButton
+5	#4B545D	BuildingConstruction	Mountain	MountFuji	SnowCappedMountain	Volcano
+8	#5B6876	FirstQuarterMoon	LastQuarterMoon	NewMoonFace	NewMoon	WaningCrescentMoon	WaningGibbousMoon	WaxingCrescentMoon	WaxingGibbousMoon
+30	#67757F	AirplaneArrival	AirplaneDeparture	Alembic	Banjo	Candle	CardFileBox	CardIndexDividers	CatFace	Clamp	ControlKnobs	CurrencyExchange	ElevenOclock	FlyingSaucer	FourThirty	FramedPicture	Hippopotamus	Microscope	MoneyBag	OldKey	OneThirty	Otter	Printer	RightAngerBubble	Seat	Synagogue	ThreeThirty	TwelveOclock	TwoThirty	VideoGame	Wastebasket
+177	#66757F	Airplane	Axe	BalanceScale	Bank	Bat	BeachWithUmbrella	Bicycle	BlackCat	BlackNib	BookmarkTabs	Broom	BuildingConstruction	Calendar	Camera	CardIndex	CarpStreamer	Castle	ChessPawn	Cigarette	Cityscape	ClosedUmbrella	ConvenienceStore	Cooking	CrossedFlags	CurlingStone	DivingMask	Dodo	EightOclock	EightThirty	Elephant	ElevenThirty	EMail	FaxMachine	Ferry	FileCabinet	FireExtinguisher	FirstQuarterMoon	FishingPole	FiveOclock	FiveThirty	Flashlight	Fondue	FountainPen	FourOclock	FuelPump	Gear	Gloves	Gorilla	GreenSalad	Guitar	HammerAndPick	HammerAndWrench	Hammer	Headphone	Headstone	Helicopter	Hippopotamus	Houses	House	HouseWithGarden	IceHockey	JapaneseCastle	JapanesePostOffice	JapaneseSymbolForBeginner	Joystick	Koala	LastQuarterMoon	Ledger	LinkedPaperclips	LockedWithPen	LotionBottle	Loudspeaker	MagicWand	MagnifyingGlassTiltedLeft	MagnifyingGlassTiltedRight	ManualWheelchair	MartialArtsUniform	Mate	MechanicalArm	MechanicalLeg	Memo	Microscope	Minibus	Moai	Mosquito	MotorBoat	Motorcycle	MotorizedWheelchair	Motorway	MountainRailway	MouseFace	MovieCamera	NationalPark	NewMoonFace	NewMoon	NineOclock	NineThirty	Notebook	NutAndBolt	Oden	OfficeBuilding	OncomingBus	OncomingPoliceCar	OncomingTaxi	OneOclock	Pager	Panda	Parachute	Parrot	PersonFencing	Pick	Placard	PolarBear	PoliceCar	Poodle	Postbox	PotOfFood	Raccoon	Radio	Ram	Rat	Rhinoceros	Rock	RolledUpNewspaper	RollOfPaper	SafetyPin	Salt	SatelliteAntenna	Screwdriver	Seal	SevenOclock	SevenThirty	Shark	Shibuya	Ship	ShoppingCart	Shower	SixOclock	SixThirty	SmallAirplane	SpiderWeb	SpiralCalendar	SpiralNotepad	SpiralShell	Stadium	Stopwatch	StudioMicrophone	Syringe	TakeoutBox	TeacupWithoutHandle	TearOffCalendar	Television	TenOclock	TenThirty	ThreeOclock	TimerClock	TopHat	Tornado	Trackball	Tractor	TramCar	TriangularFlag	Turkey	TwelveThirty	TwoOclock	UmbrellaOnGround	Umbrella	UmbrellaWithRainDrops	VideoCamera	Videocassette	WaningCrescentMoon	WaningGibbousMoon	Watch	WaxingCrescentMoon	WaxingGibbousMoon	Wolf	Zebra
+45	#8899A6	Bank	BirthdayCake	BlackFlag	BubbleTea	CarouselHorse	Castle	ChequeredFlag	CocktailGlass	Compass	CreditCard	Crutch	CupWithStraw	Eyes	FerrisWheel	FilmProjector	FireEngine	Flashlight	GlassOfMilk	HammerAndWrench	Link	MagnifyingGlassTiltedLeft	MagnifyingGlassTiltedRight	MechanicalLeg	Microphone	Microscope	MovieCamera	MusicalScore	MutedSpeaker	NutAndBolt	OpticalDisk	RollerCoaster	RunningShoe	Sake	SpeakerHighVolume	SpeakerLowVolume	SpeakerMediumVolume	Stopwatch	TestTube	Tornado	TropicalDrink	TumblerGlass	VideoGame	WhiteFlag	WineGlass	Wrench
+27	#9AAAB4	AirplaneArrival	AirplaneDeparture	Alembic	CardFileBox	Clamp	ClassicalBuilding	CrossedSwords	Dagger	DesktopComputer	ElectricPlug	FlyingSaucer	FortuneCookie	Ghost	Goggles	Headstone	Hippopotamus	LabCoat	Laptop	MagnifyingGlassTiltedLeft	MagnifyingGlassTiltedRight	Printer	Ring	Saxophone	Seat	Telescope	Tooth	Wastebasket
+168	#99AAB5	Ambulance	ArticulatedLorry	AutoRickshaw	BabyBottle	Badger	Badminton	BarberPole	Bathtub	Bat	Battery	BeverageBox	Bison	BlackNib	BookmarkTabs	Books	BowAndArrow	BowlWithSpoon	BoxingGlove	Bucket	Bus	Butter	CannedFood	CardIndex	CarpentrySaw	Clipboard	ClosedMailboxWithLoweredFlag	ClosedMailboxWithRaisedFlag	Coconut	ComputerMouse	Construction	CowFace	CurlingStone	Dodo	Dove	EightOclock	EightThirty	Elephant	ElevenOclock	ElevenThirty	EMail	Envelope	EnvelopeWithArrow	FaxMachine	FishingPole	FiveOclock	FiveThirty	Fondue	ForkAndKnife	ForkAndKnifeWithPlate	FountainPen	Fountain	FourOclock	FourThirty	FuelPump	Garlic	Gloves	Gorilla	HatchingChick	Helicopter	Hippopotamus	Honeybee	Hospital	HotBeverage	IceSkate	IncomingEnvelope	JapaneseCastle	Joystick	Keyboard	KickScooter	Kimono	Koala	LevelSlider	LightBulb	LinkedPaperclips	LotionBottle	Loudspeaker	LoveLetter	LowBattery	MartialArtsUniform	Mate	MechanicalArm	MechanicalLeg	Memo	Minibus	Motorcycle	MotorScooter	MouseFace	Mushroom	Newspaper	NineOclock	NineThirty	OilDrum	OncomingBus	OncomingPoliceCar	OncomingTaxi	OneOclock	OneThirty	OpenBook	OpenMailboxWithLoweredFlag	OpenMailboxWithRaisedFlag	Package	PageFacingUp	PageWithCurl	Paperclip	Parachute	Pencil	PersonFencing	PetriDish	PickupTruck	PoliceCarLight	Poodle	Popcorn	Pushpin	RabbitFace	Rabbit	Raccoon	Radio	Ram	Receipt	Rhinoceros	Rock	RolledUpNewspaper	RollerSkate	RollOfPaper	RoundPushpin	SafetyPin	SatelliteAntenna	Satellite	Scissors	Screwdriver	Seal	SevenOclock	SevenThirty	SewingNeedle	Shibuya	Ship	Shower	SixOclock	SixThirty	Spaghetti	SpiralNotepad	SpiralShell	Spoon	SteamingBowl	Stethoscope	StudioMicrophone	Syringe	TakeoutBox	TearOffCalendar	TenOclock	TenThirty	ThreeOclock	ThreeThirty	Ticket	Toilet	Toothbrush	Trackball	Trolleybus	TwelveOclock	TwelveThirty	TwoOclock	TwoThirty	Volleyball	Watch	WaterBuffalo	WindChime	WindFace	YoYo
+27	#AAB8C2	Alembic	Bank	BlackFlag	Bookmark	Castle	ChequeredFlag	ConvenienceStore	Factory	FerrisWheel	Fountain	FuelPump	JapanesePostOffice	KitchenKnife	Locked	LockedWithKey	LockedWithPen	Microscope	MountFuji	PostOffice	SkullAndCrossbones	TimerClock	Toilet	TokyoTower	Toolbox	Unlocked	Volcano	WhiteFlag
+231	#CCD6DD	Abacus	AirplaneArrival	AirplaneDeparture	Airplane	Alien	Ambulance	ArticulatedLorry	Automobile	Axe	BabyBottle	Badminton	Bagel	Banjo	Bank	BarberPole	BarChart	Bathtub	Battery	BentoBox	BeverageBox	BirthdayCake	Blossom	BlueBook	Bomb	BookmarkTabs	Books	Boomerang	BottleWithPoppingCork	BowAndArrow	Bowling	BowlWithSpoon	BoxingGlove	Briefcase	BubbleTea	Bus	Butter	Camera	CameraWithFlash	Candle	CannedFood	CardFileBox	CardIndex	CarouselHorse	CarpentrySaw	CarpStreamer	Castle	ChartDecreasing	ChartIncreasing	ChocolateBar	Cigarette	CircusTent	ClapperBoard	ClassicalBuilding	Clipboard	ClosedBook	Cloud	CocktailGlass	Compass	ControlKnobs	ConvenienceStore	CookedRice	CouchAndLamp	CowFace	Cow	CrossedSwords	Crutch	CupWithStraw	CurryRice	Dagger	DeliveryTruck	DesktopComputer	Dodo	Dove	EMail	Envelope	EnvelopeWithArrow	FaxMachine	FerrisWheel	Ferry	FireEngine	FireExtinguisher	FishingPole	FlyingSaucer	Foggy	Fog	Fondue	ForkAndKnifeWithPlate	FortuneCookie	GlassOfMilk	GoalNet	Goat	Goggles	GreenBook	GreenSalad	Guitar	Headstone	Hole	Honeybee	Hospital	HotBeverage	IncomingEnvelope	JapanesePostOffice	KitchenKnife	LabCoat	Laptop	Ledger	LevelSlider	LightBulb	LotionBottle	Loudspeaker	LoveLetter	LowBattery	Luggage	Magnet	MartialArtsUniform	Mate	MechanicalArm	MechanicalLeg	Memo	Minibus	Moai	MoneyWithWings	Mosquito	MotorBoat	Motorcycle	MotorizedWheelchair	Motorway	MountFuji	Mouse	MovieCamera	MutedSpeaker	NestingDolls	Newspaper	Notebook	NotebookWithDecorativeCover	NutAndBolt	Oden	OncomingBus	OncomingPoliceCar	OncomingTaxi	OpenBook	OpenMailboxWithRaisedFlag	OpticalDisk	OrangeBook	Ox	Oyster	Package	PageFacingUp	PageWithCurl	Paintbrush	Panda	PassengerShip	Pencil	PersonFencing	PetriDish	PickupTruck	PingPong	PolarBear	PoliceCarLight	Poodle	Postbox	PostOffice	RabbitFace	Rabbit	RailwayTrack	Receipt	Rhinoceros	RiceBall	Robot	Rock	RolledUpNewspaper	RollerCoaster	RollOfPaper	RugbyFootball	RunningShoe	Sake	Salt	SatelliteAntenna	Satellite	Saxophone	Scissors	Seal	Seat	SecondPlaceMedal	SewingNeedle	Shibuya	Shield	ShoppingCart	SkullAndCrossbones	Skull	SlotMachine	SmallAirplane	Soap	SoccerBall	SpeakerHighVolume	SpeakerLowVolume	SpeakerMediumVolume	SpiralCalendar	SpiralNotepad	SpiralShell	SportUtilityVehicle	SteamingBowl	StopSign	Sushi	Swan	Syringe	Taxi	TestTube	Thermometer	Ticket	Toilet	Toolbox	Toothbrush	Tornado	Trackball	Tractor	TropicalDrink	Trumpet	TumblerGlass	Videocassette	Violin	Volcano	Waffle	Watch	WhiteCane	WhiteExclamationMark	WhiteQuestionMark	WindFace	WineGlass	Wolf	WorldMap
+167	#E1E8ED	Alembic	Ambulance	AmericanFootball	Badger	Badminton	Bank	BarChart	Baseball	BentoBox	Blossom	BlueBook	Boar	Bookmark	BookmarkTabs	BoxingGlove	BubbleTea	Camping	Candle	CardFileBox	Chains	ChartDecreasing	ChartIncreasing	ChequeredFlag	Chicken	Cigarette	ClassicalBuilding	ClinkingBeerMugs	ClinkingGlasses	ClosedBook	Cloud	CloudWithLightningAndRain	CloudWithLightning	CloudWithRain	CloudWithSnow	ControlKnobs	CupWithStraw	DesktopComputer	Dodo	Duck	Eagle	EightOclock	EightThirty	ElevenOclock	ElevenThirty	EMail	Envelope	EnvelopeWithArrow	Ewe	Eyes	Eye	FileCabinet	FishCakeWithSwirl	FiveOclock	FiveThirty	Flamingo	FloppyDisk	FlyingDisc	FlyingSaucer	Fly	Foggy	Fog	ForkAndKnifeWithPlate	Fountain	FourOclock	FourThirty	FuelPump	GameDie	Garlic	Ghost	GlassOfMilk	Goat	Goggles	GreenBook	GreenSalad	HatchingChick	Hospital	IncomingEnvelope	LabCoat	Ledger	LoveLetter	LowBattery	MagicWand	MartialArtsUniform	Mate	Microscope	MilitaryMedal	Minibus	MoneyWithWings	MoonViewingCeremony	Mosquito	MotorBoat	MountFuji	MusicalKeyboard	NestingDolls	NineOclock	NineThirty	Notebook	NotebookWithDecorativeCover	NutAndBolt	OneOclock	OneThirty	OpenBook	OpenMailboxWithRaisedFlag	OrangeBook	Oyster	Package	PageFacingUp	PageWithCurl	PetriDish	Placard	PolarBear	PoliceCar	PoolEightBall	Popcorn	Postbox	Printer	Raccoon	Ram	Razor	RightAngerBubble	Rock	RolledUpNewspaper	RollerCoaster	RollOfPaper	Rooster	RugbyFootball	Screwdriver	Seat	SevenOclock	SevenThirty	SewingNeedle	Shibuya	ShoppingCart	Shortcake	SixOclock	SixThirty	Skis	Skunk	Sled	SlotMachine	Snowman	SnowmanWithoutSnow	SunBehindCloud	SunBehindLargeCloud	SunBehindRainCloud	SunBehindSmallCloud	Sushi	Swan	TakeoutBox	TeacupWithoutHandle	TearOffCalendar	TenOclock	TenThirty	ThreeOclock	ThreeThirty	Toilet	TokyoTower	Tooth	TwelveOclock	TwelveThirty	TwoOclock	TwoThirty	UmbrellaOnGround	WhiteFlag	WhiteHair	WorldMap	Zebra
+73	#F5F8FA	Accordion	AirplaneArrival	AirplaneDeparture	BaggageClaim	Banjo	Bank	Bookmark	Calendar	Camera	Candy	CardFileBox	CircusTent	Coconut	Collision	Comet	Compass	ComputerDisk	Cooking	Customs	DesktopComputer	DottedSixPointedStar	Drum	Duck	Eyes	Eye	FilmFrames	FireEngine	FireExtinguisher	Fireworks	Foggy	Fog	Goblin	Guitar	HeartDecoration	Hippopotamus	HotBeverage	Ice	JapaneseDolls	KeycapTen	KitchenKnife	LabCoat	LeftLuggage	Luggage	MagicWand	MantelpieceClock	MilkyWay	Mirror	Motorway	NameBadge	NationalPark	NestingDolls	NoOneUnderEighteen	OncomingPoliceCar	OpticalDisk	PassportControl	Penguin	PersonFencing	PetriDish	PileOfPoo	Printer	RailwayTrack	Robot	RollOfPaper	Salt	ServiceDog	Sloth	Soap	SoccerBall	Sparkler	Stopwatch	TearOffCalendar	Watch	WaterPistol
+
+?	#000
+8	#EEE	BeerMug	ClinkingBeerMugs	CurryRice	Panda	RiceBall	Rosette	Sushi	TransgenderFlag
+207	#FFF	AbButtonBloodType	AButtonBloodType	AntennaBars	Aquarius	Aries	AtomSymbol	BabySymbol	Backpack	Bagel	BarberPole	Battery	BButtonBloodType	Biohazard	Bookmark	BridgeAtNight	Bubbles	Bug	Bullseye	Camera	CameraWithFlash	Cancer	Capricorn	CarpStreamer	ChartIncreasingWithYen	CheckMarkButton	CherryBlossom	Cinema	CircledM	ClButton	Clipboard	ClockwiseVerticalArrows	CocktailGlass	ConvenienceStore	CoolButton	Coral	CounterclockwiseArrowsButton	Crocodile	CrossMarkButton	CupWithStraw	DepartmentStore	DoubleCurlyLoop	DownArrow	DownLeftArrow	DownRightArrow	DownwardsButton	DragonFace	Dragon	EightSpokedAsterisk	EjectButton	Elevator	EyeInSpeechBubble	FastDownButton	FastForwardButton	FastReverseButton	FastUpButton	FemaleSign	FlowerPlayingCards	FramedPicture	FreeButton	Frog	GameDie	Gemini	GlassOfMilk	Hamsa	IdButton	Infinity	Information	InputLatinLetters	InputLatinLowercase	InputLatinUppercase	InputNumbers	InputSymbols	JapaneseAcceptableButton	JapaneseApplicationButton	JapaneseCongratulationsButton	JapaneseDiscountButton	JapaneseFreeOfChargeButton	JapaneseHereButton	JapaneseMonthlyAmountButton	JapaneseNotFreeOfChargeButton	JapaneseNoVacancyButton	JapaneseOpenForBusinessButton	JapanesePassingGradeButton	JapaneseProhibitedButton	JapaneseReservedButton	JapaneseSecretButton	JapaneseServiceChargeButton	JapaneseVacancyButton	Jar	KeycapAsterisk	KeycapEight	KeycapFive	KeycapFour	KeycapNine	KeycapNumberSign	KeycapOne	KeycapSeven	KeycapSix	KeycapThree	KeycapTwo	KeycapZero	Kimono	LastTrackButton	LatinCross	LeftArrowCurvingRight	LeftArrow	LeftRightArrow	Leo	Libra	LitterInBinSign	LowBattery	MaleSign	Mate	MedicalSymbol	Menorah	MensRoom	MobilePhoneOff	Motorcycle	Mouth	NazarAmulet	NewButton	NextTrackButton	NgButton	NightWithStars	NoBicycles	NoEntry	NoLittering	NoMobilePhones	NonPotableWater	NoPedestrians	NoSmoking	OButtonBloodType	Ogre	OkButton	Om	OncomingBus	OncomingTaxi	Ophiuchus	OrthodoxCross	Oyster	Panda	PauseButton	PButton	PeaceSymbol	Pisces	PlaceOfWorship	PlayButton	PlayOrPauseButton	Popcorn	PotableWater	PouringLiquid	RabbitFace	RacingCar	Radioactive	RecordButton	RepeatButton	RepeatSingleButton	RescueWorkersHelmet	Restroom	ReverseButton	RightArrowCurvingDown	RightArrowCurvingLeft	RightArrowCurvingUp	RightArrow	Robot	Sagittarius	Sake	Scorpio	Shark	Shortcake	ShuffleTracksButton	SnowCappedMountain	SosButton	Sparkle	SpiralCalendar	StarAndCrescent	!StarOfDavid	StopButton	Taurus	Telephone	Tennis	TigerFace	TimerClock	TransgenderSymbol	TropicalDrink	TumblerGlass	UpArrow	UpButton	UpDownArrow	UpLeftArrow	UpRightArrow	UpwardsButton	VibrationMode	Virgo	VsButton	WaterBuffalo	WaterCloset	WheelchairSymbol	WheelOfDharma	WhiteFlower	WindChime	Window	WineGlass	WomansHat	WomensRoom	XRay	YinYang
+
+possibly;
+#231f20 -> #292F33
+#414042 -> #31373d
+#58595b -> #4B545D
+#6D6E71 -> #66757F
+
+old grayscale colors; DONT USE THESE
 12	#231F20	AerialTramway	Basketball	BulletTrain	FilmFrames	FlatShoe	Hedgehog	HighSpeedTrain	Locomotive	RacingCar	Snowman	SnowmanWithoutSnow	Warning
+9	#414042	AlarmClock	LightRail	Locomotive	RacingCar	Snowman	SnowmanWithoutSnow	Station	SuspensionRailway	Tram
+19	#58595B	AerialTramway	AlarmClock	Bus	DepartmentStore	HighSpeedTrain	Locomotive	Metro	Motorway	MountainCableway	MountainRailway	RacingCar	RailwayCar	RailwayTrack	Ship	Station	SuspensionRailway	Train	TramCar	Tram
 12	#6D6E71	AerialTramway	BusStop	Hedgehog	JapaneseCastle	Locomotive	Monorail	MountainCableway	School	Ship	Station	Tram	Trolleybus
-13	#553788	Bikini	Books	BubbleTea	FerrisWheel	Grapes	Joker	MilkyWay	Octopus	PrayerBeads	Sari	SewingNeedle	Thread	WomansClothes
-14	#272B2B	Amphora	Bear	CowFace	Deer	Dog	Fox	GuideDog	Hamster	Lion	MouseFace	Panda	PolarBear	ServiceDog	TigerFace
 15	#808285	AerialTramway	Burrito	BusStop	Bus	Locomotive	Metro	Motorway	MountainCableway	RailwayTrack	School	Skateboard	Station	SuspensionRailway	Train	Tram
-15	#AA8DD8	Blueberries	BubbleTea	Bug	ConfettiBall	CrystalBall	Cupcake	FleurDeLis	Grapes	MilkyWay	PartyPopper	Pinata	PoundBanknote	RollerCoaster	Snail	WomansClothes
-15	#D1D3D4	BulletTrain	Factory	JapaneseCastle	LightRail	MendingHeart	Metro	Monorail	MountainRailway	Purse	Sailboat	Ship	Station	Synagogue	Tram	TumblerGlass
 16	#939598	BulletTrain	Bus	CurryRice	Custard	HighSpeedTrain	LightRail	Locomotive	Monorail	MountainRailway	Purse	RailwayCar	Shortcake	Spaghetti	Station	TramCar	Waffle
 16	#A7A9AC	AerialTramway	CutOfMeat	HighSpeedTrain	Metro	MountainCableway	RailwayTrack	Sailboat	School	Ship	Skateboard	Station	SuspensionRailway	Synagogue	Train	Tram	Trolleybus
-16	#BF6952	Abacus	CrossedSwords	CrystalBall	Dagger	Door	FortuneCookie	FramedPicture	Kangaroo	Ladder	MoneyBag	MonkeyFace	Monkey	PileOfPoo	PouringLiquid	Sled	Window
-19	#58595B	AerialTramway	AlarmClock	Bus	DepartmentStore	HighSpeedTrain	Locomotive	Metro	Motorway	MountainCableway	MountainRailway	RacingCar	RailwayCar	RailwayTrack	Ship	Station	SuspensionRailway	Train	TramCar	Tram
-19	#744EAA	Bikini	BookmarkTabs	Bug	ClosedUmbrella	CrystalBall	CupWithStraw	Dna	Eggplant	FerrisWheel	FleurDeLis	Grapes	MilkyWay	Octopus	ShoppingBags	Thread	TopHat	Trackball	Umbrella	UmbrellaWithRainDrops
-24	#BBDDF5	AtmSign	Automobile	CarpStreamer	CheckBoxWithCheck	Cupcake	DiamondWithADot	DivingMask	Dress	FerrisWheel	FilmFrames	Fountain	JapaneseDolls	Knot	MagnifyingGlassTiltedLeft	MagnifyingGlassTiltedRight	Mirror	OncomingAutomobile	PickupTruck	RadioButton	Sake	Skis	SportUtilityVehicle	Tractor	WindFace
-27	#9AAAB4	AirplaneArrival	AirplaneDeparture	Alembic	CardFileBox	Clamp	ClassicalBuilding	CrossedSwords	Dagger	DesktopComputer	ElectricPlug	FlyingSaucer	FortuneCookie	Ghost	Goggles	Headstone	Hippopotamus	LabCoat	Laptop	MagnifyingGlassTiltedLeft	MagnifyingGlassTiltedRight	Printer	Ring	Saxophone	Seat	Telescope	Tooth	Wastebasket
-27	#AAB8C2	Alembic	Bank	BlackFlag	Bookmark	Castle	ChequeredFlag	ConvenienceStore	Factory	FerrisWheel	Fountain	FuelPump	JapanesePostOffice	KitchenKnife	Locked	LockedWithKey	LockedWithPen	Microscope	MountFuji	PostOffice	SkullAndCrossbones	TimerClock	Toilet	TokyoTower	Toolbox	Unlocked	Volcano	WhiteFlag
+11	#BCBEC0	BusStop	Bus	Church	DepartmentStore	DerelictHouse	HighSpeedTrain	MendingHeart	Monorail	Ship	TramCar	Wedding
+15	#D1D3D4	BulletTrain	Factory	JapaneseCastle	LightRail	MendingHeart	Metro	Monorail	MountainRailway	Purse	Sailboat	Ship	Station	Synagogue	Tram	TumblerGlass
 27	#E6E7E8	AlarmClock	BlackSquareButton	CannedFood	CutOfMeat	Factory	Hedgehog	HighSpeedTrain	IceSkate	Joker	MahjongRedDragon	MendingHeart	Monorail	PirateFlag	Sailboat	School	Ship	Train	TramCar	Trolleybus	Volleyball	WhiteCircle	WhiteHeart	WhiteLargeSquare	WhiteMediumSmallSquare	WhiteMediumSquare	WhiteSmallSquare	WhiteSquareButton
-28	#A6D388	Avocado	Banana	Burrito	CannedFood	ChristmasTree	ClutchBag	Dango	Falafel	Ferry	GreenSalad	Herb	KiwiFruit	LeafFlutteringInWind	LeafyGreen	Melon	Peacock	Pear	PerformingArts	PottedPlant	Razor	RollerCoaster	Taco	TanabataTree	TeacupWithoutHandle	Tennis	Troll	WaterPistol	WiltedFlower
-30	#5DADEC	AirplaneArrival	AirplaneDeparture	BallotBoxWithBallot	BlueHeart	Briefs	CardFileBox	CloudWithLightningAndRain	CloudWithRain	CloudWithSnow	Comet	DesktopComputer	Droplet	EuroBanknote	FlyingSaucer	FramedPicture	GemStone	Hamsa	Laptop	LeafFlutteringInWind	Luggage	MusicalNotes	MusicalNote	NestWithEggs	Printer	Ring	RolledUpNewspaper	Seat	SunBehindRainCloud	SweatDroplets	UmbrellaWithRainDrops
-30	#67757F	AirplaneArrival	AirplaneDeparture	Alembic	Banjo	Candle	CardFileBox	CardIndexDividers	CatFace	Clamp	ControlKnobs	CurrencyExchange	ElevenOclock	FlyingSaucer	FourThirty	FramedPicture	Hippopotamus	Microscope	MoneyBag	OldKey	OneThirty	Otter	Printer	RightAngerBubble	Seat	Synagogue	ThreeThirty	TwelveOclock	TwoThirty	VideoGame	Wastebasket
-38	#88C9F9	AerialTramway	BeachWithUmbrella	BubbleTea	Bucket	Cityscape	Cupcake	CupWithStraw	DesertIsland	DivingMask	Doughnut	FilmFrames	Foggy	Fountain	GlobeShowingAmericas	GlobeShowingAsiaAustralia	GlobeShowingEuropeAfrica	Kimono	MapOfJapan	Motorway	MountainCableway	NationalPark	NazarAmulet	Necktie	OncomingBus	Parachute	RacingCar	RailwayTrack	RollerSkate	Sake	Satellite	Skateboard	Snowflake	Snowman	StatueOfLiberty	ThongSandal	Videocassette	WorldMap	XRay
-38	#F4ABBA	AnatomicalHeart	Bacon	BalletShoes	BirthdayCake	Brain	Calendar	CarpStreamer	CherryBlossom	ConvenienceStore	DepartmentStore	Doughnut	FerrisWheel	Flamingo	GrowingHeart	Hibiscus	IceCream	Lipstick	Lotus	LoveHotel	Lungs	MouseFace	Mouse	Mushroom	Parachute	PigFace	Pig	RabbitFace	Rabbit	RevolvingHearts	ServiceDog	Shortcake	Soap	Squid	Strawberry	TearOffCalendar	Trolleybus	Tulip	Wedding
-43	#3E721D	AutoRickshaw	Avocado	Banana	Beetle	BellPepper	Bouquet	Broccoli	Cactus	Camping	ChristmasTree	Crocodile	DeciduousTree	DesertIsland	Desert	DragonFace	Dragon	Duck	EvergreenTree	FlatShoe	GreenApple	GreenBook	LeafyGreen	Lizard	MapOfJapan	Microbe	NationalPark	Olive	PalmTree	Pinata	PottedPlant	Razor	RecyclingSymbol	Rose	Sauropod	Sunflower	SunriseOverMountains	TanabataTree	Tractor	Troll	TropicalDrink	Turtle	WaterPistol	WindChime
-45	#8899A6	Bank	BirthdayCake	BlackFlag	BubbleTea	CarouselHorse	Castle	ChequeredFlag	CocktailGlass	Compass	CreditCard	Crutch	CupWithStraw	Eyes	FerrisWheel	FilmProjector	FireEngine	Flashlight	GlassOfMilk	HammerAndWrench	Link	MagnifyingGlassTiltedLeft	MagnifyingGlassTiltedRight	MechanicalLeg	Microphone	Microscope	MovieCamera	MusicalScore	MutedSpeaker	NutAndBolt	OpticalDisk	RollerCoaster	RunningShoe	Sake	SpeakerHighVolume	SpeakerLowVolume	SpeakerMediumVolume	Stopwatch	TestTube	Tornado	TropicalDrink	TumblerGlass	VideoGame	WhiteFlag	WineGlass	Wrench
-51	#A0041E	Accordion	AnatomicalHeart	Backpack	Bird	BowAndArrow	BowlWithSpoon	BoxingGlove	Brick	CarpentrySaw	ClosedBook	ConvenienceStore	CookedRice	Crab	CutOfMeat	Factory	Fox	GameDie	HeartWithArrow	House	HouseWithGarden	JapaneseDolls	Joker	Lobster	Locomotive	MantelpieceClock	MechanicalLeg	Necktie	Ogre	Paintbrush	Parachute	PartyPopper	Pie	Postbox	RescueWorkersHelmet	Ribbon	Rocket	Rose	RunningShoe	Scarf	School	Screwdriver	ServiceDog	Ship	Skateboard	Speedboat	Sushi	TanabataTree	TeddyBear	TramCar	WineGlass	YoYo
-53	#9266CC	Aquarius	Aries	AtomSymbol	Books	BubbleTea	Bug	Cancer	Capricorn	ClosedUmbrella	ConfettiBall	Dna	DottedSixPointedStar	FleurDeLis	Gemini	Grapes	GreenSalad	Handbag	IdButton	Joker	Kite	LatinCross	Leo	Libra	MedicalSymbol	Menorah	Octopus	Om	Ophiuchus	OrthodoxCross	PartyPopper	PeaceSymbol	PerformingArts	Pinata	Pisces	PlaceOfWorship	PoundBanknote	Sagittarius	Sari	Scorpio	SlotMachine	Snail	StarAndCrescent	StarOfDavid	Taurus	Thread	TransgenderSymbol	Umbrella	UmbrellaWithRainDrops	Virgo	WheelOfDharma	WomansClothes	WomansHat	YinYang
-64	#EA596E	AdmissionTickets	AnatomicalHeart	Bacon	BalletShoes	BeverageBox	Bicycle	BirthdayCake	BitingLip	Bouquet	BowlWithSpoon	Brain	CherryBlossom	CircusTent	Crayon	Dna	FemaleSign	Ferry	Firecracker	FireExtinguisher	Flamingo	Fondue	FriedShrimp	GameDie	GreenSalad	GrowingHeart	Hamster	Hibiscus	KickScooter	Lipstick	Lobster	Locomotive	Lotus	LoveHotel	Lungs	Memo	Mouse	NestingDolls	Parrot	PartyPopper	Pencil	PetriDish	PigFace	Pinata	Purse	Rat	RescueWorkersHelmet	Ribbon	RollerCoaster	RollerSkate	Screwdriver	ShavedIce	SmallAirplane	Soap	Spaghetti	Squid	SteamingBowl	StuffedFlatbread	Sushi	Tongue	Trolleybus	Tulip	WhiteFlower	WomensRoom	YoYo
-64	#FFE8B6	Accordion	Bacon	Banana	BeachWithUmbrella	BeverageBox	Bone	BottleWithPoppingCork	Bread	Burrito	Butter	Camping	Coin	ComputerDisk	CowFace	Cupcake	CutOfMeat	DepartmentStore	Desert	DollarBanknote	Dvd	EuroBanknote	Firecracker	Fondue	Hamburger	Hamster	HighSpeedTrain	HoneyPot	Hook	Hotel	HourglassDone	HourglassNotDone	Houses	House	HouseWithGarden	IceCream	Lion	LongDrum	LotionBottle	MoneyWithWings	MountainRailway	OncomingTaxi	Orangutan	PineDecoration	PostOffice	PotOfFood	PoundBanknote	Pretzel	RailwayCar	School	Scroll	ShallowPanOfFood	SoftIceCream	Spaghetti	SunriseOverMountains	Sunrise	Sunset	Taco	Tamale	Tent	Tractor	Trolleybus	Watermelon	Wood	YenBanknote
-72	#269	Anchor	ArtistPalette	AtmSign	Badminton	BaggageClaim	Bed	BlueBook	Books	Broom	BulletTrain	BustInSilhouette	BustsInSilhouette	Castle	CheckBoxWithCheck	Coat	Customs	DoubleCurlyLoop	Elevator	Ferry	FileFolder	Fireworks	FishingPole	Fish	Fondue	HighSpeedTrain	JapaneseServiceChargeButton	JapaneseVacancyButton	Jeans	Joker	Kimono	Kite	Knot	Lacrosse	LeftLuggage	LevelSlider	MaleSign	Megaphone	MensRoom	MoonViewingCeremony	MountainCableway	NationalPark	Necktie	NightWithStars	OilDrum	OncomingAutomobile	OpenBook	OpenFileFolder	PassengerShip	PassportControl	PButton	Peacock	PeopleHugging	PotableWater	RadioButton	Robot	RollerSkate	RunningShirt	School	Shield	ShootingStar	Skis	SmallAirplane	Sparkler	SpeakingHead	Sunrise	Teapot	ThongSandal	Train	WaterCloset	WaterWave	WheelchairSymbol	Yarn
-73	#D99E82	Accordion	AdhesiveBandage	ArtistPalette	Bagel	Basket	Bear	Bison	Blowfish	Bone	BowAndArrow	Bread	Brick	Burrito	Chair	Chipmunk	Cigarette	Cockroach	Coffin	CricketGame	CrossedSwords	Dagger	Dango	DerelictHouse	DesertIsland	DogFace	Dog	Duck	FallenLeaf	Feather	FlatShoe	FuneralUrn	GuideDog	Hamburger	Headstone	Hedgehog	HorseFace	HotBeverage	HotDog	Hut	InboxTray	JapaneseCastle	Kangaroo	Label	Ladder	Lion	Llama	LongDrum	Memo	Mirror	Motorway	NotebookWithDecorativeCover	Oden	OutboxTray	Package	PalmTree	Peanuts	Pencil	PineDecoration	PingPong	Placard	Plunger	PostOffice	Potato	PotOfFood	RescueWorkersHelmet	ServiceDog	Sled	Taco	Tamale	TeddyBear	WomansBoot	WomansSandal	Wood
-73	#F5F8FA	Accordion	AirplaneArrival	AirplaneDeparture	BaggageClaim	Banjo	Bank	Bookmark	Calendar	Camera	Candy	CardFileBox	CircusTent	Coconut	Collision	Comet	Compass	ComputerDisk	Cooking	Customs	DesktopComputer	DottedSixPointedStar	Drum	Duck	Eyes	Eye	FilmFrames	FireEngine	FireExtinguisher	Fireworks	Foggy	Fog	Goblin	Guitar	HeartDecoration	Hippopotamus	HotBeverage	Ice	JapaneseDolls	KeycapTen	KitchenKnife	LabCoat	LeftLuggage	Luggage	MagicWand	MantelpieceClock	MilkyWay	Mirror	Motorway	NameBadge	NationalPark	NestingDolls	NoOneUnderEighteen	OncomingPoliceCar	OpticalDisk	PassportControl	Penguin	PersonFencing	PetriDish	PileOfPoo	Printer	RailwayTrack	Robot	RollOfPaper	Salt	ServiceDog	Sloth	Soap	SoccerBall	Sparkler	Stopwatch	TearOffCalendar	Watch	WaterPistol
-73	#FFD983	BaguetteBread	BallotBoxWithBallot	Banana	BentoBox	BeverageBox	BottleWithPoppingCork	Burrito	Butter	CheeseWedge	Church	ClinkingGlasses	Coin	Compass	ComputerDisk	CrescentMoon	CurryRice	CutOfMeat	Dango	Dna	Dumpling	Dvd	Firecracker	Fireworks	FirstQuarterMoonFace	FirstQuarterMoon	Flatbread	FlyingDisc	FlyingSaucer	Fox	FullMoonFace	FullMoon	GlowingStar	Handbag	Hook	Hut	Kaaba	Label	LastQuarterMoonFace	LastQuarterMoon	LightBulb	MeatOnBone	Metro	MilitaryMedal	Mirror	MoonViewingCeremony	Mosque	MountainCableway	NestingDolls	Owl	Oyster	Popcorn	PoultryLeg	RunningShirt	Sandwich	Scroll	ShootingStar	Shortcake	SoftIceCream	SportsMedal	Station	SteamingBowl	StuffedFlatbread	SuspensionRailway	Taco	Tamale	Tram	Waffle	WaningCrescentMoon	WaningGibbousMoon	WaxingCrescentMoon	WaxingGibbousMoon	WomansHat	YenBanknote
-77	#5C913B	Abacus	ArtistPalette	AutoRickshaw	BarChart	Battery	Bed	Beetle	BellPepper	BentoBox	Blueberries	Broccoli	Camping	CannedFood	Cherries	ChristmasTree	CocktailGlass	ConfettiBall	Crocodile	Crown	Cucumber	DeciduousTree	DesertIsland	DollarBanknote	Dove	Dragon	EarOfCorn	EmptyNest	EvergreenTree	FerrisWheel	FlagInHole	Frog	GlobeShowingAmericas	GlobeShowingAsiaAustralia	GlobeShowingEuropeAfrica	GreenBook	GreenSalad	Herb	House	HouseWithGarden	LeafyGreen	Lemon	Melon	Microbe	MoneyWithWings	Monorail	Motorway	MountainRailway	NationalPark	NestWithEggs	PalmTree	Parrot	PartyPopper	Peach	PerformingArts	Pineapple	PineDecoration	PotOfFood	PottedPlant	RailwayCar	RailwayTrack	Razor	Sari	Sauropod	Speedboat	Station	SunriseOverMountains	TanabataTree	Tangerine	TeacupWithoutHandle	Tractor	Tram	Trolleybus	TropicalDrink	Turtle	Watermelon	WaterPistol	WorldMap
-80	#BE1931	Abacus	Accordion	AdmissionTickets	Ambulance	AnatomicalHeart	AngerSymbol	Backpack	Badminton	BentoBox	Bowling	BoxingGlove	BusStop	Candy	Cherries	ChocolateBar	CircusTent	ClosedBook	ConfettiBall	Crab	Crayon	CricketGame	CrossedFlags	CurlingStone	DiamondSuit	DiyaLamp	DogFace	DoubleExclamationMark	ExclamationQuestionMark	Factory	FerrisWheel	Fly	Fondue	FrenchFries	FuelPump	HeartSuit	Hibiscus	HikingBoot	HoneyPot	Lobster	Locomotive	LongDrum	Loudspeaker	LoveHotel	Magnet	MahjongRedDragon	MechanicalLeg	MotorScooter	NestingDolls	NoEntry	Ogre	Pie	Pizza	PoliceCarLight	PostalHorn	PostOffice	Pushpin	RedExclamationMark	RedPaperLantern	RedQuestionMark	RollerSkate	Rose	RunningShoe	Sandwich	Shibuya	Ship	Shrimp	Skis	SlotMachine	SmallAirplane	Squid	Strawberry	TakeoutBox	TanabataTree	Telephone	TokyoTower	Toolbox	TramCar	Turkey	WomansSandal	YoYo
-81	#31373D	Ant	BackArrow	Badger	BlackCircle	BlackFlag	BlackHeart	BlackLargeSquare	BlackMediumSmallSquare	BlackMediumSquare	BlackNib	BlackSmallSquare	BlackSquareButton	Bomb	Bowling	Camera	CameraWithFlash	CheckMark	ChequeredFlag	ChessPawn	ClubSuit	Copyright	Cow	CurlyLoop	Divide	EightPointedStar	ElectricPlug	EndArrow	EyeInSpeechBubble	FilmProjector	FloppyDisk	Fly	FountainPen	Glasses	Gorilla	GraduationCap	Headphone	HeavyEqualsSign	Hole	Honeybee	HorizontalTrafficLight	IceHockey	Joystick	KitchenKnife	LadyBeetle	Microphone	Minus	MobilePhone	MobilePhoneWithArrow	Mosquito	MovieCamera	Multiply	MusicalKeyboard	MusicalScore	OldKey	OnArrow	Pager	Pen	PirateFlag	Plus	PoolEightBall	Registered	SlotMachine	SoccerBall	SoonArrow	SpadeSuit	Spider	Stethoscope	Sunglasses	TelephoneReceiver	Television	TopArrow	TopHat	TradeMark	Turkey	VerticalTrafficLight	VideoCamera	Videocassette	VideoGame	Watch	WaterBuffalo	WhiteSquareButton
-84	#662113	AmericanFootball	Avocado	BabyChick	Backpack	Basket	Beaver	Bison	Blowfish	Boar	Boomerang	BowlWithSpoon	Briefcase	Camping	Chestnut	Chipmunk	Chopsticks	ChristmasTree	Church	Cockroach	CocktailGlass	Coffin	CricketGame	Cupcake	Custard	DeciduousTree	Deer	DerelictHouse	DogFace	Dog	EvergreenTree	Feather	FishingPole	Footprints	FrontFacingBabyChick	FuneralUrn	GreenApple	GuideDog	Hamburger	HatchingChick	Hedgehog	HikingBoot	HinduTemple	HoneyPot	HorseFace	Houses	Hut	InboxTray	Joker	Ladder	Ledger	Lion	LongDrum	Mammoth	MantelpieceClock	MeatOnBone	MilitaryHelmet	Mirror	MoonCake	Mosque	MouseTrap	Mouth	NationalPark	NestingDolls	OutboxTray	Owl	Oyster	Package	PawPrints	Pear	PigFace	PigNose	PottedPlant	RedApple	RollerSkate	ServiceDog	Sloth	StuffedFlatbread	Tangerine	TeddyBear	Tongue	Wedding	WomansBoot	Wood	Yarn
-104	#77B255	ArticulatedLorry	Battery	Beetle	BellPepper	BentoBox	Blossom	Blueberries	Bouquet	Broccoli	Burrito	Cactus	Carrot	ChartIncreasingWithYen	CheckMarkButton	Cherries	ClutchBag	ConfettiBall	Crocodile	CrossMarkButton	Cucumber	Cupcake	Desert	Dna	DollarBanknote	DragonFace	Dragon	EarOfCorn	Eggplant	EightSpokedAsterisk	EmptyNest	Falafel	FireExtinguisher	FlagInHole	FourLeafClover	Frog	Grapes	GreenApple	GreenBook	GreenSalad	Hamburger	Herb	Hibiscus	HorizontalTrafficLight	HotPepper	HouseWithGarden	InboxTray	JapaneseReservedButton	KiwiFruit	LeafFlutteringInWind	LeafyGreen	Lemon	Lizard	Mango	Mate	Melon	Microbe	MoneyWithWings	MoonViewingCeremony	Motorcycle	Motorway	MountainRailway	NestingDolls	NestWithEggs	Pager	Parrot	PartyPopper	Peach	Peacock	Pinata	PineDecoration	PotOfFood	PottedPlant	RailwayCar	RailwayTrack	Razor	RecyclingSymbol	RedApple	Sandwich	Sari	Sauropod	Seedling	ShallowPanOfFood	Shamrock	SheafOfRice	Snake	Sparkle	Strawberry	StuffedFlatbread	Sushi	Taco	TeacupWithoutHandle	Tennis	Tomato	Tractor	Trolleybus	Troll	TropicalDrink	Tulip	Turtle	VerticalTrafficLight	VideoGame	WaterPistol	WindChime	WorldMap
-117	#C1694F	AdhesiveBandage	Amphora	Backpack	Bagel	BallotBoxWithBallot	Banana	Basket	Bear	Beaver	Bed	BellhopBell	Bison	Blowfish	Boar	Boomerang	BottleWithPoppingCork	BowAndArrow	Brick	Broom	BrownCircle	BrownHeart	BrownSquare	Burrito	Camel	CarpentrySaw	Chair	Chestnut	ChocolateBar	Chopsticks	Clipboard	ClosedMailboxWithLoweredFlag	ClosedMailboxWithRaisedFlag	ClutchBag	Cockroach	Coffin	CowFace	CricketGame	Cupcake	Custard	Deer	DerelictHouse	DesertIsland	Dodo	Dog	Duck	Factory	FallenLeaf	Feather	FieldHockey	Firecracker	Flatbread	FuneralUrn	GuideDog	Hamster	Hedgehog	HikingBoot	Hook	HorseFace	Horse	Hotel	Houses	House	HouseWithGarden	Hut	InboxTray	Key	KiwiFruit	Label	Llama	LockedWithKey	Locomotive	LongDrum	Mammoth	MantelpieceClock	MeatOnBone	MilitaryHelmet	Mirror	MoonViewingCeremony	MouseTrap	NotebookWithDecorativeCover	Olive	OpenMailboxWithLoweredFlag	OpenMailboxWithRaisedFlag	OutboxTray	Owl	Ox	Oyster	Package	Paintbrush	PalmTree	Peanuts	Pen	Placard	PostOffice	Potato	PottedPlant	PoultryLeg	RailwayTrack	RescueWorkersHelmet	RiceCracker	Scroll	ServiceDog	ShallowPanOfFood	Sled	Speedboat	StuffedFlatbread	Taco	Tamale	TeddyBear	Thread	Trophy	TropicalDrink	Turkey	TwoHumpCamel	WomansBoot	WomansSandal	Wood
-124	#55ACEE	AerialTramway	Airplane	Ambulance	ArticulatedLorry	AutoRickshaw	BabyBottle	Badminton	BarberPole	Bed	BlueBook	BlueCircle	BlueSquare	Books	Broom	BubbleTea	Bucket	BulletTrain	Bullseye	Bus	BustsInSilhouette	Butterfly	Canoe	CardIndex	CarpStreamer	CircusTent	Coat	ConvenienceStore	Cupcake	CupWithStraw	Cyclone	DeliveryTruck	DepartmentStore	DiamondWithADot	Dna	Doughnut	Dress	EnvelopeWithArrow	Ferry	FileFolder	FireEngine	Fireworks	FirstPlaceMedal	FishingPole	Fish	FloppyDisk	Glasses	Headphone	Hospital	Hotel	Houses	House	HouseWithGarden	IceCream	IncomingEnvelope	JapanesePostOffice	Joker	Keycap	KickScooter	Kite	Knot	Lacrosse	LargeBlueDiamond	LightRail	Locomotive	LoveHotel	Megaphone	Metro	Microphone	MilitaryMedal	Minibus	MobilePhone	MobilePhoneWithArrow	Monorail	MotorBoat	MountainCableway	MountainRailway	NationalPark	Newspaper	OfficeBuilding	Ogre	OncomingAutomobile	OncomingPoliceCar	OncomingTaxi	OpenFileFolder	PassengerShip	Peacock	PeopleHugging	Pinata	PoliceCar	RailwayCar	Robot	Rocket	RunningShirt	Sailboat	Sake	Satellite	School	SecondPlaceMedal	ShavedIce	Shield	Ship	Shower	Skis	SmallBlueDiamond	Socks	Sparkler	Speedboat	SpiralNotepad	SportsMedal	SportUtilityVehicle	SpoutingWhale	Station	Taxi	Television	ThirdPlaceMedal	Train	TramCar	Tram	Trolleybus	TShirt	WaterWave	Whale	WorldMap	Yarn
-128	#3B88C3	Ambulance	AntennaBars	AtmSign	BeachWithUmbrella	BlueBook	Bucket	BulletTrain	Camera	CameraWithFlash	Cinema	CircledM	ClockwiseVerticalArrows	Coat	ConvenienceStore	CoolButton	CounterclockwiseArrowsButton	CupWithStraw	DepartmentStore	DesertIsland	DiamondWithADot	Dna	DownArrow	DownLeftArrow	DownRightArrow	DownwardsButton	Dress	EjectButton	FastDownButton	FastForwardButton	FastReverseButton	FastUpButton	FireEngine	FirstPlaceMedal	FishingPole	Fish	Fountain	FreeButton	GlobeWithMeridians	Helicopter	HighSpeedTrain	Hospital	Hotel	HourglassDone	HourglassNotDone	Houses	IceCream	Information	InputLatinLetters	InputLatinLowercase	InputLatinUppercase	InputNumbers	InputSymbols	JapaneseHereButton	JapanesePostOffice	Jeans	KeycapAsterisk	KeycapEight	KeycapFive	KeycapFour	KeycapNine	KeycapNumberSign	KeycapOne	KeycapSeven	KeycapSix	KeycapTen	KeycapThree	KeycapTwo	KeycapZero	Kimono	Kite	LastTrackButton	LeftArrowCurvingRight	LeftArrow	LeftRightArrow	LightRail	LitterInBinSign	LoveHotel	Megaphone	MotorBoat	NewButton	NextTrackButton	NgButton	OfficeBuilding	OilDrum	OkButton	OncomingAutomobile	Paintbrush	Parrot	PauseButton	Pinata	PlayButton	PlayOrPauseButton	RacingCar	RecordButton	RepeatButton	RepeatSingleButton	Restroom	ReverseButton	RightArrowCurvingDown	RightArrowCurvingLeft	RightArrowCurvingUp	RightArrow	Robot	RugbyFootball	Sake	School	SecondPlaceMedal	ShavedIce	ShuffleTracksButton	Skateboard	Skis	SportsMedal	SportUtilityVehicle	SpoutingWhale	StopButton	Sunrise	SuspensionRailway	Teapot	ThirdPlaceMedal	ThongSandal	TShirt	UpArrow	UpButton	UpDownArrow	UpLeftArrow	UpRightArrow	UpwardsButton	Whale
-131	#F4900C	AutoRickshaw	Axe	BabyChick	BabySymbol	Basketball	BeachWithUmbrella	BeerMug	BellhopBell	BentoBox	BeverageBox	Biohazard	Blossom	Books	Bouquet	BowAndArrow	Burrito	BusStop	Bus	Camping	CarouselHorse	CarpStreamer	Carrot	CheeseWedge	Chicken	CityscapeAtDusk	ClinkingBeerMugs	CloudWithLightningAndRain	CloudWithLightning	Coin	Compass	Croissant	Crown	Cupcake	CurryRice	DesertIsland	Desert	DivingMask	DiyaLamp	Doughnut	EarOfCorn	Ferry	Fire	FlyingDisc	FortuneCookie	Fox	FrenchFries	FriedShrimp	FrontFacingBabyChick	Giraffe	HammerAndPick	HammerAndWrench	Hammer	HatchingChick	HeartOnFire	HoneyPot	Hook	IceHockey	JackOLantern	JapaneseAcceptableButton	JapaneseApplicationButton	JapaneseFreeOfChargeButton	JapaneseMonthlyAmountButton	JapaneseNotFreeOfChargeButton	JapaneseOpenForBusinessButton	Lacrosse	LargeOrangeDiamond	Ledger	Leopard	LightRail	Locomotive	Lollipop	Lotus	MobilePhoneOff	MoonCake	Mosque	MotorBoat	MotorScooter	MouseTrap	NestingDolls	Ogre	OncomingTaxi	OrangeBook	OrangeCircle	OrangeHeart	OrangeSquare	Owl	Parachute	Parrot	Pick	Pie	Pinata	Pizza	PrayerBeads	Pretzel	RacingCar	Radioactive	RingedPlanet	Robot	RollerCoaster	RollerSkate	Rosette	Sailboat	Sandwich	ShallowPanOfFood	ShootingStar	ShoppingBags	SlotMachine	SmallOrangeDiamond	Snowman	SnowmanWithoutSnow	SoftIceCream	Sponge	SunriseOverMountains	Sunrise	Sunset	SunWithFace	Sushi	SuspensionRailway	Swan	Taco	Tamale	Tangerine	Taxi	Tent	Tractor	TRex	TropicalDrink	TropicalFish	VibrationMode	VsButton	Waffle
-147	#FFCC4D	AlarmClock	ArticulatedLorry	ArtistPalette	BabyChick	Banana	BeerMug	BeverageBox	Boomerang	Bouquet	Broom	Burrito	Butter	Camping	CannedFood	Canoe	CarouselHorse	CarpentrySaw	CatFace	CherryBlossom	ChildrenCrossing	ChristmasTree	CityscapeAtDusk	Cityscape	ClinkingBeerMugs	ClinkingGlasses	Coin	ConfettiBall	Construction	CrescentMoon	CrossedSwords	Crown	Cupcake	Custard	Dagger	DeliveryTruck	DepartmentStore	DesertIsland	Desert	DivingMask	DiyaLamp	Duck	Dumpling	Eagle	Ewe	Firecracker	Fire	Fireworks	FirstQuarterMoonFace	FirstQuarterMoon	Flashlight	FrenchFries	FrontFacingBabyChick	FullMoonFace	FullMoon	Giraffe	Goat	Hamburger	Hamster	HatchingChick	HeartOnFire	HeartWithArrow	Helicopter	Hibiscus	Honeybee	HoneyPot	Hook	HorizontalTrafficLight	HotDog	Hotel	Houses	House	HouseWithGarden	JapaneseDolls	LastQuarterMoonFace	LastQuarterMoon	Ledger	Lemon	Leopard	LightBulb	Lion	Lipstick	Lollipop	LotionBottle	Memo	MoonViewingCeremony	MouseTrap	NightWithStars	Ogre	OncomingAutomobile	OncomingBus	OncomingTaxi	Owl	PartAlternationMark	PartyPopper	Pencil	Pen	Pie	Pinata	Pineapple	PingPong	Pizza	PotOfFood	RacingCar	Ram	ReminderRibbon	RingedPlanet	RoastedSweetPotato	Robot	Rocket	Rosette	Sandwich	School	SheafOfRice	ShoppingBags	Snail	Socks	SoftIceCream	Spaghetti	Sparkler	Sparkles	Speedboat	Sponge	StraightRuler	SunriseOverMountains	Sunrise	Sunset	SunWithFace	Synagogue	Taco	Tamale	Taxi	Tent	TigerFace	Tractor	TriangularRuler	TridentEmblem	Trophy	TropicalDrink	TropicalFish	VerticalTrafficLight	VideoGame	WaningCrescentMoon	WaningGibbousMoon	Warning	WaterPistol	WaxingCrescentMoon	WaxingGibbousMoon
-154	#FFAC33	Abacus	AlarmClock	AutoRickshaw	BabyBottle	BabyChick	BalanceScale	BeachWithUmbrella	BeerMug	BellhopBell	Bell	BellWithSlash	BentoBox	Bird	Books	BrightButton	Broom	Bullseye	Burrito	Bus	CameraWithFlash	Camping	CannedFood	Canoe	CheeseWedge	Chicken	ChristmasTree	ClinkingBeerMugs	Coffin	Coin	ComputerDisk	ConfettiBall	Cooking	CreditCard	Croissant	CrossedSwords	Crown	Crutch	CurlyHair	Dagger	DesertIsland	Desert	DimButton	DiyaLamp	Dizzy	Dna	Dodo	DollarBanknote	Door	Doughnut	Dumpling	Dvd	EuroBanknote	Ewe	Falafel	FieldHockey	FireEngine	FirstPlaceMedal	FlagInHole	FlyingDisc	Fondue	FriedShrimp	FrontFacingBabyChick	FuelPump	GlowingStar	Goat	Handbag	HeartWithArrow	HighVoltage	HoneyPot	Hook	HourglassDone	HourglassNotDone	Hut	Joker	Kaaba	Ledger	Leopard	Lipstick	Locked	LockedWithKey	LockedWithPen	Lollipop	LotionBottle	MagicWand	Magnet	MantelpieceClock	MilitaryMedal	Mirror	MoneyWithWings	MoonCake	Mosque	MountainRailway	OncomingBus	OncomingTaxi	OrangeBook	Owl	Oyster	Parachute	Parrot	PassengerShip	Penguin	Pen	Pineapple	Popcorn	PostalHorn	PostOffice	PoundBanknote	RailwayCar	ReminderRibbon	Robot	Rocket	Rooster	Rosette	Sailboat	Sandwich	Sari	SatelliteAntenna	Satellite	ShallowPanOfFood	ShootingStar	Shortcake	Snail	Snowman	SnowmanWithoutSnow	SoftIceCream	Spaghetti	Sparkles	Sponge	SportsMedal	Star	SteamingBowl	SunBehindCloud	SunBehindLargeCloud	SunBehindRainCloud	SunBehindSmallCloud	Sunflower	Sun	Taco	Tamale	TanabataTree	Tent	Tiger	Train	Trophy	TropicalDrink	TropicalFish	Turkey	UmbrellaOnGround	Unlocked	Volcano	Waffle	WaterPistol	WomansHat	YenBanknote
-167	#E1E8ED	Alembic	Ambulance	AmericanFootball	Badger	Badminton	Bank	BarChart	Baseball	BentoBox	Blossom	BlueBook	Boar	Bookmark	BookmarkTabs	BoxingGlove	BubbleTea	Camping	Candle	CardFileBox	Chains	ChartDecreasing	ChartIncreasing	ChequeredFlag	Chicken	Cigarette	ClassicalBuilding	ClinkingBeerMugs	ClinkingGlasses	ClosedBook	Cloud	CloudWithLightningAndRain	CloudWithLightning	CloudWithRain	CloudWithSnow	ControlKnobs	CupWithStraw	DesktopComputer	Dodo	Duck	Eagle	EightOclock	EightThirty	ElevenOclock	ElevenThirty	EMail	Envelope	EnvelopeWithArrow	Ewe	Eyes	Eye	FileCabinet	FishCakeWithSwirl	FiveOclock	FiveThirty	Flamingo	FloppyDisk	FlyingDisc	FlyingSaucer	Fly	Foggy	Fog	ForkAndKnifeWithPlate	Fountain	FourOclock	FourThirty	FuelPump	GameDie	Garlic	Ghost	GlassOfMilk	Goat	Goggles	GreenBook	GreenSalad	HatchingChick	Hospital	IncomingEnvelope	LabCoat	Ledger	LoveLetter	LowBattery	MagicWand	MartialArtsUniform	Mate	Microscope	MilitaryMedal	Minibus	MoneyWithWings	MoonViewingCeremony	Mosquito	MotorBoat	MountFuji	MusicalKeyboard	NestingDolls	NineOclock	NineThirty	Notebook	NotebookWithDecorativeCover	NutAndBolt	OneOclock	OneThirty	OpenBook	OpenMailboxWithRaisedFlag	OrangeBook	Oyster	Package	PageFacingUp	PageWithCurl	PetriDish	Placard	PolarBear	PoliceCar	PoolEightBall	Popcorn	Postbox	Printer	Raccoon	Ram	Razor	RightAngerBubble	Rock	RolledUpNewspaper	RollerCoaster	RollOfPaper	Rooster	RugbyFootball	Screwdriver	Seat	SevenOclock	SevenThirty	SewingNeedle	Shibuya	ShoppingCart	Shortcake	SixOclock	SixThirty	Skis	Skunk	Sled	SlotMachine	Snowman	SnowmanWithoutSnow	SunBehindCloud	SunBehindLargeCloud	SunBehindRainCloud	SunBehindSmallCloud	Sushi	Swan	TakeoutBox	TeacupWithoutHandle	TearOffCalendar	TenOclock	TenThirty	ThreeOclock	ThreeThirty	Toilet	TokyoTower	Tooth	TwelveOclock	TwelveThirty	TwoOclock	TwoThirty	UmbrellaOnGround	WhiteFlag	WhiteHair	WorldMap	Zebra
-168	#99AAB5	Ambulance	ArticulatedLorry	AutoRickshaw	BabyBottle	Badger	Badminton	BarberPole	Bathtub	Bat	Battery	BeverageBox	Bison	BlackNib	BookmarkTabs	Books	BowAndArrow	BowlWithSpoon	BoxingGlove	Bucket	Bus	Butter	CannedFood	CardIndex	CarpentrySaw	Clipboard	ClosedMailboxWithLoweredFlag	ClosedMailboxWithRaisedFlag	Coconut	ComputerMouse	Construction	CowFace	CurlingStone	Dodo	Dove	EightOclock	EightThirty	Elephant	ElevenOclock	ElevenThirty	EMail	Envelope	EnvelopeWithArrow	FaxMachine	FishingPole	FiveOclock	FiveThirty	Fondue	ForkAndKnife	ForkAndKnifeWithPlate	FountainPen	Fountain	FourOclock	FourThirty	FuelPump	Garlic	Gloves	Gorilla	HatchingChick	Helicopter	Hippopotamus	Honeybee	Hospital	HotBeverage	IceSkate	IncomingEnvelope	JapaneseCastle	Joystick	Keyboard	KickScooter	Kimono	Koala	LevelSlider	LightBulb	LinkedPaperclips	LotionBottle	Loudspeaker	LoveLetter	LowBattery	MartialArtsUniform	Mate	MechanicalArm	MechanicalLeg	Memo	Minibus	Motorcycle	MotorScooter	MouseFace	Mushroom	Newspaper	NineOclock	NineThirty	OilDrum	OncomingBus	OncomingPoliceCar	OncomingTaxi	OneOclock	OneThirty	OpenBook	OpenMailboxWithLoweredFlag	OpenMailboxWithRaisedFlag	Package	PageFacingUp	PageWithCurl	Paperclip	Parachute	Pencil	PersonFencing	PetriDish	PickupTruck	PoliceCarLight	Poodle	Popcorn	Pushpin	RabbitFace	Rabbit	Raccoon	Radio	Ram	Receipt	Rhinoceros	Rock	RolledUpNewspaper	RollerSkate	RollOfPaper	RoundPushpin	SafetyPin	SatelliteAntenna	Satellite	Scissors	Screwdriver	Seal	SevenOclock	SevenThirty	SewingNeedle	Shibuya	Ship	Shower	SixOclock	SixThirty	Spaghetti	SpiralNotepad	SpiralShell	Spoon	SteamingBowl	Stethoscope	StudioMicrophone	Syringe	TakeoutBox	TearOffCalendar	TenOclock	TenThirty	ThreeOclock	ThreeThirty	Ticket	Toilet	Toothbrush	Trackball	Trolleybus	TwelveOclock	TwelveThirty	TwoOclock	TwoThirty	Volleyball	Watch	WaterBuffalo	WindChime	WindFace	YoYo
-177	#66757F	Airplane	Axe	BalanceScale	Bank	Bat	BeachWithUmbrella	Bicycle	BlackCat	BlackNib	BookmarkTabs	Broom	BuildingConstruction	Calendar	Camera	CardIndex	CarpStreamer	Castle	ChessPawn	Cigarette	Cityscape	ClosedUmbrella	ConvenienceStore	Cooking	CrossedFlags	CurlingStone	DivingMask	Dodo	EightOclock	EightThirty	Elephant	ElevenThirty	EMail	FaxMachine	Ferry	FileCabinet	FireExtinguisher	FirstQuarterMoon	FishingPole	FiveOclock	FiveThirty	Flashlight	Fondue	FountainPen	FourOclock	FuelPump	Gear	Gloves	Gorilla	GreenSalad	Guitar	HammerAndPick	HammerAndWrench	Hammer	Headphone	Headstone	Helicopter	Hippopotamus	Houses	House	HouseWithGarden	IceHockey	JapaneseCastle	JapanesePostOffice	JapaneseSymbolForBeginner	Joystick	Koala	LastQuarterMoon	Ledger	LinkedPaperclips	LockedWithPen	LotionBottle	Loudspeaker	MagicWand	MagnifyingGlassTiltedLeft	MagnifyingGlassTiltedRight	ManualWheelchair	MartialArtsUniform	Mate	MechanicalArm	MechanicalLeg	Memo	Microscope	Minibus	Moai	Mosquito	MotorBoat	Motorcycle	MotorizedWheelchair	Motorway	MountainRailway	MouseFace	MovieCamera	NationalPark	NewMoonFace	NewMoon	NineOclock	NineThirty	Notebook	NutAndBolt	Oden	OfficeBuilding	OncomingBus	OncomingPoliceCar	OncomingTaxi	OneOclock	Pager	Panda	Parachute	Parrot	PersonFencing	Pick	Placard	PolarBear	PoliceCar	Poodle	Postbox	PotOfFood	Raccoon	Radio	Ram	Rat	Rhinoceros	Rock	RolledUpNewspaper	RollOfPaper	SafetyPin	Salt	SatelliteAntenna	Screwdriver	Seal	SevenOclock	SevenThirty	Shark	Shibuya	Ship	ShoppingCart	Shower	SixOclock	SixThirty	SmallAirplane	SpiderWeb	SpiralCalendar	SpiralNotepad	SpiralShell	Stadium	Stopwatch	StudioMicrophone	Syringe	TakeoutBox	TeacupWithoutHandle	TearOffCalendar	Television	TenOclock	TenThirty	ThreeOclock	TimerClock	TopHat	Tornado	Trackball	Tractor	TramCar	TriangularFlag	Turkey	TwelveThirty	TwoOclock	UmbrellaOnGround	Umbrella	UmbrellaWithRainDrops	VideoCamera	Videocassette	WaningCrescentMoon	WaningGibbousMoon	Watch	WaxingCrescentMoon	WaxingGibbousMoon	Wolf	Zebra
-201	#DD2E44	AbButtonBloodType	AButtonBloodType	AerialTramway	AlarmClock	Ambulance	ArtistPalette	Automobile	Bacon	BarberPole	BarChart	Baseball	BButtonBloodType	BeachWithUmbrella	Bear	BeatingHeart	BellWithSlash	BentoBox	Bicycle	Bird	BirthdayCake	Bookmark	Bouquet	BowAndArrow	Brain	BrokenHeart	Bullseye	Burrito	BusStop	Candy	Canoe	CarouselHorse	CarpStreamer	ChartIncreasing	Chicken	ChocolateBar	ChristmasTree	Church	CircusTent	ClButton	ClosedBook	ClosedMailboxWithLoweredFlag	ClosedMailboxWithRaisedFlag	Compass	ConvenienceStore	CookedRice	Crab	Crayon	CrossMark	Crown	Cupcake	CupWithStraw	DeliveryTruck	DepartmentStore	DogFace	Ferry	FieldHockey	Firecracker	FireEngine	FireExtinguisher	FlagInHole	FlowerPlayingCards	FrenchFries	GameDie	GreenSalad	GrowingHeart	Hamburger	HeartDecoration	HeartExclamation	HeartOnFire	HeartWithArrow	HeartWithRibbon	HighHeeledShoe	HollowRedCircle	HorizontalTrafficLight	Hospital	HotDog	HotSprings	IceSkate	JapaneseBargainButton	JapaneseCongratulationsButton	JapaneseDiscountButton	JapaneseNoVacancyButton	JapanesePassingGradeButton	JapanesePostOffice	JapaneseProhibitedButton	JapaneseSecretButton	Joker	KickScooter	KissMark	LadyBeetle	LightRail	Lion	Lipstick	Lobster	Locomotive	Lollipop	Loudspeaker	LoveHotel	LoveLetter	Lungs	ManualWheelchair	MapleLeaf	MechanicalLeg	MendingHeart	Metro	MilitaryMedal	MotorizedWheelchair	MotorScooter	Mouse	Mushroom	MutedSpeaker	NameBadge	Necktie	NestingDolls	NoBicycles	NoLittering	NoMobilePhones	NonPotableWater	NoOneUnderEighteen	NoPedestrians	NoSmoking	OButtonBloodType	Ogre	OncomingBus	OncomingPoliceCar	OpenMailboxWithLoweredFlag	OpenMailboxWithRaisedFlag	OutboxTray	Pager	Panda	Parachute	PartyPopper	PassengerShip	Peach	PickupTruck	PingPong	PolarBear	PoliceCarLight	PoliceCar	Postbox	Prohibited	Purse	Pushpin	RacingCar	RedApple	RedCircle	RedHeart	RedPaperLantern	RedSquare	RescueWorkersHelmet	RevolvingHearts	Ribbon	Robot	RollerCoaster	Rooster	RoundPushpin	RunningShoe	Scarf	Scissors	Screwdriver	ShintoShrine	ShoppingBags	Shortcake	Shrimp	Skateboard	Snake	Snowman	SnowmanWithoutSnow	Softball	SosButton	Spaghetti	SparklingHeart	Speedboat	SpiralCalendar	StopSign	Stopwatch	StuffedFlatbread	Sushi	Taco	TakeoutBox	Tamale	TearOffCalendar	Telephone	Thermometer	TigerFace	TimerClock	TokyoTower	Tomato	Tongue	Toolbox	TramCar	TriangularFlag	TwoHearts	UmbrellaOnGround	VerticalTrafficLight	VideoGame	Watermelon	Wedding	WhiteCane	WineGlass	YoYo
-207	#FFF	AbButtonBloodType	AButtonBloodType	AntennaBars	Aquarius	Aries	AtomSymbol	BabySymbol	Backpack	Bagel	BarberPole	Battery	BButtonBloodType	Biohazard	Bookmark	BridgeAtNight	Bubbles	Bug	Bullseye	Camera	CameraWithFlash	Cancer	Capricorn	CarpStreamer	ChartIncreasingWithYen	CheckMarkButton	CherryBlossom	Cinema	CircledM	ClButton	Clipboard	ClockwiseVerticalArrows	CocktailGlass	ConvenienceStore	CoolButton	Coral	CounterclockwiseArrowsButton	Crocodile	CrossMarkButton	CupWithStraw	DepartmentStore	DoubleCurlyLoop	DownArrow	DownLeftArrow	DownRightArrow	DownwardsButton	DragonFace	Dragon	EightSpokedAsterisk	EjectButton	Elevator	EyeInSpeechBubble	FastDownButton	FastForwardButton	FastReverseButton	FastUpButton	FemaleSign	FlowerPlayingCards	FramedPicture	FreeButton	Frog	GameDie	Gemini	GlassOfMilk	Hamsa	IdButton	Infinity	Information	InputLatinLetters	InputLatinLowercase	InputLatinUppercase	InputNumbers	InputSymbols	JapaneseAcceptableButton	JapaneseApplicationButton	JapaneseCongratulationsButton	JapaneseDiscountButton	JapaneseFreeOfChargeButton	JapaneseHereButton	JapaneseMonthlyAmountButton	JapaneseNotFreeOfChargeButton	JapaneseNoVacancyButton	JapaneseOpenForBusinessButton	JapanesePassingGradeButton	JapaneseProhibitedButton	JapaneseReservedButton	JapaneseSecretButton	JapaneseServiceChargeButton	JapaneseVacancyButton	Jar	KeycapAsterisk	KeycapEight	KeycapFive	KeycapFour	KeycapNine	KeycapNumberSign	KeycapOne	KeycapSeven	KeycapSix	KeycapThree	KeycapTwo	KeycapZero	Kimono	LastTrackButton	LatinCross	LeftArrowCurvingRight	LeftArrow	LeftRightArrow	Leo	Libra	LitterInBinSign	LowBattery	MaleSign	Mate	MedicalSymbol	Menorah	MensRoom	MobilePhoneOff	Motorcycle	Mouth	NazarAmulet	NewButton	NextTrackButton	NgButton	NightWithStars	NoBicycles	NoEntry	NoLittering	NoMobilePhones	NonPotableWater	NoPedestrians	NoSmoking	OButtonBloodType	Ogre	OkButton	Om	OncomingBus	OncomingTaxi	Ophiuchus	OrthodoxCross	Oyster	Panda	PauseButton	PButton	PeaceSymbol	Pisces	PlaceOfWorship	PlayButton	PlayOrPauseButton	Popcorn	PotableWater	PouringLiquid	RabbitFace	RacingCar	Radioactive	RecordButton	RepeatButton	RepeatSingleButton	RescueWorkersHelmet	Restroom	ReverseButton	RightArrowCurvingDown	RightArrowCurvingLeft	RightArrowCurvingUp	RightArrow	Robot	Sagittarius	Sake	Scorpio	Shark	Shortcake	ShuffleTracksButton	SnowCappedMountain	SosButton	Sparkle	SpiralCalendar	StarAndCrescent	!StarOfDavid	StopButton	Taurus	Telephone	Tennis	TigerFace	TimerClock	TransgenderSymbol	TropicalDrink	TumblerGlass	UpArrow	UpButton	UpDownArrow	UpLeftArrow	UpRightArrow	UpwardsButton	VibrationMode	Virgo	VsButton	WaterBuffalo	WaterCloset	WheelchairSymbol	WheelOfDharma	WhiteFlower	WindChime	Window	WineGlass	WomansHat	WomensRoom	XRay	YinYang
-231	#CCD6DD	Abacus	AirplaneArrival	AirplaneDeparture	Airplane	Alien	Ambulance	ArticulatedLorry	Automobile	Axe	BabyBottle	Badminton	Bagel	Banjo	Bank	BarberPole	BarChart	Bathtub	Battery	BentoBox	BeverageBox	BirthdayCake	Blossom	BlueBook	Bomb	BookmarkTabs	Books	Boomerang	BottleWithPoppingCork	BowAndArrow	Bowling	BowlWithSpoon	BoxingGlove	Briefcase	BubbleTea	Bus	Butter	Camera	CameraWithFlash	Candle	CannedFood	CardFileBox	CardIndex	CarouselHorse	CarpentrySaw	CarpStreamer	Castle	ChartDecreasing	ChartIncreasing	ChocolateBar	Cigarette	CircusTent	ClapperBoard	ClassicalBuilding	Clipboard	ClosedBook	Cloud	CocktailGlass	Compass	ControlKnobs	ConvenienceStore	CookedRice	CouchAndLamp	CowFace	Cow	CrossedSwords	Crutch	CupWithStraw	CurryRice	Dagger	DeliveryTruck	DesktopComputer	Dodo	Dove	EMail	Envelope	EnvelopeWithArrow	FaxMachine	FerrisWheel	Ferry	FireEngine	FireExtinguisher	FishingPole	FlyingSaucer	Foggy	Fog	Fondue	ForkAndKnifeWithPlate	FortuneCookie	GlassOfMilk	GoalNet	Goat	Goggles	GreenBook	GreenSalad	Guitar	Headstone	Hole	Honeybee	Hospital	HotBeverage	IncomingEnvelope	JapanesePostOffice	KitchenKnife	LabCoat	Laptop	Ledger	LevelSlider	LightBulb	LotionBottle	Loudspeaker	LoveLetter	LowBattery	Luggage	Magnet	MartialArtsUniform	Mate	MechanicalArm	MechanicalLeg	Memo	Minibus	Moai	MoneyWithWings	Mosquito	MotorBoat	Motorcycle	MotorizedWheelchair	Motorway	MountFuji	Mouse	MovieCamera	MutedSpeaker	NestingDolls	Newspaper	Notebook	NotebookWithDecorativeCover	NutAndBolt	Oden	OncomingBus	OncomingPoliceCar	OncomingTaxi	OpenBook	OpenMailboxWithRaisedFlag	OpticalDisk	OrangeBook	Ox	Oyster	Package	PageFacingUp	PageWithCurl	Paintbrush	Panda	PassengerShip	Pencil	PersonFencing	PetriDish	PickupTruck	PingPong	PolarBear	PoliceCarLight	Poodle	Postbox	PostOffice	RabbitFace	Rabbit	RailwayTrack	Receipt	Rhinoceros	RiceBall	Robot	Rock	RolledUpNewspaper	RollerCoaster	RollOfPaper	RugbyFootball	RunningShoe	Sake	Salt	SatelliteAntenna	Satellite	Saxophone	Scissors	Seal	Seat	SecondPlaceMedal	SewingNeedle	Shibuya	Shield	ShoppingCart	SkullAndCrossbones	Skull	SlotMachine	SmallAirplane	Soap	SoccerBall	SpeakerHighVolume	SpeakerLowVolume	SpeakerMediumVolume	SpiralCalendar	SpiralNotepad	SpiralShell	SportUtilityVehicle	SteamingBowl	StopSign	Sushi	Swan	Syringe	Taxi	TestTube	Thermometer	Ticket	Toilet	Toolbox	Toothbrush	Tornado	Trackball	Tractor	TropicalDrink	Trumpet	TumblerGlass	Videocassette	Violin	Volcano	Waffle	Watch	WhiteCane	WhiteExclamationMark	WhiteQuestionMark	WindFace	WineGlass	Wolf	WorldMap
-242	#292F33	Accordion	Alien	Ambulance	ArticulatedLorry	Automobile	AutoRickshaw	Badminton	BallotBoxWithBallot	Banjo	Bank	Bat	Beaver	BentoBox	Bicycle	BilledCap	Bird	Bison	BlackCat	Blowfish	Boar	BubbleTea	Bucket	Bus	Butterfly	Camel	Camping	CardIndex	CarouselHorse	CatFace	Cat	Chicken	Chipmunk	CityscapeAtDusk	Cityscape	ClapperBoard	ClassicalBuilding	Clipboard	ClosedMailboxWithLoweredFlag	ClosedMailboxWithRaisedFlag	Compass	ComputerDisk	ComputerMouse	ConfettiBall	Construction	ControlKnobs	ConvenienceStore	Cooking	Crab	Crayon	CreditCard	CricketGame	Cricket	Crocodile	CurrencyExchange	DeliveryTruck	DerelictHouse	DivingMask	Dodo	DogFace	Dog	DragonFace	Dragon	Duck	Eagle	Elephant	Ewe	Eyes	Eye	FaxMachine	FileCabinet	FireEngine	FireExtinguisher	FirstQuarterMoonFace	FlagInHole	Flamingo	Fondue	FramedPicture	Frog	FullMoonFace	Ghost	Giraffe	Gloves	Goat	Goblin	Goggles	GraduationCap	GreenSalad	GuideDog	Guitar	HeavyDollarSign	HighHeeledShoe	HikingBoot	HinduTemple	Hippopotamus	HorseFace	Horse	Houses	JapaneseDolls	Kaaba	Kangaroo	Keyboard	KickScooter	KiwiFruit	Koala	Lacrosse	LastQuarterMoonFace	Leopard	LevelSlider	Lizard	Llama	Lobster	LockedWithPen	Luggage	MagicWand	Mammoth	MansShoe	ManualWheelchair	MartialArtsUniform	Memo	Metro	MilkyWay	Minibus	MonkeyFace	Monkey	Motorcycle	MotorizedWheelchair	MotorScooter	MountainRailway	Mountain	MountFuji	NationalPark	NazarAmulet	NestingDolls	NewMoonFace	NightWithStars	Notebook	Octopus	Ogre	OncomingAutomobile	OncomingBus	OncomingPoliceCar	OncomingTaxi	OpenBook	OpenMailboxWithLoweredFlag	OpenMailboxWithRaisedFlag	Orangutan	Otter	Owl	Ox	Parachute	Parrot	Peacock	Pencil	Penguin	PersonFencing	PickupTruck	PigFace	Pig	PileOfPoo	PirateFlag	PolarBear	PoliceCar	Poodle	Postbox	PotOfFood	PrayerBeads	Printer	RabbitFace	Rabbit	Raccoon	RacingCar	Radio	RailwayCar	Ram	Rat	RedPaperLantern	Rhinoceros	RiceBall	RiceCracker	RollerSkate	Rooster	RoundPushpin	Scorpion	Seal	ServiceDog	ShallowPanOfFood	Shark	Shibuya	ShintoShrine	Ship	ShoppingCart	Shrimp	SkullAndCrossbones	Skull	Skunk	Sloth	SmallAirplane	Snake	SnowCappedMountain	Speedboat	SpiralCalendar	SpiralNotepad	SportUtilityVehicle	SpoutingWhale	Squid	Station	Stopwatch	StraightRuler	StudioMicrophone	Sunset	Sushi	Swan	Synagogue	Syringe	Taxi	TeacupWithoutHandle	TearOffCalendar	TeddyBear	Telescope	Tent	Thermometer	Tiger	TimerClock	Toolbox	Trackball	Tractor	TramCar	Tram	TRex	TropicalFish	Turkey	Turtle	TwoHumpCamel	Unicorn	Violin	Volcano	WavyDash	Whale	WhiteCane	Wolf	Wood	Zebra
+5	#F1F2F2	CurryRice	Custard	Shortcake	Spaghetti	TumblerGlass
+
+random nice
+#6D6eE1
+

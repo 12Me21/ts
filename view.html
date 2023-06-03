@@ -94,12 +94,14 @@
 		filter: drop-shadow(.1px .1px) drop-shadow(-.1px -.1px);*/
 		stroke: #C0A !important;
 		stroke-width: 0.125 !important;
+		opacity: unset !important;
 	}
 	.compare-box.points > svg * {
 		marker-mid: url(#point);
 		marker-start: url(#start);
 		marker-end: url(#end);
 		clip-path: unset;
+		opacity: unset !important;
 	}
 	.compare-box.points:not(.glass) > svg * {
 		fill: none !important;
@@ -110,6 +112,16 @@
 		opacity: 0;
 		z-index: -5;
 	}
+	.clip-display {
+		fill: none;
+	}
+	.highlight {
+		filter: drop-shadow(0px 0px 0.2px red);
+	}
+	.clip-display .highlight {
+		fill: #0C08 !important;
+	}
+	
 	.compare-box.showolder > .svg-old {
 		opacity: 0;
 		z-index: -5;
@@ -512,11 +524,34 @@
 		standard_colors = sc2
 	}
 	
+	function findmaybecolor(elem) {
+		let col
+		for (let an of ['color','fill','stroke']) {
+			let col = elem.getAttribute(an)
+			if (col && col!='none')
+				return col
+		}
+		let p = elem.parentElement
+		if (!p || p instanceof SVGSVGElement)
+			return "unset"
+		return findmaybecolor(p)
+	}
+	
 	function show_layers(svg) {
 		$layers.textContent = ""
 		
+		for (let cl of svg.querySelectorAll('clipPath')) {
+			let clip2 = cl.cloneNode(true)
+			let g = document.createElementNS('http://www.w3.org/2000/svg','g')
+			//g.style.opacity = "0"
+			g.append(...clip2.childNodes)
+			svg.append(g)
+			g.classList.add('clip-display')
+			g.setAttribute('fill', '#A08')
+		}
+		
 		//let items = svg.children
-		let items = svg.querySelectorAll('*:not(g,svg,clipPath,defs)')
+		let items = svg.querySelectorAll('*:not(g,svg,clipPath,defs,clipPath *)')
 		
 		for (let elem of items) {
 			if (elem.style.display=="none")
@@ -538,7 +573,16 @@
 				if (elem2 instanceof SVGPathElement)
 					sym += " ("+elem2.getAttribute('d').length+")"
 			}
-			let tf = elem2.transform?.baseVal
+			let tf = elem2.transform?.baseVal // todo: need to check parent etc. we should switch to a kind of tree view i think. except, with like, table cell boxes etc?
+			/*
+			+---+--------+
+		   |   |[] path |
+			| g |--------+
+		   |   |[] path |
+			+--------+---+
+		   |[] path |
+			+--------+
+			*/
 			if (tf)
 				for (let {type, matrix} of tf) {
 					// only indicate 'strange' matricies (i.e. not ones that just flip or translate)
@@ -553,6 +597,8 @@
 						sym = "f" + sym
 					}
 				}
+			
+			tf.initialize(tf.createSVGTransformFromMatrix(elem.getTransformToElement(svg)))
 			
 			let id = elem2.id || elem2.parentNode?.id
 			if (id) {
@@ -582,8 +628,9 @@
 			col: if (skin) {
 				box.$row2.append("🎨︎ "+skin+"")
 			} else {
-				let clip = elem.closest('clipPath')
+				let clip = elem.closest('.clip-display')
 				if (clip) {
+					elem.style.fill = 'inherit'
 					box.$row2.append('✂️ #'+clip.id)
 					elem2.setAttribute('fill', '#A08')
 					break col
@@ -594,19 +641,18 @@
 				if (!col || col=="none")
 					col = elem2.getAttribute('stroke')*/
 				
-				let style = getComputedStyle(elem)
-				let col = style.fill
-				if (!col || col=="none")
-					col = style.stroke 
+				let col = findmaybecolor(elem)
 				
-				elem2.setAttribute('fill', style.fill)
-				//elem2.setAttribute('stroke', style.stroke)
-				
+				/*
 				let rgb = col.match(/\d+/g)
 				if (rgb) {
 					let [r,g,b] = rgb
 					col = ("#"+(+r).toString(16).padStart(2,'0')+(+g).toString(16).padStart(2,'0')+(+b).toString(16).padStart(2,'0'))//.toUpperCase()
 				}
+				*/
+				
+				col = String(col).toLowerCase()
+				col = col.replace("^#(.)(.)(.)$","#$1$1$2$2$3$3")
 				
 				//if (col!='#000000') {
 					let cs = document.createElement('div')
@@ -623,10 +669,10 @@
 				//}
 			}
 			box.$root.onpointerenter = ev=>{
-				elem.style.filter = 'drop-shadow(0px 0px 0.2px red)'
+				elem.classList.add('highlight')
 			}
 			box.$root.onpointerleave = ev=>{
-				elem.style.filter = ''
+				elem.classList.remove('highlight')
 			}
 			box.$root.title = elem.outerHTML
 			
@@ -635,6 +681,7 @@
 			
 			elem2.removeAttribute('id')
 		}
+		
 	}
 	
 	let gen = 0

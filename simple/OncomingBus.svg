@@ -9,15 +9,16 @@
 	
 	<rect x="12" y="0" width="12" height="4" rx="2"  fill="#CCD6DD"/>
 	<path d="M 28,2 a 4,4 0 01 4,4 v26 h-28 v-26 a 4,4 0 01 4,-4 h20 Z"   fill="#CCD6DD"/>
-	<path d="M 4,16 h28 v16 h-28 v-16 Z"   fill="#FFCC4D"/>
-	<path d="M 4,25 h28 v6 h-28 v-6 Z"   fill="#FFAC33"/>
+	<rect width="28" height="16" x="4" y="16" fill="#FFCC4D"/>
+	<rect width="28" height="6" x="4" y="25" fill="#FFAC33"/>
 	
-	<path d="M 5,25 h7 v3 h-7 v-3 Z"   fill="#FFF"/>
-	<path d="M 24,25 h7 v3 h-7 v-3 Z"   fill="#FFF"/>
-	<path d="M 4,25 h2 v3 h-2 v-3 Z"   fill="#DD2E44"/>
-	<path d="M 30,25 h2 v3 h-2 v-3 Z"   fill="#DD2E44"/>
+	<rect width="7" height="3" x="5" y="25" fill="#FFF"/>
+	<rect width="7" height="3" x="24" y="25" fill="#FFF"/>
+	<rect width="2" height="3" x="4" y="25" fill="#DD2E44"/>
+	<rect width="2" height="3" x="30" y="25" fill="#DD2E44"/>
 	
-	<path d="M 14,25 h8 v3 h-8 v-3 Z"   fill="#66757F"/>
+	<rect width="8" height="3" x="14" y="25" fill="#66757F"/>
+	
 	<rect x="3" y="30" width="30" height="3" rx="1"  fill="#66757F"/>
 	
 	<rect x="4" y="7" width="28" height="13" rx="3"  fill="#66757F"/>
@@ -25,4 +26,4 @@
 	
 	
 	<rect x="14" y="2" width="8" height="3" rx="1.5"  fill="#292F33"/>
-	</svg>
+</svg>
