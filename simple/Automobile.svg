@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<path d="M 33,32 h-31 s -2,0 -2,-2.043 c 0,-1.619 1,-1.957 1,-1.957 v-3 c 0,-2 3,-3 3,-3 l 4,-1 s 7,-7 10,-7 h6 c 3,0 10,6 11,7 s 1,5 1,7 c 0,4 -3,4 -3,4 Z" fill="#dd2e44"/>
+	<g fill="#bbddf5">
+		<!-- <path d="M 20,13 v5.481 c -5.003,0.256 -10,0.519 -10,0.519 s 6,-6 8,-6 h2 Z" fill="#bbddf5"/> -->
+		<path d="M 10,22 s 6,-6 8,-6 h2 v5.481 l -10,0.519 Z"/> strange 
+		<path d="M 30,19 c 1,1 1,2 0,2 c -0.418,0 -3.989,0.175 -8,0.379 v-5.379 h1 c 2,0 6,2 7,3 Z"/>
+	</g>
+	<g>
+		<circle r="4" cx="10" cy="31" fill="#292f33"/>
+		<circle r="4" cx="27" cy="31" fill="#292f33"/>
+		<circle r="2" cx="10" cy="31" fill="#ccd6dd"/>
+		<circle r="2" cx="27" cy="31" fill="#ccd6dd"/>
+	</g>
+</svg>

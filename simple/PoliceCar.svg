@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<clipPath id="car1">
+			<path d="M 32,22 a 4,4 0 01 4,4 v2 a 4,4 0 01 -4,4 h-27 a 4,4 0 01 -4,-4 v-2 c 0,-4 8,-5 8,-5 s 4,-7 7,-7 h11 c 3,0 5,8 5,8 Z"/>
+			<rect x="0" y="28" width="9" height="4" rx="2"/>
+		</clipPath>
+	</defs>
+	
+	<g clip-path="url(#car1)">
+		<rect width="36" height="26" fill="#e1e8ed"/>
+		<rect y="25" width="36" height="11" fill="#292F33"/>
+		<circle r="6" cx="10" cy="31" fill="#66757f"/>
+		<circle r="6" cx="27" cy="31" fill="#66757f"/>
+	</g>
+	wheels
+	<g>
+		<circle r="4" cx="10" cy="31" fill="#292F33"/>
+		<circle r="4" cx="27" cy="31" fill="#292F33"/>
+		<circle r="2" cx="10" cy="31" fill="#e1e8ed"/>
+		<circle r="2" cx="27" cy="31" fill="#e1e8ed"/>
+	</g>
+	lights
+	<g>
+		<rect width="5" height="2" rx="1" x="16" y="12" fill="#dd2e44"/>
+		<rect width="4" height="2" rx="1" x="18" y="12" fill="#55acee"/>
+	</g>
+	windows
+	<g fill="#55acee">
+		<path d="M 23,21 v-5 h4 c 1,0 3,5 3,5 h-7 Z"/>
+		<path d="M 21,16 v5 h-10 s 3,-5 5,-5 h5 Z"/>
+	</g>
+</svg>

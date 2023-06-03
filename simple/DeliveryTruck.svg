@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	Similar to ArticulatedLorry
+	<g>
+		<g>
+			<path d="M 14,12 v15 h-12 l -2,-2 v-5.041 l 3,-5.959 s 1,-2 4.146,-2 Z" fill="#ffcc4d"/>
+			<path d="M 9,20 h-7 l 2,-4 s 1,-2 3,-2 h2 v6 Z" fill="#55acee"/>
+		</g>
+		<rect width="23" height="21" rx="4" x="13" y="8" fill="#ccd6dd"/>
+		<path d="M 0,25 h36 v2 a 4,4 0 01 -4,4 h-28 a 4,4 0 01 -4,-4 v-2 Z" fill="#dd2e44"/>
+	</g>
+	<g>
+		<circle r="4" cx="9" cy="31" fill="#292f33"/>
+		<circle r="4" cx="27" cy="31" fill="#292f33"/>
+		<circle r="2" cx="9" cy="31" fill="#ccd6dd"/>
+		<circle r="2" cx="27" cy="31" fill="#ccd6dd"/>
+	</g>
+</svg>

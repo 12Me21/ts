@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<clipPath id="bus1">
+			<path d="M 35,12 s 1,5.973 1,7 v8 a 4,4 0 01 -4,4 h-28 a 4,4 0 01 -4,-4 v-6 c 0,-1.669 0.547,-3.401 2,-4 l 3.1,-5 c 1.013,-2.209 2.923,-4 4.3,-4 h21.6 c 3,0 4,3 4,4 Z"/>
+		</clipPath>
+	</defs>	
+		
+	<g clip-path="url(#bus1)">
+		<circle r="999" fill="#ccd6dd"/>
+		<circle r="6" cx="9" cy="31" fill="#e1e8ed"/>
+		<circle r="6" cx="27" cy="31" fill="#e1e8ed"/>
+	</g>
+	<g>
+		<circle r="4" cx="9" cy="31" fill="#292f33"/>
+		<circle r="4" cx="27" cy="31" fill="#292f33"/>
+		<circle r="2" cx="9" cy="31" fill="#99aab5"/>
+		<circle r="2" cx="27" cy="31" fill="#99aab5"/>
+	</g>
+	
+	window
+	<g>
+		<path d="M 8,10 h5 v7 h-9 l 4,-7 Z" fill="#55acee"/>
+	</g>
+	
+	stripe
+	<rect width="36" height="3" x="0" y="21" fill="#dd2e44"/>
+	
+	<g transform="translate(27 14)">
+		<path d="M 4,-1 v2 h-3 v3 h-2 v-3 h-3 v-2 h3 v-3 h2 v3 h3 Z" fill="#dd2e44"/>
+		<!--
+			silly change
+			<g fill="#3B88C3">
+			<rect width="2" height="8" x="-1" y="-4" transform="rotate(60)"/>
+			<rect width="2" height="8" x="-1" y="-4" transform="rotate(-60)"/>
+			<rect width="2" height="8" x="-1" y="-4"/>
+			</g>
+		-->
+	</g>
+	
+	<g>
+		<rect width="5" height="3" rx="1.5" x="10" y="5" fill="#dd2e44"/>
+		<rect width="5" height="3" rx="1.5" x="13" y="5" fill="#55acee"/>
+		<!--
+		<rect width="7" height="3" rx="1.5" x="10" y="5" fill="#dd2e44"/>
+		<rect width="4" height="3" rx="1.5" x="14" y="5" fill="#BE1931"/>
+		-->
+	</g>
+</svg>
