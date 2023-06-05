@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	colors updated
+	<rect width="2" height="26" x="14" y="7" fill="#66757F"/>
+	<path d="M 19,32 l 1,1 v2 h-10 v-2 l 1,-1 h8 Z" fill="#66757F"/>
+	<path d="M 21,34 l 1,1 v1 h-14 v-1 l 1,-1 h12 Z" fill="#66757F"/>
+	
+	<rect width="4" height="2" x="15" y="19" fill="#66757F"/>
+	<rect width="4" height="2" x="15" y="13" fill="#66757F"/>
+	
+	<rect x="18" y="9" width="11" height="16" rx="1" fill="#AAB8C2"/>
+	<rect width="3" height="3" x="20" y="13" fill="#66757F"/>
+	<rect width="3" height="3" x="24" y="13" fill="#66757F"/>
+	<rect width="3" height="3" x="24" y="17" fill="#66757F"/>
+	<rect width="3" height="3" x="20" y="17" fill="#F4900C"/>
+	<rect width="3" height="3" x="20" y="21" fill="#F4900C"/>
+	<rect width="3" height="3" x="24" y="21" fill="#F4900C"/>
+	
+	<path d="M 29,13 h-11 v-3 a 1,1 0 01 1,-1 h9 a 1,1 0 01 1,1 v3 Z" fill="#BE1931"/>
+	<circle fill="#BE1931" cx="15" cy="4" r="4"/>
+	<rect width="4" height="4" x="13" y="2" fill="#DD2E44"/>
+	<rect width="7" height="2" x="20" y="10" fill="#DD2E44"/>
+</svg>
