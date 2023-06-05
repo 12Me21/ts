@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<clipPath id="hull1">
+			<path d="M 35,16 c 0,4 -1.598,8.708 -1.598,8.708 s -23.158,2.762 -28.162,-1.83 c -1.44,-1.321 -3.24,-4.878 -4.24,-6.878 h34 Z"/>
+		</clipPath>
+	</defs>
+	
+	people
+	<g>
+		<ellipse fill="#EA596E" cx="19.5" cy="11.5" rx=".5" ry="1.5"/>
+		<ellipse fill="#EA596E" cx="25.5" cy="11.5" rx=".5" ry="1.5"/>
+		<ellipse fill="#A6D388" cx="21.5" cy="11.5" rx=".5" ry="1.5"/>
+		<ellipse fill="#A6D388" cx="18.5" cy="11.5" rx=".5" ry="1.5"/>
+		<ellipse fill="#A6D388" cx="32.5" cy="16.5" rx=".5" ry="1.5"/>
+		<ellipse fill="#A6D388" cx="6.5" cy="16.5" rx=".5" ry="1.5"/>
+		<ellipse fill="#55ACEE" cx="22.5" cy="11.5" rx=".5" ry="1.5"/>
+		<ellipse fill="#55ACEE" cx="26.5" cy="11.5" rx=".5" ry="1.5"/>
+		<ellipse fill="#55ACEE" cx="30.5" cy="16.5" rx=".5" ry="1.5"/>
+		<ellipse fill="#55ACEE" cx="3.5" cy="16.5" rx=".5" ry="1.5"/>
+		<ellipse fill="#F4900C" cx="33.5" cy="16.5" rx=".5" ry="1.5"/>
+		<ellipse fill="#F4900C" cx="5.5" cy="16.5" rx=".5" ry="1.5"/>
+		<ellipse fill="#F4900C" cx="23.5" cy="12.5" rx=".5" ry="1.5"/>
+	</g>
+	
+	<g fill="#ccd6dd">
+		antennas
+		<rect x="13" y="3" width="1" height="6" rx="0.5"  fill="#CCD6DD"/>
+		<rect x="11" y="5" width="1" height="5" rx="0.5"  fill="#CCD6DD"/>
+		structure
+		<path d="M 15,13 l -8.4,1 l 0.9,-6.208 h7.5 v5.208 Z"/>
+		<path d="M 29,16.5 c 0,0.276 -0.776,0.5 -0.5,0.5 h-21 a 0.5,0.5 0 00 0.5,-0.5 v-2 a 0.5,0.5 0 00 -0.5,-0.5 h-0.9 l 0.4,-2 h24 l 0.4,2 h-1.9 a 0.5,0.5 0 00 -0.5,0.5 v2 Z"/>
+		windows
+		<g fill="#66757F">
+			<path d="M 13.5,9 a 0.5,0.5 0 01 0.5,0.5 v1 a 0.5,0.5 0 01 -0.5,0.5 h-1.5 v-2 h1.5 Z"/>
+			<path d="M 11,11 h-3.95 l 0.3,-2 h3.65 v2 Z"/>
+			
+			<rect x="9" y="14" width="5" height="3" rx="0.5"/>
+			<rect x="16" y="14" width="5" height="3" rx="0.5"/>
+			<rect x="23" y="14" width="5" height="3" rx="0.5"/>
+		</g>
+		roof
+		<rect x="7" y="7" width="8.5" height="1" rx="0.5" ry="0.25"  fill="#226699"/>
+	</g>
+	
+	hull
+	<g clip-path="url(#hull1)">
+		<circle r="999" fill="#ccd6dd"/>
+		<rect width="36" y="21" height="12" fill="#dd2e44"/>
+	</g>
+	windows 2
+	<g  fill="#66757F">
+		<rect x="6" y="18" width="2" height="2" rx="0.5"/>
+		<rect x="10" y="18" width="2" height="2" rx="0.5"/>
+		<rect x="14" y="18" width="2" height="2" rx="0.5"/>
+		<rect x="18" y="18" width="2" height="2" rx="0.5"/>
+		<rect x="22" y="18" width="2" height="2" rx="0.5"/>
+		<rect x="26" y="18" width="2" height="2" rx="0.5"/>
+		<rect x="30" y="18" width="2" height="2" rx="0.5"/>
+	</g>
+	
+	water
+	<path d="M 0,24 h36 v12 h-36 v-12 Z"  fill="#55ACEE"/>
+</svg>
