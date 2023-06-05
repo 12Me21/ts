@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	colors changed to new grays
+	<rect width="2" height="27" rx="1" x="18" y="0" fill="#99aab5"/>
+	<g class="toolight">
+		<path d="M 3,24 h31 v8 h-22 c -6,0 -9,-8 -9,-8 Z" fill="#CCD6DD"/>
+		<path d="M 2,24 h33 v2 h-33 a 1,1 0 01 -1,-1 a 1,1 0 01 1,-1 Z" fill="#E1E8ED"/>
+	</g>
+	sails:
+	<path d="M 5,22 s 2,-5 5,-9 s 8,-8 8,-8 s -1,11 -1,16 v1 s -3,-1 -6,-1 s -6,1 -6,1 Z" fill="#ffac33"/>
+	<path d="M 20,2 s 6,6 9,11 c 2.771,4.618 4,9 4,9 s -3,-1 -6,-1 s -6,1 -6,1 v-1 c 0,-9 -1,-19 -1,-19 Z" fill="#f4900c"/>
+	
+	water:
+	<rect width="36" height="6" x="0" y="30" fill="#55acee"/>
+</svg>
