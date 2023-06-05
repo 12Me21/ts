@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<clipPath id="hull1">
+			<path d="M 1,17 h34 c 0,4 -2,6.964 -2,6.964 s -24.728,5.254 -27,-1.146 c -1,-2.818 -4,-3.818 -5,-5.818 Z"/>
+		</clipPath>
+		<path id="lifeboat1" d="M -1.5,0 h3 v0.229 a 0.771,0.771 0 01 -0.771,0.771 h-1.458 a 0.771,0.771 0 01 -0.771,-0.771 v-0.229 Z" fill="#ffac33"/>
+	</defs>
+	
+	<g>
+		<path d="M 31,12 h-4 l 1,-5 h3 v5 Z" fill="#dd2e44"/>
+		<g fill="#ccd6dd">
+			<path d="M 33,12 h-8 l 0.887,-3 h6.523 l 0.59,3 Z"/>
+			<path d="M 15,10 h-4 l 1,-3 h3 v3 Z"/>
+			<path d="M 8.3421,9 h8.658 l 1,2 h14 h2 l 0.401,2 h1 l 0.182,1 h-0.984 l 0.386,3.032 l -0.454,0.968 h-28.531 l 2,-6 h-1 l 0.371,-1 h1.179 l 0.45,-1 h-1 l 0.342,-1 Z"/>
+		</g>
+		hull:
+		<g clip-path="url(#hull1)" class="toolight">
+			i swapped the layering here
+			<circle r="999" fill="#ccd6dd"/>
+			<rect width="36" y="21" height="12" fill="#226699"/>
+		</g>
+	</g>
+	windows:
+	<g>
+		<path d="M 9,10 h5 l 0.291,1 h-5.741 l 0.45,-1 Z" fill="#226699"/>
+		<path d="M 8.75,12 h26.45 l 0.176,1 h-26.954 l 0.328,-1 Z" fill="#226699"/>
+		<path d="M 34.6,14 l 0.119,1 h-26.969 l 0.344,-1 h26.506 Z" fill="#226699"/>
+		<path d="M 35,17 h-27.875 l 0.325,-1 h27.425 l 0.125,1 Z" fill="#226699"/>
+	</g>
+
+	water
+	<rect width="36" height="12" x="0" y="24" fill="#55acee"/>
+	<g>
+		<use href="#lifeboat1" x="17.5" y="18"/>
+		<use href="#lifeboat1" x="20.5" y="18"/>
+		<use href="#lifeboat1" x="23.5" y="18"/>
+		<use href="#lifeboat1" x="27.5" y="18"/>
+		<use href="#lifeboat1" x="30.5" y="18"/>
+	</g>
+</svg>
