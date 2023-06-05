@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	i changed the colors on this one because they were ridiculous and didn't match other fonts. not totally happy but it had to be done.
+	<clipPath id="rect1">
+		<path d="M 36,32 s 0,4 -4,4 h-28 s -4,0 -4,-4 v-28 c 0,-4 4,-4 4,-4 h28 c 4,0 4,4 4,4 v28 Z"/> <!--<rect width="36" height="36"/>-->
+	</clipPath>
+	<g clip-path="url(#rect1)">
+		<circle r="999" fill="#88c9f9"/>
+		standard cloud:
+		<g fill="#f5f8fa" transform="translate(20 10) scale(0.333) translate(0 -20)">
+			<path d="M 5,20 v-5 l 5.5,-6.5 l 9,-2 l 8.5,5.5 v8 h-23 Z"/>
+			<circle cx="5" cy="15" r="5"/>
+			<circle cx="10.5" cy="8.5" r="4.5"/>
+			<circle cx="19.5" cy="6.5" r="6.5"/>
+			<circle cx="28" cy="12" r="8"/>
+		</g>
+		<g fill="#5c913b">
+			<path d=" M
+3.563,15.125
+ C 5.696,15.125 7.117,17.377
+8.184,17.377
+ C 9.25,17.377 9.391,16.875
+10.813,16.875
+ C 12.235,16.875 12.672,19
+14.228,19
+v 1
+H 0
+v-1
+ L
+0.006,16.999
+ C 0.006,16.999 1.341,15.125
+3.563,15.125
+ Z"/>
+			<path d=" M
+32.437,16.312
+ C 34.66,16.312 35.994,16.998
+35.994,16.998
+ L
+36,19
+v 1
+H 21.772
+v-1
+ C 23.328,19 23.703,17.249
+25.125,17.249
+ C 26.547,17.249 26.75,17.376
+27.816,17.376
+ C 28.883,17.376 30.304,16.312
+32.437,16.312
+ Z"/>
+		</g>
+		<rect y="19" width="36" height="17" fill="#77b255"/>
+		<path d="M 34,36 h-32 l 11.625,-17 h8.75 l 11.625,17 Z" fill="#66757F"/>
+	</g>
+	<g>
+		<path d="M 4,36 l 10.625,-17 h6.75 l 10.625,17 h-28 Z" fill="#ccd6dd"/>
+		<path d="M 6.625,36 l 8.75,-17 h5.25 l 8.75,17 h-22.75 Z" fill="#662113"/>
+		<path d="M 9.25,36 l 6.875,-17 h3.75 l 6.875,17 h-17.5 Z" fill="#66757F"/>
+	</g>
+	<g fill="#c1694f">
+		<rect width="20" height="2" rx="1" x="8" y="34"/>
+		<rect width="16" height="2" rx="1" x="10" y="30"/>
+		<rect width="12" height="2" rx="1" x="12" y="26"/>
+		<rect width="8" height="1.4" rx="0.5" ry="0.7" x="14" y="23"/>
+		<rect width="6" height="1" rx="0.4" x="15" y="20.733"/>
+		<path d="M 20,19.2324 c 0,0.085 -0.18,0.412 -0.4,0.412 h-3.2 c -0.221,0 -0.4,-0.327 -0.4,-0.412 v-0.078 c 0,-0.085 0.179,-0.154 0.4,-0.154 h3.2 c 0.22,0 0.4,0.069 0.4,0.154 v0.078 Z"/>
+	</g>
+</svg>
