@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<g>
+		<g>
+			<rect width="2" height="8" x="17" y="5" fill="#58595b"/>
+			<rect width="12" height="5" x="12" y="12" fill="#58595b"/>
+		</g>
+		<g>
+			<rect x="2" y="14" width="32" height="22" rx="8" fill="#226699"/>
+			<path d="M 34,22 h-32 v-4 a 4,4 0 01 4,-4 h24 a 4,4 0 01 4,4 v4 Z" fill="#ffd983"/>
+		</g>
+		windows
+		<g>
+			<rect width="6" height="9" x="2" y="18" fill="#88c9f9"/>
+			<rect width="7" height="9" x="10" y="18" fill="#88c9f9"/>
+			<rect width="7" height="9" x="19" y="18" fill="#88c9f9"/>
+			<rect width="6" height="9" x="28" y="18" fill="#88c9f9"/>
+			<rect width="6" height="2" x="2" y="18" fill="#55acee"/>
+			<rect width="7" height="2" x="10" y="18" fill="#55acee"/>
+			<rect width="7" height="2" x="19" y="18" fill="#55acee"/>
+			<rect width="6" height="2" x="28" y="18" fill="#55acee"/>
+		</g>
+	</g>
+	<g transform="translate(18.5 6) rotate(15)">
+		<rect width="33" height="2" rx="1" x="-16.5" y="-1" fill="#6d6e71"/>
+	</g>
+	<g transform="translate(18 5) rotate(15)">
+		<rect width="6" height="2" x="-3" y="-3" fill="#a7a9ac"/>
+		<rect width="14" height="4" rx="2" x="-7" y="-2" fill="#a7a9ac"/>
+		<circle r="2" cx="-6" cy="1" fill="#808285"/>
+		<circle r="2" cx="6" cy="1" fill="#808285"/>
+	</g>
+	
+	rotated around 18,5
+	(excpt the cable is rotated around its own centerpoint)
+</svg>
