@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	this one uses the old grayscale colors
+	
+	rail
+	<g>
+		<rect width="36" height="6" x="0" y="2" fill="#808285"/>
+		<rect width="36" height="2" x="0" y="4" fill="#414042"/>
+	</g>
+	
+	<g>
+		<g>
+			<path d="M 21,10 v-6 h4 v6 l 4,4 h-12 l 4,-4 Z" fill="#a7a9ac"/>
+			<rect width="16" height="6" rx="3" x="15" y="0" fill="#a7a9ac"/>
+			<rect width="14" height="6" rx="2" x="16" y="12" fill="#58595b"/>
+		</g>
+		<clipPath id="car">
+			<path d="M 4,14 h32 v22 h-28 a 8,8 0 01 -8,-8 v-10 a 4,4 0 01 4,-4 Z"/>
+		</clipPath>
+		<g clip-path="url(#car)">
+			<circle r="999" fill="#f4900c"/>
+			<rect width="22" height="20" x="14" y="10" fill="#3b88c3"/>
+			<rect y="29" height="2" width="36" fill="#ffd983"/>
+		</g>
+		<g>
+			<path d="M 0,17 a 2,2 0 01 2,2 v6 a 2,2 0 01 -2,2 v-10 Z" fill="#58595b"/>
+			<rect width="8" height="10" rx="2" x="4" y="17" fill="#58595b"/>
+		</g>
+		<g>
+			<rect width="8" height="8" rx="2" x="16" y="17" fill="#414042"/>
+			<rect width="8" height="8" rx="2" x="26" y="17" fill="#414042"/>
+		</g>
+	</g>
+</svg>
