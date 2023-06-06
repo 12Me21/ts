@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<clipPath id="car1">
+			<rect width="24" height="22" rx="4" x="6" y="14"/>
+		</clipPath>
+	</defs>
+	
+	<g>
+		<g>
+			<rect width="2" height="8" x="17" y="5" fill="#58595b"/>
+			<rect width="8" height="3" x="14" y="12" fill="#58595b"/>
+		</g>
+		<g clip-path="url(#car1)">
+			<path d="M 0,0 L 3.069,14 L 10,18 v5 l-10,10 L 0,36 H 36 V 33 l -10,-10 v-5 L 32.931,14 L 36,0 Z" fill="#dd2e44"/>
+			<path d="M 6,18 l1,-1 h22 l1,1 v9 h-24 z" fill="#88c9f9"/>
+			<rect width="24" height="2" x="6" y="16" fill="#55acee"/>
+		</g>
+		<rect width="2" height="11" x="12" y="16" fill="#231f20"/>
+		<rect width="2" height="11" x="21" y="16" fill="#231f20"/>
+	</g>
+	
+	cable
+	<g transform="translate(18.5 6) rotate(15)">
+		<rect width="33" height="2" rx="1" x="-16.5" y="-1" fill="#6d6e71"/>
+	</g>
+	<g transform="translate(18 5) rotate(15)">
+		<rect width="6" height="2" x="-3" y="-3" fill="#a7a9ac"/>
+		<rect width="14" height="4" rx="2" x="-7" y="-2" fill="#a7a9ac"/>
+		<circle r="2" cx="-6" cy="1" fill="#808285"/>
+		<circle r="2" cx="6" cy="1" fill="#808285"/>
+	</g>
+</svg>
