@@ -5,8 +5,8 @@
 			<rect width="12" height="5" x="12" y="12" fill="#58595b"/>
 		</g>
 		<g>
-			<rect x="2" y="14" width="32" height="22" rx="8" fill="#226699"/>
-			<path d="M 34,22 h-32 v-4 a 4,4 0 01 4,-4 h24 a 4,4 0 01 4,4 v4 Z" fill="#ffd983"/>
+			<path d="M 2,28 v-1 l 7,-7 h18 l 7,7 v1 a 8,8 0 01 -8,8 h-16 a 8,8 0 01 -8,-8 Z" fill="#226699"/>
+			<path d="M 34,18 l-4,4 h-24 l-4,-4 a 4,4 0 01 4,-4 h24 a 4,4 0 01 4,4 Z" fill="#ffd983"/>
 		</g>
 		windows
 		<g>
@@ -20,6 +20,7 @@
 			<rect width="6" height="2" x="28" y="18" fill="#55acee"/>
 		</g>
 	</g>
+	cable
 	<g transform="translate(18.5 6) rotate(15)">
 		<rect width="33" height="2" rx="1" x="-16.5" y="-1" fill="#6d6e71"/>
 	</g>
@@ -29,7 +30,4 @@
 		<circle r="2" cx="-6" cy="1" fill="#808285"/>
 		<circle r="2" cx="6" cy="1" fill="#808285"/>
 	</g>
-	
-	rotated around 18,5
-	(excpt the cable is rotated around its own centerpoint)
 </svg>
