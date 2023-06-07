@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<path d="M 27,36 l -2,-14 l -17,-5 l -8,19 h27 Z" fill="#ffd983"/>
+	
+	<g transform="rotate(12) translate(0.36018 0.15266)">
+		<path d="M 36,13 c 0,3.3138 -7.7155,8 -16,8 s -16,-4.6862 -16,-8 s 7.7155,-5 16,-5 s 16,1.6862 16,5 Z" fill="#ffd983"/>
+		<g>
+			<ellipse rx="17" ry="7.55555" cx="20" cy="11.55555" fill="#66757f"/>
+			<path d="M 2.32722,10.49835 l 35.42566,-0.19466 l -0.93912,2.37311 l -33.60027,-0.00011 l -0.88627,-2.17834 Z" fill="#66757f"/> uneven
+		</g>
+		<g>
+			<ellipse rx="18" ry="8" cx="20" cy="9" fill="#99aab5"/>
+			<ellipse rx="15" ry="6" cx="20" cy="7" fill="#ccd6dd"/>
+			<ellipse rx="9" ry="3" cx="20" cy="5" fill="#e1e8ed"/>
+		</g>
+		<g>
+			<path d="M 11,5 c 0,-1.657 2,-5 9,-5 s 9,3.343 9,5 a 9,3 0 01 -9,3 a 9,3 0 01 -9,-3 Z" fill="#55acee"/>
+			<ellipse rx="5" ry="1.5" cx="20" cy="1.5" fill="#88c9f9"/>
+		</g>
+		<g fill="#88c9f9">
+			<circle r="1" cx="20" cy="15"/>
+			<circle r="1" cx="28" cy="14"/>
+			<circle r="1" cx="35" cy="11"/>
+			<circle r="1" cx="5" cy="11"/>
+			<circle r="1" cx="12" cy="14"/>
+			<ellipse rx="1" ry="0.5" transform="translate(36,6.5) rotate(27.1967)"/>
+			<ellipse rx="1" ry="0.5" transform="translate(3.91869,6.5) rotate(-27.1823)"/> hm
+		</g>
+	</g>
+</svg>
