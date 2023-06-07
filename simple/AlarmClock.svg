@@ -10,7 +10,7 @@
 	<rect width="4" height="8.056" rx="2" ry="2.014" x="16" y="0" fill="#ffcc4d"/>
 	
 	<ellipse rx="15.8935" ry="16.112" cx="18.121" cy="19.384" fill="#dd2e44"/>
-	<ellipse rx="11.9195" ry="12.0845" cx="18.121" cy="19.384" fill="#E1E8ED"/>
+	<ellipse rx="11.9195" ry="12.0845" cx="18.121" cy="19.384" fill="#E1E8ED"/> or maybe should be #F5F8FA
 	
 	<path d="M 18,10 L 18,19 L 23,19" stroke="#292F33" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
