@@ -1,17 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<defs>
-		<g id="hole">
-			<circle r="0.75" fill="#292F33"/>
-			<path d="M 0.134,-0.62 a 0.75,0.75 0 00 -0.75,0.75 a 0.736,0.736 0 00 0.168,0.454 c -0.176,-0.138 -0.296,-0.342 -0.296,-0.582 a 0.75,0.75 0 01 0.75,-0.75 a 0.735,0.735 0 01 0.582,0.296 c -0.127,-0.099 -0.28,-0.168 -0.454,-0.168 Z" fill="#C1694F"/> todo: this isn't lined up with the edge of the hole
-		</g>
-		<g id="band">
-			<path d="M -1.5,2 a 1.5,2 0 00 0,-4 h1 a 1.5,2 0 01 0,4 h-1 Z" transform="rotate(-45)" fill="#C1694F"/>
-		</g>
 		<clipPath id="flute1">
-			<ellipse rx="1.5" ry="2" transform="translate(34 2) rotate(-45)" fill="#FFCC4D"/>
-			<path d="M 2,34 l -1.414,-1.414 l 32,-32 l 1.414,1.414 l 1.414,1.414 l -32,32 z" fill="#FFCC4D"/>
+			<ellipse rx="1.5" ry="2" transform="translate(34 2) rotate(-45)"/>
+			<path d="M 2,34 l -1.4142,-1.4142 l 32,-32 l 1.4142,1.4142 l 1.4142,1.4142 l -32,32 z"/>
+			<!--<rect height="4" width="45.255" x="-22.627" y="-2" transform="translate(18 18) rotate(-45)"/>-->
 			<!--<path d="M 2,34 l 32,-32" fill="none" stroke="#FFCC4D" stroke-width="4"/>-->
 		</clipPath>
+		<g id="hole1">
+			<circle r="0.75" fill="#292F33"/>
+			<path d="M 0.134,-0.62 a 0.75,0.75 0 00 -0.75,0.75 a 0.736,0.736 0 00 0.168,0.454 c -0.176,-0.138 -0.296,-0.342 -0.296,-0.582 a 0.75,0.75 0 01 0.75,-0.75 a 0.735,0.735 0 01 0.582,0.296 c -0.127,-0.099 -0.28,-0.168 -0.454,-0.168 Z" fill="#C1694F"/> todo: this isn't lined up with the edge of the circle
+		</g>
+		<g id="band1">
+			<path d="M -1.5,2 a 1.5,2 0 00 0,-4 h1 a 1.5,2 0 01 0,4 h-1 Z" fill="#C1694F"/>
+		</g>
 	</defs>
 	
 	<g clip-path="url(#flute1)">
@@ -22,20 +23,19 @@
 	<ellipse rx="1" ry="1.5" transform="translate(2.032 34.023) rotate(-45)" fill="#292F33"/>
 	
 	<g class="interleave">
-		<use href="#hole" x="32" y="2.75"/>
-		<use href="#hole" x="21.5" y="13.25"/>
-		<use href="#hole" x="19" y="15.75"/>
-		<use href="#hole" x="16.5" y="18.25"/>
-		<use href="#hole" x="14" y="20.75"/>
-		<use href="#hole" x="11.5" y="23.25"/>
-		<use href="#hole" x="9" y="25.75"/>
+		<use href="#hole1" x="32" y="2.75"/>
+		<use href="#hole1" x="21.5" y="13.25"/>
+		<use href="#hole1" x="19" y="15.75"/>
+		<use href="#hole1" x="16.5" y="18.25"/>
+		<use href="#hole1" x="14" y="20.75"/>
+		<use href="#hole1" x="11.5" y="23.25"/>
+		<use href="#hole1" x="9" y="25.75"/>
 	</g>
 	
 	<g>
-		todo: fine-tune these positions
-		<use href="#band" x="4.479" y="31.521"/>
-		<use href="#band" x="6.479" y="29.521"/>
-		<use href="#band" x="28.54" y="7.46"/>
-		<use href="#band" x="30.54" y="5.46"/>
+		<use href="#band1" transform="translate(4.479 31.521) rotate(-45)"/>
+		<use href="#band1" transform="translate(6.479 29.521) rotate(-45)"/>
+		<use href="#band1" transform="translate(28.54 7.46) rotate(-45)"/>
+		<use href="#band1" transform="translate(30.54 5.46) rotate(-45)"/>
 	</g>
 </svg>
