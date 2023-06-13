@@ -439,17 +439,28 @@
 		
 		//'#000000': "Black",
 		
-		'#292f33': "Text",
+		'#292f33': "Charcoal",
 		'#66757f': "Dark gray",
 		'#67757f': "bad R=103 G=117 B=127 1",
-		'#8899a6': "Medium gray", // ??
-		'#99aab5': "Medium Grey",
+		'#8899a6': "Medium gray",
+		'#99aab5': "Medium Grey 2", // ??
 		'#9aaab4': "bad R=154 G=170 B=180 1",
 		'#ccd6dd': "Gray",
 		'#e1e8ed': "Border gray",
-		"#e6e7e8": '10% gray?',
 		'#f5f8fa': "Faint gray",
 		'#ffffff': "White",
+		
+		'#231f20': "gray 100%",
+		'#414042': "gray 90%",
+		'#58595b': "gray 80%",
+		'#6d6e71': "gray 70%",
+		'#808285': "gray 60%",
+		'#939598': "gray 50%",
+		'#a7a9ac': "gray 40%",
+		'#bcbec0': "gray 30%",
+		'#d1d3d4': "gray 20%",
+		'#e6e7e8': "gray 10%",
+		'#f1f2f2': "gray 5%",
 		
 		'#553788': "Dark purple",
 		'#553986': "R=85 G=57 B=134 1",
@@ -561,6 +572,7 @@
 			let svg2 = svg.cloneNode(false)
 			let elem2 = elem.cloneNode(true)
 			svg2.append(elem2)
+			svg2.setAttribute('fill', 'none')
 			box.$root.prepend(svg2)
 			
 			box.$root.dataset.kind = elem2.nodeName

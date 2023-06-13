@@ -394,10 +394,17 @@ result of transparency:
 207	#FFF	AbButtonBloodType	AButtonBloodType	AntennaBars	Aquarius	Aries	AtomSymbol	BabySymbol	Backpack	Bagel	BarberPole	Battery	BButtonBloodType	Biohazard	Bookmark	BridgeAtNight	Bubbles	Bug	Bullseye	Camera	CameraWithFlash	Cancer	Capricorn	CarpStreamer	ChartIncreasingWithYen	CheckMarkButton	CherryBlossom	Cinema	CircledM	ClButton	Clipboard	ClockwiseVerticalArrows	CocktailGlass	ConvenienceStore	CoolButton	Coral	CounterclockwiseArrowsButton	Crocodile	CrossMarkButton	CupWithStraw	DepartmentStore	DoubleCurlyLoop	DownArrow	DownLeftArrow	DownRightArrow	DownwardsButton	DragonFace	Dragon	EightSpokedAsterisk	EjectButton	Elevator	EyeInSpeechBubble	FastDownButton	FastForwardButton	FastReverseButton	FastUpButton	FemaleSign	FlowerPlayingCards	FramedPicture	FreeButton	Frog	GameDie	Gemini	GlassOfMilk	Hamsa	IdButton	Infinity	Information	InputLatinLetters	InputLatinLowercase	InputLatinUppercase	InputNumbers	InputSymbols	JapaneseAcceptableButton	JapaneseApplicationButton	JapaneseCongratulationsButton	JapaneseDiscountButton	JapaneseFreeOfChargeButton	JapaneseHereButton	JapaneseMonthlyAmountButton	JapaneseNotFreeOfChargeButton	JapaneseNoVacancyButton	JapaneseOpenForBusinessButton	JapanesePassingGradeButton	JapaneseProhibitedButton	JapaneseReservedButton	JapaneseSecretButton	JapaneseServiceChargeButton	JapaneseVacancyButton	Jar	KeycapAsterisk	KeycapEight	KeycapFive	KeycapFour	KeycapNine	KeycapNumberSign	KeycapOne	KeycapSeven	KeycapSix	KeycapThree	KeycapTwo	KeycapZero	Kimono	LastTrackButton	LatinCross	LeftArrowCurvingRight	LeftArrow	LeftRightArrow	Leo	Libra	LitterInBinSign	LowBattery	MaleSign	Mate	MedicalSymbol	Menorah	MensRoom	MobilePhoneOff	Motorcycle	Mouth	NazarAmulet	NewButton	NextTrackButton	NgButton	NightWithStars	NoBicycles	NoEntry	NoLittering	NoMobilePhones	NonPotableWater	NoPedestrians	NoSmoking	OButtonBloodType	Ogre	OkButton	Om	OncomingBus	OncomingTaxi	Ophiuchus	OrthodoxCross	Oyster	Panda	PauseButton	PButton	PeaceSymbol	Pisces	PlaceOfWorship	PlayButton	PlayOrPauseButton	Popcorn	PotableWater	PouringLiquid	RabbitFace	RacingCar	Radioactive	RecordButton	RepeatButton	RepeatSingleButton	RescueWorkersHelmet	Restroom	ReverseButton	RightArrowCurvingDown	RightArrowCurvingLeft	RightArrowCurvingUp	RightArrow	Robot	Sagittarius	Sake	Scorpio	Shark	Shortcake	ShuffleTracksButton	SnowCappedMountain	SosButton	Sparkle	SpiralCalendar	StarAndCrescent	!StarOfDavid	StopButton	Taurus	Telephone	Tennis	TigerFace	TimerClock	TransgenderSymbol	TropicalDrink	TumblerGlass	UpArrow	UpButton	UpDownArrow	UpLeftArrow	UpRightArrow	UpwardsButton	VibrationMode	Virgo	VsButton	WaterBuffalo	WaterCloset	WheelchairSymbol	WheelOfDharma	WhiteFlower	WindChime	Window	WineGlass	WomansHat	WomensRoom	XRay	YinYang
 
 possibly;
-#231f20 -> #292F33
-#414042 -> #31373d
-#58595b -> #4B545D
-#6D6E71 -> #66757F
+#231f20 -> #292F33 - from blacknib
+#414042 -> #292F33 - from blacknib, shibuya, 24, watch
+#58595b -> #66757F - from fuelpump, watch. or #4B545D ?
+#6D6E71 -> #66757F - from blacknib
+#808285 -> #66757F - from blacknib, shibuya
+#939598 -> #99AAB5 - from fuelpump, watch
+#A7A9AC -> #AAB8C2 - from fuelpump. or #99aab5 - from shibuya
+#BCBEC0 -> #AAB8C2 - from locked, etc, 24. or #CCD6DD - from shibuya
+#D1D3D4 -> #CCD6DD - from 24., watch or #E1E8ED - from shibuya
+#E6E7E8 -> #E1E8ED - from fuelpump
+#F1F2F2 -> #F5F8FA - from watch
 
 old grayscale colors; DONT USE THESE
 12	#231F20	AerialTramway	Basketball	BulletTrain	FilmFrames	FlatShoe	Hedgehog	HighSpeedTrain	Locomotive	RacingCar	Snowman	SnowmanWithoutSnow	Warning
