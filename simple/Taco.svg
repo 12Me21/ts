@@ -1,9 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	I really liked this one
+	
 	shell
 	<g>
 		<path d="M 0,23 a 12,16 0 01 24,0 h-24 Z" fill="#ffe8b6"/>
 		<circle r="6" cx="6" cy="23" fill="#ffe8b6"/>
-		<path d="M 14,7 c 1.405,0 2.747,0.338 4,0.93 c -4.657,2.199 -8,8.107 -8,15.07 a 4,4 0 01 -8,0 a 12,16 0 01 12,-16 Z" fill="#ffac33"/>
+		<path d="M 2,23 a 12,16 0 01 24,0 h-24 Z" fill="#ffac33"/>
+		<rect x="2" y="19" width="24" height="8" rx="4" fill="#ffac33"/>
 	</g>
 	
 	<g>
@@ -65,7 +68,7 @@
 	</g>
 	shell front
 	<g>
-		<path d="M 10,23 a 12,16 0 01 24,0 h-24 Z" fill="#ffe8b6"/>
+		<path d="M 6,27 a 4,4 0 00 4,-4 a 12,16 0 01 24,0 l -20,5 l -7,1 h-1 v-2 Z" fill="#ffe8b6"/>
 		<path d="M 12,23 a 12,16 0 01 24,0 a 6,6 0 01 -6,6 h-24 a 6,6 0 00 6,-6 Z" fill="#ffac33"/>
 		<g fill="#f4900c">
 			<circle r="1" cx="17" cy="25"/>
