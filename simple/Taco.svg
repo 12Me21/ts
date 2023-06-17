@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	shell
+	<g>
+		<path d="M 0,23 a 12,16 0 01 24,0 h-24 Z" fill="#ffe8b6"/>
+		<circle r="6" cx="6" cy="23" fill="#ffe8b6"/>
+		<path d="M 14,7 c 1.405,0 2.747,0.338 4,0.93 c -4.657,2.199 -8,8.107 -8,15.07 a 4,4 0 01 -8,0 a 12,16 0 01 12,-16 Z" fill="#ffac33"/>
+	</g>
+	
+	<g>
+		<circle r="1" cx="4" cy="23" fill="#d99e82"/>
+		
+		<rect x="6.5" y="23.5" width="3.5" height="3.5" fill="#c1694f"/>
+		<circle r="2" cx="6" cy="22" fill="#c1694f"/>
+		<circle r="1.5" cx="5.5" cy="24.5" fill="#c1694f"/>
+		<circle r="1.5" cx="6.5" cy="25.5" fill="#c1694f"/>
+		<circle r="1.5" cx="8.5" cy="23.5" fill="#c1694f"/>
+		
+		<ellipse rx="1.5" ry="1" cx="6.5" cy="20" fill="#ffcc4d"/>
+		<circle r="1" cx="7" cy="21" fill="#ffcc4d"/>
+		<circle r="1" cx="5" cy="22" fill="#d99e82"/>
+		<circle r="1" cx="7" cy="22" fill="#d99e82"/>
+		<circle cx="9.5" cy="22.5" r="1.5" fill="#d99e82"/>
+		<circle r="1" cx="9" cy="21" fill="#c1694f"/>
+	</g>
+	
+	<g>
+		<circle r="1" cx="8" cy="20" fill="#ffd983"/>
+		<circle r="1" cx="9" cy="18" fill="#ffd983"/>
+		<circle r="1" cx="9" cy="20" fill="#ffd983"/>
+		<circle r="1" cx="9" cy="19" fill="#ffd983"/> hidden..
+		<circle r="1" cx="9" cy="19" fill="#ffe8b6"/>
+		<circle r="1" cx="7" cy="18" fill="#ffe8b6"/>
+		<circle r="1" cx="6" cy="20" fill="#ffe8b6"/>
+	</g>
+	
+	<g>		
+		<!--<path d="M 10.5718,12.4526 c -0.272,-0.278 -0.651,-0.452 -1.071,-0.452 c -0.738,0 -1.348,0.533 -1.473,1.235 c -0.216,-0.14 -0.478,-0.235 -0.777,-0.235 c -0.691,0 -1.25,0.448 -1.25,1 c 0,0.19 0.084,0.358 0.199,0.51 c -0.123,0.145 -0.199,0.311 -0.199,0.49 c -0.553,0 -1,0.448 -1,1 c 0,0.202 0.074,0.379 0.178,0.536 c -0.11,0.14 -0.178,0.295 -0.178,0.463 c 0,0.553 0.671,1 1.5,1 c 0.43,0 0.815,-0.122 1.089,-0.316 c 0.253,0.196 0.566,0.316 0.911,0.316 c 0.197,0 0.385,-0.04 0.557,-0.11 c 0.163,0.603 0.691,1.042 1.331,1.092 c 0.495,-2.544 1.451,-4.835 2.739,-6.72 c -0.322,-0.164 -0.709,-0.261 -1.127,-0.261 c -0.561,0 -1.066,0.174 -1.429,0.452 Z"/> not sure about a couple of these.. -->
+		<g fill="#77b255">
+			<rect x="6.5" y="14.5" width="4" height="2.5"/>
+			<ellipse rx="1.5" ry="1" cx="7.5" cy="15"/>
+			<circle r="1.5" cx="10.5" cy="17.5"/>
+			<circle r="1.5" cx="8.5" cy="16.5"/>
+			<circle r="2.5" cx="12" cy="14.5"/>
+			<circle r="1.5" cx="9.5" cy="13.5"/>
+			<ellipse rx="1.5" ry="1" cx="6.5" cy="17"/>
+			<circle r="1" cx="6" cy="16"/>
+			<ellipse rx="1.25" ry="1" cx="7.25" cy="14"/>
+		</g>
+		
+		<circle r="1" cx="8" cy="15" fill="#a6d388"/>
+		<circle r="0.5" cx="9.5" cy="13.5" fill="#a6d388"/>
+		<circle r="0.5" cx="6.5" cy="16.5" fill="#a6d388"/>
+		<circle r="0.5" cx="9.5" cy="16.5" fill="#a6d388"/>
+		<circle r="1" cx="10" cy="15" fill="#a6d388"/>
+		<circle r="1" cx="11" cy="12" fill="#ffd983"/>
+		<circle r="1" cx="12" cy="10" fill="#ffd983"/>
+		<circle r="1" cx="9" cy="14" fill="#ffd983"/>
+		<g fill="#a6d388">
+			<circle cx="13.5" cy="11.5" r="1.5"/>
+			<circle cx="15" cy="10" r="1"/>
+		</g>
+		<circle r="1" cx="9" cy="12" fill="#dd2e44"/>
+		<circle r="1" cx="12" cy="11" fill="#dd2e44"/>
+		<circle r="1" cx="14" cy="9"  fill="#dd2e44"/>
+	</g>
+	shell front
+	<g>
+		<path d="M 10,23 a 12,16 0 01 24,0 h-24 Z" fill="#ffe8b6"/>
+		<path d="M 12,23 a 12,16 0 01 24,0 a 6,6 0 01 -6,6 h-24 a 6,6 0 00 6,-6 Z" fill="#ffac33"/>
+		<g fill="#f4900c">
+			<circle r="1" cx="17" cy="25"/>
+			<circle r="1" cx="13" cy="28"/>
+			<circle r="1" cx="19" cy="28"/>
+			<circle r="1" cx="22" cy="27"/>
+			<circle r="1" cx="26" cy="27"/>
+			<circle r="1" cx="29" cy="28"/>
+			<circle r="1" cx="31" cy="26"/>
+			<circle r="1" cx="21" cy="22"/>
+			<circle r="1" cx="15" cy="22"/>
+			<circle r="1" cx="34" cy="24"/>
+			<circle r="1" cx="17" cy="18"/>
+			<circle r="1" cx="22" cy="16"/>
+			<circle r="1" cx="19" cy="12"/>
+			<circle r="1" cx="27" cy="13"/>
+			<circle r="1" cx="24" cy="10"/>
+			<circle r="1" cx="31" cy="19"/>
+			<circle r="1" cx="26" cy="19"/>
+			<circle r="1" cx="24" cy="23"/>
+			<circle r="1" cx="29" cy="22"/>
+		</g>
+	</g>
+</svg>
