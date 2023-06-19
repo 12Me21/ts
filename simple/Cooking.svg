@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	pan
+	<g class="toodark">
+		<path d="M 34.238,27.931 c 1.414,1.414 1.713,3.07 1.762,4.069 c 0.054,1.119 -2.824,3.998 -4,4 c -1,0.002 -2.712,-0.291 -4.126,-1.705 c -0.704,-0.704 -2.665,-3.863 -4.37,-6.944 s 0,-3.784 0,-3.784 s 0.72,-1.703 3.799,0 s 6.231,3.661 6.935,4.364 Z" fill="#292f33"/> not sure.. i just added an extension to prevent gaps because i cant tell what the original path would've been. it's asymmetrical too..
+		<circle r="15" cx="15" cy="15" fill="#292f33"/>
+		<circle r="12" cx="15" cy="15" fill="#66757f"/>
+	</g>
+	egg :(
+	<g>
+		<path d="M 16,25 c -6.875,2.167 -13.333,-5.25 -10.708,-9.542 c 1.65,-2.697 1.708,-2.625 1.708,-5.625 s 2.506,-4.481 4.458,-5.208 c 2.125,-0.792 6.699,-0.181 8.876,1.625 c 3.667,3.042 -0.334,5.75 -0.334,9.75 s 0.863,7.467 -4,9 Z" fill="#f5f8fa"/> hm..
+		<circle r="4" cx="13" cy="18" fill="#ffac33"/>
+	</g>
+</svg>
