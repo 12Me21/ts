@@ -1,4 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<clipPath id="inside">
+			<ellipse cx="24" cy="9" rx="10.972" ry="2.25"/>
+		</clipPath>
+	</defs>
 	<g>
 		<ellipse fill="#292F33" cx="24" cy="31.93" rx="12" ry="3"/>
 		<rect width="24" height="1" x="12" y="31" fill="#292F33"/>
@@ -22,7 +27,7 @@
 		<ellipse fill="#292F33" cx="24" cy="20.4" rx="8" ry="1.4"/>
 	</g>
 	<g>
-<path fill="#BE1931" d=" M
+		<path fill="#BE1931" d=" M
 24,6
  C 29.975,6.006 35.939,7.501
 35.939,9
@@ -32,17 +37,16 @@
 24,21
 Z
 "/>
-<path fill="#BE1931" d=" M
+		<path fill="#BE1931" d=" M
 24,6
  C 29.975,6.006 35.939,7.501
 35.939,9
  C 35.939,12.298 36.476,16.718
 33.051,19.174
  C 31.287,20.438 28.397,20.997
-24.001,21
-Z
-" transform=""/>
-<path fill="#BE1931" d=" M
+24,21
+Z" transform="translate(24 0) scale(-1 1) translate(-24 0)"/>
+		<path fill="#BE1931" d=" M
 12.79,16.514
  C 12.756,16.468 12.723,16.415
 12.692,16.35
@@ -57,9 +61,11 @@ Z
  C 10.916,10.458 11.983,10.813
 12.019,10.014
 Z"/>
-<path fill="#BE1931" d=" M
-9.496,15.418
- C 9.421,15.418 9.348,15.428
+		<path fill="#BE1931" d=" M
+11.5,11
+ L
+12,15
+ L
 9.273,15.421
  L
 1.773,14.772
@@ -71,13 +77,8 @@ Z"/>
 2.47,9.079
  L
 9.903,10.277
- C 9.939,10.282 9.971,10.297
-10.006,10.304
 Z"/>
-
-		<clipPath id="inside">
-			<ellipse cx="24" cy="9" rx="10.972" ry="2.25"/>
-		</clipPath>
+		
 		<ellipse fill="#EA596E" cx="24" cy="9" rx="11.969" ry="3"/>
 		<ellipse cx="24" cy="9" rx="10.972" ry="2.25" fill="#FFE8B6"/>
 		<g clip-path="url(#inside)">
