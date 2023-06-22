@@ -1,31 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<defs>
-		<clipPath id="clipPath234">
-			<path d="M 9,13 h18 c 2.201,0 3.928,1.799 3.839,3.997 l -0.679,14.006 c -0.087,2.198 -1.959,3.997 -4.16,3.997 h-16 c -2.201,0 -4.072,-1.799 -4.16,-3.997 l -0.68,-14.006 c -0.088,-2.198 1.639,-3.997 3.84,-3.997 Z"/>
+		<clipPath id="box1">
+			<path d="M 26,35 h-16 c -2.209,0 -4.081,-1.791 -4.181,-4 l -0.637,-14 c -0.1,-2.209 1.609,-4 3.818,-4 h18 c 2.209,0 3.919,1.791 3.819,4 l -0.637,14 c -0.1,2.209 -1.973,4 -4.182,4 Z"/>
 		</clipPath>
-		<clipPath id="clipPath262">
-			<rect width="26" height="2" x="5" y="17"/>
+		<clipPath id="popcorn">
+			<rect width="36" height="14"/>
 		</clipPath>
 	</defs>
 	
-	box edge
-	<g fill="#e1e8ed">
-		<circle r="2.5" cx="4.5" cy="13.5"/>
-		<circle r="2.5" cx="31.5" cy="13.5"/>
-		<rect width="27.145" height="4" x="4.449" y="13"/>
-		<path d="M 31,15 h-26.145 v-4 h26.77 l -0.625,4 Z"/>
+	box
+	<g clip-path="url(#box1)">
+		<circle r="999" fill="#e1e8ed"/>
+		<g fill="#dd2e44">
+			<rect width="3" height="20" x="4.667" y="16"/>
+			<rect width="3" height="20" x="10.667" y="16"/>
+			<rect width="3" height="20" x="16.667" y="16"/>
+			<rect width="3" height="20" x="22.667" y="16"/>
+			<rect width="3" height="20" x="28.667" y="16"/>
+		</g>
+		<rect width="28" height="3" x="4" y="16" fill="#99aab599"/>
 	</g>
+	box edge
+	<rect x="1.66666" y="11" width="32.66667" height="6" rx="3" fill="#e1e8ed"/>
 	
 	popcorns
-	<g>
+	<g clip-path="url(#popcorn)">
 		<g fill="#ffd983">
+			<path d="M 5.5,14 5.5,12.5 8.5,9.5 11.5,6.5 13.5,8.5 17.5,6.5 21.5,6.5 23.5,3.5 26.5,4.5 27.5,6.5 29.5,7.5 28.5,10.5 30.5,12.5 V 14 Z"/>
+			<circle r="1.5" cx="5.5" cy="12.5"/>
 			<circle r="3.5" cx="8.5" cy="9.5"/>
 			<circle r="2.5" cx="11.5" cy="6.5"/>
 			<circle r="2.5" cx="13.5" cy="8.5"/>
 			<circle r="2.5" cx="17.5" cy="6.5"/>
-			<circle r="2.5" cx="17.5" cy="8.5"/>
+			<circle r="2.5" cx="21.5" cy="6.5"/>
 			<circle r="2.5" cx="23.5" cy="3.5"/>
-			<circle r="2.5" cx="23.5" cy="8.5"/>
+			<circle r="1.5" cx="26.5" cy="4.5"/>
+			<circle r="1.5" cx="27.5" cy="6.5"/>
+			<circle r="1.5" cx="29.5" cy="7.5"/>
+			<circle r="2.5" cx="28.5" cy="10.5"/>
+			<circle r="1.5" cx="30.5" cy="12.5"/>
+			<!--<circle r="2.5" cx="17.5" cy="8.5"/>-->
+			<!--<circle r="2.5" cx="23.5" cy="8.5"/>
 			<circle r="2.5" cx="24.5" cy="11.5"/>
 			<circle r="2.5" cx="20.5" cy="11.5"/>
 			<circle r="2.5" cx="17.5" cy="12.5"/>
@@ -34,70 +49,45 @@
 			<circle r="2.5" cx="11.5" cy="12.5"/>
 			<circle r="2.5" cx="8.5" cy="12.5"/>
 			<circle r="2.5" cx="27.5" cy="13.5"/>
-			<circle r="2.5" cx="25.5" cy="7.5"/>
-			<circle r="2.5" cx="28.5" cy="10.5"/>
-			<circle r="2.5" cx="21.5" cy="6.5"/>
-			<circle r="2.5" cx="20.5" cy="8.5"/>
-			<circle r="1.5" cx="26.5" cy="4.5"/>
-			<circle r="1.5" cx="29.5" cy="7.5"/>
-			<circle r="1.5" cx="30.5" cy="12.5"/>
-			<circle r="1.5" cx="5.5" cy="12.5"/>
-			<circle r="1.5" cx="27.5" cy="6.5"/>
+			<circle r="2.5" cx="25.5" cy="7.5"/>-->
+			<!--<circle r="2.5" cx="20.5" cy="8.5"/>-->
 		</g>
 		<g fill="#ffac33">
-			<circle r="1.5" cx="24.5" cy="5.5"/>
+			<path d="M 7.5,14 7.5,12.5 9.5,12.5 10.5,10.5 12.5,11.5 14.5,13.5 16.5,13.5 17.5,11.5 18.5,9.5 21,9 24,11 24,14 Z"/>
+			<path d="M 28,14 28,13 29.5,12.5 V 14 Z"/>
+			<circle r="1.5" cx="7.5"  cy="12.5"/>
+			<circle r="1.5" cx="9.5"  cy="12.5"/>
 			<circle r="1.5" cx="10.5" cy="10.5"/>
 			<circle r="1.5" cx="12.5" cy="11.5"/>
-			<circle r="1.5" cx="10.5" cy="12.5"/>
-			<circle r="1.5" cx="9.5" cy="12.5"/>
-			<circle r="1.5" cx="7.5" cy="12.5"/>
 			<circle r="1.5" cx="14.5" cy="13.5"/>
-			<circle r="1.5" cx="18.5" cy="9.5"/>
-			<circle r="1.5" cx="29.5" cy="12.5"/>
-			<circle r="1.5" cx="17.5" cy="11.5"/>
 			<circle r="1.5" cx="16.5" cy="13.5"/>
-			<circle r="1" cx="28" cy="8"/>
-			<circle r="1" cx="28" cy="13"/>
+			<circle r="1.5" cx="17.5" cy="11.5"/>
+			<circle r="1.5" cx="18.5" cy="9.5"/>
+			<circle r="2"   cx="21"   cy="9"/>
+			<circle r="2"   cx="24"   cy="11"/>
+			<circle r="2"   cx="24"   cy="14"/>
+			<circle r="1"   cx="28"   cy="13"/>
+			<circle r="1.5" cx="29.5" cy="12.5"/>
+			
 			<circle r="1" cx="12" cy="7"/>
-			<circle r="2" cx="24" cy="11"/>
-			<circle r="2" cx="21" cy="12"/>
-			<circle r="2" cx="24" cy="14"/>
-			<circle r="2" cx="21" cy="9"/>
+			<circle r="1.5" cx="24.5" cy="5.5"/>
+			<circle r="1" cx="28" cy="8"/>
+			
+			<!--<circle r="1.5" cx="10.5" cy="12.5"/>-->
+			<!--<circle r="2" cx="21" cy="12"/>-->
 		</g>
 		<g fill="#ffd983">
-			<circle r="1.5" cx="20.5" cy="10.5"/>
-			<circle r="1.5" cx="11.5" cy="12.5"/>
 			<circle r="1.5" cx="9.5" cy="13.5"/>
+			<circle r="1.5" cx="11.5" cy="12.5"/>
+			
+			<path d="M 18.5 14 v-1.5 L 20.5 10.5 21.5 12.5 v 1.5 Z"/>
 			<circle r="1.5" cx="18.5" cy="12.5"/>
+			<circle r="1.5" cx="20.5" cy="10.5"/>
 			<circle r="1.5" cx="21.5" cy="12.5"/>
-			<circle r="1.5" cx="20.5" cy="12.5"/>
+			<!--<circle r="1.5" cx="20.5" cy="12.5"/>-->
 		</g>
 	</g>
-	box
-	<g>
-		<path d="M 30.1816,31.0039 c -0.1,2.198 -1.981,3.996 -4.182,3.996 h-16 c -2.2,0 -4.081,-1.798 -4.181,-3.996 l -0.637,-14.008 c -0.1,-2.198 1.618,-3.996 3.818,-3.996 h18 c 2.201,0 3.918,1.798 3.819,3.996 l -0.637,14.008 Z" fill="#e1e8ed"/>
-		<g clip-path="url(#clipPath234)">
-			<g fill="#dd2e44">
-				<path d="M 17.667,16 h1 c -0.5,0 -2,-0.657 -2,1 v2 v16 h3 v-18 c 0,-1.657 -1.5,-1 -2,-1 Z"/>
-				<path d="M 23.667,16 h1 c -0.5,0 -2,-0.657 -2,1 v2 v16 h3 v-18 c 0,-1.657 -1.5,-1 -2,-1 Z"/>
-				<path d="M 29.667,16 h1 c -0.5,0 -2,-0.657 -2,1 v2 v16 h3 v-18 c 0,-1.657 -1.5,-1 -2,-1 Z"/>
-				<path d="M 11.667,16 h1 c -0.5,0 -2,-0.657 -2,1 v2 v16 h3 v-18 c 0,-1.657 -1.5,-1 -2,-1 Z"/>
-				<path d="M 5.667,16 h1 c -0.5,0 -2,-0.657 -2,1 v2 v16 h3 v-18 c 0,-1.657 -1.5,-1 -2,-1 Z"/>
-			</g>
-			<g clip-path="url(#clipPath262)">
-				<rect width="26" height="2" x="5" y="17" fill="#99aab599"/>
-			</g>
-		</g>
-	</g>
+	
 	box edge
-	<g>
-		<g fill="#e1e8ed">
-			<ellipse rx="2.5" ry="2" cx="31.5" cy="15"/>
-			<ellipse rx="2.5" ry="2" cx="4.5" cy="15"/>
-			<rect width="27.145" height="4" x="4.449" y="13"/>
-			<path d="M 33.2813,11.75 c 0.281,0.297 2.141,2.422 0.031,4.594 c -0.359,-0.11 -0.75,-3.875 -0.562,-4.141 c 0.187,-0.266 0.531,-0.453 0.531,-0.453 Z"/>
-			<path d="M 2.7368,11.75 s 0.344,0.187 0.531,0.453 c 0.188,0.266 -0.283,4 -0.643,4.109 c -2.109,-2.171 -0.169,-4.265 0.112,-4.562 Z"/>
-		</g>
-		<rect width="28" height="2" rx="1" x="4" y="13" fill="#ffffff"/>
-	</g>
+	<path d="M 32,14 a 1,1 0 01 -1,1 h-26 a 1,1 0 01 -1,-1 v-1 h28 v1 Z" fill="#ffffff"/>
 </svg>
