@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	bowl
+	<!-- <ellipse rx="14.175" ry="6.937" cx="16" cy="14.0625" fill="#ccd6dd"/> hidden -->
+	<g transform="translate(16 15)">
+		<path d="M 16,0 a 16,16 0 01 -32,0 h32 Z" fill="#a0041e"/>
+		<ellipse rx="16.051" ry="8.917" fill="#ea596e"/> scaled? this one is definitely 18:10
+		<ellipse rx="14.6415" ry="7.719" fill="#662113"/>
+	</g>
+	spoon
+	<g>
+		<path d="M 26,12 c 4,-3 7,-4 8,-4 c 2,0 2,3 0,3 s -4,1 -7,3 c -2.354,1.568 -7.349,6 -7.349,6 l -1.247,-5.814 s 3.07,1.208 7.596,-2.186 Z" fill="#99aab5"/>
+		<ellipse rx="8" ry="4.5" cx="13" cy="17.5" fill="#99aab5"/>
+		<ellipse rx="5" ry="2.5" cx="13" cy="19" fill="#ccd6dd"/>
+	</g>
+</svg>
