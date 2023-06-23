@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<ellipse cx="18" cy="32.5" rx="12" ry="3.5" fill="#99AAB5"/>
+	<rect width="24" height="1" x="6" y="31.5" fill="#99AAB5"/>
+	<ellipse cx="18" cy="31.5" rx="12" ry="3.5" fill="#E1E8ED"/>
+	<ellipse cx="18" cy="31" rx="11" ry="3" fill="#5C913B"/>
+	<rect width="22" height="23" x="7" y="8" fill="#5C913B"/>
+	<ellipse cx="18" cy="23" rx="11" ry="3.5" fill="#A6D388"/>
+	<rect width="22" height="13" x="7" y="10" fill="#A6D388"/>
+	<ellipse cx="18" cy="14" rx="11" ry="3.5" fill="#5C913B"/>
+	<rect width="22" height="10" x="7" y="4" fill="#5C913B"/>
+	<ellipse cx="18" cy="4.5" rx="12" ry="3.5" fill="#99AAB5"/>
+	<rect width="24" height="1" x="6" y="3.5" fill="#99AAB5"/>
+	<ellipse cx="18" cy="3.5" rx="12" ry="3.5" fill="#E1E8ED"/>
+	<ellipse cx="18" cy="3.5" rx="10.25" ry="2.5" fill="#CCD6DD"/>
+	<ellipse cx="18" cy="3.5" rx="9.25" ry="2" fill="#E1E8ED"/>
+	<ellipse cx="18" cy="3.5" rx="6" ry="1.25" fill="#CCD6DD"/>
+	<ellipse fill="#E1E8ED" cx="18" cy="3.5" rx="4.75" ry=".75"/>
+	<ellipse cx="18" cy="21" rx="7" ry="7.5" fill="#FFCC4D"/>
+	<ellipse cx="18" cy="21" rx="5" ry="5.714" fill="#FFAC33"/>
+</svg>
+
