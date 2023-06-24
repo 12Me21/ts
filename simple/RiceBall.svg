@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<clipPath id="circle1">
+			<path d="M 35,26 c 0,9.389 -7.609,9 -17,9 s -17,0.389 -17,-9 c 0,-8 8,-19 13,-23 c 2.75,-2 5.129,-2.051 8,0 c 7,5 13,18 13,23 Z" fill="#eeeeee"/>
+		</clipPath>
+		<rect id="rect1" width="4" height="2" x="-2" y="-1" rx="1"/>
+	</defs>
+	
+	<path d="M 35,26 c 0,9.389 -7.609,9 -17,9 s -17,0.389 -17,-9 c 0,-8 8,-19 13,-23 c 2.75,-2 5.129,-2.051 8,0 c 7,5 13,18 13,23 Z" fill="#E1E8ED" class="toolight"/> switched from #EEEEE to #E1E8ED
+	<g fill="#ccd6dd" transform="translate(0 2)">
+		<use href="#rect1" transform="translate(31 20) rotate(22.165)"/>
+		these are the same as RiceCracker
+		<use href="#rect1" transform="translate(27.5203,26.2351) rotate(-34.425) scale(1.011)"/>
+		<use href="#rect1" transform="translate(26.5196,14.736) rotate(22.165) scale(1.011)"/>
+		<use href="#rect1" transform="translate(5.5202,21.736) rotate(22.165) scale(1.011)"/>
+		<use href="#rect1" transform="translate(8.0203,14.7346) rotate(-34.413) scale(1.011)"/>
+		<use href="#rect1" transform="translate(10.0166,27.2371) rotate(-20.80467) scale(1.011)"/>
+		<use href="#rect1" transform="translate(18.7411,19.0569) rotate(22.165) scale(1.5)"/>
+	</g>
+	<g clip-path="url(#circle1)">
+		<rect width="16" height="16" rx="2" x="10" y="21" fill="#292f33"/>
+	</g>
+</svg>
