@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<g>
+		<circle r="8" transform="translate(29.1145 11.918) scale(0.86055)" fill="#8899A6"/>
+		<rect width="17" height="4" x="-8.5" y="-2" rx="1" transform="translate(28.2461 12.7874) rotate(45) scale(0.86055)" fill="#31373D"/>
+		<path d="M 26.7393,18.7041 l -4.325,-4.327 c -0.779,-0.778 -1.995,-0.733 -2.719,0.101 l -9.158,10.575 c -1.219,1.408 -1.462,3.353 -0.711,4.73 l -4.911,4.912 l 1.409,1.409 l 4.877,-4.877 c 1.382,0.84 3.411,0.61 4.863,-0.648 l 10.574,-9.157 c 0.833,-0.724 0.88,-1.941 0.101,-2.718 Z" fill="#31373D" class="toodark"/>hm..
+	</g>
+	<g fill="#55acee">
+		<g>
+			<ellipse cx="3" cy="16" rx="3" ry="2"/>
+			<ellipse cx="10" cy="19" rx="3" ry="2"/>
+			<path d="M 4,9 v-3 l 9,4 v3 l -9,-4 Z"/>
+			<rect width="2" height="7" x="4" y="9"/>
+			<rect width="2" height="7" x="11" y="12"/>
+		</g>
+		<g>
+			<ellipse cx="17" cy="11" rx="3" ry="2"/>
+			<rect width="2" height="10" x="18" y="1"/>
+		</g>
+	</g>
+</svg>
