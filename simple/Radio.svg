@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	antenna
+	<g class="toodark" fill="#292F33">
+		<rect width="2" height="15" x="-1" y="-7.5" rx="1" transform="translate(8 8.5) rotate(45)"/>
+		<rect width="3" height="2" x="-1.5" y="-1" rx="1" transform="translate(14.5 2) rotate(45)"/>
+	</g>
+	<g>
+		<path d="M 4,10 h28 c 4,0 4,4 4,4 v18 c 0,4 -4,4 -4,4 h-28 s -4,0 -4,-4 v-18 s 0,-4 4,-4 Z" fill="#99aab5"/>
+	</g>
+	<g fill="#292f33">
+		<circle r="1.5" cx="5.5" cy="15.5"/>
+		<circle r="1.5" cx="10.5" cy="15.5"/>
+		<circle r="1.5" cx="15.5" cy="15.5"/>
+		<circle r="1.5" cx="5.5" cy="20.5"/>
+		<circle r="1.5" cx="10.5" cy="20.5"/>
+		<circle r="1.5" cx="15.5" cy="20.5"/>
+		<circle r="1.5" cx="5.5" cy="25.5"/>
+		<circle r="1.5" cx="10.5" cy="25.5"/>
+		<circle r="1.5" cx="15.5" cy="25.5"/>
+		<circle r="1.5" cx="5.5" cy="30.5"/>
+		<circle r="1.5" cx="10.5" cy="30.5"/>
+		<circle r="1.5" cx="15.5" cy="30.5"/>
+	</g>
+	<g>
+		<circle r="5.5" cx="27.5" cy="18.5" fill="#292f33"/>
+		<circle r="3.5" cx="27.5" cy="29.5" fill="#292f33"/>
+		<circle r="3.5" cx="27.5" cy="18.5" fill="#66757f"/>
+		<circle r="1.5" cx="27.5" cy="29.5" fill="#66757f"/>
+	</g>
+</svg>
