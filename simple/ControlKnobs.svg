@@ -1,5 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<defs>
+		<g id="marks1" fill="#66757f">
+			<circle r="1.457" cx="-13.6" cy="0"/>
+			<circle r="1.457" cx="-11.6567" cy="-6.8"/>
+			<circle r="1.457" cx="-6.8" cy="-11.6567"/>
+			<circle r="1.457" cx="0" cy="-13.6"/>
+			<circle r="1.457" cx="6.8" cy="-11.6567"/>
+			<circle r="1.457" cx="11.6567" cy="-6.8"/>
+			<circle r="1.457" cx="13.6" cy="0" fill="#dd2e44"/>
+		</g>
+		<g id="knob1">
+			<circle r="10.3715" fill="#000000"/>
+			<circle r="8.486" fill="#292f33"/>
+			<rect width="9" height="2" rx="1" x="-1.457" y="-1" fill="#e1e8ed"/>
+		</g>
+	</defs>
+	
+	<rect width="36" height="36" rx="4" fill="#CCD6DD"/>
+	<g class="interleave">
+		<g transform="translate(9 10) scale(0.4705)">
+			<use href="#marks1"/>
+			<use href="#knob1" transform="rotate(-30)"/>
+		</g>
+		<g transform="translate(27 10) scale(0.4705)">
+			<use href="#marks1"/>
+			<use href="#knob1" transform="rotate(-121)"/>
+		</g>
+		<g transform="translate(9 27) scale(0.4705)">
+			<use href="#marks1"/>
+			<use href="#knob1" transform="rotate(-150)"/>
+		</g>
+		<g transform="translate(27 27) scale(0.4705)">
+			<use href="#marks1"/>
+			<use href="#knob1" transform="rotate(-59)"/>
+		</g>
+	</g>
+</svg>
+
+
+<!--
+old design
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
 		<clipPath id="circle1">
 			<circle r="17" cx="18" cy="18"/>
 		</clipPath>
@@ -25,3 +67,4 @@
 	
 	<rect width="9" height="2" rx="1" x="-1" y="-1" fill="#e1e8ed" transform="translate(18 18) rotate(-45)"/>
 </svg>
+-->
