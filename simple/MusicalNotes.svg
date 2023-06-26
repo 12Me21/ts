@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<g id="note">
+			<ellipse cx="0" cy="3.888" ry="3.888" rx="5"/>
+			<rect x="2" y="-14" width="3" height="18"/>
+			<rect width="8" height="5.455" rx="0.818" transform="matrix(1 -0.2044 0 1 2 -16.364)"/>
+		</g>
+	</defs>
+	
+	<use href="#note" x="5" y="18" fill="#55acee"/>
+	<use href="#note" x="26" y="22" fill="#55acee"/>
+	<use href="#note" x="14" y="28" fill="#55acee"/>
+</svg>
