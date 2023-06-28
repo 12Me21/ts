@@ -4,10 +4,10 @@
 		
 		<g id="eye">
 			<circle  fill="#664500" cx="10.875" cy="17.5" r="5"/>
-			these are rotated ellipses but i'm tired shh..
-			<path fill="#FFF" d="M 11.337,16.836 c -1.044,1.045 -2.55,1.233 -3.364,0.42 c -0.813,-0.812 -0.627,-2.318 0.418,-3.364 c 1.043,-1.045 2.55,-1.233 3.363,-0.42 c 0.813,0.812 0.627,2.318 -0.417,3.364 Z" transform="translate(7.5 15.5) scale(0.833) translate(-7.5 -15.364)"/>
-			<g transform="translate(-2 -0.5)">
-				<path fill="#FFF" d="M 14.624,19.681 v0.001 c -0.458,0.459 -1.12,0.541 -1.477,0.184 s -0.275,-1.018 0.183,-1.477 c 0.459,-0.459 1.121,-0.542 1.478,-0.185 s 0.276,1.018 -0.184,1.477 Z"/>
+			<g fill="#FFFFFF">
+				these are rotated ellipses but i'm tired shh..
+				<path d="M 11.337,16.836 c -1.044,1.045 -2.55,1.233 -3.364,0.42 c -0.813,-0.812 -0.627,-2.318 0.418,-3.364 c 1.043,-1.045 2.55,-1.233 3.363,-0.42 c 0.813,0.812 0.627,2.318 -0.417,3.364 Z" transform="translate(7.5 15.5) scale(0.833) translate(-7.5 -15.364)"/>
+				<path d="M 14.624,19.681 v0.001 c -0.458,0.459 -1.12,0.541 -1.477,0.184 s -0.275,-1.018 0.183,-1.477 c 0.459,-0.459 1.121,-0.542 1.478,-0.185 s 0.276,1.018 -0.184,1.477 Z" transform="translate(-2 -0.5)"/>
 			</g>
 		</g>
 	</defs>
@@ -17,13 +17,13 @@
 	
 	<g stroke-width="2" stroke="#664500" fill="none" stroke-linecap="round">
 		eyebrows:
-		<use href="#eyebrow"/>
-		<use href="#eyebrow" transform="matrix(-1 0 0 1 36 0)"/>
+		<use href="#eyebrow"/> left
+		<use href="#eyebrow" transform="matrix(-1 0 0 1 36 0)"/> right
 		mouth:
 		<path d="M 14,27 A 4.75,4.75 0 01 22,27"/>
 	</g>
 	
 	eyes:
-	<use href="#eye"/>
-	<use href="#eye" x="14.25"/>
+	<use href="#eye"/> left
+	<use href="#eye" x="14.25"/> right
 </svg>
