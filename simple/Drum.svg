@@ -3,45 +3,55 @@
 		<clipPath id="top1">
 			<ellipse rx="17" ry="8" cx="18" cy="10"/>
 		</clipPath>
-		<g id="drumstick1" fill="#aa695b">
-			<ellipse rx="3" ry="2"/>
-			<path d="M 0.729,-1.056 l 18,-0.5 a 1,1 0 01 1,1 v1 a 1,1 0 01 -1,1 l -18,-0.5 Z"/>
-		</g>
 	</defs>
 	
-	
-	<g fill="#f18f26">
-		<rect width="36" height="9" x="0" y="18"/>
-		<!--<ellipse rx="18" ry="9" cx="18" cy="26"/>-->
-		<ellipse rx="18" ry="9" cx="18" cy="27"/>
-	</g>
-	
-	<g fill="#9d0522">
-		<ellipse rx="18" ry="9" cx="18" cy="25"/>
-		<rect width="36" height="16" x="0" y="10"/>
-	</g>
-	<g  fill="#DA2F47">
-		<rect x="1" y="17" width="2" height="11" rx="1"/>
-		<rect x="10" y="21" width="2" height="11" rx="1"/>
-		<rect x="22" y="21" width="2" height="11" rx="1"/>
-		<rect x="33" y="17" width="2" height="11" rx="1"/>
-	</g>
-	
-	<g fill="#f18f26">
-		<!--<ellipse rx="18" ry="9" cx="18" cy="11"/>-->
-		<ellipse rx="18" ry="9" cx="18" cy="12"/>
-		<rect width="36" height="2" x="0" y="10"/>
-		<ellipse rx="18" ry="9" cx="18" cy="10" fill="#fcab40"/>
-	</g>
-	
 	<g>
-		<ellipse rx="17" ry="8" cx="18" cy="10" fill="#fdd888"/>
-		<g clip-path="url(#top1)">
-			<ellipse rx="17" ry="8" cx="18" cy="11" fill="#f5f8fa"/>
+		bottom rim
+		<g fill="#f4900c">
+			<rect width="36" height="9" x="0" y="18"/>
+			<!--<ellipse rx="18" ry="9" cx="18" cy="26"/>-->
+			<ellipse rx="18" ry="9" cx="18" cy="27"/>
+		</g>
+		
+		<g fill="#a0041e">
+			<ellipse rx="18" ry="9" cx="18" cy="25"/>
+			<rect width="36" height="16" x="0" y="10"/>
+			<g fill="#dd2e44">
+				<rect x="1" y="17" width="2" height="11" rx="1"/>
+				<rect x="10" y="21" width="2" height="11" rx="1"/>
+				<rect x="22" y="21" width="2" height="11" rx="1"/>
+				<rect x="33" y="17" width="2" height="11" rx="1"/>
+			</g>
+		</g>
+		
+		top rim
+		<g fill="#f4900c">
+			<!--<ellipse rx="18" ry="9" cx="18" cy="11"/>-->
+			<ellipse rx="18" ry="9" cx="18" cy="12"/>
+			<rect width="36" height="2" x="0" y="10"/>
+			<ellipse rx="18" ry="9" cx="18" cy="10" fill="#ffac33"/>
+		</g>
+		
+		skin
+		<g>
+			<ellipse rx="17" ry="8" cx="18" cy="10" fill="#ffd983"/>
+			<g clip-path="url(#top1)">
+				<ellipse rx="17" ry="8" cx="18" cy="11" fill="#f5f8fa"/>
+			</g>
 		</g>
 	</g>
-	<use href="#drumstick1" transform="translate(12.6841 12.5919) matrix(0.8 -0.6 -0.6 -0.8 0 0)"/> snapped to grid at bottom/left extrema
-	<g>
-		<path d="M 34.4695,5.5176 c 0.28,0.474 0.121,1.09 -0.352,1.37 l -14.142,7.834 c -0.097,0.811 -0.73,1.707 -1.735,2.301 c -1.426,0.843 -3.038,0.755 -3.6,-0.196 s 0.139,-2.405 1.565,-3.248 c 0.847,-0.5 1.754,-0.664 2.473,-0.523 l 13.913,-8.751 c 0.473,-0.28 1.089,-0.121 1.369,0.352 l 0.509,0.861 Z" fill="#aa695b"/> oh its different..
+	
+	sticks
+	-nonstandard color, could just be #c1694f maybe?
+	<g transform="translate(12.6841 12.5919) matrix(0.8 -0.6 -0.6 -0.8 0 0)" fill="#aa695b">
+		<ellipse rx="3" ry="2"/>
+		<path d="M 0.729,-1.056 l 18,-0.5 a 1,1 0 01 1,1 v1 a 1,1 0 01 -1,1 l -18,-0.5 v-2 Z"/>
+		snapped to grid at bottom/left extrema
+	</g>
+	
+	<g transform="translate(17.223 15.3006) rotate(-30.578)" fill="#aa695b">
+		<ellipse rx="3" ry="2"/>
+		oh its different..
+		<path d="M 0.82488,-1.14893 l 18,-0.5 a 1,1 0 01 1,1 v1 a 1,1 0 01 -1,1 l -18,-0.5 v-2 Z"/>
 	</g>
 </svg>
