@@ -1,13 +1,13 @@
-<svg width="144" height="144" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<defs>
 		<path id="eyebrow" d="M 8,10 S 10,10 12,8"/>
 		
 		<g id="eye">
 			<circle  fill="#664500" cx="10.875" cy="17.5" r="5"/>
 			<g fill="#FFFFFF">
-				these are rotated ellipses but i'm tired shh..
+				these are rotated ellipses but i'm tired..
 				<path d="M 11.337,16.836 c -1.044,1.045 -2.55,1.233 -3.364,0.42 c -0.813,-0.812 -0.627,-2.318 0.418,-3.364 c 1.043,-1.045 2.55,-1.233 3.363,-0.42 c 0.813,0.812 0.627,2.318 -0.417,3.364 Z" transform="translate(7.5 15.5) scale(0.833) translate(-7.5 -15.364)"/>
-				<path d="M 14.624,19.681 v0.001 c -0.458,0.459 -1.12,0.541 -1.477,0.184 s -0.275,-1.018 0.183,-1.477 c 0.459,-0.459 1.121,-0.542 1.478,-0.185 s 0.276,1.018 -0.184,1.477 Z" transform="translate(-2 -0.5)"/>
+				<path d="M 14.624,19.682 c -0.458,0.459 -1.12,0.541 -1.477,0.184 s -0.275,-1.018 0.183,-1.477 c 0.459,-0.459 1.121,-0.542 1.478,-0.185 s 0.276,1.018 -0.184,1.478 Z" transform="translate(-2 -0.5)"/>
 			</g>
 		</g>
 	</defs>
