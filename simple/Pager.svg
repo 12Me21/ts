@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<rect x="0" y="5" width="36" height="26" rx="4"  fill="#31373D" class="toodark"/>
-	<rect x="2" y="25" width="12" height="4" rx="2"  fill="#66757F"/>
-	<rect x="16" y="25" width="12" height="4" rx="2"  fill="#66757F"/>
-	<circle fill="#DD2E44" cx="32" cy="27" r="2"/>
+	screen
 	<g>
 		<rect x="2" y="7" width="32" height="16" rx="2"  fill="#C6E5B3"/>
 		<g fill="#77b255"> 40404 (i could merge the repeated digits but  nnh..)
@@ -13,4 +11,7 @@
 			<path d="M 24.6158,16.1379 c -0.291,0 -0.416,-0.196 -0.416,-0.351 c 0,-0.13 0.047,-0.202 0.083,-0.261 l 1.332,-2.415 c 0.131,-0.238 0.297,-0.345 0.606,-0.345 c 0.345,0 0.684,0.22 0.684,0.761 v1.826 h0.102 c 0.231,0 0.416,0.155 0.416,0.393 s -0.185,0.392 -0.416,0.392 h-0.102 v0.506 c 0,0.315 -0.125,0.463 -0.428,0.463 s -0.428,-0.148 -0.428,-0.463 v-0.506 h-1.433 ZM 26.0488,13.6939 h-0.012 l -0.803,1.659 h0.815 v-1.659 Z"/>
 		</g>
 	</g>
+	<rect x="2" y="25" width="12" height="4" rx="2"  fill="#66757F"/>
+	<rect x="16" y="25" width="12" height="4" rx="2"  fill="#66757F"/>
+	<circle fill="#DD2E44" cx="32" cy="27" r="2"/>
 </svg>
