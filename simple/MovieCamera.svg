@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	<path d="M 1,31 v-14 h1 l 6,4 h2 v6 h-2 l -6,4 h-1 z" fill="#31373D"/>
-	<path d="M 35,21 v6 h-3 v-1 h-3 v-4 h3 v-1 h3 z" fill="#31373D"/>
-	<rect width="21" height="16" rx="4" x="9" y="17" fill="#31373D"/>
-	<path d="M 18,17 L 23,14 L 25 19 Z" fill="#31373D"/>
-	<circle r="7" cx="17" cy="11" fill="#31373D"/>
-	<circle r="6" cx="28" cy="14" fill="#31373D"/>
+	<g fill="#31373D" class="toodark">
+		<path d="M 1,31 v-14 h1 l 6,4 h2 v6 h-2 l -6,4 h-1 z"/>
+		<path d="M 35,21 v6 h-3 v-1 h-3 v-4 h3 v-1 h3 z"/>
+		<rect width="21" height="16" rx="4" x="9" y="17"/>
+		<path d="M 18,17 L 23,14 L 25 19 Z"/>
+		<circle r="7" cx="17" cy="11"/>
+		<circle r="6" cx="28" cy="14"/>
+	</g>
 	
 	<circle cx="17" cy="11" r="5" fill="#66757F"/>
 	<circle cx="28" cy="14" r="4" fill="#66757F"/>
