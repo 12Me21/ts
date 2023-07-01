@@ -5,12 +5,14 @@
 		</clipPath>
 	</defs>
 	<rect x="0" y="0" width="36" height="36" rx="4" fill="#292f33"/>
+	
+	todo: this is just OpticalDisk scaled down to 16/18
 	<path d="M 18,20.667 a 2.666,2.666 0 00 0,-5.333 a 2.666,2.666 0 00 0,5.333 Z M 34,18 a 16,16 0 01 -32,0 a 16,16 0 01 32,0 Z" fill="#ffd983"/>
 	<g clip-path="url(#clipPath32)">
 		<path d="M 18,18 l -18,-2 V0 h16 Z" fill="#ffac33"/>
 		<path d="M 18,18 l 18,2 V36 h-16 Z" fill="#ffac33"/>
 		<path d="M 18,18 L -1,-1 h 17 Z" fill="#ffe8b6"/>
-		<path d="M 18,18 l 18,18 h-16 Z" fill="#ffe8b6"/>
+		<path d="M 18,18 l 18,18 l -15.875,1 Z" fill="#ffe8b6"/>
 	</g>
 	<rect x="21" y="13" width="15" height="10" rx="2" fill="#f5f8fa"/>
 </svg>
