@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	see MagnifyingGlassTiltedLeft
+	<g transform="translate(22.3545,13.6689) rotate(45)">
+		<rect width="4" height="7" x="-2" y="10.51892" fill="#99aab5"/>
+		<path fill="#66757F" d="M 4,25.8355 a 4,4 0 01 -4,4 a 4,4 0 01 -4,-4 v-8.314 a 2,2 0 01 2,-2 h4 a 2,2 0 01 2,2 v8.314 Z"/>
+		<circle r="13.5" fill="#8899A6"/>
+		<circle r="9.5" fill="#BBDDF5"/>
+	</g>
+</svg>
