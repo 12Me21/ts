@@ -91,6 +91,8 @@ scrape 2
 
 #afc2cf	Medium Grey - 99aab5 // wrong name?
 
+85,55,136  116,78,170  146,102,204  170,141,216  203,183,234 
+
 #553788	Dark purple - 553788
 #553986	R=85 G=57 B=134 1
 #744eaa	Deep purple - 744eaa
@@ -135,7 +137,7 @@ scrape 2
 #ffe8b6	Faded yellow - ffe8b6
 #fee7b8	R=254 G=231 B=184 1
 
-#269	Dark blue - 226699
+#226699	Dark blue - 226699
 #2a6797	R=42 G=103 B=151 1
 #3b88c3	Deep blue - 3b88c3
 #4289c1	R=66 G=137 B=193 1

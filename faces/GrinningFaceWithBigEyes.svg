@@ -3,6 +3,9 @@
 	
 	<use id="mouth" href="F.svg#mouth_grinning" x="18" y="32"/>
 	
-	<ellipse rx="2.5" ry="5.5" cx="11.5" cy="12.5" fill="#664500"/>
-	<ellipse rx="2.5" ry="5.5" cx="24.5" cy="12.5" fill="#664500"/>
+	FIXED: these were not supposed to be ellipses
+	<path id="eye1" d="M 14,12.5 c 0,2.485 -1.119,5.5 -2.5,5.5 s -2.5,-3.015 -2.5,-5.5 s 1.119,-5.5 2.5,-5.5 s 2.5,3.015 2.5,5.5 Z" fill="#664500"/>
+	<path id="eye1" d="M 27,12.5 c 0,2.485 -1.119,5.5 -2.5,5.5 s -2.5,-3.015 -2.5,-5.5 s 1.119,-5.5 2.5,-5.5 s 2.5,3.015 2.5,5.5 Z" fill="#664500"/>
 </svg>
+
+

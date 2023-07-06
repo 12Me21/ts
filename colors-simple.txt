@@ -339,7 +339,7 @@ result of transparency:
 73	#D99E82	Accordion	AdhesiveBandage	ArtistPalette	Bagel	Basket	Bear	Bison	Blowfish	Bone	BowAndArrow	Bread	Brick	Burrito	Chair	Chipmunk	Cigarette	Cockroach	Coffin	CricketGame	CrossedSwords	Dagger	Dango	DerelictHouse	DesertIsland	DogFace	Dog	Duck	FallenLeaf	Feather	FlatShoe	FuneralUrn	GuideDog	Hamburger	Headstone	Hedgehog	HorseFace	HotBeverage	HotDog	Hut	InboxTray	JapaneseCastle	Kangaroo	Label	Ladder	Lion	Llama	LongDrum	Memo	Mirror	Motorway	NotebookWithDecorativeCover	Oden	OutboxTray	Package	PalmTree	Peanuts	Pencil	PineDecoration	PingPong	Placard	Plunger	PostOffice	Potato	PotOfFood	RescueWorkersHelmet	ServiceDog	Sled	Taco	Tamale	TeddyBear	WomansBoot	WomansSandal	Wood
 5	#D79E84	FramedPicture	Kangaroo	MonkeyFace	Monkey	Window
 2	#EDBB9F	Joker	PostOffice
-
+   
 8	#E6AAAA	Bear	CowFace	Deer	Lion	PigNose	Rat	Rhinoceros	TigerFace
 
 72	#269	Anchor	ArtistPalette	AtmSign	Badminton	BaggageClaim	Bed	BlueBook	Books	Broom	BulletTrain	BustInSilhouette	BustsInSilhouette	Castle	CheckBoxWithCheck	Coat	Customs	DoubleCurlyLoop	Elevator	Ferry	FileFolder	Fireworks	FishingPole	Fish	Fondue	HighSpeedTrain	JapaneseServiceChargeButton	JapaneseVacancyButton	Jeans	Joker	Kimono	Kite	Knot	Lacrosse	LeftLuggage	LevelSlider	MaleSign	Megaphone	MensRoom	MoonViewingCeremony	MountainCableway	NationalPark	Necktie	NightWithStars	OilDrum	OncomingAutomobile	OpenBook	OpenFileFolder	PassengerShip	PassportControl	PButton	Peacock	PeopleHugging	PotableWater	RadioButton	Robot	RollerSkate	RunningShirt	School	Shield	ShootingStar	Skis	SmallAirplane	Sparkler	SpeakingHead	Sunrise	Teapot	ThongSandal	Train	WaterCloset	WaterWave	WheelchairSymbol	Yarn
@@ -395,11 +395,11 @@ result of transparency:
 
 possibly;
 #231f20 -> #292F33 - from blacknib
-#414042 -> #292F33 - from blacknib, shibuya, 24, watch
-#58595b -> #66757F - from fuelpump, watch. or #4B545D ?
+#414042 -> #292F33 - from blacknib, shibuya, 24, watch, microphone
+#58595b -> #66757F - from fuelpump, watch. or #4B545D ? or #292f33 - microphone
 #6D6E71 -> #66757F - from blacknib
 #808285 -> #66757F - from blacknib, shibuya
-#939598 -> #99AAB5 - from fuelpump, watch
+#939598 -> #99AAB5 - from fuelpump, watch or #8899A6 - microphone
 #A7A9AC -> #AAB8C2 - from fuelpump. or #99aab5 - from shibuya
 #BCBEC0 -> #AAB8C2 - from locked, etc, 24. or #CCD6DD - from shibuya
 #D1D3D4 -> #CCD6DD - from 24., watch or #E1E8ED - from shibuya
@@ -422,3 +422,8 @@ old grayscale colors; DONT USE THESE
 random nice
 #6D6eE1
 
+#E1E8ED    cyan:  5% (0.051), magenta: 2% (0.021), yellow: 0% (0.000), key: 7% (0.071)
+#CCD6DD    cyan:  8% (0.077), magenta: 3% (0.032), yellow: 0% (0.000), key: 13% (0.133)
+#AAB8C2    cyan: 12% (0.124), magenta: 5% (0.052), yellow: 0% (0.000), key: 24% (0.239)
+#99aab5    cyan: 15% (0.155), magenta: 6% (0.061), yellow: 0% (0.000), key: 29% (0.290)
+#66757F    cyan: 20% (0.197), magenta: 8% (0.079), yellow: 0% (0.000), key: 50% (0.502)

@@ -10,5 +10,5 @@
 	<use id="eyebrow2" href="F.svg#eyebrow.8" transform="matrix(-1 0 0 1 24 9)" color="#664500"/>
 	
 	<use href="F.svg#water_drop" y="-10" transform="translate(6 27) rotate(14.25)"/>
-	<use href="F.svg#water_drop" y="-10" transform="translate(30 27) rotate(-14.25)"/>
+	<use href="F.svg#water_drop" y="-10" transform="translate(29.979 27) rotate(-14.25)"/>
 </svg>
