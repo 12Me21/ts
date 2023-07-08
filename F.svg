@@ -227,7 +227,7 @@ Monkey Face
 	</g>
 	
 	<g id="tongue.1">
-		<path d="M -6,-6 v-6.961 s 5.709,1.333 12,0.041 v6.92 c 0,3 -2,6 -6,6 s -6,-3 -6,-6 Z" fill="#E8596E" /> <!-- had to go back to a very old release to get a decent version of this -->
+		<path d="M -6,-5.9974 v-6.961 s 5.709,1.333 12,0.041 v6.92 c 0,3 -2,6 -6,6 s -6,-3 -6,-6 Z" fill="#EA596E" /> <!-- had to go back to a very old release to get a decent version of this -->
 		<path d="M 0.545,-4.666 a 0.5455,0.5455 0 01 -1.091,0 v-7.700 h1.091  Z" fill="#DD2E44"/>
 	</g>
 	
