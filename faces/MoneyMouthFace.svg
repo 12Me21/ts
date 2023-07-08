@@ -1,11 +1,13 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
 	
-	<use id="mouth" href="F.svg#mouth.grinning3" x="18" y="30.27" color="#664500"/> <!-- .263 -->
-	
 	<use id="eye1" href="F.svg#dollar_sign" transform="translate(11.839 18.614)" color="#664500"/>
 	<use id="eye2" href="F.svg#dollar_sign" transform="translate(23.699 18.632)" color="#664500"/>
 	
-	<path d="M 12,23.003 s 5.709,1.333 12,0.041 v6.92 c 0,3 -2,6 -6,6 s -6,-3 -6,-6 v-6.961 Z" fill="#5D9040" />
-	<use href="F.svg#dollar_sign" transform="translate(18.049 34.867) scale(0.975)" color="#FFF"/>
+	<use id="mouth" href="F.svg#mouth.grinning3" x="18" y="30" color="#664500"/>
+	
+	<g>
+		<path d="M 12,23.0025 s 5.709,1.333 12,0.041 v6.92 c 0,3 -2,6 -6,6 s -6,-3 -6,-6 v-6.961 Z" fill="#5c913b" />
+		<use href="F.svg#dollar_sign" transform="translate(18.049 34.867) scale(0.975)" color="#FFF"/>
+	</g>
 </svg>
