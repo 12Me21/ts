@@ -154,7 +154,7 @@ Monkey Face
 	
 	<path id="eye.squinting" d="M 0,0 s 5,0 8,3 c -5,0 -9,3 -9,3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="currentColor"/>
 	<!-- todo: put the origin on the stroke line, not the actual visual edge, since the 0.5 offset etc. etc.  -->
-	<path id="mouth.smiling1" d="M -5,-4.5 s 1 1 5 1s5 -1 5 -1s-1 4 -5 4s-5 -4 -5 -4z" stroke-width="1" fill="currentColor" stroke-linejoin="round" stroke="currentColor"/>
+	<path id="mouth.smiling1" d="M -5,-4.5 s 1,1 5,1 s 5,-1 5,-1 s -1,4 -5,4 s -5,-4 -5,-4 Z" stroke-width="1" fill="currentColor" stroke-linejoin="round" stroke="currentColor"/>
 	<path id="mouth.smiling1b" d="M -4,-3.5 s 1.3,3 4,3 s 4,-3 4,-3 s -1.4,1 -4,1 s-4,-1 -4,-1 z" stroke-width="1" fill="currentColor" stroke-linejoin="round" stroke="currentColor"/> smaller
 	<path
 		id="mouth.smiling1c" stroke-width="1"

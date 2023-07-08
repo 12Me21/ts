@@ -6,7 +6,7 @@
 	<ellipse id="eye1" rx="2.5" ry="3.5" cx="11.5" cy="16.5" fill="#664500"/>
 	<use id="eye2" href="F.svg#mouth.smiling1b" transform="matrix(1 0 0 -1 24 14.5)" color="#664500"/>
 	
-	<!-- these coords.. -->
+	these coords..
 	<use id="eyebrow1" href="F.svg#eyebrow.2" transform="translate(13 7.458)" color="#664500"/>
 	<use id="eyebrow2" href="F.svg#eyebrow.5" transform="translate(21 10.5835)" color="#664500"/>
 </svg>
