@@ -1,6 +1,6 @@
 <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
 	<defs>
-		<path id="star1" d="M 0,0 l 4.8012,14.08315 l -12.16252,-8.64196 h14.72264 l -12.16252,8.64196 l 4.8012,-14.08315 Z" stroke-width="2.5" stroke-linejoin="round" stroke="#e95f28" fill="#e95f28"/>
+		<path id="star1" d="M 0,0 l 4.8012,14.08315 l -12.16252,-8.64196 h14.72264 l -12.16252,8.64196 l 4.8012,-14.08315 Z" stroke-width="2.5" stroke-linejoin="round" stroke="#e95f28" fill="#e95f28"/> aa
 	</defs>
 	
 	<use href="F.svg#bg.normal" color="#FFCC4D"/>
