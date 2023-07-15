@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: Custom
@@ -417,6 +418,7 @@ Fore
 Refer: 9 -1 S 1 0 0 1 552 -360 2
 Refer: 9 -1 S 1 0 0 1 312 -360 2
 Refer: 11 -1 S 1 0 0 1 432 -684 2
+Colour: 996633
 EndChar
 
 StartChar: FaceWithTearsOfJoy.3
@@ -428,6 +430,7 @@ LayerCount: 2
 Fore
 Refer: 48 -1 S 0.969231 -0.246153 0.246153 0.969231 203.077 -415.385 2
 Refer: 48 -1 S 0.969231 0.246153 -0.246153 0.969231 660.419 -415.385 2
+Colour: 54abed
 EndChar
 
 StartChar: lickinglipsmouth
@@ -1179,6 +1182,7 @@ Fore
 Refer: 4 -1 N 0.15625 0 0 0.21875 576 -324 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 288 -324 2
 Refer: 36 -1 N 1 0 0 1 432 -744 2
+Colour: 996633
 EndChar
 
 StartChar: head36
@@ -1188,6 +1192,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 4 -1 N 1.125 0 0 1.125 432 -432 2
+Colour: ffcc4c
 EndChar
 
 StartChar: GrinningFaceWithBigEyes.1
@@ -1230,6 +1235,7 @@ Fore
 Refer: 36 -1 N 1 0 0 1 432 -768 2
 Refer: 49 -1 N 1 0 0 1 588 -432 2
 Refer: 49 -1 N 1 0 0 1 276 -432 2
+Colour: 996633
 EndChar
 
 StartChar: RollingOnTheFloorLaughing.3
@@ -1240,6 +1246,7 @@ LayerCount: 2
 Fore
 Refer: 48 -1 N 0.12083 0.992672 -0.992672 0.12083 499 -141 2
 Refer: 48 -1 N 0.992672 0.12083 -0.12083 0.992672 144 -496 2
+Colour: 54abed
 EndChar
 
 StartChar: KissingFace.1
@@ -1301,6 +1308,7 @@ Fore
 Refer: 68 -1 N 1 0 0 1 432 -672 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 564 -372 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 300 -372 2
+Colour: 996633
 EndChar
 
 StartChar: SmilingFaceWithHearts.2
@@ -1364,6 +1372,7 @@ Fore
 Refer: 14 -1 S -1 0 0 -1 576 -348 2
 Refer: 14 -1 S -1 0 0 -1 288 -348 2
 Refer: 36 -1 N 1 0 0 1 432 -768 2
+Colour: 996633
 EndChar
 
 StartChar: SmilingFaceWithHeartEyes.2
@@ -1407,6 +1416,7 @@ EndSplineSet
 Fore
 Refer: 10 -1 N 0.550269 0.194104 -0.194104 0.550269 292 -384 2
 Refer: 10 -1 N 0.550269 -0.194104 0.194104 0.550269 572 -384 2
+Colour: de2e45
 EndChar
 
 StartChar: KissingFaceWithClosedEyes.2
@@ -1504,6 +1514,7 @@ Refer: 67 -1 N -1 0 0 -1 288 -372 2
 Refer: 68 -1 N 1 0 0 1 456 -648 2
 Refer: 12 -1 N -1 0 0 1 576 -264 2
 Refer: 12 -1 N 1 0 0 1 288 -264 2
+Colour: 996633
 EndChar
 
 StartChar: SmilingFaceWithHearts.3
@@ -1515,6 +1526,7 @@ Fore
 Refer: 10 -1 N 0.3833 0 0 0.3833 674 -244 2
 Refer: 10 -1 N 0.2875 0 0 0.2875 763 -751 2
 Refer: 10 -1 N 0.415 0 0 0.415 149 -861 2
+Colour: de2e45
 EndChar
 
 StartChar: SmilingFaceWithHearts.1
@@ -1612,6 +1624,7 @@ Fore
 Refer: 9 -1 N 1 0 0 1 552 -311 2
 Refer: 9 -1 N 1 0 0 1 312 -311 2
 Refer: 11 -1 N 1 0 0 1 432 -637 2
+Colour: 996633
 EndChar
 
 StartChar: mouth.zigzag
@@ -1846,6 +1859,7 @@ LayerCount: 2
 Fore
 Refer: 19 -1 N 1 0 0 1 0 0 2
 Refer: 4 -1 N 1.125 0 0 0.125 432 -816 2
+Colour: 54abed
 EndChar
 
 StartChar: LoudlyCryingFace.2
@@ -1924,6 +1938,7 @@ Refer: 18 -1 N 1 0 0 1 168 -408 2
 Refer: 20 -1 N 1 0 0 1 432 -720 2
 Refer: 17 -1 N -1 0 0 1 552 -216 2
 Refer: 17 -1 N 1 0 0 1 312 -216 2
+Colour: 996633
 EndChar
 
 StartChar: SmilingFace.1
@@ -1934,6 +1949,7 @@ LayerCount: 2
 Fore
 Refer: 4 -1 N 0.3125 0 0 0.3125 696 -528 2
 Refer: 4 -1 N 0.3125 0 0 0.3125 168 -528 2
+Colour: ff7891
 EndChar
 
 StartChar: SmilingFace.2
@@ -2020,6 +2036,7 @@ Refer: 3 -1 N 1 0 0 1 360 -264 2
 Refer: 8 -1 N 1 0 0 1 432 -708 2
 Refer: 1 -1 N -1 0 0 1 480 -408 0
 Refer: 1 -1 N 1 0 0 1 384 -408 0
+Colour: 996633
 EndChar
 
 StartChar: FlushedFace.2
@@ -2050,6 +2067,7 @@ LayerCount: 2
 Fore
 Refer: 4 -1 N 0.3125 0 0 0.3125 696 -552 2
 Refer: 4 -1 N 0.3125 0 0 0.3125 168 -552 2
+Colour: ff7891
 EndChar
 
 StartChar: FlushedFace.4
@@ -2122,6 +2140,7 @@ Fore
 Refer: 12 -1 N -1 0 0 1 552 -144 2
 Refer: 12 -1 N 1 0 0 1 312 -144 2
 Refer: 16 -1 N 1 0 0 1 336 -696 2
+Colour: 996633
 EndChar
 
 StartChar: ConfoundedFace.1
@@ -2135,6 +2154,7 @@ Refer: 12 -1 N 1 0 0 -1 720 -288 2
 Refer: 12 -1 N -1 0 0 -1 144 -288 2
 Refer: 35 -1 N -1 0 0 1 696 -360 2
 Refer: 35 -1 N 1 0 0 1 168 -360 2
+Colour: 996633
 EndChar
 
 StartChar: PensiveFace.1
@@ -2195,6 +2215,7 @@ Refer: 14 -1 N 1 0 0 1 552 -516 2
 Refer: 14 -1 N 1 0 0 1 312 -516 2
 Refer: 12 -1 N 1 0 0 -1 720 -312 2
 Refer: 12 -1 N -1 0 0 -1 144 -312 2
+Colour: 996633
 EndChar
 
 StartChar: teeth.grinning
@@ -2341,6 +2362,7 @@ Fore
 Refer: 9 -1 N 1 0 0 1 552 -336 2
 Refer: 9 -1 N 1 0 0 1 312 -336 2
 Refer: 36 -1 N 1 0 0 1 432 -768 2
+Colour: 996633
 EndChar
 
 StartChar: GrinningFaceWithSquintingEyes.1
@@ -2397,6 +2419,7 @@ Fore
 Refer: 35 -1 N -1 0 0 1 696 -312 2
 Refer: 35 -1 N 1 0 0 1 168 -312 2
 Refer: 36 -1 N 1 0 0 1 432 -768 2
+Colour: 996633
 EndChar
 
 StartChar: GrinningFaceWithSweat.3
@@ -2452,6 +2475,7 @@ SplineSet
 EndSplineSet
 Fore
 Refer: 48 -1 N 1 0 0 1 720 -24 2
+Colour: 54abed
 EndChar
 
 StartChar: RollingOnTheFloorLaughing.1
@@ -2518,6 +2542,7 @@ Fore
 Refer: 35 -1 N -0.707108 -0.707108 -0.707108 0.707108 470 -96.5 2
 Refer: 35 -1 N 0.707108 0.707108 -0.707108 0.707108 96.5 -470 2
 Refer: 36 -1 N 0.964492 0.964492 -0.964492 0.964492 694 -694 2
+Colour: 996633
 EndChar
 
 StartChar: eyebrow.8
@@ -2638,6 +2663,7 @@ SplineSet
  644 -600 l 1,9,10
  560 -621 560 -621 432 -621 c 257,0,1
 EndSplineSet
+Colour: 996633
 EndChar
 
 StartChar: SlightlySmilingFace.1
@@ -2677,6 +2703,7 @@ Fore
 Refer: 66 -1 N 1 0 0 1 432 -672 2
 Refer: 4 -1 S 0.15625 0 0 0.21875 576 -324 2
 Refer: 4 -1 S 0.15625 0 0 0.21875 288 -324 2
+Colour: 996633
 EndChar
 
 StartChar: StarStruck.3
@@ -2789,6 +2816,7 @@ Fore
 Refer: 11 -1 N -1 0 0 -1 432 -168 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 588 -516 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 276 -516 2
+Colour: 996633
 EndChar
 
 StartChar: FaceBlowingKiss.1
@@ -2891,6 +2919,7 @@ Refer: 68 -1 N 1 0 0 1 413 -649 2
 Refer: 12 -1 N 1 0 0 1 312 -144 2
 Refer: 14 -1 N -1 0 0 -1 576 -348 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 276 -372 2
+Colour: 996633
 EndChar
 
 StartChar: FaceWithTearsOfJoy.1
@@ -2970,6 +2999,7 @@ Refer: 54 -1 N 1 0 0 1 288 -216 2
 Refer: 14 -1 N -1 0 0 -1 576 -348 2
 Refer: 14 -1 N -1 0 0 -1 288 -348 2
 Refer: 36 -1 N 1 0 0 1 432 -768 2
+Colour: 996633
 EndChar
 
 StartChar: MeltingFace.1
@@ -3044,6 +3074,7 @@ Fore
 Refer: 72 -1 N 1 0 0 1 264 -456 2
 Refer: 4 -1 N 0.125 0 0 0.1875 552 -336 2
 Refer: 4 -1 S 0.125 0 0 0.1875 336 -288 2
+Colour: 996633
 EndChar
 
 StartChar: WinkingFace.1
@@ -3105,6 +3136,7 @@ Refer: 12 -1 N 1 0 0 1 312 -179 2
 Refer: 14 -1 N -1 0 0 -1 576 -348 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 276 -396 2
 Refer: 8 -1 N 1 0 0 1 432 -684 2
+Colour: 996633
 EndChar
 
 StartChar: KissingFaceWithSmilingEyes.1
@@ -3176,6 +3208,7 @@ Fore
 Refer: 68 -1 S 1 0 0 1 432 -672 2
 Refer: 9 -1 N 1 0 0 1 312 -360 2
 Refer: 9 -1 N 1 0 0 1 552 -360 2
+Colour: 996633
 EndChar
 
 StartChar: SmilingFaceWithTear.1
@@ -3219,6 +3252,7 @@ Fore
 Refer: 4 -1 N 0.15625 0 0 0.21875 576 -324 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 288 -324 2
 Refer: 11 -1 N 1 0 0 1 432 -684 2
+Colour: 996633
 EndChar
 
 StartChar: mouth.smiling3
@@ -3604,6 +3638,7 @@ SplineSet
  860 -186 860 -186 740.5 -225.5 c 128,-1,0
  621 -265 621 -265 432 -265 c 131,-1,1
 EndSplineSet
+Colour: 54abed
 EndChar
 
 StartChar: SmilingFaceWithHalo.0
@@ -3704,6 +3739,7 @@ SplineSet
  714 -36 714 -36 714 -79 c 1,10,11
  639 -39 639 -39 432 -34 c 1,0,1
 EndSplineSet
+Colour: 3b87c2
 EndChar
 
 StartChar: mouth.melting
@@ -3811,6 +3847,7 @@ Fore
 Refer: 7 -1 N 1 0 0 1 432 -720 2
 Refer: 79 -1 N 1 0 0 1 600 -336 2
 Refer: 79 -1 N 1 0 0 1 264 -336 2
+Colour: 996633
 EndChar
 
 StartChar: FaceWithTongue.1
@@ -3858,6 +3895,7 @@ Fore
 Refer: 80 -1 N 1 0 0 1 432 -726 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 588 -348 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 276 -348 2
+Colour: 996633
 EndChar
 
 StartChar: WinkingFaceWithTongue.3
@@ -3914,6 +3952,7 @@ EndSplineSet
 Fore
 Refer: 80 -1 N 1 0 0 1 432 -726 2
 Refer: 14 -1 N -1 0 0 -1 264 -300 2
+Colour: 996633
 EndChar
 
 StartChar: ZanyFace.3
@@ -3975,6 +4014,7 @@ SplineSet
 EndSplineSet
 Fore
 Refer: 36 -1 N 0.977796 0.20955 -0.20955 0.977796 497 -737 2
+Colour: 996633
 EndChar
 
 StartChar: SquintingFaceWithTongue.1
@@ -4036,6 +4076,7 @@ Fore
 Refer: 80 -1 N 1 0 0 1 432 -726 2
 Refer: 35 -1 N -1 0 0 1 696 -312 2
 Refer: 35 -1 N 1 0 0 1 168 -312 2
+Colour: 996633
 EndChar
 
 StartChar: MoneyMouthFace.1
@@ -4140,6 +4181,7 @@ Fore
 Refer: 87 -1 N 0.25 0 0 0.25 569 -447 2
 Refer: 87 -1 N 0.25 0 0 0.25 284 -447 2
 Refer: 80 -1 N 1 0 0 1 432 -726 2
+Colour: 996633
 EndChar
 
 StartChar: eye.smiling2
@@ -4686,16 +4728,17 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-600 -648 m 1
- 240 -648 l 17
- 218 -648 218 -648 216 -624 c 1
- 216 -600 l 17
- 218 -576 218 -576 240 -576 c 9
- 600 -576 l 1
- 600 -648 l 1
+600 -648 m 1,0,-1
+ 240 -648 l 17,1,2
+ 218 -648 218 -648 216 -624 c 1,3,-1
+ 216 -600 l 17,4,5
+ 218 -576 218 -576 240 -576 c 9,6,-1
+ 600 -576 l 1,7,-1
+ 600 -648 l 1,0,-1
 EndSplineSet
 Refer: 4 -1 N 0.15625 0 0 0.21875 588 -348 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 276 -348 2
+Colour: 996633
 EndChar
 
 StartChar: FaceWithRaisedEyebrow.1
@@ -4755,6 +4798,7 @@ Refer: 103 -1 N 1 0 0 1 264 -600 2
 Refer: 12 -1 N 0.817145 -0.576432 0.576432 0.817145 376.968 -300.264 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 576 -396 2
 Refer: 4 -1 S 0.15625 0 0 0.171875 288 -396 2
+Colour: 996633
 EndChar
 
 StartChar: NeutralFace.1
@@ -4791,6 +4835,7 @@ Fore
 Refer: 103 -1 N 1 0 0 1 264 -600 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 588 -396 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 276 -396 2
+Colour: 996633
 EndChar
 
 StartChar: ExpressionlessFace.1
@@ -4831,6 +4876,7 @@ Fore
 Refer: 103 -1 S 1 0 0 1 264 -600 2
 Refer: 102 -1 N 1 0 0 1 504 -408 2
 Refer: 102 -1 N 1 0 0 1 192 -408 2
+Colour: 996633
 EndChar
 
 StartChar: FaceWithoutMouth.1
@@ -4859,6 +4905,7 @@ EndSplineSet
 Fore
 Refer: 4 -1 N 0.15625 0 0 0.21875 588 -396 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 276 -396 2
+Colour: 996633
 EndChar
 
 StartChar: DottedLineFace.1
@@ -4937,6 +4984,7 @@ Fore
 Refer: 103 -1 N 1 0 0 1 264 -600 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 588 -396 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 276 -396 2
+Colour: 996633
 EndChar
 
 StartChar: uni0086
@@ -5238,6 +5286,7 @@ Refer: 4 -1 N 0.125 0 0 0.125 336 -432 2
 Refer: 4 -1 N 0.125 0 0 0.125 624 -432 2
 Refer: 12 -1 N -1 0 0 1 576 -264 2
 Refer: 12 -1 N 1 0 0 1 288 -264 2
+Colour: 996633
 EndChar
 
 StartChar: UnamusedFace.1
@@ -5307,6 +5356,7 @@ Refer: 102 -1 N 1 0 0 1 192 -384 2
 Refer: 66 -1 N 1 0 0 -1 432 -564 2
 Refer: 4 -1 N 0.09375 0 0 0.09375 348 -396 2
 Refer: 4 -1 N 0.09375 0 0 0.09375 660 -396 2
+Colour: 996633
 EndChar
 
 StartChar: FaceWithRollingEyes.1
@@ -5451,6 +5501,7 @@ Refer: 108 110 S 1 0 0 1 432 -720 2
 Refer: 109 111 S 1 0 0 1 432 -720 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 576 -324 2
 Refer: 4 -1 N 0.15625 0 0 0.21875 288 -324 2
+Colour: 996633
 EndChar
 
 StartChar: FaceExhaling.1
@@ -5545,6 +5596,7 @@ Refer: 12 -1 N 0.963 0 0 1 269 -250 2
 Refer: 8 -1 N -1 0 0 -1 408 -574 2
 Refer: 67 -1 N 1 0 0 1 552 -478 2
 Refer: 67 -1 N 1 0 0 1 264 -478 2
+Colour: 996633
 EndChar
 
 StartChar: LyingFace.1
@@ -5589,6 +5641,7 @@ Fore
 Refer: 106 -1 N 0.2206 0 0 0.2206 518 -642 2
 Refer: 4 -1 N 0.137875 0 0 0.193 499 -325 2
 Refer: 4 -1 N 0.137875 0 0 0.193 222 -325 2
+Colour: 996633
 EndChar
 
 StartChar: flat9
@@ -6172,6 +6225,7 @@ SplineSet
  576 -624 l 1,48,-1
  528 -624 l 1,21,-1
 EndSplineSet
+Colour: 99abb5
 EndChar
 
 StartChar: DottedLineFace.2
@@ -6191,6 +6245,7 @@ Refer: 105 -1 S -0.654861 0.75575 -0.75575 -0.654861 388 -1041 2
 Refer: 105 -1 S -0.654861 -0.75575 0.75575 -0.654861 1041 -388 2
 Refer: 105 -1 S -0.959493 -0.281733 0.281733 -0.959493 968 -725 2
 Refer: 105 -1 S -0.959493 0.281733 -0.281733 -0.959493 725 -968 2
+Colour: ffcc4c
 EndChar
 
 StartChar: DottedLineFace.0
@@ -6200,6 +6255,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 4 -1 N 1.07812 0 0 1.07812 432 -432 2
+Colour: fff5db
 EndChar
 
 StartChar: eyebrow_7
@@ -6380,6 +6436,7 @@ SplineSet
  602 -608 602 -608 602 -600 c 3,51,27
  602 -580 602 -580 574.5 -568.5 c 129,-1,28
 EndSplineSet
+Colour: 996633
 EndChar
 
 StartChar: StarStruck.1
@@ -6389,6 +6446,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 36 -1 N 1 0 0 1 432 -744 2
+Colour: 996633
 EndChar
 
 StartChar: ZanyFace.6
@@ -6407,6 +6465,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 4 -1 N 1 0 0 1 384 -432 2
+Colour: ffcc4c
 EndChar
 
 StartChar: SmilingFaceWithHeartEyes.1
@@ -6416,6 +6475,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 36 -1 S 0.819 0 0 0.819 432 -721 2
+Colour: 996633
 EndChar
 
 StartChar: tongue_common.0
@@ -6489,6 +6549,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 10 -1 S 0.343294 -0.167436 0.167436 0.343294 664 -743 2
+Colour: de2e45
 EndChar
 
 StartChar: KissingFaceWithClosedEyes.1
@@ -6499,6 +6560,7 @@ LayerCount: 2
 Fore
 Refer: 4 -1 S 0.3125 0 0 0.3125 696 -504 2
 Refer: 4 -1 S 0.3125 0 0 0.3125 168 -504 2
+Colour: ff7891
 EndChar
 
 StartChar: LyingFace.2
@@ -6577,6 +6639,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 48 -1 S 1 0 0 1 588 -420 2
+Colour: 54abed
 EndChar
 
 StartChar: SmilingFaceWithOpenHands.1
@@ -6697,6 +6760,7 @@ Fore
 Refer: 11 -1 N 0.842 0 0 1 432 -528 2
 Refer: 14 -1 N -0.856 0 0 -0.905 572.544 -192 2
 Refer: 14 -1 S -0.856 0 0 -0.905 308.544 -192 2
+Colour: 996633
 EndChar
 
 StartChar: SmilingFaceWithOpenHands.0
@@ -6706,6 +6770,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 4 -1 S 1 0 0 1 432 -384 2
+Colour: ffcc4c
 EndChar
 
 StartChar: FaceWithHandOverMouth.1
@@ -6775,6 +6840,7 @@ EndSplineSet
 Fore
 Refer: 14 -1 N -1 0 0 -1 576 -264 2
 Refer: 14 -1 N -1 0 0 -1 288 -264 2
+Colour: 996633
 EndChar
 
 StartChar: FaceWithHandOverMouth.0
@@ -6784,6 +6850,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 4 -1 S 1.0625 0 0 1.0625 432 -408 2
+Colour: ffcc4c
 EndChar
 
 StartChar: FaceWithOpenEyesAndHand.1
@@ -6844,6 +6911,7 @@ EndSplineSet
 Fore
 Refer: 4 -1 N 0.15625 0 0 0.1875 564 -288 2
 Refer: 4 -1 N 0.15625 0 0 0.1875 300 -288 2
+Colour: 996633
 EndChar
 
 StartChar: FaceWithPeekingEye.3
@@ -7028,6 +7096,7 @@ Fore
 Refer: 4 -1 N 0.25 0 0 0.1875 432 -672 2
 Refer: 81 -1 N -0.992365 0.123336 0.123336 0.992365 504.24 -196.344 2
 Refer: 81 -1 N 0.992365 0.123336 -0.123336 0.992365 359.76 -196.344 2
+Colour: 996633
 EndChar
 
 StartChar: FaceWithPeekingEye.1
@@ -7055,6 +7124,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 4 -1 S 1.0625 0 0 1.0625 432 -432 2
+Colour: ffcc4c
 EndChar
 
 StartChar: ShushingFace.1
@@ -7155,6 +7225,7 @@ Refer: 12 -1 S 1.0625 0 0 1.0625 325.296 -119.004 2
 Refer: 4 -1 N 0.118063 0 0 0.157438 568 -317.328 2
 Refer: 4 -1 N 0.118063 0 0 0.157438 296 -317.328 2
 Refer: 4 -1 N 0.253875 0 0 0.120625 427.488 -555 2
+Colour: 996633
 EndChar
 
 StartChar: ThinkingFace.1
@@ -7231,6 +7302,7 @@ Refer: 12 -1 N 0.785823 -0.41783 0.389661 0.732847 402 -134.64 2
 Refer: 4 -1 N 0.132812 0 0 0.166 585 -293.664 2
 Refer: 4 -1 N 0.132812 0 0 0.166 314.856 -268.176 2
 Refer: 12 -1 N 0.696521 -0.554038 0.516687 0.649565 527.736 -520.008 2
+Colour: 996633
 EndChar
 
 StartChar: DroolingFace.1
@@ -7303,6 +7375,7 @@ Refer: 12 -1 N -0.983885 -0.178802 -0.178802 0.983885 544.608 -207.792 2
 Refer: 12 -1 N 0.999263 -0.0383878 0.0383878 0.999263 313.872 -168 2
 Refer: 14 -1 S -1 0 0 -1 588 -336 2
 Refer: 14 -1 S -1 0 0 -1 276 -336 2
+Colour: 996633
 EndChar
 
 StartChar: mouth_drooling
@@ -7331,26 +7404,26 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-540 -600 m 21,0,1
- 558 -600 558 -600 567 -605.5 c 133,-1,2
- 576 -611 576 -611 576 -624 c 261,3,4
- 576 -634 576 -634 567 -646.5 c 133,-1,5
- 558 -659 558 -659 547 -665.5 c 133,-1,6
- 536 -672 536 -672 528 -672 c 13,7,-1
- 432 -672 l 21,8,9
- 395 -672 395 -672 361.5 -661.5 c 133,-1,10
- 328 -651 328 -651 302 -628 c 133,-1,11
- 276 -605 276 -605 264 -576 c 5,12,13
- 283 -587 283 -587 327 -593.5 c 133,-1,14
- 371 -600 371 -600 432 -600 c 13,15,-1
- 540 -600 l 21,0,1
+540 -600 m 17,0,1
+ 558 -600 558 -600 567 -605.5 c 129,-1,2
+ 576 -611 576 -611 576 -624 c 257,3,4
+ 576 -634 576 -634 567 -646.5 c 129,-1,5
+ 558 -659 558 -659 547 -665.5 c 129,-1,6
+ 536 -672 536 -672 528 -672 c 9,7,-1
+ 432 -672 l 17,8,9
+ 395 -672 395 -672 361.5 -661.5 c 129,-1,10
+ 328 -651 328 -651 302 -628 c 129,-1,11
+ 276 -605 276 -605 264 -576 c 1,12,13
+ 283 -587 283 -587 327 -593.5 c 129,-1,14
+ 371 -600 371 -600 432 -600 c 9,15,-1
+ 540 -600 l 17,0,1
 EndSplineSet
 EndChar
 
 StartChar: DroolingFace.2
 Encoding: 155 -1 147
 Width: 864
-Flags: WO
+Flags: W
 LayerCount: 2
 Back
 SplineSet
@@ -7534,6 +7607,7 @@ Fore
 Refer: 4 -1 N 0.1875 0 0 0.1875 432 -624 2
 Refer: 14 -1 N 1 0 0 1 552 -492 2
 Refer: 14 -1 N 1 0 0 1 312 -492 2
+Colour: 996633
 EndChar
 
 StartChar: zzz_shadow
@@ -7787,6 +7861,7 @@ Refer: 155 -1 N 1 0 0 1 576 -360 2
 Refer: 155 -1 N 1 0 0 1 336 -360 2
 Refer: 4 -1 N 0.125 0 0 0.1875 624 -432 2
 Refer: 4 -1 N 0.125 0 0 0.1875 384 -432 2
+Colour: 996633
 EndChar
 
 StartChar: SalutingFace.0
@@ -7796,6 +7871,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 4 -1 S 0.9375 0 0 0.9375 504 -504 2
+Colour: ffcc4c
 EndChar
 
 StartChar: flat_6
@@ -7828,6 +7904,7 @@ SplineSet
  120 -10 120 -10 113 -17 c 129,-1,13
  106 -24 106 -24 96 -24 c 1,0,1
 EndSplineSet
+Colour: ff00ff
 EndChar
 
 StartChar: saluting_mouth
@@ -7915,6 +7992,7 @@ SplineSet
  671 -656 671 -656 637 -615 c 129,-1,12
  603 -574 603 -574 552 -552 c 1,0,1
 EndSplineSet
+Colour: 54abed
 EndChar
 
 StartChar: SalutingFace.2
@@ -8227,6 +8305,7 @@ Refer: 69 -1 N 1 0 0 1 504 -216 2
 Refer: 14 -1 S 1 0 0 1 576 -468 2
 Refer: 14 -1 S 1 0 0 1 288 -468 2
 Refer: 8 -1 N 1 0 0 1 432 -684 2
+Colour: 996633
 EndChar
 
 StartChar: SleepyFace.1
@@ -8296,6 +8375,7 @@ Refer: 12 -1 N 1 0 0 1 288 -264 2
 Refer: 67 -1 N 1 0 0 1 576 -492 2
 Refer: 67 -1 N 1 0 0 1 288 -492 2
 Refer: 8 -1 N -1 0 0 -1 432 -588 2
+Colour: 996633
 EndChar
 EndChars
 EndSplineFont
