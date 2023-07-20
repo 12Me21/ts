@@ -336,6 +336,7 @@
 		<ColorGlyph name="WoozyFace">
 			<layer colorID="0" name="head36"/>
 			<layer colorID="1" name="WoozyFace.1"/>
+			<layer colorID="1" name="WoozyFace.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithCrossedOutEyes">
 			<layer colorID="0" name="head36"/>
@@ -515,8 +516,94 @@
 			<layer colorID="0" name="FaceWithHandOverMouth.0"/>
 			<layer colorID="1" name="YawningFace.1"/>
 		</ColorGlyph>
-	</COLR>  
-	
+		<!-- negative -->
+		<ColorGlyph name="FaceWithSteamFromNose">
+			<layer colorID="0" name="head36"/>
+			<layer colorID="1" name="FaceWithSteamFromNose.1"/>
+			<layer colorID="3" name="FaceWithSteamFromNose.2"/>
+			<layer colorID="23" name="FaceWithSteamFromNose.3"/>
+		</ColorGlyph>
+		<ColorGlyph name="EnragedFace">
+			<layer colorID="5" name="head36"/>
+			<layer colorID="4" name="AngryFace.1"/>
+		</ColorGlyph>
+		<ColorGlyph name="AngryFace">
+			<layer colorID="0" name="head36"/>
+			<layer colorID="1" name="AngryFace.1"/>
+		</ColorGlyph>
+		<ColorGlyph name="FaceWithSymbolsOnMouth">
+			<layer colorID="5" name="head36"/>
+			<layer colorID="4" name="FaceWithSymbolsOnMouth.1"/>
+			<layer colorID="4" name="FaceWithSymbolsOnMouth.2"/>
+			<layer colorID="2" name="FaceWithSymbolsOnMouth.3"/>
+		</ColorGlyph>
+		<ColorGlyph name="SmilingFaceWithHorns">
+			<layer colorID="29" name="bg_horns"/>
+			<layer colorID="29" name="head36"/>
+			<layer colorID="30" name="AngryFace.1"/>
+		</ColorGlyph>
+		<ColorGlyph name="SmilingFaceWithHorns">
+			<layer colorID="29" name="bg_horns"/>
+			<layer colorID="29" name="head36"/>
+			<layer colorID="30" name="SmilingFaceWithHorns.1"/>
+		</ColorGlyph>
+		<ColorGlyph name="AngryFaceWithHorns">
+			<layer colorID="29" name="bg_horns"/>
+			<layer colorID="29" name="head36"/>
+			<layer colorID="30" name="AngryFaceWithHorns.1"/>
+		</ColorGlyph>
+		<!-- costume -->
+		<ColorGlyph name="ClownFace">
+			<layer colorID="8" name="ClownFace.0"/>
+			<layer colorID="31" name="head36"/>
+			<layer colorID="7" name="ClownFace.2"/>
+			<layer colorID="5" name="ClownFace.3"/>
+			<layer colorID="1" name="ClownFace.4"/>
+			<layer colorID="32" name="ClownFace.5"/>
+			<layer colorID="8" name="ClownFace.6"/>
+		</ColorGlyph>
+		
+		<!-- hearts -->
+		<ColorGlyph name="RedHeart">
+			<layer colorID="5" name="heart_colored"/>
+		</ColorGlyph>
+		<ColorGlyph name="PinkHeart">
+			<layer colorID="27" name="heart_colored"/>
+		</ColorGlyph>
+		<ColorGlyph name="OrangeHeart">
+			<layer colorID="13" name="heart_colored"/>
+		</ColorGlyph>
+		<ColorGlyph name="YellowHeart">
+			<layer colorID="0" name="heart_colored"/>
+		</ColorGlyph>
+		<ColorGlyph name="GreenHeart">
+			<layer colorID="25" name="heart_colored"/>
+		</ColorGlyph>
+		<ColorGlyph name="BlueHeart">
+			<layer colorID="8" name="heart_colored"/>
+		</ColorGlyph>
+		<ColorGlyph name="LightBlueHeart">
+			<layer colorID="15" name="heart_colored"/>
+		</ColorGlyph>
+		<ColorGlyph name="PurpleHeart">
+			<layer colorID="29" name="heart_colored"/>
+		</ColorGlyph>
+		<ColorGlyph name="BrownHeart">
+			<layer colorID="33" name="heart_colored"/>
+		</ColorGlyph>
+		<ColorGlyph name="BlackHeart">
+			<layer colorID="3" name="heart_outlinebg"/>
+			<layer colorID="34" name="heart_colored"/>
+		</ColorGlyph>
+		<ColorGlyph name="GrayHeart">
+			<layer colorID="14" name="heart_colored"/>
+		</ColorGlyph>
+		<ColorGlyph name="WhiteHeart">
+			<layer colorID="4" name="heart_outlinebg"/>
+			<layer colorID="23" name="heart_colored"/>
+		</ColorGlyph>
+	</COLR>
+		
 	<CPAL>
 		<version value="0"/>
 		<numPaletteEntries value="41"/>
@@ -550,14 +637,14 @@
 			<color index="26" value="#3E721Dff"/> <!-- dark green -->
 			<color index="27" value="#F4ABBAff"/> <!-- Faded Red -->
 			<color index="28" value="#BBDDF5ff"/> <!-- Faded Blue -->
-			<color index="29" value="#452E04ff"/>
-			<color index="30" value="#452E04ff"/>
-			<color index="31" value="#452E04ff"/>
-			<color index="32" value="#452E04ff"/>
-			<color index="33" value="#452E04ff"/>
-			<color index="34" value="#452E04ff"/>
+			<color index="29" value="#AA8DD8ff"/> <!-- Light Purple -->
+			<color index="30" value="#553788ff"/> <!-- Dark Purple -->
+			<color index="31" value="#FFE8B6ff"/> <!-- Faded Yellow -->
+			<color index="32" value="#BE1931ff"/> <!-- Deep Red -->
+			<color index="33" value="#C1694Fff"/> <!-- Brown -->
+			<color index="34" value="#31373Dff"/> <!-- new black -->
 			<color index="35" value="#452E04ff"/>
-			<color index="36" value="#452E04ff"/>
+			<color index="36" value="#E6E7E8ff"/> <!-- old grayscale for white heart-->
 			<color index="37" value="#E2A62Dff"/> <!-- partying face cheeks -->
 			<color index="38" value="#825D0Eff"/> <!-- cowboy hat fill -->
 			<color index="39" value="#CE5C1Fff"/> <!-- exploding head, blast 2 -->
