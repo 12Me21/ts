@@ -462,21 +462,21 @@
 			<layer colorID="0" name="head36"/>
 			<layer colorID="28" name="bg_sweat"/>
 			<layer colorID="1" name="AnxiousFaceWithSweat.2"/>
-			<layer colorID="5" name="AnxiousFaceWithSweat.3"/>
+			<layer colorID="6" name="AnxiousFaceWithSweat.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="SadButRelievedFace">
 			<layer colorID="0" name="head36"/>
 			<layer colorID="1" name="SadButRelievedFace.1"/>
-			<layer colorID="5" name="AnxiousFaceWithSweat.3"/>
+			<layer colorID="6" name="AnxiousFaceWithSweat.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="CryingFace">
 			<layer colorID="0" name="head36"/>
 			<layer colorID="1" name="CryingFace.1"/>
-			<layer colorID="5" name="CryingFace.2"/>
+			<layer colorID="6" name="CryingFace.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="LoudlyCryingFace">
 			<layer colorID="0" name="head36"/>
-			<layer colorID="5" name="LoudlyCryingFace.1"/>
+			<layer colorID="6" name="LoudlyCryingFace.1"/>
 			<layer colorID="1" name="LoudlyCryingFace.2"/>
 			<layer colorID="11" name="LoudlyCryingFace.3"/>
 		</ColorGlyph>
@@ -499,7 +499,7 @@
 		<ColorGlyph name="DowncastFaceWithSweat">
 			<layer colorID="0" name="head36"/>
 			<layer colorID="1" name="DowncastFaceWithSweat.1"/>
-			<layer colorID="5" name="DowncastFaceWithSweat.2"/>
+			<layer colorID="6" name="DowncastFaceWithSweat.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="WearyFace">
 			<layer colorID="0" name="head36"/>
