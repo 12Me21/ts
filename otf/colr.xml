@@ -167,14 +167,18 @@
 		<ColorGlyph name="SmilingFaceWithOpenHands">
 			<layer colorID="0" name="SmilingFaceWithOpenHands.0"/>
 			<layer colorID="1" name="SmilingFaceWithOpenHands.1"/>
+			<layer colorID="13" name="SmilingFaceWithOpenHands.2"/>
+			<layer colorID="19" name="SmilingFaceWithOpenHands.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithHandOverMouth">
 			<layer colorID="0" name="FaceWithHandOverMouth.0"/>
 			<layer colorID="1" name="FaceWithHandOverMouth.1"/>
+			<layer colorID="13" name="FaceWithHandOverMouth.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithOpenEyesAndHand">
 			<layer colorID="0" name="FaceWithHandOverMouth.0"/>
 			<layer colorID="1" name="FaceWithOpenEyesAndHand.1"/>
+			<layer colorID="13" name="FaceWithHandOverMouth.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithPeekingEye">
 			<layer colorID="0" name="FaceWithPeekingEye.0"/>
@@ -185,6 +189,8 @@
 		<ColorGlyph name="ShushingFace">
 			<layer colorID="0" name="FaceWithHandOverMouth.0"/>
 			<layer colorID="1" name="ShushingFace.1"/>
+			<layer colorID="13" name="ShushingFace.2"/>
+			<layer colorID="1" name="ShushingFace.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="ThinkingFace">
 			<layer colorID="0" name="FaceWithHandOverMouth.0"/>
@@ -194,7 +200,7 @@
 			<layer colorID="0" name="SalutingFace.0"/>
 			<layer colorID="1" name="SalutingFace.1"/>
 			<layer colorID="13" name="SalutingFace.2"/>
-			<layer colorID="19" name="SalutingFace.3"/>
+			<layer colorID="1" name="SalutingFace.3"/> <!-- changed from #B55005 -->
 		</ColorGlyph>
 		<!-- neutral skeptical -->
 		<ColorGlyph name="ZipperMouthFace">
@@ -515,6 +521,7 @@
 		<ColorGlyph name="YawningFace">
 			<layer colorID="0" name="FaceWithHandOverMouth.0"/>
 			<layer colorID="1" name="YawningFace.1"/>
+			<layer colorID="13" name="YawningFace.2"/>
 		</ColorGlyph>
 		<!-- negative -->
 		<ColorGlyph name="FaceWithSteamFromNose">
