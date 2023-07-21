@@ -658,4 +658,17 @@
 			<color index="40" value="#F36C24ff"/> <!-- exploding head, blast -->
 		</palette>
 	</CPAL>
+	
+<!--	<post>
+		<formatType value="3.0"/>
+		<italicAngle value="0.0"/>
+		<underlinePosition value="-84"/>
+		<underlineThickness value="48"/>
+		<isFixedPitch value="1"/>
+		<minMemType42 value="0"/>
+		<maxMemType42 value="0"/>
+		<minMemType1 value="0"/>
+		<maxMemType1 value="0"/>
+	</post>-->
 </ttFont>
+
