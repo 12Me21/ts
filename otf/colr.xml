@@ -185,6 +185,8 @@
 			<layer colorID="3" name="FaceWithPeekingEye.1"/>
 			<layer colorID="4" name="FaceWithPeekingEye.2"/>
 			<layer colorID="1" name="FaceWithPeekingEye.3"/>
+			<layer colorID="13" name="FaceWithPeekingEye.4"/>
+			<layer colorID="1" name="FaceWithPeekingEye.5"/> <!-- changed -->
 		</ColorGlyph>
 		<ColorGlyph name="ShushingFace">
 			<layer colorID="0" name="FaceWithHandOverMouth.0"/>
@@ -195,6 +197,7 @@
 		<ColorGlyph name="ThinkingFace">
 			<layer colorID="0" name="FaceWithHandOverMouth.0"/>
 			<layer colorID="1" name="ThinkingFace.1"/>
+			<layer colorID="13" name="ThinkingFace.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="SalutingFace">
 			<layer colorID="0" name="SalutingFace.0"/>
@@ -230,7 +233,13 @@
 			<layer colorID="1" name="NeutralFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceInClouds">
-			<layer colorID="0" name="head36"/>
+			<!-- i darkened the clouds, to be visible on light bg -->
+			<layer colorID="23" name="FaceInClouds.0"/> f5
+			<layer colorID="0" name="FaceInClouds.1"/> yellow
+			<layer colorID="1" name="FaceInClouds.2"/> line
+			<layer colorID="17" name="FaceInClouds.3"/> cc
+			<layer colorID="23" name="FaceInClouds.4"/> f5
+			<layer colorID="17" name="FaceInClouds.5"/> e1
 <!--			<layer colorID="18" name="DottedLineFace.0"/>
 			<layer colorID="0" name="DottedLineFace.2"/>
 			<layer colorID="1" name="NeutralFace.1"/>-->
@@ -608,6 +617,14 @@
 		<ColorGlyph name="WhiteHeart">
 			<layer colorID="4" name="heart_outlinebg"/>
 			<layer colorID="23" name="heart_colored"/>
+		</ColorGlyph>
+		<ColorGlyph name="FOG">
+			<layer colorID="3" name="FOG.1"/>
+			<layer colorID="23" name="FOG.2"/>
+			<layer colorID="17" name="FOG.3"/>
+			<layer colorID="23" name="FOG.4"/>
+			<layer colorID="3" name="FOG.5"/>
+			<layer colorID="17" name="FOG.6"/>
 		</ColorGlyph>
 	</COLR>
 		
