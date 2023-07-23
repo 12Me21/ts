@@ -583,6 +583,14 @@
 			<layer colorID="32" name="ClownFace.5"/>
 			<layer colorID="8" name="ClownFace.6"/>
 		</ColorGlyph>
+		<!-- new -->
+		<ColorGlyph name="ShakingFace">
+			<layer colorID="41" name="ShakingFace.0"/> 0x80
+			<layer colorID="42" name="ShakingFace.1"/> 0x80
+			<layer colorID="43" name="ShakingFace.2"/> 0xCC
+			<layer colorID="44" name="ShakingFace.3"/> 0xCC
+			<layer colorID="6" name="ShakingFace.4"/>
+		</ColorGlyph>
 		
 		<!-- hearts -->
 		<ColorGlyph name="RedHeart">
@@ -643,7 +651,7 @@
 		
 	<CPAL>
 		<version value="0"/>
-		<numPaletteEntries value="41"/>
+		<numPaletteEntries value="45"/>
 		<palette index="0">
 			<color index="0" value="#FFCC4Dff"/> <!-- yellow #ffcc4d --> 
 			<color index="1" value="#664500ff"/> <!-- line color -->
@@ -686,6 +694,10 @@
 			<color index="38" value="#825D0Eff"/> <!-- cowboy hat fill -->
 			<color index="39" value="#CE5C1Fff"/> <!-- exploding head, blast 2 -->
 			<color index="40" value="#F36C24ff"/> <!-- exploding head, blast -->
+			<color index="41" value="#FFCC4D80"/> <!-- shaking face -->
+			<color index="42" value="#66450080"/> <!-- ... -->
+			<color index="43" value="#FFCC4Dcc"/> <!-- ... -->
+			<color index="44" value="#664500cc"/> <!-- ... -->
 		</palette>
 	</CPAL>
 	
