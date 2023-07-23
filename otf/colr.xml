@@ -70,6 +70,7 @@
 		<ColorGlyph name="SmilingFaceWithHalo">
 			<layer colorID="8" name="SmilingFaceWithHalo.0"/> <!-- changed to correct? deep blue -->
 			<layer colorID="0" name="head36"/>
+			<layer colorID="10" name="halo_shadow"/>
 			 <!-- <layer colorID="9" name="SmilingFaceWithHalo.2"/> todo: shadow of halo -->
 			<layer colorID="1" name="SmilingFaceWithHalo.3"/>
 			<layer colorID="6" name="SmilingFaceWithHalo.4"/>
