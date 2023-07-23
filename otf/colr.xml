@@ -470,12 +470,12 @@
 			<layer colorID="1" name="AnguishedFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="FearfulFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head_sweat.0"/>
 			<layer colorID="28" name="bg_sweat"/>
 			<layer colorID="1" name="AnguishedFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="AnxiousFaceWithSweat">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head_sweat.0"/>
 			<layer colorID="28" name="bg_sweat"/>
 			<layer colorID="1" name="AnxiousFaceWithSweat.2"/>
 			<layer colorID="6" name="AnxiousFaceWithSweat.3"/>
@@ -497,7 +497,11 @@
 			<layer colorID="11" name="LoudlyCryingFace.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceScreamingInFear">
-			<layer colorID="0" name="head36"/> <!-- todo -->
+			<layer colorID="0" name="FaceScreamingInFear.0"/>
+			<layer colorID="28" name="FaceScreamingInFear.1"/>
+			<layer colorID="1" name="FaceScreamingInFear.2"/>
+			<layer colorID="3" name="FaceScreamingInFear.3"/>
+			<layer colorID="9" name="fear_hands"/>
 		</ColorGlyph>
 		<ColorGlyph name="ConfoundedFace">
 			<layer colorID="0" name="head36"/>
@@ -618,6 +622,7 @@
 			<layer colorID="4" name="heart_outlinebg"/>
 			<layer colorID="23" name="heart_colored"/>
 		</ColorGlyph>
+		<!-- extra (needed for ligature emojis) -->
 		<ColorGlyph name="FOG">
 			<layer colorID="3" name="FOG.1"/>
 			<layer colorID="23" name="FOG.2"/>
@@ -625,6 +630,13 @@
 			<layer colorID="23" name="FOG.4"/>
 			<layer colorID="3" name="FOG.5"/>
 			<layer colorID="17" name="FOG.6"/>
+		</ColorGlyph>
+		<ColorGlyph name="DIZZY_SYMBOL">
+			<layer colorID="35" name="DIZZY_SYMBOL.0"/>
+			<layer colorID="9" name="DIZZY_SYMBOL.1"/>
+		</ColorGlyph>
+		<ColorGlyph name="DASH_SYMBOL">
+			<layer colorID="28" name="DASH_SYMBOL.0"/>
 		</ColorGlyph>
 	</COLR>
 		
@@ -667,7 +679,7 @@
 			<color index="32" value="#BE1931ff"/> <!-- Deep Red -->
 			<color index="33" value="#C1694Fff"/> <!-- Brown -->
 			<color index="34" value="#31373Dff"/> <!-- new black -->
-			<color index="35" value="#452E04ff"/>
+			<color index="35" value="#FFD983ff"/> <!-- Light Yellow -->
 			<color index="36" value="#E6E7E8ff"/> <!-- old grayscale for white heart-->
 			<color index="37" value="#E2A62Dff"/> <!-- partying face cheeks -->
 			<color index="38" value="#825D0Eff"/> <!-- cowboy hat fill -->
