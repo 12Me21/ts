@@ -352,7 +352,6 @@
 		<ColorGlyph name="WoozyFace">
 			<layer colorID="0" name="head36"/>
 			<layer colorID="1" name="WoozyFace.1"/>
-			<layer colorID="1" name="WoozyFace.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithCrossedOutEyes">
 			<layer colorID="0" name="head36"/>
@@ -401,7 +400,12 @@
 			<layer colorID="0" name="head36"/> <!-- todo -->
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithMonocle">
-			<layer colorID="0" name="head36"/> <!-- todo -->
+			<layer colorID="0" name="head36"/>
+			<layer colorID="1" name="FaceWithMonocle.1"/> face
+			<layer colorID="4" name="FaceWithMonocle.5"/> handle
+			<layer colorID="28" name="FaceWithMonocle.2"/> glass
+			<layer colorID="3" name="FaceWithMonocle.3"/>
+			<layer colorID="22" name="FaceWithMonocle.4"/> frame
 		</ColorGlyph>
 		<!-- concerned -->
 		<ColorGlyph name="ConfusedFace">
@@ -511,7 +515,6 @@
 		<ColorGlyph name="PerseveringFace">
 			<layer colorID="0" name="head36"/>
 			<layer colorID="1" name="PerseveringFace.1"/>
-			<layer colorID="1" name="PerseveringFace.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="DisappointedFace">
 			<layer colorID="0" name="head36"/>
@@ -535,7 +538,7 @@
 		<ColorGlyph name="YawningFace">
 			<layer colorID="0" name="FaceWithHandOverMouth.0"/>
 			<layer colorID="1" name="YawningFace.1"/>
-			<layer colorID="13" name="YawningFace.2"/>
+			<layer colorID="13" name="hand_over_mouth"/>
 		</ColorGlyph>
 		<!-- negative -->
 		<ColorGlyph name="FaceWithSteamFromNose">
@@ -646,6 +649,12 @@
 		</ColorGlyph>
 		<ColorGlyph name="DASH_SYMBOL">
 			<layer colorID="28" name="DASH_SYMBOL.0"/>
+		</ColorGlyph>
+		<!-- new -->
+		<ColorGlyph name="NoddingFace">
+			<layer colorID="0" name="NoddingFace.0"/>
+			<layer colorID="1" name="NoddingFace.1"/>
+			<layer colorID="6" name="NoddingFace.2"/>
 		</ColorGlyph>
 	</COLR>
 		
