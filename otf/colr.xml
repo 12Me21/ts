@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.34">
+	<cmap src="cmap.ttx"/>
+	
 	<COLR>
 		<version value="0"/>
 		<ColorGlyph name="GrinningFace">
@@ -634,6 +636,22 @@
 			<layer colorID="4" name="heart_outlinebg"/>
 			<layer colorID="23" name="heart_colored"/>
 		</ColorGlyph>
+		<ColorGlyph name="JapaneseDolls">
+			<layer colorID="6" name="JapaneseDolls.1"/>
+			<layer colorID="46" name="JapaneseDolls.2"/>
+			<layer colorID="16" name="JapaneseDolls.3"/>
+			<layer colorID="45" name="JapaneseDolls.4"/>
+			<layer colorID="28" name="JapaneseDolls.5"/>
+			<layer colorID="47" name="JapaneseDolls.6"/>
+			<layer colorID="4" name="JapaneseDolls.7"/>
+			<layer colorID="3" name="JapaneseDolls.8"/>
+			<layer colorID="48" name="JapaneseDolls.9"/>
+			<layer colorID="4" name="JapaneseDolls.10"/>
+			<layer colorID="6" name="JapaneseDolls.11"/>
+			<layer colorID="46" name="JapaneseDolls.12"/>
+			<layer colorID="45" name="JapaneseDolls.13"/>
+			<layer colorID="0" name="JapaneseDolls.14"/>
+		</ColorGlyph>
 		<!-- extra (needed for ligature emojis) -->
 		<ColorGlyph name="FOG">
 			<layer colorID="3" name="FOG.1"/>
@@ -660,7 +678,7 @@
 		
 	<CPAL>
 		<version value="0"/>
-		<numPaletteEntries value="45"/>
+		<numPaletteEntries value="49"/>
 		<palette index="0">
 			<color index="0" value="#FFCC4Dff"/> <!-- yellow #ffcc4d --> 
 			<color index="1" value="#664500ff"/> <!-- line color -->
@@ -707,10 +725,15 @@
 			<color index="42" value="#66450080"/> <!-- ... -->
 			<color index="43" value="#FFCC4Dcc"/> <!-- ... -->
 			<color index="44" value="#664500cc"/> <!-- ... -->
+			
+			<color index="45" value="#D14A15ff"/> <!-- dolls (some are similar to explodinghead) -->
+			<color index="46" value="#F26522ff"/> <!-- ... -->
+			<color index="47" value="#FFB699ff"/> <!-- ... -->
+			<color index="48" value="#A0041Eff"/> <!-- Dark Red -->
 		</palette>
 	</CPAL>
 	
-<!--	<post>
+	<post>
 		<formatType value="3.0"/>
 		<italicAngle value="0.0"/>
 		<underlinePosition value="-84"/>
@@ -720,6 +743,6 @@
 		<maxMemType42 value="0"/>
 		<minMemType1 value="0"/>
 		<maxMemType1 value="0"/>
-	</post>-->
+	</post>
 </ttFont>
 
