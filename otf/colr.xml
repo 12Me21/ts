@@ -393,13 +393,24 @@
 			<layer colorID="6" name="PartyingFace.9"/>
 		</ColorGlyph>
 		<ColorGlyph name="DisguisedFace">
-			<layer colorID="0" name="head36"/> <!-- todo -->
+			<layer colorID="0" name="head36"/>
+			<layer colorID="1" name="DisguisedFace.1"/>
+			<layer colorID="4" name="DisguisedFace.2"/>
+			<layer colorID="9" name="DisguisedFace.3"/>
+			<layer colorID="33" name="DisguisedFace.4"/>
+			<layer colorID="1" name="DisguisedFace.5"/> <!-- was #662113. that's a real color but too close to face lines color i feel like -->
+			<layer colorID="4" name="glasses"/>
 		</ColorGlyph>
 		<ColorGlyph name="SmilingFaceWithSunglasses">
-			<layer colorID="0" name="head36"/> <!-- todo -->
+			<layer colorID="0" name="head36"/>
+			<layer colorID="1" name="SmilingFaceWithSunglasses.1"/>
+			<layer colorID="4" name="SmilingFaceWithSunglasses.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="NerdFace">
-			<layer colorID="0" name="head36"/> <!-- todo -->
+			<layer colorID="0" name="head36"/>
+			<layer colorID="1" name="NerdFace.1"/>
+			<layer colorID="2" name="NerdFace.2"/>
+			<layer colorID="4" name="glasses"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithMonocle">
 			<layer colorID="0" name="head36"/>
@@ -670,6 +681,7 @@
 		</ColorGlyph>
 		<!-- new -->
 		<ColorGlyph name="NoddingFace">
+			<!-- todo: maybe try making the lines fainter at one end -->
 			<layer colorID="0" name="NoddingFace.0"/>
 			<layer colorID="1" name="NoddingFace.1"/>
 			<layer colorID="8" name="NoddingFace.2"/>
