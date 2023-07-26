@@ -1,0 +1,87 @@
+<!doctype html><meta charset=utf-8>
+
+<title> font test 9 </title>
+
+<style>
+	@font-face {
+		font-family: 'flushed';
+		src: url("./test2-colr.ttf?64");
+		font-display: block;
+		font-weight: bold;
+		font-weight: 100 900;
+	}
+	.custom-emoji {
+		font-family: flushed, serif;
+		tab-size: 3;
+		-moz-tab-size: 3;
+		/* font-synthesis: none; */
+	}
+	@keyframes rainbow {
+		from { color: magenta }
+		33% { color: yellow }
+		67% { color: cyan }
+		to { color: magenta }
+	}
+	th::after {
+		content: ":";
+	}
+	h1 {
+		font-weight: unset;
+	}
+	.tnum {
+		font-variant-numeric: tabular-nums;
+	}
+	pre {
+		--bg: black;
+		color: white;
+		font-family: monospace, monospace;
+	}
+	.label {
+		font-family: serif;
+	}
+	.emoji {
+		
+	}
+	.dark {
+		background: black;
+		color: white;
+	}
+	.dim {
+		background: #36393E;
+		color: #DCDEE1;
+	}
+	.faded {
+		background: #C9C6C1;
+		color: #23211E;
+	}
+	.box {
+		display: table;
+		padding: 5px;
+	}
+	.show-hearts::after {
+		content: "❤️🩷🧡💛💚💙🩵💜🤎🖤🩶🤍";
+	}
+	.hover-bold:hover {
+		font-weight: bold;
+	}
+</style>
+
+<g class='emoji custom-emoji hover-bold'>
+	<div class='label'>custom:</div>
+	🎎
+	😀😃😄😁😆😅🤣😂🙂🙃🫠😉😊😇 / 🥰😍🤩😘😗☺️😚😙🥲 / Hello😋😛😜🤪😝🤑 / 🤗🤭🫢🫣🤫🤔🫡 / 🤐🤨😐😑😶🫥😶‍🌫️😏😒🙄😬😮‍💨🤥 / 😌😔😪🤤😴 / 😷🤒🤕🤢🤮🤧🥵🥶🥴😵😵‍💫🤯 / 🤠🥳🥸😎🤓🧐 / 🫨😕🫤😟🙁☹️😮😯😲😳🥺🥹😦😧😨😰😥😢😭😱😖😣😞😓😩😫🥱 / 😤😡😠🤬😈👿 / 🤡<br>
+	🌫️
+	not:💫
+	<g class='box show-hearts'></g>
+	<g class='dim box show-hearts'></g>
+	<g class='dark box show-hearts'></g>
+</g>
+<hr>
+<g class='emoji default-emoji hover-bold'>
+	<g class='box show-hearts'></g>
+	<g class='dim box show-hearts'></g>
+	<g class='dark box show-hearts'></g>
+	🎎
+	😀😃😄😁😆😅🤣😂🙂🙃🫠😉😊😇 / 🥰😍🤩😘😗☺️😚😙🥲 / 😋😛😜🤪😝🤑 / 🤗🤭🫢🫣🤫🤔🫡 / 🤐🤨😐😑😶🫥😶‍🌫️😏😒🙄😬😮‍💨🤥 / 😌😔😪🤤😴 / 😷🤒🤕🤢🤮🤧🥵🥶🥴😵😵‍💫🤯 / 🤠🥳🥸😎🤓🧐 / 🫨😕🫤😟🙁☹️😮😯😲😳🥺🥹😦😧😨😰😥😢😭😱😖😣😞😓😩😫🥱 / 😤😡😠🤬😈👿 / 🤡
+	not:💫🌫️
+</g>
