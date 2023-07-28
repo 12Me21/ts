@@ -73,7 +73,6 @@
 			<layer colorID="8" name="SmilingFaceWithHalo.0"/> <!-- changed to correct? deep blue -->
 			<layer colorID="0" name="head36"/>
 			<layer colorID="10" name="halo_shadow"/>
-			 <!-- <layer colorID="9" name="SmilingFaceWithHalo.2"/> todo: shadow of halo -->
 			<layer colorID="1" name="SmilingFaceWithHalo.3"/>
 			<layer colorID="6" name="SmilingFaceWithHalo.4"/>
 		</ColorGlyph>
@@ -712,7 +711,7 @@
 			<color index="15" value="#88C9F9ff"/> <!-- light blue -->
 			<color index="16" value="#226699ff"/> <!-- dark blue -->
 			<color index="17" value="#CCD6DDff"/> <!-- Gray -->
-			<color index="18" value="#FFF5DBff"/> <!-- dotted line face -->
+			<color index="18" value="#FFE8B680"/> <!-- dotted line face (Faded Yellow at 50% opacity) -->
 			<color index="19" value="#B55005ff"/> <!-- new hand lines -->
 			<color index="20" value="#E95F28ff"/> <!-- starstruck eyes -->
 			<color index="21" value="#452E04ff"/> <!-- face with thermometer mouth shadow -->
