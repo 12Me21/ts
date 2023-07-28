@@ -22,26 +22,26 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1688857346
-ModificationTime: 1690514726
+ModificationTime: 1690547805
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 78
 VLineGap: 0
 Panose: 5 2 1 3 1 2 2 2 2 2
-OS2TypoAscent: 0
-OS2TypoAOffset: 1
-OS2TypoDescent: 0
-OS2TypoDOffset: 1
+OS2TypoAscent: 756
+OS2TypoAOffset: 0
+OS2TypoDescent: -108
+OS2TypoDOffset: 0
 OS2TypoLinegap: 78
-OS2WinAscent: 0
-OS2WinAOffset: 1
-OS2WinDescent: 0
-OS2WinDOffset: 1
-HheadAscent: 0
-HheadAOffset: 1
-HheadDescent: 0
-HheadDOffset: 1
+OS2WinAscent: 770
+OS2WinAOffset: 0
+OS2WinDescent: -120
+OS2WinDOffset: 0
+HheadAscent: 756
+HheadAOffset: 0
+HheadDescent: -108
+HheadDOffset: 0
 OS2FamilyClass: 3072
 OS2Vendor: '12;;'
 Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 0" { "'ccmp' Glyph Composition/Decomposition lookup 0-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
@@ -55,14 +55,14 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 378 18 8
+WinInfo: 0 18 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 233017 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 512 499
+BeginChars: 538 499
 
 StartChar: eyebrow_weary
-Encoding: 1 -1 0
+Encoding: 10 -1 0
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -116,7 +116,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: eyebrow_smiling
-Encoding: 0 -1 1
+Encoding: 11 -1 1
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -223,7 +223,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: eyebrow_holding_tears
-Encoding: 2 -1 2
+Encoding: 12 -1 2
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -274,7 +274,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: circle32
-Encoding: 4 -1 3
+Encoding: 1 -1 3
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -322,7 +322,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: SmilingFaceWithHalo.3
-Encoding: 5 -1 4
+Encoding: 143 -1 4
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -367,7 +367,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithTearsOfJoy.3
-Encoding: 6 -1 5
+Encoding: 133 -1 5
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -379,7 +379,7 @@ Colour: ffff
 EndChar
 
 StartChar: lickinglipsmouth
-Encoding: 7 -1 6
+Encoding: 47 -1 6
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -410,7 +410,7 @@ Colour: ffff00
 EndChar
 
 StartChar: mouth.smiling1
-Encoding: 8 -1 7
+Encoding: 45 -1 7
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -487,7 +487,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: eye.smiling
-Encoding: 9 -1 8
+Encoding: 30 -1 8
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -579,7 +579,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: heart
-Encoding: 10 -1 9
+Encoding: 2 -1 9
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -616,7 +616,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: mouth.smiling2
-Encoding: 11 -1 10
+Encoding: 46 -1 10
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -693,7 +693,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: eyebrow.2
-Encoding: 12 -1 11
+Encoding: 13 -1 11
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -740,7 +740,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: grinning_teeth_common
-Encoding: 13 -1 12
+Encoding: 101 -1 12
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -751,7 +751,7 @@ Colour: ffff
 EndChar
 
 StartChar: mouth.smiling1b
-Encoding: 14 -1 13
+Encoding: 48 -1 13
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -822,7 +822,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: LoudlyCryingFace.3
-Encoding: 15 -1 14
+Encoding: 337 -1 14
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -851,7 +851,7 @@ Colour: ffff
 EndChar
 
 StartChar: mouth.flat2
-Encoding: 16 -1 15
+Encoding: 49 -1 15
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -874,7 +874,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: eyebrow_loudlycrying
-Encoding: 17 -1 16
+Encoding: 14 -1 16
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -919,7 +919,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: eye_loudlycrying
-Encoding: 18 -1 17
+Encoding: 31 -1 17
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -968,7 +968,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: tears2
-Encoding: 19 -1 18
+Encoding: 81 -1 18
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -1003,7 +1003,7 @@ Colour: ffff00
 EndChar
 
 StartChar: cryingmouth1
-Encoding: 20 -1 19
+Encoding: 50 -1 19
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -1024,7 +1024,7 @@ Colour: ffff00
 EndChar
 
 StartChar: RollingOnTheFloorLaughing.2
-Encoding: 21 -1 20
+Encoding: 130 -1 20
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -1035,7 +1035,7 @@ Colour: ffff
 EndChar
 
 StartChar: teeth_grinning_common_b
-Encoding: 22 -1 21
+Encoding: 102 -1 21
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -1046,7 +1046,7 @@ Colour: ffff
 EndChar
 
 StartChar: GrinningFace.1
-Encoding: 23 -1 22
+Encoding: 121 -1 22
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -1089,7 +1089,7 @@ Colour: ffff
 EndChar
 
 StartChar: head36
-Encoding: 24 -1 23
+Encoding: 100 -1 23
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -1099,7 +1099,7 @@ Colour: ffff
 EndChar
 
 StartChar: GrinningFaceWithBigEyes.1
-Encoding: 25 -1 24
+Encoding: 122 -1 24
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -1142,7 +1142,7 @@ Colour: ffff
 EndChar
 
 StartChar: RollingOnTheFloorLaughing.3
-Encoding: 26 -1 25
+Encoding: 131 -1 25
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -1153,7 +1153,7 @@ Colour: ffff
 EndChar
 
 StartChar: KissingFace.1
-Encoding: 27 -1 26
+Encoding: 155 -1 26
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -1215,7 +1215,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmilingFaceWithHearts.2
-Encoding: 28 -1 27
+Encoding: 146 -1 27
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -1227,7 +1227,7 @@ Colour: ffff
 EndChar
 
 StartChar: GrinningFaceWithSmilingEyes.1
-Encoding: 29 -1 28
+Encoding: 123 -1 28
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -1279,7 +1279,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmilingFaceWithHeartEyes.2
-Encoding: 30 -1 29
+Encoding: 149 -1 29
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -1323,7 +1323,7 @@ Colour: ffff
 EndChar
 
 StartChar: KissingFaceWithClosedEyes.2
-Encoding: 31 -1 30
+Encoding: 159 -1 30
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -1421,7 +1421,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmilingFaceWithHearts.3
-Encoding: 32 -1 31
+Encoding: 147 -1 31
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -1433,7 +1433,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmilingFaceWithHearts.1
-Encoding: 33 -1 32
+Encoding: 145 -1 32
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -1531,7 +1531,7 @@ Colour: ffff
 EndChar
 
 StartChar: zigzag_mouth
-Encoding: 34 -1 33
+Encoding: 51 -1 33
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -1632,7 +1632,7 @@ Colour: ffff00
 EndChar
 
 StartChar: eye.squinting
-Encoding: 35 -1 34
+Encoding: 32 -1 34
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -1714,7 +1714,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: mouth.grinning
-Encoding: 36 -1 35
+Encoding: 52 -1 35
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -1751,7 +1751,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: LoudlyCryingFace.1
-Encoding: 37 -1 36
+Encoding: 335 -1 36
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -1762,7 +1762,7 @@ Colour: ffff
 EndChar
 
 StartChar: LoudlyCryingFace.2
-Encoding: 38 -1 37
+Encoding: 336 -1 37
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -1841,7 +1841,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmilingFace.1
-Encoding: 39 -1 38
+Encoding: 156 -1 38
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -1852,7 +1852,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmilingFace.2
-Encoding: 40 -1 39
+Encoding: 157 -1 39
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -1937,7 +1937,7 @@ Colour: ffff
 EndChar
 
 StartChar: FlushedFace.2
-Encoding: 41 -1 40
+Encoding: 315 -1 40
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -1948,7 +1948,7 @@ Colour: ffff
 EndChar
 
 StartChar: FlushedFace.3
-Encoding: 42 -1 41
+Encoding: 316 -1 41
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -1959,7 +1959,7 @@ Colour: ffff
 EndChar
 
 StartChar: FlushedFace.1
-Encoding: 43 -1 42
+Encoding: 314 -1 42
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -1969,7 +1969,7 @@ Colour: ffff
 EndChar
 
 StartChar: FlushedFace.4
-Encoding: 44 -1 43
+Encoding: 317 -1 43
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -2042,7 +2042,7 @@ Colour: ffff
 EndChar
 
 StartChar: ConfoundedFace.1
-Encoding: 45 -1 44
+Encoding: 342 -1 44
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -2056,7 +2056,7 @@ Colour: ffff
 EndChar
 
 StartChar: PensiveFace.1
-Encoding: 46 -1 45
+Encoding: 229 -1 45
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -2117,7 +2117,7 @@ Colour: ffff
 EndChar
 
 StartChar: teeth.grinning
-Encoding: 47 -1 46
+Encoding: 72 -1 46
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -2146,7 +2146,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: waterdrop
-Encoding: 48 -1 47
+Encoding: 3 -1 47
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -2175,7 +2175,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: eye_big
-Encoding: 49 -1 48
+Encoding: 33 -1 48
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -2204,7 +2204,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: BeamingFaceWithSmilingEyes.1
-Encoding: 50 -1 49
+Encoding: 124 -1 49
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -2264,7 +2264,7 @@ Colour: ffff
 EndChar
 
 StartChar: GrinningSquintingFace.1
-Encoding: 51 -1 50
+Encoding: 127 -1 50
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -2321,7 +2321,7 @@ Colour: ffff
 EndChar
 
 StartChar: GrinningFaceWithSweat.3
-Encoding: 52 -1 51
+Encoding: 128 -1 51
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -2377,7 +2377,7 @@ Colour: ffff
 EndChar
 
 StartChar: RollingOnTheFloorLaughing.1
-Encoding: 53 -1 52
+Encoding: 129 -1 52
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -2444,7 +2444,7 @@ Colour: ffff
 EndChar
 
 StartChar: eyebrow_joy
-Encoding: 54 -1 53
+Encoding: 15 -1 53
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -2503,7 +2503,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: BeamingFaceWithSmilingEyes.2
-Encoding: 55 -1 54
+Encoding: 125 -1 54
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -2538,7 +2538,7 @@ Colour: ffff
 EndChar
 
 StartChar: BeamingFaceWithSmilingEyes.3
-Encoding: 56 -1 55
+Encoding: 126 -1 55
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -2566,7 +2566,7 @@ Colour: ffff
 EndChar
 
 StartChar: SlightlySmilingFace.1
-Encoding: 57 -1 56
+Encoding: 134 -1 56
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -2606,7 +2606,7 @@ Colour: ffff
 EndChar
 
 StartChar: StarStruck.3
-Encoding: 58 -1 57
+Encoding: 151 -1 57
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -2681,7 +2681,7 @@ Colour: ffff
 EndChar
 
 StartChar: UpsideDownFace.1
-Encoding: 59 -1 58
+Encoding: 135 -1 58
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -2719,7 +2719,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceBlowingKiss.1
-Encoding: 60 -1 59
+Encoding: 152 -1 59
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -2822,7 +2822,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithTearsOfJoy.1
-Encoding: 61 -1 60
+Encoding: 132 -1 60
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -2900,7 +2900,7 @@ Colour: ffff
 EndChar
 
 StartChar: MeltingFace.1
-Encoding: 62 -1 61
+Encoding: 137 -1 61
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -2975,7 +2975,7 @@ Colour: ffff
 EndChar
 
 StartChar: WinkingFace.1
-Encoding: 63 -1 62
+Encoding: 138 -1 62
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -3037,7 +3037,7 @@ Colour: ffff
 EndChar
 
 StartChar: KissingFaceWithSmilingEyes.1
-Encoding: 64 -1 63
+Encoding: 160 -1 63
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -3109,7 +3109,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmilingFaceWithTear.1
-Encoding: 65 -1 64
+Encoding: 161 -1 64
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -3153,7 +3153,7 @@ Colour: ffff
 EndChar
 
 StartChar: mouth.smiling3
-Encoding: 66 -1 65
+Encoding: 53 -1 65
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -3221,7 +3221,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: smile_1c
-Encoding: 67 -1 66
+Encoding: 73 -1 66
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -3262,7 +3262,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: mouth.kissing
-Encoding: 68 -1 67
+Encoding: 54 -1 67
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -3377,7 +3377,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: eyebrow.5
-Encoding: 69 -1 68
+Encoding: 16 -1 68
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -3430,7 +3430,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: SmilingFaceWithHalo.4
-Encoding: 70 -1 69
+Encoding: 144 -1 69
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -3539,7 +3539,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmilingFaceWithHalo.0
-Encoding: 71 -1 70
+Encoding: 141 -1 70
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -3557,7 +3557,7 @@ Colour: ffff
 EndChar
 
 StartChar: mouth.melting
-Encoding: 72 -1 71
+Encoding: 55 -1 71
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -3598,7 +3598,7 @@ Colour: ffff00
 EndChar
 
 StartChar: FaceSavoringFood.1
-Encoding: 73 -1 72
+Encoding: 163 -1 72
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -3666,7 +3666,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithTongue.1
-Encoding: 74 -1 73
+Encoding: 166 -1 73
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -3713,7 +3713,7 @@ Colour: ffff
 EndChar
 
 StartChar: WinkingFaceWithTongue.3
-Encoding: 75 -1 74
+Encoding: 169 -1 74
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -3770,7 +3770,7 @@ Colour: ffff
 EndChar
 
 StartChar: ZanyFace.3
-Encoding: 76 -1 75
+Encoding: 172 -1 75
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -3832,7 +3832,7 @@ Colour: ffff
 EndChar
 
 StartChar: SquintingFaceWithTongue.1
-Encoding: 77 -1 76
+Encoding: 176 -1 76
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -3894,7 +3894,7 @@ Colour: ffff
 EndChar
 
 StartChar: MoneyMouthFace.1
-Encoding: 78 -1 77
+Encoding: 177 -1 77
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -3999,7 +3999,7 @@ Colour: ffff
 EndChar
 
 StartChar: eye.smiling2
-Encoding: 79 -1 78
+Encoding: 34 -1 78
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -4064,7 +4064,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: mouth_tongue
-Encoding: 80 -1 79
+Encoding: 56 -1 79
 Width: 864
 GlyphClass: 5
 Flags: MW
@@ -4092,7 +4092,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: eyebrow_peeking
-Encoding: 81 -1 80
+Encoding: 17 -1 80
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -4142,7 +4142,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: eyebrow_angry
-Encoding: 82 -1 81
+Encoding: 18 -1 81
 Width: 0
 GlyphClass: 5
 Flags: MW
@@ -4198,7 +4198,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: FaceSavoringFood.2
-Encoding: 83 -1 82
+Encoding: 164 -1 82
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -4237,7 +4237,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceSavoringFood.3
-Encoding: 84 -1 83
+Encoding: 165 -1 83
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -4265,7 +4265,7 @@ Colour: ffff
 EndChar
 
 StartChar: ZanyFace.4
-Encoding: 85 -1 84
+Encoding: 173 -1 84
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -4293,7 +4293,7 @@ Colour: ffff
 EndChar
 
 StartChar: ZanyFace.5
-Encoding: 86 -1 85
+Encoding: 174 -1 85
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -4321,7 +4321,7 @@ Colour: ffff
 EndChar
 
 StartChar: dollarsignchar
-Encoding: 87 -1 86
+Encoding: 5 -1 86
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -4401,7 +4401,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: starshape
-Encoding: 88 -1 87
+Encoding: 6 -1 87
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -4475,7 +4475,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: ZipperMouthFace.1
-Encoding: 89 -1 88
+Encoding: 202 -1 88
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -4557,7 +4557,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithRaisedEyebrow.1
-Encoding: 90 -1 89
+Encoding: 204 -1 89
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -4617,7 +4617,7 @@ Colour: ffff
 EndChar
 
 StartChar: NeutralFace.1
-Encoding: 91 -1 90
+Encoding: 205 -1 90
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -4653,7 +4653,7 @@ Colour: ffff
 EndChar
 
 StartChar: ExpressionlessFace.1
-Encoding: 92 -1 91
+Encoding: 206 -1 91
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -4694,7 +4694,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithoutMouth.1
-Encoding: 93 -1 92
+Encoding: 207 -1 92
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -4723,7 +4723,7 @@ Colour: ffff
 EndChar
 
 StartChar: PerseveringFace.1
-Encoding: 94 -1 93
+Encoding: 343 -1 93
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -4793,7 +4793,7 @@ Colour: ffff
 EndChar
 
 StartChar: persevering_mouth
-Encoding: 95 -1 94
+Encoding: 61 -1 94
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -4837,7 +4837,7 @@ Colour: ffff00
 EndChar
 
 StartChar: SmirkingFace.1
-Encoding: 96 -1 95
+Encoding: 216 -1 95
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -4914,7 +4914,7 @@ Colour: ffff
 EndChar
 
 StartChar: UnamusedFace.1
-Encoding: 97 -1 96
+Encoding: 217 -1 96
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -4982,7 +4982,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithRollingEyes.1
-Encoding: 98 -1 97
+Encoding: 218 -1 97
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -5032,7 +5032,7 @@ Colour: ffff
 EndChar
 
 StartChar: GrimacingFace.1
-Encoding: 99 -1 98
+Encoding: 220 -1 98
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -5126,7 +5126,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceExhaling.1
-Encoding: 100 -1 99
+Encoding: 222 -1 99
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -5221,7 +5221,7 @@ Colour: ffff
 EndChar
 
 StartChar: LyingFace.1
-Encoding: 101 -1 100
+Encoding: 226 -1 100
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -5261,7 +5261,7 @@ Colour: ffff
 EndChar
 
 StartChar: eye_expressionless
-Encoding: 102 -1 101
+Encoding: 35 -1 101
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -5293,7 +5293,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: mouth_flat16
-Encoding: 103 -1 102
+Encoding: 57 -1 102
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -5325,7 +5325,7 @@ Colour: ffff00
 EndChar
 
 StartChar: dottedlinepart
-Encoding: 105 -1 103
+Encoding: 93 -1 103
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -5349,7 +5349,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: mouth.confused
-Encoding: 106 -1 104
+Encoding: 58 -1 104
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -5379,7 +5379,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: raised_eyebrow
-Encoding: 107 -1 105
+Encoding: 19 -1 105
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -5422,7 +5422,7 @@ Colour: ffff00
 EndChar
 
 StartChar: mouth.grimacing
-Encoding: 108 -1 106
+Encoding: 59 -1 106
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -5504,7 +5504,7 @@ Colour: ffff00
 EndChar
 
 StartChar: eye_unamused
-Encoding: 109 -1 107
+Encoding: 36 -1 107
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -5549,7 +5549,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: mouth_smirking
-Encoding: 110 -1 108
+Encoding: 60 -1 108
 Width: 0
 VWidth: 0
 Flags: MW
@@ -5613,7 +5613,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: eyebrow_smirking
-Encoding: 111 -1 109
+Encoding: 20 -1 109
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -5669,7 +5669,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: ZipperMouthFace.2
-Encoding: 112 -1 110
+Encoding: 203 -1 110
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -5726,7 +5726,7 @@ Colour: ffff
 EndChar
 
 StartChar: DottedLineFace.2
-Encoding: 113 -1 111
+Encoding: 209 -1 111
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -5746,7 +5746,7 @@ Colour: ffff
 EndChar
 
 StartChar: DottedLineFace.0
-Encoding: 114 -1 112
+Encoding: 208 -1 112
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -5756,7 +5756,7 @@ Colour: ffff
 EndChar
 
 StartChar: eyebrow_unamused
-Encoding: 115 -1 113
+Encoding: 21 -1 113
 Width: 0
 VWidth: 0
 Flags: MW
@@ -5823,7 +5823,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: eye_mask
-Encoding: 116 -1 114
+Encoding: 37 -1 114
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -5872,7 +5872,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: MoneyMouthFace.3
-Encoding: 117 -1 115
+Encoding: 178 -1 115
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -5882,7 +5882,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithRollingEyes.2
-Encoding: 118 -1 116
+Encoding: 219 -1 116
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -5977,7 +5977,7 @@ Colour: ffff
 EndChar
 
 StartChar: StarStruck.1
-Encoding: 119 -1 117
+Encoding: 150 -1 117
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -5987,7 +5987,7 @@ Colour: ffff
 EndChar
 
 StartChar: ZanyFace.6
-Encoding: 120 -1 118
+Encoding: 175 -1 118
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -5997,7 +5997,7 @@ Colour: ffff
 EndChar
 
 StartChar: LyingFace.0
-Encoding: 121 -1 119
+Encoding: 225 -1 119
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6007,7 +6007,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmilingFaceWithHeartEyes.1
-Encoding: 122 -1 120
+Encoding: 148 -1 120
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6017,7 +6017,7 @@ Colour: ffff
 EndChar
 
 StartChar: tongue_common.0
-Encoding: 123 -1 121
+Encoding: 103 -1 121
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6046,7 +6046,7 @@ Colour: ffff
 EndChar
 
 StartChar: tongue_common.1
-Encoding: 124 -1 122
+Encoding: 104 -1 122
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6074,7 +6074,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceBlowingKiss.2
-Encoding: 125 -1 123
+Encoding: 153 -1 123
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6084,7 +6084,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceBlowingKiss.3
-Encoding: 126 -1 124
+Encoding: 154 -1 124
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6094,7 +6094,7 @@ Colour: ffff
 EndChar
 
 StartChar: KissingFaceWithClosedEyes.1
-Encoding: 127 -1 125
+Encoding: 158 -1 125
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6104,7 +6104,7 @@ Colour: ffff
 EndChar
 
 StartChar: LyingFace.2
-Encoding: 128 -1 126
+Encoding: 227 -1 126
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6136,7 +6136,7 @@ Colour: ffff
 EndChar
 
 StartChar: ZanyFace.1
-Encoding: 129 -1 127
+Encoding: 170 -1 127
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6147,7 +6147,7 @@ Colour: ffff
 EndChar
 
 StartChar: ZanyFace.2
-Encoding: 130 -1 128
+Encoding: 171 -1 128
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6158,7 +6158,7 @@ Colour: ffff
 EndChar
 
 StartChar: WinkingFaceWithTongue.1
-Encoding: 131 -1 129
+Encoding: 167 -1 129
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6168,7 +6168,7 @@ Colour: ffff
 EndChar
 
 StartChar: WinkingFaceWithTongue.2
-Encoding: 132 -1 130
+Encoding: 168 -1 130
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6178,7 +6178,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmilingFaceWithTear.2
-Encoding: 133 -1 131
+Encoding: 162 -1 131
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6188,7 +6188,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmilingFaceWithOpenHands.1
-Encoding: 134 -1 132
+Encoding: 180 -1 132
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6309,7 +6309,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmilingFaceWithOpenHands.0
-Encoding: 135 -1 133
+Encoding: 179 -1 133
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6319,7 +6319,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithHandOverMouth.1
-Encoding: 136 -1 134
+Encoding: 184 -1 134
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6389,7 +6389,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithHandOverMouth.0
-Encoding: 137 -1 135
+Encoding: 183 -1 135
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6399,7 +6399,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithOpenEyesAndHand.1
-Encoding: 138 -1 136
+Encoding: 186 -1 136
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6460,7 +6460,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithPeekingEye.3
-Encoding: 139 -1 137
+Encoding: 190 -1 137
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6472,7 +6472,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithPeekingEye.1
-Encoding: 140 -1 138
+Encoding: 188 -1 138
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6482,7 +6482,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithPeekingEye.2
-Encoding: 141 -1 139
+Encoding: 189 -1 139
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6492,7 +6492,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithPeekingEye.0
-Encoding: 142 -1 140
+Encoding: 187 -1 140
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6502,7 +6502,7 @@ Colour: ffff
 EndChar
 
 StartChar: ShushingFace.1
-Encoding: 143 -1 141
+Encoding: 193 -1 141
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6516,7 +6516,7 @@ Colour: ffff
 EndChar
 
 StartChar: ThinkingFace.1
-Encoding: 144 -1 142
+Encoding: 196 -1 142
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6572,7 +6572,7 @@ Colour: ffff
 EndChar
 
 StartChar: DroolingFace.1
-Encoding: 145 -1 143
+Encoding: 232 -1 143
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6645,7 +6645,7 @@ Colour: ffff
 EndChar
 
 StartChar: mouth_drooling
-Encoding: 146 -1 144
+Encoding: 62 -1 144
 Width: 864
 VWidth: 0
 Flags: MW
@@ -6688,7 +6688,7 @@ Colour: ffff00
 EndChar
 
 StartChar: DroolingFace.2
-Encoding: 147 -1 145
+Encoding: 233 -1 145
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6730,7 +6730,7 @@ Colour: ffff
 EndChar
 
 StartChar: SleepingFace.1
-Encoding: 148 -1 146
+Encoding: 234 -1 146
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -6879,7 +6879,7 @@ Colour: ffff
 EndChar
 
 StartChar: zzz_shadow
-Encoding: 149 -1 147
+Encoding: 82 -1 147
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -6944,7 +6944,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: zzz_letter
-Encoding: 150 -1 148
+Encoding: 83 -1 148
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -7014,7 +7014,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: SleepingFace.2
-Encoding: 151 -1 149
+Encoding: 235 -1 149
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -7026,7 +7026,7 @@ Colour: ffff
 EndChar
 
 StartChar: SleepingFace.3
-Encoding: 152 -1 150
+Encoding: 236 -1 150
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -7038,7 +7038,7 @@ Colour: ffff
 EndChar
 
 StartChar: SalutingFace.1
-Encoding: 153 -1 151
+Encoding: 199 -1 151
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -7096,7 +7096,7 @@ Colour: ffff
 EndChar
 
 StartChar: SalutingFace.0
-Encoding: 154 -1 152
+Encoding: 198 -1 152
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -7106,7 +7106,7 @@ Colour: ffff
 EndChar
 
 StartChar: eyebrow_saluting
-Encoding: 155 -1 153
+Encoding: 22 -1 153
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -7139,7 +7139,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: saluting_mouth
-Encoding: 156 -1 154
+Encoding: 63 -1 154
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -7199,7 +7199,7 @@ Colour: ffff00
 EndChar
 
 StartChar: SleepyFace.2
-Encoding: 157 -1 155
+Encoding: 231 -1 155
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -7228,7 +7228,7 @@ Colour: ffff
 EndChar
 
 StartChar: SalutingFace.2
-Encoding: 158 -1 156
+Encoding: 200 -1 156
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -7349,7 +7349,7 @@ Colour: ffff
 EndChar
 
 StartChar: SalutingFace.3
-Encoding: 159 -1 157
+Encoding: 201 -1 157
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -7478,7 +7478,7 @@ Colour: ffff
 EndChar
 
 StartChar: RelievedFace.1
-Encoding: 160 -1 158
+Encoding: 228 -1 158
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -7543,7 +7543,7 @@ Colour: ffff
 EndChar
 
 StartChar: SleepyFace.1
-Encoding: 161 -1 159
+Encoding: 230 -1 159
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -7613,7 +7613,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithMedicalMask.2
-Encoding: 162 -1 160
+Encoding: 238 -1 160
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -7731,7 +7731,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithMedicalMask.1
-Encoding: 163 -1 161
+Encoding: 237 -1 161
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -7742,7 +7742,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithThermometer.2
-Encoding: 164 -1 162
+Encoding: 240 -1 162
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -7756,7 +7756,7 @@ Colour: ffff
 EndChar
 
 StartChar: eyebrow_3b
-Encoding: 165 -1 163
+Encoding: 23 -1 163
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -7809,7 +7809,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: eyebrow_3
-Encoding: 166 -1 164
+Encoding: 24 -1 164
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -7871,7 +7871,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: smile_1d
-Encoding: 167 -1 165
+Encoding: 74 -1 165
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -7899,7 +7899,7 @@ Colour: ffff00
 EndChar
 
 StartChar: FaceWithThermometer.1
-Encoding: 168 -1 166
+Encoding: 239 -1 166
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -7917,7 +7917,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithThermometer.3
-Encoding: 169 -1 167
+Encoding: 241 -1 167
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -7932,7 +7932,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithThermometer.4
-Encoding: 170 -1 168
+Encoding: 242 -1 168
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8048,7 +8048,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithThermometer.5
-Encoding: 171 -1 169
+Encoding: 243 -1 169
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8068,7 +8068,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithThermometer.6
-Encoding: 172 -1 170
+Encoding: 244 -1 170
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8109,7 +8109,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithHeadBandage.1
-Encoding: 173 -1 171
+Encoding: 246 -1 171
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8224,7 +8224,7 @@ Colour: ffff
 EndChar
 
 StartChar: mouth_downcast
-Encoding: 174 -1 172
+Encoding: 64 -1 172
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8252,7 +8252,7 @@ Colour: ffff00
 EndChar
 
 StartChar: FaceWithHeadBandage.0
-Encoding: 175 -1 173
+Encoding: 245 -1 173
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8274,7 +8274,7 @@ Colour: ffff
 EndChar
 
 StartChar: unused12
-Encoding: 176 -1 174
+Encoding: 4 -1 174
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8284,7 +8284,7 @@ Colour: ff00
 EndChar
 
 StartChar: FaceWithHeadBandage.2
-Encoding: 177 -1 175
+Encoding: 247 -1 175
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8304,7 +8304,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithHeadBandage.3
-Encoding: 178 -1 176
+Encoding: 248 -1 176
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8329,7 +8329,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithHeadBandage.4
-Encoding: 179 -1 177
+Encoding: 249 -1 177
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8349,7 +8349,7 @@ Colour: ffff
 EndChar
 
 StartChar: NauseatedFace.2
-Encoding: 180 -1 178
+Encoding: 251 -1 178
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8409,7 +8409,7 @@ Colour: ffff
 EndChar
 
 StartChar: NauseatedFace.1
-Encoding: 181 -1 179
+Encoding: 250 -1 179
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8475,7 +8475,7 @@ Colour: ffff
 EndChar
 
 StartChar: cheek_nauseated
-Encoding: 182 -1 180
+Encoding: 84 -1 180
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -8547,7 +8547,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: eye_nauseated
-Encoding: 183 -1 181
+Encoding: 38 -1 181
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -8584,7 +8584,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: mouth_nauseated
-Encoding: 184 -1 182
+Encoding: 65 -1 182
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8614,11 +8614,11 @@ SplineSet
  514 115 l 1,4,5
  431 178 431 178 348 116 c 1,0,-1
 EndSplineSet
-Colour: ffff
+Colour: ffff00
 EndChar
 
 StartChar: vomit_stream
-Encoding: 185 -1 183
+Encoding: 85 -1 183
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8676,7 +8676,7 @@ Colour: ffff00
 EndChar
 
 StartChar: FaceVomiting.2
-Encoding: 186 -1 184
+Encoding: 253 -1 184
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8687,7 +8687,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceVomiting.3
-Encoding: 187 -1 185
+Encoding: 254 -1 185
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8700,7 +8700,7 @@ Colour: ffff
 EndChar
 
 StartChar: SneezingFace.1
-Encoding: 188 -1 186
+Encoding: 255 -1 186
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8775,7 +8775,7 @@ Colour: ffff
 EndChar
 
 StartChar: SneezingFace.2
-Encoding: 189 -1 187
+Encoding: 256 -1 187
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8828,7 +8828,7 @@ Colour: ffff
 EndChar
 
 StartChar: SneezingFace.3
-Encoding: 190 -1 188
+Encoding: 257 -1 188
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8879,7 +8879,7 @@ Colour: ffff
 EndChar
 
 StartChar: HotFace.1
-Encoding: 191 -1 189
+Encoding: 258 -1 189
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8961,7 +8961,7 @@ Colour: ffff
 EndChar
 
 StartChar: hotface_mouth
-Encoding: 192 -1 190
+Encoding: 66 -1 190
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -8995,10 +8995,11 @@ SplineSet
  234 53 234 53 231 56 c 128,-1,16
  228 59 228 59 228 63 c 0,0,1
 EndSplineSet
+Colour: ffff00
 EndChar
 
 StartChar: HotFace.2
-Encoding: 193 -1 191
+Encoding: 259 -1 191
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -9043,7 +9044,7 @@ Colour: ffff
 EndChar
 
 StartChar: HotFace.3
-Encoding: 194 -1 192
+Encoding: 260 -1 192
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -9088,7 +9089,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceVomiting.1
-Encoding: 195 -1 193
+Encoding: 252 -1 193
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -9178,7 +9179,7 @@ Colour: ffff
 EndChar
 
 StartChar: HotFace.4
-Encoding: 196 -1 194
+Encoding: 261 -1 194
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -9189,7 +9190,7 @@ Colour: ffff
 EndChar
 
 StartChar: ColdFace.3
-Encoding: 197 -1 195
+Encoding: 264 -1 195
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -9337,7 +9338,7 @@ Colour: ffff
 EndChar
 
 StartChar: ColdFace.1
-Encoding: 198 -1 196
+Encoding: 262 -1 196
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -9512,7 +9513,7 @@ Colour: ffff
 EndChar
 
 StartChar: ColdFace.2
-Encoding: 199 -1 197
+Encoding: 263 -1 197
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -9522,7 +9523,7 @@ Colour: ffff
 EndChar
 
 StartChar: mouth_spiraleyes
-Encoding: 200 -1 198
+Encoding: 67 -1 198
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -9636,7 +9637,7 @@ Colour: ffff00
 EndChar
 
 StartChar: ExplodingHead.0
-Encoding: 201 -1 199
+Encoding: 268 -1 199
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -9660,7 +9661,7 @@ Colour: ffff
 EndChar
 
 StartChar: ExplodingHead.1
-Encoding: 202 -1 200
+Encoding: 269 -1 200
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -9791,7 +9792,7 @@ Colour: ffff
 EndChar
 
 StartChar: ExplodingHead.2
-Encoding: 203 -1 201
+Encoding: 270 -1 201
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -9826,7 +9827,7 @@ Colour: ffff
 EndChar
 
 StartChar: ExplodingHead.3
-Encoding: 204 -1 202
+Encoding: 271 -1 202
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -9853,7 +9854,7 @@ Colour: ffff
 EndChar
 
 StartChar: ExplodingHead.4
-Encoding: 205 -1 203
+Encoding: 272 -1 203
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -9874,7 +9875,7 @@ Colour: ffff
 EndChar
 
 StartChar: ExplodingHead.5
-Encoding: 206 -1 204
+Encoding: 273 -1 204
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -9917,7 +9918,7 @@ Colour: ffff
 EndChar
 
 StartChar: ExplodingHead.6
-Encoding: 207 -1 205
+Encoding: 274 -1 205
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -10068,7 +10069,7 @@ Colour: ffff
 EndChar
 
 StartChar: CowboyHatFace.0
-Encoding: 208 -1 206
+Encoding: 275 -1 206
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -10238,7 +10239,7 @@ Colour: ffff
 EndChar
 
 StartChar: CowboyHatFace.2
-Encoding: 209 -1 207
+Encoding: 277 -1 207
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -10309,7 +10310,7 @@ Colour: ffff
 EndChar
 
 StartChar: woozy_face_sub
-Encoding: 210 -1 208
+Encoding: 86 -1 208
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -10419,7 +10420,7 @@ Colour: ffff00
 EndChar
 
 StartChar: WoozyFace.1
-Encoding: 211 -1 209
+Encoding: 265 -1 209
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -10431,7 +10432,7 @@ Colour: ffff
 EndChar
 
 StartChar: CowboyHatFace.3
-Encoding: 212 -1 210
+Encoding: 278 -1 210
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -10470,7 +10471,7 @@ Colour: ffff
 EndChar
 
 StartChar: CowboyHatFace.4
-Encoding: 213 -1 211
+Encoding: 279 -1 211
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -10527,7 +10528,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithCrossedOutEyes.1
-Encoding: 214 -1 212
+Encoding: 266 -1 212
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -10608,7 +10609,7 @@ Colour: ffff
 EndChar
 
 StartChar: eye_x
-Encoding: 215 -1 213
+Encoding: 39 -1 213
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -10668,7 +10669,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: FaceWithSpiralEyes.1
-Encoding: 216 -1 214
+Encoding: 267 -1 214
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -10680,7 +10681,7 @@ Colour: ffff
 EndChar
 
 StartChar: eye_spiral
-Encoding: 217 -1 215
+Encoding: 40 -1 215
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -10728,7 +10729,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: CowboyHatFace.1
-Encoding: 218 -1 216
+Encoding: 276 -1 216
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -10792,7 +10793,7 @@ Colour: ffff
 EndChar
 
 StartChar: PartyingFace.1
-Encoding: 219 -1 217
+Encoding: 281 -1 217
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -10829,7 +10830,7 @@ Colour: ffff
 EndChar
 
 StartChar: PartyingFace.5
-Encoding: 220 -1 218
+Encoding: 285 -1 218
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -10847,7 +10848,7 @@ Colour: ffff
 EndChar
 
 StartChar: PartyingFace.0
-Encoding: 221 -1 219
+Encoding: 280 -1 219
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -10857,7 +10858,7 @@ Colour: ffff
 EndChar
 
 StartChar: PartyingFace.3
-Encoding: 222 -1 220
+Encoding: 283 -1 220
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -10986,7 +10987,7 @@ Colour: ffff
 EndChar
 
 StartChar: PartyingFace.2
-Encoding: 223 -1 221
+Encoding: 282 -1 221
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11022,7 +11023,7 @@ Colour: ffff
 EndChar
 
 StartChar: eyebrow_10
-Encoding: 224 -1 222
+Encoding: 25 -1 222
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -11069,7 +11070,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: PartyingFace.4
-Encoding: 225 -1 223
+Encoding: 284 -1 223
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11092,7 +11093,7 @@ Colour: ffff
 EndChar
 
 StartChar: PartyingFace.6
-Encoding: 226 -1 224
+Encoding: 286 -1 224
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11111,7 +11112,7 @@ Colour: ffff
 EndChar
 
 StartChar: PartyingFace.7
-Encoding: 227 -1 225
+Encoding: 287 -1 225
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11240,7 +11241,7 @@ Colour: ffff
 EndChar
 
 StartChar: PartyingFace.8
-Encoding: 228 -1 226
+Encoding: 288 -1 226
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11262,7 +11263,7 @@ Colour: ffff
 EndChar
 
 StartChar: PartyingFace.9
-Encoding: 229 -1 227
+Encoding: 289 -1 227
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11286,7 +11287,7 @@ Colour: ffff
 EndChar
 
 StartChar: eye_common
-Encoding: 231 -1 228
+Encoding: 41 -1 228
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11296,7 +11297,7 @@ Colour: ffff00
 EndChar
 
 StartChar: mouth_diagonal
-Encoding: 232 -1 229
+Encoding: 68 -1 229
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11338,7 +11339,7 @@ Colour: ffff00
 EndChar
 
 StartChar: WorriedFace.1
-Encoding: 233 -1 230
+Encoding: 307 -1 230
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11394,7 +11395,7 @@ Colour: ffff
 EndChar
 
 StartChar: SlightlyFrowningFace.1
-Encoding: 234 -1 231
+Encoding: 308 -1 231
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11434,7 +11435,7 @@ Colour: ffff
 EndChar
 
 StartChar: FrowningFace.1
-Encoding: 235 -1 232
+Encoding: 309 -1 232
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11472,7 +11473,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithOpenMouth.1
-Encoding: 236 -1 233
+Encoding: 310 -1 233
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11507,7 +11508,7 @@ Colour: ffff
 EndChar
 
 StartChar: HushedFace.1
-Encoding: 237 -1 234
+Encoding: 311 -1 234
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11560,7 +11561,7 @@ Colour: ffff
 EndChar
 
 StartChar: AstonishedFace.1
-Encoding: 238 -1 235
+Encoding: 312 -1 235
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11617,7 +11618,7 @@ Colour: ffff
 EndChar
 
 StartChar: AstonishedFace.2
-Encoding: 239 -1 236
+Encoding: 313 -1 236
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11646,7 +11647,7 @@ Colour: ffff
 EndChar
 
 StartChar: ConfusedFace.1
-Encoding: 240 -1 237
+Encoding: 305 -1 237
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11678,7 +11679,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithDiagonalMouth.1
-Encoding: 241 -1 238
+Encoding: 306 -1 238
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11716,7 +11717,7 @@ Colour: ffff
 EndChar
 
 StartChar: PleadingFace.5
-Encoding: 242 -1 239
+Encoding: 322 -1 239
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11815,7 +11816,7 @@ Colour: ffff
 EndChar
 
 StartChar: PleadingFace.1
-Encoding: 243 -1 240
+Encoding: 318 -1 240
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11892,7 +11893,7 @@ Colour: ffff
 EndChar
 
 StartChar: PleadingFace.2
-Encoding: 244 -1 241
+Encoding: 319 -1 241
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -11970,7 +11971,7 @@ Colour: ffff
 EndChar
 
 StartChar: PleadingFace.3
-Encoding: 245 -1 242
+Encoding: 320 -1 242
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12046,7 +12047,7 @@ Colour: ffff
 EndChar
 
 StartChar: PleadingFace.4
-Encoding: 246 -1 243
+Encoding: 321 -1 243
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12088,7 +12089,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceHoldingBackTears.1
-Encoding: 247 -1 244
+Encoding: 323 -1 244
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12191,7 +12192,7 @@ Colour: ffff
 EndChar
 
 StartChar: tears_1
-Encoding: 248 -1 245
+Encoding: 87 -1 245
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -12234,7 +12235,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: FaceHoldingBackTears.2
-Encoding: 249 -1 246
+Encoding: 324 -1 246
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12244,7 +12245,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceHoldingBackTears.3
-Encoding: 250 -1 247
+Encoding: 325 -1 247
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12255,7 +12256,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceHoldingBackTears.4
-Encoding: 251 -1 248
+Encoding: 326 -1 248
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12268,7 +12269,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceHoldingBackTears.5
-Encoding: 252 -1 249
+Encoding: 327 -1 249
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12279,7 +12280,7 @@ Colour: ffff
 EndChar
 
 StartChar: FrowningFaceWithOpenMouth.1
-Encoding: 253 -1 250
+Encoding: 328 -1 250
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12318,7 +12319,7 @@ Colour: ffff
 EndChar
 
 StartChar: AnguishedFace.1
-Encoding: 254 -1 251
+Encoding: 329 -1 251
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12374,7 +12375,7 @@ Colour: ffff
 EndChar
 
 StartChar: AnxiousFaceWithSweat.2
-Encoding: 255 -1 252
+Encoding: 330 -1 252
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12440,7 +12441,7 @@ Colour: ffff
 EndChar
 
 StartChar: bg_sweat
-Encoding: 256 -1 253
+Encoding: 106 -1 253
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12484,7 +12485,7 @@ Colour: ffff
 EndChar
 
 StartChar: AnxiousFaceWithSweat.3
-Encoding: 257 -1 254
+Encoding: 331 -1 254
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12494,7 +12495,7 @@ Colour: ffff
 EndChar
 
 StartChar: SadButRelievedFace.1
-Encoding: 258 -1 255
+Encoding: 332 -1 255
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12553,7 +12554,7 @@ Colour: ffff
 EndChar
 
 StartChar: CryingFace.1
-Encoding: 259 -1 256
+Encoding: 333 -1 256
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12614,7 +12615,7 @@ Colour: ffff
 EndChar
 
 StartChar: CryingFace.2
-Encoding: 260 -1 257
+Encoding: 334 -1 257
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12624,7 +12625,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmilingFaceWithSmilingEyes.1
-Encoding: 261 -1 258
+Encoding: 139 -1 258
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12681,7 +12682,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmilingFaceWithSmilingEyes.2
-Encoding: 262 -1 259
+Encoding: 140 -1 259
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12693,7 +12694,7 @@ Colour: ffff
 EndChar
 
 StartChar: heart_colored
-Encoding: 263 -1 260
+Encoding: 111 -1 260
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12715,7 +12716,7 @@ Colour: ffff
 EndChar
 
 StartChar: MeltingFace.0
-Encoding: 264 -1 261
+Encoding: 136 -1 261
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12825,7 +12826,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmilingFaceWithHearts
-Encoding: 265 129392 262
+Encoding: 389 129392 262
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12833,7 +12834,7 @@ Colour: 80a696
 EndChar
 
 StartChar: SmilingFaceWithHeartEyes
-Encoding: 266 128525 263
+Encoding: 390 128525 263
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12841,7 +12842,7 @@ Colour: 80a696
 EndChar
 
 StartChar: StarStruck
-Encoding: 267 129321 264
+Encoding: 391 129321 264
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12849,7 +12850,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceBlowingAKiss
-Encoding: 268 128536 265
+Encoding: 392 128536 265
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12857,7 +12858,7 @@ Colour: 80a696
 EndChar
 
 StartChar: KissingFace
-Encoding: 269 128535 266
+Encoding: 393 128535 266
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12865,7 +12866,7 @@ Colour: 80a696
 EndChar
 
 StartChar: SmilingFace
-Encoding: 270 9786 267
+Encoding: 394 9786 267
 AltUni2: 00263a.00fe0f.0
 Width: 864
 Flags: MW
@@ -12874,7 +12875,7 @@ Colour: 80a696
 EndChar
 
 StartChar: KissingFaceWithClosedEyes
-Encoding: 271 128538 268
+Encoding: 395 128538 268
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12882,7 +12883,7 @@ Colour: 80a696
 EndChar
 
 StartChar: KissingFaceWithSmilingEyes
-Encoding: 272 128537 269
+Encoding: 396 128537 269
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12890,7 +12891,7 @@ Colour: 80a696
 EndChar
 
 StartChar: DisappointedFace.1
-Encoding: 273 -1 270
+Encoding: 344 -1 270
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12946,7 +12947,7 @@ Colour: ffff
 EndChar
 
 StartChar: SalutingFace
-Encoding: 274 129761 271
+Encoding: 410 129761 271
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -12954,7 +12955,7 @@ Colour: 80a696
 EndChar
 
 StartChar: GrimacingFace.2
-Encoding: 275 -1 272
+Encoding: 221 -1 272
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13019,7 +13020,7 @@ Colour: ffff
 EndChar
 
 StartChar: heart_outlinebg
-Encoding: 276 -1 273
+Encoding: 112 -1 273
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13029,7 +13030,7 @@ Colour: ffff
 EndChar
 
 StartChar: ZipperMouthFace
-Encoding: 277 129296 274
+Encoding: 411 129296 274
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13037,7 +13038,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithRaisedEyebrow
-Encoding: 278 129320 275
+Encoding: 412 129320 275
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13045,7 +13046,7 @@ Colour: 80a696
 EndChar
 
 StartChar: NeutralFace
-Encoding: 279 128528 276
+Encoding: 413 128528 276
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13053,7 +13054,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithoutMouth
-Encoding: 280 128566 277
+Encoding: 415 128566 277
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13061,7 +13062,7 @@ Colour: 80a696
 EndChar
 
 StartChar: DottedLineFace
-Encoding: 281 129765 278
+Encoding: 416 129765 278
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13069,7 +13070,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceInClouds
-Encoding: 282 -1 279
+Encoding: 417 -1 279
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13079,7 +13080,7 @@ Colour: 80a696
 EndChar
 
 StartChar: DowncastFaceWithSweat.1
-Encoding: 283 -1 280
+Encoding: 345 -1 280
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13129,7 +13130,7 @@ Colour: ffff
 EndChar
 
 StartChar: DowncastFaceWithSweat.2
-Encoding: 284 -1 281
+Encoding: 346 -1 281
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13139,7 +13140,7 @@ Colour: ffff
 EndChar
 
 StartChar: WearyFace.1
-Encoding: 285 -1 282
+Encoding: 347 -1 282
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13211,7 +13212,7 @@ Colour: ffff
 EndChar
 
 StartChar: WearyFace.2
-Encoding: 286 -1 283
+Encoding: 348 -1 283
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13237,7 +13238,7 @@ Colour: ffff
 EndChar
 
 StartChar: TiredFace.1
-Encoding: 287 -1 284
+Encoding: 349 -1 284
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13311,7 +13312,7 @@ Colour: ffff
 EndChar
 
 StartChar: tired_mouth
-Encoding: 288 -1 285
+Encoding: 69 -1 285
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13371,11 +13372,11 @@ SplineSet
  187 24 187 24 183.5 27.5 c 128,-1,24
  180 31 180 31 180 36 c 0,0,1
 EndSplineSet
-Colour: ffff
+Colour: ffff00
 EndChar
 
 StartChar: TiredFace.2
-Encoding: 289 -1 286
+Encoding: 350 -1 286
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13397,7 +13398,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmirkingFace
-Encoding: 290 128527 287
+Encoding: 418 128527 287
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13405,7 +13406,7 @@ Colour: 80a696
 EndChar
 
 StartChar: YawningFace.1
-Encoding: 291 -1 288
+Encoding: 351 -1 288
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13477,7 +13478,7 @@ Colour: ffff
 EndChar
 
 StartChar: eyebrow_11
-Encoding: 292 -1 289
+Encoding: 26 -1 289
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -13528,7 +13529,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: GrinningFace
-Encoding: 293 128512 290
+Encoding: 375 128512 290
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13536,7 +13537,7 @@ Colour: 80a696
 EndChar
 
 StartChar: GrinningFaceWithBigEyes
-Encoding: 294 128515 291
+Encoding: 376 128515 291
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13544,7 +13545,7 @@ Colour: 80a696
 EndChar
 
 StartChar: GrinningFaceWithSmilingEyes
-Encoding: 295 128516 292
+Encoding: 377 128516 292
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13552,7 +13553,7 @@ Colour: 80a696
 EndChar
 
 StartChar: BeamingFaceWithSmilingEyes
-Encoding: 296 128513 293
+Encoding: 378 128513 293
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13560,7 +13561,7 @@ Colour: 80a696
 EndChar
 
 StartChar: GrinningSquintingFace
-Encoding: 297 128518 294
+Encoding: 379 128518 294
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13568,7 +13569,7 @@ Colour: 80a696
 EndChar
 
 StartChar: GrinningFaceWithSweat
-Encoding: 298 128517 295
+Encoding: 380 128517 295
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13576,7 +13577,7 @@ Colour: 80a696
 EndChar
 
 StartChar: RollingOnTheFloorLaughing
-Encoding: 299 129315 296
+Encoding: 381 129315 296
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13584,7 +13585,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithTearsOfJoy
-Encoding: 300 128514 297
+Encoding: 382 128514 297
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13592,7 +13593,7 @@ Colour: 80a696
 EndChar
 
 StartChar: SlightlySmilingFace
-Encoding: 301 128578 298
+Encoding: 383 128578 298
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13600,7 +13601,7 @@ Colour: 80a696
 EndChar
 
 StartChar: UpsideDownFace
-Encoding: 302 128579 299
+Encoding: 384 128579 299
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13608,7 +13609,7 @@ Colour: 80a696
 EndChar
 
 StartChar: MeltingFace
-Encoding: 303 129760 300
+Encoding: 385 129760 300
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13616,7 +13617,7 @@ Colour: 80a696
 EndChar
 
 StartChar: WinkingFace
-Encoding: 304 128521 301
+Encoding: 386 128521 301
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13624,7 +13625,7 @@ Colour: 80a696
 EndChar
 
 StartChar: SmilingFaceWithSmilingEyes
-Encoding: 305 128522 302
+Encoding: 387 128522 302
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13632,7 +13633,7 @@ Colour: 80a696
 EndChar
 
 StartChar: SmilingFaceWithHalo
-Encoding: 306 128519 303
+Encoding: 388 128519 303
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13640,7 +13641,7 @@ Colour: 80a696
 EndChar
 
 StartChar: SmilingFaceWithTear
-Encoding: 307 129394 304
+Encoding: 397 129394 304
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13648,7 +13649,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceSavoringFood
-Encoding: 308 128523 305
+Encoding: 398 128523 305
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13656,7 +13657,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithTongue
-Encoding: 309 128539 306
+Encoding: 399 128539 306
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13664,7 +13665,7 @@ Colour: 80a696
 EndChar
 
 StartChar: WinkingFaceWithTongue
-Encoding: 310 128540 307
+Encoding: 400 128540 307
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13672,7 +13673,7 @@ Colour: 80a696
 EndChar
 
 StartChar: ZanyFace
-Encoding: 311 129322 308
+Encoding: 401 129322 308
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13680,7 +13681,7 @@ Colour: 80a696
 EndChar
 
 StartChar: SmilingFaceWithOpenHands
-Encoding: 312 129303 309
+Encoding: 404 129303 309
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13688,7 +13689,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithHandOverMouth
-Encoding: 313 129325 310
+Encoding: 405 129325 310
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13696,7 +13697,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithOpenEyesAndHand
-Encoding: 314 129762 311
+Encoding: 406 129762 311
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13704,7 +13705,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithPeekingEye
-Encoding: 315 129763 312
+Encoding: 407 129763 312
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13712,7 +13713,7 @@ Colour: 80a696
 EndChar
 
 StartChar: ShushingFace
-Encoding: 316 129323 313
+Encoding: 408 129323 313
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13720,7 +13721,7 @@ Colour: 80a696
 EndChar
 
 StartChar: ThinkingFace
-Encoding: 317 129300 314
+Encoding: 409 129300 314
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13728,7 +13729,7 @@ Colour: 80a696
 EndChar
 
 StartChar: SquintingFaceWithTongue
-Encoding: 318 128541 315
+Encoding: 402 128541 315
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13736,7 +13737,7 @@ Colour: 80a696
 EndChar
 
 StartChar: MoneyMouthFace
-Encoding: 319 129297 316
+Encoding: 403 129297 316
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13744,7 +13745,7 @@ Colour: 80a696
 EndChar
 
 StartChar: UnamusedFace
-Encoding: 320 128530 317
+Encoding: 419 128530 317
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13752,7 +13753,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithRollingEyes
-Encoding: 321 128580 318
+Encoding: 420 128580 318
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13760,7 +13761,7 @@ Colour: 80a696
 EndChar
 
 StartChar: GrimacingFace
-Encoding: 322 128556 319
+Encoding: 421 128556 319
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13768,7 +13769,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceExhaling
-Encoding: 323 -1 320
+Encoding: 422 -1 320
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13778,7 +13779,7 @@ Colour: 80a696
 EndChar
 
 StartChar: LyingFace
-Encoding: 324 129317 321
+Encoding: 423 129317 321
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13786,7 +13787,7 @@ Colour: 80a696
 EndChar
 
 StartChar: RelievedFace
-Encoding: 325 128524 322
+Encoding: 424 128524 322
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13794,7 +13795,7 @@ Colour: 80a696
 EndChar
 
 StartChar: PensiveFace
-Encoding: 326 128532 323
+Encoding: 425 128532 323
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13802,7 +13803,7 @@ Colour: 80a696
 EndChar
 
 StartChar: SleepyFace
-Encoding: 327 128554 324
+Encoding: 426 128554 324
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13810,7 +13811,7 @@ Colour: 80a696
 EndChar
 
 StartChar: DroolingFace
-Encoding: 328 129316 325
+Encoding: 427 129316 325
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13818,7 +13819,7 @@ Colour: 80a696
 EndChar
 
 StartChar: SleepingFace
-Encoding: 329 128564 326
+Encoding: 428 128564 326
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13826,7 +13827,7 @@ Colour: 80a696
 EndChar
 
 StartChar: ExpressionlessFace
-Encoding: 330 128529 327
+Encoding: 414 128529 327
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13834,7 +13835,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FrowningFace
-Encoding: 331 9785 328
+Encoding: 451 9785 328
 AltUni2: 002639.00fe0f.0
 Width: 864
 Flags: MW
@@ -13843,7 +13844,7 @@ Colour: 80a696
 EndChar
 
 StartChar: NoddingFace
-Encoding: 332 57360 329
+Encoding: 537 57360 329
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13851,7 +13852,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithMedicalMask
-Encoding: 334 128567 330
+Encoding: 429 128567 330
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13859,7 +13860,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithThermometer
-Encoding: 335 129298 331
+Encoding: 430 129298 331
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13867,7 +13868,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithHeadBandage
-Encoding: 336 129301 332
+Encoding: 431 129301 332
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13875,7 +13876,7 @@ Colour: 80a696
 EndChar
 
 StartChar: NauseatedFace
-Encoding: 337 129314 333
+Encoding: 432 129314 333
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13883,7 +13884,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceVomiting
-Encoding: 338 129326 334
+Encoding: 433 129326 334
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13891,7 +13892,7 @@ Colour: 80a696
 EndChar
 
 StartChar: SneezingFace
-Encoding: 339 129319 335
+Encoding: 434 129319 335
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13899,7 +13900,7 @@ Colour: 80a696
 EndChar
 
 StartChar: HotFace
-Encoding: 340 129397 336
+Encoding: 435 129397 336
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13907,7 +13908,7 @@ Colour: 80a696
 EndChar
 
 StartChar: ColdFace
-Encoding: 341 129398 337
+Encoding: 436 129398 337
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13915,7 +13916,7 @@ Colour: 80a696
 EndChar
 
 StartChar: WoozyFace
-Encoding: 342 129396 338
+Encoding: 437 129396 338
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13923,7 +13924,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithCrossedOutEyes
-Encoding: 343 128565 339
+Encoding: 438 128565 339
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13931,7 +13932,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithSpiralEyes
-Encoding: 344 -1 340
+Encoding: 439 -1 340
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13940,7 +13941,7 @@ Colour: 80a696
 EndChar
 
 StartChar: ExplodingHead
-Encoding: 345 129327 341
+Encoding: 440 129327 341
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13948,7 +13949,7 @@ Colour: 80a696
 EndChar
 
 StartChar: CowboyHatFace
-Encoding: 348 129312 342
+Encoding: 441 129312 342
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13956,7 +13957,7 @@ Colour: 80a696
 EndChar
 
 StartChar: PartyingFace
-Encoding: 349 129395 343
+Encoding: 442 129395 343
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13964,7 +13965,7 @@ Colour: 80a696
 EndChar
 
 StartChar: DisguisedFace
-Encoding: 350 129400 344
+Encoding: 443 129400 344
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13972,7 +13973,7 @@ Colour: 80a696
 EndChar
 
 StartChar: SmilingFaceWithSunglasses
-Encoding: 351 128526 345
+Encoding: 444 128526 345
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13980,7 +13981,7 @@ Colour: 80a696
 EndChar
 
 StartChar: NerdFace
-Encoding: 352 129299 346
+Encoding: 445 129299 346
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13988,7 +13989,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithMonocle
-Encoding: 353 129488 347
+Encoding: 446 129488 347
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -13996,7 +13997,7 @@ Colour: 80a696
 EndChar
 
 StartChar: ShakingFace
-Encoding: 355 129768 348
+Encoding: 480 129768 348
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14004,7 +14005,7 @@ Colour: 80a696
 EndChar
 
 StartChar: ConfusedFace
-Encoding: 356 128533 349
+Encoding: 447 128533 349
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14012,7 +14013,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithDiagonalMouth
-Encoding: 357 129764 350
+Encoding: 448 129764 350
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14020,7 +14021,7 @@ Colour: 80a696
 EndChar
 
 StartChar: WorriedFace
-Encoding: 358 128543 351
+Encoding: 449 128543 351
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14028,7 +14029,7 @@ Colour: 80a696
 EndChar
 
 StartChar: SlightlyFrowningFace
-Encoding: 359 128577 352
+Encoding: 450 128577 352
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14036,7 +14037,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithOpenMouth
-Encoding: 360 128558 353
+Encoding: 452 128558 353
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14044,7 +14045,7 @@ Colour: 80a696
 EndChar
 
 StartChar: HushedFace
-Encoding: 361 128559 354
+Encoding: 453 128559 354
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14052,7 +14053,7 @@ Colour: 80a696
 EndChar
 
 StartChar: AstonishedFace
-Encoding: 362 128562 355
+Encoding: 454 128562 355
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14060,7 +14061,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FlushedFace
-Encoding: 363 128563 356
+Encoding: 455 128563 356
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14068,7 +14069,7 @@ Colour: 80a696
 EndChar
 
 StartChar: PleadingFace
-Encoding: 364 129402 357
+Encoding: 456 129402 357
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14076,7 +14077,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceHoldingBackTears
-Encoding: 365 129401 358
+Encoding: 457 129401 358
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14084,7 +14085,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FrowningFaceWithOpenMouth
-Encoding: 366 128550 359
+Encoding: 458 128550 359
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14092,7 +14093,7 @@ Colour: 80a696
 EndChar
 
 StartChar: AnguishedFace
-Encoding: 367 128551 360
+Encoding: 459 128551 360
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14100,7 +14101,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FearfulFace
-Encoding: 368 128552 361
+Encoding: 460 128552 361
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14108,7 +14109,7 @@ Colour: 80a696
 EndChar
 
 StartChar: AnxiousFaceWithSweat
-Encoding: 369 128560 362
+Encoding: 461 128560 362
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14116,7 +14117,7 @@ Colour: 80a696
 EndChar
 
 StartChar: SadButRelievedFace
-Encoding: 370 128549 363
+Encoding: 462 128549 363
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14124,7 +14125,7 @@ Colour: 80a696
 EndChar
 
 StartChar: CryingFace
-Encoding: 371 128546 364
+Encoding: 463 128546 364
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14132,7 +14133,7 @@ Colour: 80a696
 EndChar
 
 StartChar: LoudlyCryingFace
-Encoding: 372 128557 365
+Encoding: 464 128557 365
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14140,7 +14141,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceScreamingInFear
-Encoding: 373 128561 366
+Encoding: 465 128561 366
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14148,7 +14149,7 @@ Colour: 80a696
 EndChar
 
 StartChar: ConfoundedFace
-Encoding: 374 128534 367
+Encoding: 466 128534 367
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14156,7 +14157,7 @@ Colour: 80a696
 EndChar
 
 StartChar: PerseveringFace
-Encoding: 375 128547 368
+Encoding: 467 128547 368
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14164,7 +14165,7 @@ Colour: 80a696
 EndChar
 
 StartChar: DisappointedFace
-Encoding: 376 128542 369
+Encoding: 468 128542 369
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14172,7 +14173,7 @@ Colour: 80a696
 EndChar
 
 StartChar: DowncastFaceWithSweat
-Encoding: 377 128531 370
+Encoding: 469 128531 370
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14180,7 +14181,7 @@ Colour: 80a696
 EndChar
 
 StartChar: WearyFace
-Encoding: 378 128553 371
+Encoding: 470 128553 371
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14188,7 +14189,7 @@ Colour: 80a696
 EndChar
 
 StartChar: TiredFace
-Encoding: 379 128555 372
+Encoding: 471 128555 372
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14196,7 +14197,7 @@ Colour: 80a696
 EndChar
 
 StartChar: YawningFace
-Encoding: 380 129393 373
+Encoding: 472 129393 373
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14204,7 +14205,7 @@ Colour: 80a696
 EndChar
 
 StartChar: DIZZY_SYMBOL
-Encoding: 381 128171 374
+Encoding: 536 128171 374
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14212,7 +14213,7 @@ Colour: 80a696
 EndChar
 
 StartChar: steam2
-Encoding: 382 -1 375
+Encoding: 88 -1 375
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -14254,7 +14255,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: steam1
-Encoding: 383 -1 376
+Encoding: 89 -1 376
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -14284,7 +14285,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: steam_mouth
-Encoding: 384 -1 377
+Encoding: 70 -1 377
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14340,7 +14341,7 @@ Colour: ffff00
 EndChar
 
 StartChar: eyebrow_steam
-Encoding: 385 -1 378
+Encoding: 27 -1 378
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -14389,7 +14390,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: zipper_mouth
-Encoding: 104 -1 379
+Encoding: 71 -1 379
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14407,7 +14408,7 @@ Colour: ffff00
 EndChar
 
 StartChar: FaceWithSteamFromNose.1
-Encoding: 386 -1 380
+Encoding: 352 -1 380
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14471,7 +14472,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithSteamFromNose.2
-Encoding: 387 -1 381
+Encoding: 353 -1 381
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14503,7 +14504,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithSteamFromNose.3
-Encoding: 388 -1 382
+Encoding: 354 -1 382
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14539,7 +14540,7 @@ Colour: ffff
 EndChar
 
 StartChar: AngryFace.1
-Encoding: 389 -1 383
+Encoding: 355 -1 383
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14592,7 +14593,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithSymbolsOnMouth.1
-Encoding: 390 -1 384
+Encoding: 356 -1 384
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14780,7 +14781,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithSymbolsOnMouth.2
-Encoding: 391 -1 385
+Encoding: 357 -1 385
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -14804,7 +14805,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithSymbolsOnMouth.3
-Encoding: 392 -1 386
+Encoding: 358 -1 386
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15084,7 +15085,7 @@ Colour: ffff
 EndChar
 
 StartChar: bg_horn1
-Encoding: 393 -1 387
+Encoding: 80 -1 387
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15140,7 +15141,7 @@ Colour: ffff00
 EndChar
 
 StartChar: SmilingFaceWithHorns.1
-Encoding: 394 -1 388
+Encoding: 359 -1 388
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15210,7 +15211,7 @@ Colour: ffff
 EndChar
 
 StartChar: AngryFaceWithHorns.1
-Encoding: 395 -1 389
+Encoding: 360 -1 389
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15338,7 +15339,7 @@ Colour: ffff
 EndChar
 
 StartChar: skull_wip
-Encoding: 396 -1 390
+Encoding: 90 -1 390
 Width: 864
 Flags: M
 LayerCount: 2
@@ -15420,7 +15421,7 @@ EndSplineSet
 EndChar
 
 StartChar: skull2_wip
-Encoding: 397 -1 391
+Encoding: 91 -1 391
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15455,7 +15456,7 @@ EndSplineSet
 EndChar
 
 StartChar: ClownFace.0
-Encoding: 398 -1 392
+Encoding: 361 -1 392
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15562,7 +15563,7 @@ Colour: ffff
 EndChar
 
 StartChar: ClownFace.2
-Encoding: 399 -1 393
+Encoding: 362 -1 393
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15603,7 +15604,7 @@ Colour: ffff
 EndChar
 
 StartChar: ClownFace.3
-Encoding: 400 -1 394
+Encoding: 363 -1 394
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15631,7 +15632,7 @@ Colour: ffff
 EndChar
 
 StartChar: ClownFace.4
-Encoding: 401 -1 395
+Encoding: 364 -1 395
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15642,7 +15643,7 @@ Colour: ffff
 EndChar
 
 StartChar: ClownFace.5
-Encoding: 402 -1 396
+Encoding: 365 -1 396
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15652,7 +15653,7 @@ Colour: ffff
 EndChar
 
 StartChar: ClownFace.6
-Encoding: 403 -1 397
+Encoding: 366 -1 397
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15665,7 +15666,7 @@ Colour: ffff
 EndChar
 
 StartChar: ClownFace
-Encoding: 404 129313 398
+Encoding: 479 129313 398
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15673,7 +15674,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithSteamFromNose
-Encoding: 405 128548 399
+Encoding: 473 128548 399
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15681,7 +15682,7 @@ Colour: 80a696
 EndChar
 
 StartChar: EnragedFace
-Encoding: 406 128545 400
+Encoding: 474 128545 400
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15689,7 +15690,7 @@ Colour: 80a696
 EndChar
 
 StartChar: AngryFace
-Encoding: 407 128544 401
+Encoding: 475 128544 401
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15697,7 +15698,7 @@ Colour: 80a696
 EndChar
 
 StartChar: FaceWithSymbolsOnMouth
-Encoding: 408 129324 402
+Encoding: 476 129324 402
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15705,7 +15706,7 @@ Colour: 80a696
 EndChar
 
 StartChar: SmilingFaceWithHorns
-Encoding: 409 128520 403
+Encoding: 477 128520 403
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15713,7 +15714,7 @@ Colour: 80a696
 EndChar
 
 StartChar: AngryFaceWithHorns
-Encoding: 410 128127 404
+Encoding: 478 128127 404
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15721,7 +15722,7 @@ Colour: 80a696
 EndChar
 
 StartChar: RedHeart
-Encoding: 436 10084 405
+Encoding: 500 10084 405
 AltUni2: 002764.00fe0f.0
 Width: 864
 Flags: MW
@@ -15730,7 +15731,7 @@ Colour: 80a696
 EndChar
 
 StartChar: PinkHeart
-Encoding: 437 129655 406
+Encoding: 501 129655 406
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15738,7 +15739,7 @@ Colour: 80a696
 EndChar
 
 StartChar: OrangeHeart
-Encoding: 438 129505 407
+Encoding: 502 129505 407
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15746,7 +15747,7 @@ Colour: 80a696
 EndChar
 
 StartChar: YellowHeart
-Encoding: 439 128155 408
+Encoding: 503 128155 408
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15754,7 +15755,7 @@ Colour: 80a696
 EndChar
 
 StartChar: GreenHeart
-Encoding: 440 128154 409
+Encoding: 504 128154 409
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15762,7 +15763,7 @@ Colour: 80a696
 EndChar
 
 StartChar: BlueHeart
-Encoding: 441 128153 410
+Encoding: 505 128153 410
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15770,7 +15771,7 @@ Colour: 80a696
 EndChar
 
 StartChar: LightBlueHeart
-Encoding: 442 129653 411
+Encoding: 506 129653 411
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15778,7 +15779,7 @@ Colour: 80a696
 EndChar
 
 StartChar: PurpleHeart
-Encoding: 443 128156 412
+Encoding: 507 128156 412
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15786,7 +15787,7 @@ Colour: 80a696
 EndChar
 
 StartChar: BrownHeart
-Encoding: 444 129294 413
+Encoding: 508 129294 413
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15794,7 +15795,7 @@ Colour: 80a696
 EndChar
 
 StartChar: BlackHeart
-Encoding: 445 128420 414
+Encoding: 509 128420 414
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15802,7 +15803,7 @@ Colour: 80a696
 EndChar
 
 StartChar: GrayHeart
-Encoding: 446 129654 415
+Encoding: 510 129654 415
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15810,7 +15811,7 @@ Colour: 80a696
 EndChar
 
 StartChar: WhiteHeart
-Encoding: 447 129293 416
+Encoding: 511 129293 416
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15818,7 +15819,7 @@ Colour: 80a696
 EndChar
 
 StartChar: zerojoin
-Encoding: 431 8205 417
+Encoding: 521 8205 417
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -15826,7 +15827,7 @@ Colour: 80a696
 EndChar
 
 StartChar: ShushingFace.2
-Encoding: 411 -1 418
+Encoding: 194 -1 418
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15916,7 +15917,7 @@ Colour: ffff
 EndChar
 
 StartChar: ShushingFace.3
-Encoding: 412 -1 419
+Encoding: 195 -1 419
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -15996,7 +15997,7 @@ Colour: ffff
 EndChar
 
 StartChar: hand_over_mouth
-Encoding: 413 -1 420
+Encoding: 109 -1 420
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -16093,11 +16094,11 @@ SplineSet
  176 -108 176 -108 124 -57 c 128,-1,38
  72 -6 72 -6 72 68 c 0,0,1
 EndSplineSet
-Colour: ffff00
+Colour: ffff
 EndChar
 
 StartChar: FaceWithHandOverMouth.2
-Encoding: 415 -1 421
+Encoding: 185 -1 421
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -16166,7 +16167,7 @@ Colour: ffff
 EndChar
 
 StartChar: SmilingFaceWithOpenHands.2
-Encoding: 416 -1 422
+Encoding: 181 -1 422
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -16287,7 +16288,7 @@ Colour: ff0000
 EndChar
 
 StartChar: SmilingFaceWithOpenHands.3
-Encoding: 417 -1 423
+Encoding: 182 -1 423
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -16327,7 +16328,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceExhaling.3
-Encoding: 418 -1 424
+Encoding: 224 -1 424
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -16470,10 +16471,11 @@ SplineSet
  130 -52 130 -52 112.5 -35 c 128,-1,30
  95 -18 95 -18 95 7 c 0,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: FaceWithPeekingEye.4
-Encoding: 421 -1 425
+Encoding: 191 -1 425
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -16677,7 +16679,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceWithPeekingEye.5
-Encoding: 422 -1 426
+Encoding: 192 -1 426
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -16774,7 +16776,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceExhaling.2
-Encoding: 420 -1 427
+Encoding: 223 -1 427
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -16811,10 +16813,11 @@ SplineSet
 EndSplineSet
 Fore
 Refer: 376 -1 N 0.766952 -0.543233 -0.543233 -0.766952 160 -272 2
+Colour: ffff
 EndChar
 
 StartChar: ThinkingFace.2
-Encoding: 423 -1 428
+Encoding: 197 -1 428
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -16914,7 +16917,7 @@ EndSplineSet
 EndChar
 
 StartChar: DASH_SYMBOL
-Encoding: 424 128168 429
+Encoding: 535 128168 429
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -16922,7 +16925,7 @@ Colour: 80a696
 EndChar
 
 StartChar: DASH_SYMBOL.0
-Encoding: 425 -1 430
+Encoding: 525 -1 430
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -16988,7 +16991,7 @@ Colour: ffff
 EndChar
 
 StartChar: FOG.1
-Encoding: 426 -1 431
+Encoding: 526 -1 431
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17035,7 +17038,7 @@ Colour: ffff
 EndChar
 
 StartChar: FOG.2
-Encoding: 427 -1 432
+Encoding: 527 -1 432
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17118,7 +17121,7 @@ Colour: ffff
 EndChar
 
 StartChar: FOG.3
-Encoding: 428 -1 433
+Encoding: 528 -1 433
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17200,7 +17203,7 @@ Colour: ffff
 EndChar
 
 StartChar: FOG.4
-Encoding: 429 -1 434
+Encoding: 529 -1 434
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17264,7 +17267,7 @@ Colour: ffff
 EndChar
 
 StartChar: FOG.5
-Encoding: 430 -1 435
+Encoding: 530 -1 435
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17312,7 +17315,7 @@ Colour: ffff
 EndChar
 
 StartChar: FOG.6
-Encoding: 432 -1 436
+Encoding: 531 -1 436
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17388,7 +17391,7 @@ Colour: ffff
 EndChar
 
 StartChar: halo_shadow
-Encoding: 433 -1 437
+Encoding: 142 -1 437
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17488,7 +17491,7 @@ Colour: ffff
 EndChar
 
 StartChar: DIZZY_SYMBOL.0
-Encoding: 434 -1 438
+Encoding: 532 -1 438
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17523,7 +17526,7 @@ Colour: ffff
 EndChar
 
 StartChar: FOG
-Encoding: 419 127787 439
+Encoding: 534 127787 439
 AltUni2: 01f32b.00fe0f.0
 Width: 864
 Flags: MW
@@ -17532,7 +17535,7 @@ Colour: 80a696
 EndChar
 
 StartChar: DIZZY_SYMBOL.1
-Encoding: 435 -1 440
+Encoding: 533 -1 440
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17589,7 +17592,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceInClouds.3
-Encoding: 454 -1 441
+Encoding: 213 -1 441
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17622,7 +17625,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceInClouds.5
-Encoding: 455 -1 442
+Encoding: 215 -1 442
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17633,7 +17636,7 @@ Colour: ffff
 EndChar
 
 StartChar: clouds_shadow2
-Encoding: 456 -1 443
+Encoding: 94 -1 443
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17697,7 +17700,7 @@ Colour: ffff00
 EndChar
 
 StartChar: FaceInClouds.4
-Encoding: 453 -1 444
+Encoding: 214 -1 444
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17764,7 +17767,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceInClouds.1
-Encoding: 452 -1 445
+Encoding: 211 -1 445
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17774,7 +17777,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceInClouds.0
-Encoding: 451 -1 446
+Encoding: 210 -1 446
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17785,7 +17788,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceInClouds.2
-Encoding: 450 -1 447
+Encoding: 212 -1 447
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17795,7 +17798,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceScreamingInFear.3
-Encoding: 459 -1 448
+Encoding: 341 -1 448
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17839,7 +17842,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceScreamingInFear.2
-Encoding: 460 -1 449
+Encoding: 340 -1 449
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17861,7 +17864,7 @@ Colour: ffff
 EndChar
 
 StartChar: fear_hand
-Encoding: 461 -1 450
+Encoding: 92 -1 450
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17883,7 +17886,7 @@ Colour: ffff00
 EndChar
 
 StartChar: fear_hands
-Encoding: 462 -1 451
+Encoding: 108 -1 451
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17916,7 +17919,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceScreamingInFear.1
-Encoding: 463 -1 452
+Encoding: 339 -1 452
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -17975,7 +17978,7 @@ Colour: ffff
 EndChar
 
 StartChar: FaceScreamingInFear.0
-Encoding: 464 -1 453
+Encoding: 338 -1 453
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -18067,7 +18070,7 @@ Colour: ffff
 EndChar
 
 StartChar: head_sweat.0
-Encoding: 465 -1 454
+Encoding: 107 -1 454
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -18085,7 +18088,7 @@ Colour: ffff
 EndChar
 
 StartChar: ShakingFace.4
-Encoding: 468 -1 455
+Encoding: 371 -1 455
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -18222,7 +18225,7 @@ Colour: ffff
 EndChar
 
 StartChar: ShakingFace.0
-Encoding: 469 -1 456
+Encoding: 367 -1 456
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -18323,7 +18326,7 @@ Colour: ffff
 EndChar
 
 StartChar: shaking_lines
-Encoding: 470 -1 457
+Encoding: 95 -1 457
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -18356,7 +18359,7 @@ Colour: ffff00
 EndChar
 
 StartChar: ShakingFace.1
-Encoding: 471 -1 458
+Encoding: 368 -1 458
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -18451,7 +18454,7 @@ Colour: ffff
 EndChar
 
 StartChar: ShakingFace.3
-Encoding: 472 -1 459
+Encoding: 370 -1 459
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -18544,7 +18547,7 @@ Colour: ffff
 EndChar
 
 StartChar: ShakingFace.2
-Encoding: 473 -1 460
+Encoding: 369 -1 460
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -18554,7 +18557,7 @@ Colour: ffff
 EndChar
 
 StartChar: features_monocle
-Encoding: 475 -1 461
+Encoding: 299 -1 461
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -18657,10 +18660,11 @@ SplineSet
  158 555 158 555 151 562 c 128,-1,22
  144 569 144 569 144 579 c 128,-1,23
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: FaceWithMonocle.4
-Encoding: 476 -1 462
+Encoding: 303 -1 462
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -18735,10 +18739,11 @@ Fore
 Refer: 3 -1 N 0.132353 0 0 0.132353 788 400 0
 Refer: 3 -1 N -0.363971 0 0 0.363971 597 413 0
 Refer: 3 -1 N 0.496324 0 0 0.496324 597 413 0
+Colour: ffff
 EndChar
 
 StartChar: FaceWithMonocle.5
-Encoding: 477 -1 463
+Encoding: 304 -1 463
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -18753,10 +18758,11 @@ SplineSet
  777 -108 777 -108 769.5 -100.5 c 128,-1,7
  762 -93 762 -93 762 -83 c 2,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: FaceWithMonocle.1
-Encoding: 478 -1 464
+Encoding: 300 -1 464
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -18830,19 +18836,21 @@ EndSplineSet
 Fore
 Refer: 3 -1 S 0.165441 0 0 0.231618 292.235 403.412 0
 Refer: 461 -1 N 1.05882 0 0 1.05882 -0 -44 2
+Colour: ffff
 EndChar
 
 StartChar: FaceWithMonocle.2
-Encoding: 479 -1 465
+Encoding: 301 -1 465
 Width: 864
 Flags: MW
 LayerCount: 2
 Fore
 Refer: 3 -1 N 0.430147 0 0 0.430147 597 413 0
+Colour: ffff
 EndChar
 
 StartChar: FaceWithMonocle.3
-Encoding: 480 -1 466
+Encoding: 302 -1 466
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -18854,10 +18862,11 @@ SplineSet
  519 268 l 25,3,-1
  462 319 l 25,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: NoddingFace.1
-Encoding: 482 -1 467
+Encoding: 373 -1 467
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -19128,7 +19137,7 @@ Refer: 13 -1 N 1 0 0 1 288 156 0
 EndChar
 
 StartChar: NoddingFace.2
-Encoding: 483 -1 468
+Encoding: 374 -1 468
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -19235,7 +19244,7 @@ EndSplineSet
 EndChar
 
 StartChar: NoddingFace.0
-Encoding: 481 -1 469
+Encoding: 372 -1 469
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -19244,7 +19253,7 @@ Refer: 3 -1 N -1 0 0 1 432 276 0
 EndChar
 
 StartChar: nodding_mouth
-Encoding: 484 -1 470
+Encoding: 75 -1 470
 Width: 864
 Flags: MW
 LayerCount: 2
@@ -19269,7 +19278,7 @@ EndSplineSet
 EndChar
 
 StartChar: varsel16
-Encoding: 448 65039 471
+Encoding: 520 65039 471
 Width: 0
 Flags: W
 LayerCount: 2
@@ -19735,179 +19744,6 @@ Encoding: 491 -1 481
 Width: 864
 Flags: W
 LayerCount: 2
-Back
-SplineSet
-744 300 m 2
- 552 300 l 2
- 512.400390625 300 456 214.0078125 456 132 c 2
- 456 -12 l 2
- 456 -51.599609375 488.400390625 -84 528 -84 c 2
- 768 -84 l 2
- 807.599609375 -84 840 -51.599609375 840 -12 c 2
- 840 132 l 2
- 840 214.0078125 783.599609375 300 744 300 c 2
-835.583984375 -35.904296875 m 1
- 725.064453125 -34.7763671875 672 7.4638671875 672 60 c 2
- 672 156 l 2
- 748.799804688 180 744 228 744 276 c 1
- 552 276 l 1
- 552 228 547.200195312 180 624 156 c 2
- 624 60 l 2
- 624 7.4638671875 570.935546875 -34.7763671875 460.416015625 -35.904296875 c 1
- 470.3515625 -63.7919921875 496.799804688 -84 528 -84 c 2
- 768 -84 l 2
- 799.200195312 -84 825.6484375 -63.7919921875 835.583984375 -35.904296875 c 1
-504 36 m 0
- 504 22.7451171875 514.745117188 12 528 12 c 0
- 541.254882812 12 552 22.7451171875 552 36 c 0
- 552 49.2548828125 541.254882812 60 528 60 c 0
- 514.745117188 60 504 49.2548828125 504 36 c 0
-744 36 m 0
- 744 22.7451171875 754.745117188 12 768 12 c 0
- 781.254882812 12 792 22.7451171875 792 36 c 0
- 792 49.2548828125 781.254882812 60 768 60 c 0
- 754.745117188 60 744 49.2548828125 744 36 c 0
-648 228 m 4
- 539.3515625 228 504 156 504 156 c 5
- 648 60 l 5
- 792 156 l 5
- 792 156 756.6484375 228 648 228 c 4
-840 468 m 2
- 840 324 l 2
- 840 252 703.032226562 324 660 324 c 0
- 612.576171875 324 456 252 456 324 c 2
- 456 468 l 2
- 456 574.032226562 541.967773438 660 648 660 c 0
- 754.032226562 660 840 574.032226562 840 468 c 2
-792 420 m 1
- 792 348 782.255859375 252 648 252 c 0
- 513.744140625 252 504 324 504 420 c 1
- 576.744140625 420 648 468 648 468 c 1
- 648 468 720.744140625 420 792 420 c 1
-758.471679688 363.3359375 m 0
- 736.727539062 366.83984375 699.50390625 374.616210938 678.83984375 355.704101562 c 0
- 670.272460938 349.440429688 676.48828125 331.631835938 692.568359375 339.263671875 c 0
- 708.624023438 346.896484375 744.984375 348.935546875 759.50390625 349.776367188 c 0
- 774.072265625 350.568359375 774.311523438 360.791992188 758.471679688 363.3359375 c 0
-538.463867188 363.3359375 m 0
- 560.208007812 366.83984375 597.431640625 374.616210938 618.095703125 355.704101562 c 0
- 626.6640625 349.440429688 620.448242188 331.631835938 604.368164062 339.263671875 c 0
- 588.311523438 346.896484375 551.952148438 348.935546875 537.431640625 349.776367188 c 0
- 522.887695312 350.568359375 522.6484375 360.791992188 538.463867188 363.3359375 c 0
-612.48046875 292.872070312 m 0
- 612.48046875 285.833984375 628.59765625 280.127929688 648.48046875 280.127929688 c 0
- 668.362304688 280.127929688 684.48046875 285.833984375 684.48046875 292.872070312 c 0
- 684.48046875 299.91015625 668.362304688 305.616210938 648.48046875 305.616210938 c 0
- 628.59765625 305.616210938 612.48046875 299.91015625 612.48046875 292.872070312 c 0
-768.48046875 605.784179688 m 0
- 768.48046875 635.711914062 714.744140625 660 648.48046875 660 c 0
- 582.215820312 660 528.48046875 635.736328125 528.48046875 605.784179688 c 0
- 528.48046875 591.143554688 597.599609375 577.84765625 648.48046875 568.103515625 c 0
- 699.3359375 577.872070312 768.48046875 591.143554688 768.48046875 605.784179688 c 0
-565.17578125 680.759765625 m 1
- 565.272460938 681.83984375 565.48828125 682.896484375 565.48828125 684 c 0
- 565.48828125 704.711914062 548.688476562 721.48828125 528 721.48828125 c 0
- 507.311523438 721.48828125 490.51171875 704.711914062 490.51171875 684 c 0
- 490.51171875 663.288085938 507.311523438 646.51171875 528 646.51171875 c 0
- 529.103515625 646.51171875 530.16015625 646.751953125 531.240234375 646.84765625 c 2
- 559.032226562 619.055664062 l 2
- 563.711914062 614.3515625 569.856445312 612 576 612 c 0
- 582.143554688 612 588.288085938 614.3515625 592.967773438 619.032226562 c 0
- 602.3515625 628.416015625 602.3515625 643.583984375 592.967773438 652.967773438 c 2
- 565.17578125 680.759765625 l 1
-648 745.48828125 m 0
- 627.288085938 745.48828125 610.51171875 728.688476562 610.51171875 708 c 0
- 610.51171875 696.48046875 615.81640625 686.280273438 624 679.416015625 c 2
- 624 636 l 2
- 624 622.751953125 634.727539062 612 648 612 c 0
- 661.272460938 612 672 622.751953125 672 636 c 2
- 672 679.416015625 l 2
- 680.18359375 686.280273438 685.48828125 696.48046875 685.48828125 708 c 0
- 685.48828125 728.711914062 668.711914062 745.48828125 648 745.48828125 c 0
-768 721.48828125 m 0
- 747.288085938 721.48828125 730.51171875 704.688476562 730.51171875 684 c 0
- 730.51171875 682.896484375 730.751953125 681.83984375 730.84765625 680.759765625 c 2
- 703.055664062 652.967773438 l 2
- 693.671875 643.583984375 693.671875 628.416015625 703.055664062 619.032226562 c 0
- 707.711914062 614.3515625 713.856445312 612 720 612 c 0
- 726.143554688 612 732.288085938 614.3515625 736.967773438 619.032226562 c 2
- 764.759765625 646.82421875 l 2
- 765.83984375 646.727539062 766.896484375 646.51171875 768 646.51171875 c 0
- 788.711914062 646.51171875 805.48828125 663.311523438 805.48828125 684 c 0
- 805.48828125 704.688476562 788.711914062 721.48828125 768 721.48828125 c 0
-312 300 m 2
- 120 300 l 2
- 80.400390625 300 24 214.0078125 24 132 c 2
- 24 -12 l 2
- 24 -51.599609375 56.400390625 -84 96 -84 c 2
- 336 -84 l 2
- 375.599609375 -84 408 -51.599609375 408 -12 c 2
- 408 132 l 2
- 408 214.0078125 351.599609375 300 312 300 c 2
-403.583984375 -35.904296875 m 1
- 293.064453125 -34.7763671875 240 7.4638671875 240 60 c 2
- 240 156 l 2
- 316.799804688 180 312 228 312 276 c 1
- 120 276 l 1
- 120 228 115.200195312 180 192 156 c 2
- 192 60 l 2
- 192 7.4638671875 138.935546875 -34.7763671875 28.416015625 -35.904296875 c 1
- 38.3515625 -63.7919921875 64.7998046875 -84 96 -84 c 2
- 336 -84 l 2
- 367.200195312 -84 393.6484375 -63.7919921875 403.583984375 -35.904296875 c 1
-72 108 m 0
- 72 94.7451171875 82.7451171875 84 96 84 c 0
- 109.254882812 84 120 94.7451171875 120 108 c 0
- 120 121.254882812 109.254882812 132 96 132 c 0
- 82.7451171875 132 72 121.254882812 72 108 c 0
-312 36 m 0
- 312 22.7451171875 322.745117188 12 336 12 c 0
- 349.254882812 12 360 22.7451171875 360 36 c 0
- 360 49.2548828125 349.254882812 60 336 60 c 0
- 322.745117188 60 312 49.2548828125 312 36 c 0
-244.368164062 230.904296875 m 6
- 216.024414062 230.975585938 l 5
- 187.6796875 230.904296875 l 6
- 176.064453125 230.879882812 165.408203125 223.127929688 167.280273438 207.383789062 c 6
- 194.927734375 -36.0478515625 l 6
- 197.280273438 -48.3603515625 204.408203125 -55.51171875 216.024414062 -55.48828125 c 4
- 227.639648438 -55.51171875 234.744140625 -48.3603515625 237.120117188 -36.0478515625 c 6
- 264.767578125 207.383789062 l 6
- 266.616210938 223.127929688 255.984375 230.879882812 244.368164062 230.904296875 c 6
-408 444 m 2
- 408 372 l 2
- 408 300 259.032226562 300 216 300 c 0
- 168.576171875 300 24 300 24 372 c 2
- 24 444 l 2
- 24 550.032226562 109.967773438 588 216 588 c 0
- 322.032226562 588 408 550.032226562 408 444 c 2
-72 441.791992188 m 1
- 72 420 l 2
- 72 324 81.744140625 252 216 252 c 0
- 350.255859375 252 360 348 360 420 c 2
- 360 441.791992188 l 1
- 330.6484375 429 277.223632812 420.408203125 216 420.408203125 c 0
- 154.776367188 420.408203125 101.3515625 429 72 441.791992188 c 1
-326.471679688 363.3359375 m 0
- 304.727539062 366.83984375 267.50390625 374.616210938 246.83984375 355.704101562 c 0
- 238.272460938 349.440429688 244.48828125 331.631835938 260.568359375 339.263671875 c 0
- 276.624023438 346.896484375 312.984375 348.935546875 327.50390625 349.776367188 c 0
- 342.072265625 350.568359375 342.311523438 360.791992188 326.471679688 363.3359375 c 0
-106.463867188 363.3359375 m 0
- 128.208007812 366.83984375 165.431640625 374.616210938 186.095703125 355.704101562 c 0
- 194.6640625 349.440429688 188.448242188 331.631835938 172.368164062 339.263671875 c 0
- 156.311523438 346.896484375 119.952148438 348.935546875 105.431640625 349.776367188 c 0
- 90.8876953125 350.568359375 90.6484375 360.791992188 106.463867188 363.3359375 c 0
-180.48046875 292.872070312 m 0
- 180.48046875 285.833984375 196.59765625 280.127929688 216.48046875 280.127929688 c 0
- 236.362304688 280.127929688 252.48046875 285.833984375 252.48046875 292.872070312 c 0
- 252.48046875 299.91015625 236.362304688 305.616210938 216.48046875 305.616210938 c 0
- 196.59765625 305.616210938 180.48046875 299.91015625 180.48046875 292.872070312 c 0
-291 567.024414062 m 0
- 291 483.984375 141 483.984375 141 567.024414062 c 0
- 141 650.064453125 174.576171875 732 216 732 c 0
- 257.423828125 732 291 650.064453125 291 567.024414062 c 0
-EndSplineSet
 Fore
 SplineSet
 526.5 356 m 129,-1,1
@@ -19993,7 +19829,7 @@ Refer: 481 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: JapaneseDolls
-Encoding: 500 127886 487
+Encoding: 512 127886 487
 Width: 864
 Flags: W
 LayerCount: 2
@@ -20001,7 +19837,7 @@ Colour: 80a696
 EndChar
 
 StartChar: SmilingFaceWithSunglasses.2
-Encoding: 457 -1 488
+Encoding: 296 -1 488
 Width: 864
 Flags: W
 LayerCount: 2
@@ -20078,10 +19914,11 @@ SplineSet
  28 492 28 492 27 497 c 0,57,0
  25 503 25 503 25.5 512 c 128,-1,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: SmilingFaceWithSunglasses.1
-Encoding: 458 -1 489
+Encoding: 295 -1 489
 Width: 864
 Flags: W
 LayerCount: 2
@@ -20121,10 +19958,11 @@ SplineSet
 EndSplineSet
 Fore
 Refer: 10 -1 N 1 0 0 1 432 48 2
+Colour: ffff
 EndChar
 
 StartChar: glasses
-Encoding: 474 -1 490
+Encoding: 105 -1 490
 Width: 864
 Flags: W
 LayerCount: 2
@@ -20368,10 +20206,11 @@ SplineSet
  40 485 40 485 31 490 c 0,98,99
  26 495 26 495 26 508 c 0,38,39
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: NerdFace.1
-Encoding: 466 -1 491
+Encoding: 297 -1 491
 Width: 864
 Flags: W
 LayerCount: 2
@@ -20379,10 +20218,11 @@ Fore
 Refer: 493 -1 N 1 0 0 1 0 0 2
 Refer: 14 -1 N 1 0 0 1 0 -50 2
 Refer: 489 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: NerdFace.2
-Encoding: 467 -1 492
+Encoding: 298 -1 492
 Width: 864
 Flags: W
 LayerCount: 2
@@ -20508,20 +20348,22 @@ SplineSet
  500 10 500 10 480 10 c 2,15,-1
  443 10 l 1,8,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: DisguisedFace.1
-Encoding: 504 -1 493
+Encoding: 290 -1 493
 Width: 864
 Flags: W
 LayerCount: 2
 Fore
 Refer: 3 -1 N 0.131 0 0 0.194 589 419 2
 Refer: 3 -1 N 0.131 0 0 0.194 277 419 2
+Colour: ffff
 EndChar
 
 StartChar: DisguisedFace.2
-Encoding: 505 -1 494
+Encoding: 291 -1 494
 Width: 864
 Flags: W
 LayerCount: 2
@@ -20720,10 +20562,11 @@ SplineSet
  814 552 814 552 765 525 c 1,75,-1
  520 525 l 1,59,60
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: DisguisedFace.3
-Encoding: 506 -1 495
+Encoding: 292 -1 495
 Width: 864
 Flags: W
 LayerCount: 2
@@ -20746,10 +20589,11 @@ SplineSet
  309 167 309 167 309 167 c 5,23,24
  288 177 288 177 288 190 c 5,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: DisguisedFace.4
-Encoding: 507 -1 496
+Encoding: 293 -1 496
 Width: 864
 Flags: W
 LayerCount: 2
@@ -20772,10 +20616,11 @@ SplineSet
  514 187 514 187 509 185 c 5,20,21
  505 183 505 183 508 195 c 5,11,12
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: DisguisedFace.5
-Encoding: 508 -1 497
+Encoding: 294 -1 497
 Width: 864
 Flags: W
 LayerCount: 2
@@ -20792,16 +20637,18 @@ SplineSet
  548 174 548 174 554 166 c 1,10,11
  554 164 554 164 491 141 c 1,6,7
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: bg_horns
-Encoding: 449 -1 498
+Encoding: 110 -1 498
 Width: 864
 Flags: W
 LayerCount: 2
 Fore
 Refer: 387 -1 N -1 0 0 1 864 0 2
 Refer: 387 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 EndChars
 EndSplineFont

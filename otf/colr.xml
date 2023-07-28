@@ -2,6 +2,13 @@
 <ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.34">
 	<cmap src="cmap.ttx"/>
 	
+	<GDEF>
+		<Version value="0x00010000"/>	
+	</GDEF>
+	<GPOS>
+		<Version value="0x00010000"/>
+	</GPOS>
+	
 	<COLR>
 		<version value="0"/>
 		<ColorGlyph name="GrinningFace">
@@ -579,11 +586,6 @@
 			<layer colorID="29" name="bg_horns"/>
 			<layer colorID="29" name="head36"/>
 			<layer colorID="30" name="AngryFace.1"/>
-		</ColorGlyph>
-		<ColorGlyph name="SmilingFaceWithHorns">
-			<layer colorID="29" name="bg_horns"/>
-			<layer colorID="29" name="head36"/>
-			<layer colorID="30" name="SmilingFaceWithHorns.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="AngryFaceWithHorns">
 			<layer colorID="29" name="bg_horns"/>
