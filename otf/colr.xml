@@ -194,8 +194,9 @@
 			<layer colorID="3" name="FaceWithPeekingEye.1"/>
 			<layer colorID="4" name="FaceWithPeekingEye.2"/>
 			<layer colorID="1" name="FaceWithPeekingEye.3"/>
+			<!-- redid these layers -->
+			<layer colorID="19" name="FaceWithPeekingEye.5"/> <!-- changed color -->
 			<layer colorID="13" name="FaceWithPeekingEye.4"/>
-			<layer colorID="1" name="FaceWithPeekingEye.5"/> <!-- changed -->
 		</ColorGlyph>
 		<ColorGlyph name="ShushingFace">
 			<layer colorID="0" name="FaceWithHandOverMouth.0"/>
