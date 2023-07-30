@@ -7,13 +7,17 @@ let margin = 24
 data = data.replace(/<mtx name="([^"]*)" width="([^"]*)" lsb="([^"]*)"[/]>/g, (m,name,width,lsb)=>{
 	width -= 0
 	lsb -= 0
-	if (/^[A-Z][A-Za-z]+$/.test(name)) {
+	let is_final = width==864
+	let is_layer = /[.]\d+$/.test(name)
+	if (is_layer) {
+		lsb = lsb + 864/2 + margin
+		width = 864 + margin + margin
+	}
+	else if (is_final) {
 		width = 864 + margin + margin
 		lsb = margin
-	} else if (width>0) {
-		width = 864 + margin + margin
-		lsb = lsb + 864/2 + margin
-	} else {
+	}
+	else {
 		lsb = 0
 		width = 0
 	}

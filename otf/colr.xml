@@ -3,65 +3,86 @@
 	<cmap src="cmap.ttx"/>
 	<hmtx src="hmtx.ttx"/>
 	
-	<GDEF>
+<!--	<GDEF>
 		<Version value="0x00010000"/>	
-	</GDEF>
+	</GDEF>-->
 	<GPOS>
 		<Version value="0x00010000"/>
 	</GPOS>
 	
+	<head>
+		<!-- Most of this table will be recalculated by the compiler -->
+		<tableVersion value="1.0"/>
+		<fontRevision value="1.0"/>
+		<checkSumAdjustment value="0xbfa5da91"/>
+		<magicNumber value="0x5f0f3cf5"/>
+		<flags value="00000000 00000001"/>
+		<unitsPerEm value="768"/>
+		<created value="Sat Jul  8 23:02:26 2023"/>
+		<modified value="Sun Jul 30 09:08:58 2023"/>
+		<xMin value="-446"/>
+		<yMin value="-828"/>
+		<xMax value="456"/>
+		<yMax value="1032"/>
+		<macStyle value="00000000 00000000"/>
+		<lowestRecPPEM value="9"/>
+		<fontDirectionHint value="2"/>
+		<indexToLocFormat value="0"/>
+		<glyphDataFormat value="0"/>
+	</head>
+	
 	<COLR>
 		<version value="0"/>
 		<ColorGlyph name="GrinningFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="GrinningFace.1"/>
-			<layer colorID="2" name="teeth_grinning_common_b"/>
+			<layer colorID="2" name="teeth_grinning_common_b.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="GrinningFaceWithBigEyes">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="GrinningFaceWithBigEyes.1"/>
-			<layer colorID="2" name="grinning_teeth_common"/>
+			<layer colorID="2" name="grinning_teeth_common.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="GrinningFaceWithSmilingEyes">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="GrinningFaceWithSmilingEyes.1"/>
-			<layer colorID="2" name="grinning_teeth_common"/>
+			<layer colorID="2" name="grinning_teeth_common.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="BeamingFaceWithSmilingEyes">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="BeamingFaceWithSmilingEyes.1"/>
 			<layer colorID="2" name="BeamingFaceWithSmilingEyes.2"/>
 			<layer colorID="1" name="BeamingFaceWithSmilingEyes.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="GrinningSquintingFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="GrinningSquintingFace.1"/>
-			<layer colorID="2" name="grinning_teeth_common"/>
+			<layer colorID="2" name="grinning_teeth_common.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="GrinningFaceWithSweat">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="GrinningFaceWithSmilingEyes.1"/> <!-- reused --> <!-- hm we can probably overlap this with smiling eyes in COLR -->
-			<layer colorID="2" name="grinning_teeth_common"/>
+			<layer colorID="2" name="grinning_teeth_common.0"/>
 			<layer colorID="6" name="GrinningFaceWithSweat.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="RollingOnTheFloorLaughing">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="RollingOnTheFloorLaughing.1"/>
 			<layer colorID="2" name="RollingOnTheFloorLaughing.2"/>
 			<layer colorID="6" name="RollingOnTheFloorLaughing.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithTearsOfJoy">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceWithTearsOfJoy.1"/>
-			<layer colorID="2" name="grinning_teeth_common"/>
+			<layer colorID="2" name="grinning_teeth_common.0"/>
 			<layer colorID="6" name="FaceWithTearsOfJoy.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="SlightlySmilingFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="SlightlySmilingFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="UpsideDownFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="UpsideDownFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="MeltingFace">
@@ -69,83 +90,83 @@
 			<layer colorID="1" name="MeltingFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="WinkingFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="WinkingFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="SmilingFaceWithSmilingEyes">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="7" name="SmilingFaceWithSmilingEyes.1"/>
 			<layer colorID="1" name="SmilingFaceWithSmilingEyes.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="SmilingFaceWithHalo">
 			<layer colorID="8" name="SmilingFaceWithHalo.0"/> <!-- changed to correct? deep blue -->
-			<layer colorID="0" name="head36"/>
-			<layer colorID="10" name="halo_shadow"/>
+			<layer colorID="0" name="head36.0"/>
+			<layer colorID="10" name="SmilingFaceWithHalo.9"/>
 			<layer colorID="1" name="SmilingFaceWithHalo.3"/>
 			<layer colorID="6" name="SmilingFaceWithHalo.4"/>
 		</ColorGlyph>
 		<!-- AFFECTION -->
 		<ColorGlyph name="SmilingFaceWithHearts">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="SmilingFaceWithHearts.1"/>
 			<layer colorID="10" name="SmilingFaceWithHearts.2"/>
 			<layer colorID="5" name="SmilingFaceWithHearts.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="SmilingFaceWithHeartEyes">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="SmilingFaceWithHeartEyes.1"/>
 			<layer colorID="5" name="SmilingFaceWithHeartEyes.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="StarStruck">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="StarStruck.1"/>
-			<layer colorID="2" name="teeth_grinning_common_b"/>
+			<layer colorID="2" name="teeth_grinning_common_b.0"/>
 			<layer colorID="20" name="StarStruck.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceBlowingAKiss">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceBlowingKiss.1"/>
 			<layer colorID="10" name="FaceBlowingKiss.2"/>
 			<layer colorID="5" name="FaceBlowingKiss.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="KissingFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="KissingFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="SmilingFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="7" name="SmilingFace.1"/>
 			<layer colorID="1" name="SmilingFace.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="KissingFaceWithClosedEyes">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="7" name="KissingFaceWithClosedEyes.1"/>
 			<layer colorID="1" name="KissingFaceWithClosedEyes.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="KissingFaceWithSmilingEyes">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="KissingFaceWithSmilingEyes.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="SmilingFaceWithTear">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="SmilingFaceWithTear.1"/>
 			<layer colorID="6" name="SmilingFaceWithTear.2"/>
 		</ColorGlyph>
 		<!-- tongue -->
 		<ColorGlyph name="FaceSavoringFood">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceSavoringFood.1"/>
 			<layer colorID="11" name="FaceSavoringFood.2"/>
 			<layer colorID="5" name="FaceSavoringFood.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithTongue">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceWithTongue.1"/>
 			<layer colorID="11" name="tongue_common.0"/>
 			<layer colorID="5" name="tongue_common.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="WinkingFaceWithTongue">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="3" name="WinkingFaceWithTongue.1"/>
 			<layer colorID="4" name="WinkingFaceWithTongue.2"/>
 			<layer colorID="1" name="WinkingFaceWithTongue.3"/>
@@ -153,7 +174,7 @@
 			<layer colorID="5" name="tongue_common.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="ZanyFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="3" name="ZanyFace.1"/>
 			<layer colorID="4" name="ZanyFace.2"/>
 			<layer colorID="1" name="ZanyFace.3"/>
@@ -162,13 +183,13 @@
 			<layer colorID="2" name="ZanyFace.6"/>
 		</ColorGlyph>
 		<ColorGlyph name="SquintingFaceWithTongue">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="SquintingFaceWithTongue.1"/>
 			<layer colorID="11" name="tongue_common.0"/>
 			<layer colorID="5" name="tongue_common.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="MoneyMouthFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="MoneyMouthFace.1"/>
 			<layer colorID="12" name="tongue_common.0"/>
 			<layer colorID="2" name="MoneyMouthFace.3"/>
@@ -218,24 +239,24 @@
 		</ColorGlyph>
 		<!-- neutral skeptical -->
 		<ColorGlyph name="ZipperMouthFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="ZipperMouthFace.1"/>
 			<layer colorID="14" name="ZipperMouthFace.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithRaisedEyebrow">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceWithRaisedEyebrow.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="NeutralFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="NeutralFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="ExpressionlessFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="ExpressionlessFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithoutMouth">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceWithoutMouth.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="DottedLineFace">
@@ -256,25 +277,25 @@
 			<layer colorID="1" name="NeutralFace.1"/>-->
 		</ColorGlyph>
 		<ColorGlyph name="SmirkingFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="SmirkingFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="UnamusedFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="UnamusedFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithRollingEyes">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="3" name="FaceWithRollingEyes.1"/>
 			<layer colorID="1" name="FaceWithRollingEyes.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="GrimacingFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="GrimacingFace.1"/>
 			<layer colorID="2" name="GrimacingFace.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceExhaling">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceExhaling.1"/>
 			<layer colorID="23" name="FaceExhaling.2"/>
 			<layer colorID="3" name="FaceExhaling.3"/>
@@ -286,37 +307,37 @@
 		</ColorGlyph>
 		<!-- sleepy -->
 		<ColorGlyph name="RelievedFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="RelievedFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="PensiveFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="PensiveFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="SleepyFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="SleepyFace.1"/>
 			<layer colorID="6" name="SleepyFace.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="DroolingFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="DroolingFace.1"/>
 			<layer colorID="15" name="DroolingFace.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="SleepingFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="SleepingFace.1"/>
 			<layer colorID="10" name="SleepingFace.2"/> <!-- shadow -->
 			<layer colorID="16" name="SleepingFace.3"/>
 		</ColorGlyph>
 		<!-- unwell -->
 		<ColorGlyph name="FaceWithMedicalMask">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceWithMedicalMask.1"/>
 			<layer colorID="3" name="FaceWithMedicalMask.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithThermometer">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="10" name="FaceWithThermometer.1"/> <!-- shadow -->
 			<layer colorID="1" name="FaceWithThermometer.2"/>
 			<layer colorID="21" name="FaceWithThermometer.3"/> <!-- mouth shadow -->
@@ -332,7 +353,7 @@
 			<layer colorID="24" name="FaceWithHeadBandage.4"/>
 		</ColorGlyph>
 		<ColorGlyph name="NauseatedFace">
-			<layer colorID="25" name="head36"/>
+			<layer colorID="25" name="head36.0"/>
 			<layer colorID="4" name="NauseatedFace.1"/>
 			<layer colorID="26" name="NauseatedFace.2"/>
 		</ColorGlyph>
@@ -343,34 +364,34 @@
 			<layer colorID="12" name="FaceVomiting.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="SneezingFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="SneezingFace.1"/>
 			<layer colorID="17" name="SneezingFace.2"/>
 			<layer colorID="3" name="SneezingFace.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="HotFace">
-			<layer colorID="11" name="head36"/>
+			<layer colorID="11" name="head36.0"/>
 			<layer colorID="1" name="HotFace.1"/>
 			<layer colorID="27" name="HotFace.2"/>
 			<layer colorID="11" name="HotFace.3"/>
 			<layer colorID="6" name="HotFace.4"/>
 		</ColorGlyph>
 		<ColorGlyph name="ColdFace">
-			<layer colorID="6" name="head36"/> <!-- changed -->
+			<layer colorID="6" name="head36.0"/> <!-- changed -->
 			<layer colorID="16" name="ColdFace.1"/> <!-- changed -->
 			<layer colorID="2" name="ColdFace.2"/>
 			<layer colorID="28" name="ColdFace.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="WoozyFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="WoozyFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithCrossedOutEyes">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceWithCrossedOutEyes.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithSpiralEyes">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceWithSpiralEyes.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="ExplodingHead">
@@ -403,27 +424,27 @@
 			<layer colorID="6" name="PartyingFace.9"/>
 		</ColorGlyph>
 		<ColorGlyph name="DisguisedFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="DisguisedFace.1"/>
 			<layer colorID="4" name="DisguisedFace.2"/>
 			<layer colorID="9" name="DisguisedFace.3"/>
 			<layer colorID="33" name="DisguisedFace.4"/>
 			<layer colorID="1" name="DisguisedFace.5"/> <!-- was #662113. that's a real color but too close to face lines color i feel like -->
-			<layer colorID="4" name="glasses"/>
+			<layer colorID="4" name="glasses.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="SmilingFaceWithSunglasses">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="SmilingFaceWithSunglasses.1"/>
 			<layer colorID="4" name="SmilingFaceWithSunglasses.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="NerdFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="NerdFace.1"/>
 			<layer colorID="2" name="NerdFace.2"/>
-			<layer colorID="4" name="glasses"/>
+			<layer colorID="4" name="glasses.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithMonocle">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceWithMonocle.1"/> face
 			<layer colorID="4" name="FaceWithMonocle.5"/> handle
 			<layer colorID="28" name="FaceWithMonocle.2"/> glass
@@ -432,40 +453,40 @@
 		</ColorGlyph>
 		<!-- concerned -->
 		<ColorGlyph name="ConfusedFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="ConfusedFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithDiagonalMouth">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceWithDiagonalMouth.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="WorriedFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="WorriedFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="SlightlyFrowningFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="SlightlyFrowningFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="FrowningFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FrowningFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithOpenMouth">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceWithOpenMouth.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="HushedFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="HushedFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="AstonishedFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="AstonishedFace.1"/>
 			<layer colorID="2" name="AstonishedFace.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="FlushedFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="7" name="FlushedFace.1"/>
 			<layer colorID="3" name="FlushedFace.2"/>
 			<layer colorID="4" name="FlushedFace.3"/>
@@ -473,7 +494,7 @@
 		</ColorGlyph>
 		<ColorGlyph name="PleadingFace">
 			<!-- old design -->
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="3" name="PleadingFace.1"/>
 			<layer colorID="13" name="PleadingFace.2"/>
 			<layer colorID="1" name="PleadingFace.3"/>
@@ -482,7 +503,7 @@
 		</ColorGlyph>
 		<ColorGlyph name="FaceHoldingBackTears">
 			<!-- jdecked design -->
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceHoldingBackTears.1"/>
 			<layer colorID="3" name="FaceHoldingBackTears.2"/>
 			<layer colorID="1" name="FaceHoldingBackTears.3"/> <!-- changed from black to brown -->
@@ -490,36 +511,36 @@
 			<layer colorID="6" name="FaceHoldingBackTears.5"/>
 		</ColorGlyph>
 		<ColorGlyph name="FrowningFaceWithOpenMouth">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FrowningFaceWithOpenMouth.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="AnguishedFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="AnguishedFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="FearfulFace">
 			<layer colorID="0" name="head_sweat.0"/>
-			<layer colorID="28" name="bg_sweat"/>
+			<layer colorID="28" name="bg_sweat.0"/>
 			<layer colorID="1" name="AnguishedFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="AnxiousFaceWithSweat">
 			<layer colorID="0" name="head_sweat.0"/>
-			<layer colorID="28" name="bg_sweat"/>
+			<layer colorID="28" name="bg_sweat.0"/>
 			<layer colorID="1" name="AnxiousFaceWithSweat.2"/>
 			<layer colorID="6" name="AnxiousFaceWithSweat.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="SadButRelievedFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="SadButRelievedFace.1"/>
 			<layer colorID="6" name="AnxiousFaceWithSweat.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="CryingFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="CryingFace.1"/>
 			<layer colorID="6" name="CryingFace.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="LoudlyCryingFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="6" name="LoudlyCryingFace.1"/>
 			<layer colorID="1" name="LoudlyCryingFace.2"/>
 			<layer colorID="11" name="LoudlyCryingFace.3"/>
@@ -529,75 +550,75 @@
 			<layer colorID="28" name="FaceScreamingInFear.1"/>
 			<layer colorID="1" name="FaceScreamingInFear.2"/>
 			<layer colorID="3" name="FaceScreamingInFear.3"/>
-			<layer colorID="9" name="fear_hands"/>
+			<layer colorID="9" name="fear_hands.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="ConfoundedFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="ConfoundedFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="PerseveringFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="PerseveringFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="DisappointedFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="DisappointedFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="DowncastFaceWithSweat">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="DowncastFaceWithSweat.1"/>
 			<layer colorID="6" name="DowncastFaceWithSweat.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="WearyFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="WearyFace.1"/>
 			<layer colorID="2" name="WearyFace.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="TiredFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="TiredFace.1"/>
 			<layer colorID="17" name="TiredFace.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="YawningFace">
 			<layer colorID="0" name="FaceWithHandOverMouth.0"/>
 			<layer colorID="1" name="YawningFace.1"/>
-			<layer colorID="13" name="hand_over_mouth"/>
+			<layer colorID="13" name="hand_over_mouth.0"/>
 		</ColorGlyph>
 		<!-- negative -->
 		<ColorGlyph name="FaceWithSteamFromNose">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceWithSteamFromNose.1"/>
 			<layer colorID="3" name="FaceWithSteamFromNose.2"/>
 			<layer colorID="23" name="FaceWithSteamFromNose.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="EnragedFace">
-			<layer colorID="5" name="head36"/>
+			<layer colorID="5" name="head36.0"/>
 			<layer colorID="4" name="AngryFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="AngryFace">
-			<layer colorID="0" name="head36"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="AngryFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithSymbolsOnMouth">
-			<layer colorID="5" name="head36"/>
+			<layer colorID="5" name="head36.0"/>
 			<layer colorID="4" name="FaceWithSymbolsOnMouth.1"/>
 			<layer colorID="4" name="FaceWithSymbolsOnMouth.2"/>
 			<layer colorID="2" name="FaceWithSymbolsOnMouth.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="SmilingFaceWithHorns">
-			<layer colorID="29" name="bg_horns"/>
-			<layer colorID="29" name="head36"/>
+			<layer colorID="29" name="bg_horns.0"/>
+			<layer colorID="29" name="head36.0"/>
 			<layer colorID="30" name="AngryFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="AngryFaceWithHorns">
-			<layer colorID="29" name="bg_horns"/>
-			<layer colorID="29" name="head36"/>
+			<layer colorID="29" name="bg_horns.0"/>
+			<layer colorID="29" name="head36.0"/>
 			<layer colorID="30" name="AngryFaceWithHorns.1"/>
 		</ColorGlyph>
 		<!-- costume -->
 		<ColorGlyph name="ClownFace">
 			<layer colorID="8" name="ClownFace.0"/>
-			<layer colorID="31" name="head36"/>
+			<layer colorID="31" name="head36.0"/>
 			<layer colorID="7" name="ClownFace.2"/>
 			<layer colorID="5" name="ClownFace.3"/>
 			<layer colorID="1" name="ClownFace.4"/>
@@ -615,42 +636,42 @@
 		
 		<!-- hearts -->
 		<ColorGlyph name="RedHeart">
-			<layer colorID="5" name="heart_colored"/>
+			<layer colorID="5" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="PinkHeart">
-			<layer colorID="27" name="heart_colored"/>
+			<layer colorID="27" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="OrangeHeart">
-			<layer colorID="13" name="heart_colored"/>
+			<layer colorID="13" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="YellowHeart">
-			<layer colorID="0" name="heart_colored"/>
+			<layer colorID="0" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="GreenHeart">
-			<layer colorID="25" name="heart_colored"/>
+			<layer colorID="25" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="BlueHeart">
-			<layer colorID="8" name="heart_colored"/>
+			<layer colorID="8" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="LightBlueHeart">
-			<layer colorID="15" name="heart_colored"/>
+			<layer colorID="15" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="PurpleHeart">
-			<layer colorID="29" name="heart_colored"/>
+			<layer colorID="29" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="BrownHeart">
-			<layer colorID="33" name="heart_colored"/>
+			<layer colorID="33" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="BlackHeart">
-			<layer colorID="3" name="heart_outlinebg"/>
-			<layer colorID="34" name="heart_colored"/>
+			<layer colorID="3" name="heart_outlinebg.0"/>
+			<layer colorID="34" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="GrayHeart">
-			<layer colorID="14" name="heart_colored"/>
+			<layer colorID="14" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="WhiteHeart">
-			<layer colorID="4" name="heart_outlinebg"/>
-			<layer colorID="23" name="heart_colored"/>
+			<layer colorID="4" name="heart_outlinebg.0"/>
+			<layer colorID="23" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="JapaneseDolls">
 			<layer colorID="6" name="JapaneseDolls.1"/>
