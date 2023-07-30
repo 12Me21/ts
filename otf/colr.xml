@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.34">
 	<cmap src="cmap.ttx"/>
+	<hmtx src="hmtx.ttx"/>
 	
 	<GDEF>
 		<Version value="0x00010000"/>	
