@@ -31,6 +31,26 @@
 		<glyphDataFormat value="0"/>
 	</head>
 	
+	<hhea>
+		<tableVersion value="0x00010000"/>
+		<ascent value="756"/>
+		<descent value="-108"/>
+		<lineGap value="0"/>
+		<advanceWidthMax value="864"/>
+		<minLeftSideBearing value="0"/>
+		<minRightSideBearing value="0"/>
+		<xMaxExtent value="912"/>
+		<caretSlopeRise value="1"/>
+		<caretSlopeRun value="0"/>
+		<caretOffset value="0"/>
+		<reserved0 value="0"/>
+		<reserved1 value="0"/>
+		<reserved2 value="0"/>
+		<reserved3 value="0"/>
+		<metricDataFormat value="0"/>
+		<numberOfHMetrics value="0"/>
+	</hhea>
+	
 	<COLR>
 		<version value="0"/>
 		<ColorGlyph name="GrinningFace">

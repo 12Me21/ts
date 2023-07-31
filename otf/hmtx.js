@@ -15,11 +15,11 @@ data = data.replace(/<mtx name="([^"]*)" width="([^"]*)" lsb="([^"]*)"[/]>/g, (m
 	}
 	else if (is_final) {
 		width = 864 + margin + margin
-		lsb = margin
+		lsb = 864/2 + margin
 	}
 	else {
-		lsb = 0
-		width = 0
+//		lsb = 0
+		width = 864 + margin + margin
 	}
 	return `<mtx name="${name}" width="${width}" lsb="${lsb}"/>`
 })

@@ -52,8 +52,15 @@ typedef struct {
 	TableRecord tableRecords[0];
 	} TableDirectory;**/
 
+typedef struct {
+	char* name;
+	int total;
+} collect;
+
+collect collects[100];
+
 void main(int argc, char* argv[argc]) {
-	int sizes[1000];
+	int sizes[1000] = {0};
 	
 	read2(4);
 	read2(2);
@@ -96,9 +103,10 @@ void main(int argc, char* argv[argc]) {
 		read2(2);
 		int curr = temp[0]<<8 | temp[1];
 		if (prev>=0) {
+			sizes[i-1] += 2;
 			int len = curr-prev;
-			sizes[i-1]=len;
-			//			printf("glyph %d: size=%d\n", i-1, len);
+			sizes[i-1] += len;
+			printf("glyph %d: size=%d\n", i-1, len);
 		}
 		prev = curr;
 	}
@@ -134,6 +142,8 @@ void main(int argc, char* argv[argc]) {
 		pos += len+1;
 	}
 	for (int i=0; i<nnames; i++) {
-		printf("glyph %d (%s): size=%d\n", i, strings[names[i]], sizes[i]);
+		char* name = strings[names[i]];
+		int size = sizes[i];
+		printf("%d : glyph %d (%s)\n", size, i, name);
 	}
 }
