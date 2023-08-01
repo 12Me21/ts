@@ -81,7 +81,6 @@ EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 233017 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 561 564
 
-
 StartChar: .notdef
 Encoding: 0 -1 561
 Width: 912
@@ -99,21 +98,21 @@ EndSplineSet
 EndChar
 
 StartChar: varsel16
-Encoding: 1 -1 562
+Encoding: 1 -1 1
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: zerojoin
-Encoding: 2 -1 563
+Encoding: 2 -1 0
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: eyebrow_weary
-Encoding: 10 -1 0
+Encoding: 10 -1 502
 Width: 912
 GlyphClass: 5
 Flags: MW
@@ -167,7 +166,7 @@ Colour: ff00ff
 EndChar
 
 StartChar: eyebrow_smiling
-Encoding: 11 -1 1
+Encoding: 11 -1 503
 Width: 912
 GlyphClass: 5
 Flags: MW
@@ -1933,8 +1932,8 @@ SplineSet
 EndSplineSet
 Fore
 Refer: 7 -1 N 1 0 0 1 456 12 0
-Refer: 1 -1 N -1 0 0 1 504 312 0
-Refer: 1 -1 N 1 0 0 1 408 312 0
+Refer: 503 -1 N -1 0 0 1 504 312 0
+Refer: 503 -1 N 1 0 0 1 408 312 0
 Colour: ffff
 EndChar
 
@@ -13216,8 +13215,8 @@ Fore
 Refer: 35 -1 N -1 0 0 -1 456 264.97 0
 Refer: 13 -1 N 0.964787 0.263031 -0.263031 0.964787 349 350 0
 Refer: 13 -1 N 0.971134 -0.238533 0.238533 0.971134 565 349 0
-Refer: 0 -1 N -1 0 0 1 648 504 0
-Refer: 0 -1 N 1 0 0 1 264 504 0
+Refer: 502 -1 N -1 0 0 1 648 504 0
+Refer: 502 -1 N 1 0 0 1 264 504 0
 Colour: ffff
 EndChar
 
@@ -15824,14 +15823,6 @@ StartChar: WhiteHeart
 Encoding: 511 129293 416
 Width: 912
 Flags: MW
-LayerCount: 2
-Colour: 80a696
-EndChar
-
-StartChar: .notdef
-Encoding: -1 -1 417
-Width: 768
-Flags: M
 LayerCount: 2
 Colour: 80a696
 EndChar
@@ -19507,13 +19498,6 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: .notdef
-Encoding: -1 -1 471
-Width: 768
-LayerCount: 2
-Colour: 80a696
-EndChar
-
 StartChar: JapaneseDolls.3
 Encoding: 486 -1 472
 Width: 912
@@ -20967,13 +20951,6 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: NameMe_78
-Encoding: -1 -1 500
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: hand2
 Encoding: 116 -1 501
 Width: 912
@@ -21200,61 +21177,6 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: NameMe.115
-Encoding: -1 -1 502
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.120
-Encoding: -1 -1 503
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.119
-Encoding: -1 -1 504
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.118
-Encoding: -1 -1 505
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.117
-Encoding: -1 -1 506
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.114
-Encoding: -1 -1 507
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.113
-Encoding: -1 -1 508
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.79
-Encoding: -1 -1 509
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
 
 StartChar: eyes_12
 Encoding: 76 -1 510
@@ -21266,355 +21188,6 @@ Refer: 228 -1 N 1 0 0 1 -144 -84 0
 Refer: 228 -1 N 1 0 0 1 144 -84 0
 EndChar
 
-StartChar: NameMe.524
-Encoding: -1 -1 511
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.523
-Encoding: -1 -1 512
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.0
-Encoding: -1 -1 513
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.7
-Encoding: -1 -1 514
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.8
-Encoding: -1 -1 515
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.9
-Encoding: -1 -1 516
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.28
-Encoding: -1 -1 517
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.29
-Encoding: -1 -1 518
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.42
-Encoding: -1 -1 519
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.43
-Encoding: -1 -1 520
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.44
-Encoding: -1 -1 521
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.96
-Encoding: -1 -1 522
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.97
-Encoding: -1 -1 523
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.98
-Encoding: -1 -1 524
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.99
-Encoding: -1 -1 525
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.481
-Encoding: -1 -1 526
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.482
-Encoding: -1 -1 527
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.483
-Encoding: -1 -1 528
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.484
-Encoding: -1 -1 529
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.513
-Encoding: -1 -1 530
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.514
-Encoding: -1 -1 531
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.515
-Encoding: -1 -1 532
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.516
-Encoding: -1 -1 533
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.517
-Encoding: -1 -1 534
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.518
-Encoding: -1 -1 535
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.519
-Encoding: -1 -1 536
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.522
-Encoding: -1 -1 537
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.538
-Encoding: -1 -1 538
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.539
-Encoding: -1 -1 539
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.540
-Encoding: -1 -1 540
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.541
-Encoding: -1 -1 541
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.542
-Encoding: -1 -1 542
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.543
-Encoding: -1 -1 543
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.544
-Encoding: -1 -1 544
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.545
-Encoding: -1 -1 545
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.546
-Encoding: -1 -1 546
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.547
-Encoding: -1 -1 547
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.548
-Encoding: -1 -1 548
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.549
-Encoding: -1 -1 549
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.550
-Encoding: -1 -1 550
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.551
-Encoding: -1 -1 551
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.552
-Encoding: -1 -1 552
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.553
-Encoding: -1 -1 553
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.554
-Encoding: -1 -1 554
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.555
-Encoding: -1 -1 555
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.556
-Encoding: -1 -1 556
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.557
-Encoding: -1 -1 557
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.558
-Encoding: -1 -1 558
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.559
-Encoding: -1 -1 559
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: NameMe.560
-Encoding: -1 -1 560
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
 
 EndChars
 EndSplineFont
