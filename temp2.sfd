@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1688857346
-ModificationTime: 1690875250
+ModificationTime: 1690885025
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +57,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 270 18 8
+WinInfo: 0 18 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -79,11 +79,42 @@ Grid
   Named: "top"
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 233017 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 561 561
+BeginChars: 561 564
+
+
+StartChar: .notdef
+Encoding: 0 -1 561
+Width: 912
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+170 263 m 25,0,-1
+ 568 281 l 25,1,-1
+ 270 515 l 25,2,-1
+ 376 149 l 25,3,-1
+ 504 529 l 25,4,-1
+ 170 263 l 25,0,-1
+EndSplineSet
+EndChar
+
+StartChar: varsel16
+Encoding: 1 -1 562
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: zerojoin
+Encoding: 2 -1 563
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
 
 StartChar: eyebrow_weary
 Encoding: 10 -1 0
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -137,7 +168,7 @@ EndChar
 
 StartChar: eyebrow_smiling
 Encoding: 11 -1 1
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -244,7 +275,7 @@ EndChar
 
 StartChar: eyebrow_holding_tears
 Encoding: 12 -1 2
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -294,8 +325,8 @@ Colour: ff00ff
 EndChar
 
 StartChar: circle32
-Encoding: 1 -1 3
-Width: 0
+Encoding: 5 -1 3
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -400,7 +431,7 @@ EndChar
 
 StartChar: lickinglipsmouth
 Encoding: 47 -1 6
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -431,7 +462,7 @@ EndChar
 
 StartChar: mouth_smiling1
 Encoding: 45 -1 7
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -508,7 +539,7 @@ EndChar
 
 StartChar: eye_smiling
 Encoding: 30 -1 8
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -599,8 +630,8 @@ Colour: ff00ff
 EndChar
 
 StartChar: heart
-Encoding: 2 -1 9
-Width: 0
+Encoding: 6 -1 9
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -637,7 +668,7 @@ EndChar
 
 StartChar: mouth_smiling2
 Encoding: 46 -1 10
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -714,7 +745,7 @@ EndChar
 
 StartChar: eyebrow_2
 Encoding: 13 -1 11
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -772,7 +803,7 @@ EndChar
 
 StartChar: mouth_smiling1b
 Encoding: 48 -1 13
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -872,7 +903,7 @@ EndChar
 
 StartChar: mouth_flat2
 Encoding: 49 -1 15
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -895,7 +926,7 @@ EndChar
 
 StartChar: eyebrow_loudlycrying
 Encoding: 14 -1 16
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -940,7 +971,7 @@ EndChar
 
 StartChar: eye_loudlycrying
 Encoding: 31 -1 17
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -1604,7 +1635,7 @@ EndChar
 
 StartChar: eye_squinting
 Encoding: 32 -1 34
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -1686,7 +1717,7 @@ EndChar
 
 StartChar: mouth_grinning
 Encoding: 52 -1 35
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -2137,7 +2168,7 @@ EndChar
 
 StartChar: teeth_grinning
 Encoding: 72 -1 46
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -2166,7 +2197,7 @@ EndChar
 
 StartChar: waterdrop
 Encoding: 3 -1 47
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -2195,7 +2226,7 @@ EndChar
 
 StartChar: eye_big
 Encoding: 33 -1 48
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -2464,7 +2495,7 @@ EndChar
 
 StartChar: eyebrow_joy
 Encoding: 15 -1 53
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -3171,7 +3202,7 @@ EndChar
 
 StartChar: mouth_smiling3
 Encoding: 53 -1 65
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -3239,7 +3270,7 @@ EndChar
 
 StartChar: smile_1c
 Encoding: 73 -1 66
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -3280,7 +3311,7 @@ EndChar
 
 StartChar: mouth_kissing
 Encoding: 54 -1 67
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -3395,7 +3426,7 @@ EndChar
 
 StartChar: eyebrow_5
 Encoding: 16 -1 68
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -4017,7 +4048,7 @@ EndChar
 
 StartChar: eye_smiling2
 Encoding: 34 -1 78
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -4082,7 +4113,7 @@ EndChar
 
 StartChar: mouth_tongue
 Encoding: 56 -1 79
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -4110,7 +4141,7 @@ EndChar
 
 StartChar: eyebrow_peeking
 Encoding: 17 -1 80
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -4160,7 +4191,7 @@ EndChar
 
 StartChar: eyebrow_angry
 Encoding: 18 -1 81
-Width: 0
+Width: 912
 GlyphClass: 5
 Flags: MW
 LayerCount: 2
@@ -4338,8 +4369,8 @@ Colour: ffff
 EndChar
 
 StartChar: dollarsignchar
-Encoding: 5 -1 86
-Width: 0
+Encoding: 7 -1 86
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -4418,8 +4449,8 @@ Colour: ff00ff
 EndChar
 
 StartChar: starshape
-Encoding: 6 -1 87
-Width: 0
+Encoding: 8 -1 87
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -5278,7 +5309,7 @@ EndChar
 
 StartChar: eye_expressionless
 Encoding: 35 -1 101
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -5310,7 +5341,7 @@ EndChar
 
 StartChar: mouth_flat16
 Encoding: 57 -1 102
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -5342,7 +5373,7 @@ EndChar
 
 StartChar: dottedlinepart
 Encoding: 93 -1 103
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -5366,7 +5397,7 @@ EndChar
 
 StartChar: mouth_confused
 Encoding: 58 -1 104
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -5521,7 +5552,7 @@ EndChar
 
 StartChar: eye_unamused
 Encoding: 36 -1 107
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -5566,7 +5597,7 @@ EndChar
 
 StartChar: mouth_smirking
 Encoding: 60 -1 108
-Width: 0
+Width: 912
 VWidth: 0
 Flags: MW
 LayerCount: 2
@@ -5630,7 +5661,7 @@ EndChar
 
 StartChar: eyebrow_smirking
 Encoding: 20 -1 109
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -5773,7 +5804,7 @@ EndChar
 
 StartChar: eyebrow_unamused
 Encoding: 21 -1 113
-Width: 0
+Width: 912
 VWidth: 0
 Flags: MW
 LayerCount: 2
@@ -5840,7 +5871,7 @@ EndChar
 
 StartChar: eye_mask
 Encoding: 37 -1 114
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -6896,7 +6927,7 @@ EndChar
 
 StartChar: zzz_shadow
 Encoding: 82 -1 147
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -6961,7 +6992,7 @@ EndChar
 
 StartChar: zzz_letter
 Encoding: 83 -1 148
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -7123,7 +7154,7 @@ EndChar
 
 StartChar: eyebrow_saluting
 Encoding: 22 -1 153
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -7773,7 +7804,7 @@ EndChar
 
 StartChar: eyebrow_3b
 Encoding: 23 -1 163
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -7826,7 +7857,7 @@ EndChar
 
 StartChar: eyebrow_3
 Encoding: 24 -1 164
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -8291,7 +8322,7 @@ EndChar
 
 StartChar: unused12
 Encoding: 4 -1 174
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Fore
@@ -8492,7 +8523,7 @@ EndChar
 
 StartChar: cheek_nauseated
 Encoding: 84 -1 180
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -8564,7 +8595,7 @@ EndChar
 
 StartChar: eye_nauseated
 Encoding: 38 -1 181
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -10521,7 +10552,7 @@ EndChar
 
 StartChar: eye_x
 Encoding: 39 -1 213
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -10667,7 +10698,7 @@ EndChar
 
 StartChar: eye_spiral
 Encoding: 40 -1 215
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Fore
@@ -11008,7 +11039,7 @@ EndChar
 
 StartChar: eyebrow_10
 Encoding: 25 -1 222
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -12172,7 +12203,7 @@ EndChar
 
 StartChar: tears_1
 Encoding: 87 -1 245
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -12848,11 +12879,8 @@ StartChar: SmilingFace
 Encoding: 394 9786 267
 AltUni2: 00263a.00fe0f.0
 Width: 912
-Flags: MWO
+Flags: MW
 LayerCount: 2
-Fore
-Refer: 38 -1 N 1 0 0 1 0 0 2
-Refer: 39 -1 N 1 0 0 1 0 0 2
 Colour: 80a696
 EndChar
 
@@ -13461,7 +13489,7 @@ EndChar
 
 StartChar: eyebrow_11
 Encoding: 26 -1 289
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -14196,7 +14224,7 @@ EndChar
 
 StartChar: steam2
 Encoding: 88 -1 375
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -14238,7 +14266,7 @@ EndChar
 
 StartChar: steam1
 Encoding: 89 -1 376
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -14324,7 +14352,7 @@ EndChar
 
 StartChar: eyebrow_steam
 Encoding: 27 -1 378
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -15322,7 +15350,7 @@ EndChar
 
 StartChar: skull_wip
 Encoding: 90 -1 390
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -15404,7 +15432,7 @@ EndChar
 
 StartChar: skull2_wip
 Encoding: 91 -1 391
-Width: 0
+Width: 912
 Flags: MW
 LayerCount: 2
 Back
@@ -15800,10 +15828,10 @@ LayerCount: 2
 Colour: 80a696
 EndChar
 
-StartChar: zerojoin
-Encoding: 521 8205 417
-Width: 0
-Flags: MW
+StartChar: .notdef
+Encoding: -1 -1 417
+Width: 768
+Flags: M
 LayerCount: 2
 Colour: 80a696
 EndChar
@@ -19479,10 +19507,9 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: varsel16
-Encoding: 520 65039 471
-Width: 0
-Flags: W
+StartChar: .notdef
+Encoding: -1 -1 471
+Width: 768
 LayerCount: 2
 Colour: 80a696
 EndChar
@@ -20855,7 +20882,7 @@ EndChar
 
 StartChar: hand1
 Encoding: 77 -1 499
-Width: 0
+Width: 912
 VWidth: 3600
 Flags: W
 LayerCount: 2
@@ -21588,5 +21615,6 @@ Width: 0
 Flags: W
 LayerCount: 2
 EndChar
+
 EndChars
 EndSplineFont

@@ -11,6 +11,7 @@
 			<map code="0xe010" name="NoddingFace"/>
 			<map code="0xfe0f" name="varsel16"/> <!-- reqd for ios maybe -->
 			<map code="0x1f32b" name="FOG"/>
+			
 			<map code="0x1f38e" name="JapaneseDolls"/>
 			<map code="0x1f47f" name="AngryFaceWithHorns"/>
 			<map code="0x1f499" name="BlueHeart"/>
@@ -128,8 +129,8 @@
 			<map code="0x1fae8" name="ShakingFace"/>
 		</cmap_format_12>
 		<cmap_format_14 platformID="0" platEncID="5">
-			<map uv="0x2639" uvs="0xfe0f" name="FrowningFace"/>
 			<map uv="0x263a" uvs="0xfe0f" name="SmilingFace"/>
+			<map uv="0x2639" uvs="0xfe0f" name="FrowningFace"/>
 			<map uv="0x2764" uvs="0xfe0f" name="RedHeart"/>
 			<map uv="0x1f32b" uvs="0xfe0f"/>
 		</cmap_format_14>
