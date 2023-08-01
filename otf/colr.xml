@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.34">
 	<cmap src="cmap.ttx"/>
-	<hmtx src="hmtx.ttx"/>
+<!--	<hmtx src="hmtx.ttx"/>-->
 	
 <!--	<GDEF>
 		<Version value="0x00010000"/>	
 	</GDEF>-->
-	<GPOS>
+<!--	<GPOS>
 		<Version value="0x00010000"/>
-	</GPOS>
+	</GPOS>-->
 	
-	<head>
-		<!-- Most of this table will be recalculated by the compiler -->
+<!--	<head>
 		<tableVersion value="1.0"/>
 		<fontRevision value="1.0"/>
 		<checkSumAdjustment value="0xbfa5da91"/>
@@ -50,6 +49,7 @@
 		<metricDataFormat value="0"/>
 		<numberOfHMetrics value="0"/>
 	</hhea>
+	-->
 	
 	<COLR>
 		<version value="0"/>
