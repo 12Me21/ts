@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.34">
-	<cmap src="cmap.ttx"/>
+	<!--<cmap src="cmap.ttx"/>-->
 	
 	<COLR>
 		<version value="0"/>
@@ -96,9 +96,9 @@
 		</ColorGlyph>
 		<ColorGlyph name="FaceBlowingAKiss">
 			<layer colorID="0" name="head36.0"/>
-			<layer colorID="1" name="FaceBlowingKiss.1"/>
-			<layer colorID="10" name="FaceBlowingKiss.2"/>
-			<layer colorID="5" name="FaceBlowingKiss.3"/>
+			<layer colorID="1" name="FaceBlowingAKiss.1"/>
+			<layer colorID="10" name="FaceBlowingAKiss.2"/>
+			<layer colorID="5" name="FaceBlowingAKiss.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="KissingFace">
 			<layer colorID="0" name="head36.0"/>
@@ -177,9 +177,9 @@
 			<layer colorID="1" name="FaceWithHandOverMouth.1"/>
 			<layer colorID="13" name="FaceWithHandOverMouth.2"/>
 		</ColorGlyph>
-		<ColorGlyph name="FaceWithOpenEyesAndHand">
+		<ColorGlyph name="FaceWithOpenEyesAndHandOverMouth">
 			<layer colorID="0" name="FaceWithHandOverMouth.0"/>
-			<layer colorID="1" name="FaceWithOpenEyesAndHand.1"/>
+			<layer colorID="1" name="FaceWithOpenEyesAndHandOverMouth.1"/>
 			<layer colorID="13" name="FaceWithHandOverMouth.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithPeekingEye">
@@ -637,13 +637,14 @@
 			<layer colorID="3" name="heart_outlinebg.0"/>
 			<layer colorID="34" name="heart_colored.0"/>
 		</ColorGlyph>
-		<ColorGlyph name="GrayHeart">
+		<ColorGlyph name="GreyHeart">
 			<layer colorID="14" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="WhiteHeart">
 			<layer colorID="4" name="heart_outlinebg.0"/>
 			<layer colorID="23" name="heart_colored.0"/>
 		</ColorGlyph>
+		
 		<ColorGlyph name="JapaneseDolls">
 			<layer colorID="6" name="JapaneseDolls.1"/>
 			<layer colorID="46" name="JapaneseDolls.2"/>
@@ -661,20 +662,20 @@
 			<layer colorID="0" name="JapaneseDolls.14"/>
 		</ColorGlyph>
 		<!-- extra (needed for ligature emojis) -->
-		<ColorGlyph name="FOG">
-			<layer colorID="3" name="FOG.1"/>
-			<layer colorID="23" name="FOG.2"/>
-			<layer colorID="17" name="FOG.3"/>
-			<layer colorID="23" name="FOG.4"/>
-			<layer colorID="3" name="FOG.5"/>
-			<layer colorID="17" name="FOG.6"/>
+		<ColorGlyph name="Fog">
+			<layer colorID="3" name="Fog.1"/>
+			<layer colorID="23" name="Fog.2"/>
+			<layer colorID="17" name="Fog.3"/>
+			<layer colorID="23" name="Fog.4"/>
+			<layer colorID="3" name="Fog.5"/>
+			<layer colorID="17" name="Fog.6"/>
 		</ColorGlyph>
-		<ColorGlyph name="DIZZY_SYMBOL">
-			<layer colorID="35" name="DIZZY_SYMBOL.0"/>
-			<layer colorID="9" name="DIZZY_SYMBOL.1"/>
+		<ColorGlyph name="Dizzy">
+			<layer colorID="35" name="Dizzy.0"/>
+			<layer colorID="9" name="Dizzy.1"/>
 		</ColorGlyph>
-		<ColorGlyph name="DASH_SYMBOL">
-			<layer colorID="28" name="DASH_SYMBOL.0"/>
+		<ColorGlyph name="DashingAway">
+			<layer colorID="28" name="DashingAway.0"/>
 		</ColorGlyph>
 		<!-- new -->
 		<ColorGlyph name="NoddingFace">
@@ -754,4 +755,3 @@
 		<maxMemType1 value="0"/>
 	</post>
 </ttFont>
-
