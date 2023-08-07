@@ -57,7 +57,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 432 18 8
+WinInfo: 0 18 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -101,14 +101,14 @@ EndSplineSet
 EndChar
 
 StartChar: zerojoin
-Encoding: 1 -1 1
+Encoding: 1 8205 1
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: varsel16
-Encoding: 2 -1 2
+Encoding: 2 65039 2
 Width: 0
 Flags: W
 LayerCount: 2

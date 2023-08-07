@@ -661,9 +661,17 @@
 		<ColorGlyph name="BrokenHeart">
 			<layer colorID="5" name="BrokenHeart.0"/>
 		</ColorGlyph>
-		<ColorGlyph name="Fire">
-			<layer colorID="13" name="Fire.0"/>
-			<layer colorID="0" name="Fire.1"/>
+		<ColorGlyph name="HeartOnFire">
+			<layer colorID="13" name="HeartOnFire.0"/>
+			<layer colorID="0" name="HeartOnFire.1"/>
+			<layer colorID="5" name="HeartOnFire.2"/>
+			<layer colorID="0" name="HeartOnFire.3"/>
+		</ColorGlyph>
+		<ColorGlyph name="MendingHeart">
+			<layer colorID="5" name="heart_colored.0"/>
+			<layer colorID="23" name="MendingHeart.1"/> <!-- changed to new grays like facewithheadbandage -->
+			<layer colorID="17" name="MendingHeart.2"/>
+			<layer colorID="24" name="MendingHeart.3"/>
 		</ColorGlyph>
 		<!-- colored hearts -->
 		<ColorGlyph name="RedHeart">
@@ -737,6 +745,16 @@
 		<ColorGlyph name="DashingAway">
 			<layer colorID="28" name="DashingAway.0"/>
 		</ColorGlyph>
+		<ColorGlyph name="Fire">
+			<layer colorID="13" name="Fire.0"/>
+			<layer colorID="0" name="Fire.1"/>
+		</ColorGlyph>
+		<ColorGlyph name="AdhesiveBandage">
+			<layer colorID="49" name="AdhesiveBandage.0"/>
+			<layer colorID="33" name="AdhesiveBandage.1"/>
+			<layer colorID="50" name="AdhesiveBandage.2"/>
+			<layer colorID="51" name="AdhesiveBandage.3"/>
+		</ColorGlyph>
 		<!-- new -->
 		<ColorGlyph name="NoddingFace">
 			<!-- todo: maybe try making the lines fainter at one end -->
@@ -748,7 +766,7 @@
 		
 	<CPAL>
 		<version value="0"/>
-		<numPaletteEntries value="49"/>
+		<numPaletteEntries value="52"/>
 		<palette index="0">
 			<color index="0" value="#FFCC4Dff"/> <!-- yellow #ffcc4d --> 
 			<color index="1" value="#664500ff"/> <!-- line color -->
@@ -800,6 +818,10 @@
 			<color index="46" value="#F26522ff"/> <!-- ... -->
 			<color index="47" value="#FFB699ff"/> <!-- ... -->
 			<color index="48" value="#A0041Eff"/> <!-- Dark Red -->
+			
+			<color index="49" value="#D99E82ff"/> <!-- lighter brown -->
+			<color index="50" value="#EABAA7ff"/> <!-- adhesive bandage -->
+			<color index="51" value="#F7DED5ff"/> <!-- adhesive bandage -->
 		</palette>
 	</CPAL>
 	
