@@ -662,7 +662,7 @@
 			<layer colorID="5" name="BrokenHeart.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="Fire">
-			<layer colorID="9" name="Fire.0"/>
+			<layer colorID="13" name="Fire.0"/>
 			<layer colorID="0" name="Fire.1"/>
 		</ColorGlyph>
 		<!-- colored hearts -->
