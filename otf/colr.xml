@@ -620,19 +620,19 @@
 		</ColorGlyph>
 		<ColorGlyph name="HeartWithArrow">
 			<layer colorID="9" name="HeartWithArrow.0"/>
-			<layer colorID="5" name="HeartWithArrow.1"/>
+			<layer colorID="11" name="HeartWithArrow.1"/>
 			<layer colorID="0" name="HeartWithArrow.2"/>
 			<layer colorID="9" name="HeartWithArrow.3"/>
 			<layer colorID="48" name="HeartWithArrow.4"/>
 		</ColorGlyph>
 		<ColorGlyph name="HeartWithRibbon">
-			<layer colorID="5" name="heart_colored.0"/>
+			<layer colorID="11" name="heart_colored.0"/>
 			<layer colorID="35" name="HeartWithRibbon.1"/>
 			<layer colorID="0" name="HeartWithRibbon.2"/>
 			<layer colorID="35" name="HeartWithRibbon.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="SparklingHeart">
-			<layer colorID="5" name="heart_colored.0"/>
+			<layer colorID="11" name="heart_colored.0"/>
 			<layer colorID="0" name="SparklingHeart.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="GrowingHeart">
@@ -641,22 +641,29 @@
 			<layer colorID="5" name="GrowingHeart.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="BeatingHeart">
-			<layer colorID="5" name="BeatingHeart.0"/>
+			<layer colorID="11" name="BeatingHeart.0"/>
 			<layer colorID="0" name="BeatingHeart.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="RevolvingHearts">
 			<layer colorID="27" name="RevolvingHearts.0"/>
-			<layer colorID="5" name="TwoHearts.0"/>
+			<layer colorID="11" name="TwoHearts.0"/>
 		</ColorGlyph> <!-- optimize COLR table -->
 		<ColorGlyph name="TwoHearts">
-			<layer colorID="5" name="TwoHearts.0"/>
+			<layer colorID="11" name="TwoHearts.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="HeartDecoration">
-			<layer colorID="5" name="tile.0"/>
+			<layer colorID="29" name="tile.0"/>
 			<layer colorID="3" name="HeartDecoration.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="HeartExclamation">
 			<layer colorID="5" name="HeartExclamation.0"/>
+		</ColorGlyph>
+		<ColorGlyph name="BrokenHeart">
+			<layer colorID="5" name="BrokenHeart.0"/>
+		</ColorGlyph>
+		<ColorGlyph name="Fire">
+			<layer colorID="9" name="Fire.0"/>
+			<layer colorID="0" name="Fire.1"/>
 		</ColorGlyph>
 		<!-- colored hearts -->
 		<ColorGlyph name="RedHeart">

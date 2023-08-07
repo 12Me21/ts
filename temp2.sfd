@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1688857346
-ModificationTime: 1691439292
+ModificationTime: 1691439545
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -46,7 +46,7 @@ HheadDescent: -108
 HheadDOffset: 0
 OS2FamilyClass: 3072
 OS2Vendor: '12;;'
-Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 0" { "'ccmp' Glyph Composition/Decomposition lookup 0-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' emojis" { "'ccmp' emojis 1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -21274,7 +21274,7 @@ Width: 912
 Flags: MW
 LayerCount: 2
 LCarets2: 2 0 0
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" FaceWithOpenMouth zerojoin DashingAway
+Ligature2: "'ccmp' emojis 1" FaceWithOpenMouth zerojoin DashingAway
 Colour: 80a696
 EndChar
 
@@ -21283,7 +21283,7 @@ Encoding: 501 -1 501
 Width: 912
 Flags: MW
 LayerCount: 2
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" FaceWithCrossedOutEyes zerojoin Dizzy
+Ligature2: "'ccmp' emojis 1" FaceWithCrossedOutEyes zerojoin Dizzy
 Colour: 80a696
 EndChar
 
@@ -21292,7 +21292,7 @@ Encoding: 502 -1 502
 Width: 912
 Flags: MW
 LayerCount: 2
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" FaceWithoutMouth zerojoin Fog
+Ligature2: "'ccmp' emojis 1" FaceWithoutMouth zerojoin Fog
 LCarets2: 2 0 0
 Colour: 80a696
 EndChar
@@ -23486,7 +23486,7 @@ Width: 912
 VWidth: 0
 Flags: W
 LayerCount: 2
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" RedHeart zerojoin Fire
+Ligature2: "'ccmp' emojis 1" RedHeart zerojoin Fire
 EndChar
 
 StartChar: MendingHeart
@@ -23495,7 +23495,7 @@ Width: 912
 VWidth: 0
 Flags: W
 LayerCount: 2
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" RedHeart zerojoin AdhesiveBandage
+Ligature2: "'ccmp' emojis 1" RedHeart zerojoin AdhesiveBandage
 EndChar
 
 StartChar: glyph561
