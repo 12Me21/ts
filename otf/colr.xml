@@ -727,11 +727,13 @@
 			<layer colorID="6" name="SweatDroplets.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="Hole">
-			<layer colorID="34" name="Hole.0"/>
-			<layer colorID="14" name="Hole.1"/> <!-- changed from #7D8B93 to #66757F -->
-			<layer colorID="17" name="Hole.2"/> <!-- changed from ccwhatever to #aawhatever -->
+			<layer colorID="14" name="Hole.0"/>
+			<layer colorID="4" name="Hole.1"/>
+			<layer colorID="14" name="Hole.2"/> <!-- changed from #7D8B93 to #66757F -->
+			<layer colorID="17" name="Hole.3"/> <!-- changed from ccwhatever to #aawhatever -->
 		</ColorGlyph>
 		<ColorGlyph name="Bomb">
+			<layer colorID="17" name="Bomb.9"/> <!-- outline for dark bg -->
 			<layer colorID="17" name="Bomb.0"/>
 			<layer colorID="34" name="Bomb.1"/>
 			<layer colorID="13" name="Bomb.2"/>
@@ -742,9 +744,9 @@
 			<layer colorID="16" name="SpeechBalloon.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="EyeInSpeechBubble">
-			<layer colorID="34" name="EyeInSpeechBubble.0"/>
+			<layer colorID="8" name="EyeInSpeechBubble.0"/> <!-- !! changed from black to dark blue -->
 			<layer colorID="3" name="EyeInSpeechBubble.1"/> <!-- changed from #FFF -->
-			<layer colorID="34" name="EyeInSpeechBubble.2"/>
+			<layer colorID="8" name="EyeInSpeechBubble.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="LeftSpeechBubble">
 			<layer colorID="15" name="LeftSpeechBubble.0"/>
