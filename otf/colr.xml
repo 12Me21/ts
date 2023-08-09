@@ -712,7 +712,55 @@
 			<layer colorID="4" name="heart_outlinebg.0"/>
 			<layer colorID="23" name="heart_colored.0"/>
 		</ColorGlyph>
+		<!-- todo <ColorGlyph name="HundredPoints">
+			<layer colorID="32" name="HundredPoints.0"/>
+		</ColorGlyph>-->
+		<ColorGlyph name="AngerSymbol">
+			<layer colorID="32" name="AngerSymbol.0"/>
+		</ColorGlyph>
+		<ColorGlyph name="Collision">
+			<layer colorID="32" name="Collision.0"/>
+			<layer colorID="9" name="Collision.1"/>
+			<layer colorID="3" name="Collision.2"/>
+		</ColorGlyph>
+		<ColorGlyph name="SweatDroplets">
+			<layer colorID="6" name="SweatDroplets.0"/>
+		</ColorGlyph>
+		<ColorGlyph name="Hole">
+			<layer colorID="34" name="Hole.0"/>
+			<layer colorID="14" name="Hole.1"/> <!-- changed from #7D8B93 to #66757F -->
+			<layer colorID="17" name="Hole.2"/> <!-- changed from ccwhatever to #aawhatever -->
+		</ColorGlyph>
+		<ColorGlyph name="Bomb">
+			<layer colorID="17" name="Bomb.0"/>
+			<layer colorID="34" name="Bomb.1"/>
+			<layer colorID="13" name="Bomb.2"/>
+			<layer colorID="0" name="Bomb.3"/>
+		</ColorGlyph>
+		<ColorGlyph name="SpeechBalloon">
+			<layer colorID="28" name="SpeechBalloon.0"/>
+			<layer colorID="16" name="SpeechBalloon.1"/>
+		</ColorGlyph>
+		<ColorGlyph name="EyeInSpeechBubble">
+			<layer colorID="34" name="EyeInSpeechBubble.0"/>
+			<layer colorID="3" name="EyeInSpeechBubble.1"/> <!-- changed from #FFF -->
+			<layer colorID="34" name="EyeInSpeechBubble.2"/>
+		</ColorGlyph>
+		<ColorGlyph name="LeftSpeechBubble">
+			<layer colorID="15" name="LeftSpeechBubble.0"/>
+		</ColorGlyph>
+		<ColorGlyph name="RightAngerBubble">
+			<layer colorID="22" name="RightAngerBubble.0"/>
+			<layer colorID="23" name="RightAngerBubble.1"/>
+		</ColorGlyph>
+		<ColorGlyph name="ThoughtBalloon">
+			<layer colorID="28" name="ThoughtBalloon.0"/>
+		</ColorGlyph>
+		<ColorGlyph name="Zzz">
+			<layer colorID="8" name="Zzz.0"/>
+		</ColorGlyph>
 		
+		<!-- dolls -->
 		<ColorGlyph name="JapaneseDolls">
 			<layer colorID="6" name="JapaneseDolls.1"/>
 			<layer colorID="46" name="JapaneseDolls.2"/>
@@ -754,6 +802,14 @@
 			<layer colorID="33" name="AdhesiveBandage.1"/>
 			<layer colorID="50" name="AdhesiveBandage.2"/>
 			<layer colorID="51" name="AdhesiveBandage.3"/>
+		</ColorGlyph>
+		<ColorGlyph name="Eye">
+			<layer colorID="24" name="Eye.0"/> <!-- changed from #E1E8ED to #CCD6DD to #aawhatrver -->
+			<layer colorID="4" name="Eye.1"/>
+			<layer colorID="3" name="Eye.2"/>
+			<layer colorID="33" name="Eye.3"/> <!-- changed from #8B5E3C to #825D0E (silly) to brown -->
+			<layer colorID="34" name="Eye.4"/>
+			<layer colorID="2" name="Eye.5"/> <!-- changed from f5f8fa to #fff -->
 		</ColorGlyph>
 		<!-- new -->
 		<ColorGlyph name="NoddingFace">
