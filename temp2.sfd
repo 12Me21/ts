@@ -5,7 +5,7 @@ FamilyName: twemoji_faces
 Weight: Regular
 Copyright: dragon dick cock
 UComments: "2023-7-8: Created with FontForge (http://fontforge.org)"
-Version: 001.000
+Version: 1.112
 DefaultBaseFilename: test2
 ItalicAngle: 0
 UnderlinePosition: -108
@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1688857346
-ModificationTime: 1691624779
+ModificationTime: 1691661906
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -50,7 +50,6 @@ Lookup: 4 0 0 "'ccmp' emojis" { "'ccmp' emojis 1"  } ['ccmp' ('DFLT' <'dflt' > )
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
-LangName: 1033
 GaspTable: 1 65535 2 0
 Encoding: Custom
 UnicodeInterp: none
@@ -58,7 +57,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 8 2
+WinInfo: 486 18 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -83,12 +82,12 @@ Grid
   Named: "top"
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 233017 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 609 609
+BeginChars: 619 618
 
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -104,14 +103,14 @@ EndChar
 StartChar: zerojoin
 Encoding: 1 8205 1
 Width: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: varsel16
 Encoding: 2 65039 2
 Width: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
@@ -4295,7 +4294,7 @@ EndChar
 StartChar: doll_eye
 Encoding: 85 -1 85
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 Refer: 365 -1 S 1 0 0 1 24 0 0
@@ -4318,7 +4317,7 @@ StartChar: hand1
 Encoding: 86 -1 86
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -4405,7 +4404,7 @@ EndChar
 StartChar: hand2
 Encoding: 87 -1 87
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -4793,7 +4792,7 @@ EndChar
 StartChar: eyes_12
 Encoding: 90 -1 90
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 67 -1 N 1 0 0 1 -144 -84 0
@@ -4959,7 +4958,7 @@ EndChar
 StartChar: heart_outlinebg.0
 Encoding: 98 -1 98
 Width: 912
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 8 -1 N 1.28 0 0 1.30242 456 -122 0
@@ -5090,7 +5089,7 @@ EndChar
 StartChar: glasses.0
 Encoding: 102 -1 102
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -5338,7 +5337,7 @@ EndChar
 StartChar: bg_horns.0
 Encoding: 103 -1 103
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 77 -1 N -1 0 0 1 912 0 0
@@ -14830,7 +14829,7 @@ EndChar
 StartChar: DisguisedFace.1
 Encoding: 278 -1 278
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 4 -1 N 0.131 0 0 0.194 613 383 0
@@ -14841,7 +14840,7 @@ EndChar
 StartChar: DisguisedFace.2
 Encoding: 279 -1 279
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -15044,7 +15043,7 @@ EndChar
 StartChar: DisguisedFace.3
 Encoding: 280 -1 280
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -15071,7 +15070,7 @@ EndChar
 StartChar: DisguisedFace.4
 Encoding: 281 -1 281
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -15098,7 +15097,7 @@ EndChar
 StartChar: DisguisedFace.5
 Encoding: 282 -1 282
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -15119,7 +15118,7 @@ EndChar
 StartChar: SmilingFaceWithSunglasses.1
 Encoding: 283 -1 283
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -15163,7 +15162,7 @@ EndChar
 StartChar: SmilingFaceWithSunglasses.2
 Encoding: 284 -1 284
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -15244,7 +15243,7 @@ EndChar
 StartChar: NerdFace.1
 Encoding: 285 -1 285
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 324 -1 N 1 0 0 1 0 -50 0
@@ -15256,7 +15255,7 @@ EndChar
 StartChar: NerdFace.2
 Encoding: 286 -1 286
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -19382,7 +19381,7 @@ EndChar
 StartChar: JapaneseDolls.1
 Encoding: 363 -1 363
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -19406,7 +19405,7 @@ EndChar
 StartChar: JapaneseDolls.2
 Encoding: 364 -1 364
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 363 -1 N 1 0 0 1 432 0 0
@@ -19416,7 +19415,7 @@ EndChar
 StartChar: JapaneseDolls.3
 Encoding: 365 -1 365
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -19621,7 +19620,7 @@ EndChar
 StartChar: JapaneseDolls.4
 Encoding: 366 -1 366
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 365 -1 N 1 0 0 1 432 0 0
@@ -19631,7 +19630,7 @@ EndChar
 StartChar: JapaneseDolls.5
 Encoding: 367 -1 367
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 Refer: 365 -1 N 1 0 0 1 24 0 0
@@ -19644,7 +19643,7 @@ EndChar
 StartChar: JapaneseDolls.6
 Encoding: 368 -1 368
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 4 -1 N 0.0625 0 0 0.0625 792 0 0
@@ -19655,7 +19654,7 @@ EndChar
 StartChar: JapaneseDolls.7
 Encoding: 369 -1 369
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 Refer: 365 -1 S 1 0 0 1 24 0 0
@@ -19690,7 +19689,7 @@ EndChar
 StartChar: JapaneseDolls.8
 Encoding: 370 -1 370
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 Refer: 365 -1 S 1 0 0 1 24 0 0
@@ -19723,7 +19722,7 @@ EndChar
 StartChar: JapaneseDolls.9
 Encoding: 371 -1 371
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 Refer: 365 -1 S 1 0 0 1 24 0 0
@@ -19736,7 +19735,7 @@ EndChar
 StartChar: JapaneseDolls.10
 Encoding: 372 -1 372
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 Refer: 365 -1 S 1 0 0 1 24 0 0
@@ -19751,7 +19750,7 @@ EndChar
 StartChar: JapaneseDolls.11
 Encoding: 373 -1 373
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -19771,7 +19770,7 @@ EndChar
 StartChar: JapaneseDolls.12
 Encoding: 374 -1 374
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -19789,7 +19788,7 @@ EndChar
 StartChar: JapaneseDolls.13
 Encoding: 375 -1 375
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -19873,7 +19872,7 @@ EndChar
 StartChar: JapaneseDolls.14
 Encoding: 376 -1 376
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -20344,7 +20343,7 @@ EndChar
 StartChar: JapaneseDolls
 Encoding: 384 127886 384
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Colour: 80a696
 EndChar
@@ -21301,7 +21300,7 @@ EndChar
 StartChar: Skull
 Encoding: 503 128128 503
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
@@ -21309,7 +21308,7 @@ StartChar: kiss
 Encoding: 504 -1 504
 Width: 912
 VWidth: 864
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -21394,7 +21393,7 @@ StartChar: KissMark.0
 Encoding: 505 -1 505
 Width: 912
 VWidth: 864
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -21432,7 +21431,7 @@ StartChar: LoveLetter.0
 Encoding: 506 -1 506
 Width: 912
 VWidth: 864
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -21511,7 +21510,7 @@ StartChar: LoveLetter.1
 Encoding: 507 -1 507
 Width: 912
 VWidth: 864
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 Refer: 506 -1 N 1 0 0 1 0 0 0
@@ -21533,7 +21532,7 @@ StartChar: LoveLetter.2
 Encoding: 508 -1 508
 Width: 912
 VWidth: 864
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 Refer: 507 -1 N 1 0 0 1 0 0 0
@@ -21566,7 +21565,7 @@ EndChar
 StartChar: LoveLetter.3
 Encoding: 509 -1 509
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 Refer: 508 -1 N 1 0 0 1 0 0 0
@@ -21577,7 +21576,7 @@ EndChar
 StartChar: HeartWithArrow.0
 Encoding: 510 -1 510
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -21651,7 +21650,7 @@ EndChar
 StartChar: HeartWithArrow.2
 Encoding: 511 -1 511
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -21701,7 +21700,7 @@ EndChar
 StartChar: HeartWithArrow.1
 Encoding: 512 -1 512
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 Refer: 510 -1 S 1 0 0 1 0 0 0
@@ -21712,7 +21711,7 @@ EndChar
 StartChar: HeartWithArrow.4
 Encoding: 513 -1 513
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -21753,7 +21752,7 @@ EndChar
 StartChar: HeartWithArrow.3
 Encoding: 514 -1 514
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -21798,7 +21797,7 @@ EndChar
 StartChar: unused10
 Encoding: 515 -1 515
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -21832,7 +21831,7 @@ EndChar
 StartChar: HeartWithRibbon.1
 Encoding: 516 -1 516
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -21851,7 +21850,7 @@ StartChar: HeartWithRibbon.2
 Encoding: 517 -1 517
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -21917,7 +21916,7 @@ StartChar: HeartWithRibbon.3
 Encoding: 518 -1 518
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 4 -1 N 0.25 0 0 0.25 240 312 0
@@ -21927,7 +21926,7 @@ StartChar: SparklingHeart.1
 Encoding: 519 -1 519
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -22022,7 +22021,7 @@ EndChar
 StartChar: GrowingHeart.1
 Encoding: 520 -1 520
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -22066,7 +22065,7 @@ EndChar
 StartChar: GrowingHeart.2
 Encoding: 521 -1 521
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 8 -1 N 0.633931 0 0 0.633931 456 90 0
@@ -22076,7 +22075,7 @@ StartChar: heartbeat
 Encoding: 522 -1 522
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -22173,7 +22172,7 @@ StartChar: BeatingHeart.1
 Encoding: 523 -1 523
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -22207,7 +22206,7 @@ StartChar: BeatingHeart.0
 Encoding: 524 -1 524
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 512 -1 S 1 0 0 1 -7 -31 0
@@ -22217,7 +22216,7 @@ StartChar: RevolvingHearts.0
 Encoding: 525 -1 525
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -22273,7 +22272,7 @@ EndChar
 StartChar: TwoHearts.0
 Encoding: 526 -1 526
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -22310,7 +22309,7 @@ StartChar: tile.0
 Encoding: 527 -1 527
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -22374,7 +22373,7 @@ EndChar
 StartChar: HeartDecoration.1
 Encoding: 528 -1 528
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -22396,7 +22395,7 @@ StartChar: strange_heart
 Encoding: 529 -1 529
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -22438,7 +22437,7 @@ StartChar: HeartExclamation.0
 Encoding: 530 -1 530
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 582 -1 N 1 0 0 1 0 -360 0
@@ -22448,70 +22447,70 @@ EndChar
 StartChar: KissMark
 Encoding: 531 128139 531
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: LoveLetter
 Encoding: 532 128140 532
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: HeartWithArrow
 Encoding: 533 128152 533
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: HeartWithRibbon
 Encoding: 534 128157 534
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: SparklingHeart
 Encoding: 535 128150 535
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: GrowingHeart
 Encoding: 536 128151 536
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: BeatingHeart
 Encoding: 537 128147 537
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: RevolvingHearts
 Encoding: 538 128158 538
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: TwoHearts
 Encoding: 539 128149 539
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: HeartDecoration
 Encoding: 540 128159 540
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
@@ -22519,14 +22518,14 @@ StartChar: HeartExclamation
 Encoding: 541 10083 541
 AltUni2: 002763.00fe0f.0
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: BrokenHeart.0
 Encoding: 542 -1 542
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -22598,7 +22597,7 @@ EndChar
 StartChar: HeartOnFire.0
 Encoding: 543 -1 543
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -22737,7 +22736,7 @@ EndChar
 StartChar: HeartOnFire.1
 Encoding: 544 -1 544
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -22870,7 +22869,7 @@ EndChar
 StartChar: HeartOnFire.2
 Encoding: 545 -1 545
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -22891,7 +22890,7 @@ EndChar
 StartChar: HeartOnFire.3
 Encoding: 546 -1 546
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -22944,14 +22943,14 @@ EndChar
 StartChar: BrokenHeart
 Encoding: 547 128148 547
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: MendingHeart.1
 Encoding: 548 -1 548
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -23025,7 +23024,7 @@ EndChar
 StartChar: MendingHeart.2
 Encoding: 549 -1 549
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -23058,7 +23057,7 @@ EndChar
 StartChar: MendingHeart.3
 Encoding: 550 -1 550
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -23098,7 +23097,7 @@ EndChar
 StartChar: Fire.0
 Encoding: 551 -1 551
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -23136,7 +23135,7 @@ StartChar: Fire.1
 Encoding: 552 -1 552
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -23215,7 +23214,7 @@ StartChar: AdhesiveBandage.0
 Encoding: 553 -1 553
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -23328,7 +23327,7 @@ StartChar: AdhesiveBandage.2
 Encoding: 554 -1 554
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -23352,7 +23351,7 @@ StartChar: AdhesiveBandage.3
 Encoding: 555 -1 555
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -23385,7 +23384,7 @@ EndChar
 StartChar: AdhesiveBandage.1
 Encoding: 556 -1 556
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -23469,7 +23468,7 @@ StartChar: Fire
 Encoding: 557 128293 557
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
@@ -23477,7 +23476,7 @@ StartChar: AdhesiveBandage
 Encoding: 558 129657 558
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
@@ -23485,7 +23484,7 @@ StartChar: HeartOnFire
 Encoding: 559 -1 559
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Ligature2: "'ccmp' emojis 1" RedHeart zerojoin Fire
 EndChar
@@ -23494,7 +23493,7 @@ StartChar: MendingHeart
 Encoding: 560 -1 560
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Ligature2: "'ccmp' emojis 1" RedHeart zerojoin AdhesiveBandage
 EndChar
@@ -23503,7 +23502,7 @@ StartChar: Collision.0
 Encoding: 561 -1 561
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -23590,7 +23589,7 @@ StartChar: Collision.1
 Encoding: 562 -1 562
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -23618,7 +23617,7 @@ StartChar: Collision.2
 Encoding: 563 -1 563
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -23648,7 +23647,7 @@ StartChar: anger_line
 Encoding: 564 -1 564
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -23766,7 +23765,7 @@ StartChar: AngerSymbol.0
 Encoding: 565 -1 565
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -23831,7 +23830,7 @@ EndChar
 StartChar: droplet
 Encoding: 566 -1 566
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -23863,7 +23862,7 @@ EndChar
 StartChar: NameMe.567
 Encoding: 567 -1 567
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -23922,7 +23921,7 @@ StartChar: droplet2
 Encoding: 568 -1 568
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -23954,7 +23953,7 @@ StartChar: SweatDroplets.0
 Encoding: 569 -1 569
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -24010,7 +24009,7 @@ StartChar: Bomb.2
 Encoding: 570 -1 570
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 4 -1 S 0.25 0 0 0.25 792 624 0
@@ -24020,7 +24019,7 @@ StartChar: Bomb.3
 Encoding: 571 -1 571
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 4 -1 S 0.125 0 0 0.125 792 624 0
@@ -24030,7 +24029,7 @@ StartChar: Bomb.1
 Encoding: 572 -1 572
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 554 -1 S 0.471397 0 0 0.471397 407 318 0
@@ -24041,7 +24040,7 @@ StartChar: speech_balloon_tail
 Encoding: 573 -1 573
 Width: 912
 VWidth: 0
-Flags: WO
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -24089,7 +24088,7 @@ StartChar: SpeechBalloon.0
 Encoding: 574 -1 574
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -24131,7 +24130,7 @@ StartChar: SpeechBalloon.1
 Encoding: 575 -1 575
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 571 -1 S 1 0 0 1 -144 -264 0
@@ -24143,7 +24142,7 @@ StartChar: Bomb.0
 Encoding: 576 -1 576
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -24192,7 +24191,7 @@ StartChar: Hole.3
 Encoding: 577 -1 577
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -24242,7 +24241,7 @@ StartChar: Hole.2
 Encoding: 578 -1 578
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -24267,7 +24266,7 @@ StartChar: Hole.0
 Encoding: 579 -1 579
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 Refer: 4 -1 S 1.0625 0 0 0.46875 456 276 0
@@ -24278,7 +24277,7 @@ EndChar
 StartChar: EyeInSpeechBubble.0
 Encoding: 580 -1 580
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -24330,7 +24329,7 @@ StartChar: EyeInSpeechBubble.1
 Encoding: 581 -1 581
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -24353,7 +24352,7 @@ StartChar: EyeInSpeechBubble.2
 Encoding: 582 -1 582
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 4 -1 N 0.3125 0 0 0.3125 456 336 0
@@ -24362,7 +24361,7 @@ EndChar
 StartChar: Eye.0
 Encoding: 583 -1 583
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -24413,7 +24412,7 @@ EndChar
 StartChar: Eye.1
 Encoding: 584 -1 584
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -24464,7 +24463,7 @@ EndChar
 StartChar: Eye.3
 Encoding: 585 -1 585
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 4 -1 S 0.528625 0 0 0.528625 456 288 0
@@ -24473,7 +24472,7 @@ EndChar
 StartChar: Eye.4
 Encoding: 586 -1 586
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 4 -1 N 0.29425 0 0 0.29425 456 288 0
@@ -24482,7 +24481,7 @@ EndChar
 StartChar: Eye.5
 Encoding: 587 -1 587
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 4 -1 S 0.125 0 0 0.125 384 360 0
@@ -24492,7 +24491,7 @@ StartChar: LeftSpeechBubble.0
 Encoding: 588 -1 588
 Width: 912
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 574 -1 N -1 0 0 1 912 0 0
@@ -24501,7 +24500,7 @@ EndChar
 StartChar: RightAngerBubble.0
 Encoding: 589 -1 589
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -24703,7 +24702,7 @@ EndChar
 StartChar: RightAngerBubble.1
 Encoding: 590 -1 590
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -24778,7 +24777,7 @@ EndChar
 StartChar: ThoughtBalloon.0
 Encoding: 591 -1 591
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -24831,7 +24830,7 @@ StartChar: Zzz.0
 Encoding: 592 -1 592
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -24947,7 +24946,7 @@ EndChar
 StartChar: HundredPoints
 Encoding: 593 128175 593
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
@@ -24955,14 +24954,14 @@ StartChar: Eye
 Encoding: 594 128065 594
 AltUni2: 01f441.00fe0f.0
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: EyeInSpeechBubble
 Encoding: 595 -1 595
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Ligature2: "'ccmp' emojis 1" Eye varsel16 zerojoin LeftSpeechBubble zerojoin
 Ligature2: "'ccmp' emojis 1" Eye zerojoin LeftSpeechBubble
@@ -24972,7 +24971,7 @@ StartChar: LeftSpeechBubble
 Encoding: 596 128488 596
 AltUni2: 01f5e8.00fe0f.0
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
@@ -24980,7 +24979,7 @@ StartChar: RightAngerBubble
 Encoding: 597 128495 597
 AltUni2: 01f5ef.00fe0f.0
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
@@ -24988,42 +24987,42 @@ StartChar: ThoughtBalloon
 Encoding: 598 128173 598
 AltUni2: 01f4ad.00fe0f.0
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: Zzz
 Encoding: 599 128164 599
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: SpeechBalloon
 Encoding: 600 128172 600
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: Bomb
 Encoding: 601 128163 601
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: AngerSymbol
 Encoding: 602 128162 602
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: SweatDroplets
 Encoding: 603 128166 603
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
@@ -25031,21 +25030,21 @@ StartChar: Hole
 Encoding: 604 128371 604
 AltUni2: 01f573.00fe0f.0
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: Collision
 Encoding: 605 128165 605
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar
 
 StartChar: Eye.2
 Encoding: 606 -1 606
 Width: 912
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -25081,7 +25080,7 @@ StartChar: Hole.1
 Encoding: 607 46 607
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Back
 Refer: 4 -1 S 1 0 0 0.40625 456 276 0
@@ -25093,11 +25092,264 @@ StartChar: Bomb.9
 Encoding: 608 48 608
 Width: 912
 VWidth: 3600
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 554 -1 N 0.530322 0 0 0.530322 381 302 0
 Refer: 4 -1 N 0.90625 0 0 0.90625 360 192 0
+EndChar
+
+StartChar: Eyes.0
+Encoding: 609 -1 609
+Width: 912
+VWidth: 3600
+Flags: MW
+LayerCount: 2
+Back
+SplineSet
+624 348 m 0
+ 624 367.919921875 640.080078125 384 660 384 c 0
+ 679.919921875 384 696 367.919921875 696 348 c 0
+ 696 328.080078125 679.919921875 312 660 312 c 0
+ 640.080078125 312 624 328.080078125 624 348 c 0
+660 348 m 1049
+540 288 m 0
+ 540 241.6796875 577.6796875 204 624 204 c 0
+ 670.3203125 204 708 241.6796875 708 288 c 0
+ 708 334.3203125 670.3203125 372 624 372 c 0
+ 577.6796875 372 540 334.3203125 540 288 c 0
+504 288 m 0
+ 504 354.240234375 557.759765625 408 624 408 c 0
+ 690.240234375 408 744 354.240234375 744 288 c 0
+ 744 221.759765625 690.240234375 168 624 168 c 0
+ 557.759765625 168 504 221.759765625 504 288 c 0
+624 288 m 1049
+468 288 m 0
+ 468 473.51953125 562.080078125 624 678 624 c 0
+ 793.919921875 624 888 473.51953125 888 288 c 0
+ 888 102.48046875 793.919921875 -48 678 -48 c 0
+ 562.080078125 -48 468 102.48046875 468 288 c 0
+504 288 m 0
+ 504 122.400390625 582 -12 678 -12 c 0
+ 774 -12 852 122.400390625 852 288 c 0
+ 852 453.599609375 774 588 678 588 c 0
+ 582 588 504 453.599609375 504 288 c 0
+678 288 m 1049
+678 288 m 1049
+678 624 m 25
+ 678 588 l 1049
+888 288 m 1024
+852 288 m 1024
+504 288 m 1024
+468 288 m 1024
+678 -12 m 25
+ 678 -48 l 1049
+180 348 m 0
+ 180 367.919921875 196.080078125 384 216 384 c 0
+ 235.919921875 384 252 367.919921875 252 348 c 0
+ 252 328.080078125 235.919921875 312 216 312 c 0
+ 196.080078125 312 180 328.080078125 180 348 c 0
+216 348 m 1049
+96 288 m 0
+ 96 241.6796875 133.6796875 204 180 204 c 0
+ 226.3203125 204 264 241.6796875 264 288 c 0
+ 264 334.3203125 226.3203125 372 180 372 c 0
+ 133.6796875 372 96 334.3203125 96 288 c 0
+60 288 m 0
+ 60 354.240234375 113.759765625 408 180 408 c 0
+ 246.240234375 408 300 354.240234375 300 288 c 0
+ 300 221.759765625 246.240234375 168 180 168 c 0
+ 113.759765625 168 60 221.759765625 60 288 c 0
+180 288 m 1049
+24 288 m 0
+ 24 473.51953125 118.080078125 624 234 624 c 0
+ 349.919921875 624 444 473.51953125 444 288 c 0
+ 444 102.48046875 349.919921875 -48 234 -48 c 0
+ 118.080078125 -48 24 102.48046875 24 288 c 0
+60 288 m 0
+ 60 122.400390625 138 -12 234 -12 c 0
+ 330 -12 408 122.400390625 408 288 c 0
+ 408 453.599609375 330 588 234 588 c 0
+ 138 588 60 453.599609375 60 288 c 0
+234 288 m 1049
+234 288 m 1049
+234 624 m 25
+ 234 588 l 1049
+444 288 m 1024
+60 288 m 1024
+24 288 m 1024
+234 -12 m 25
+ 234 -48 l 1049
+EndSplineSet
+Fore
+Refer: 4 -1 N 0.546875 0 0 0.875 678 288 0
+Refer: 4 -1 N 0.546875 0 0 0.875 234 288 0
+EndChar
+
+StartChar: Eyes.1
+Encoding: 610 -1 610
+Width: 912
+VWidth: 3600
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 4 -1 N 0.453125 0 0 0.78125 678 288 0
+Refer: 4 -1 N 0.453125 0 0 0.78125 234 289 0
+EndChar
+
+StartChar: Eyes.2
+Encoding: 611 -1 611
+Width: 912
+VWidth: 3600
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 4 -1 N 0.3125 0 0 0.3125 624 288 0
+Refer: 4 -1 N 0.3125 0 0 0.3125 180 288 0
+EndChar
+
+StartChar: Eyes.3
+Encoding: 612 -1 612
+Width: 912
+VWidth: 3600
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 4 -1 N 0.21875 0 0 0.21875 624 288 0
+Refer: 4 -1 N 0.21875 0 0 0.21875 180 288 0
+EndChar
+
+StartChar: Eyes.4
+Encoding: 613 -1 613
+Width: 912
+VWidth: 3600
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 4 -1 N 0.09375 0 0 0.09375 660 348 0
+Refer: 4 -1 N 0.09375 0 0 0.09375 216 348 0
+EndChar
+
+StartChar: PawPrints.0
+Encoding: 614 -1 614
+Width: 912
+Flags: MW
+LayerCount: 2
+Back
+SplineSet
+424.944335938 333.288085938 m 0
+ 424.944335938 225.696289062 363.6484375 284.375976562 288 284.375976562 c 0
+ 212.375976562 284.375976562 151.055664062 225.671875 151.055664062 333.288085938 c 0
+ 151.055664062 403.51171875 212.375976562 480 288 480 c 0
+ 363.624023438 480 424.944335938 403.51171875 424.944335938 333.288085938 c 0
+145.776367188 527.112304688 m 0
+ 155.208007812 495.072265625 145.944335938 464.112304688 125.087890625 457.967773438 c 0
+ 104.208007812 451.82421875 79.65625 472.82421875 70.2236328125 504.887695312 c 0
+ 60.7919921875 536.927734375 70.0322265625 567.887695312 90.912109375 574.032226562 c 0
+ 111.791992188 580.17578125 136.34375 559.17578125 145.776367188 527.112304688 c 0
+505.776367188 504.456054688 m 0
+ 496.0078125 472.48828125 471.16796875 451.751953125 450.288085938 458.135742188 c 0
+ 429.408203125 464.51953125 420.431640625 495.599609375 430.200195312 527.568359375 c 0
+ 439.967773438 559.536132812 464.807617188 580.271484375 485.688476562 573.887695312 c 0
+ 506.543945312 567.50390625 515.543945312 536.423828125 505.776367188 504.456054688 c 0
+263.135742188 621.072265625 m 0
+ 271.919921875 575.51953125 257.927734375 534.528320312 231.887695312 529.51171875 c 0
+ 205.872070312 524.51953125 177.6484375 557.375976562 168.887695312 602.927734375 c 0
+ 160.080078125 648.48046875 174.072265625 689.471679688 200.112304688 694.48828125 c 0
+ 226.15234375 699.50390625 254.375976562 666.624023438 263.135742188 621.072265625 c 0
+407.040039062 602.400390625 m 0
+ 397.751953125 556.944335938 369.16796875 524.400390625 343.200195312 529.704101562 c 0
+ 317.232421875 535.0078125 303.696289062 576.16796875 312.984375 621.624023438 c 0
+ 322.271484375 667.080078125 350.856445312 699.624023438 376.82421875 694.3203125 c 0
+ 402.791992188 688.9921875 416.303710938 647.856445312 407.040039062 602.400390625 c 0
+760.944335938 -50.7119140625 m 0
+ 760.944335938 -158.303710938 699.624023438 -99.6240234375 624 -99.6240234375 c 0
+ 548.375976562 -99.6240234375 487.055664062 -158.303710938 487.055664062 -50.7119140625 c 0
+ 487.055664062 19.48828125 548.375976562 96 624 96 c 0
+ 699.624023438 96 760.944335938 19.48828125 760.944335938 -50.7119140625 c 0
+481.776367188 143.135742188 m 0
+ 491.232421875 111.072265625 481.944335938 80.1123046875 461.087890625 73.9677734375 c 0
+ 440.208007812 67.82421875 415.65625 88.82421875 406.223632812 120.864257812 c 0
+ 396.791992188 152.927734375 406.055664062 183.887695312 426.912109375 190.032226562 c 0
+ 447.791992188 196.17578125 472.34375 175.17578125 481.776367188 143.135742188 c 0
+841.776367188 120.456054688 m 0
+ 832.0078125 88.48828125 807.16796875 67.751953125 786.288085938 74.1357421875 c 0
+ 765.431640625 80.51953125 756.431640625 111.599609375 766.200195312 143.543945312 c 0
+ 775.967773438 175.51171875 800.807617188 196.248046875 821.688476562 189.864257812 c 0
+ 842.543945312 183.50390625 851.543945312 152.423828125 841.776367188 120.456054688 c 0
+599.135742188 237.072265625 m 0
+ 607.896484375 191.543945312 593.904296875 150.528320312 567.887695312 145.536132812 c 0
+ 541.84765625 140.51953125 513.624023438 173.375976562 504.864257812 218.952148438 c 0
+ 496.103515625 264.50390625 510.095703125 305.49609375 536.112304688 310.51171875 c 0
+ 562.15234375 315.50390625 590.375976562 282.624023438 599.135742188 237.072265625 c 0
+743.040039062 218.400390625 m 0
+ 733.728515625 172.967773438 705.16796875 140.400390625 679.200195312 145.704101562 c 0
+ 653.232421875 151.032226562 639.671875 192.192382812 648.959960938 237.624023438 c 0
+ 658.271484375 283.080078125 686.83203125 315.624023438 712.799804688 310.3203125 c 0
+ 738.767578125 304.9921875 752.328125 263.83203125 743.040039062 218.400390625 c 0
+EndSplineSet
+Fore
+Refer: 615 -1 N 0.815107 0 0 0.815107 624 96 2
+Refer: 4 -1 N -0.122471 0.0250172 0.0437801 0.214324 696 228 0
+Refer: 4 -1 N -0.0982241 0.0300433 0.0460889 0.150684 804 132 0
+Refer: 4 -1 N 0.122746 0.0236305 -0.0413534 0.214806 552 228 0
+Refer: 4 -1 N 0.0985308 0.0290216 -0.0445216 0.151155 444 132 0
+Refer: 615 -1 N 0.815107 0 0 0.815107 288 480 2
+Refer: 4 -1 N -0.122471 0.0250172 0.0437801 0.214324 360 612 0
+Refer: 4 -1 N -0.0982241 0.0300433 0.0460889 0.150684 468 516 0
+Refer: 4 -1 N 0.122746 0.0236305 -0.0413534 0.214806 216 612 0
+Refer: 4 -1 N 0.0985308 0.0290216 -0.0445216 0.151155 108 516 0
+EndChar
+
+StartChar: paw_pad
+Encoding: 615 -1 615
+Width: 912
+Flags: MW
+LayerCount: 2
+Back
+SplineSet
+0 0 m 4
+ 92.736328125 0 168 -93.83984375 168 -180 c 4
+ 168 -243.130434783 150.784679968 -259.599243856 122.676045476 -259.599243856 c 4
+ 109.08469636 -259.599243856 92.9464836776 -255.748826249 74.9761066926 -251.461272397 c 4
+ 52.4028257686 -246.075511282 26.9386026077 -240 0 -240 c 4
+ -26.9386026077 -240 -52.4028257686 -246.075511282 -74.9761066926 -251.461272397 c 4
+ -92.9464836776 -255.748826249 -109.08469636 -259.599243856 -122.676045476 -259.599243856 c 4
+ -150.784679968 -259.599243856 -168 -243.130434783 -168 -180 c 4
+ -168 -93.83984375 -92.736328125 0 0 0 c 4
+EndSplineSet
+Fore
+SplineSet
+0 0 m 128,-1,1
+ 44 0 44 0 83 -26.5 c 128,-1,2
+ 122 -53 122 -53 145 -95 c 128,-1,3
+ 168 -137 168 -137 168 -180 c 128,-1,4
+ 168 -223 168 -223 157 -241.5 c 128,-1,5
+ 146 -260 146 -260 123 -260 c 0,6,7
+ 109 -260 109 -260 68.5 -250 c 128,-1,8
+ 28 -240 28 -240 0 -240 c 128,-1,9
+ -28 -240 -28 -240 -68.5 -250 c 128,-1,10
+ -109 -260 -109 -260 -123 -260 c 0,11,12
+ -146 -260 -146 -260 -157 -241.5 c 128,-1,13
+ -168 -223 -168 -223 -168 -180 c 128,-1,14
+ -168 -137 -168 -137 -145 -95 c 128,-1,15
+ -122 -53 -122 -53 -83 -26.5 c 128,-1,0
+ -44 0 -44 0 0 0 c 128,-1,1
+EndSplineSet
+EndChar
+
+StartChar: Eyes
+Encoding: 616 128064 616
+Width: 912
+Flags: MW
+LayerCount: 2
+EndChar
+
+StartChar: PawPrints
+Encoding: 617 128062 617
+Width: 912
+Flags: MW
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont

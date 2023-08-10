@@ -400,7 +400,7 @@
 			<layer colorID="4" name="DisguisedFace.2"/>
 			<layer colorID="9" name="DisguisedFace.3"/>
 			<layer colorID="33" name="DisguisedFace.4"/>
-			<layer colorID="1" name="DisguisedFace.5"/> <!-- was #662113. that's a real color but too close to face lines color i feel like -->
+			<layer colorID="53" name="DisguisedFace.5"/> <!-- was #662113. that's a real color but too close to face lines color i feel like. ok fiine it can be that color -->
 			<layer colorID="4" name="glasses.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="SmilingFaceWithSunglasses">
@@ -761,6 +761,17 @@
 		<ColorGlyph name="Zzz">
 			<layer colorID="8" name="Zzz.0"/>
 		</ColorGlyph>
+		<!-- other -->
+		<ColorGlyph name="Eyes">
+			<layer colorID="17" name="Eyes.0"/> <!-- changed from #E1E8ED -->
+			<layer colorID="3" name="Eyes.1"/>
+			<layer colorID="52" name="Eyes.2"/>
+			<layer colorID="4" name="Eyes.3"/>
+			<layer colorID="2" name="Eyes.4"/> <!-- changed from faint gray -->
+		</ColorGlyph>
+		<ColorGlyph name="PawPrints">
+			<layer colorID="33" name="PawPrints.0"/> <!-- changed from dark brown, to be visible on dark bg -->
+		</ColorGlyph>
 		
 		<!-- dolls -->
 		<ColorGlyph name="JapaneseDolls">
@@ -824,7 +835,7 @@
 		
 	<CPAL>
 		<version value="0"/>
-		<numPaletteEntries value="52"/>
+		<numPaletteEntries value="54"/>
 		<palette index="0">
 			<color index="0" value="#FFCC4Dff"/> <!-- yellow #ffcc4d --> 
 			<color index="1" value="#664500ff"/> <!-- line color -->
@@ -880,6 +891,8 @@
 			<color index="49" value="#D99E82ff"/> <!-- lighter brown -->
 			<color index="50" value="#EABAA7ff"/> <!-- adhesive bandage -->
 			<color index="51" value="#F7DED5ff"/> <!-- adhesive bandage -->
+			<color index="52" value="#8899A6ff"/> <!-- gray -->
+			<color index="53" value="#662113ff"/> <!-- darkest brown -->
 		</palette>
 	</CPAL>
 	
