@@ -26044,8 +26044,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: glyph628
-Encoding: 637 57 628
+StartChar: Mirror
+Encoding: 637 129694 628
 Width: 912
 VWidth: 0
 Flags: W
