@@ -1,0 +1,10 @@
+StartChar: HeartWithArrow.1
+Encoding: 512 -1 506
+Width: 912
+Flags: MW
+LayerCount: 2
+Back
+Refer: 504 -1 S 1 0 0 1 0 0 0
+Fore
+Refer: 8 -1 S 1.09552 0 0 1.09552 463 -101 0
+EndChar

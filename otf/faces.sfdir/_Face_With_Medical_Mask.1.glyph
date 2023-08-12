@@ -1,0 +1,10 @@
+StartChar: FaceWithMedicalMask.1
+Encoding: 225 -1 225
+Width: 912
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 46 -1 N -1 0 0 1 720 384 0
+Refer: 46 -1 N 1 0 0 1 192 384 0
+Colour: ffff
+EndChar

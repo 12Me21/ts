@@ -1,0 +1,8 @@
+StartChar: MendingHeart
+Encoding: 560 -1 552
+Width: 912
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Ligature2: "'ccmp' emojis 1" RedHeart zerojoin AdhesiveBandage
+EndChar

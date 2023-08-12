@@ -1,0 +1,10 @@
+StartChar: ClownFace.4
+Encoding: 351 -1 351
+Width: 912
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 67 -1 N 1 0 0 1 180 36 0
+Refer: 67 -1 N 1 0 0 1 -156 36 0
+Colour: ffff
+EndChar

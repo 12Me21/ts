@@ -1,0 +1,10 @@
+StartChar: FaceVomiting.2
+Encoding: 241 -1 241
+Width: 912
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 60 -1 S 1 0 0 1 0 0 0
+Refer: 4 -1 N 0.94625 0 0 0.125 454 -96 0
+Colour: ffff
+EndChar

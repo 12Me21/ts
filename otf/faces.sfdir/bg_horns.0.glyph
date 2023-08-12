@@ -1,0 +1,10 @@
+StartChar: bg_horns.0
+Encoding: 103 -1 103
+Width: 912
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 77 -1 N -1 0 0 1 912 0 0
+Refer: 77 -1 N 1 0 0 1 0 0 0
+Colour: ffff
+EndChar

@@ -1,0 +1,10 @@
+StartChar: eyes_12
+Encoding: 90 -1 90
+Width: 912
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 67 -1 N 1 0 0 1 -144 -84 0
+Refer: 67 -1 N 1 0 0 1 144 -84 0
+Colour: ffff00
+EndChar

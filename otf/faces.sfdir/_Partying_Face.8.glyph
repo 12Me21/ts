@@ -1,0 +1,21 @@
+StartChar: PartyingFace.8
+Encoding: 276 -1 276
+Width: 912
+Flags: MW
+LayerCount: 2
+Back
+SplineSet
+792 408 m 1
+ 816 576 l 1
+ 888 528 l 1
+ 792 408 l 1
+EndSplineSet
+Fore
+SplineSet
+792 408 m 1,0,-1
+ 816 576 l 1,1,-1
+ 888 528 l 1,2,-1
+ 792 408 l 1,0,-1
+EndSplineSet
+Colour: ffff
+EndChar

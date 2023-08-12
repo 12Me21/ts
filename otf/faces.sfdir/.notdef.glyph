@@ -1,0 +1,15 @@
+StartChar: .notdef
+Encoding: 0 -1 0
+Width: 912
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+170 263 m 25,0,-1
+ 568 281 l 25,1,-1
+ 270 515 l 25,2,-1
+ 376 149 l 25,3,-1
+ 504 529 l 25,4,-1
+ 170 263 l 25,0,-1
+EndSplineSet
+EndChar

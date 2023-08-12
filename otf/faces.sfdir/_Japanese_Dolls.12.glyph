@@ -1,0 +1,17 @@
+StartChar: JapaneseDolls.12
+Encoding: 374 -1 374
+Width: 912
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+553 569 m 1,0,1
+ 553 554 553 554 672 532 c 1,2,3
+ 792 554 792 554 792 569 c 1,4,5
+ 792 593 792 593 756.5 608.5 c 129,-1,6
+ 721 624 721 624 672.5 624 c 129,-1,7
+ 624 624 624 624 588.5 608.5 c 129,-1,8
+ 553 593 553 593 553 569 c 1,0,1
+EndSplineSet
+Colour: ffff
+EndChar

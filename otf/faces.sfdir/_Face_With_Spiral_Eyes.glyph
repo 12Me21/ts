@@ -1,0 +1,8 @@
+StartChar: FaceWithSpiralEyes
+Encoding: 501 -1 501
+Width: 912
+Flags: MW
+LayerCount: 2
+Ligature2: "'ccmp' emojis 1" FaceWithCrossedOutEyes zerojoin Dizzy
+Colour: 80a696
+EndChar

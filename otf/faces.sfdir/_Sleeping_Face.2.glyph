@@ -1,0 +1,11 @@
+StartChar: SleepingFace.2
+Encoding: 223 -1 223
+Width: 912
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 48 -1 N 1.574 0 0 1.574 681 627 0
+Refer: 48 -1 N 1.178 0 0 1.178 495 696 0
+Refer: 48 -1 N 1.01 0 0 1.01 342 603 0
+Colour: ffff
+EndChar

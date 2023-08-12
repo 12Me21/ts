@@ -1,0 +1,18 @@
+StartChar: FaceWithMonocle.5
+Encoding: 291 -1 291
+Width: 912
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+786 -119 m 2,0,-1
+ 786 364 l 1,1,-1
+ 837 364 l 1,2,-1
+ 837 -119 l 2,3,4
+ 837 -129 837 -129 829.5 -136.5 c 128,-1,5
+ 822 -144 822 -144 811.5 -144 c 128,-1,6
+ 801 -144 801 -144 793.5 -136.5 c 128,-1,7
+ 786 -129 786 -129 786 -119 c 2,0,-1
+EndSplineSet
+Colour: ffff
+EndChar

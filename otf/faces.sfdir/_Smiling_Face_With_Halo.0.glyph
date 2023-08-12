@@ -1,0 +1,17 @@
+StartChar: SmilingFaceWithHalo.0
+Encoding: 124 -1 124
+Width: 912
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+174 641 m 1,0,1
+ 174 684 174 684 302 710 c 1,2,3
+ 350 716 350 716 456 717 c 1,4,5
+ 562 716 562 716 610 710 c 1,6,7
+ 738 684 738 684 738 641 c 1,8,9
+ 663 681 663 681 456 686 c 1,10,11
+ 249 681 249 681 174 641 c 1,0,1
+EndSplineSet
+Colour: ffff
+EndChar

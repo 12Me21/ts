@@ -1,0 +1,10 @@
+StartChar: FlushedFace.3
+Encoding: 303 -1 303
+Width: 912
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 4 -1 N 0.15625 0 0 0.15625 612 324 0
+Refer: 4 -1 N 0.15625 0 0 0.15625 300 324 0
+Colour: ffff
+EndChar
