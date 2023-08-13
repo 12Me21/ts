@@ -1,0 +1,10 @@
+StartChar: Robot.7
+Encoding: 600 -1 588
+Width: 912
+Flags: W
+LayerCount: 2
+Fore
+Refer: 595 -1 N 1 0 0 1 0 0 2
+Refer: 4 -1 N 0.28125 0 0 0.28125 300 372 0
+Refer: 4 -1 N 0.28125 0 0 0.28125 612 372 0
+EndChar

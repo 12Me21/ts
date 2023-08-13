@@ -1,0 +1,11 @@
+StartChar: Ogre.7
+Encoding: 585 -1 577
+Width: 912
+Flags: W
+LayerCount: 2
+Fore
+Refer: 46 -1 N 1 0 -0 -1 216 408 2
+Refer: 46 -1 N -1 0 0 -1 696 408 2
+Refer: 4 -1 N 0.09375 0 0 0.09375 582 295 0
+Refer: 4 -1 S 0.09375 0 0 0.09375 330 295 0
+EndChar
