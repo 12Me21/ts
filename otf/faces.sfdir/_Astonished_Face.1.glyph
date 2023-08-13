@@ -1,5 +1,5 @@
 StartChar: AstonishedFace.1
-Encoding: 299 -1 299
+Encoding: 299 -1 298
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -47,7 +47,7 @@ SplineSet
  566.8632 456 540 418.3916 540 372 c 0
 EndSplineSet
 Fore
-Refer: 90 -1 N 1 0 0 1 0 48 0
+Refer: 89 -1 N 1 0 0 1 0 48 0
 Refer: 4 -1 N 0.3125 0 0 0.375 456 72 0
 Refer: 10 -1 N -1 0 0 1 576 576 0
 Refer: 10 -1 N 1 0 0 1 336 576 0

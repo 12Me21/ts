@@ -1,5 +1,5 @@
 StartChar: GrinningSquintingFace.1
-Encoding: 110 -1 110
+Encoding: 110 -1 109
 Width: 912
 GlyphClass: 5
 Flags: MW
@@ -49,7 +49,7 @@ SplineSet
  758.496 243.3613 751.2958 240.0234 743.9765 240.0234 c 0
 EndSplineSet
 Fore
-Refer: 133 -1 S 1 0 0 1 0 -24 0
+Refer: 132 -1 S 1 0 0 1 0 -24 0
 Refer: 18 -1 N -1 0 0 1 720 408 0
 Refer: 18 -1 N 1 0 0 1 192 408 0
 Colour: ffff

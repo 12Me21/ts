@@ -1,5 +1,5 @@
 StartChar: DroolingFace.1
-Encoding: 220 -1 220
+Encoding: 220 -1 219
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -63,7 +63,7 @@ SplineSet
  600 85.2001 589.2001 96 576 96 c 6
 EndSplineSet
 Fore
-Refer: 47 -1 S 1 0 0 1 0 0 0
+Refer: 47 -1 N 1 0 0 1 0 0 0
 Refer: 10 -1 N -0.983885 -0.178802 -0.178802 0.983885 568.608 512.208 0
 Refer: 10 -1 N 0.999263 -0.0383878 0.0383878 0.999263 337.872 552 0
 Refer: 11 -1 N -1 0 0 -1 612 384 0

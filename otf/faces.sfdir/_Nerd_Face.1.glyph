@@ -1,11 +1,11 @@
 StartChar: NerdFace.1
-Encoding: 285 -1 285
+Encoding: 285 -1 284
 Width: 912
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 324 -1 N 1 0 0 1 0 -50 0
-Refer: 283 -1 N 1 0 0 1 0 0 0
-Refer: 278 -1 N 1 0 0 1 0 0 0
+Refer: 323 -1 N 1 0 0 1 0 -50 0
+Refer: 282 -1 N 1 0 0 1 0 0 0
+Refer: 277 -1 N 1 0 0 1 0 0 0
 Colour: ffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: FrowningFace.1
-Encoding: 296 -1 296
+Encoding: 296 -1 295
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -31,7 +31,7 @@ SplineSet
  226.7519 61.248 227.6884 54.9355 231.9599 51.0957 c 0
 EndSplineSet
 Fore
-Refer: 190 -1 N 1 0 0 1 0 48 0
+Refer: 189 -1 N 1 0 0 1 0 48 0
 Refer: 9 -1 N -1 0 0 -1 456 192 0
 Colour: ffff
 EndChar

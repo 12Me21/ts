@@ -1,5 +1,5 @@
 StartChar: SmilingFaceWithHearts.1
-Encoding: 128 -1 128
+Encoding: 128 -1 127
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -90,7 +90,7 @@ SplineSet
  886.2001 84.457 886.7529 88.6308 886.7529 92.9531 c 0
 EndSplineSet
 Fore
-Refer: 283 -1 S 1 0 0 1 0 71 0
+Refer: 282 -1 S 1 0 0 1 0 71 0
 Refer: 7 -1 N 1 0 0 1 576 409 0
 Refer: 7 -1 N 1 0 0 1 336 409 0
 Colour: ffff

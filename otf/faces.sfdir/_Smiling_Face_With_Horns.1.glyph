@@ -1,5 +1,5 @@
 StartChar: SmilingFaceWithHorns.1
-Encoding: 346 -1 346
+Encoding: 346 -1 345
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -63,7 +63,7 @@ SplineSet
  743.9521 349.2724 733.248 360 720 360 c 0
 EndSplineSet
 Fore
-Refer: 283 -1 N 1 0 0 1 0 -48 0
-Refer: 343 -1 N 1 0 0 1 0 -72 0
+Refer: 282 -1 N 1 0 0 1 0 -48 0
+Refer: 342 -1 N 1 0 0 1 0 -72 0
 Colour: ffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: GrowingHeart.1
-Encoding: 520 -1 514
+Encoding: 520 -1 513
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -39,5 +39,5 @@ SplineSet
  24 720 l 1
 EndSplineSet
 Fore
-Refer: 97 -1 N 0.75 0 0 0.75 114 72 0
+Refer: 96 -1 N 0.75 0 0 0.75 114 72 0
 EndChar

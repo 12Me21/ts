@@ -1,5 +1,5 @@
 StartChar: BeatingHeart.1
-Encoding: 523 -1 517
+Encoding: 523 -1 516
 Width: 912
 VWidth: 0
 Flags: MW
@@ -28,6 +28,6 @@ SplineSet
  872.328125 586.34375 867.671875 585 863.015625 585 c 4
 EndSplineSet
 Fore
-Refer: 516 -1 N -1 0 0 1 912 0 0
-Refer: 516 -1 N 1 0 0 1 0 0 0
+Refer: 515 -1 N -1 0 0 1 912 0 0
+Refer: 515 -1 N 1 0 0 1 0 0 0
 EndChar

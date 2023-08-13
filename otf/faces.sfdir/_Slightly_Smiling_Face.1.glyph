@@ -1,5 +1,5 @@
 StartChar: SlightlySmilingFace.1
-Encoding: 117 -1 117
+Encoding: 117 -1 116
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -32,7 +32,7 @@ SplineSet
  566.8642 480 540 442.3925 540 396 c 0
 EndSplineSet
 Fore
-Refer: 90 -1 N 1 0 0 1 0 72 0
+Refer: 89 -1 N 1 0 0 1 0 72 0
 Refer: 24 -1 N 1 0 0 1 456 48 0
 Colour: ffff
 EndChar

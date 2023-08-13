@@ -1,5 +1,5 @@
 StartChar: ZipperMouthFace.1
-Encoding: 185 -1 185
+Encoding: 185 -1 184
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -75,7 +75,7 @@ SplineSet
  779.5917 -51.7197 l 1
 EndSplineSet
 Fore
-Refer: 76 -1 S 1 0 0 1 0 0 0
-Refer: 190 -1 S 1 0 0 1 1 48 0
+Refer: 75 -1 S 1 0 0 1 0 0 0
+Refer: 189 -1 S 1 0 0 1 1 48 0
 Colour: ffff
 EndChar

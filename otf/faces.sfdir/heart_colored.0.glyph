@@ -1,5 +1,5 @@
 StartChar: heart_colored.0
-Encoding: 97 -1 97
+Encoding: 97 -1 96
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -16,6 +16,6 @@ SplineSet
  882.8876 399.5039 885.2402 417.456 885.2402 436.0078 c 0
 EndSplineSet
 Fore
-Refer: 8 -1 N 1.23345 0 0 1.23345 456 -97 0
+Refer: 8 -1 S 1.23345 0 0 1.23345 456 -97 0
 Colour: ffff
 EndChar

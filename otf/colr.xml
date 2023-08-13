@@ -337,8 +337,8 @@
 		<ColorGlyph name="SneezingFace">
 			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="SneezingFace.1"/>
-			<layer colorID="17" name="SneezingFace.2"/>
-			<layer colorID="3" name="SneezingFace.3"/>
+			<layer colorID="23" name="SneezingFace.2"/> <!-- changed from 17,3 -->
+			<layer colorID="2" name="SneezingFace.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="HotFace">
 			<layer colorID="11" name="head36.0"/>
@@ -600,6 +600,72 @@
 			<layer colorID="32" name="ClownFace.5"/>
 			<layer colorID="8" name="ClownFace.6"/>
 		</ColorGlyph>
+		<ColorGlyph name="Ogre">
+			<layer colorID="4" name="Ogre.0"/> 
+			<layer colorID="2" name="Ogre.1"/> 
+			<layer colorID="5" name="Ogre.2"/> 
+			<layer colorID="32" name="Ogre.3"/> 
+			<layer colorID="48" name="Ogre.4"/> 
+			<layer colorID="6" name="Ogre.5"/> 
+			<layer colorID="0" name="Ogre.6"/> 
+			<layer colorID="4" name="Ogre.7"/> 
+			<layer colorID="13" name="Ogre.8"/> 
+		</ColorGlyph>
+		<ColorGlyph name="Goblin">
+			<layer colorID="5" name="Goblin.0"/> 
+			<layer colorID="35" name="Goblin.1"/> 
+			<layer colorID="3" name="Goblin.2"/> 
+			<layer colorID="4" name="Goblin.3"/> 
+			<layer colorID="11" name="Goblin.4"/> 
+		</ColorGlyph>
+		<ColorGlyph name="AlienMonster">
+			<layer colorID="54" name="AlienMonster.0"/> 
+		</ColorGlyph>
+		<ColorGlyph name="Alien">
+			<layer colorID="17" name="Alien.0"/> 
+			<layer colorID="4" name="Alien.1"/> 
+		</ColorGlyph>
+		<ColorGlyph name="Ghost">
+			<layer colorID="17" name="Ghost.0"/>  <!-- changed from 23 -->
+			<layer colorID="4" name="Ghost.1"/> 
+			<layer colorID="14" name="Ghost.2"/> 
+		</ColorGlyph>
+		<ColorGlyph name="BabyAngel">
+			<layer colorID="23" name="BabyAngel.0"/>
+			<layer colorID="0" name="BabyAngel.1"/> 
+			<layer colorID="1" name="BabyAngel.2"/> 
+			<layer colorID="13" name="BabyAngel.3"/> 
+			<layer colorID="15" name="BabyAngel.4"/> 
+		</ColorGlyph>
+		<ColorGlyph name="Robot">
+			<layer colorID="0" name="Robot.0"/> 
+			<layer colorID="13" name="Robot.1"/> 
+			<layer colorID="9" name="Robot.2"/> 
+			<layer colorID="16" name="Robot.3"/> 
+			<layer colorID="6" name="Robot.4"/> 
+			<layer colorID="8" name="Robot.5"/> 
+			<layer colorID="17" name="Robot.6"/> 
+			<layer colorID="3" name="Robot.7"/>  <!-- originally use white for eyes -->
+			<layer colorID="5" name="Robot.8"/> 
+		</ColorGlyph>
+		<ColorGlyph name="PileOfPoo">
+			<layer colorID="33" name="PileOfPoo.0"/> 
+			<layer colorID="3" name="PileOfPoo.1"/> 
+			<layer colorID="4" name="PileOfPoo.2"/> 
+			<layer colorID="27" name="PileOfPoo.3"/> 
+		</ColorGlyph>
+		<!--<ColorGlyph name="Troll">
+			<layer colorID="33" name="Troll.0"/> 
+			<layer colorID="3" name="Troll.1"/> 
+			<layer colorID="4" name="Troll.2"/> 
+			<layer colorID="4" name="Troll.3"/> 
+			<layer colorID="4" name="Troll.4"/> 
+			<layer colorID="4" name="Troll.5"/> 
+			<layer colorID="4" name="Troll.6"/> 
+			<layer colorID="4" name="Troll.7"/> 
+			<layer colorID="4" name="Troll.8"/> 
+			<layer colorID="4" name="Troll.9"/> 
+		</ColorGlyph>-->
 		<!-- new -->
 		<ColorGlyph name="ShakingFace">
 			<layer colorID="41" name="ShakingFace.0"/> 0x80
@@ -614,7 +680,7 @@
 			<layer colorID="11" name="HeartWithArrow.1"/>
 			<layer colorID="0" name="HeartWithArrow.2"/>
 			<layer colorID="9" name="HeartWithArrow.3"/>
-			<layer colorID="48" name="HeartWithArrow.4"/>
+			<layer colorID="5" name="HeartWithArrow.4"/>
 		</ColorGlyph>
 		<ColorGlyph name="HeartWithRibbon">
 			<layer colorID="11" name="heart_colored.0"/>
@@ -687,7 +753,7 @@
 			<layer colorID="15" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="PurpleHeart">
-			<layer colorID="29" name="heart_colored.0"/>
+			<layer colorID="54" name="heart_colored.0"/> <!-- changed from lightpurple -->
 		</ColorGlyph>
 		<ColorGlyph name="BrownHeart">
 			<layer colorID="33" name="heart_colored.0"/>
@@ -750,7 +816,7 @@
 		
 	<CPAL>
 		<version value="0"/>
-		<numPaletteEntries value="54"/>
+		<numPaletteEntries value="55"/>
 		<palette index="0">
 			<color index="0" value="#FFCC4Dff"/> <!-- yellow #ffcc4d --> 
 			<color index="1" value="#664500ff"/> <!-- line color -->
@@ -808,6 +874,7 @@
 			<color index="51" value="#F7DED5ff"/> <!-- adhesive bandage -->
 			<color index="52" value="#8899A6ff"/> <!-- gray -->
 			<color index="53" value="#662113ff"/> <!-- darkest brown -->
+			<color index="54" value="#9266CCff"/> <!-- purple -->
 		</palette>
 	</CPAL>
 	

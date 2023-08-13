@@ -1,9 +1,9 @@
 StartChar: FaceWithPeekingEye.0
-Encoding: 170 -1 170
+Encoding: 170 -1 169
 Width: 912
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 166 -1 N 1 0 0 1 0 -24 0
+Refer: 165 -1 N 1 0 0 1 0 -24 0
 Colour: ffff
 EndChar

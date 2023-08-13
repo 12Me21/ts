@@ -1,5 +1,5 @@
 StartChar: FaceWithPeekingEye.4
-Encoding: 174 -1 174
+Encoding: 174 -1 173
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -138,7 +138,7 @@ SplineSet
  858.3662 112.6416 858.2724 117.7998 858.3359 122.496 c 6
 EndSplineSet
 Fore
-Refer: 87 -1 S 1 0 0 1 0 0 0
-Refer: 86 -1 N 0.516191 -0.353443 0.353443 0.516191 103 -34 0
+Refer: 86 -1 S 1 0 0 1 0 0 0
+Refer: 85 -1 N 0.516191 -0.353443 0.353443 0.516191 103 -34 0
 Colour: ffff
 EndChar

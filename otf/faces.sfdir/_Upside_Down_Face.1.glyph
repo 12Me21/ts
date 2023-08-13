@@ -1,5 +1,5 @@
 StartChar: UpsideDownFace.1
-Encoding: 118 -1 118
+Encoding: 118 -1 117
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -31,7 +31,7 @@ SplineSet
  578.8642 288 552 250.3925 552 204 c 0
 EndSplineSet
 Fore
-Refer: 190 -1 N 1 0 0 1 0 -120 0
+Refer: 189 -1 N 1 0 0 1 0 -120 0
 Refer: 9 -1 N -1 0 0 -1 456 552 0
 Colour: ffff
 EndChar

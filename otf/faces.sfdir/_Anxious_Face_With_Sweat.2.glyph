@@ -1,5 +1,5 @@
 StartChar: AnxiousFaceWithSweat.2
-Encoding: 317 -1 317
+Encoding: 317 -1 316
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -58,7 +58,7 @@ SplineSet
  358.1035 541.5117 328.8964 432 168 432 c 4
 EndSplineSet
 Fore
-Refer: 315 -1 S 1 0 0 1 0 0 0
+Refer: 314 -1 S 1 0 0 1 0 0 0
 Refer: 53 -1 N 1 0 0 1 168 456 0
 Refer: 52 -1 N 1 0 0 1 744 456 0
 Colour: ffff

@@ -1,5 +1,5 @@
 StartChar: WorriedFace.1
-Encoding: 294 -1 294
+Encoding: 294 -1 293
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -46,7 +46,7 @@ SplineSet
  566.8632 408 540 370.3916 540 324 c 0
 EndSplineSet
 Fore
-Refer: 90 -1 S 1 0 0 1 0 0 0
+Refer: 89 -1 S 1 0 0 1 0 0 0
 Refer: 53 -1 N 1 0 0 1 192 456 0
 Refer: 52 -1 N 1 0 0 1 720 456 0
 Refer: 6 -1 N -1 0 0 -1 456 132 0

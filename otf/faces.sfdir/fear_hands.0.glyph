@@ -1,5 +1,5 @@
 StartChar: fear_hands.0
-Encoding: 100 -1 100
+Encoding: 100 -1 99
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -26,7 +26,7 @@ SplineSet
  865.5097 264.0097 874.5576 262.4013 882.0693 259.6171 c 4
 EndSplineSet
 Fore
-Refer: 81 -1 N -1 0 0 1 912 0 0
-Refer: 81 -1 N 1 0 0 1 0 0 0
+Refer: 80 -1 N -1 0 0 1 912 0 0
+Refer: 80 -1 N 1 0 0 1 0 0 0
 Colour: ffff
 EndChar

@@ -1,10 +1,10 @@
 StartChar: JapaneseDolls.9
-Encoding: 371 -1 371
+Encoding: 371 -1 370
 Width: 912
 Flags: MW
 LayerCount: 2
 Back
-Refer: 365 -1 S 1 0 0 1 24 0 0
+Refer: 364 -1 S 1 0 0 1 24 0 0
 Fore
 Refer: 4 -1 N 0.09375 0 0 0.0331875 672 257 0
 Refer: 4 -1 N 0.09375 0 0 0.0331875 240 257 0

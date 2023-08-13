@@ -1,9 +1,9 @@
 StartChar: ShakingFace.2
-Encoding: 213 -1 213
+Encoding: 213 -1 212
 Width: 912
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 211 -1 N 1 0 0 1 192 0 0
+Refer: 210 -1 N 1 0 0 1 192 0 0
 Colour: ffff
 EndChar

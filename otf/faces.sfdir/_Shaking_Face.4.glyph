@@ -1,5 +1,5 @@
 StartChar: ShakingFace.4
-Encoding: 215 -1 215
+Encoding: 215 -1 214
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -128,9 +128,9 @@ SplineSet
  833.5888 561.1083 825.5263 553.0322 815.5917 553.0322 c 0
 EndSplineSet
 Fore
-Refer: 82 -1 S -1 0 0 1 912 0 0
-Refer: 82 -1 N 1 0 0 1 0 0 0
-Refer: 82 -1 S -1 -0 0 -1 912 576 0
-Refer: 82 -1 N 1 0 0 -1 0 576 0
+Refer: 81 -1 S -1 0 0 1 912 0 0
+Refer: 81 -1 N 1 0 0 1 0 0 0
+Refer: 81 -1 S -1 -0 0 -1 912 576 0
+Refer: 81 -1 N 1 0 0 -1 0 576 0
 Colour: ffff
 EndChar

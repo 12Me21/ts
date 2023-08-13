@@ -1,5 +1,5 @@
 StartChar: BabyAngel.0
-Encoding: 587 -1 579
+Encoding: 587 -1 578
 Width: 912
 Flags: W
 LayerCount: 2
@@ -112,6 +112,6 @@ SplineSet
  24 -144 l 1
 EndSplineSet
 Fore
-Refer: 578 -1 N 1 0 0 1 434 0 2
-Refer: 578 -1 N 1 0 0 1 0 0 2
+Refer: 577 -1 N 1 0 0 1 434 0 2
+Refer: 577 -1 N 1 0 0 1 0 0 2
 EndChar

@@ -1,5 +1,5 @@
 StartChar: SmilingFaceWithHalo.3
-Encoding: 125 -1 125
+Encoding: 125 -1 124
 Width: 912
 GlyphClass: 5
 Flags: MW
@@ -37,7 +37,7 @@ SplineSet
  413.0644 264.4082 410.496 264 408 264 c 1
 EndSplineSet
 Fore
-Refer: 283 -1 S 1 0 0 1 0 24 0
+Refer: 282 -1 S 1 0 0 1 0 24 0
 Refer: 7 -1 N 1 0 0 1 576 360 0
 Refer: 7 -1 N 1 0 0 1 336 360 0
 Colour: ffff

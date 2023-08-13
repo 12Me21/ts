@@ -1,5 +1,5 @@
 StartChar: ColdFace.1
-Encoding: 250 -1 250
+Encoding: 250 -1 249
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -165,7 +165,7 @@ SplineSet
  181.2236 467.5195 165 494.9042 165 494.9042 c 1
 EndSplineSet
 Fore
-Refer: 90 -1 S 1 0 0 1 0 31 0
+Refer: 89 -1 S 1 0 0 1 0 31 0
 Refer: 41 -1 S 1 0 0 1 0 -20 0
 Refer: 10 -1 N 1 0 0 -1 744 471 0
 Refer: 10 -1 N -1 0 0 -1 168 471 0

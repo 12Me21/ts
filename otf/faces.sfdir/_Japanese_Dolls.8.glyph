@@ -1,10 +1,10 @@
 StartChar: JapaneseDolls.8
-Encoding: 370 -1 370
+Encoding: 370 -1 369
 Width: 912
 Flags: MW
 LayerCount: 2
 Back
-Refer: 365 -1 S 1 0 0 1 24 0 0
+Refer: 364 -1 S 1 0 0 1 24 0 0
 Fore
 SplineSet
 96 384 m 9,0,-1

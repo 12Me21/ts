@@ -1,5 +1,5 @@
 StartChar: GrinningFaceWithBigEyes.1
-Encoding: 105 -1 105
+Encoding: 105 -1 104
 Width: 912
 GlyphClass: 5
 Flags: MW
@@ -35,7 +35,7 @@ SplineSet
  288 72 240 168 240 168 c 1
 EndSplineSet
 Fore
-Refer: 133 -1 S 1 0 0 1 0 -24 0
+Refer: 132 -1 S 1 0 0 1 0 -24 0
 Refer: 22 -1 N 1 0 0 1 612 288 0
 Refer: 22 -1 N 1 0 0 1 300 288 0
 Colour: ffff

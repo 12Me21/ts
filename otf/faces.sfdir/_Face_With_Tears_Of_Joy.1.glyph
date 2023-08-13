@@ -1,5 +1,5 @@
 StartChar: FaceWithTearsOfJoy.1
-Encoding: 115 -1 115
+Encoding: 115 -1 114
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -72,6 +72,6 @@ EndSplineSet
 Fore
 Refer: 23 -1 N -1 0 0 1 600 504 0
 Refer: 23 -1 N 1 0 0 1 312 504 0
-Refer: 106 -1 N 1 0 0 1 0 0 0
+Refer: 105 -1 N 1 0 0 1 0 0 0
 Colour: ffff
 EndChar

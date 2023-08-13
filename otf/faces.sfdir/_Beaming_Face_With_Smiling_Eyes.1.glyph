@@ -1,5 +1,5 @@
 StartChar: BeamingFaceWithSmilingEyes.1
-Encoding: 107 -1 107
+Encoding: 107 -1 106
 Width: 912
 GlyphClass: 5
 Flags: MW
@@ -52,7 +52,7 @@ SplineSet
  612.7197 68.1845 545.8808 57.7431 456 57.7431 c 0
 EndSplineSet
 Fore
-Refer: 133 -1 S 1 0 0 1 0 -24 0
+Refer: 132 -1 S 1 0 0 1 0 -24 0
 Refer: 7 -1 N 1 0 0 1 576 384 0
 Refer: 7 -1 N 1 0 0 1 336 384 0
 Colour: ffff

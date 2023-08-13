@@ -1,5 +1,5 @@
 StartChar: FaceWithMonocle.1
-Encoding: 287 -1 287
+Encoding: 287 -1 286
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -71,8 +71,8 @@ SplineSet
  561.5283 250.6796 l 5
 EndSplineSet
 Fore
-Refer: 84 -1 N -1.05882 0 0 -1.05882 456 78 0
+Refer: 83 -1 N -1.05882 0 0 -1.05882 456 78 0
 Refer: 67 -1 N 1.05882 0 0 1.05882 -167 -65 0
-Refer: 83 -1 N 1.05882 0 0 1.05882 0 0 0
+Refer: 82 -1 N 1.05882 0 0 1.05882 0 0 0
 Colour: ffff
 EndChar

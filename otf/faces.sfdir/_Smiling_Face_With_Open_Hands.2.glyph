@@ -1,5 +1,5 @@
 StartChar: SmilingFaceWithOpenHands.2
-Encoding: 164 -1 164
+Encoding: 164 -1 163
 Width: 912
 VWidth: 3600
 Flags: MW
@@ -114,8 +114,8 @@ SplineSet
  603.8164 100.9921 612.9843 102.1201 618.3603 106.1757 c 1
 EndSplineSet
 Fore
-Refer: 86 -1 N 0.32467 -0.39526 0.39526 0.32467 514 -90 0
-Refer: 86 -1 N -0.32467 -0.39526 -0.39526 0.32467 398 -90 0
+Refer: 85 -1 N 0.32467 -0.39526 0.39526 0.32467 514 -90 0
+Refer: 85 -1 N -0.32467 -0.39526 -0.39526 0.32467 398 -90 0
 Comment: "todo: redo this and other hands+AAoA"
 Colour: ffff
 EndChar

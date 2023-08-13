@@ -1,5 +1,5 @@
 StartChar: WearyFace.1
-Encoding: 334 -1 334
+Encoding: 334 -1 333
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -65,7 +65,7 @@ Fore
 Refer: 19 -1 N -1 0 0 -1 456 264.97 0
 Refer: 11 -1 N 0.964787 0.263031 -0.263031 0.964787 349 350 0
 Refer: 11 -1 N 0.971134 -0.238533 0.238533 0.971134 565 349 0
-Refer: 88 -1 N -1 0 0 1 648 504 0
-Refer: 88 -1 N 1 0 0 1 264 504 0
+Refer: 87 -1 N -1 0 0 1 648 504 0
+Refer: 87 -1 N 1 0 0 1 264 504 0
 Colour: ffff
 EndChar

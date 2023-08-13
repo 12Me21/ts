@@ -1,9 +1,9 @@
 StartChar: JapaneseDolls.2
-Encoding: 364 -1 364
+Encoding: 364 -1 363
 Width: 912
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 363 -1 N 1 0 0 1 432 0 0
+Refer: 362 -1 N 1 0 0 1 432 0 0
 Colour: ffff
 EndChar

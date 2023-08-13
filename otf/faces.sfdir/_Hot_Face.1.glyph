@@ -1,5 +1,5 @@
 StartChar: HotFace.1
-Encoding: 246 -1 246
+Encoding: 246 -1 245
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -72,7 +72,7 @@ SplineSet
  149.3515 718.4882 229.7519 573 229.7519 517.4882 c 0
 EndSplineSet
 Fore
-Refer: 90 -1 S 1 0 0 1 0 0 0
+Refer: 89 -1 S 1 0 0 1 0 0 0
 Refer: 61 -1 S 1 0 0 1 0 0 0
 Refer: 53 -1 N 1 0 0 1 192 456 0
 Refer: 52 -1 N 1 0 0 1 720 456 0

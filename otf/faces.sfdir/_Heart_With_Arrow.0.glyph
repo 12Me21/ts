@@ -1,5 +1,5 @@
 StartChar: HeartWithArrow.0
-Encoding: 510 -1 504
+Encoding: 510 -1 503
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -69,5 +69,5 @@ SplineSet
  24 720 l 1
 EndSplineSet
 Fore
-Refer: 508 -1 N 1 0 0 1 -359 359 0
+Refer: 507 -1 N 1 0 0 1 -359 359 0
 EndChar

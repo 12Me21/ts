@@ -1,5 +1,5 @@
 StartChar: GrimacingFace.1
-Encoding: 203 -1 203
+Encoding: 203 -1 202
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -86,7 +86,7 @@ SplineSet
  689.039 74.0156 659.5917 48 624 48 c 6
 EndSplineSet
 Fore
-Refer: 90 -1 N 1 0 0 1 0 72 0
+Refer: 89 -1 N 1 0 0 1 0 72 0
 Refer: 41 -1 N 1 0 0 1 0 0 0
 Colour: ffff
 EndChar

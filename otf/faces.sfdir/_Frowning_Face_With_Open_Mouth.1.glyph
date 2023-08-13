@@ -1,5 +1,5 @@
 StartChar: FrowningFaceWithOpenMouth.1
-Encoding: 315 -1 315
+Encoding: 315 -1 314
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -32,7 +32,7 @@ SplineSet
  586.6083 40.2236 588.9599 45.6718 587.6396 50.9042 c 0
 EndSplineSet
 Fore
-Refer: 190 -1 S 1 0 0 1 0 0 0
+Refer: 189 -1 S 1 0 0 1 0 0 0
 Refer: 6 -1 N -1 0 0 -1 456 156 0
 Colour: ffff
 EndChar

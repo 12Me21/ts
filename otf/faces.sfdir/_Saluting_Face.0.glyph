@@ -1,9 +1,9 @@
 StartChar: SalutingFace.0
-Encoding: 181 -1 181
+Encoding: 181 -1 180
 Width: 912
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 263 -1 N 1 0 0 1 72 0 0
+Refer: 262 -1 N 1 0 0 1 72 0 0
 Colour: ffff
 EndChar

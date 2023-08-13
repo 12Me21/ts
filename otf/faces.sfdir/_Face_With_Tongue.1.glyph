@@ -1,5 +1,5 @@
 StartChar: FaceWithTongue.1
-Encoding: 149 -1 149
+Encoding: 149 -1 148
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -41,6 +41,6 @@ SplineSet
 EndSplineSet
 Fore
 Refer: 30 -1 S 1 0 0 1 0 0 0
-Refer: 190 -1 N 1 0 0 1 0 48 0
+Refer: 189 -1 N 1 0 0 1 0 48 0
 Colour: ffff
 EndChar

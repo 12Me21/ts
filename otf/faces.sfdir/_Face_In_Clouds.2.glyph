@@ -1,9 +1,9 @@
 StartChar: FaceInClouds.2
-Encoding: 195 -1 195
+Encoding: 195 -1 194
 Width: 912
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 190 -1 N 0.864 0 0 0.864 74 32 0
+Refer: 189 -1 N 0.864 0 0 0.864 74 32 0
 Colour: ffff
 EndChar

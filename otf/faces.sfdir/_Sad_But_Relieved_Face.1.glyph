@@ -1,5 +1,5 @@
 StartChar: SadButRelievedFace.1
-Encoding: 319 -1 319
+Encoding: 319 -1 318
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -51,7 +51,7 @@ SplineSet
  358.1035 517.5117 328.8964 408 168 408 c 0
 EndSplineSet
 Fore
-Refer: 315 -1 S 1 0 0 1 0 0 0
+Refer: 314 -1 S 1 0 0 1 0 0 0
 Refer: 53 -1 N 1 0 0 1 168 432 0
 Refer: 52 -1 N 1 0 0 1 744 432 0
 Colour: ffff

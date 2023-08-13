@@ -1,8 +1,8 @@
 StartChar: AdhesiveBandage.3
-Encoding: 555 -1 547
+Encoding: 555 -1 546
 Width: 912
 VWidth: 3600
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Back
 SplineSet

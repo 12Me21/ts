@@ -1,5 +1,5 @@
 StartChar: FaceWithSteamFromNose.3
-Encoding: 341 -1 341
+Encoding: 341 -1 340
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -29,7 +29,11 @@ SplineSet
  384 5.0156 341.0156 48 288 48 c 4
 EndSplineSet
 Fore
-Refer: 73 -1 N -1 0 0 1 528 216 0
-Refer: 73 -1 N 1 0 0 1 384 216 0
+Refer: 4 -1 N 0.25 0 0 0.25 624 -48 0
+Refer: 4 -1 N 0.1875 0 0 0.1875 720 0 0
+Refer: 4 -1 N 0.1875 0 0 0.1875 768 -72 0
+Refer: 4 -1 N 0.25 0 0 0.25 288 -48 0
+Refer: 4 -1 N 0.1875 0 0 0.1875 192 0 0
+Refer: 4 -1 N 0.1875 0 0 0.1875 144 -72 0
 Colour: ffff
 EndChar

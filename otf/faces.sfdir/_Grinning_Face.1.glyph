@@ -1,5 +1,5 @@
 StartChar: GrinningFace.1
-Encoding: 104 -1 104
+Encoding: 104 -1 103
 Width: 912
 GlyphClass: 5
 Flags: MW
@@ -35,7 +35,7 @@ SplineSet
  566.8642 480 540 442.3925 540 396 c 4
 EndSplineSet
 Fore
-Refer: 133 -1 N 1 0 0 1 0 0 0
-Refer: 90 -1 N 1 0 0 1 0 72 0
+Refer: 132 -1 N 1 0 0 1 0 0 0
+Refer: 89 -1 N 1 0 0 1 0 72 0
 Colour: ffff
 EndChar

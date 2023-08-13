@@ -1,5 +1,5 @@
 StartChar: FaceWithDiagonalMouth.1
-Encoding: 293 -1 293
+Encoding: 293 -1 292
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -31,7 +31,7 @@ SplineSet
  290.1181 48.1142 291.5732 48.2578 293.0156 48.5283 c 2
 EndSplineSet
 Fore
-Refer: 190 -1 N 1 0 0 1 0 24 0
+Refer: 189 -1 N 1 0 0 1 0 24 0
 Refer: 68 -1 N 1 0 0 1 0 0 0
 Colour: ffff
 EndChar

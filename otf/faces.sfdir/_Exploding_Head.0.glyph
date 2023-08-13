@@ -1,5 +1,5 @@
 StartChar: ExplodingHead.0
-Encoding: 256 -1 256
+Encoding: 256 -1 255
 Width: 912
 Flags: MW
 LayerCount: 2

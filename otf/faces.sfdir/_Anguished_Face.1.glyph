@@ -1,5 +1,5 @@
 StartChar: AnguishedFace.1
-Encoding: 316 -1 316
+Encoding: 316 -1 315
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -48,7 +48,7 @@ SplineSet
  586.6083 40.2236 588.9599 45.6718 587.6396 50.9042 c 0
 EndSplineSet
 Fore
-Refer: 315 -1 S 1 0 0 1 0 0 0
+Refer: 314 -1 S 1 0 0 1 0 0 0
 Refer: 10 -1 S -1 0 0 1 576 552 0
 Refer: 10 -1 S 1 0 0 1 336 552 0
 Colour: ffff

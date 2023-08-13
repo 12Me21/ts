@@ -1,5 +1,5 @@
 StartChar: AngryFace.1
-Encoding: 342 -1 342
+Encoding: 342 -1 341
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -46,7 +46,7 @@ SplineSet
  743.9521 373.2724 733.248 384 720 384 c 0
 EndSplineSet
 Fore
-Refer: 343 -1 S 1 0 0 1 0 -48 0
+Refer: 342 -1 S 1 0 0 1 0 -48 0
 Refer: 24 -1 N -1 0 0 -1 456 108 0
 Colour: ffff
 EndChar

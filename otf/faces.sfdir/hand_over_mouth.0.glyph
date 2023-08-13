@@ -1,5 +1,5 @@
 StartChar: hand_over_mouth.0
-Encoding: 99 -1 99
+Encoding: 99 -1 98
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -64,6 +64,6 @@ SplineSet
  707.1123 526.9199 677.7119 559.5595 623.6162 574.0556 c 0
 EndSplineSet
 Fore
-Refer: 86 -1 N 0.416214 -0.446335 0.446335 0.416214 143 -88 0
+Refer: 85 -1 N 0.416214 -0.446335 0.446335 0.416214 143 -88 0
 Colour: ffff
 EndChar

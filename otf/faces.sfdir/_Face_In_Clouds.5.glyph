@@ -1,5 +1,5 @@
 StartChar: FaceInClouds.5
-Encoding: 198 -1 198
+Encoding: 198 -1 197
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -222,7 +222,7 @@ SplineSet
  831.8203 43.1484 838.7578 34.0546 842.8359 24.5156 c 5
 EndSplineSet
 Fore
-Refer: 80 -1 N 1 0 0 1 0 -36 0
-Refer: 80 -1 N -0.945519 0.325568 -0.325568 -0.945519 935 455 0
+Refer: 79 -1 N 1 0 0 1 0 -36 0
+Refer: 79 -1 N -0.945519 0.325568 -0.325568 -0.945519 935 455 0
 Colour: ffff
 EndChar

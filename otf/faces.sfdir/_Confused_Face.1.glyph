@@ -1,5 +1,5 @@
 StartChar: ConfusedFace.1
-Encoding: 292 -1 292
+Encoding: 292 -1 291
 Width: 912
 Flags: MW
 LayerCount: 2
@@ -25,7 +25,7 @@ SplineSet
  624 96 432 144 312 48 c 1
 EndSplineSet
 Fore
-Refer: 190 -1 N 1 0 0 1 0 0 0
-Refer: 39 -1 N 1 0 0 1 624 120 0
+Refer: 189 -1 N 1 0 0 1 0 0 0
+Refer: 39 -1 S 1 0 0 1 624 120 0
 Colour: ffff
 EndChar
