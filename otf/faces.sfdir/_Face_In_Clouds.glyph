@@ -1,9 +1,0 @@
-StartChar: FaceInClouds
-Encoding: 502 -1 501
-Width: 912
-Flags: MW
-LayerCount: 2
-Ligature2: "'ccmp' emojis 1" FaceWithoutMouth zerojoin Fog
-LCarets2: 2 0 0
-Colour: 80a696
-EndChar
