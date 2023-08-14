@@ -1,0 +1,201 @@
+28	#BBDDF5ff
+15	#88C9F9ff
+6	#55ACEEff
+8	#3B88C3ff
+16	#226699ff
+
+27	#F4ABBAff
+11	#EA596Eff
+5	#DD2E44ff
+32	#BE1931ff
+48	#A0041Eff
+
+31	#FFE8B6ff
+35	#FFD983ff
+0	#FFCC4Dff
+9	#FFAC33ff
+13	#F4900Cff
+20	#F26522ff
+   #E95F28ff starstruck eyes
+45	#D14A15ff dolls
+
+47	#FFB699ff dolls
+	
+29	#AA8DD8ff
+54	#9266CCff
+30	#553788ff
+
+25	#77B255ff
+12	#5C913Bff
+26	#3E721Dff
+
+49	#D99E82ff
+33	#C1694Fff
+53	#662113ff
+
+1	#664500ff face lines
+7	#FF7892ff blush
+
+19	#B55005ff hand lines (new)
+
+2	#FFFFFFff
+3	#F5F8FAff
+23	#E1E8EDff
+17	#CCD6DDff
+24	#AAB8C2ff
+14	#99AAB5ff
+52	#8899A6ff
+22	#66757Fff
+34	#31373Dff
+4	#292F33ff
+
+36	#E6E7E8ff old grayscale
+
+50	#EABAA7ff bandaid
+51	#F7DED5ff bandaid
+
+transparent:
+18	#FFE8B680
+38 #FFCC4D47
+41	#FFCC4D80
+43	#FFCC4Dcc
+42	#66450080
+44	#664500cc
+21 #00000085
+39	#CE5C1Fff exploding head shadow (#00000027)   
+ 
+10	#FF6D0056
+
+x37	#E2A62Dff partying face cheeks
+x46	#F26522ff dolls
+x40	#F36C24ff exploding head
+x21	#452E04ff face with thermometer mouth shadow
+x38	#825D0Eff cowboy hat fill
+
+
+
+#F4900C + ??? = #B55005
+#B55005 alpha:255 (100.0%)
+#B55005 alpha:254 (99.6%)
+#B54F05 alpha:253 (99.2%)
+#B44F05 alpha:252 (98.8%)
+#B44F05 alpha:251 (98.4%)
+#B44F05 alpha:250 (98.0%)
+#B34E05 alpha:249 (97.6%)
+#B34E05 alpha:248 (97.3%)
+#B34E05 alpha:247 (96.9%)
+#B34E05 alpha:246 (96.5%)
+#B24D05 alpha:245 (96.1%)
+#B24D05 alpha:244 (95.7%)
+#B24D05 alpha:243 (95.3%)
+#B24D05 alpha:242 (94.9%)
+#B14C05 alpha:241 (94.5%)
+#B14C05 alpha:240 (94.1%)
+#B14C05 alpha:239 (93.7%)
+#B14B05 alpha:238 (93.3%)
+#B04B04 alpha:237 (92.9%)
+#B04B04 alpha:236 (92.5%)
+#B04B04 alpha:235 (92.2%)
+#AF4A04 alpha:234 (91.8%)
+#AF4A04 alpha:233 (91.4%)
+#AF4A04 alpha:232 (91.0%)
+#AE4904 alpha:231 (90.6%)
+#AE4904 alpha:230 (90.2%)
+#AE4904 alpha:229 (89.8%)
+#AE4804 alpha:228 (89.4%)
+#AD4804 alpha:227 (89.0%)
+#AD4804 alpha:226 (88.6%)
+#AD4704 alpha:225 (88.2%)
+#AC4704 alpha:224 (87.8%)
+#AC4704 alpha:223 (87.5%)
+#AC4604 alpha:222 (87.1%)
+#AB4604 alpha:221 (86.7%)
+#AB4604 alpha:220 (86.3%)
+#AB4504 alpha:219 (85.9%)
+#AA4504 alpha:218 (85.5%)
+#AA4504 alpha:217 (85.1%)
+#AA4404 alpha:216 (84.7%)
+#A94404 alpha:215 (84.3%)
+#A94404 alpha:214 (83.9%)
+#A94304 alpha:213 (83.5%)
+#A84304 alpha:212 (83.1%)
+#A84304 alpha:211 (82.7%)
+#A84204 alpha:210 (82.4%)
+#A74203 alpha:209 (82.0%)
+#A74203 alpha:208 (81.6%)
+#A64103 alpha:207 (81.2%)
+#A64103 alpha:206 (80.8%)
+#A64003 alpha:205 (80.4%)
+#A54003 alpha:204 (80.0%)
+#A54003 alpha:203 (79.6%)
+#A43F03 alpha:202 (79.2%)
+#A43F03 alpha:201 (78.8%)
+#A43E03 alpha:200 (78.4%)
+#A33E03 alpha:199 (78.0%)
+#A33E03 alpha:198 (77.6%)
+#A23D03 alpha:197 (77.3%)
+#A23D03 alpha:196 (76.9%)
+#A23C03 alpha:195 (76.5%)
+#A13C03 alpha:194 (76.1%)
+#A13B03 alpha:193 (75.7%)
+#A03B03 alpha:192 (75.3%)
+#A03B03 alpha:191 (74.9%)
+#9F3A03 alpha:190 (74.5%)
+#9F3A03 alpha:189 (74.1%)
+#9F3903 alpha:188 (73.7%)
+#9E3902 alpha:187 (73.3%)
+#9E3802 alpha:186 (72.9%)
+#9D3802 alpha:185 (72.5%)
+#9D3702 alpha:184 (72.2%)
+#9C3702 alpha:183 (71.8%)
+#9C3602 alpha:182 (71.4%)
+#9B3602 alpha:181 (71.0%)
+#9B3502 alpha:180 (70.6%)
+#9A3502 alpha:179 (70.2%)
+#9A3402 alpha:178 (69.8%)
+#993402 alpha:177 (69.4%)
+#993302 alpha:176 (69.0%)
+#983302 alpha:175 (68.6%)
+#983202 alpha:174 (68.2%)
+#973202 alpha:173 (67.8%)
+#973102 alpha:172 (67.5%)
+#963102 alpha:171 (67.1%)
+#963002 alpha:170 (66.7%)
+#952F01 alpha:169 (66.3%)
+#942F01 alpha:168 (65.9%)
+#942E01 alpha:167 (65.5%)
+#932E01 alpha:166 (65.1%)
+#932D01 alpha:165 (64.7%)
+#922C01 alpha:164 (64.3%)
+#912C01 alpha:163 (63.9%)
+#912B01 alpha:162 (63.5%)
+#902B01 alpha:161 (63.1%)
+#902A01 alpha:160 (62.7%)
+#8F2901 alpha:159 (62.4%)
+#8E2901 alpha:158 (62.0%)
+#8E2801 alpha:157 (61.6%)
+#8D2701 alpha:156 (61.2%)
+#8C2700 alpha:155 (60.8%)
+#8C2600 alpha:154 (60.4%)
+#8B2500 alpha:153 (60.0%)
+#8A2500 alpha:152 (59.6%)
+#8A2400 alpha:151 (59.2%)
+#892300 alpha:150 (58.8%)
+#882200 alpha:149 (58.4%)
+#872200 alpha:148 (58.0%)
+#872100 alpha:147 (57.6%)
+#862000 alpha:146 (57.3%)
+#851F00 alpha:145 (56.9%)
+#841F00 alpha:144 (56.5%)
+#841E00 alpha:143 (56.1%)
+#831D00 alpha:142 (55.7%)
+#821C00 alpha:141 (55.3%)
+#811B00 alpha:140 (54.9%)
+#801B00 alpha:139 (54.5%)
+#801A00 alpha:138 (54.1%)
+#7F1900 alpha:137 (53.7%)
+#7E1800 alpha:136 (53.3%)
+#7D1700 alpha:135 (52.9%)
+#7C1600 alpha:134 (52.5%)
+#7B1500 alpha:133 (52.2%)
+overflow 132 (51.8%)

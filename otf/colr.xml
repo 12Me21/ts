@@ -371,7 +371,7 @@
 			<layer colorID="0" name="ExplodingHead.0"/>
 			<layer colorID="1" name="ExplodingHead.1"/>
 			<layer colorID="13" name="ExplodingHead.2"/>
-			<layer colorID="40" name="ExplodingHead.3"/>
+			<layer colorID="20" name="ExplodingHead.3"/>
 			<layer colorID="39" name="ExplodingHead.4"/> <!-- couldve been shadow -->
 			<layer colorID="17" name="ExplodingHead.5"/>
 			<layer colorID="23" name="ExplodingHead.6"/>
@@ -779,7 +779,7 @@
 		<!-- dolls -->
 		<ColorGlyph name="JapaneseDolls">
 			<layer colorID="6" name="JapaneseDolls.1"/>
-			<layer colorID="46" name="JapaneseDolls.2"/>
+			<layer colorID="20" name="JapaneseDolls.2"/>
 			<layer colorID="16" name="JapaneseDolls.3"/>
 			<layer colorID="45" name="JapaneseDolls.4"/>
 			<layer colorID="28" name="JapaneseDolls.5"/>
@@ -789,7 +789,7 @@
 			<layer colorID="48" name="JapaneseDolls.9"/>
 			<layer colorID="4" name="JapaneseDolls.10"/>
 			<layer colorID="6" name="JapaneseDolls.11"/>
-			<layer colorID="46" name="JapaneseDolls.12"/>
+			<layer colorID="20" name="JapaneseDolls.12"/>
 			<layer colorID="45" name="JapaneseDolls.13"/>
 			<layer colorID="0" name="JapaneseDolls.14"/>
 		</ColorGlyph>
@@ -845,8 +845,8 @@
 			<color index="17" value="#CCD6DDff"/> <!-- Gray -->
 			<color index="18" value="#FFE8B680"/> <!-- dotted line face (Faded Yellow at 50% opacity) -->
 			<color index="19" value="#B55005ff"/> <!-- new hand lines -->
-			<color index="20" value="#E95F28ff"/> <!-- starstruck eyes -->
-			<color index="21" value="#452E04ff"/> <!-- face with thermometer mouth shadow -->
+			<color index="20" value="#F26522ff"/> <!-- starstruck eyes / darker orange-->
+			<color index="21" value="#452E04ff"/> <!-- face with thermometer mouth shadow (could be #00000085?)-->
 			<color index="22" value="#66757Fff"/> <!-- Dark Gray -->
 			<color index="23" value="#E1E8EDff"/> <!-- border gray -->
 			<color index="24" value="#AAB8C2ff"/> <!-- medium-light gray -->
@@ -863,16 +863,17 @@
 			<color index="35" value="#FFD983ff"/> <!-- Light Yellow -->
 			<color index="36" value="#E6E7E8ff"/> <!-- old grayscale for white heart-->
 			<color index="37" value="#E2A62Dff"/> <!-- partying face cheeks -->
-			<color index="38" value="#825D0Eff"/> <!-- cowboy hat inner x #8A4B38 -->
+			<color index="38" value="#825D0Eff"/> <!-- cowboy hat inner (could be #FFCC4D47?) -->
 			<color index="39" value="#CE5C1Fff"/> <!-- exploding head, blast 2 -->
-			<color index="40" value="#F36C24ff"/> <!-- exploding head, blast -->
+			<color index="40" value="#000000ff"/>
+			
 			<color index="41" value="#FFCC4D80"/> <!-- shaking face -->
 			<color index="42" value="#66450080"/> <!-- ... -->
 			<color index="43" value="#FFCC4Dcc"/> <!-- ... -->
 			<color index="44" value="#664500cc"/> <!-- ... -->
 			
-			<color index="45" value="#D14A15ff"/> <!-- dolls (some are similar to explodinghead) -->
-			<color index="46" value="#F26522ff"/> <!-- ... -->
+			<color index="45" value="#D14A15ff"/> <!-- dolls / darkest orange-->
+			<color index="46" value="#000000ff"/>
 			<color index="47" value="#FFB699ff"/> <!-- ... -->
 			<color index="48" value="#A0041Eff"/> <!-- Dark Red -->
 			
