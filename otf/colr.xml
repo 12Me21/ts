@@ -236,11 +236,11 @@
 			<layer colorID="1" name="NeutralFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceInClouds">
-			<!-- i darkened the clouds, to be visible on light bg -->
+			<!-- i darkened the clouds, to be visible on light bg // nevermind i added a doubled layer instead.. -->
 			<layer colorID="3" name="FaceInClouds.0"/> f5
 			<layer colorID="0" name="FaceInClouds.1"/> yellow
 			<layer colorID="17" name="FaceInClouds.3"/> cc
-			<layer colorID="17" name="FaceInClouds.4"/> f5
+			<layer colorID="24" name="FaceInClouds.4"/> f5
 			<layer colorID="3" name="FaceInClouds.4"/> f5
 			<layer colorID="23" name="FaceInClouds.5"/> e1
 			
@@ -378,11 +378,12 @@
 		</ColorGlyph>
 		<!-- hat/glasses -->
 		<ColorGlyph name="CowboyHatFace">
+			<layer colorID="3" name="CowboyHatFace.2"/> <!-- fringe -->
 			<layer colorID="0" name="CowboyHatFace.0"/>
 			<layer colorID="1" name="CowboyHatFace.1"/>
-			<layer colorID="38" name="CowboyHatFace.2"/> <!-- changed for dark bg -->
-			<layer colorID="33" name="CowboyHatFace.3"/> <!-- replaced with new color -->
-			<layer colorID="38" name="CowboyHatFace.4"/>
+			<layer colorID="1" name="CowboyHatFace.2"/>
+			<layer colorID="38" name="CowboyHatFace.3"/>
+			<layer colorID="1" name="CowboyHatFace.4"/>
 		</ColorGlyph>
 		<ColorGlyph name="PartyingFace">
 			<layer colorID="0" name="PartyingFace.0"/>
@@ -530,6 +531,7 @@
 			<layer colorID="1" name="ConfoundedFace.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="PerseveringFace">
+			<!--<layer colorID="4" name="head36.0"/> test -->
 			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="PerseveringFace.1"/>
 		</ColorGlyph>
@@ -594,6 +596,8 @@
 		</ColorGlyph>
 		<!-- costume -->
 		<ColorGlyph name="ClownFace">
+			<layer colorID="33" name="head36.0"/> <!-- edge -->
+			
 			<layer colorID="8" name="ClownFace.0"/>
 			<layer colorID="31" name="head36.0"/>
 			<layer colorID="7" name="ClownFace.2"/>
@@ -628,7 +632,8 @@
 			<layer colorID="4" name="Alien.1"/> 
 		</ColorGlyph>
 		<ColorGlyph name="Ghost">
-			<layer colorID="17" name="Ghost.0"/>  <!-- changed from 23 -->
+			<layer colorID="4" name="Ghost.0"/>
+			<layer colorID="23" name="Ghost.0"/>
 			<layer colorID="4" name="Ghost.1"/> 
 			<layer colorID="14" name="Ghost.2"/> 
 		</ColorGlyph>
@@ -761,7 +766,7 @@
 			<layer colorID="33" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="BlackHeart">
-			<layer colorID="3" name="heart_colored.0"/>
+			<layer colorID="2" name="heart_colored.0"/>
 			<layer colorID="34" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="GreyHeart">
@@ -858,7 +863,7 @@
 			<color index="35" value="#FFD983ff"/> <!-- Light Yellow -->
 			<color index="36" value="#E6E7E8ff"/> <!-- old grayscale for white heart-->
 			<color index="37" value="#E2A62Dff"/> <!-- partying face cheeks -->
-			<color index="38" value="#8A4B38ff"/> <!-- cowboy hat #825D0E -->
+			<color index="38" value="#825D0Eff"/> <!-- cowboy hat inner x #8A4B38 -->
 			<color index="39" value="#CE5C1Fff"/> <!-- exploding head, blast 2 -->
 			<color index="40" value="#F36C24ff"/> <!-- exploding head, blast -->
 			<color index="41" value="#FFCC4D80"/> <!-- shaking face -->
