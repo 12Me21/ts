@@ -237,12 +237,14 @@
 		</ColorGlyph>
 		<ColorGlyph name="FaceInClouds">
 			<!-- i darkened the clouds, to be visible on light bg -->
-			<layer colorID="23" name="FaceInClouds.0"/> f5
+			<layer colorID="3" name="FaceInClouds.0"/> f5
 			<layer colorID="0" name="FaceInClouds.1"/> yellow
-			<layer colorID="1" name="FaceInClouds.2"/> line
 			<layer colorID="17" name="FaceInClouds.3"/> cc
-			<layer colorID="23" name="FaceInClouds.4"/> f5
-			<layer colorID="17" name="FaceInClouds.5"/> e1
+			<layer colorID="17" name="FaceInClouds.4"/> f5
+			<layer colorID="3" name="FaceInClouds.4"/> f5
+			<layer colorID="23" name="FaceInClouds.5"/> e1
+			
+			<layer colorID="1" name="FaceInClouds.2"/> line
 <!--			<layer colorID="18" name="DottedLineFace.0"/>
 			<layer colorID="0" name="DottedLineFace.2"/>
 			<layer colorID="1" name="NeutralFace.1"/>-->
@@ -378,9 +380,9 @@
 		<ColorGlyph name="CowboyHatFace">
 			<layer colorID="0" name="CowboyHatFace.0"/>
 			<layer colorID="1" name="CowboyHatFace.1"/>
-			<layer colorID="1" name="CowboyHatFace.2"/>
-			<layer colorID="38" name="CowboyHatFace.3"/>
-			<layer colorID="1" name="CowboyHatFace.4"/>
+			<layer colorID="38" name="CowboyHatFace.2"/> <!-- changed for dark bg -->
+			<layer colorID="33" name="CowboyHatFace.3"/> <!-- replaced with new color -->
+			<layer colorID="38" name="CowboyHatFace.4"/>
 		</ColorGlyph>
 		<ColorGlyph name="PartyingFace">
 			<layer colorID="0" name="PartyingFace.0"/>
@@ -579,7 +581,7 @@
 		<ColorGlyph name="SmilingFaceWithHorns">
 			<layer colorID="29" name="bg_horns.0"/>
 			<layer colorID="29" name="head36.0"/>
-			<layer colorID="30" name="AngryFace.1"/>
+			<layer colorID="30" name="SmilingFaceWithHorns.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="AngryFaceWithHorns">
 			<layer colorID="29" name="bg_horns.0"/>
@@ -676,11 +678,11 @@
 		</ColorGlyph>
 		<!-- hearts -->
 		<ColorGlyph name="HeartWithArrow">
-			<layer colorID="9" name="HeartWithArrow.0"/>
-			<layer colorID="11" name="HeartWithArrow.1"/>
-			<layer colorID="0" name="HeartWithArrow.2"/>
-			<layer colorID="9" name="HeartWithArrow.3"/>
-			<layer colorID="5" name="HeartWithArrow.4"/>
+			<layer colorID="9" name="HeartWithArrow.0"/> -1 ffac
+			<layer colorID="11" name="HeartWithArrow.1"/> 
+			<layer colorID="6" name="HeartWithArrow.2"/> 0 ffcc4d
+			<layer colorID="9" name="HeartWithArrow.3"/> -2 f49
+			<layer colorID="32" name="HeartWithArrow.4"/>
 		</ColorGlyph>
 		<ColorGlyph name="HeartWithRibbon">
 			<layer colorID="11" name="heart_colored.0"/>
@@ -699,7 +701,7 @@
 		</ColorGlyph>
 		<ColorGlyph name="BeatingHeart">
 			<layer colorID="11" name="BeatingHeart.0"/>
-			<layer colorID="0" name="BeatingHeart.1"/>
+			<layer colorID="9" name="BeatingHeart.1"/> <!-- darkened -->
 		</ColorGlyph>
 		<ColorGlyph name="RevolvingHearts">
 			<layer colorID="27" name="RevolvingHearts.0"/>
@@ -759,14 +761,14 @@
 			<layer colorID="33" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="BlackHeart">
-			<layer colorID="3" name="heart_outlinebg.0"/>
+			<layer colorID="3" name="heart_colored.0"/>
 			<layer colorID="34" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="GreyHeart">
 			<layer colorID="14" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="WhiteHeart">
-			<layer colorID="4" name="heart_outlinebg.0"/>
+			<layer colorID="4" name="heart_colored.0"/>
 			<layer colorID="23" name="heart_colored.0"/>
 		</ColorGlyph>
 		<!-- dolls -->
@@ -856,7 +858,7 @@
 			<color index="35" value="#FFD983ff"/> <!-- Light Yellow -->
 			<color index="36" value="#E6E7E8ff"/> <!-- old grayscale for white heart-->
 			<color index="37" value="#E2A62Dff"/> <!-- partying face cheeks -->
-			<color index="38" value="#825D0Eff"/> <!-- cowboy hat fill -->
+			<color index="38" value="#8A4B38ff"/> <!-- cowboy hat #825D0E -->
 			<color index="39" value="#CE5C1Fff"/> <!-- exploding head, blast 2 -->
 			<color index="40" value="#F36C24ff"/> <!-- exploding head, blast -->
 			<color index="41" value="#FFCC4D80"/> <!-- shaking face -->
