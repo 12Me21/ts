@@ -78,6 +78,11 @@ typedef struct BE {
 	I16 xMin, yMin, xMax, yMax;
 } Glyph1;
 
+typedef struct BE {
+	U16 flags;
+	U16 glyphIndex;
+} Component1;
+
 typedef struct {
 	char* name;
 	int total;
@@ -124,7 +129,7 @@ void main(int argc, char* argv[argc]) {
 	int prev = -1;
 	for (int i=0; i<=loca.length/2; i++) {
 		int curr = loca2->small[i]*2;
-		printf("glyph %d: loca=%d\n", i, curr);
+		//printf("glyph %d: loca=%d\n", i, curr);
 		if (prev>=0) {
 			//sizes[i-1] += 2;
 			int len = curr-prev;
@@ -162,9 +167,39 @@ void main(int argc, char* argv[argc]) {
 			name = strings[curr-258];
 		else
 			name = "<name>";
+		
+		//int size = loca2->small[i+1]*2 - loca2->small[i]*2;
 		fseek(file, glyf.offset+loca2->small[i]*2, SEEK_SET);
 		Glyph1 glyph;
 		fread(&glyph, sizeof(glyph), 1, file);
+		if (glyph.contourCount<0) {
+			while (1) {
+				Component1 comp;
+				fread(&comp, sizeof(comp), 1, file);
+				int len = (comp.flags&0x001) ? 4 : 2;
+				if (comp.flags&0x008)
+					len += 2;
+				else if (comp.flags&0x040)
+					len += 4;
+				else if (comp.flags&0x080)
+					len += 8;
+				
+				int ref = post3->glyphNameIndex[comp.glyphIndex];
+				char* name;
+				if (ref>=258)
+					name = strings[ref-258];
+				else
+					name = "<name>";
+				
+				printf("/ component: %d(%s). flags: %3X\n", comp.glyphIndex, name, comp.flags);
+				fseek(file, len, SEEK_CUR);
+				if (!(comp.flags&0x020))
+					break;
+			}
+		} else {
+			
+		}
+		
 		int type = (glyph.contourCount>0) + (glyph.contourCount<0)*2;
 		//glyph.contourCount
 		printf("%d %d+10 | glyph %d: %s\n", glyph.contourCount, sizes[i]-2*5, i, name); // -10 means it reuses the previous def
