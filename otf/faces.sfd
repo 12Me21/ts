@@ -57,7 +57,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 342 18 8
+WinInfo: 486 18 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -103,7 +103,7 @@ EndChar
 StartChar: .null
 Encoding: 1 -1 1
 Width: 0
-Flags: W
+Flags: WO
 LayerCount: 2
 EndChar
 

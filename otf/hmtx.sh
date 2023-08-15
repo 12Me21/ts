@@ -3,4 +3,6 @@
 
 ttx -v -b -m raw.ttf -o faces-colr.ttf colr.xml
 
-# TODO: remove unnecessary tables like GDEF etc.
+fonttools subset faces-colr.ttf '*' --no-subset-tables+=COLR,CPAL --canonical-order --drop-tables+=gasp,BASE,GDEF,GPOS --flavor=woff2
+
+# hi
