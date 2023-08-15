@@ -2,7 +2,9 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdint.h>
+#include <stdbool.h>
 #include <err.h>
+
 
 // :(
 //#pragma scalar_storage_order big-endian
@@ -13,7 +15,7 @@ typedef uint8_t U8;
 typedef uint16_t U16;
 typedef int16_t I16;
 
-typedef uint64_t Date64;
+typedef int64_t Date64;
 
 typedef uint32_t Fixed32; // todo?
 typedef uint32_t Version32; // todo
@@ -38,11 +40,11 @@ typedef struct BE {
 } TableDirectory;
 
 typedef union BE {
-	U16 small[0];
 	U32 large[0];
+	U16 small[0];
 } Loca;
 
-typedef union BE {
+typedef struct BE {
 	U16 majorVersion, minorVersion;
 	Fixed32 fontRevision;
 	U32 checksumAdjustment;
@@ -50,12 +52,12 @@ typedef union BE {
 	U16 flags;
 	U16 unitsPerEm;
 	Date64 created, modified;
-	U16 xMin, yMin, xMax, yMax;
+	I16 xMin, yMin, xMax, yMax;
 	U16 macStyle;
 	U16 lowestRecPPEM;
-	U16 fontDirectionHint;
-	U16 indexToLocFormat;
-	U16 glyphDataFormat;
+	I16 fontDirectionHint;
+	I16 indexToLocFormat;
+	I16 glyphDataFormat;
 } Head;
 
 typedef struct BE {
@@ -71,6 +73,11 @@ typedef struct BE {
 	U16 glyphNameIndex[0];
 } Post2;
 
+typedef struct BE {
+	I16 contourCount;
+	I16 xMin, yMin, xMax, yMax;
+} Glyph1;
+
 typedef struct {
 	char* name;
 	int total;
@@ -82,7 +89,7 @@ void main(int argc, char* argv[argc]) {
 	FILE* file = fopen("raw.ttf", "r");
 	
 	int sizes[1000] = {0};
-	TableRecord loca = {0}, head = {0}, post = {0};
+	TableRecord loca = {0}, head = {0}, post = {0}, glyf = {0};
 	
 	TableDirectory td;
 	fread(&td, sizeof(td), 1, file);
@@ -96,6 +103,8 @@ void main(int argc, char* argv[argc]) {
 			head = tr;
 		else if (!memcmp(tr.tag, "post", 4))
 			post = tr;
+		else if (!memcmp(tr.tag, "glyf", 4))
+			glyf = tr;
 	}
 	
 	if (!loca.offset||!head.offset||!post.offset)
@@ -103,7 +112,8 @@ void main(int argc, char* argv[argc]) {
 	
 	fseek(file, head.offset, SEEK_SET);
 	Head head2;
-	fread(&head2, sizeof(head2), 1, file); // todo: other head versions?
+	fread(&head2, sizeof(Head), 1, file); // todo: other head versions?
+	//printf("head sizeof: %d, length: %d\n", sizeof(Head), head.length);
 	
 	printf("loca fmt: %d\n", head2.indexToLocFormat);
 	
@@ -113,12 +123,12 @@ void main(int argc, char* argv[argc]) {
 	
 	int prev = -1;
 	for (int i=0; i<=loca.length/2; i++) {
-		int curr = loca2->small[i];
+		int curr = loca2->small[i]*2;
+		printf("glyph %d: loca=%d\n", i, curr);
 		if (prev>=0) {
-			sizes[i-1] += 2;
+			//sizes[i-1] += 2;
 			int len = curr-prev;
 			sizes[i-1] += len;
-			//printf("glyph %d: size=%d\n", i-1, len);
 		}
 		prev = curr;
 	}
@@ -152,7 +162,13 @@ void main(int argc, char* argv[argc]) {
 			name = strings[curr-258];
 		else
 			name = "<name>";
-		printf("%d | glyph %d: %s\n", sizes[i], i, name);
+		fseek(file, glyf.offset+loca2->small[i]*2, SEEK_SET);
+		Glyph1 glyph;
+		fread(&glyph, sizeof(glyph), 1, file);
+		int type = (glyph.contourCount>0) + (glyph.contourCount<0)*2;
+		//glyph.contourCount
+		printf("%d %d+10 | glyph %d: %s\n", glyph.contourCount, sizes[i]-2*5, i, name); // -10 means it reuses the previous def
+		
 	}
 	
 	/*
