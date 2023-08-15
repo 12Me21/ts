@@ -1,56 +1,75 @@
+#include <stdlib.h>
+#include <string.h>
 #include <stdio.h>
 #include <stdint.h>
-#include <arpa/inet.h>
-#include <stdlib.h>
-#include <unistd.h>
+#include <err.h>
+
+// :(
+//#pragma scalar_storage_order big-endian
+#define BE __attribute__((packed, scalar_storage_order("big-endian")))
 
 typedef uint32_t U32;
 typedef uint8_t U8;
 typedef uint16_t U16;
+typedef int16_t I16;
 
-U8 temp[100000]; //hopefully no png chunks are larger than this!
+typedef uint64_t Date64;
 
-U8* read2(ssize_t n) {
-	U8* dest = temp;
-	while (n) {
-		ssize_t amt = read(0, dest, n);
-		n -= amt;
-		dest += amt;
-	}
-	return temp;
-}
+typedef uint32_t Fixed32; // todo?
+typedef uint32_t Version32; // todo
 
-void write2(U8* buffer, ssize_t n) {
-	while (n) {
-		ssize_t amt = write(1, buffer, n);
-		n -= amt;
-		buffer += amt;
-	}
-}
-
-U32 read32be(void) {
-	read2(4);
-	U32 res = *(U32*)temp; // uh idk if this is allowed... alignment and all
-	return ntohl(res);
-}
-
-void skip(ssize_t b) {
-	read2(b);
-}
-
-/*typedef struct {
-	Tag tag;
-	uint32 checksum;
-	uint32 offset;
-	uint32 length;
-} TableRecord;
+typedef char Tag[4];
 
 typedef struct {
-	uint32 version;
-	uint16 tableCount;
-	uint16 searchRange, entrySelector, rangeShift;
-	TableRecord tableRecords[0];
-	} TableDirectory;**/
+	U32 offset, length;
+} Range; 
+
+typedef struct BE {
+	Tag tag;
+	U32 checksum;
+	U32 offset, length;
+} TableRecord;
+
+typedef struct BE {
+	U32 version;
+	U16 tableCount;
+	struct { U16 searchRange, entrySelector, rangeShift; };
+	//TableRecord tableRecords[0];
+} TableDirectory;
+
+typedef union BE {
+	U16 small[0];
+	U32 large[0];
+} Loca;
+
+typedef union BE {
+	U16 majorVersion, minorVersion;
+	Fixed32 fontRevision;
+	U32 checksumAdjustment;
+	U32 magicNumber;
+	U16 flags;
+	U16 unitsPerEm;
+	Date64 created, modified;
+	U16 xMin, yMin, xMax, yMax;
+	U16 macStyle;
+	U16 lowestRecPPEM;
+	U16 fontDirectionHint;
+	U16 indexToLocFormat;
+	U16 glyphDataFormat;
+} Head;
+
+typedef struct BE {
+	Version32 version;
+	Fixed32 italicAngle;
+	I16 underlinePosition, underlineThickness;
+	U32 isFixedPitch;
+	U32 minMemType42, maxMemType42, minMemType1, maxMemType1;
+} Post;
+
+typedef struct BE {
+	U16 glyphCount;
+	U16 glyphNameIndex[0];
+} Post2;
 
 typedef struct {
 	char* name;
@@ -60,66 +79,85 @@ typedef struct {
 collect collects[100];
 
 void main(int argc, char* argv[argc]) {
-	int sizes[1000] = {0};
+	FILE* file = fopen("raw.ttf", "r");
 	
-	read2(4);
-	read2(2);
-	int count = temp[0]<<8 | temp[1];
-	read2(2*3);
-	int loca_offset = -1, loca_len;
-	int head_offset = -1, head_len;
-	int post_offset = -1, post_len;
-	for (int i=0; i<count; i++) {
-		read2(4);
-		printf("table: %4.4s\n", temp);
-		if (temp[0]=='l'&&temp[1]=='o'&&temp[2]=='c'&&temp[3]=='a') {
-			read2(4);
-			loca_offset = read32be();
-			loca_len = read32be();
-		} else if (temp[0]=='h'&&temp[1]=='e'&&temp[2]=='a'&&temp[3]=='d') {
-			read2(4);
-			head_offset = read32be();
-			head_len = read32be();
-		} else if (temp[0]=='p'&&temp[1]=='o'&&temp[2]=='s'&&temp[3]=='t') {
-			read2(4);
-			post_offset = read32be();
-			post_len = read32be();
-		} else {
-			read2(4);
-			read2(4);
-			read2(4);
-		}
+	int sizes[1000] = {0};
+	TableRecord loca = {0}, head = {0}, post = {0};
+	
+	TableDirectory td;
+	fread(&td, sizeof(td), 1, file);
+	for (int i=0; i<td.tableCount; i++) {
+		TableRecord tr;
+		fread(&tr, sizeof(tr), 1, file);
+		printf("table: %4.4s\n", tr.tag);
+		if (!memcmp(tr.tag, "loca", 4))
+			loca = tr;
+		else if (!memcmp(tr.tag, "head", 4))
+			head = tr;
+		else if (!memcmp(tr.tag, "post", 4))
+			post = tr;
 	}
-	if (loca_offset<0||head_offset<0)
+	
+	if (!loca.offset||!head.offset||!post.offset)
 		return;
-	lseek(0, head_offset, SEEK_SET);
-	read2(2+2+4+4+4+2+2+8+8+2*7);
-	read2(2);
-	int loca_fmt = temp[0]<<8 | temp[1];
-	printf("loca fmt: %d\n", loca_fmt);
-	lseek(0, loca_offset, SEEK_SET);
+	
+	fseek(file, head.offset, SEEK_SET);
+	Head head2;
+	fread(&head2, sizeof(head2), 1, file); // todo: other head versions?
+	
+	printf("loca fmt: %d\n", head2.indexToLocFormat);
+	
+	fseek(file, loca.offset, SEEK_SET);
+	Loca* loca2 = malloc(loca.length);
+	fread(loca2, loca.length, 1, file);
+	
 	int prev = -1;
-	for (int i=0; i<=loca_len/2; i++) {
-		read2(2);
-		int curr = temp[0]<<8 | temp[1];
+	for (int i=0; i<=loca.length/2; i++) {
+		int curr = loca2->small[i];
 		if (prev>=0) {
 			sizes[i-1] += 2;
 			int len = curr-prev;
 			sizes[i-1] += len;
-			printf("glyph %d: size=%d\n", i-1, len);
+			//printf("glyph %d: size=%d\n", i-1, len);
 		}
 		prev = curr;
 	}
-	lseek(0, post_offset, SEEK_SET);
-	int version = read32be();
-	read2(4+2+2+4+4*4);
-	post_len-=4+ 4+2+2+4+4*4;
-	read2(2);
-	post_len-=2;
-	printf("at post\n");
-	int nnames = temp[0]<<8 | temp[1];
+	
+	fseek(file, post.offset, SEEK_SET);// && err(1, "fseek...");
+	Post post2;
+	fread(&post2, sizeof(post2), 1, file);
+	
+	printf("version: %X\n", post2.version);
+	
+	Post2* post3 = malloc(post.length - sizeof(post2));
+	fread(post3, sizeof(Post2), 1, file);
+	fread(&post3->glyphNameIndex, sizeof(U16), post3->glyphCount, file);
+	
+	char* strings[1000];
+	for (int i=0; ; i++) {
+		U8 len;
+		fread(&len, 1, 1, file);
+		if (!len)
+			break;
+		strings[i] = malloc(len+1);
+		fread(strings[i], 1, len, file);
+		strings[i][len] = '\0';
+		//printf("%s\n", strings[i]);
+	}
+	
+	for (int i=0; i<post3->glyphCount; i++) {
+		int curr = post3->glyphNameIndex[i];
+		char* name;
+		if (curr>=258)
+			name = strings[curr-258];
+		else
+			name = "<name>";
+		printf("%d | glyph %d: %s\n", sizes[i], i, name);
+	}
+	
+	/*
 	int names[1000];
-	for (int i=0; i<nnames; i++) {
+	for (int i=0; i<post3.glyphCount; i++) {
 		post_len-=2;
 		read2(2);
 		int curr = temp[0]<<8 | temp[1];
@@ -146,4 +184,5 @@ void main(int argc, char* argv[argc]) {
 		int size = sizes[i];
 		printf("%d : glyph %d (%s)\n", size, i, name);
 	}
+	*/
 }
