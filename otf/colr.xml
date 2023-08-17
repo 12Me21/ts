@@ -337,6 +337,7 @@
 			<layer colorID="12" name="FaceVomiting.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="SneezingFace">
+			<layer colorID="4" name="SneezingFace.2"/>
 			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="SneezingFace.1"/>
 			<layer colorID="23" name="SneezingFace.2"/> <!-- changed from 17,3 -->
@@ -561,6 +562,7 @@
 		</ColorGlyph>
 		<!-- negative -->
 		<ColorGlyph name="FaceWithSteamFromNose">
+			<layer colorID="4" name="FaceWithSteamFromNose.3"/>
 			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceWithSteamFromNose.1"/>
 			<layer colorID="3" name="FaceWithSteamFromNose.2"/>
