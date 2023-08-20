@@ -4,22 +4,29 @@
 
 <style>
 	@font-face {
+		font-family: roboto;
+		src: url(roboto-400.woff2) format('woff2');
+	}
+
+	@font-face {
 		font-family: 'flushed';
-		src: url("./faces-colr.subset.woff2?2106") format('woff2');
+		src: url("./faces-colr.subset.woff2?2110") format('woff2');
 		font-display: block;
 		font-weight: bold; /*font-weight: 100 900; /* this prevents bold font synthesis */
-		//unicode-range: TODO UPDATE THIS!
-		
-		
-		
-			U+200D,U+FE0F, /* control */
-			U+2763,U+2764,0x1F48B,0x1F48C,0x1F493-0x1F49F,U+1F5A4,U+1F9E1,U+1FA75-U+1FA77,U+1F90D-U+1F90E, /* hearts */
-			U+1F32B,U+1F4A8,U+1F4AB,U+1F525,U+1FA79, /* extra */
-			U+1F38E, /* dolls */
-			U+2639,U+263A,U+1F47F-0x1F480,U+1F600-U+1F637,U+1F641-U+1F644,U+1F910-U+1F915,U+1F917,U+1F920-U+1F925,U+1F927-U+1F92F,U+1F970-U+1F976,U+1F978-U+1F97A,U+1F9D0,U+1FAE0-U+1FAE5,U+1FAE8; /* faces */
+		unicode-range:
+			/*control*/
+			U+200D,U+FE0F,
+			/*extra*/
+			U+1F32B,U+1F4A8,U+1F4AB,U+1F525,U+1FA79,
+			/*hearts*/
+			U+2763-U+2764,U+1F493-U+1F49F,U+1F5A4,U+1F90D-U+1F90E,U+1F9E1,U+1FA75-U+1FA77,
+			/*faces*/
+			U+2639-U+263B,U+1F479-U+1F480,U+1F4A9,U+1F600-U+1F637,U+1F641-U+1F644,U+1F910-U+1F917,U+1F920-U+1F925,U+1F927-U+1F92F,U+1F970-U+1F976,U+1F978-U+1F97A,U+1F9D0,U+1FAE0-U+1FAE5,U+1FAE8,
+			/*bonus*/
+			U+1F38E,U+E010;
 	}
 	.custom-emoji {
-		font-family: flushed, serif;
+		font-family: roboto, flushed, sans-serif;
 		tab-size: 3;
 		-moz-tab-size: 3;
 		/* font-synthesis: none; */
@@ -51,6 +58,7 @@
 		
 	}
 	.default-emoji {
+		font-family: roboto, sans-serif;
 /*		font-family: noto color emoji;*/
 	}
 	.dark {
@@ -81,9 +89,24 @@ Test
 <g class='emoji custom-emoji' style=display:block>
 	<div class='label'>custom:</div>
 	🎎
+	Hello<br>
+	abc<br>
+	def<br>
 	Hello
+	😀😃😄😁😆🥹😅😂🤣🥲<br>
+	☺️😊😇🙂🙃😉😌😍🥰😘<br>
+	😗😙😚😋😛😝😜🤪🤨🧐<br>
+	🤓😎🥸🤩🥳😏😒😞😔😟<br>
+	😕🙁☹️😣😖😫😩🥺😢😭<br>
+	😤😠😡🤬🤯😳🥵🥶😶‍🌫️😱<br>
+	😨😰😥😓🤗🤔🫣🤭🫢🫡<br>
+	🤫🫠🤥😶🫥😐🫤😑🫨😬<br>
+	🙄😯😦😧😮😲🥱😴🤤😪<br>
+	😮‍💨😵😵‍💫🤐🥴🤢🤮🤧😷🤒<br>
+	🤕🤑🤠😈👿👹👺🤡💩👻💀👽👾🤖👼<br>
+	
 	😀😃😄😁😆😅🤣😂🙂🙃🫠😉😊😇 /
-	🥰😍🤩😘😗☺️😚😙🥲 /
+	🥰😍😘😗☺️😚😙🥲 /
 	😋😛😜🤪😝🤑 /
 	🤗🤭🫢🫣🤫🤔🫡 /
 	🤐🤨😐😑😶🫥😶‍🌫️😏😒🙄😬😮‍💨🤥 /
@@ -102,6 +125,7 @@ Test
 	<g class='dim box show-hearts'></g>
 	<g class='dark box show-hearts'></g>
 </g>
+
 <hr>
 <g class='emoji default-emoji'>
 	<g class='box show-hearts'></g>

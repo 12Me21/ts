@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1688857346
-ModificationTime: 1692364519
+ModificationTime: 1692492081
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -33,16 +33,16 @@ VLineGap: 0
 Panose: 5 2 1 3 1 2 2 2 2 2
 OS2TypoAscent: 756
 OS2TypoAOffset: 0
-OS2TypoDescent: -108
+OS2TypoDescent: -180
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 770
+OS2WinAscent: 744
 OS2WinAOffset: 0
-OS2WinDescent: -120
+OS2WinDescent: 168
 OS2WinDOffset: 0
 HheadAscent: 756
 HheadAOffset: 0
-HheadDescent: -108
+HheadDescent: -180
 HheadDOffset: 0
 OS2FamilyClass: 3072
 OS2Vendor: '12;;'
@@ -57,10 +57,18 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 18 8
+WinInfo: 54 18 8
 BeginPrivate: 0
 EndPrivate
 Grid
+292 -168 m 1049
+292 -120 m 1049
+292 -96 m 1049
+236 744 m 1049
+236 -96 m 1049
+236 0 m 1049
+236 -108 m 1049
+236 756 m 1049
 1560 288 m 0
  -744 288 l 1024
   Named: "center"
