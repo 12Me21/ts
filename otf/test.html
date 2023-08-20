@@ -12,7 +12,7 @@
 
 	@font-face {
 		font-family: 'flushed';
-		src: url("./faces-colr.subset.woff2?2117") format('woff2');
+		src: url("./faces-colr.subset.woff2?2128") format('woff2');
 		font-display: block;
 		font-weight: bold; /*font-weight: 100 900; /* this prevents bold font synthesis */
 		unicode-range:
@@ -25,7 +25,7 @@
 			/*faces*/
 			U+2639-U+263B,U+1F479-U+1F480,U+1F4A9,U+1F600-U+1F637,U+1F641-U+1F644,U+1F910-U+1F917,U+1F920-U+1F925,U+1F927-U+1F92F,U+1F970-U+1F976,U+1F978-U+1F97A,U+1F9D0,U+1FAE0-U+1FAE5,U+1FAE8,
 			/*bonus*/
-			U+1F38E,U+E010;
+			U+1F38E;
 	}
 	.custom-emoji {
 		font-family: roboto, flushed, sans-serif;
@@ -94,32 +94,34 @@ Test
 	Hello<br>
 	abc<br>
 	def<br>
-	Hello
-	😀😃😄😁😆🥹😅😂🤣🥲<br>
-	☺️😊😇🙂🙃😉😌😍🥰😘<br>
-	😗😙😚😋😛😝😜🤪🤨🧐<br>
-	🤓😎🥸🤩🥳😏😒😞😔😟<br>
-	😕🙁☹️😣😖😫😩🥺😢😭<br>
-	😤😠😡🤬🤯😳🥵🥶😶‍🌫️😱<br>
-	😨😰😥😓🤗🤔🫣🤭🫢🫡<br>
-	🤫🫠🤥😶🫥😐🫤😑🫨😬<br>
-	🙄😯😦😧😮😲🥱😴🤤😪<br>
-	😮‍💨😵😵‍💫🤐🥴🤢🤮🤧😷🤒<br>
-	🤕🤑🤠😈👿👹👺🤡💩👻💀👽👾🤖👼<br>
+	😀😃😄😁😆🥹😅😂🤣🥲☺️😊<br>
+	😇🙂🙃😉😌😍🥰😘😗😙😚😋<br>
+	😛😝😜🤪🤨🧐🤓😎🥸🤩🥳😏<br>
+	😒😞😔😟😕🙁☹️😣😖😫😩🥺<br>
+	😢😭😤😠😡🤬🤯😳🥵🥶😶‍🌫️😱<br>
+	😨😰😥😓🤗🤔🫣🤭🫢🫡🤫🫠<br>
+	🤥😶🫥😐🫤😑🫨😬🙄😯😦😧<br>
+	😮😲🥱😴🤤😪😮‍💨😵😵‍💫🤐🥴🤢<br>
+	🤮🤧😷🤒🤕🤑🤠😈👿👹👺🤡<br>
+	💩👻💀👽👾🤖👼🎎<br>
+	🩷❤️🧡💛💚🩵💙💜🖤🩶🤍🤎<br>
+	💔❤️‍🔥❤️‍🩹❣️💕💞💓💗💖💘💝💟<br>
+	🌫️💫💨🔥🩹<br>
 	
-	😀😃😄😁😆😅🤣😂🙂🙃🫠😉😊😇 /
-	🥰😍😘😗☺️😚😙🥲 /
-	😋😛😜🤪😝🤑 /
-	🤗🤭🫢🫣🤫🤔🫡 /
-	🤐🤨😐😑😶🫥😶‍🌫️😏😒🙄😬😮‍💨🤥 /
-	😌😔😪🤤😴 /
-	😷🤒🤕🤢🤮🤧🥵🥶🥴😵😵‍💫🤯 /
-	🤠🥳🥸😎🤓🧐 /
-	🫨😕🫤😟🙁☹️😮😯😲😳🥺🥹😦😧😨😰😥😢😭😱😖😣😞😓😩😫🥱 /
-	😤😡😠🤬 / 🤡😈👿💀👹👺👻👽👾💩🤖👼 /
-	<br>
-	🌫️💫💨🔥🩹 /
-	💘💝💖💗💓💞💕💟❣️💔❤️‍🔥❤️‍🩹 /
+	<table>
+		<tr><th>ok<th>no</tr>
+		<tr><td>😶‍🌫️<td>😶‍🌫</tr>
+		<tr><td>☹️<td>☹</tr>
+		<tr><td>☺️<td>☺</tr>
+		<tr><td>❣️<td>❣</tr>
+		<tr><td>❤️‍🔥<td>❤‍🔥</tr>
+		<tr><td>❤️‍🩹<td>❤‍🩹</tr>
+		<tr><td>❤️<td>❤</tr>
+		<tr><td>🌫️<td>🌫</tr>
+		<tr><td>😮‍💨<td>n/a</tr>
+		<tr><td>😵‍💫<td>n/a</tr>
+	</table>
+	
 	<br>
 	ABCabcDEF123!
 	<div>UVS: ❣ ❣︎ ❣️ Heart Exclamation /  ❤ ❤︎ ❤️ Heart / 🌫 🌫︎ 🌫️ Fog / ☺ ☺︎ ☺️ Smile / ☹ ☹︎ ☹️ Frown / ☻ Inverted Smile</div>
