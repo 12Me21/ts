@@ -57,7 +57,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 288 18 8
+WinInfo: 0 18 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -352,7 +352,7 @@ EndSplineSet
 EndChar
 
 StartChar: Fog.text
-Encoding: 10 -1 10
+Encoding: 10 127787 10
 AltUni2: 01f32b.00fe0e.0
 Width: 912
 VWidth: 1000
@@ -24827,7 +24827,7 @@ Colour: 80a696
 EndChar
 
 StartChar: Fog
-Encoding: 478 127787 474
+Encoding: 478 -1 474
 AltUni2: 01f32b.00fe0f.0
 Width: 912
 Flags: MW
