@@ -24,25 +24,25 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1688857346
-ModificationTime: 1692535413
+ModificationTime: 1692653414
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 5 2 1 3 1 2 2 2 2 2
-OS2TypoAscent: 756
+OS2TypoAscent: 712
 OS2TypoAOffset: 0
-OS2TypoDescent: -180
+OS2TypoDescent: -188
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
 OS2WinAscent: 744
 OS2WinAOffset: 0
 OS2WinDescent: 168
 OS2WinDOffset: 0
-HheadAscent: 756
+HheadAscent: 712
 HheadAOffset: 0
-HheadDescent: -180
+HheadDescent: -188
 HheadDOffset: 0
 OS2FamilyClass: 3072
 OS2Vendor: '12;;'
@@ -57,7 +57,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 18 8
+WinInfo: 342 18 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -90,7 +90,7 @@ Grid
   Named: "top"
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 233017 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 636 618
+BeginChars: 636 617
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -4870,7 +4870,7 @@ EndChar
 StartChar: unused10
 Encoding: 95 -1 95
 Width: 912
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -26004,45 +26004,6 @@ SplineSet
  -202 -52 -202 -52 -187.5 -67 c 133,-1,51
  -173 -82 -173 -82 -156 -90.5 c 133,-1,0
  -139 -99 -139 -99 -117 -99 c 133,-1,1
-EndSplineSet
-EndChar
-
-StartChar: NameMe.635
-Encoding: 635 -1 617
-Width: 912
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-76 27 m 133,-1,1
- 47 -2 47 -2 0 0 c 5,2,3
- -30 2 -30 2 -47 -15 c 133,-1,4
- -64 -32 -64 -32 -62 -62 c 5,5,6
- -60 -109 -60 -109 -89.5 -138.5 c 133,-1,7
- -119 -168 -119 -168 -165 -165 c 5,8,9
- -196 -164 -196 -164 -211 -179 c 133,-1,10
- -226 -194 -226 -194 -226 -209 c 5,11,12
- -227 -218 -227 -218 -233 -224 c 133,-1,13
- -239 -230 -239 -230 -247.5 -230 c 133,-1,14
- -256 -230 -256 -230 -263 -222.5 c 133,-1,15
- -270 -215 -270 -215 -268 -205 c 5,16,17
- -265 -174 -265 -174 -240 -148.5 c 133,-1,18
- -215 -123 -215 -123 -166 -123 c 5,19,20
- -137 -126 -137 -126 -119.5 -109 c 133,-1,21
- -102 -92 -102 -92 -104 -61 c 5,22,23
- -106 -15 -106 -15 -77 14.5 c 133,-1,24
- -48 44 -48 44 -1 42 c 5,25,26
- 29 40 29 40 46 56.5 c 133,-1,27
- 63 73 63 73 62 104 c 5,28,29
- 59 147 59 147 84 175 c 133,-1,30
- 109 203 109 203 145 207 c 5,31,32
- 154 207 154 207 160.5 201 c 133,-1,33
- 167 195 167 195 167 186 c 133,-1,34
- 167 177 167 177 161.5 171.5 c 133,-1,35
- 156 166 156 166 149 165 c 5,36,37
- 129 163 129 163 115.5 147.5 c 133,-1,38
- 102 132 102 132 104 104 c 5,39,0
- 105 56 105 56 76 27 c 133,-1,1
 EndSplineSet
 EndChar
 EndChars

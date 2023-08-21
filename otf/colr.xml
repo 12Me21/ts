@@ -5,16 +5,19 @@
 	<COLR>
 		<version value="0"/>
 		<ColorGlyph name="GrinningFace">
+<!--			<layer colorID="4" name="head36.0"/> high contrast mode ? -->
 			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="GrinningFace.1"/>
 			<layer colorID="2" name="teeth_grinning_common_b.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="GrinningFaceWithBigEyes">
+<!--			<layer colorID="4" name="head36.0"/>-->
 			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="GrinningFaceWithBigEyes.1"/>
 			<layer colorID="2" name="grinning_teeth_common.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="GrinningFaceWithSmilingEyes">
+	<!--		<layer colorID="4" name="head36.0"/>-->
 			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="GrinningFaceWithSmilingEyes.1"/>
 			<layer colorID="2" name="grinning_teeth_common.0"/>
@@ -237,17 +240,20 @@
 		</ColorGlyph>
 		<ColorGlyph name="FaceInClouds">
 			<!-- i darkened the clouds, to be visible on light bg // nevermind i added a doubled layer instead.. -->
+			
 			<layer colorID="3" name="FaceInClouds.0"/> f5
 			<layer colorID="0" name="FaceInClouds.1"/> yellow
+			<layer colorID="22" name="FaceInClouds.4"/> fringe
 			<layer colorID="17" name="FaceInClouds.3"/> cc
-			<layer colorID="24" name="FaceInClouds.4"/> f5
+			<!--<layer colorID="24" name="FaceInClouds.4"/> f5-->
 			<layer colorID="3" name="FaceInClouds.4"/> f5
 			<layer colorID="23" name="FaceInClouds.5"/> e1
-			
+			<!--<layer colorID="18" name="FaceInClouds.1"/> yellow-->
 			<layer colorID="1" name="FaceInClouds.2"/> line
 <!--			<layer colorID="18" name="DottedLineFace.0"/>
 			<layer colorID="0" name="DottedLineFace.2"/>
 			<layer colorID="1" name="NeutralFace.1"/>-->
+			
 		</ColorGlyph>
 		<ColorGlyph name="SmirkingFace">
 			<layer colorID="0" name="head36.0"/>
@@ -593,6 +599,7 @@
 			<layer colorID="30" name="AngryFaceWithHorns.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="Skull">
+			<layer colorID="4" name="Skull.0"/>
 			<layer colorID="17" name="Skull.0"/>
 			<layer colorID="4" name="Skull.1"/>
 		</ColorGlyph>
@@ -630,6 +637,7 @@
 			<layer colorID="54" name="AlienMonster.0"/> 
 		</ColorGlyph>
 		<ColorGlyph name="Alien">
+			<layer colorID="4" name="Alien.0"/> 
 			<layer colorID="17" name="Alien.0"/> 
 			<layer colorID="4" name="Alien.1"/> 
 		</ColorGlyph>
@@ -640,6 +648,7 @@
 			<layer colorID="14" name="Ghost.2"/> 
 		</ColorGlyph>
 		<ColorGlyph name="BabyAngel">
+			<layer colorID="4" name="BabyAngel.0"/>
 			<layer colorID="23" name="BabyAngel.0"/>
 			<layer colorID="0" name="BabyAngel.1"/> 
 			<layer colorID="1" name="BabyAngel.2"/> 
@@ -744,6 +753,7 @@
 			<layer colorID="5" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="PinkHeart">
+			<!--<layer colorID="5" name="heart_colored.0"/> fringe -->
 			<layer colorID="27" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="OrangeHeart">
