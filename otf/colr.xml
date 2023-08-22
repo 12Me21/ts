@@ -482,6 +482,13 @@
 			<layer colorID="2" name="PleadingFace.5"/>
 			<layer colorID="1" name="PleadingFace.4"/>
 		</ColorGlyph>
+		<ColorGlyph name="PleadingFace2">
+			<!-- old design -->
+			<layer colorID="0" name="head36.0"/>
+			<layer colorID="2" name="PleadingFace2.1"/>
+			<layer colorID="1" name="PleadingFace2.2"/>
+			<layer colorID="2" name="PleadingFace2.3"/>
+		</ColorGlyph>
 		<ColorGlyph name="FaceHoldingBackTears">
 			<!-- jdecked design -->
 			<layer colorID="0" name="head36.0"/>
