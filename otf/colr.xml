@@ -493,7 +493,9 @@
 			<!-- twitter new -->
 			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="PleadingFace3.1"/>
-			<layer colorID="2" name="PleadingFace3.2"/>
+			<layer colorID="1" name="PleadingFace3.2"/>
+			<layer colorID="2" name="PleadingFace3.3"/>
+			maybe we take this design and shift the eyes upwards and add a white layer below?
 		</ColorGlyph>
 		
 		<ColorGlyph name="FaceHoldingBackTears">
@@ -505,6 +507,16 @@
 			<layer colorID="2" name="FaceHoldingBackTears.4"/>
 			<layer colorID="6" name="FaceHoldingBackTears.5"/>
 		</ColorGlyph>
+		
+		<ColorGlyph name="FaceHoldingBackTears3">
+			<!-- twitter new -->
+			<layer colorID="0" name="head36.0"/>
+			<layer colorID="1" name="PleadingFace3.1"/>
+			<layer colorID="1" name="FaceHoldingBackTears3.2"/>
+			<layer colorID="2" name="PleadingFace3.3"/>
+			<layer colorID="6" name="FaceHoldingBackTears3.4"/>
+		</ColorGlyph>
+		
 		<ColorGlyph name="FrowningFaceWithOpenMouth">
 			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FrowningFaceWithOpenMouth.1"/>
