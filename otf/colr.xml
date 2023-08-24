@@ -497,6 +497,15 @@
 			<layer colorID="2" name="PleadingFace3.3"/>
 			maybe we take this design and shift the eyes upwards and add a white layer below?
 		</ColorGlyph>
+		<ColorGlyph name="PleadingFace0">
+			<!-- twitter old -->
+			<layer colorID="3" name="PleadingFace0.0"/> white
+			<layer colorID="13" name="PleadingFace0.1"/> iris
+			<layer colorID="1" name="PleadingFace0.2"/> pupil
+			<layer colorID="0" name="PleadingFace0.3"/> mask
+			<layer colorID="2" name="PleadingFace0.4"/> shine
+			<layer colorID="1" name="PleadingFace0.5"/> mouth
+		</ColorGlyph>
 		
 		<ColorGlyph name="FaceHoldingBackTears">
 			<!-- jdecked design -->
