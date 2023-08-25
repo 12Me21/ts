@@ -325,7 +325,7 @@
 			<layer colorID="22" name="FaceWithThermometer.6"/> <!-- markings -->
 		</ColorGlyph>
 		<ColorGlyph name="FaceWithHeadBandage">
-			<layer colorID="0" name="FaceWithHeadBandage.0"/>
+			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceWithHeadBandage.1"/>
 			<layer colorID="23" name="FaceWithHeadBandage.2"/> <!-- changed these from old grayscale to new grays -->
 			<layer colorID="17" name="FaceWithHeadBandage.3"/>
@@ -390,7 +390,6 @@
 			<layer colorID="1" name="CowboyHatFace.1"/>
 			<layer colorID="1" name="CowboyHatFace.2"/>
 			<layer colorID="38" name="CowboyHatFace.3"/>
-			<layer colorID="1" name="CowboyHatFace.4"/>
 		</ColorGlyph>
 		<ColorGlyph name="PartyingFace">
 			<layer colorID="0" name="PartyingFace.0"/>
@@ -474,13 +473,13 @@
 			<layer colorID="1" name="FlushedFace.4"/>
 		</ColorGlyph>
 		<ColorGlyph name="PleadingFace">
-			<!-- old design -->
-			<layer colorID="0" name="head36.0"/>
-			<layer colorID="3" name="PleadingFace.1"/>
-			<layer colorID="13" name="PleadingFace.2"/>
-			<layer colorID="1" name="PleadingFace.3"/>
-			<layer colorID="2" name="PleadingFace.5"/>
-			<layer colorID="1" name="PleadingFace.4"/>
+			<!-- twitter old -->
+			<layer colorID="3" name="FaceInClouds.1"/> white
+			<layer colorID="1" name="PleadingFace0.1"/> pupil
+			<layer colorID="13" name="PleadingFace0.2"/> iris
+			<layer colorID="2" name="PleadingFace0.3"/> shine
+			<layer colorID="0" name="PleadingFace0.4"/> mask
+			<layer colorID="1" name="PleadingFace0.5"/> mouth
 		</ColorGlyph>
 		<ColorGlyph name="PleadingFace2">
 			<!-- my design ? -->
@@ -497,15 +496,6 @@
 			<layer colorID="2" name="PleadingFace3.3"/>
 			maybe we take this design and shift the eyes upwards and add a white layer below?
 		</ColorGlyph>
-		<ColorGlyph name="PleadingFace0">
-			<!-- twitter old -->
-			<layer colorID="3" name="PleadingFace0.0"/> white
-			<layer colorID="13" name="PleadingFace0.1"/> iris
-			<layer colorID="1" name="PleadingFace0.2"/> pupil
-			<layer colorID="0" name="PleadingFace0.3"/> mask
-			<layer colorID="2" name="PleadingFace0.4"/> shine
-			<layer colorID="1" name="PleadingFace0.5"/> mouth
-		</ColorGlyph>
 		
 		<ColorGlyph name="FaceHoldingBackTears">
 			<!-- jdecked design -->
@@ -519,7 +509,7 @@
 		
 		<ColorGlyph name="FaceHoldingBackTears0">
 			<!-- old twitter -->
-			<layer colorID="3" name="FaceHoldingBackTears0.0"/> eye bg
+			<layer colorID="3" name="FaceInClouds.1"/> eye bg
 			<layer colorID="13" name="FaceHoldingBackTears0.1"/> irises
 			<layer colorID="0" name="FaceHoldingBackTears0.3"/> bg
 			<layer colorID="1" name="FaceHoldingBackTears0.4"/> lines
