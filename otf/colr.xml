@@ -472,17 +472,17 @@
 			<layer colorID="4" name="FlushedFace.3"/>
 			<layer colorID="1" name="FlushedFace.4"/>
 		</ColorGlyph>
-		<ColorGlyph name="PleadingFace">
+		<ColorGlyph name="PleadingFace1">
 			<!-- twitter old -->
 			<layer colorID="3" name="FaceInClouds.1"/> white
-			<layer colorID="1" name="PleadingFace0.1"/> pupil
-			<layer colorID="13" name="PleadingFace0.2"/> iris
-			<layer colorID="2" name="PleadingFace0.3"/> shine
-			<layer colorID="0" name="PleadingFace0.4"/> mask
-			<layer colorID="1" name="PleadingFace0.5"/> mouth
+			<layer colorID="1" name="PleadingFace1.1"/> pupil
+			<layer colorID="13" name="PleadingFace1.2"/> iris
+			<layer colorID="2" name="PleadingFace1.3"/> shine
+			<layer colorID="0" name="PleadingFace1.4"/> mask
+			<layer colorID="1" name="PleadingFace1.5"/> mouth
 		</ColorGlyph>
 		<ColorGlyph name="PleadingFace2">
-			<!-- my design ? -->
+			<!-- my design ? --> todo jdecked
 			<layer colorID="0" name="head36.0"/>
 			<layer colorID="2" name="PleadingFace2.1"/>
 			<layer colorID="1" name="PleadingFace2.2"/>
@@ -497,32 +497,31 @@
 			maybe we take this design and shift the eyes upwards and add a white layer below?
 		</ColorGlyph>
 		
-		<ColorGlyph name="FaceHoldingBackTears">
-			<!-- jdecked design -->
-			<layer colorID="0" name="head36.0"/>
-			<layer colorID="1" name="FaceHoldingBackTears.1"/>
-			<layer colorID="3" name="FaceHoldingBackTears.2"/>
-			<layer colorID="1" name="FaceHoldingBackTears.3"/> <!-- changed from black to brown -->
-			<layer colorID="2" name="FaceHoldingBackTears.4"/>
-			<layer colorID="6" name="FaceHoldingBackTears.5"/>
-		</ColorGlyph>
-		
-		<ColorGlyph name="FaceHoldingBackTears0">
+		<ColorGlyph name="FaceHoldingBackTears1">
 			<!-- old twitter -->
 			<layer colorID="3" name="FaceInClouds.1"/> eye bg
-			<layer colorID="13" name="FaceHoldingBackTears0.1"/> irises
-			<layer colorID="0" name="FaceHoldingBackTears0.3"/> bg
-			<layer colorID="1" name="FaceHoldingBackTears0.4"/> lines
-			<layer colorID="2" name="FaceHoldingBackTears0.2"/> reflection
-			<layer colorID="6" name="FaceHoldingBackTears0.6"/> tears
+			<layer colorID="13" name="FaceHoldingBackTears1.1"/> irises
+			<layer colorID="0" name="FaceHoldingBackTears1.3"/> bg
+			<layer colorID="1" name="FaceHoldingBackTears1.4"/> lines
+			<layer colorID="2" name="FaceHoldingBackTears1.2"/> reflection
+			<layer colorID="6" name="FaceHoldingBackTears1.6"/> tears
 		</ColorGlyph>
-
+		
+		<ColorGlyph name="FaceHoldingBackTears2">
+			<!-- jdecked design -->
+			<layer colorID="0" name="head36.0"/>
+			<layer colorID="1" name="FaceHoldingBackTears2.1"/>
+			<layer colorID="3" name="FaceHoldingBackTears2.2"/>
+			<layer colorID="4" name="FaceHoldingBackTears2.3"/> black
+			<layer colorID="2" name="FaceHoldingBackTears2.4"/>
+			<layer colorID="6" name="FaceHoldingBackTears2.5"/>
+		</ColorGlyph>
+		
 		<ColorGlyph name="FaceHoldingBackTears3">
 			<!-- twitter new -->
 			<layer colorID="0" name="head36.0"/>
-			<layer colorID="1" name="PleadingFace3.1"/>
 			<layer colorID="1" name="FaceHoldingBackTears3.2"/>
-			<layer colorID="2" name="PleadingFace3.3"/>
+			<layer colorID="2" name="PleadingFace3.3"/> note reuse
 			<layer colorID="6" name="FaceHoldingBackTears3.4"/>
 		</ColorGlyph>
 		
