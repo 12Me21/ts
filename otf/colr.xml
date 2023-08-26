@@ -26,7 +26,7 @@
 			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="BeamingFaceWithSmilingEyes.1"/>
 			<layer colorID="2" name="BeamingFaceWithSmilingEyes.2"/>
-			<layer colorID="1" name="BeamingFaceWithSmilingEyes.3"/>
+<!--			<layer colorID="1" name="BeamingFaceWithSmilingEyes.3"/>-->
 		</ColorGlyph>
 		<ColorGlyph name="GrinningSquintingFace">
 			<layer colorID="0" name="head36.0"/>
@@ -472,7 +472,7 @@
 			<layer colorID="4" name="FlushedFace.3"/>
 			<layer colorID="1" name="FlushedFace.4"/>
 		</ColorGlyph>
-		<ColorGlyph name="PleadingFace1">
+		<ColorGlyph name="PleadingFace">
 			<!-- twitter old -->
 			<layer colorID="3" name="FaceInClouds.1"/> white
 			<layer colorID="1" name="PleadingFace1.1"/> pupil
@@ -497,7 +497,7 @@
 			maybe we take this design and shift the eyes upwards and add a white layer below?
 		</ColorGlyph>
 		
-		<ColorGlyph name="FaceHoldingBackTears1">
+		<ColorGlyph name="FaceHoldingBackTears">
 			<!-- old twitter -->
 			<layer colorID="3" name="FaceInClouds.1"/> eye bg
 			<layer colorID="13" name="FaceHoldingBackTears1.1"/> irises
