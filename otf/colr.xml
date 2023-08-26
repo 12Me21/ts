@@ -472,8 +472,9 @@
 			<layer colorID="4" name="FlushedFace.3"/>
 			<layer colorID="1" name="FlushedFace.4"/>
 		</ColorGlyph>
+		
 		<ColorGlyph name="PleadingFace">
-			<!-- twitter old -->
+			twitter old
 			<layer colorID="3" name="FaceInClouds.1"/> white
 			<layer colorID="1" name="PleadingFace1.1"/> pupil
 			<layer colorID="13" name="PleadingFace1.2"/> iris
@@ -482,14 +483,16 @@
 			<layer colorID="1" name="PleadingFace1.5"/> mouth
 		</ColorGlyph>
 		<ColorGlyph name="PleadingFace2">
-			<!-- my design ? --> todo jdecked
+			jdecked
 			<layer colorID="0" name="head36.0"/>
-			<layer colorID="2" name="PleadingFace2.1"/>
-			<layer colorID="1" name="PleadingFace2.2"/>
-			<layer colorID="2" name="PleadingFace2.3"/>
+			<layer colorID="1" name="PleadingFace2.1"/>
+			<layer colorID="3" name="FaceHoldingBackTears2.2"/>
+			<layer colorID="4" name="FaceHoldingBackTears2.3"/> black
+			<layer colorID="2" name="FaceHoldingBackTears2.4"/>
+			<layer colorID="6" name="FaceHoldingBackTears2.5"/>
 		</ColorGlyph>
-		<ColorGlyph name="PleadingFace2">
-			<!-- twitter new -->
+		<ColorGlyph name="PleadingFace3">
+			twitter new
 			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="PleadingFace3.1"/>
 			<layer colorID="1" name="PleadingFace3.2"/>
@@ -498,7 +501,7 @@
 		</ColorGlyph>
 		
 		<ColorGlyph name="FaceHoldingBackTears">
-			<!-- old twitter -->
+			twitter old
 			<layer colorID="3" name="FaceInClouds.1"/> eye bg
 			<layer colorID="13" name="FaceHoldingBackTears1.1"/> irises
 			<layer colorID="0" name="FaceHoldingBackTears1.3"/> bg
@@ -508,7 +511,7 @@
 		</ColorGlyph>
 		
 		<ColorGlyph name="FaceHoldingBackTears2">
-			<!-- jdecked design -->
+			jdecked
 			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceHoldingBackTears2.1"/>
 			<layer colorID="3" name="FaceHoldingBackTears2.2"/>
@@ -518,7 +521,7 @@
 		</ColorGlyph>
 		
 		<ColorGlyph name="FaceHoldingBackTears3">
-			<!-- twitter new -->
+			twitter new
 			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceHoldingBackTears3.2"/>
 			<layer colorID="2" name="PleadingFace3.3"/> note reuse
@@ -943,4 +946,18 @@
 		<minMemType1 value="0"/>
 		<maxMemType1 value="0"/>
 	</post>
+	
+	<name>
+		<namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">dragon dick cock</namerecord>
+		<namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">Twemoji Faces</namerecord>
+		<namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">Regular</namerecord>
+		<namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">FontForge : Twemoji Faces : 26-8-2023</namerecord>
+		<namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">Twemoji Faces</namerecord>
+		<namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">Version 3</namerecord>
+		<namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">TwemojiFaces</namerecord>
+		<namerecord nameID="8" platformID="3" platEncID="1" langID="0x409">y's sex pet</namerecord>
+		<namerecord nameID="19" platformID="3" platEncID="10" langID="0x409">🥰🌫️👾🖤</namerecord>
+		<namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">jdecked variants</namerecord>
+		<namerecord nameID="257" platformID="3" platEncID="1" langID="0x409">new twitter variants</namerecord>
+	</name>
 </ttFont>
