@@ -2,6 +2,8 @@
 <ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.34">
 	<!--<cmap src="cmap.ttx"/>-->
 	
+	idea: what if we put a fringe/outline layer in text color (65535) behind ALL emojis?
+	
 	<COLR>
 		<version value="0"/>
 		<ColorGlyph name="GrinningFace">
@@ -842,6 +844,23 @@
 			<layer colorID="45" name="JapaneseDolls.13"/>
 			<layer colorID="0" name="JapaneseDolls.14"/>
 		</ColorGlyph>
+		
+		<!-- suits -->
+		<ColorGlyph name="SpadeSuit">
+			<layer colorID="2" name="SpadeSuit.0"/>
+			<layer colorID="34" name="SpadeSuit.0"/>
+		</ColorGlyph>
+		<ColorGlyph name="HeartSuit">
+			<layer colorID="32" name="HeartSuit.0"/>
+		</ColorGlyph>
+		<ColorGlyph name="DiamondSuit">
+			<layer colorID="32" name="DiamondSuit.0"/>
+		</ColorGlyph>
+		<ColorGlyph name="ClubSuit">
+			<layer colorID="2" name="ClubSuit.0"/>
+			<layer colorID="34" name="ClubSuit.0"/>
+		</ColorGlyph>
+
 		<!-- extra (needed for ligature emojis) -->
 		<ColorGlyph name="Fog">
 			<layer colorID="3" name="Fog.1"/>
