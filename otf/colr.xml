@@ -874,70 +874,61 @@
 		<version value="0"/>
 		<numPaletteEntries value="55"/>
 		<palette index="0">
-			<color index="27" value="#F4ABBAff"/> 🟥 Faded Red
-			<color index="11" value="#EA596Eff"/> 🟥 Light Red
-			<color index="5" value="#DD2E44ff"/> 🟥 Red
-			<color index="32" value="#BE1931ff"/> 🟥 Deep Red
-			<color index="48" value="#A0041Eff"/> 🟥 Dark Red
-			
-			<color index="31" value="#FFE8B6ff"/> 🟨 Faded Yellow
-			<color index="18" value="#FFE8B680"/> 🟨 Faded Yellow @ 50%
-			<color index="35" value="#FFD983ff"/> 🟨 Light Yellow
 			<color index="0" value="#FFCC4Dff"/> 🟨 Yellow #ffcc4d
-			<color index="43" value="#FFCC4Dcc"/> 🟨 Yellow @ 80%
-			<color index="41" value="#FFCC4D80"/> 🟨 Yellow @ 50%
-			<color index="10" value="#FF6D0056"/> 🟨 trans shadow (Yellow -> Orange)
-			<color index="9" value="#FFAC33ff"/> 🟨 Orange
-			<color index="13" value="#F4900Cff"/> 🟨 Dark Orange
-			
-			<color index="25" value="#77B255ff"/> 🟩 Green
-			<color index="12" value="#5C913Bff"/> 🟩 Deep Green
-			<color index="26" value="#3E721Dff"/> 🟩 Dark Green
-			
-			<color index="28" value="#BBDDF5ff"/> 🟦 Faded Blue
-			<color index="15" value="#88C9F9ff"/> 🟦 Light Blue
-			<color index="6" value="#55ACEEff"/> 🟦 Blue
-			<color index="8" value="#3B88C3ff"/> 🟦 Deep Blue
-			<color index="16" value="#226699ff"/> 🟦 Dark Blue
-			
-			<color index="29" value="#AA8DD8ff"/> 🟪 Light Purple
-			<color index="54" value="#9266CCff"/> 🟪 Purple
-			<color index="30" value="#553788ff"/> 🟪 Dark Purple
-			
-			<color index="49" value="#D99E82ff"/> 🟫 lighter brown
-			<color index="33" value="#C1694Fff"/> 🟫 Brown
-			<color index="53" value="#662113ff"/> 🟫 darkest brown
-			
+			<color index="1" value="#664500ff"/> line color
 			<color index="2" value="#FFFFFFff"/> 🔲 gray 15
 			<color index="3" value="#F5F8FAff"/> 🔲 gray 14.4
-			<color index="23" value="#E1E8EDff"/> 🔲 gray 13.2
-			<color index="17" value="#CCD6DDff"/> 🔲 gray 12
-			<color index="24" value="#AAB8C2ff"/> 🔲 gray 10
-			<color index="14" value="#99AAB5ff"/> 🔲 gray 9
-			<color index="52" value="#8899A6ff"/> 🔲 gray 8
-			<color index="22" value="#66757Fff"/> 🔲 gray 6
-			<color index="34" value="#31373Dff"/> 🔲 gray 2.9
 			<color index="4" value="#292F33ff"/> 🔲 gray 2.4
-			
-			<color index="1" value="#664500ff"/> line color
-			<color index="44" value="#664500cc"/>  line @ 80%
-			<color index="42" value="#66450080"/> line @ 50%
+			<color index="5" value="#DD2E44ff"/> 🟥 Red
+			<color index="6" value="#55ACEEff"/> 🟦 Blue
 			<color index="7" value="#FF7892ff"/> blush
+			<color index="8" value="#3B88C3ff"/> 🟦 Deep Blue
+			<color index="9" value="#FFAC33ff"/> 🟨 Orange
+			<color index="10" value="#FF6D0056"/> 🟨 trans shadow (Yellow -> Orange)
+			<color index="11" value="#EA596Eff"/> 🟥 Light Red
+			<color index="12" value="#5C913Bff"/> 🟩 Deep Green
+			<color index="13" value="#F4900Cff"/> 🟨 Dark Orange
+			<color index="14" value="#99AAB5ff"/> 🔲 gray 9
+			<color index="15" value="#88C9F9ff"/> 🟦 Light Blue
+			<color index="16" value="#226699ff"/> 🟦 Dark Blue
+			<color index="17" value="#CCD6DDff"/> 🔲 gray 12
+			<color index="18" value="#FFE8B680"/> 🟨 Faded Yellow @ 50%
 			<color index="19" value="#B55005ff"/> new hand lines
-			<color index="36" value="#E6E7E8ff"/> 🤍 old grayscale for WhiteHeart
-			
 			<color index="20" value="#F26522ff"/> 🤩 StarStruck eyes
 			<color index="21" value="#452E04ff"/> 🤒 FaceWithThermometer mouth shadow (could be #00000085?)
+			<color index="22" value="#66757Fff"/> 🔲 gray 6
+			<color index="23" value="#E1E8EDff"/> 🔲 gray 13.2
+			<color index="24" value="#AAB8C2ff"/> 🔲 gray 10
+			<color index="25" value="#77B255ff"/> 🟩 Green
+			<color index="26" value="#3E721Dff"/> 🟩 Dark Green
+			<color index="27" value="#F4ABBAff"/> 🟥 Faded Red
+			<color index="28" value="#BBDDF5ff"/> 🟦 Faded Blue
+			<color index="29" value="#AA8DD8ff"/> 🟪 Light Purple
+			<color index="30" value="#553788ff"/> 🟪 Dark Purple
+			<color index="31" value="#FFE8B6ff"/> 🟨 Faded Yellow
+			<color index="32" value="#BE1931ff"/> 🟥 Deep Red
+			<color index="33" value="#C1694Fff"/> 🟫 Brown
+			<color index="34" value="#31373Dff"/> 🔲 gray 2.9
+			<color index="35" value="#FFD983ff"/> 🟨 Light Yellow
+			<color index="36" value="#E6E7E8ff"/> 🤍 old grayscale for WhiteHeart
 			<color index="37" value="#E2A62Dff"/> 🥳 PartyingFace cheeks
 			<color index="38" value="#825D0Eff"/> 🤠 CowboyHatFace hat inner (could be #FFCC4D47?)
 			<color index="39" value="#CE5C1Fff"/> 🤯 ExplodingHead blast 2
+			<color index="40" value="#000000ff"/>
+			<color index="41" value="#FFCC4D80"/> 🟨 Yellow @ 50%
+			<color index="42" value="#66450080"/> line @ 50%
+			<color index="43" value="#FFCC4Dcc"/> 🟨 Yellow @ 80%
+			<color index="44" value="#664500cc"/>  line @ 80%
 			<color index="45" value="#D14A15ff"/> 🎎 JapaneseDolls darkest orange
+			<color index="46" value="#000000ff"/>
 			<color index="47" value="#FFB699ff"/> 🎎 JapaneseDolls orange?
+			<color index="48" value="#A0041Eff"/> 🟥 Dark Red
+			<color index="49" value="#D99E82ff"/> 🟫 lighter brown
 			<color index="50" value="#EABAA7ff"/> 🩹 AdhesiveBandage 1
 			<color index="51" value="#F7DED5ff"/> 🩹 AdhesiveBandage 2
-			
-			<color index="40" value="#000000ff"/>
-			<color index="46" value="#000000ff"/>
+			<color index="52" value="#8899A6ff"/> 🔲 gray 8
+			<color index="53" value="#662113ff"/> 🟫 darkest brown
+			<color index="54" value="#9266CCff"/> 🟪 Purple
 		</palette>
 	</CPAL>
 	
