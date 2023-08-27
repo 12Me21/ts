@@ -53,7 +53,7 @@ Lookup: 1 0 0 "'cv02' pleading X" { "'cv02' pleading X-1"  } ['cv02' ('DFLT' <'d
 Lookup: 4 0 0 "'ccmp' emojis" { "'ccmp' emojis 1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "" "" "" "" "" "y's sex pet" "" "" "" "" "" "" "" "" "" "" "PLACEHOLDERaaaaaaaa"
+LangName: 1033 "" "" "" "" "" "" "" "" "y's sex pet"
 GaspTable: 1 65535 2 1
 OtfFeatName: 'ss01' 1033 "jdecked variants"
 OtfFeatName: 'ss02' 1033 "new twitter variants"
