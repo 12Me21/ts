@@ -1,0 +1,84 @@
+(I may have forgotten some changes here)
+notes:
+- i've added darkened/lightened "fringes" around the edge of some layers, to make them visible on light/dark backgrounds (these are rendered by drawing a layer twice: first in black or white, and then in the final color)
+- i reverted some changes made by twemoji updates, particularly with heart colors. (idk why they changed those, the originals were more consistent with other fonts)
+
+😇
+- adjusted layering
+- changed back of halo from #3B94D9 to #3B88C3 (minor)
+
+🥰/😘
+- changed heart shadow layer to transparent; hearts now cast shadows on background
+😴
+- changed shadows to transparent
+
+🫣
+- major alterations to hands (unsure about this..)
+
+🫡
+- changed lines on hands from #B55005 to #664500
+
+😶‍🌫️
+- adjusted layering
+- added fringes to clouds
+
+🤒
+- adjusted layering?
+
+🤕
+- adjusted layering, expanded bandage instead of cutting away head layer (unsure)
+- todo: fringes here too?
+
+🤧
+- changed color of tissue from #CCD6DD/#F5F8FA to #E1E8ED/#FFFFFF (unsure)
+- added fringes to tissue
+
+🤠
+- added fringes to hat
+
+🤯
+- adjusted layering
+
+🧐
+- adjusted layering
+
+🥺🥹
+- see notes
+
+🤖
+- changed eyes #FFFFFF to #F5F8FA
+- adjusted layering
+
+💘
+- changed arrow from yellow to blue (revert)
+
+💘💝💖💓💞💕
+- changed red back to light red (revert, better matches other fonts)
+
+💟
+- changed red back to purple (revert, matches other fonts)
+
+💓
+- darkened lines, for visibility
+
+🤕❤️‍🩹
+- changed bandage color to new grays
+- fringes? (currently on heart only)- i also find the bandages difficult to see against the yellow, might add fringes there too..
+
+pink heart
+- changed color from #EA596E to #F4ABBA (lighter)
+
+lightblue heart
+- changed color from #BBDDF5? to #88C9F9 (darker)
+
+💙
+- darkened from #55ACEE to #3B88C3, to accommodate lightblue heart (as recommeneded by unicode, and to match other fonts)
+
+🤍
+- might change color to new grayscale?
+
+🎎
+- adjusted colors
+
+😨😰😱
+- adjusted layering to prevent fringing
