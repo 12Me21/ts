@@ -193,7 +193,7 @@
 			<layer colorID="4" name="FaceWithPeekingEye.2"/>
 			<layer colorID="1" name="FaceWithPeekingEye.3"/>
 			<!-- redid these layers -->
-			<layer colorID="19" name="FaceWithPeekingEye.5"/> <!-- changed color -->
+			<layer colorID="19" name="FaceWithPeekingEye.5"/>
 			<layer colorID="13" name="FaceWithPeekingEye.4"/>
 		</ColorGlyph>
 		<ColorGlyph name="ShushingFace">
@@ -276,6 +276,7 @@
 			<layer colorID="2" name="GrimacingFace.2"/>
 		</ColorGlyph>
 		<ColorGlyph name="FaceExhaling">
+			<layer colorID="4" name="FaceExhaling.2"/>
 			<layer colorID="0" name="head36.0"/>
 			<layer colorID="1" name="FaceExhaling.1"/>
 			<layer colorID="23" name="FaceExhaling.2"/>
@@ -359,8 +360,8 @@
 			<layer colorID="6" name="HotFace.4"/>
 		</ColorGlyph>
 		<ColorGlyph name="ColdFace">
-			<layer colorID="6" name="head36.0"/> <!-- changed -->
-			<layer colorID="16" name="ColdFace.1"/> <!-- changed -->
+			<layer colorID="6" name="head36.0"/> <!-- changed (minor) -->
+			<layer colorID="16" name="ColdFace.1"/> <!-- changed (minor) -->
 			<layer colorID="2" name="ColdFace.2"/>
 			<layer colorID="28" name="ColdFace.3"/>
 		</ColorGlyph>
@@ -782,7 +783,8 @@
 			<layer colorID="0" name="HeartOnFire.3"/>
 		</ColorGlyph>
 		<ColorGlyph name="MendingHeart">
-			<layer colorID="5" name="heart_colored.0"/>
+			<layer colorID="24" name="MendingHeart.1"/> fringe
+			<layer colorID="5" name="MendingHeart.0"/>
 			<layer colorID="23" name="MendingHeart.1"/> <!-- changed to new grays like facewithheadbandage -->
 			<layer colorID="17" name="MendingHeart.2"/>
 			<layer colorID="24" name="MendingHeart.3"/>
@@ -811,7 +813,7 @@
 			<layer colorID="15" name="heart_colored.0"/>
 		</ColorGlyph>
 		<ColorGlyph name="PurpleHeart">
-			<layer colorID="54" name="heart_colored.0"/> <!-- changed from lightpurple -->
+			<layer colorID="29" name="heart_colored.0"/> <!-- changed from lightpurple 29 to 54-->
 		</ColorGlyph>
 		<ColorGlyph name="BrownHeart">
 			<layer colorID="33" name="heart_colored.0"/>
@@ -825,7 +827,7 @@
 		</ColorGlyph>
 		<ColorGlyph name="WhiteHeart">
 			<layer colorID="4" name="heart_colored.0"/>
-			<layer colorID="23" name="heart_colored.0"/>
+			<layer colorID="36" name="heart_colored.0"/>
 		</ColorGlyph>
 		<!-- dolls -->
 		<ColorGlyph name="JapaneseDolls">
