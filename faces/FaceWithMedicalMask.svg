@@ -7,12 +7,39 @@
 	
 	<use id="body" href="F.svg#bg.normal" color="#FFCC4D"/>
 	
+	<!--
+pre 15.0.1 (?)
 	<use id="eye1" href="F.svg#eyebrow.9" transform="translate(7 14)" color="#664500"/>
 	<use id="eye2" href="F.svg#eyebrow.9" transform="matrix(-1 0 0 1 29 14)" color="#664500"/>
+	-->
+	<use y="12.5" href="F.svg#eyes.normal12" color="#664500"/>
 	
 	<g clip-path="url(#circle)">
-		<path d="M11 27v2l-11 -2v-2zM11 21v2l-11 -5v-2z" fill="#F5F8FA"/>
-		<path d="M11 27v2l-11 -2v-2zM11 21v2l-11 -5v-2z" transform="matrix(-1 0 0 1 36 0)" fill="#F5F8FA"/>
-		<rect x="9" y="17" width="18" height="15" rx="2" fill="#F5F8FA"/>
+<!--		<path d="M11 27v2l-11 -2v-2zM11 20v2l-11 -5v-2z" fill="#F5F8FA"/>
+		<path d="M11 27v2l-11 -2v-2zM11 20v2l-11 -5v-2z" transform="matrix(-1 0 0 1 36 0)" fill="#F5F8FA"/>-->
+		<!--
+		<rect x="9" y="17" width="18" height="15" rx="2" fill="#F5F8FA"/>-->
 	</g>
+	
+<path fill="#F5F8FA" d=" M
+29,20.182
+ L
+29,26.273
+ L
+28.578,28.35
+ C 27.027,29.619 24,34
+18,34
+ C 12,34 8.973,29.619
+7.42,28.349
+ L
+7,26.273
+ L
+7,20.182
+ L
+8.014,18.643
+ C 9.767,18.068 13.611,17
+18,17
+ C 22.389,17 26.233,18.068
+27.986,18.643
+ Z"/>
 </svg>
