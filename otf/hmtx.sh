@@ -3,7 +3,7 @@
 
 ttx -v -b -m raw.ttf -o faces-colr.ttf colr.xml
 
-fonttools subset faces-colr.ttf '*' --no-subset-tables+=COLR,CPAL,GSUB,gasp,name --canonical-order --no-legacy-cmap --drop-tables+=BASE,GDEF --flavor=woff2 --layout-features='*' --name-IDs='*'
+fonttools subset faces-colr.ttf '*' --no-subset-tables+=COLR,CPAL,GSUB,gasp,name --canonical-order --no-legacy-cmap --drop-tables+=BASE,GDEF --layout-features='*' --name-IDs='*' --flavor=woff2
 # gasp,
 #todo: why is it keeping the legacy cmap! fuck!
 
