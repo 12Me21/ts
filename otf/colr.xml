@@ -846,6 +846,20 @@
 			<layer colorID="45" name="JapaneseDolls.13"/>
 			<layer colorID="0" name="JapaneseDolls.14"/>
 		</ColorGlyph>
+		<!-- new -->
+		<ColorGlyph name="Dog">
+			<layer colorID="33" name="Dog.0"/>
+			<layer colorID="49" name="Dog.1"/>
+			<layer colorID="49" name="Dog.2"/>
+			<layer colorID="33" name="Dog.3"/>
+			<layer colorID="55" name="Dog.4"/>
+			<layer colorID="55" name="Dog.5"/>
+			<layer colorID="49" name="Dog.6"/>
+			<layer colorID="4" name="Dog.7"/>
+			<layer colorID="56" name="Dog.8"/>
+			<layer colorID="53" name="Dog.9"/>
+		</ColorGlyph>
+		
 		
 		<!-- suits -->
 		<ColorGlyph name="SpadeSuit">
@@ -893,7 +907,7 @@
 		
 	<CPAL>
 		<version value="0"/>
-		<numPaletteEntries value="55"/>
+		<numPaletteEntries value="57"/>
 		<palette index="0">
 			<color index="0" value="#FFCC4Dff"/> 🟨 Yellow #ffcc4d
 			<color index="1" value="#664500ff"/> line color
@@ -950,9 +964,11 @@
 			<color index="52" value="#8899A6ff"/> 🔲 gray 8
 			<color index="53" value="#662113ff"/> 🟫 darkest brown
 			<color index="54" value="#9266CCff"/> 🟪 Purple
+			<color index="55" value="#F4C7B5ff"/> 🐕 dog light brown
+			<color index="56" value="#272B2Bff"/> 🐕 dog nose
 		</palette>
 	</CPAL>
-	
+	p
 	<post>
 		<formatType value="3.0"/>
 		<italicAngle value="0.0"/>
