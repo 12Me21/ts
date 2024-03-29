@@ -859,7 +859,35 @@
 			<layer colorID="56" name="Dog.8"/>
 			<layer colorID="53" name="Dog.9"/>
 		</ColorGlyph>
-		
+		<ColorGlyph name="GuideDog">
+			<layer colorID="33" name="Dog.0"/>
+			<layer colorID="49" name="GuideDog.1"/>
+			<layer colorID="49" name="Dog.2"/>
+			<layer colorID="55" name="Dog.4"/>
+			<layer colorID="33" name="Dog.6"/>
+			<layer colorID="4" name="Dog.7"/>
+			<layer colorID="56" name="Dog.8"/>
+			<layer colorID="4" name="GuideDog.2"/>
+			<layer colorID="26" name="GuideDog.3"/>
+			<layer colorID="12" name="GuideDog.4"/>
+			<layer colorID="53" name="GuideDog.9"/>
+			<layer colorID="26" name="GuideDog.5"/>
+		</ColorGlyph>
+		<ColorGlyph name="ServiceDog">
+			<layer colorID="33" name="ServiceDog.0"/>
+			<layer colorID="49" name="ServiceDog.1"/>
+			<layer colorID="55" name="ServiceDog.2"/>
+			<layer colorID="33" name="ServiceDog.3"/>
+			<layer colorID="33" name="Dog.6"/>
+			<layer colorID="4" name="Dog.7"/>
+			<layer colorID="56" name="Dog.8"/>
+			<layer colorID="48" name="ServiceDog.5"/>
+			<layer colorID="4" name="ServiceDog.6"/>
+			<layer colorID="48" name="ServiceDog.7"/>
+			<layer colorID="27" name="ServiceDog.8"/>
+			<layer colorID="3" name="ServiceDog.9"/>
+			<layer colorID="53" name="GuideDog.9"/>
+		</ColorGlyph>
 		
 		<!-- suits -->
 		<ColorGlyph name="SpadeSuit">
@@ -887,7 +915,7 @@
 			<layer colorID="17" name="Fog.6"/>
 		</ColorGlyph>
 		<ColorGlyph name="Dizzy">
-			<layer colorID="35" name="Dizzy.0"/>
+p			<layer colorID="35" name="Dizzy.0"/>
 			<layer colorID="9" name="Dizzy.1"/>
 		</ColorGlyph>
 		<ColorGlyph name="DashingAway">
