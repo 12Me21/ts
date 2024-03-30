@@ -888,6 +888,12 @@
 			<layer colorID="3" name="ServiceDog.9"/>
 			<layer colorID="53" name="GuideDog.9"/>
 		</ColorGlyph>
+		<ColorGlyph name="Fox">
+			<layer colorID="13" name="Fox.0"/>
+			<layer colorID="48" name="Fox.1"/>
+			<layer colorID="35" name="Fox.2"/>
+			<layer colorID="56" name="Fox.3"/>
+		</ColorGlyph>
 		
 		<!-- suits -->
 		<ColorGlyph name="SpadeSuit">
@@ -931,11 +937,16 @@ p			<layer colorID="35" name="Dizzy.0"/>
 			<layer colorID="50" name="AdhesiveBandage.2"/>
 			<layer colorID="51" name="AdhesiveBandage.3"/>
 		</ColorGlyph>
+		<ColorGlyph name="SafetyVest">
+			<layer colorID="58" name="SafetyVest.0"/>
+			<layer colorID="59" name="SafetyVest.1"/>
+			<layer colorID="57" name="SafetyVest.2"/>
+		</ColorGlyph>
 	</COLR>
 		
 	<CPAL>
 		<version value="0"/>
-		<numPaletteEntries value="57"/>
+		<numPaletteEntries value="60"/>
 		<palette index="0">
 			<color index="0" value="#FFCC4Dff"/> 🟨 Yellow #ffcc4d
 			<color index="1" value="#664500ff"/> line color
@@ -993,7 +1004,10 @@ p			<layer colorID="35" name="Dizzy.0"/>
 			<color index="53" value="#662113ff"/> 🟫 darkest brown
 			<color index="54" value="#9266CCff"/> 🟪 Purple
 			<color index="55" value="#F4C7B5ff"/> 🐕 dog light brown
-			<color index="56" value="#272B2Bff"/> 🐕 dog nose
+			<color index="56" value="#272B2Bff"/> animal nose
+			<color index="57" value="#994308ff"/> safety vest brown
+			<color index="58" value="#EB7421ff"/> safety vest orange
+			<color index="59" value="#FCFB65ff"/> safety vest yellow
 		</palette>
 	</CPAL>
 	p
