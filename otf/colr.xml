@@ -894,6 +894,20 @@
 			<layer colorID="35" name="Fox.2"/>
 			<layer colorID="56" name="Fox.3"/>
 		</ColorGlyph>
+		<ColorGlyph name="Otter">
+			<layer colorID="61" name="Otter.0"/>
+			<layer colorID="60" name="Otter.1"/>
+			<layer colorID="62" name="Otter.2"/>
+			<layer colorID="61" name="Otter.3"/>
+			<layer colorID="4" name="Otter.4"/> todo: positioning of this layer is bad. probably because of rotated references
+			<layer colorID="22" name="Otter.5"/>
+		</ColorGlyph>
+		<ColorGlyph name="Pistol">
+			<layer colorID="14" name="Pistol.0"/>
+			<layer colorID="22" name="Pistol.1"/>
+			<layer colorID="17" name="Pistol.2"/>
+			<layer colorID="33" name="Pistol.3"/>
+		</ColorGlyph>
 		
 		<!-- suits -->
 		<ColorGlyph name="SpadeSuit">
@@ -946,7 +960,7 @@ p			<layer colorID="35" name="Dizzy.0"/>
 		
 	<CPAL>
 		<version value="0"/>
-		<numPaletteEntries value="60"/>
+		<numPaletteEntries value="63"/>
 		<palette index="0">
 			<color index="0" value="#FFCC4Dff"/> 🟨 Yellow #ffcc4d
 			<color index="1" value="#664500ff"/> line color
@@ -1008,6 +1022,9 @@ p			<layer colorID="35" name="Dizzy.0"/>
 			<color index="57" value="#994308ff"/> safety vest brown
 			<color index="58" value="#EB7421ff"/> safety vest orange
 			<color index="59" value="#FCFB65ff"/> safety vest yellow
+			<color index="60" value="#846659ff"/> otter dark brown
+			<color index="61" value="#A78E81ff"/> otter mid brown
+			<color index="62" value="#CAB8ACff"/> otter light brown
 		</palette>
 	</CPAL>
 	p
