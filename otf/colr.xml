@@ -732,6 +732,13 @@
 			<layer colorID="44" name="ShakingFace.3"/> 0xCC
 			<layer colorID="6" name="ShakingFace.4"/>
 		</ColorGlyph>
+		<ColorGlyph name="NoddingFace">
+			<layer colorID="0" name="head36.0"/>
+			<layer colorID="1" name="NoddingFace.5"/>
+			<layer colorID="14" name="NoddingFace.6"/>
+		</ColorGlyph>
+		
+		
 		<!-- hearts -->
 		<ColorGlyph name="HeartWithArrow">
 			<layer colorID="9" name="HeartWithArrow.0"/> -1 ffac
