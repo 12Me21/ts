@@ -733,9 +733,14 @@
 			<layer colorID="6" name="ShakingFace.4"/>
 		</ColorGlyph>
 		<ColorGlyph name="NoddingFace">
-			<layer colorID="0" name="head36.0"/>
+			<layer colorID="0" name="bg1"/>
 			<layer colorID="1" name="NoddingFace.5"/>
 			<layer colorID="14" name="NoddingFace.6"/>
+		</ColorGlyph>
+		<ColorGlyph name="HeadShakingHorizontally">
+			<layer colorID="0" name="bg1"/>
+			<layer colorID="1" name="HeadShakingHorizontally.1"/>
+			<layer colorID="14" name="HeadShakingHorizontally.2"/>
 		</ColorGlyph>
 		
 		
