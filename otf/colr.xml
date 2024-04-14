@@ -732,10 +732,10 @@
 			<layer colorID="44" name="ShakingFace.3"/> 0xCC
 			<layer colorID="6" name="ShakingFace.4"/>
 		</ColorGlyph>
-		<ColorGlyph name="NoddingFace">
+		<ColorGlyph name="HeadShakingVertically">
 			<layer colorID="0" name="bg1"/>
-			<layer colorID="1" name="NoddingFace.5"/>
-			<layer colorID="14" name="NoddingFace.6"/>
+			<layer colorID="1" name="HeadShakingVertically.5"/>
+			<layer colorID="14" name="HeadShakingVertically.6"/>
 		</ColorGlyph>
 		<ColorGlyph name="HeadShakingHorizontally">
 			<layer colorID="0" name="bg1"/>
