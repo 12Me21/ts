@@ -55,15 +55,15 @@ MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "y's sex pet"
 GaspTable: 1 65535 2 1
-OtfFeatName: 'ss02' 1033 "new twitter variants"
 OtfFeatName: 'ss01' 1033 "jdecked variants"
+OtfFeatName: 'ss02' 1033 "new twitter variants"
 Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 504 18 8
+WinInfo: 450 18 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -31681,6 +31681,7 @@ Encoding: 584 -1 584
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "Eyes.0#E1E8EDff+AAoA-Eyes.1#F5F8FAff+AAoA-Eyes.2#8899A6ff+AAoA-Eyes.3#292F33ff+AAoA-Eyes.4#F5F8FAff"
 Colour: 80a696
 EndChar
 
