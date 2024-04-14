@@ -968,6 +968,14 @@ p			<layer colorID="35" name="Dizzy.0"/>
 			<layer colorID="59" name="SafetyVest.1"/>
 			<layer colorID="57" name="SafetyVest.2"/>
 		</ColorGlyph>
+		<ColorGlyph name="LeftRightArrow">
+			<layer colorID="8" name="tile.0"/>
+			<layer colorID="2" name="LeftRightArrow.1"/>
+		</ColorGlyph>
+		<ColorGlyph name="UpDownArrow">
+			<layer colorID="8" name="tile.0"/>
+			<layer colorID="2" name="UpDownArrow.1"/>
+		</ColorGlyph>
 	</COLR>
 		
 	<CPAL>
