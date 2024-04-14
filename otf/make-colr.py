@@ -1,6 +1,6 @@
 import fontforge
 
-font = fontforge.open("faces-test.sfd")
+font = fontforge.open("faces.sfd")
 
 out = open('colr2.xml', 'w')
 
@@ -34,4 +34,4 @@ out.write('\t\t</palette>\n\t</CPAL>\n')
 
 out.write('</ttFont>\n')
 
-font.generate('raw.ttf', ('opentype', 'omit-instructions'))
+font.generate('raw.ttf', flags=('opentype', 'omit-instructions'))

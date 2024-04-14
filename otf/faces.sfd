@@ -55,8 +55,8 @@ MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "y's sex pet"
 GaspTable: 1 65535 2 1
-OtfFeatName: 'ss01' 1033 "jdecked variants"
 OtfFeatName: 'ss02' 1033 "new twitter variants"
+OtfFeatName: 'ss01' 1033 "jdecked variants"
 Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
@@ -7251,6 +7251,7 @@ Width: 912
 Flags: MW
 LayerCount: 2
 Ligature2: "'ccmp' emojis 1" SlightlySmilingFace zerojoin UpDownArrow
+Comment: "bg1#FFCC4Dff+AAoA-HeadShakingVertically.5#664500ff+AAoA-HeadShakingVertically.6#99AAB5ff"
 Colour: 80a696
 EndChar
 
@@ -7328,6 +7329,7 @@ Width: 912
 VWidth: 0
 Flags: MW
 LayerCount: 2
+Comment: "Pistol.0#99AAB5ff+AAoA-Pistol.1#66757Fff+AAoA-Pistol.2#CCD6DDff+AAoA-Pistol.3#C1694Fff"
 EndChar
 
 StartChar: HeadShakingHorizontally
@@ -7336,6 +7338,7 @@ Width: 912
 Flags: MW
 LayerCount: 2
 Ligature2: "'ccmp' emojis 1" SlightlySmilingFace zerojoin LeftRightArrow
+Comment: "bg1#FFCC4Dff+AAoA-HeadShakingHorizontally.1#664500ff+AAoA-HeadShakingHorizontally.2#99AAB5ff"
 EndChar
 
 StartChar: bg1
@@ -8892,88 +8895,88 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-287.98828125 720 m 17
- 243.200951365 720 243.200951365 720 206.33984375 694.536132812 c 1
- 196.772071373 696 196.772071373 696 192.01171875 696 c 1
- 152.25 696 152.25 696 124.130859375 667.880859375 c 1
- 96.01171875 639.76171875 96.01171875 639.76171875 96.01171875 600 c 9
- 96.01171875 456 l 17
- 96.01171875 386.407817513 96.01171875 386.407817513 145.21088597 337.203908757 c 1
- 194.410053191 288 194.410053191 288 264.01171875 288 c 1
- 333.599853516 288 333.599853516 288 382.805786133 337.205932617 c 1
- 432.01171875 386.411865234 432.01171875 386.411865234 432.01171875 456 c 9
- 432.01171875 575.9765625 l 17
- 432.01171875 635.642024408 432.01171875 635.642024408 389.827791754 677.821012204 c 1
+287.98828125 720 m 17,0,1
+ 243.200951365 720 243.200951365 720 206.33984375 694.536132812 c 1,2,3
+ 196.772071373 696 196.772071373 696 192.01171875 696 c 1,4,5
+ 152.25 696 152.25 696 124.130859375 667.880859375 c 1,6,7
+ 96.01171875 639.76171875 96.01171875 639.76171875 96.01171875 600 c 9,8,-1
+ 96.01171875 456 l 17,9,10
+ 96.01171875 386.407817513 96.01171875 386.407817513 145.21088597 337.203908757 c 1,11,12
+ 194.410053191 288 194.410053191 288 264.01171875 288 c 1,13,14
+ 333.599853516 288 333.599853516 288 382.805786133 337.205932617 c 1,15,16
+ 432.01171875 386.411865234 432.01171875 386.411865234 432.01171875 456 c 9,17,-1
+ 432.01171875 575.9765625 l 17,18,19
+ 432.01171875 635.642024408 432.01171875 635.642024408 389.827791754 677.821012204 c 1,20,21
  347.643864758 720 347.643864758 720 287.98828125 720 c 1033
-672 480 m 1
- 672 471 672 471 666 463.5 c 1
- 660 456 660 456 648 456 c 1
- 636 456 636 456 630 463.5 c 1
+672 480 m 1,23,24
+ 672 471 672 471 666 463.5 c 1,25,26
+ 660 456 660 456 648 456 c 1,27,28
+ 636 456 636 456 630 463.5 c 1,29,30
  624 471 624 471 624 480 c 1033
-696 432 m 25
- 600 432 l 1
- 600 423 600 423 612 415.5 c 1
- 624 408 624 408 648 408 c 1
- 672 408 672 408 684 415.5 c 1
+696 432 m 25,32,-1
+ 600 432 l 1,33,34
+ 600 423 600 423 612 415.5 c 1,35,36
+ 624 408 624 408 648 408 c 1,37,38
+ 672 408 672 408 684 415.5 c 1,39,40
  696 423 696 423 696 432 c 1033
-696 432 m 1
- 600 432 l 1
- 600 360 l 1
- 650 338 650 338 696 360 c 1
- 696 432 l 1
-600 432 m 1
- 600 360 l 17
- 600 340 600 340 614 326 c 1
- 628 312 628 312 648 312 c 1
- 668 312 668 312 682 326 c 1
- 696 340 696 340 696 360 c 9
- 696 432 l 1
- 600 432 l 1
-792 336 m 17
- 792 356 792 356 778 370 c 1
- 764 384 764 384 744 384 c 9
- 552 384 l 17
- 532 384 532 384 518 370 c 1
- 504 356 504 356 504 336 c 9
- 504 312 l 1
- 552 312 l 1
- 552 144 l 1
- 744 144 l 1
- 744 312 l 1
- 792 312 l 1
- 792 336 l 17
-528 -144 m 1
- 528 -120 l 17
- 533 -96 533 -96 576 -96 c 1
- 619 -96 619 -96 624 -120 c 1
- 624 -144 l 1
- 528 -144 l 1
-720 -96 m 1
- 696 -96 696 -96 684 -103.5 c 1
- 672 -111 672 -111 672 -120 c 9
- 672 -120 672 -120 672 -144 c 1
- 768 -144 l 1
- 768 -120 l 1
- 768 -111 768 -111 756 -103.5 c 1
- 744 -96 744 -96 720 -96 c 1
-552 168 m 1
- 552 -120 l 1
- 624 -120 l 1
- 624 72 l 1
- 672 72 l 1
- 672 -120 l 1
- 744 -120 l 1
- 744 168 l 1
- 552 168 l 1
+696 432 m 1,42,-1
+ 600 432 l 1,43,-1
+ 600 360 l 1,44,45
+ 650 338 650 338 696 360 c 1,46,-1
+ 696 432 l 1,42,-1
+600 432 m 1,47,-1
+ 600 360 l 17,48,49
+ 600 340 600 340 614 326 c 1,50,51
+ 628 312 628 312 648 312 c 1,52,53
+ 668 312 668 312 682 326 c 1,54,55
+ 696 340 696 340 696 360 c 9,56,-1
+ 696 432 l 1,57,-1
+ 600 432 l 1,47,-1
+792 336 m 17,58,59
+ 792 356 792 356 778 370 c 1,60,61
+ 764 384 764 384 744 384 c 9,62,-1
+ 552 384 l 17,63,64
+ 532 384 532 384 518 370 c 1,65,66
+ 504 356 504 356 504 336 c 9,67,-1
+ 504 312 l 1,68,-1
+ 552 312 l 1,69,-1
+ 552 144 l 1,70,-1
+ 744 144 l 1,71,-1
+ 744 312 l 1,72,-1
+ 792 312 l 1,73,-1
+ 792 336 l 17,58,59
+528 -144 m 1,74,-1
+ 528 -120 l 17,75,76
+ 533 -96 533 -96 576 -96 c 1,77,78
+ 619 -96 619 -96 624 -120 c 1,79,-1
+ 624 -144 l 1,80,-1
+ 528 -144 l 1,74,-1
+720 -96 m 1,81,82
+ 696 -96 696 -96 684 -103.5 c 1,83,84
+ 672 -111 672 -111 672 -120 c 9,85,86
+ 672 -120 672 -120 672 -144 c 1,87,-1
+ 768 -144 l 1,88,-1
+ 768 -120 l 1,89,90
+ 768 -111 768 -111 756 -103.5 c 1,91,92
+ 744 -96 744 -96 720 -96 c 1,81,82
+552 168 m 1,93,-1
+ 552 -120 l 1,94,-1
+ 624 -120 l 1,95,-1
+ 624 72 l 1,96,-1
+ 672 72 l 1,97,-1
+ 672 -120 l 1,98,-1
+ 744 -120 l 1,99,-1
+ 744 168 l 1,100,-1
+ 552 168 l 1,93,-1
 526 360 m 1049
-432 96 m 1
- 446 96 446 96 454 110 c 9
- 593 360 l 1
- 538 360 l 1
- 411 132 l 17
- 408 127 408 127 408 120 c 1
- 408 110 408 110 415 103 c 1
- 422 96 422 96 432 96 c 1
+432 96 m 1,102,103
+ 446 96 446 96 454 110 c 9,104,-1
+ 593 360 l 1,105,-1
+ 538 360 l 1,106,-1
+ 411 132 l 17,107,108
+ 408 127 408 127 408 120 c 1,109,110
+ 408 110 408 110 415 103 c 1,111,112
+ 422 96 422 96 432 96 c 1,102,103
 EndSplineSet
 Refer: 22 -1 N 0.375 0 0 0.375 288 576 2
 Refer: 22 -1 N 0.25 0 0 0.25 192 600 2
@@ -9246,7 +9249,7 @@ EndChar
 StartChar: HeadShakingVertically.6
 Encoding: 157 -1 157
 Width: 912
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Back
 Image2: image/png 28747 -53.68 796.6 6.372 6.372
@@ -31551,6 +31554,7 @@ Refer: 22 -1 S -0.625 0 0 0.625 312 264 2
 Refer: 497 -1 S 1 0 0 1 -144 48 2
 Refer: 22 -1 S 0.125 0 0 0.125 408 360 2
 Refer: 22 -1 S 0.125 0 0 0.125 216 360 2
+Comment: "tile.0#3B88C3ff+AAoA-LeftRightArrow.1#FFFFFFff"
 Colour: 80a696
 EndChar
 
@@ -31560,6 +31564,7 @@ AltUni2: 002195.00fe0f.0
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "tile.0#3B88C3ff+AAoA-UpDownArrow.1#FFFFFFff"
 Colour: 80a696
 EndChar
 
@@ -31569,6 +31574,7 @@ AltUni2: 002639.00fe0f.0
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FrowningFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -31578,6 +31584,7 @@ AltUni2: 00263a.00fe0f.0
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-SmilingFace.1#FF7892ff+AAoA-SmilingFace.2#664500ff"
 Colour: 80a696
 EndChar
 
@@ -31587,6 +31594,7 @@ AltUni2: 002660.00fe0f.0
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "SpadeSuit.0#FFFFFFff+AAoA-SpadeSuit.0#31373Dff"
 Colour: 80a696
 EndChar
 
@@ -31596,6 +31604,7 @@ AltUni2: 002663.00fe0f.0
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "ClubSuit.0#FFFFFFff+AAoA-ClubSuit.0#31373Dff"
 Colour: 80a696
 EndChar
 
@@ -31605,6 +31614,7 @@ AltUni2: 002665.00fe0f.0
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "HeartSuit.0#BE1931ff"
 Colour: 80a696
 EndChar
 
@@ -31614,6 +31624,7 @@ AltUni2: 002666.00fe0f.0
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "DiamondSuit.0#BE1931ff"
 Colour: 80a696
 EndChar
 
@@ -31623,6 +31634,7 @@ AltUni2: 002763.00fe0f.0
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "HeartExclamation.0#DD2E44ff"
 Colour: 80a696
 EndChar
 
@@ -31632,6 +31644,7 @@ AltUni2: 002764.00fe0f.0
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "heart_colored.0#DD2E44ff"
 Colour: 80a696
 EndChar
 
@@ -31641,7 +31654,7 @@ AltUni2: 01f32b.00fe0f.0
 Width: 912
 Flags: MW
 LayerCount: 2
-Comment: "Fog.1#F5F8FA,Fog.2#E1E8ED"
+Comment: "Fog.1#F5F8FAff+AAoA-Fog.2#E1E8EDff+AAoA-Fog.3#CCD6DDff+AAoA-Fog.4#E1E8EDff+AAoA-Fog.5#F5F8FAff+AAoA-Fog.6#CCD6DDff"
 Colour: 80a696
 EndChar
 
@@ -31650,6 +31663,7 @@ Encoding: 582 127886 582
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "JapaneseDolls.1#55ACEEff+AAoA-JapaneseDolls.2#F26522ff+AAoA-JapaneseDolls.3#226699ff+AAoA-JapaneseDolls.4#D14A15ff+AAoA-JapaneseDolls.5#BBDDF5ff+AAoA-JapaneseDolls.6#FFB699ff+AAoA-JapaneseDolls.7#292F33ff+AAoA-JapaneseDolls.8#F5F8FAff+AAoA-JapaneseDolls.9#A0041Eff+AAoA-JapaneseDolls.10#292F33ff+AAoA-JapaneseDolls.11#55ACEEff+AAoA-JapaneseDolls.12#F26522ff+AAoA-JapaneseDolls.13#D14A15ff+AAoA-JapaneseDolls.14#FFCC4Dff"
 Colour: 80a696
 EndChar
 
@@ -31658,6 +31672,7 @@ Encoding: 583 128021 583
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "Dog.0#C1694Fff+AAoA-Dog.1#D99E82ff+AAoA-Dog.2#D99E82ff+AAoA-Dog.3#C1694Fff+AAoA-Dog.4#F4C7B5ff+AAoA-Dog.5#F4C7B5ff+AAoA-Dog.6#D99E82ff+AAoA-Dog.7#292F33ff+AAoA-Dog.8#272B2Bff+AAoA-Dog.9#662113ff"
 Colour: 80a696
 EndChar
 
@@ -31682,6 +31697,7 @@ Encoding: 586 128121 586
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "Ogre.0#292F33ff+AAoA-Ogre.1#FFFFFFff+AAoA-Ogre.2#DD2E44ff+AAoA-Ogre.3#BE1931ff+AAoA-Ogre.4#A0041Eff+AAoA-Ogre.5#55ACEEff+AAoA-Ogre.6#FFCC4Dff+AAoA-Ogre.7#292F33ff+AAoA-Ogre.8#F4900Cff"
 Colour: 80a696
 EndChar
 
@@ -31690,6 +31706,7 @@ Encoding: 587 128122 587
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "Goblin.0#DD2E44ff+AAoA-Goblin.1#FFD983ff+AAoA-Goblin.2#F5F8FAff+AAoA-Goblin.3#292F33ff+AAoA-Goblin.4#EA596Eff"
 Colour: 80a696
 EndChar
 
@@ -31698,6 +31715,7 @@ Encoding: 588 128123 588
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "Ghost.0#292F33ff+AAoA-Ghost.0#E1E8EDff+AAoA-Ghost.1#292F33ff+AAoA-Ghost.2#99AAB5ff"
 Colour: 80a696
 EndChar
 
@@ -31706,6 +31724,7 @@ Encoding: 589 128124 589
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "BabyAngel.0#292F33ff+AAoA-BabyAngel.0#E1E8EDff+AAoA-BabyAngel.1#FFCC4Dff+AAoA-BabyAngel.2#664500ff+AAoA-BabyAngel.3#F4900Cff+AAoA-BabyAngel.4#88C9F9ff"
 Colour: 80a696
 EndChar
 
@@ -31714,6 +31733,7 @@ Encoding: 590 128125 590
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "Alien.0#292F33ff+AAoA-Alien.0#CCD6DDff+AAoA-Alien.1#292F33ff"
 Colour: 80a696
 EndChar
 
@@ -31722,6 +31742,7 @@ Encoding: 591 128126 591
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "AlienMonster.0#9266CCff"
 Colour: 80a696
 EndChar
 
@@ -31730,6 +31751,7 @@ Encoding: 592 128127 592
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "bg_horns.0#AA8DD8ff+AAoA-head36.0#AA8DD8ff+AAoA-AngryFaceWithHorns.1#553788ff"
 Colour: 80a696
 EndChar
 
@@ -31738,6 +31760,7 @@ Encoding: 593 128128 593
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "Skull.0#292F33ff+AAoA-Skull.0#CCD6DDff+AAoA-Skull.1#292F33ff"
 Colour: 80a696
 EndChar
 
@@ -31746,6 +31769,7 @@ Encoding: 594 128147 594
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "BeatingHeart.0#EA596Eff+AAoA-BeatingHeart.1#FFAC33ff"
 Colour: 80a696
 EndChar
 
@@ -31754,6 +31778,7 @@ Encoding: 595 128148 595
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "BrokenHeart.0#DD2E44ff"
 Colour: 80a696
 EndChar
 
@@ -31762,6 +31787,7 @@ Encoding: 596 128149 596
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "TwoHearts.0#EA596Eff"
 Colour: 80a696
 EndChar
 
@@ -31770,6 +31796,7 @@ Encoding: 597 128150 597
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "heart_colored.0#EA596Eff+AAoA-SparklingHeart.1#FFCC4Dff"
 Colour: 80a696
 EndChar
 
@@ -31778,6 +31805,7 @@ Encoding: 598 128151 598
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "heart_colored.0#F4ABBAff+AAoA-GrowingHeart.1#EA596Eff+AAoA-GrowingHeart.2#DD2E44ff"
 Colour: 80a696
 EndChar
 
@@ -31786,6 +31814,7 @@ Encoding: 599 128152 599
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "HeartWithArrow.0#FFAC33ff+AAoA-HeartWithArrow.1#EA596Eff+AAoA-HeartWithArrow.2#55ACEEff+AAoA-HeartWithArrow.3#FFAC33ff+AAoA-HeartWithArrow.4#BE1931ff"
 Colour: 80a696
 EndChar
 
@@ -31794,6 +31823,7 @@ Encoding: 600 128153 600
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "heart_colored.0#3B88C3ff"
 Colour: 80a696
 EndChar
 
@@ -31802,6 +31832,7 @@ Encoding: 601 128154 601
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "heart_colored.0#77B255ff"
 Colour: 80a696
 EndChar
 
@@ -31810,6 +31841,7 @@ Encoding: 602 128155 602
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "heart_colored.0#FFCC4Dff"
 Colour: 80a696
 EndChar
 
@@ -31818,6 +31850,7 @@ Encoding: 603 128156 603
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "heart_colored.0#AA8DD8ff"
 Colour: 80a696
 EndChar
 
@@ -31826,6 +31859,7 @@ Encoding: 604 128157 604
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "heart_colored.0#EA596Eff+AAoA-HeartWithRibbon.1#FFD983ff+AAoA-HeartWithRibbon.2#FFCC4Dff+AAoA-HeartWithRibbon.3#FFD983ff"
 Colour: 80a696
 EndChar
 
@@ -31834,6 +31868,7 @@ Encoding: 605 128158 605
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "RevolvingHearts.0#F4ABBAff+AAoA-TwoHearts.0#EA596Eff"
 Colour: 80a696
 EndChar
 
@@ -31842,6 +31877,7 @@ Encoding: 606 128159 606
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "tile.0#AA8DD8ff+AAoA-HeartDecoration.1#F5F8FAff"
 Colour: 80a696
 EndChar
 
@@ -31850,6 +31886,7 @@ Encoding: 607 128168 607
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "DashingAway.0#BBDDF5ff"
 Colour: 80a696
 EndChar
 
@@ -31858,6 +31895,7 @@ Encoding: 608 128169 608
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "PileOfPoo.0#C1694Fff+AAoA-PileOfPoo.1#F5F8FAff+AAoA-PileOfPoo.2#292F33ff+AAoA-PileOfPoo.3#F4ABBAff"
 Colour: 80a696
 EndChar
 
@@ -31866,6 +31904,7 @@ Encoding: 609 128171 609
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "Dizzy.0#FFD983ff+AAoA-Dizzy.1#FFAC33ff"
 Colour: 80a696
 EndChar
 
@@ -31875,6 +31914,7 @@ Width: 912
 VWidth: 0
 Flags: MW
 LayerCount: 2
+Comment: "Fire.0#F4900Cff+AAoA-Fire.1#FFCC4Dff"
 Colour: 80a696
 EndChar
 
@@ -31883,6 +31923,7 @@ Encoding: 611 128420 611
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "heart_colored.0#FFFFFFff+AAoA-heart_colored.0#31373Dff"
 Colour: 80a696
 EndChar
 
@@ -31891,6 +31932,7 @@ Encoding: 612 128512 612
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-GrinningFace.1#664500ff+AAoA-teeth_grinning_common_b.0#FFFFFFff"
 Colour: 80a696
 EndChar
 
@@ -31899,6 +31941,7 @@ Encoding: 613 128513 613
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-BeamingFaceWithSmilingEyes.1#664500ff+AAoA-BeamingFaceWithSmilingEyes.2#FFFFFFff"
 Colour: 80a696
 EndChar
 
@@ -31907,6 +31950,7 @@ Encoding: 614 128514 614
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FaceWithTearsOfJoy.1#664500ff+AAoA-grinning_teeth_common.0#FFFFFFff+AAoA-FaceWithTearsOfJoy.3#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -31915,6 +31959,7 @@ Encoding: 615 128515 615
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-GrinningFaceWithBigEyes.1#664500ff+AAoA-grinning_teeth_common.0#FFFFFFff"
 Colour: 80a696
 EndChar
 
@@ -31923,6 +31968,7 @@ Encoding: 616 128516 616
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-GrinningFaceWithSmilingEyes.1#664500ff+AAoA-grinning_teeth_common.0#FFFFFFff"
 Colour: 80a696
 EndChar
 
@@ -31931,6 +31977,7 @@ Encoding: 617 128517 617
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-GrinningFaceWithSmilingEyes.1#664500ff+AAoA-grinning_teeth_common.0#FFFFFFff+AAoA-GrinningFaceWithSweat.3#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -31939,6 +31986,7 @@ Encoding: 618 128518 618
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-GrinningSquintingFace.1#664500ff+AAoA-grinning_teeth_common.0#FFFFFFff"
 Colour: 80a696
 EndChar
 
@@ -31947,6 +31995,7 @@ Encoding: 619 128519 619
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "SmilingFaceWithHalo.0#3B88C3ff+AAoA-head36.0#FFCC4Dff+AAoA-SmilingFaceWithHalo.9#FF6D0056+AAoA-SmilingFaceWithHalo.3#664500ff+AAoA-SmilingFaceWithHalo.4#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -31955,6 +32004,7 @@ Encoding: 620 128520 620
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "bg_horns.0#AA8DD8ff+AAoA-head36.0#AA8DD8ff+AAoA-SmilingFaceWithHorns.1#553788ff"
 Colour: 80a696
 EndChar
 
@@ -31963,6 +32013,7 @@ Encoding: 621 128521 621
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-WinkingFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -31971,6 +32022,7 @@ Encoding: 622 128522 622
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-SmilingFaceWithSmilingEyes.1#FF7892ff+AAoA-SmilingFaceWithSmilingEyes.2#664500ff"
 Colour: 80a696
 EndChar
 
@@ -31979,6 +32031,7 @@ Encoding: 623 128523 623
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FaceSavoringFood.1#664500ff+AAoA-FaceSavoringFood.2#EA596Eff+AAoA-FaceSavoringFood.3#DD2E44ff"
 Colour: 80a696
 EndChar
 
@@ -31987,6 +32040,7 @@ Encoding: 624 128524 624
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-RelievedFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -31995,6 +32049,7 @@ Encoding: 625 128525 625
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-SmilingFaceWithHeartEyes.1#664500ff+AAoA-SmilingFaceWithHeartEyes.2#DD2E44ff"
 Colour: 80a696
 EndChar
 
@@ -32003,6 +32058,7 @@ Encoding: 626 128526 626
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-SmilingFaceWithSunglasses.1#664500ff+AAoA-SmilingFaceWithSunglasses.2#292F33ff"
 Colour: 80a696
 EndChar
 
@@ -32011,6 +32067,7 @@ Encoding: 627 128527 627
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-SmirkingFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32019,6 +32076,7 @@ Encoding: 628 128528 628
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-NeutralFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32027,6 +32085,7 @@ Encoding: 629 128529 629
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-ExpressionlessFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32035,6 +32094,7 @@ Encoding: 630 128530 630
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-UnamusedFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32043,6 +32103,7 @@ Encoding: 631 128531 631
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-DowncastFaceWithSweat.1#664500ff+AAoA-DowncastFaceWithSweat.2#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -32051,6 +32112,7 @@ Encoding: 632 128532 632
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-PensiveFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32059,6 +32121,7 @@ Encoding: 633 128533 633
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-ConfusedFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32067,6 +32130,7 @@ Encoding: 634 128534 634
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-ConfoundedFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32075,6 +32139,7 @@ Encoding: 635 128535 635
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-KissingFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32083,6 +32148,7 @@ Encoding: 636 128536 636
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FaceBlowingAKiss.1#664500ff+AAoA-FaceBlowingAKiss.2#FF6D0056+AAoA-FaceBlowingAKiss.3#DD2E44ff"
 Colour: 80a696
 EndChar
 
@@ -32091,6 +32157,7 @@ Encoding: 637 128537 637
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-KissingFaceWithSmilingEyes.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32099,6 +32166,7 @@ Encoding: 638 128538 638
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-KissingFaceWithClosedEyes.1#FF7892ff+AAoA-KissingFaceWithClosedEyes.2#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32107,6 +32175,7 @@ Encoding: 639 128539 639
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FaceWithTongue.1#664500ff+AAoA-tongue_common.0#EA596Eff+AAoA-tongue_common.1#DD2E44ff"
 Colour: 80a696
 EndChar
 
@@ -32115,6 +32184,7 @@ Encoding: 640 128540 640
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-WinkingFaceWithTongue.1#F5F8FAff+AAoA-WinkingFaceWithTongue.2#292F33ff+AAoA-WinkingFaceWithTongue.3#664500ff+AAoA-tongue_common.0#EA596Eff+AAoA-tongue_common.1#DD2E44ff"
 Colour: 80a696
 EndChar
 
@@ -32123,6 +32193,7 @@ Encoding: 641 128541 641
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-SquintingFaceWithTongue.1#664500ff+AAoA-tongue_common.0#EA596Eff+AAoA-tongue_common.1#DD2E44ff"
 Colour: 80a696
 EndChar
 
@@ -32131,6 +32202,7 @@ Encoding: 642 128542 642
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-DisappointedFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32139,6 +32211,7 @@ Encoding: 643 128543 643
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-WorriedFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32147,6 +32220,7 @@ Encoding: 644 128544 644
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-AngryFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32155,6 +32229,7 @@ Encoding: 645 128545 645
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#DD2E44ff+AAoA-AngryFace.1#292F33ff"
 Colour: 80a696
 EndChar
 
@@ -32163,6 +32238,7 @@ Encoding: 646 128546 646
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-CryingFace.1#664500ff+AAoA-CryingFace.2#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -32171,6 +32247,7 @@ Encoding: 647 128547 647
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-PerseveringFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32179,6 +32256,7 @@ Encoding: 648 128548 648
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "FaceWithSteamFromNose.3#292F33ff+AAoA-head36.0#FFCC4Dff+AAoA-FaceWithSteamFromNose.1#664500ff+AAoA-FaceWithSteamFromNose.2#F5F8FAff+AAoA-FaceWithSteamFromNose.3#E1E8EDff"
 Colour: 80a696
 EndChar
 
@@ -32187,6 +32265,7 @@ Encoding: 649 128549 649
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-SadButRelievedFace.1#664500ff+AAoA-AnxiousFaceWithSweat.3#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -32195,6 +32274,7 @@ Encoding: 650 128550 650
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FrowningFaceWithOpenMouth.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32203,6 +32283,7 @@ Encoding: 651 128551 651
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-AnguishedFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32211,6 +32292,7 @@ Encoding: 652 128552 652
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head_sweat.0#FFCC4Dff+AAoA-bg_sweat.0#BBDDF5ff+AAoA-AnguishedFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32219,6 +32301,7 @@ Encoding: 653 128553 653
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-WearyFace.1#664500ff+AAoA-WearyFace.2#FFFFFFff"
 Colour: 80a696
 EndChar
 
@@ -32227,6 +32310,7 @@ Encoding: 654 128554 654
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-SleepyFace.1#664500ff+AAoA-SleepyFace.2#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -32235,6 +32319,7 @@ Encoding: 655 128555 655
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-TiredFace.1#664500ff+AAoA-TiredFace.2#CCD6DDff"
 Colour: 80a696
 EndChar
 
@@ -32243,6 +32328,7 @@ Encoding: 656 128556 656
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-GrimacingFace.1#664500ff+AAoA-GrimacingFace.2#FFFFFFff"
 Colour: 80a696
 EndChar
 
@@ -32251,6 +32337,7 @@ Encoding: 657 128557 657
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-LoudlyCryingFace.1#55ACEEff+AAoA-LoudlyCryingFace.2#664500ff+AAoA-LoudlyCryingFace.3#EA596Eff"
 Colour: 80a696
 EndChar
 
@@ -32259,6 +32346,7 @@ Encoding: 658 128558 658
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FaceWithOpenMouth.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32267,6 +32355,7 @@ Encoding: 659 128559 659
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-HushedFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32275,6 +32364,7 @@ Encoding: 660 128560 660
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head_sweat.0#FFCC4Dff+AAoA-bg_sweat.0#BBDDF5ff+AAoA-AnxiousFaceWithSweat.2#664500ff+AAoA-AnxiousFaceWithSweat.3#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -32283,6 +32373,7 @@ Encoding: 661 128561 661
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "FaceScreamingInFear.0#FFCC4Dff+AAoA-FaceScreamingInFear.1#BBDDF5ff+AAoA-FaceScreamingInFear.2#664500ff+AAoA-FaceScreamingInFear.3#F5F8FAff+AAoA-fear_hands.0#FFAC33ff"
 Colour: 80a696
 EndChar
 
@@ -32291,6 +32382,7 @@ Encoding: 662 128562 662
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-AstonishedFace.1#664500ff+AAoA-AstonishedFace.2#FFFFFFff"
 Colour: 80a696
 EndChar
 
@@ -32299,6 +32391,7 @@ Encoding: 663 128563 663
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FlushedFace.1#FF7892ff+AAoA-FlushedFace.2#F5F8FAff+AAoA-FlushedFace.3#292F33ff+AAoA-FlushedFace.4#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32307,6 +32400,7 @@ Encoding: 664 128564 664
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-SleepingFace.1#664500ff+AAoA-SleepingFace.2#FF6D0056+AAoA-SleepingFace.3#226699ff"
 Colour: 80a696
 EndChar
 
@@ -32315,6 +32409,7 @@ Encoding: 665 128565 665
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FaceWithCrossedOutEyes.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32323,6 +32418,7 @@ Encoding: 666 128566 666
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FaceWithoutMouth.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32331,6 +32427,7 @@ Encoding: 667 128567 667
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FaceWithMedicalMask.1#664500ff+AAoA-FaceWithMedicalMask.2#F5F8FAff"
 Colour: 80a696
 EndChar
 
@@ -32339,6 +32436,7 @@ Encoding: 668 128577 668
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-SlightlyFrowningFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32347,6 +32445,7 @@ Encoding: 669 128578 669
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-SlightlySmilingFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32355,6 +32454,7 @@ Encoding: 670 128579 670
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-UpsideDownFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32363,6 +32463,7 @@ Encoding: 671 128580 671
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FaceWithRollingEyes.1#F5F8FAff+AAoA-FaceWithRollingEyes.2#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32371,6 +32472,7 @@ Encoding: 672 129293 672
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "heart_colored.0#292F33ff+AAoA-heart_colored.0#E6E7E8ff"
 Colour: 80a696
 EndChar
 
@@ -32379,6 +32481,7 @@ Encoding: 673 129294 673
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "heart_colored.0#C1694Fff"
 Colour: 80a696
 EndChar
 
@@ -32387,6 +32490,7 @@ Encoding: 674 129296 674
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-ZipperMouthFace.1#664500ff+AAoA-ZipperMouthFace.2#99AAB5ff"
 Colour: 80a696
 EndChar
 
@@ -32395,6 +32499,7 @@ Encoding: 675 129297 675
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-MoneyMouthFace.1#664500ff+AAoA-tongue_common.0#5C913Bff+AAoA-MoneyMouthFace.3#FFFFFFff"
 Colour: 80a696
 EndChar
 
@@ -32403,6 +32508,7 @@ Encoding: 676 129298 676
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FaceWithThermometer.1#FF6D0056+AAoA-FaceWithThermometer.2#664500ff+AAoA-FaceWithThermometer.3#452E04ff+AAoA-FaceWithThermometer.4#CCD6DDff+AAoA-FaceWithThermometer.5#DD2E44ff+AAoA-FaceWithThermometer.6#66757Fff"
 Colour: 80a696
 EndChar
 
@@ -32411,6 +32517,7 @@ Encoding: 677 129299 677
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-NerdFace.1#664500ff+AAoA-NerdFace.2#FFFFFFff+AAoA-glasses.0#292F33ff"
 Colour: 80a696
 EndChar
 
@@ -32419,6 +32526,7 @@ Encoding: 678 129300 678
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "FaceWithHandOverMouth.0#FFCC4Dff+AAoA-ThinkingFace.1#664500ff+AAoA-ThinkingFace.2#F4900Cff"
 Colour: 80a696
 EndChar
 
@@ -32427,6 +32535,7 @@ Encoding: 679 129301 679
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FaceWithHeadBandage.1#664500ff+AAoA-FaceWithHeadBandage.2#E1E8EDff+AAoA-FaceWithHeadBandage.3#CCD6DDff+AAoA-FaceWithHeadBandage.4#AAB8C2ff"
 Colour: 80a696
 EndChar
 
@@ -32435,6 +32544,7 @@ Encoding: 680 129302 680
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "Robot.0#FFCC4Dff+AAoA-Robot.1#F4900Cff+AAoA-Robot.2#FFAC33ff+AAoA-Robot.3#226699ff+AAoA-Robot.4#55ACEEff+AAoA-Robot.5#3B88C3ff+AAoA-Robot.6#CCD6DDff+AAoA-Robot.7#F5F8FAff+AAoA-Robot.8#DD2E44ff"
 Colour: 80a696
 EndChar
 
@@ -32443,6 +32553,7 @@ Encoding: 681 129303 681
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "SmilingFaceWithOpenHands.0#FFCC4Dff+AAoA-SmilingFaceWithOpenHands.1#664500ff+AAoA-SmilingFaceWithOpenHands.2#F4900Cff+AAoA-SmilingFaceWithOpenHands.3#B55005ff"
 Colour: 80a696
 EndChar
 
@@ -32451,6 +32562,7 @@ Encoding: 682 129312 682
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "CowboyHatFace.2#F5F8FAff+AAoA-CowboyHatFace.0#FFCC4Dff+AAoA-CowboyHatFace.1#664500ff+AAoA-CowboyHatFace.2#664500ff+AAoA-CowboyHatFace.3#825D0Eff"
 Colour: 80a696
 EndChar
 
@@ -32459,6 +32571,7 @@ Encoding: 683 129313 683
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#C1694Fff+AAoA-ClownFace.0#3B88C3ff+AAoA-head36.0#FFE8B6ff+AAoA-ClownFace.2#FF7892ff+AAoA-ClownFace.3#DD2E44ff+AAoA-ClownFace.4#664500ff+AAoA-ClownFace.5#BE1931ff+AAoA-ClownFace.6#3B88C3ff"
 Colour: 80a696
 EndChar
 
@@ -32467,6 +32580,7 @@ Encoding: 684 129314 684
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#77B255ff+AAoA-NauseatedFace.1#292F33ff+AAoA-NauseatedFace.2#3E721Dff"
 Colour: 80a696
 EndChar
 
@@ -32475,6 +32589,7 @@ Encoding: 685 129315 685
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-RollingOnTheFloorLaughing.1#664500ff+AAoA-RollingOnTheFloorLaughing.2#FFFFFFff+AAoA-RollingOnTheFloorLaughing.3#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -32483,6 +32598,7 @@ Encoding: 686 129316 686
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-DroolingFace.1#664500ff+AAoA-DroolingFace.2#88C9F9ff"
 Colour: 80a696
 EndChar
 
@@ -32491,6 +32607,7 @@ Encoding: 687 129317 687
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "LyingFace.0#FFCC4Dff+AAoA-LyingFace.1#664500ff+AAoA-LyingFace.2#F4900Cff"
 Colour: 80a696
 EndChar
 
@@ -32499,6 +32616,7 @@ Encoding: 688 129319 688
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "SneezingFace.2#292F33ff+AAoA-head36.0#FFCC4Dff+AAoA-SneezingFace.1#664500ff+AAoA-SneezingFace.2#E1E8EDff+AAoA-SneezingFace.3#FFFFFFff"
 Colour: 80a696
 EndChar
 
@@ -32507,6 +32625,7 @@ Encoding: 689 129320 689
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FaceWithRaisedEyebrow.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32515,6 +32634,7 @@ Encoding: 690 129321 690
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-StarStruck.1#664500ff+AAoA-teeth_grinning_common_b.0#FFFFFFff+AAoA-StarStruck.3#F26522ff"
 Colour: 80a696
 EndChar
 
@@ -32523,6 +32643,7 @@ Encoding: 691 129322 691
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-ZanyFace.1#F5F8FAff+AAoA-ZanyFace.2#292F33ff+AAoA-ZanyFace.3#664500ff+AAoA-ZanyFace.4#EA596Eff+AAoA-ZanyFace.5#DD2E44ff+AAoA-ZanyFace.6#FFFFFFff"
 Colour: 80a696
 EndChar
 
@@ -32531,6 +32652,7 @@ Encoding: 692 129323 692
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "FaceWithHandOverMouth.0#FFCC4Dff+AAoA-ShushingFace.1#664500ff+AAoA-ShushingFace.2#F4900Cff+AAoA-ShushingFace.3#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32539,6 +32661,7 @@ Encoding: 693 129324 693
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#DD2E44ff+AAoA-FaceWithSymbolsOnMouth.1#292F33ff+AAoA-FaceWithSymbolsOnMouth.2#292F33ff+AAoA-FaceWithSymbolsOnMouth.3#FFFFFFff"
 Colour: 80a696
 EndChar
 
@@ -32547,6 +32670,7 @@ Encoding: 694 129325 694
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "FaceWithHandOverMouth.0#FFCC4Dff+AAoA-FaceWithHandOverMouth.1#664500ff+AAoA-FaceWithHandOverMouth.2#F4900Cff"
 Colour: 80a696
 EndChar
 
@@ -32555,6 +32679,7 @@ Encoding: 695 129326 695
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "FaceWithHandOverMouth.0#FFCC4Dff+AAoA-FaceVomiting.1#664500ff+AAoA-FaceVomiting.2#77B255ff+AAoA-FaceVomiting.3#5C913Bff"
 Colour: 80a696
 EndChar
 
@@ -32563,6 +32688,7 @@ Encoding: 696 129327 696
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "ExplodingHead.0#FFCC4Dff+AAoA-ExplodingHead.1#664500ff+AAoA-ExplodingHead.2#F4900Cff+AAoA-ExplodingHead.3#F26522ff+AAoA-ExplodingHead.4#CE5C1Fff+AAoA-ExplodingHead.5#CCD6DDff+AAoA-ExplodingHead.6#E1E8EDff"
 Colour: 80a696
 EndChar
 
@@ -32571,6 +32697,7 @@ Encoding: 697 129392 697
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-SmilingFaceWithHearts.1#664500ff+AAoA-SmilingFaceWithHearts.2#FF6D0056+AAoA-SmilingFaceWithHearts.3#DD2E44ff"
 Colour: 80a696
 EndChar
 
@@ -32579,6 +32706,7 @@ Encoding: 698 129393 698
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "FaceWithHandOverMouth.0#FFCC4Dff+AAoA-YawningFace.1#664500ff+AAoA-hand_over_mouth.0#F4900Cff"
 Colour: 80a696
 EndChar
 
@@ -32587,6 +32715,7 @@ Encoding: 699 129394 699
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-SmilingFaceWithTear.1#664500ff+AAoA-SmilingFaceWithTear.2#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -32595,6 +32724,7 @@ Encoding: 700 129395 700
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "PartyingFace.0#FFCC4Dff+AAoA-PartyingFace.1#E2A62Dff+AAoA-PartyingFace.2#664500ff+AAoA-PartyingFace.3#3B88C3ff+AAoA-PartyingFace.4#88C9F9ff+AAoA-PartyingFace.5#226699ff+AAoA-PartyingFace.6#DD2E44ff+AAoA-PartyingFace.7#EA596Eff+AAoA-PartyingFace.8#77B255ff+AAoA-PartyingFace.9#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -32603,6 +32733,7 @@ Encoding: 701 129396 701
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-WoozyFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32611,6 +32742,7 @@ Encoding: 702 129397 702
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#EA596Eff+AAoA-HotFace.1#664500ff+AAoA-HotFace.2#F4ABBAff+AAoA-HotFace.3#EA596Eff+AAoA-HotFace.4#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -32619,6 +32751,7 @@ Encoding: 703 129398 703
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#55ACEEff+AAoA-ColdFace.1#226699ff+AAoA-ColdFace.2#FFFFFFff+AAoA-ColdFace.3#BBDDF5ff"
 Colour: 80a696
 EndChar
 
@@ -32627,6 +32760,7 @@ Encoding: 704 129400 704
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-DisguisedFace.1#664500ff+AAoA-DisguisedFace.2#292F33ff+AAoA-DisguisedFace.3#FFAC33ff+AAoA-DisguisedFace.4#C1694Fff+AAoA-DisguisedFace.5#662113ff+AAoA-glasses.0#292F33ff"
 Colour: 80a696
 EndChar
 
@@ -32637,6 +32771,7 @@ Flags: MW
 LayerCount: 2
 Substitution2: "'cv11' tears X-1" FaceHoldingBackTears3
 Substitution2: "'cv10' tears jdecked-1" FaceHoldingBackTears2
+Comment: "FaceInClouds.1#F5F8FAff+AAoA-FaceHoldingBackTears1.1#F4900Cff+AAoA-FaceHoldingBackTears1.3#FFCC4Dff+AAoA-FaceHoldingBackTears1.4#664500ff+AAoA-FaceHoldingBackTears1.2#FFFFFFff+AAoA-FaceHoldingBackTears1.6#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -32645,6 +32780,7 @@ Encoding: 706 -1 706
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FaceHoldingBackTears3.2#664500ff+AAoA-PleadingFace3.3#FFFFFFff+AAoA-FaceHoldingBackTears3.4#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -32661,6 +32797,7 @@ Encoding: 708 -1 708
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FaceHoldingBackTears2.1#664500ff+AAoA-FaceHoldingBackTears2.2#F5F8FAff+AAoA-FaceHoldingBackTears2.3#292F33ff+AAoA-FaceHoldingBackTears2.4#FFFFFFff+AAoA-FaceHoldingBackTears2.5#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -32671,6 +32808,7 @@ Flags: MW
 LayerCount: 2
 Substitution2: "'cv02' pleading X-1" PleadingFace3
 Substitution2: "'cv01' pleading jdecked-1" PleadingFace2
+Comment: "FaceInClouds.1#F5F8FAff+AAoA-PleadingFace1.1#664500ff+AAoA-PleadingFace1.2#F4900Cff+AAoA-PleadingFace1.3#FFFFFFff+AAoA-PleadingFace1.4#FFCC4Dff+AAoA-PleadingFace1.5#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32679,6 +32817,7 @@ Encoding: 710 -1 710
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-PleadingFace2.1#664500ff+AAoA-FaceHoldingBackTears2.2#F5F8FAff+AAoA-FaceHoldingBackTears2.3#292F33ff+AAoA-FaceHoldingBackTears2.4#FFFFFFff+AAoA-FaceHoldingBackTears2.5#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -32687,6 +32826,7 @@ Encoding: 711 -1 711
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-PleadingFace3.1#664500ff+AAoA-PleadingFace3.2#664500ff+AAoA-PleadingFace3.3#FFFFFFff"
 Colour: 80a696
 EndChar
 
@@ -32852,6 +32992,7 @@ SplineSet
  526.15234375 142.368164062 513.192382812 189.120117188 534.047851562 209.952148438 c 4
  554.879882812 230.807617188 601.631835938 217.84765625 685.0078125 134.471679688 c 4
 EndSplineSet
+Comment: "Fox.0#F4900Cff+AAoA-Fox.1#A0041Eff+AAoA-Fox.2#FFD983ff+AAoA-Fox.3#272B2Bff"
 Colour: 80a696
 EndChar
 
@@ -32861,6 +33002,7 @@ Width: 912
 VWidth: 0
 Flags: MW
 LayerCount: 2
+Comment: "Otter.0#A78E81ff+AAoA-Otter.1#846659ff+AAoA-Otter.2#CAB8ACff+AAoA-Otter.3#A78E81ff+AAoA-Otter.4#292F33ff+AAoA-Otter.5#66757Fff"
 Colour: 80a696
 EndChar
 
@@ -32870,6 +33012,7 @@ Width: 912
 VWidth: 0
 Flags: MW
 LayerCount: 2
+Comment: "Dog.0#C1694Fff+AAoA-GuideDog.1#D99E82ff+AAoA-Dog.2#D99E82ff+AAoA-Dog.4#F4C7B5ff+AAoA-Dog.6#C1694Fff+AAoA-Dog.7#292F33ff+AAoA-Dog.8#272B2Bff+AAoA-GuideDog.2#292F33ff+AAoA-GuideDog.3#3E721Dff+AAoA-GuideDog.4#5C913Bff+AAoA-GuideDog.9#662113ff+AAoA-GuideDog.5#3E721Dff"
 Colour: 80a696
 EndChar
 
@@ -32879,6 +33022,7 @@ Width: 912
 VWidth: 0
 Flags: MW
 LayerCount: 2
+Comment: "SafetyVest.0#EB7421ff+AAoA-SafetyVest.1#FCFB65ff+AAoA-SafetyVest.2#994308ff"
 Colour: 80a696
 EndChar
 
@@ -32887,6 +33031,7 @@ Encoding: 717 129488 717
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FaceWithMonocle.1#664500ff+AAoA-FaceWithMonocle.5#292F33ff+AAoA-FaceWithMonocle.2#BBDDF5ff+AAoA-FaceWithMonocle.3#F5F8FAff+AAoA-FaceWithMonocle.4#66757Fff"
 Colour: 80a696
 EndChar
 
@@ -32895,6 +33040,7 @@ Encoding: 718 129505 718
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "heart_colored.0#F4900Cff"
 Colour: 80a696
 EndChar
 
@@ -32903,6 +33049,7 @@ Encoding: 719 129653 719
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "heart_colored.0#88C9F9ff"
 Colour: 80a696
 EndChar
 
@@ -32911,6 +33058,7 @@ Encoding: 720 129654 720
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "heart_colored.0#99AAB5ff"
 Colour: 80a696
 EndChar
 
@@ -32919,6 +33067,7 @@ Encoding: 721 129655 721
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "heart_colored.0#F4ABBAff"
 Colour: 80a696
 EndChar
 
@@ -32928,6 +33077,7 @@ Width: 912
 VWidth: 0
 Flags: MW
 LayerCount: 2
+Comment: "AdhesiveBandage.0#D99E82ff+AAoA-AdhesiveBandage.1#C1694Fff+AAoA-AdhesiveBandage.2#EABAA7ff+AAoA-AdhesiveBandage.3#F7DED5ff"
 Colour: 80a696
 EndChar
 
@@ -32936,6 +33086,7 @@ Encoding: 723 129760 723
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "MeltingFace.0#FFCC4Dff+AAoA-MeltingFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32944,6 +33095,7 @@ Encoding: 724 129761 724
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "SalutingFace.0#FFCC4Dff+AAoA-SalutingFace.1#664500ff+AAoA-SalutingFace.2#F4900Cff+AAoA-SalutingFace.3#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32952,6 +33104,7 @@ Encoding: 725 129762 725
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "FaceWithHandOverMouth.0#FFCC4Dff+AAoA-FaceWithOpenEyesAndHandOverMouth.1#664500ff+AAoA-FaceWithHandOverMouth.2#F4900Cff"
 Colour: 80a696
 EndChar
 
@@ -32960,6 +33113,7 @@ Encoding: 726 129763 726
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "FaceWithPeekingEye.0#FFCC4Dff+AAoA-FaceWithPeekingEye.1#F5F8FAff+AAoA-FaceWithPeekingEye.2#292F33ff+AAoA-FaceWithPeekingEye.3#664500ff+AAoA-FaceWithPeekingEye.5#B55005ff+AAoA-FaceWithPeekingEye.4#F4900Cff"
 Colour: 80a696
 EndChar
 
@@ -32968,6 +33122,7 @@ Encoding: 727 129764 727
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "head36.0#FFCC4Dff+AAoA-FaceWithDiagonalMouth.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32976,6 +33131,7 @@ Encoding: 728 129765 728
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "DottedLineFace.0#FFE8B680+AAoA-DottedLineFace.2#FFCC4Dff+AAoA-NeutralFace.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -32984,6 +33140,7 @@ Encoding: 729 129768 729
 Width: 912
 Flags: MW
 LayerCount: 2
+Comment: "ShakingFace.0#FFCC4D80+AAoA-ShakingFace.1#66450080+AAoA-ShakingFace.2#FFCC4Dcc+AAoA-ShakingFace.3#664500cc+AAoA-ShakingFace.4#55ACEEff"
 Colour: 80a696
 EndChar
 
@@ -32994,6 +33151,7 @@ VWidth: 0
 Flags: MW
 LayerCount: 2
 Ligature2: "'ccmp' emojis 1" RedHeart zerojoin Fire
+Comment: "HeartOnFire.0#F4900Cff+AAoA-HeartOnFire.1#FFCC4Dff+AAoA-HeartOnFire.2#DD2E44ff+AAoA-HeartOnFire.3#FFCC4Dff"
 Colour: 80a696
 EndChar
 
@@ -33004,6 +33162,7 @@ VWidth: 0
 Flags: MW
 LayerCount: 2
 Ligature2: "'ccmp' emojis 1" RedHeart zerojoin AdhesiveBandage
+Comment: "MendingHeart.1#AAB8C2ff+AAoA-MendingHeart.0#DD2E44ff+AAoA-MendingHeart.1#E1E8EDff+AAoA-MendingHeart.2#CCD6DDff+AAoA-MendingHeart.3#AAB8C2ff"
 Colour: 80a696
 EndChar
 
@@ -33014,6 +33173,7 @@ VWidth: 0
 Flags: MW
 LayerCount: 2
 Ligature2: "'ccmp' emojis 1" Dog zerojoin SafetyVest
+Comment: "ServiceDog.0#C1694Fff+AAoA-ServiceDog.1#D99E82ff+AAoA-ServiceDog.2#F4C7B5ff+AAoA-ServiceDog.3#C1694Fff+AAoA-Dog.6#C1694Fff+AAoA-Dog.7#292F33ff+AAoA-Dog.8#272B2Bff+AAoA-ServiceDog.5#A0041Eff+AAoA-ServiceDog.6#292F33ff+AAoA-ServiceDog.7#A0041Eff+AAoA-ServiceDog.8#F4ABBAff+AAoA-ServiceDog.9#F5F8FAff+AAoA-GuideDog.9#662113ff"
 Colour: 80a696
 EndChar
 
@@ -33024,6 +33184,7 @@ Flags: MW
 LayerCount: 2
 LCarets2: 2 0 0
 Ligature2: "'ccmp' emojis 1" FaceWithOpenMouth zerojoin DashingAway
+Comment: "FaceExhaling.2#292F33ff+AAoA-head36.0#FFCC4Dff+AAoA-FaceExhaling.1#664500ff+AAoA-FaceExhaling.2#E1E8EDff+AAoA-FaceExhaling.3#F5F8FAff"
 Colour: 80a696
 EndChar
 
@@ -33033,6 +33194,7 @@ Width: 912
 Flags: MW
 LayerCount: 2
 Ligature2: "'ccmp' emojis 1" FaceWithCrossedOutEyes zerojoin Dizzy
+Comment: "head36.0#FFCC4Dff+AAoA-FaceWithSpiralEyes.1#664500ff"
 Colour: 80a696
 EndChar
 
@@ -33043,6 +33205,7 @@ Flags: MW
 LayerCount: 2
 Ligature2: "'ccmp' emojis 1" FaceWithoutMouth zerojoin Fog
 LCarets2: 2 0 0
+Comment: "FaceInClouds.0#F5F8FAff+AAoA-FaceInClouds.1#FFCC4Dff+AAoA-FaceInClouds.4#66757Fff+AAoA-FaceInClouds.3#CCD6DDff+AAoA-FaceInClouds.4#F5F8FAff+AAoA-FaceInClouds.5#E1E8EDff+AAoA-FaceInClouds.2#664500ff"
 Colour: 80a696
 EndChar
 EndChars
