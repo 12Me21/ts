@@ -16,7 +16,7 @@
 
 	@font-face {
 		font-family: 'flushed';
-		src: url("./faces-colr.subset.woff2?4073") format('woff2');
+		src: url("./faces-colr.subset.woff2?4074") format('woff2');
 		font-display: block;
 		font-weight: bold; font-weight: 100 900; /* this prevents bold font synthesis */
 		unicode-range:
@@ -46,7 +46,8 @@
 		font-family: flushed, roboto, sans-serif;
 		tab-size: 3;
 		-moz-tab-size: 3;
-		font-feature-settings: 'ss01' on, 'cv01' on;
+		/*font-feature-settings: 'ss01' on, 'cv01' on;*/
+		font-feature-settings: 'ss02' on;
 		/* font-synthesis: none; */
 	}
 	@keyframes rainbow {
@@ -104,8 +105,7 @@
 </style>
 
 Test
-<g class='emoji custom-emoji' style='display:block'>
-	<div class='label'>custom:</div>
+<g class='emoji custom-emoji' style='display:block' id=$demo>
 	<textarea></textarea>
 	xH<br>
 	abc<br>
@@ -121,14 +121,14 @@ Test
 	🤥😶🫥😐🫤😑🫨😬🙄😯😦😧<br>
 	😮😲🥱😴🤤😪😮‍💨😵😵‍💫🤐🥴🤢<br>
 	🤮🤧😷🤒🤕🤑🤠😈👿👹👺🤡<br>
-	💩👻💀👽👾🤖👼 &nbsp; &nbsp; ♠️♥️♦️♣️<br>
-	🙂‍↔️🙂‍↕️<br>
+	💩👻💀👽👾🤖👼 &nbsp; &nbsp; 🙂‍↔️🙂‍↕️<br>
 	🩷❤️🧡💛💚🩵💙💜🖤🩶🤍🤎<br>
 	💔❤️‍🔥❤️‍🩹❣️💕💞💓💗💖💘💝💟<br>
 	🐕🦮🐕‍🦺🦦<br>
-	🌫️💫💨🔥🩹🦺↔️↕️<br>
-	Text: ☻☺☹❣❤🌫♤♡♢♧♠♥♦♣↔↕<br>
-	no: <br>
+	Extra: 🌫️💫💨🔥🩹🦺↔️↕️<br>
+	Text: ☻☺☹❣❤🌫↔↕<br>
+	Suits: ♠️♥️♦️♣️/♠♥♦♣/♤♡♢♧<br>
+	<br>
 	Ligatures:
 	😶+🌫️ = 😶‍🌫️ / 
 	❤️+🔥 = ❤️‍🔥 / 
@@ -160,30 +160,10 @@ Test
 	<g class='dim box show-hearts'></g>
 	<g class='dark box show-hearts'></g>
 </g>
-
 <hr>
-<g class='emoji default-emoji'>
-	<g class='box show-hearts'></g>
-	<g class='dim box show-hearts'></g>
-	<g class='dark box show-hearts'></g>
-	
-	🎎🎎🎎🎎🎎🎎🎎🎎🎎🎎🎎🎎<br>
-	😀😃😄😁😆😅😂🤣🥲☺️😊Hx<br>
-	😇🙂🙃😉😌😍🥰😘😗😙😚😋<br>
-	😛😝😜🤪🤨🧐🤓😎🥸🤩🥳😏<br>
-	😒😞😔😟😕🙁☹️😣😖😫😩🥺<br>
-	😢😭😤😠😡🤬🤯😳🥵🥶😶‍🌫️😱<br>
-	😨😰😥😓🤗🤔🫣🤭🫢🫡🤫🫠<br>
-	🤥😶🫥😐🫤😑🫨😬🙄😯😦😧<br>
-	😮😲🥱😴🤤😪😮‍💨😵😵‍💫🤐🥴🤢<br>
-	🤮🤧😷🤒🤕🤑🤠😈👿👹👺🤡<br>
-	💩👻💀👽👾🤖👼 &nbsp; &nbsp; ♠️♥️♦️♣️<br>
-	🩷❤️🧡💛💚🩵💙💜🖤🩶🤍🤎<br>
-	💔❤️‍🔥❤️‍🩹❣️💕💞💓💗💖💘💝💟<br>
-	🌫️💫💨🔥🩹<br>
-	Text: ☻☺☹❣❤🌫♤♡♢♧♠♥♦♣<br>
-	
-	<br>
-	ABCabc
-	<div>UVS: ❣ ❣︎ ❣️ Heart Exclamation /  ❤ ❤︎ ❤️ Heart / 🌫 🌫︎ 🌫️ Fog / ☺ ☺︎ ☺️ Smile / ☹ ☹︎ ☹️ Frown / ☻ Inverted Smile</div>
-</g>
+Local Emojis:<br>
+<script>
+	let x = $demo.cloneNode(true)
+	x.className = 'emoji default-emoji'
+	document.body.append(x)
+</script>
