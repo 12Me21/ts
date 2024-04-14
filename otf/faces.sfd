@@ -55,15 +55,15 @@ MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "y's sex pet"
 GaspTable: 1 65535 2 1
-OtfFeatName: 'ss02' 1033 "new twitter variants"
 OtfFeatName: 'ss01' 1033 "jdecked variants"
+OtfFeatName: 'ss02' 1033 "new twitter variants"
 Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 18 8
+WinInfo: 90 18 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -8892,88 +8892,88 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-287.98828125 720 m 17
- 243.200951365 720 243.200951365 720 206.33984375 694.536132812 c 1
- 196.772071373 696 196.772071373 696 192.01171875 696 c 1
- 152.25 696 152.25 696 124.130859375 667.880859375 c 1
- 96.01171875 639.76171875 96.01171875 639.76171875 96.01171875 600 c 9
- 96.01171875 456 l 17
- 96.01171875 386.407817513 96.01171875 386.407817513 145.21088597 337.203908757 c 1
- 194.410053191 288 194.410053191 288 264.01171875 288 c 1
- 333.599853516 288 333.599853516 288 382.805786133 337.205932617 c 1
- 432.01171875 386.411865234 432.01171875 386.411865234 432.01171875 456 c 9
- 432.01171875 575.9765625 l 17
- 432.01171875 635.642024408 432.01171875 635.642024408 389.827791754 677.821012204 c 1
+287.98828125 720 m 17,0,1
+ 243.200951365 720 243.200951365 720 206.33984375 694.536132812 c 1,2,3
+ 196.772071373 696 196.772071373 696 192.01171875 696 c 1,4,5
+ 152.25 696 152.25 696 124.130859375 667.880859375 c 1,6,7
+ 96.01171875 639.76171875 96.01171875 639.76171875 96.01171875 600 c 9,8,-1
+ 96.01171875 456 l 17,9,10
+ 96.01171875 386.407817513 96.01171875 386.407817513 145.21088597 337.203908757 c 1,11,12
+ 194.410053191 288 194.410053191 288 264.01171875 288 c 1,13,14
+ 333.599853516 288 333.599853516 288 382.805786133 337.205932617 c 1,15,16
+ 432.01171875 386.411865234 432.01171875 386.411865234 432.01171875 456 c 9,17,-1
+ 432.01171875 575.9765625 l 17,18,19
+ 432.01171875 635.642024408 432.01171875 635.642024408 389.827791754 677.821012204 c 1,20,21
  347.643864758 720 347.643864758 720 287.98828125 720 c 1033
-672 480 m 1
- 672 471 672 471 666 463.5 c 1
- 660 456 660 456 648 456 c 1
- 636 456 636 456 630 463.5 c 1
+672 480 m 1,23,24
+ 672 471 672 471 666 463.5 c 1,25,26
+ 660 456 660 456 648 456 c 1,27,28
+ 636 456 636 456 630 463.5 c 1,29,30
  624 471 624 471 624 480 c 1033
-696 432 m 25
- 600 432 l 1
- 600 423 600 423 612 415.5 c 1
- 624 408 624 408 648 408 c 1
- 672 408 672 408 684 415.5 c 1
+696 432 m 25,32,-1
+ 600 432 l 1,33,34
+ 600 423 600 423 612 415.5 c 1,35,36
+ 624 408 624 408 648 408 c 1,37,38
+ 672 408 672 408 684 415.5 c 1,39,40
  696 423 696 423 696 432 c 1033
-696 432 m 1
- 600 432 l 1
- 600 360 l 1
- 650 338 650 338 696 360 c 1
- 696 432 l 1
-600 432 m 1
- 600 360 l 17
- 600 340 600 340 614 326 c 1
- 628 312 628 312 648 312 c 1
- 668 312 668 312 682 326 c 1
- 696 340 696 340 696 360 c 9
- 696 432 l 1
- 600 432 l 1
-792 336 m 17
- 792 356 792 356 778 370 c 1
- 764 384 764 384 744 384 c 9
- 552 384 l 17
- 532 384 532 384 518 370 c 1
- 504 356 504 356 504 336 c 9
- 504 312 l 1
- 552 312 l 1
- 552 144 l 1
- 744 144 l 1
- 744 312 l 1
- 792 312 l 1
- 792 336 l 17
-528 -144 m 1
- 528 -120 l 17
- 533 -96 533 -96 576 -96 c 1
- 619 -96 619 -96 624 -120 c 1
- 624 -144 l 1
- 528 -144 l 1
-720 -96 m 1
- 696 -96 696 -96 684 -103.5 c 1
- 672 -111 672 -111 672 -120 c 9
- 672 -120 672 -120 672 -144 c 1
- 768 -144 l 1
- 768 -120 l 1
- 768 -111 768 -111 756 -103.5 c 1
- 744 -96 744 -96 720 -96 c 1
-552 168 m 1
- 552 -120 l 1
- 624 -120 l 1
- 624 72 l 1
- 672 72 l 1
- 672 -120 l 1
- 744 -120 l 1
- 744 168 l 1
- 552 168 l 1
+696 432 m 1,42,-1
+ 600 432 l 1,43,-1
+ 600 360 l 1,44,45
+ 650 338 650 338 696 360 c 1,46,-1
+ 696 432 l 1,42,-1
+600 432 m 1,47,-1
+ 600 360 l 17,48,49
+ 600 340 600 340 614 326 c 1,50,51
+ 628 312 628 312 648 312 c 1,52,53
+ 668 312 668 312 682 326 c 1,54,55
+ 696 340 696 340 696 360 c 9,56,-1
+ 696 432 l 1,57,-1
+ 600 432 l 1,47,-1
+792 336 m 17,58,59
+ 792 356 792 356 778 370 c 1,60,61
+ 764 384 764 384 744 384 c 9,62,-1
+ 552 384 l 17,63,64
+ 532 384 532 384 518 370 c 1,65,66
+ 504 356 504 356 504 336 c 9,67,-1
+ 504 312 l 1,68,-1
+ 552 312 l 1,69,-1
+ 552 144 l 1,70,-1
+ 744 144 l 1,71,-1
+ 744 312 l 1,72,-1
+ 792 312 l 1,73,-1
+ 792 336 l 17,58,59
+528 -144 m 1,74,-1
+ 528 -120 l 17,75,76
+ 533 -96 533 -96 576 -96 c 1,77,78
+ 619 -96 619 -96 624 -120 c 1,79,-1
+ 624 -144 l 1,80,-1
+ 528 -144 l 1,74,-1
+720 -96 m 1,81,82
+ 696 -96 696 -96 684 -103.5 c 1,83,84
+ 672 -111 672 -111 672 -120 c 9,85,86
+ 672 -120 672 -120 672 -144 c 1,87,-1
+ 768 -144 l 1,88,-1
+ 768 -120 l 1,89,90
+ 768 -111 768 -111 756 -103.5 c 1,91,92
+ 744 -96 744 -96 720 -96 c 1,81,82
+552 168 m 1,93,-1
+ 552 -120 l 1,94,-1
+ 624 -120 l 1,95,-1
+ 624 72 l 1,96,-1
+ 672 72 l 1,97,-1
+ 672 -120 l 1,98,-1
+ 744 -120 l 1,99,-1
+ 744 168 l 1,100,-1
+ 552 168 l 1,93,-1
 526 360 m 1049
-432 96 m 1
- 446 96 446 96 454 110 c 9
- 593 360 l 1
- 538 360 l 1
- 411 132 l 17
- 408 127 408 127 408 120 c 1
- 408 110 408 110 415 103 c 1
- 422 96 422 96 432 96 c 1
+432 96 m 1,102,103
+ 446 96 446 96 454 110 c 9,104,-1
+ 593 360 l 1,105,-1
+ 538 360 l 1,106,-1
+ 411 132 l 17,107,108
+ 408 127 408 127 408 120 c 1,109,110
+ 408 110 408 110 415 103 c 1,111,112
+ 422 96 422 96 432 96 c 1,102,103
 EndSplineSet
 Refer: 22 -1 N 0.375 0 0 0.375 288 576 2
 Refer: 22 -1 N 0.25 0 0 0.25 192 600 2
@@ -9068,6 +9068,7 @@ SplineSet
  357 266 357 266 387.5 229 c 133,-1,56
  418 192 418 192 480 192 c 5,39,40
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Pistol.1
@@ -9091,6 +9092,7 @@ SplineSet
  336 546 336 546 336 516 c 13,13,-1
  336 444 l 21,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Pistol.2
@@ -9128,6 +9130,7 @@ SplineSet
  360 510 360 510 360 520 c 13,31,-1
  360 536 l 21,16,17
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Pistol.3
@@ -9225,6 +9228,7 @@ SplineSet
  660 -48 660 -48 648 43 c 5,11,-1
  648 288 l 5,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: HeadShakingVertically.5
@@ -9236,6 +9240,7 @@ Fore
 Refer: 73 -1 N -1 0 0 -1 912 96 0
 Refer: 29 -1 N 1 0 0 1 600 144 0
 Refer: 29 -1 N 1 0 0 1 312 144 0
+Colour: ffff
 EndChar
 
 StartChar: HeadShakingVertically.6
@@ -9761,6 +9766,7 @@ SplineSet
  117 -96 l 1,23,-1
  72 167 l 1,13,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: HeadShakingHorizontally.1
@@ -10236,6 +10242,7 @@ Fore
 Refer: 73 -1 S -1 0 0 -1 854 192 0
 Refer: 29 -1 S 1 0 0 1 542 240 0
 Refer: 29 -1 S 1 0 0 1 254 240 0
+Colour: ffff
 EndChar
 
 StartChar: HeadShakingHorizontally.2
@@ -10272,6 +10279,7 @@ SplineSet
  72 22 l 5,23,-1
  335 -23 l 5,13,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: GrinningFace.1
@@ -13945,6 +13953,7 @@ SplineSet
  296 -154 296 -154 242.5 -118.5 c 129,-1,0
  189 -83 189 -83 174 -25.5 c 129,-1,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: SalutingFace.0
@@ -21080,6 +21089,7 @@ LayerCount: 2
 Fore
 Refer: 22 -1 N 0.375 0 0 0.375 596 481 0
 Refer: 22 -1 N 0.375 0 0 0.375 316 481 0
+Colour: ffff
 EndChar
 
 StartChar: PleadingFace1.2
@@ -21092,6 +21102,7 @@ Refer: 22 -1 S -0.3325 0 0 0.3325 596 481 0
 Refer: 22 -1 S -0.3325 0 0 0.3325 316 481 0
 Refer: 22 -1 S 0.426875 0 0 0.426875 596 481 0
 Refer: 22 -1 S 0.426875 0 0 0.426875 316 481 0
+Colour: ffff
 EndChar
 
 StartChar: PleadingFace1.3
@@ -21102,6 +21113,7 @@ LayerCount: 2
 Fore
 Refer: 22 -1 N 0.0691927 0 0 0.0691927 538 463 0
 Refer: 22 -1 N 0.0691927 0 0 0.0691927 257 463 0
+Colour: ffff
 EndChar
 
 StartChar: PleadingFace1.4
@@ -21112,6 +21124,7 @@ LayerCount: 2
 Fore
 Refer: 135 -1 N 1 0 0 1 0 0 0
 Refer: 120 -1 N 1 0 0 1 0 0 0
+Colour: ffff
 EndChar
 
 StartChar: PleadingFace1.5
@@ -21137,6 +21150,7 @@ SplineSet
  374 72 374 72 367 79 c 129,-1,0
  360 86 360 86 360 96 c 129,-1,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: PleadingFace2.1
@@ -21229,6 +21243,7 @@ Fore
 Refer: 21 -1 N -1 0 0 1 696 480 0
 Refer: 21 -1 N 1 0 0 1 216 480 0
 Refer: 362 -1 N 1 0 0 1 0 -36 0
+Colour: ffff
 EndChar
 
 StartChar: PleadingFace3.1
@@ -21329,6 +21344,7 @@ Refer: 21 -1 N 1 0 0 1 216 480 0
 Refer: 21 -1 N -1 0 0 1 696 480 0
 Refer: 22 -1 N 0.3125 0 0 0.3125 627 299 0
 Refer: 22 -1 N 0.3125 0 0 0.3125 285 299 0
+Colour: ffff
 EndChar
 
 StartChar: PleadingFace3.2
@@ -21358,6 +21374,7 @@ SplineSet
  349 113 349 113 381.5 131.5 c 129,-1,0
  414 150 414 150 456 150 c 129,-1,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: PleadingFace3.3
@@ -21405,6 +21422,7 @@ Refer: 121 -1 N 1 0 0 1 594 348 0
 Refer: 121 -1 N 1 0 0 1 252 348 0
 Refer: 121 -1 N 0.5 0 0 0.5 310 278 0
 Refer: 121 -1 S 0.5 0 0 0.5 652 278 0
+Colour: ffff
 EndChar
 
 StartChar: PleadingFace4.1
@@ -21415,6 +21433,7 @@ LayerCount: 2
 Fore
 Refer: 22 -1 N 0.375 0 0 0.375 630 360 0
 Refer: 22 -1 N 0.375 0 0 0.375 282 360 0
+Colour: ffff
 EndChar
 
 StartChar: PleadingFace4.2
@@ -21509,6 +21528,7 @@ Refer: 22 -1 N 0.3125 0 0 0.3125 618 396 0
 Refer: 98 -1 N -1 0 0 -1 456 114 0
 Refer: 21 -1 N -1 0 0 1 696 540 0
 Refer: 21 -1 N 1 0 0 1 216 540 0
+Colour: ffff
 EndChar
 
 StartChar: PleadingFace4.3
@@ -21521,6 +21541,7 @@ Refer: 121 -1 S 1.19848 0 0 1.19848 586 441 0
 Refer: 121 -1 S 0.526443 0 0 0.526443 685 378 0
 Refer: 121 -1 S 0.526443 0 0 0.526443 360 378 0
 Refer: 121 -1 S 1.19848 0 0 1.19848 261 441 0
+Colour: ffff
 EndChar
 
 StartChar: FaceHoldingBackTears1.1
@@ -21531,6 +21552,7 @@ LayerCount: 2
 Fore
 Refer: 22 -1 N 0.375 0 0 0.375 636 276 0
 Refer: 22 -1 N 0.375 0 0 0.375 276 276 0
+Colour: ffff
 EndChar
 
 StartChar: FaceHoldingBackTears1.2
@@ -21541,6 +21563,7 @@ LayerCount: 2
 Fore
 Refer: 121 -1 S 0.75 0 0 0.75 612 360 0
 Refer: 121 -1 N 0.75 0 0 0.75 252 360 0
+Colour: ffff
 EndChar
 
 StartChar: FaceHoldingBackTears1.3
@@ -21673,6 +21696,7 @@ EndSplineSet
 Fore
 Refer: 118 -1 N 1 0 0 1 0 0 0
 Refer: 135 -1 S 1 0 0 1 0 0 0
+Colour: ffff
 EndChar
 
 StartChar: FaceHoldingBackTears1.4
@@ -21686,6 +21710,7 @@ Refer: 21 -1 N 1 0 0 1 216 528 0
 Refer: 22 -1 N 0.25 0 0 0.25 276 288 0
 Refer: 22 -1 N 0.25 0 0 0.25 636 288 0
 Refer: 119 -1 N 1 0 0 1 0 0 0
+Colour: ffff
 EndChar
 
 StartChar: FaceHoldingBackTears1.6
@@ -21753,6 +21778,7 @@ SplineSet
  577 159 577 159 547 177 c 129,-1,35
  517 195 517 195 517 206 c 1,18,19
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: FaceHoldingBackTears2.1
@@ -21936,6 +21962,7 @@ LayerCount: 2
 Fore
 Refer: 364 -1 N 1 0 0 1 0 0 0
 Refer: 42 -1 N 1 0 0 1 456 0 0
+Colour: ffff
 EndChar
 
 StartChar: FaceHoldingBackTears3.4
@@ -22056,6 +22083,7 @@ SplineSet
  715 177 715 177 630 177 c 129,-1,17
  545 177 545 177 513 231 c 1,9,10
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: FrowningFaceWithOpenMouth.1
@@ -24240,6 +24268,7 @@ SplineSet
  258 -144 258 -144 237 -123 c 128,-1,37
  216 -102 216 -102 216 -72 c 2,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Skull.1
@@ -24281,6 +24310,7 @@ Refer: 22 -1 N 0.3125 0 0 0.3125 288 384 0
 Refer: 22 -1 N 0.125 0 0 0.09375 456 156 0
 Refer: 22 -1 N 0.09375 0 0 0.09375 492 132 0
 Refer: 22 -1 N 0.09375 0 0 0.09375 420 132 0
+Colour: ffff
 EndChar
 
 StartChar: PileOfPoo.0
@@ -24366,6 +24396,7 @@ SplineSet
  140 -144 140 -144 82 -87.5 c 129,-1,39
  24 -31 24 -31 24 48 c 1,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: PileOfPoo.1
@@ -24399,6 +24430,7 @@ EndSplineSet
 Fore
 Refer: 22 -1 N 0.21875 0 0 0.28125 588 348 0
 Refer: 22 -1 N 0.21875 0 0 0.28125 348 348 0
+Colour: ffff
 EndChar
 
 StartChar: PileOfPoo.2
@@ -24410,6 +24442,7 @@ Fore
 Refer: 113 -1 N 1 0 0 1 0 0 0
 Refer: 22 -1 N 0.125 0 0 0.15625 360 348 0
 Refer: 22 -1 N 0.125 0 0 0.15625 576 348 0
+Colour: ffff
 EndChar
 
 StartChar: PileOfPoo.3
@@ -24447,6 +24480,7 @@ SplineSet
  609 67 609 67 631 42 c 1,7,0
  566 0 566 0 480 0 c 128,-1,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: ClownFace.0
@@ -24700,6 +24734,7 @@ SplineSet
  131 -103 131 -103 179 -103 c 1,60,61
  256 -103 256 -103 456 -24 c 1,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Ogre.1
@@ -24793,6 +24828,7 @@ SplineSet
  551 24 551 24 545.5 20 c 129,-1,38
  540 16 540 16 539 9 c 9,20,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Ogre.2
@@ -25052,6 +25088,7 @@ SplineSet
  326 -42 326 -42 343 -32 c 0,56,29
  399 0 399 0 455.5 0 c 128,-1,30
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Ogre.3
@@ -25105,6 +25142,7 @@ SplineSet
  529 -35 529 -35 505.5 -27 c 133,-1,0
  482 -19 482 -19 456 -19 c 133,-1,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Ogre.4
@@ -25180,6 +25218,7 @@ SplineSet
  408 149 408 149 408 144 c 0,35,0
  412 108 412 108 456 108 c 128,-1,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Ogre.5
@@ -25190,6 +25229,7 @@ LayerCount: 2
 Fore
 Refer: 111 -1 N -1.2164 0 0 1.2164 579 295 0
 Refer: 111 -1 N 1.2164 0 0 1.2164 333 289 0
+Colour: ffff
 EndChar
 
 StartChar: Ogre.6
@@ -25200,6 +25240,7 @@ LayerCount: 2
 Fore
 Refer: 111 -1 N 1 0 0 1 341 290 0
 Refer: 111 -1 N -1 0 0 1 571 290 0
+Colour: ffff
 EndChar
 
 StartChar: Ogre.7
@@ -25212,6 +25253,7 @@ Refer: 64 -1 N 1 0 -0 -1 216 408 0
 Refer: 64 -1 N -1 0 0 -1 696 408 0
 Refer: 22 -1 N 0.09375 0 0 0.09375 582 295 0
 Refer: 22 -1 S 0.09375 0 0 0.09375 330 295 0
+Colour: ffff
 EndChar
 
 StartChar: Ogre.8
@@ -25222,6 +25264,7 @@ LayerCount: 2
 Fore
 Refer: 110 -1 N -1 0 0 1 576.2 480 0
 Refer: 110 -1 N 1 0 0 1 336 480 0
+Colour: ffff
 EndChar
 
 StartChar: Goblin.0
@@ -25259,6 +25302,7 @@ SplineSet
  128 -7 128 -7 100 86.5 c 133,-1,17
  72 180 72 180 72 216 c 13,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Goblin.1
@@ -25310,6 +25354,7 @@ SplineSet
  620 -24 620 -24 634 -10 c 129,-1,23
  648 4 648 4 648 24 c 1,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Goblin.2
@@ -25426,6 +25471,7 @@ EndSplineSet
 Fore
 Refer: 22 -1 N 0.2683 0 -0.111916 0.318713 309 432 0
 Refer: 22 -1 N 0.22907 0 0.0956139 0.318713 598 430 0
+Colour: ffff
 EndChar
 
 StartChar: Goblin.3
@@ -25439,6 +25485,7 @@ Refer: 22 -1 N 0.0973516 0 0 0.125 380 381 0
 Refer: 109 -1 N 1 0 0 1 0 0 0
 Refer: 108 -1 N -1 0 0 1 939 0 0
 Refer: 108 -1 N 1 0 0 1 0 0 0
+Colour: ffff
 EndChar
 
 StartChar: Goblin.4
@@ -25474,6 +25521,7 @@ SplineSet
  864 318 864 318 844.5 339 c 128,-1,11
  825 360 825 360 798 360 c 2,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Ghost.0
@@ -25544,6 +25592,7 @@ SplineSet
  24 127 24 127 43 188 c 0,43,44
  89 324 89 324 192 354 c 1,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Ghost.1
@@ -25603,6 +25652,7 @@ Fore
 Refer: 22 -1 N 0.3 -0.225 0.16875 0.225 492 166 0
 Refer: 22 -1 N 0.25 0 0 0.25 576 432 0
 Refer: 22 -1 N 0.125 0 0 0.125 336 432 0
+Colour: ffff
 EndChar
 
 StartChar: Ghost.2
@@ -25612,6 +25662,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 22 -1 N 0.125 0 0 0.125 576 408 0
+Colour: ffff
 EndChar
 
 StartChar: Alien.0
@@ -25641,6 +25692,7 @@ SplineSet
  198 4 198 4 123 109 c 129,-1,11
  48 214 48 214 48 312 c 1,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Alien.1
@@ -25652,6 +25704,7 @@ Fore
 Refer: 107 -1 N 1 0 0 1 0 0 0
 Refer: 22 -1 N 0.176777 0.176777 -0.353553 0.353553 280 296 0
 Refer: 22 -1 N 0.176777 -0.176777 0.353553 0.353553 632 296 0
+Colour: ffff
 EndChar
 
 StartChar: AlienMonster.0
@@ -25776,6 +25829,7 @@ SplineSet
  600 408 l 1,51,-1
  504 408 l 1,48,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Robot.0
@@ -25785,6 +25839,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 22 -1 N 0.625 0 0 0.3125 456 600 0
+Colour: ffff
 EndChar
 
 StartChar: Robot.1
@@ -25796,6 +25851,7 @@ Fore
 Refer: 22 -1 N 0.4375 0 0 0.182312 456 622 0
 Refer: 85 -1 N 1 0 0 1 372 -36 0
 Refer: 85 -1 N 1 0 0 1 -372 -36 0
+Colour: ffff
 EndChar
 
 StartChar: Robot.2
@@ -25840,6 +25896,7 @@ SplineSet
  826 240 826 240 816 240 c 9,15,-1
  96 240 l 17,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Robot.3
@@ -25870,6 +25927,7 @@ SplineSet
  744 613 744 613 744 586 c 5,10,11
  744 552 744 552 693 552 c 13,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Robot.4
@@ -25899,6 +25957,7 @@ SplineSet
  148 576 148 576 168 576 c 2,9,-1
  744 576 l 2,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Robot.5
@@ -25940,6 +25999,7 @@ SplineSet
  864 -28 864 -28 864 -48 c 9,18,-1
  864 -93 l 17,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Robot.6
@@ -26049,6 +26109,7 @@ SplineSet
  685 168 685 168 702.5 150.5 c 129,-1,0
  720 133 720 133 720 108 c 129,-1,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Robot.7
@@ -26060,6 +26121,7 @@ Fore
 Refer: 114 -1 N 1 0 0 1 0 0 0
 Refer: 22 -1 N 0.28125 0 0 0.28125 300 372 0
 Refer: 22 -1 N 0.28125 0 0 0.28125 612 372 0
+Colour: ffff
 EndChar
 
 StartChar: Robot.8
@@ -26070,6 +26132,7 @@ LayerCount: 2
 Fore
 Refer: 22 -1 N 0.170063 0 0 0.170063 612 372 0
 Refer: 22 -1 N 0.170063 0 0 0.170063 300 372 0
+Colour: ffff
 EndChar
 
 StartChar: HeartWithArrow.0
@@ -26144,6 +26207,7 @@ SplineSet
 EndSplineSet
 Fore
 Refer: 459 -1 N 1 0 0 1 -359 359 0
+Colour: ffff
 EndChar
 
 StartChar: HeartWithArrow.1
@@ -26155,6 +26219,7 @@ Back
 Refer: 456 -1 S 1 0 0 1 0 0 0
 Fore
 Refer: 26 -1 S 1.09552 0 0 1.09552 463 -101 0
+Colour: ffff
 EndChar
 
 StartChar: HeartWithArrow.2
@@ -26205,6 +26270,7 @@ SplineSet
  29 686 l 17,28,14
  25 700 25 700 35 710 c 129,-1,15
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: HeartWithArrow.3
@@ -26250,6 +26316,7 @@ SplineSet
  806 -47 806 -47 798.5 -54 c 132,-1,0
  791 -61 791 -61 782 -61 c 132,-1,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: HeartWithArrow.4
@@ -26291,6 +26358,7 @@ SplineSet
  556 348 556 348 556.5 338 c 128,-1,0
  557 328 557 328 549.5 320.5 c 128,-1,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: HeartWithRibbon.1
@@ -26309,6 +26377,7 @@ SplineSet
  120 360 l 1,7,-1
  888 360 l 1,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: HeartWithRibbon.2
@@ -26375,6 +26444,7 @@ SplineSet
  238 367 l 1,13,-1
  431 502 l 17,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: HeartWithRibbon.3
@@ -26385,6 +26455,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 22 -1 S 0.25 0 0 0.25 240 312 0
+Colour: ffff
 EndChar
 
 StartChar: SparklingHeart.1
@@ -26481,6 +26552,7 @@ SplineSet
  553 101 l 2,43,20
  536 107 536 107 536 124 c 128,-1,21
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: GrowingHeart.1
@@ -26525,6 +26597,7 @@ SplineSet
 EndSplineSet
 Fore
 Refer: 139 -1 N 0.75 0 0 0.75 114 72 0
+Colour: ffff
 EndChar
 
 StartChar: GrowingHeart.2
@@ -26534,6 +26607,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 26 -1 N 0.633931 0 0 0.633931 456 90 0
+Colour: ffff
 EndChar
 
 StartChar: BeatingHeart.0
@@ -26544,6 +26618,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 457 -1 S 1 0 0 1 -7 -31 0
+Colour: ffff
 EndChar
 
 StartChar: BeatingHeart.1
@@ -26578,6 +26653,7 @@ EndSplineSet
 Fore
 Refer: 105 -1 N -1 0 0 1 912 0 0
 Refer: 105 -1 S 1 0 0 1 0 0 0
+Colour: ffff
 EndChar
 
 StartChar: RevolvingHearts.0
@@ -26635,6 +26711,7 @@ SplineSet
  770 176 770 176 827.5 222 c 133,-1,22
  885 268 885 268 888 321 c 5,11,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: TwoHearts.0
@@ -26671,6 +26748,7 @@ EndSplineSet
 Fore
 Refer: 26 -1 N 0.588862 0 0 0.588862 680 329 0
 Refer: 26 -1 N 0.850138 0 0 0.850138 323 -120 0
+Colour: ffff
 EndChar
 
 StartChar: HeartDecoration.1
@@ -26692,6 +26770,7 @@ SplineSet
 EndSplineSet
 Fore
 Refer: 26 -1 S 0.957586 0 0 0.957586 456 -24 0
+Colour: ffff
 EndChar
 
 StartChar: HeartExclamation.0
@@ -26703,6 +26782,7 @@ LayerCount: 2
 Fore
 Refer: 22 -1 S 0.3125 0 0 0.3125 456 -24 0
 Refer: 106 -1 N 1 0 0 1 0 0 0
+Colour: ffff
 EndChar
 
 StartChar: BrokenHeart.0
@@ -26775,6 +26855,7 @@ SplineSet
  480 602 l 1,38,39
  554 673 554 673 648 673 c 1,22,23
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: HeartOnFire.0
@@ -26914,6 +26995,7 @@ SplineSet
  797 380 797 380 803 445 c 1,44,45
  831 385 831 385 831 324 c 1,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: HeartOnFire.1
@@ -27047,6 +27129,7 @@ SplineSet
  820 107 820 107 615 -22 c 1,36,37
  136 -22 136 -22 122 338 c 257,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: HeartOnFire.2
@@ -27068,6 +27151,7 @@ SplineSet
 EndSplineSet
 Fore
 Refer: 26 -1 N 0.904207 0 0 0.904207 452 -138 0
+Colour: ffff
 EndChar
 
 StartChar: HeartOnFire.3
@@ -27121,6 +27205,7 @@ SplineSet
  356 87 356 87 356 15 c 129,-1,24
  356 -57 356 -57 424 -127 c 1,13,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: MendingHeart.0
@@ -27183,6 +27268,7 @@ SplineSet
  352 -57 352 -57 249.5 35.5 c 133,-1,19
  147 128 147 128 88 234 c 5,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: MendingHeart.1
@@ -27258,6 +27344,7 @@ NamedP: ""
  827 607 827 607 857.5 553 c 128,-1,10
  888 499 888 499 888 436 c 0,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: MendingHeart.2
@@ -27291,6 +27378,7 @@ SplineSet
  755 651 l 1,9,10
  782 638 782 638 797 624 c 1,5,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: MendingHeart.3
@@ -27331,6 +27419,7 @@ SplineSet
  881 360 881 360 876 345 c 1,10,-1
  397 345 l 1,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Dizzy.0
@@ -27646,6 +27735,7 @@ EndSplineSet
 Fore
 Refer: 22 -1 N 0.543937 0 0 0.876938 677 288 2
 Refer: 22 -1 N 0.543937 0 0 0.876938 236 288 2
+Colour: ffff
 EndChar
 
 StartChar: Eyes.1
@@ -27656,6 +27746,7 @@ LayerCount: 2
 Fore
 Refer: 22 -1 N 0.450188 0 0 0.783188 677 288 2
 Refer: 22 -1 N 0.450188 0 0 0.783188 236 288 2
+Colour: ffff
 EndChar
 
 StartChar: Eyes.2
@@ -27666,6 +27757,7 @@ LayerCount: 2
 Fore
 Refer: 22 -1 N 0.31 0 0 0.31 624 288 2
 Refer: 22 -1 N 0.31 0 0 0.31 182 288 2
+Colour: ffff
 EndChar
 
 StartChar: Eyes.3
@@ -27676,6 +27768,7 @@ LayerCount: 2
 Fore
 Refer: 22 -1 N 0.222812 0 0 0.222812 624 288 2
 Refer: 22 -1 N 0.222812 0 0 0.222812 182 288 2
+Colour: ffff
 EndChar
 
 StartChar: Eyes.4
@@ -27686,6 +27779,7 @@ LayerCount: 2
 Fore
 Refer: 22 -1 S 0.089125 0 0 0.089125 656 349 2
 Refer: 22 -1 N 0.089125 0 0 0.089125 214 349 2
+Colour: ffff
 EndChar
 
 StartChar: Eye.0
@@ -27705,6 +27799,7 @@ SplineSet
  748 117 748 117 806.5 181.5 c 133,-1,0
  865 246 865 246 865 288 c 133,-1,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Eye.1
@@ -27723,6 +27818,7 @@ SplineSet
  865 330 865 330 865 288 c 1,7,-1
  46 288 l 1,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Eye.2
@@ -27746,6 +27842,7 @@ SplineSet
  724 135 724 135 780 193.5 c 129,-1,13
  836 252 836 252 836 288 c 257,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Eye.3
@@ -27791,6 +27888,7 @@ SplineSet
 EndSplineSet
 Fore
 Refer: 22 -1 N 0.528625 0 0 0.528625 456 288 2
+Colour: ffff
 EndChar
 
 StartChar: Eye.4
@@ -27800,6 +27898,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 22 -1 N 0.29425 0 0 0.29425 456 288 2
+Colour: ffff
 EndChar
 
 StartChar: Eye.5
@@ -27809,6 +27908,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 22 -1 S 0.125 0 0 0.125 384 360 2
+Colour: ffff
 EndChar
 
 StartChar: BabyAngel.0
@@ -27927,6 +28027,7 @@ EndSplineSet
 Fore
 Refer: 112 -1 N 1 0 0 1 434 0 0
 Refer: 112 -1 N 1 0 0 1 0 0 0
+Colour: ffff
 EndChar
 
 StartChar: BabyAngel.1
@@ -27936,6 +28037,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 22 -1 S 0.75 0 0 0.75 456 216 0
+Colour: ffff
 EndChar
 
 StartChar: BabyAngel.2
@@ -27979,6 +28081,7 @@ SplineSet
  538 264 538 264 545 257 c 128,-1,27
  552 250 552 250 552 240 c 2,16,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: BabyAngel.3
@@ -28020,6 +28123,7 @@ SplineSet
  590 595 590 595 685 500 c 129,-1,22
  780 405 780 405 780 271 c 1,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: BabyAngel.4
@@ -28043,6 +28147,7 @@ EndSplineSet
 Fore
 Refer: 22 -1 N -0.5625 0 0 0.21875 456 588 0
 Refer: 22 -1 N 0.75 0 0 0.375 456 576 0
+Colour: ffff
 EndChar
 
 StartChar: Dog.0
@@ -28074,6 +28179,7 @@ SplineSet
  718 178 l 1,23,-1
  718 59 l 1,12,13
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Dog.1
@@ -28201,6 +28307,7 @@ SplineSet
  818 336 818 336 759 336 c 1,19,-1
  746 373 l 1,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Dog.2
@@ -28262,6 +28369,7 @@ SplineSet
  55 558 55 558 85 558 c 13,49,-1
  111 558 l 21,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Dog.3
@@ -28278,6 +28386,7 @@ SplineSet
  534 321 534 321 508.5 347 c 133,-1,6
  483 373 483 373 481 413 c 5,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Dog.4
@@ -28301,6 +28410,7 @@ SplineSet
  534 99 534 99 420 100 c 1,15,-1
  414 133 l 1,8,9
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Dog.5
@@ -28320,6 +28430,7 @@ SplineSet
  62 557 l 5,8,9
  72 560 72 560 98 560 c 5,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Dog.6
@@ -28331,6 +28442,7 @@ Fore
 Refer: 22 -1 S 0.0168125 0 0 0.0168125 122 468 2
 Refer: 22 -1 S 0.0168125 0 0 0.0168125 113 485 2
 Refer: 22 -1 S 0.0305 0 0 0.0305 97 468 2
+Colour: ffff
 EndChar
 
 StartChar: Dog.7
@@ -28340,6 +28452,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 22 -1 N 0.058 0 0 0.058 218 560 2
+Colour: ffff
 EndChar
 
 StartChar: Dog.8
@@ -28358,6 +28471,7 @@ SplineSet
  76 560 76 560 82 551.5 c 129,-1,7
  88 543 88 543 84 519 c 1,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Dog.9
@@ -28378,6 +28492,7 @@ SplineSet
  379 570 379 570 388 502 c 133,-1,9
  397 434 397 434 332 434 c 5,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: GuideDog.1
@@ -28521,6 +28636,7 @@ SplineSet
  772 381 l 5,5,6
  811 339 811 339 826 301 c 5,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: GuideDog.2
@@ -28540,6 +28656,7 @@ SplineSet
  228 349 228 349 222 362.5 c 133,-1,11
  216 376 216 376 225 380 c 261,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: GuideDog.3
@@ -28563,6 +28680,7 @@ SplineSet
  319 239 319 239 262 212 c 5,13,14
  243 241 243 241 249 275 c 5,6,7
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: GuideDog.4
@@ -28585,6 +28703,7 @@ SplineSet
  467 345 467 345 467 374 c 5,13,14
  467 390 467 390 461 411 c 5,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: GuideDog.5
@@ -28609,6 +28728,7 @@ SplineSet
  529 399 529 399 537 337 c 5,19,0
  536 316 536 316 517 315 c 133,-1,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: GuideDog.9
@@ -28619,6 +28739,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 510 -1 S 1 0 0 1 0 -11 2
+Colour: ffff
 EndChar
 
 StartChar: ServiceDog.0
@@ -28645,6 +28766,7 @@ SplineSet
  379 20 379 20 424 58 c 5,17,-1
  478 58 l 5,8,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: ServiceDog.1
@@ -28696,6 +28818,7 @@ SplineSet
  254 185 254 185 254 296.5 c 129,-1,60
  254 408 254 408 175 411 c 1,19,20
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: ServiceDog.2
@@ -28884,6 +29007,7 @@ SplineSet
  196.033192372 407.672066963 196.033192372 407.672066963 194 408 c 1,18,19
  196.044908439 407.717943664 196.044908439 407.717943664 198.007774727 407.241968946 c 1,16,17
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: ServiceDog.3
@@ -29069,6 +29193,7 @@ SplineSet
  419 54 419 54 413 -18 c 5,15,16
  412 -75 412 -75 513 -74 c 5,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: ServiceDog.5
@@ -29089,6 +29214,7 @@ SplineSet
  783 548 783 548 677.5 475.5 c 133,-1,11
  572 403 572 403 408 406 c 5,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: ServiceDog.6
@@ -29119,6 +29245,7 @@ SplineSet
  225 350 225 350 222.5 364.5 c 129,-1,24
  220 379 220 379 229 382 c 1,15,16
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: ServiceDog.7
@@ -29140,6 +29267,7 @@ SplineSet
  429 397 429 397 443 397 c 5,13,14
  475 397 475 397 631 211 c 5,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: ServiceDog.8
@@ -29156,6 +29284,7 @@ SplineSet
  589 140 l 1,5,6
  513 228 513 228 410 326 c 1,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: ServiceDog.9
@@ -29172,6 +29301,7 @@ SplineSet
  505 257 505 257 418 336 c 5,5,-1
  424 348 l 5,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Fox.0
@@ -29309,6 +29439,7 @@ SplineSet
  835 671 835 671 735.5 619 c 133,-1,59
  636 567 636 567 580 510 c 5,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Fox.1
@@ -29332,6 +29463,7 @@ SplineSet
  97 451 97 451 82 574 c 5,16,17
  78 607 78 607 90 604 c 5,9,10
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Fox.2
@@ -29379,6 +29511,7 @@ SplineSet
  573 82 573 82 539 51.5 c 133,-1,0
  505 21 505 21 456 21 c 133,-1,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Fox.3
@@ -29471,6 +29604,7 @@ Fore
 Refer: 126 -1 N 1 0 0 1 0 0 2
 Refer: 125 -1 N 1 0 0 1 588 294 2
 Refer: 125 -1 N 1 0 0 1 324 294 2
+Colour: ffff
 EndChar
 
 StartChar: Otter.0
@@ -29509,6 +29643,7 @@ SplineSet
  885 -118 885 -118 840.5 -52 c 129,-1,41
  796 14 796 14 710 109.104492188 c 1,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Otter.1
@@ -29541,6 +29676,7 @@ SplineSet
  624 181 624 181 693 127 c 1,27,28
  716 108 716 108 718 105 c 1,16,17
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Otter.2
@@ -29583,6 +29719,7 @@ SplineSet
  166 365 166 365 205 365 c 1,44,32
  274 365 274 365 326.5 417.5 c 129,-1,33
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Otter.3
@@ -29611,6 +29748,7 @@ SplineSet
  351 505 351 505 326.5 486.5 c 133,-1,25
  302 468 302 468 273 471 c 5,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Otter.4
@@ -29623,6 +29761,7 @@ Fore
 Refer: 22 -1 N 0.0491439 0.0491439 -0.0491439 0.0491439 251 606 0
 Refer: 22 -1 N 0.0491439 0.0491439 -0.0491439 0.0491439 138 493 0
 Refer: 127 -1 N 0.786303 0.786303 -0.786303 0.786303 251 493 0
+Colour: ffff
 EndChar
 
 StartChar: Otter.5
@@ -29662,6 +29801,7 @@ SplineSet
  158 384 158 384 157 349 c 1,39,30
  158 338 158 338 147 337 c 129,-1,31
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Fog.1
@@ -30099,6 +30239,7 @@ SplineSet
  864 337 864 337 864 264 c 0,38,39
  864 99 864 99 743 -26 c 1,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: Fire.1
@@ -30178,6 +30319,7 @@ NamedP: "+AIIA"
  706 99 706 99 706 144 c 1,24,25
  744 75 744 75 744 0 c 1,1,2
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: JapaneseDolls.1
@@ -30776,6 +30918,7 @@ EndSplineSet
 Fore
 Refer: 559 -1 N -0.93 0 0 -0.93 880 649 2
 Refer: 122 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: HeartSuit.0
@@ -30814,6 +30957,7 @@ SplineSet
  620 58 620 58 456 -72 c 1,17,0
  292 58 292 58 183 198 c 129,-1,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: DiamondSuit.0
@@ -30856,6 +31000,7 @@ SplineSet
  450 -144 450 -144 445 -137 c 2,13,-1
  151 274 l 2,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: ClubSuit.0
@@ -30900,6 +31045,7 @@ Refer: 22 -1 N 0.4365 0 0 0.4365 456 528 0
 Refer: 22 -1 N 0.46875 0 0 0.46875 636 228 0
 Refer: 22 -1 N 0.46875 0 0 0.46875 276 228 0
 Refer: 122 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: SafetyVest.0
@@ -30936,6 +31082,7 @@ SplineSet
  456 568 l 1,31,-1
  597 709 l 1,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: SafetyVest.1
@@ -31035,6 +31182,7 @@ SplineSet
  48 120 l 25,17,-1
  48 192 l 25,4,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: SafetyVest.2
@@ -31055,6 +31203,7 @@ SplineSet
  432 427 l 29,10,-1
  432 -119 l 21,0,1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: AdhesiveBandage.0
@@ -31168,6 +31317,7 @@ SplineSet
  24 -24 24 -24 24 60 c 128,-1,11
  24 144 24 144 84 204 c 2,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: AdhesiveBandage.1
@@ -31251,6 +31401,7 @@ Refer: 22 -1 N 0.0625 0 0 0.0625 264 -48 0
 Refer: 22 -1 N 0.0625 0 0 0.0625 192 168 0
 Refer: 22 -1 N 0.0625 0 0 0.0625 264 96 0
 Refer: 22 -1 N 0.0625 0 0 0.0625 336 24 0
+Colour: ffff
 EndChar
 
 StartChar: AdhesiveBandage.2
@@ -31275,6 +31426,7 @@ SplineSet
  468 12 l 1,3,-1
  180 300 l 1,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: AdhesiveBandage.3
@@ -31309,6 +31461,7 @@ SplineSet
  228 290 228 290 228 300 c 128,-1,11
  228 310 228 310 235 317 c 2,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: UpDownArrow.1
@@ -31319,6 +31472,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 570 -1 N 0 1 -1 0 744 -168 2
+Colour: ffff
 EndChar
 
 StartChar: LeftRightArrow.1
@@ -31366,6 +31520,7 @@ SplineSet
  576 504 l 1,9,-1
  816 288 l 1,0,-1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: LeftRightArrow
@@ -31380,6 +31535,7 @@ Refer: 22 -1 S -0.625 0 0 0.625 312 264 2
 Refer: 497 -1 S 1 0 0 1 -144 48 2
 Refer: 22 -1 S 0.125 0 0 0.125 408 360 2
 Refer: 22 -1 S 0.125 0 0 0.125 216 360 2
+Colour: 80a696
 EndChar
 
 StartChar: UpDownArrow
@@ -31388,6 +31544,7 @@ AltUni2: 002195.00fe0f.0
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: FrowningFace
@@ -31414,6 +31571,7 @@ AltUni2: 002660.00fe0f.0
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: ClubSuit
@@ -31422,6 +31580,7 @@ AltUni2: 002663.00fe0f.0
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: HeartSuit
@@ -31430,6 +31589,7 @@ AltUni2: 002665.00fe0f.0
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: DiamondSuit
@@ -31438,6 +31598,7 @@ AltUni2: 002666.00fe0f.0
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: HeartExclamation
@@ -31446,6 +31607,7 @@ AltUni2: 002763.00fe0f.0
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: RedHeart
@@ -31479,6 +31641,7 @@ Encoding: 583 128021 583
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: Eyes
@@ -31486,6 +31649,7 @@ Encoding: 584 -1 584
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: Eye
@@ -31493,6 +31657,7 @@ Encoding: 585 -1 585
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: Ogre
@@ -31500,6 +31665,7 @@ Encoding: 586 128121 586
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: Goblin
@@ -31507,6 +31673,7 @@ Encoding: 587 128122 587
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: Ghost
@@ -31514,6 +31681,7 @@ Encoding: 588 128123 588
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: BabyAngel
@@ -31521,6 +31689,7 @@ Encoding: 589 128124 589
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: Alien
@@ -31528,6 +31697,7 @@ Encoding: 590 128125 590
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: AlienMonster
@@ -31535,6 +31705,7 @@ Encoding: 591 128126 591
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: AngryFaceWithHorns
@@ -31550,6 +31721,7 @@ Encoding: 593 128128 593
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: BeatingHeart
@@ -31557,6 +31729,7 @@ Encoding: 594 128147 594
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: BrokenHeart
@@ -31564,6 +31737,7 @@ Encoding: 595 128148 595
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: TwoHearts
@@ -31571,6 +31745,7 @@ Encoding: 596 128149 596
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: SparklingHeart
@@ -31578,6 +31753,7 @@ Encoding: 597 128150 597
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: GrowingHeart
@@ -31585,6 +31761,7 @@ Encoding: 598 128151 598
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: HeartWithArrow
@@ -31592,6 +31769,7 @@ Encoding: 599 128152 599
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: BlueHeart
@@ -31631,6 +31809,7 @@ Encoding: 604 128157 604
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: RevolvingHearts
@@ -31638,6 +31817,7 @@ Encoding: 605 128158 605
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: HeartDecoration
@@ -31645,6 +31825,7 @@ Encoding: 606 128159 606
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: DashingAway
@@ -31660,6 +31841,7 @@ Encoding: 608 128169 608
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: Dizzy
@@ -31676,6 +31858,7 @@ Width: 912
 VWidth: 0
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: BlackHeart
@@ -32235,6 +32418,7 @@ Encoding: 680 129302 680
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: SmilingFaceWithOpenHands
@@ -32444,6 +32628,7 @@ Encoding: 706 -1 706
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: FaceHoldingBackTears1
@@ -32451,6 +32636,7 @@ Encoding: 707 -1 707
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: FaceHoldingBackTears2
@@ -32458,6 +32644,7 @@ Encoding: 708 -1 708
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: PleadingFace
@@ -32475,6 +32662,7 @@ Encoding: 710 -1 710
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: PleadingFace3
@@ -32482,6 +32670,7 @@ Encoding: 711 -1 711
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: PleadingFace1
@@ -32489,6 +32678,7 @@ Encoding: 712 -1 712
 Width: 912
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: Fox
@@ -32645,6 +32835,7 @@ SplineSet
  526.15234375 142.368164062 513.192382812 189.120117188 534.047851562 209.952148438 c 4
  554.879882812 230.807617188 601.631835938 217.84765625 685.0078125 134.471679688 c 4
 EndSplineSet
+Colour: 80a696
 EndChar
 
 StartChar: Otter
@@ -32653,6 +32844,7 @@ Width: 912
 VWidth: 0
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: GuideDog
@@ -32661,6 +32853,7 @@ Width: 912
 VWidth: 0
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: SafetyVest
@@ -32669,6 +32862,7 @@ Width: 912
 VWidth: 0
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: FaceWithMonocle
@@ -32717,6 +32911,7 @@ Width: 912
 VWidth: 0
 Flags: MW
 LayerCount: 2
+Colour: 80a696
 EndChar
 
 StartChar: MeltingFace
@@ -32782,6 +32977,7 @@ VWidth: 0
 Flags: MW
 LayerCount: 2
 Ligature2: "'ccmp' emojis 1" RedHeart zerojoin Fire
+Colour: 80a696
 EndChar
 
 StartChar: MendingHeart
@@ -32791,6 +32987,7 @@ VWidth: 0
 Flags: MW
 LayerCount: 2
 Ligature2: "'ccmp' emojis 1" RedHeart zerojoin AdhesiveBandage
+Colour: 80a696
 EndChar
 
 StartChar: ServiceDog
@@ -32800,6 +32997,7 @@ VWidth: 0
 Flags: MW
 LayerCount: 2
 Ligature2: "'ccmp' emojis 1" Dog zerojoin SafetyVest
+Colour: 80a696
 EndChar
 
 StartChar: FaceExhaling
