@@ -33653,7 +33653,7 @@ EndSplineSet
 EndChar
 
 StartChar: CatWithTearsOfJoy
-Encoding: 748 -1 748
+Encoding: 748 128569 748
 Width: 912
 Flags: W
 LayerCount: 2
@@ -33781,7 +33781,7 @@ Refer: 26 -1 S 0.550269 -0.194104 0.194104 0.550269 606 292 0
 EndChar
 
 StartChar: SmilingCatWithHeartEyes
-Encoding: 750 -1 750
+Encoding: 750 128571 750
 Width: 912
 Flags: WO
 LayerCount: 2
