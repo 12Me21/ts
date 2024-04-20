@@ -63,7 +63,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 36 18 8
+WinInfo: 612 18 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -10344,7 +10344,7 @@ StartChar: GrinningFace.1
 Encoding: 160 -1 160
 Width: 912
 GlyphClass: 5
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -14747,7 +14747,7 @@ EndChar
 StartChar: FaceInClouds.1
 Encoding: 249 -1 249
 Width: 912
-Flags: MW
+Flags: MWO
 LayerCount: 2
 Back
 SplineSet
@@ -14968,7 +14968,7 @@ SplineSet
  831.8203 43.1484 838.7578 34.0546 842.8359 24.5156 c 5
 EndSplineSet
 Fore
-Refer: 263 -1 S 1 0 0 1 48 0 0
+Refer: 263 -1 N 1 0 0 1 48 0 0
 Colour: ffff
 EndChar
 
