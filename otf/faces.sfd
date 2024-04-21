@@ -63,7 +63,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 630 18 8
+WinInfo: 558 18 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -31713,7 +31713,7 @@ Colour: 80a696
 EndChar
 
 StartChar: Eyes
-Encoding: 584 -1 584
+Encoding: 584 128064 584
 Width: 912
 Flags: MW
 LayerCount: 2
