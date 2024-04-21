@@ -15,7 +15,6 @@ for name in font:
 		out.write('\t\t<ColorGlyph name="'+name+'">\n')
 		for layer in layers:
 			a = layer.split('#')
-			print(a, len(a))
 			if len(a) != 2:
 				continue
 			lname = a[0]
