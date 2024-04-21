@@ -28,8 +28,46 @@ for name in font:
 out.write('\t</COLR>\n')
 
 out.write('\t<CPAL>\n\t\t<version value="0"/>\n\t\t<numPaletteEntries value="'+str(len(palette))+'"/>\n\t\t<palette index="0">\n')
+
+bad_colors = {
+	"#2A6797": "⚠ →#226699",
+	"#3F7123": "⚠ →#3E721D",
+	"#4289C1": "⚠ →#3B88C3",
+	"#553986": "⚠ →#553788",
+	"#5D9040": "⚠ →#5C913B",
+	"#5DADEC": "⚠ →#55ACEE",
+	"#642116": "⚠ →#662113",
+	"#67757F": "⚠ →#66757F",
+	"#7450A8": "⚠ →#744EAA",
+	"#78B159": "⚠ →#77B255",
+	"#8CCAF7": "⚠ →#88C9F9",
+	"#9268CA": "⚠ →#9266CC",
+	"#9AAAB4": "⚠ →#99AAB5",
+	"#9D0522": "⚠ →#A0041E",
+	"#A7D28B": "⚠ →#A6D388",
+	"#AA8ED6": "⚠ →#AA8DD8",
+	"#BB1A34": "⚠ →#BE1931",
+	"#BDDDF4": "⚠ →#BBDDF5",
+	"#BF6952": "⚠ →#C1694F",
+	"#C6E4B5": "⚠ →#C6E5B3",
+	"#CBB8E9": "⚠ →#CBB7EA",
+	"#D79E84": "⚠ →#D99E82",
+	"#DA2F47": "⚠ →#DD2E44",
+	"#E4AAAB": "⚠ →#E6AAAA",
+	"#E75A70": "⚠ →#EA596E",
+	"#F18F26": "⚠ →#F4900C",
+	"#F2ABBA": "⚠ →#F4ABBA",
+	"#FCAB40": "⚠ →#FFAC33",
+	"#FDCB58": "⚠ →#FFCC4D",
+	"#FDD888": "⚠ →#FFD983",
+	"#FEE7B8": "⚠ →#FFE8B6",
+}
+
 for color in palette:
 	cid = palette[color]
+	
+	if "#"+color[0:6] in bad_colors:
+		print("bad color", color, bad_colors["#"+color[0:6]])
 	out.write('\t\t\t<color index="'+str(cid)+'" value="#'+color+'"/>\n')
 
 out.write('\t\t</palette>\n\t</CPAL>\n')
