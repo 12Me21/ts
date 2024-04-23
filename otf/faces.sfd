@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1688857346
-ModificationTime: 1713908834
+ModificationTime: 1713909647
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -34721,7 +34721,7 @@ SplineSet
 184 720 m 1049
 24 376 m 1049
 EndSplineSet
-Comment: "MrDo.bg#292F33ff+AAoA-MrDo.ball#F5F8FAff+AAoA-MrDo.face#F5F8FAff+AAoA-MrDo.eye#292F33ff+AAoA-MrDo.hair#3B88C3ff+AAoA-MrDo.clothes#DD2E44ff+AAoA-MrDo.dots#F5F8FAff+AAoA-MrDo.pom#3B88C3ff+AAoA-MrDo.shoes#3B88C3ff"
+Comment: "MrDo.bg#99AAB5ff+AAoA-MrDo.ball#F5F8FAff+AAoA-MrDo.face#F5F8FAff+AAoA-MrDo.eye#292F33ff+AAoA-MrDo.hair#3B88C3ff+AAoA-MrDo.clothes#DD2E44ff+AAoA-MrDo.dots#F5F8FAff+AAoA-MrDo.pom#3B88C3ff+AAoA-MrDo.shoes#3B88C3ff"
 EndChar
 
 StartChar: MrDo.clothes
@@ -34738,16 +34738,17 @@ SplineSet
  216 144 216 144 312 240 c 1,8,9
  456 240 456 240 504 288 c 1,10,11
  504 192 504 192 696 192 c 9,12,13
- 696 192 696 192 696 96 c 25,14,-1
- 504 96 l 1,15,16
- 504 48 504 48 600 48 c 1,17,-1
- 600 0 l 1,18,19
+ 696 192 696 192 696 96 c 1,14,15
+ 504 96 504 96 504 144 c 1,16,17
+ 504 144 504 144 504 96 c 129,-1,19
+ 504 48 504 48 600 48 c 1,20,-1
+ 600 0 l 1,21,22
  600 0 600 0 504 -48 c 1,0,1
-552 480 m 1,20,21
- 552 624 552 624 408 624 c 129,-1,22
- 264 624 264 624 120 384 c 9,23,24
- 120 384 120 384 360 384 c 17,25,26
- 360 480 360 480 552 480 c 1,20,21
+552 480 m 1,23,24
+ 552 624 552 624 408 624 c 129,-1,25
+ 264 624 264 624 120 384 c 9,26,27
+ 120 384 120 384 360 384 c 17,28,29
+ 360 480 360 480 552 480 c 1,23,24
 EndSplineSet
 EndChar
 
@@ -34811,7 +34812,7 @@ EndChar
 StartChar: MrDo.shoes
 Encoding: 773 -1 773
 Width: 912
-Flags: W
+Flags: WO
 LayerCount: 2
 Fore
 SplineSet
@@ -34836,13 +34837,13 @@ Width: 912
 Flags: W
 LayerCount: 2
 Fore
-Refer: 22 -1 N 0.0703125 0 0 0.140625 480 385 2
+Refer: 22 -1 S 0.0703125 0 0 0.140625 480 385 2
 EndChar
 
 StartChar: MrDo.bg
 Encoding: 775 -1 775
 Width: 912
-Flags: WO
+Flags: W
 LayerCount: 2
 Back
 SplineSet
@@ -34958,7 +34959,7 @@ Width: 912
 Flags: W
 LayerCount: 2
 Fore
-Refer: 22 -1 S 0.0703125 0 0 0.0703125 96 360 2
+Refer: 22 -1 N 0.0833333 0 0 0.0833333 96 360 2
 EndChar
 EndChars
 EndSplineFont
