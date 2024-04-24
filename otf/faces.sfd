@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1688857346
-ModificationTime: 1713987098
+ModificationTime: 1713987730
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -96,7 +96,7 @@ Grid
   Named: "top"
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 233017 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 811 800
+BeginChars: 811 804
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -36168,10 +36168,103 @@ SplineSet
 EndSplineSet
 EndChar
 
+StartChar: glyph792
+Encoding: 801 47 792
+Width: 0
+VWidth: 0
+LayerCount: 2
+Back
+SplineSet
+855.064724846 122.701990298 m 1
+ 810.842077713 141.01960922 l 1
+ 101.157922287 434.98039078 l 1
+ 56.9352751539 453.298009702 l 1025
+184.470703125 16.470703125 m 1024
+727.529296875 16.470703125 m 1024
+72 288 m 1024
+810.842077713 141.01960922 m 4
+ 753.118824895 1.90137542021 615.94329331 -96 456 -96 c 4
+ 244 -96 72 76 72 288 c 4
+ 72 340.05670669 82.3707485395 389.701611394 101.157922287 434.98039078 c 1028
+855.064724846 122.701990298 m 0
+ 789.971529081 -33.6491597836 635.499777348 -144 456 -144 c 0
+ 218 -144 24 50 24 288 c 0
+ 24 346.500222652 35.7209510938 402.342085261 56.9352751539 453.298009702 c 1024
+EndSplineSet
+EndChar
+
+StartChar: glyph793
+Encoding: 802 78 793
+Width: 0
+VWidth: 0
+LayerCount: 2
+Back
+SplineSet
+810.841796875 285.01953125 m 17
+ 753.119140625 145.901367188 615.943359375 48 456 48 c 0
+ 244 48 72 220 72 432 c 0
+ 72 484.056640625 82.37109375 533.701171875 101.158203125 578.98046875 c 9
+ 810.841796875 285.01953125 l 17
+855.064453125 266.702148438 m 0
+ 789.971679688 110.350585938 635.5 0 456 0 c 0
+ 218 0 24 194 24 432 c 0
+ 24 490.5 35.720703125 546.341796875 56.935546875 597.297851562 c 0
+ 855.064453125 266.702148438 l 0
+EndSplineSet
+EndChar
+
+StartChar: glyph794
+Encoding: 803 97 794
+Width: 0
+VWidth: 0
+LayerCount: 2
+Back
+SplineSet
+252 52 m 4
+ 379.651421542 -25.6268551285 509.876953125 -55.7216796875 652 -20 c 4
+ 764.037109375 8.16015625 866.171875 151.186523438 855.064453125 266.702148438 c 4
+ 252 52 l 4
+EndSplineSet
+EndChar
+
+StartChar: NameMe.800
+Encoding: 800 -1 795
+Width: 768
+LayerCount: 2
+Back
+SplineSet
+855.116210938 122.680664062 m 4
+ 56.8837890625 453.319335938 l 1028
+456 288 m 29
+ 727.529296875 559.529296875 l 1028
+456 288 m 29
+ 184.470703125 16.470703125 l 1028
+727.529296875 16.470703125 m 4
+ 456 288 l 1053
+456 288 m 29
+ 840 288 l 1028
+456 288 m 1053
+456 288 m 29
+ 72 288 l 1028
+456 -96 m 4
+ 456 288 l 1053
+72 288 m 4
+ 72 500 244 672 456 672 c 4
+ 668 672 840 500 840 288 c 4
+ 840 76 668 -96 456 -96 c 4
+ 244 -96 72 76 72 288 c 4
+24 288 m 4
+ 24 526 218 720 456 720 c 4
+ 694 720 888 526 888 288 c 4
+ 888 50 694 -144 456 -144 c 4
+ 218 -144 24 50 24 288 c 4
+EndSplineSet
+EndChar
+
 StartChar: Mushroom.4
-Encoding: 799 -1 792
+Encoding: 799 -1 796
 Width: 912
-Flags: WO
+Flags: W
 LayerCount: 2
 Back
 SplineSet
@@ -36202,7 +36295,7 @@ EndSplineSet
 EndChar
 
 StartChar: BrownSquare
-Encoding: 798 129003 793
+Encoding: 798 129003 797
 Width: 912
 Flags: W
 LayerCount: 2
@@ -36210,7 +36303,7 @@ Comment: "tile.0#C1694Fff"
 EndChar
 
 StartChar: Mushroom.0
-Encoding: 792 -1 794
+Encoding: 792 -1 798
 Width: 912
 Flags: W
 LayerCount: 2
@@ -36239,7 +36332,7 @@ EndSplineSet
 EndChar
 
 StartChar: Mushroom.1
-Encoding: 793 -1 795
+Encoding: 793 -1 799
 Width: 912
 Flags: W
 LayerCount: 2
@@ -36274,7 +36367,7 @@ EndSplineSet
 EndChar
 
 StartChar: Mushroom.spot1
-Encoding: 794 -1 796
+Encoding: 794 -1 800
 Width: 912
 Flags: W
 LayerCount: 2
@@ -36363,18 +36456,18 @@ EndSplineSet
 EndChar
 
 StartChar: Mushroom.2
-Encoding: 795 -1 797
+Encoding: 795 -1 801
 Width: 912
 Flags: W
 LayerCount: 2
 Fore
-Refer: 796 -1 N 1 0 0 1 0 0 2
+Refer: 800 -1 N 1 0 0 1 0 0 2
 Refer: 22 -1 N 0.1875 0 0 0.1875 504 600 2
 Refer: 22 -1 N 0.28125 0 0 0.28125 540 336 2
 EndChar
 
 StartChar: Mushroom
-Encoding: 796 127812 798
+Encoding: 796 127812 802
 Width: 912
 Flags: W
 LayerCount: 2
@@ -36382,7 +36475,7 @@ Comment: "Mushroom.0#99AAB5ff+AAoA-Mushroom.1#DD2E44ff+AAoA-Mushroom.2#F4ABBAff"
 EndChar
 
 StartChar: BrownMushroom
-Encoding: 797 -1 799
+Encoding: 797 -1 803
 Width: 912
 Flags: W
 LayerCount: 2
