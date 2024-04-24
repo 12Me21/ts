@@ -18,7 +18,7 @@ for name in font:
 			if len(a) != 2:
 				continue
 			lname = a[0]
-			color = a[1]
+			color = a[1].upper()
 			if not color in palette:
 				palette[color] = len(palette)
 			cid = palette[color]
