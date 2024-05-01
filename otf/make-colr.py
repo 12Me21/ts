@@ -6,6 +6,18 @@ out = open('colr2.xml', 'w')
 
 out.write('<?xml version="1.0" encoding="UTF-8"?>\n<ttFont sfntVersion="\\x00\\x01\\x00\\x00" ttLibVersion="4.34">\n\t<COLR>\n\t\t<version value="0"/>\n')
 
+named = {
+	"skin": ["#FFDC5D", "#F7DECE","#F3D2A2","#D5AB88","#AF7E57","#7C533E"],
+	"dark": ["#F9CA55", "#EEC2AD","#E2C196","#CC9B7A","#9B6A49","#664131"],
+	"line": ["#EF9645", "#E0AA94","#D2A077","#B78B60","#90603E","#583529"],
+	"hair": ["#963b22", "#292F33","#FFE51E","#963B22","#60352A","#0B0200"], #"#FFAC33"
+	"nose": ["#C1694F", "#C1694F","#C1694F","#C1694F","#915A34","#3D2E24"],
+	"eyes": ["#662113", "#662113","#662113","#662113","#60352A","#000000"],
+	"eyes1":["#662113", "#662113","#662113","#662113","#60352A","#000000"],
+	"eyes2":["#662113", "#662113","#662113","#662113","#662113","#000000"],
+	"lips": ["#DF1F32", "#DF1F32","#DF1F32","#DF1F32","#DF1F32","#DF1F32"],
+}
+
 palette = dict()
 
 for name in font:
@@ -18,7 +30,14 @@ for name in font:
 			if len(a) != 2:
 				continue
 			lname = a[0]
-			color = a[1].upper()
+			color = a[1]
+			if color in named:
+				color = named[color]
+				color = color[0][1:] # temp
+			if len(color)==6:
+				color = color+"ff"
+			color = color.upper()
+			
 			if not color in palette:
 				palette[color] = len(palette)
 			cid = palette[color]
