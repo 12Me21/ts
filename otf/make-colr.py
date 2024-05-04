@@ -20,8 +20,15 @@ named = {
 
 palette = dict()
 
+ref_usage = dict()
+
 for name in font:
 	glyph = font[name]
+	# glyph types:
+	# 1: layer. used as a layer in the COLR table. may also be a component
+	# 2: component. used as a component in a layer
+	# 3: character. mapped to a unicode character, or could replace one via a GSUB
+	
 	layers = glyph.comment.split("\n")
 	if len(layers)>0 and '#' in layers[0]:
 		out.write('\t\t<ColorGlyph name="'+name+'">\n')

@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1688857346
-ModificationTime: 1714851638
+ModificationTime: 1714852726
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -65,7 +65,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 738 18 8
+WinInfo: 648 18 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -17668,7 +17668,7 @@ EndChar
 StartChar: NauseatedFace.1
 Encoding: 292 -1 292
 Width: 912
-Flags: MW
+Flags: MWO
 LayerCount: 2
 Back
 SplineSet
@@ -38569,7 +38569,7 @@ EndChar
 StartChar: handholder
 Encoding: 867 -1 867
 Width: 528
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
