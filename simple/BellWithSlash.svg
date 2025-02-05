@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<g fill="#FFAC33">
+		<path d="M 28,13 c 0,11 5,10 5,15 c 0,0 0,2 -2,2 h-26 c -2,0 -2,-2 -2,-2 c 0,-5 5,-4 5,-15 a 10,10 0 01 20,0 Z"/>
+		<circle cx="18" cy="3" r="3"/>
+		<path d="M 22,32 a 4,4 0 01 -8,0 h8 Z"/>
+	</g>
+	<path d="M 32,32 l -27,-27" stroke="#DD2E44" fill="none" stroke-linecap="round" stroke-width="2.82843"/> <!-- sqrt(8) -->
+</svg>
