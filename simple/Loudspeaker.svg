@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	<path d="M 32.375,2.25 c -1.905,0 -20.45,-5.597 -20.45,-12.5 s 18.545,-12.5 20.45,-12.5 Z" fill="#CCD6DD"/> <!-- distorted 3.45×12.5 ellipse (left point moved 17 units left) a 3.45,12.5 0 01 3.45,12.5 a 3.45,12.5 0 01 -3.45,12.5 -->
+	<path d="M 32.375,27.25 c -1.905,0 -20.45,-5.597 -20.45,-12.5 s 18.545,-12.5 20.45,-12.5 v25 Z" fill="#CCD6DD"/> <!-- distorted 3.45×12.5 ellipse (left point moved 17 units left) a 3.45,12.5 0 01 3.45,12.5 a 3.45,12.5 0 01 -3.45,12.5 -->
 	<ellipse fill="#66757F" cx="32.375" cy="14.75" rx="3.45" ry="12.5"/>
 	<ellipse fill="#99AAB5" cx="31.325" cy="14.75" rx="1.5" ry="4.348"/>
 	
