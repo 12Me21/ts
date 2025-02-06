@@ -1,41 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<defs>
-		<clipPath id="flute1">
-			<ellipse rx="1.5" ry="2" transform="translate(34 2) rotate(-45)"/>
-			<path d="M 2,34 l -1.4142,-1.4142 l 32,-32 l 1.4142,1.4142 l 1.4142,1.4142 l -32,32 z"/>
-			<!--<rect height="4" width="45.255" x="-22.627" y="-2" transform="translate(18 18) rotate(-45)"/>-->
-			<!--<path d="M 2,34 l 32,-32" fill="none" stroke="#FFCC4D" stroke-width="4"/>-->
-		</clipPath>
-		<g id="hole1">
-			<circle r="0.75" fill="#292F33"/>
-			<path d="M 0.134,-0.62 a 0.75,0.75 0 00 -0.75,0.75 a 0.736,0.736 0 00 0.168,0.454 c -0.176,-0.138 -0.296,-0.342 -0.296,-0.582 a 0.75,0.75 0 01 0.75,-0.75 a 0.735,0.735 0 01 0.582,0.296 c -0.127,-0.099 -0.28,-0.168 -0.454,-0.168 Z" fill="#C1694F"/> todo: this isn't lined up with the edge of the circle
-		</g>
-		<g id="band1">
-			<path d="M -1.5,2 a 1.5,2 0 00 0,-4 h1 a 1.5,2 0 01 0,4 h-1 Z" fill="#C1694F"/>
+		<g id="hole">
+			<circle cx="-0.05" cy="0.15" r="1.25" fill="#C1694F"/>
+			<circle cx="0.2" cy="0.4" r="1" fill="#292F33"/>
 		</g>
 	</defs>
-	
-	<g clip-path="url(#flute1)">
-		<circle r="999" fill="#FFCC4D"/>
-		<path d="M 1.395,36 L 36,1.395 V 36 Z" fill="#FFAC33"/>
-	</g>
-	<ellipse rx="1.5" ry="2" transform="translate(2 34) rotate(-45)" fill="#FFCC4D"/>
-	<ellipse rx="1" ry="1.5" transform="translate(2.032 34.023) rotate(-45)" fill="#292F33"/>
-	
-	<g class="interleave">
-		<use href="#hole1" x="32" y="2.75"/>
-		<use href="#hole1" x="21.5" y="13.25"/>
-		<use href="#hole1" x="19" y="15.75"/>
-		<use href="#hole1" x="16.5" y="18.25"/>
-		<use href="#hole1" x="14" y="20.75"/>
-		<use href="#hole1" x="11.5" y="23.25"/>
-		<use href="#hole1" x="9" y="25.75"/>
-	</g>
-	
-	<g>
-		<use href="#band1" transform="translate(4.479 31.521) rotate(-45)"/>
-		<use href="#band1" transform="translate(6.479 29.521) rotate(-45)"/>
-		<use href="#band1" transform="translate(28.54 7.46) rotate(-45)"/>
-		<use href="#band1" transform="translate(30.54 5.46) rotate(-45)"/>
-	</g>
+	<!-- body -->
+	<circle cx="31.75" cy="3.5" r="3.5" fill="#FFCC4D"/>
+	<path d="M3.5,31.75 L 31.75,3.5" fill="none" stroke="#FFCC4D" stroke-width="7"/>
+	<!-- end -->
+	<circle cx="4.5" cy="30.75" r="3.5" fill="#C1694F"/>
+	<circle cx="3.5" cy="31.75" r="3.5" fill="#FFCC4D"/>
+	<circle cx="3.5" cy="31.75" r="2" fill="#292F33"/>
+	<!-- band -->
+	<circle cx="25.75" cy="9.5" r="3.5" fill="#C1694F"/>
+	<circle cx="24.75" cy="10.5" r="3.5" fill="#FFCC4D"/>
+	<!-- holes -->
+	<use href="#hole" x="8" y="26"/>
+	<use href="#hole" x="11" y="23"/>
+	<use href="#hole" x="14" y="20"/>
+	<use href="#hole" x="17" y="17"/>	
+	<use href="#hole" x="20" y="14"/>
+	<use href="#hole" x="23" y="11"/>
+	<use href="#hole" x="30" y="4"/>
 </svg>
