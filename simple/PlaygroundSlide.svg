@@ -7,6 +7,10 @@
 	<!--<path d="M 26,35.236 a 0.5,0.5 0 01 -1,0 v-2.736 a 0.5,0.5 0 01 1,0 v2.736 Z"  fill="#AEB3B2"/>-->
 	<path d="M 19.5,33.344 v-4.844" stroke-width="1" fill="none" stroke="#AEB3B2" stroke-linecap="round"/>
 	<!--<path d="M 20,33.344 a 0.5,0.5 0 01 -1,0 v-4.844 a 0.5,0.5 0 01 1,0 v4.844 Z"  fill="#AEB3B2"/>-->
+	<path d="M 2.5,25.5 L 11.5,22.5" stroke-width="1" fill="none" stroke="#AEB3B2" stroke-linecap="round"/>
+	<path d="M 3.5,21.75 L 12.5,18.75" stroke-width="1" fill="none" stroke="#AEB3B2" stroke-linecap="round"/>
+	<path d="M 4.5,18 L 13.5,15" stroke-width="1" fill="none" stroke="#AEB3B2" stroke-linecap="round"/>
+	<path d="M 5.5,14.25 L 14.5,11.25" stroke-width="1" fill="none" stroke="#AEB3B2" stroke-linecap="round"/>
 	<path d="M 1.74,27.5 L 6.5,10.5 L 6.5,6.5 L 6.5,6.052 a 2,2 0 01 2,-2" stroke-width="1" fill="none" stroke="#AEB3B2" stroke-linecap="round"/>
 	<path d="M 10.967,24.5 L 15.5,7.5 L 15.5,3.052 a 2,2 0 01 2,-2" stroke-width="1" fill="none" stroke="#AEB3B2" stroke-linecap="round"/>
 	<!--<path d="M 17.488,0.991 a 0.499,0.499 0 01 -0.36,0.608 c -0.664,0.17 -1.128,0.767 -1.128,1.453 l -0.017,4.577 l -4.533,17 a 0.5,0.5 0 01 -0.967,-0.258 l 0.294,-1.103 l -8.088,2.696 l -0.468,1.671 a 0.5,0.5 0 01 -0.962,-0.27 l 4.741,-16.934 v-4.379 a 2.5,2.5 0 01 1.88,-2.422 c 0.271,-0.069 0.539,0.094 0.608,0.361 s -0.092,0.54 -0.36,0.608 c -0.664,0.17 -1.128,0.767 -1.128,1.453 l -0.019,4.582 l -0.801,2.862 l 7.906,-2.635 l 0.914,-3.427 v-4.382 a 2.498,2.498 0 01 1.88,-2.421 a 0.497,0.497 0 01 0.608,0.36 Z M 13.778,12.018 l -7.923,2.642 l -0.73,2.606 l 7.961,-2.654 l 0.692,-2.594 Z M 12.086,18.361 l 0.692,-2.593 l -7.978,2.659 l -0.73,2.606 l 8.016,-2.672 Z M 3.015,24.802 l 8.071,-2.69 l 0.692,-2.594 l -8.033,2.678 l -0.73,2.606 Z"   fill="#AEB3B2"/>-->
