@@ -1,0 +1,33 @@
+<!doctype html>
+<meta charset=utf-8>
+
+<style>
+	svg-view {
+		display: grid;
+		grid-template:
+		'compare layers' 1fr
+		/ auto 1fr;
+	}
+</style>
+
+<script>
+	class Sv extends HTMLElement {
+		constructor() {
+			super()
+			this.attachShadow({mode: 'open'})
+			
+			this.shadowRoot.append("hello")
+		}		
+	}
+	customElements.define('svg-view', Sv)
+</script>
+
+
+abc
+<svg-view>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+		<path fill="#BB1A34" d="M 24.3448,10.9098 l 8.8727,8.8727 a 9.5,9.5 0 01 2.7825,6.7175 a 9.5,9.5 0 01 -9.5,9.5 a 9.5,9.5 0 01 -6.7175,-2.7825 l -8.678,-8.678 v -13.6297 h 13.2403 Z"/>
+		<path fill="#FDCB58" d="M 0,9.5 a 9.5,9.5 0 01 9.5,-9.5 a 9.5,9.5 0 01 6.7175,2.7825 l 8.1273,8.1273 l -13.2403,13.6297 l -8.322,-8.322 a 9.5,9.5 0 01 -2.7825,-6.7175 Z"/>
+	</svg>
+</svg-view>
+def
