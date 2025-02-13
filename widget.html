@@ -1,23 +1,110 @@
 <!doctype html>
 <meta charset=utf-8>
 
-<style>
-	svg-view {
-		display: grid;
-		grid-template:
-		'compare layers' 1fr
-		/ auto 1fr;
-	}
-</style>
-
 <script>
 	class Sv extends HTMLElement {
 		constructor() {
 			super()
 			this.attachShadow({mode: 'open'})
-			
-			this.shadowRoot.append("hello")
-		}		
+			let e = this.constructor.template()
+			for (let elem of e.querySelectorAll("[id]"))
+				this[elem.id] = elem
+			this.$controls.oninput = ev=>{
+				let v = this.$controls.diff.value
+				this.$box.classList.toggle('showolder', v==-1)
+				this.$box.classList.toggle('showold', v==0)
+				this.$box.classList.toggle('diff', v==2)
+				this.$box.classList.toggle('glass', this.$controls.glass.checked)
+				this.$box.classList.toggle('points', this.$controls.points.checked)
+			}
+			this.shadowRoot.append(e)
+		}
+		pop() {
+			let svg = this.firstElementChild
+			this.$box.replaceChildren(svg)
+		}
+	}
+	{
+		let template = ([html])=>{
+			let temp = document.createElement('template')
+			temp.innerHTML = html.replace(/\s*?\n\s*/g, "")
+			return document.importNode.bind(document, temp.content, true)
+		}
+		Sv.template = template`
+<div>
+	<form id=$controls method=dialog autocomplete=off>
+		<!--<label>Compare: <select name=reference></select></label>-->
+		<label>Show: <input type=range min=-1 max=2 name=diff></label>
+		<label>Glass: <input type=checkbox name=glass></label>
+		<label>Points: <input type=checkbox name=points></label>
+		<!--<label>Original<input autocomplete=off type=checkbox name=hide></label>
+		<label>Difference<input autocomplete=off type=checkbox name=diff></label>-->
+	</form>
+	<div id=$box class='compare-box'>
+		<br>
+		<br>
+		<br>
+		<svg viewBox="0 0 36 36" id=$custom style="background:none;pointer-events:none !important;"></svg>
+	</div>
+	<form onsubmit="$custom.innerHTML=this.t.value;return undefined" method=dialog onkeydown="if (event.key=='Enter' && !event.shiftKey) event.preventDefault(),this.submit.click()">
+		<textarea name=t style="width:100%;line-break:anywhere;width:-moz-available;display:block;"></textarea>
+		<br>
+		<button name=submit>update</button>
+	</form>
+</div>
+<div id=$layers class='scroll'></div>
+<style>
+	:host {
+		display: grid;
+		grid-template:
+		'compare layers' 1fr
+		/ auto 1fr;
+	}
+	.compare-box {
+		display: grid;
+		background: white;
+		contain: content;
+	}
+	.compare-box > * {
+		grid-area: 1/1/1/1;
+		width: 432px;
+		aspect-ratio: 1/1;
+		background: white;
+		border: 5px solid blue;
+		contain: strict;
+	}
+	.compare-box > :last-child {
+		/background: unset;
+	}
+	.compare-box > .mine {
+		border: 5px dotted blue;
+		translate: 0; /* fix rendering issue with clip paths in diff mode */
+	}
+	.compare-box.diff > .mine {
+		mix-blend-mode: difference;
+	}
+	.compare-box.glass > svg * {
+		fill-opacity: 0.5 !important;
+		/*stroke-opacity: 0.5;
+		filter: drop-shadow(.1px .1px) drop-shadow(-.1px -.1px);*/
+		stroke: #C0A !important;
+		stroke-width: 0.125 !important;
+		opacity: unset !important;
+	}
+	.compare-box.points > svg * {
+		marker-mid: url(#point);
+		marker-start: url(#start);
+		marker-end: url(#end);
+		clip-path: unset;
+		opacity: unset !important;
+	}
+	.compare-box.points:not(.glass) > svg * {
+		fill: none !important;
+		stroke: black !important;
+		stroke-width: 0.1;
+	}
+</style>
+`
 	}
 	customElements.define('svg-view', Sv)
 </script>
@@ -31,3 +118,8 @@ abc
 	</svg>
 </svg-view>
 def
+
+<script>
+	for (x of document.querySelectorAll('svg-view'))
+		x.pop()
+</script>
