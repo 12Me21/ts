@@ -22,8 +22,319 @@
 		pop() {
 			let svg = this.firstElementChild
 			this.$box.replaceChildren(svg)
+			show_layers(this.$layers, svg)
 		}
 	}
+	let HTML = ([html])=>{
+		let temp = document.createElement('template')
+		temp.innerHTML = html.replace(/\s*?\n\s*/g, "")
+		let content = temp.content
+		let root = content
+		if (root.childNodes.length==1)
+			root = root.firstChild
+		
+		let get_path = (root, node)=>{
+			let path = ""
+			while (node!==root) {
+				let parent = node.parentNode
+				let pos = [].indexOf.call(parent.childNodes, node)
+				path = ".firstChild"+".nextSibling".repeat(pos) + path
+				node = parent
+			}
+			return path
+		}
+		
+		let init = `const node=document.importNode(this, true)\nholder.$root=node`
+		for (let node of content.querySelectorAll("[\\$]")) {
+			let path = get_path(root, node)
+			let id = node.getAttribute('$')
+			node.removeAttribute('$')
+			id = id.replace(/,/g, " = holder.$")
+			init += `\nholder.$${id} = node${path}`
+		}
+		init += `\nreturn holder`
+		let c = new Function("holder={}", init).bind(root)
+		//c.prototype = {__proto__: null, template: root}
+		return c
+	}
+	
+	let layer = HTML`
+<div class='layer-box'>
+	<div $=row1></div>
+	<div $=row2><div $=variants class='layer-genders' style='float:right'></div></div>
+</div>
+	`
+		let standard_colors = {
+		'#662113': "brown? 102 33 19",
+		'#642116': "bad R=100 G=33 B=22 1",
+		'#664500': "Face Lines",
+		'#8a4b38': "brown? 138 75 56",
+		'#c1694f': "brown? 193 105 79",
+		'#bf6952': "bad R=191 G=105 B=82 1",
+		'#d99e82': "brown? 217 158 130",
+		'#d79e84': "bad R=215 G=158 B=132 1",
+		'#e6aaaa': "brown? 230 170 170",
+		'#e4aaab': "bad R=228 G=170 B=171 1",
+		'#ffd3ad': "brown? 255 211 173",
+		
+		//'#000000': "Black",
+		
+		'#292f33': "Charcoal",
+		'#66757f': "Dark gray",
+		'#67757f': "bad R=103 G=117 B=127 1",
+		'#8899a6': "Medium gray",
+		'#99aab5': "Medium Grey 2", // ??
+		'#9aaab4': "bad R=154 G=170 B=180 1",
+		'#ccd6dd': "Gray",
+		'#e1e8ed': "Border gray",
+		'#f5f8fa': "Faint gray",
+		'#ffffff': "White",
+		
+		'#231f20': "gray 100%",
+		'#414042': "gray 90%",
+		'#58595b': "gray 80%",
+		'#6d6e71': "gray 70%",
+		'#808285': "gray 60%",
+		'#939598': "gray 50%",
+		'#a7a9ac': "gray 40%",
+		'#bcbec0': "gray 30%",
+		'#d1d3d4': "gray 20%",
+		'#e6e7e8': "gray 10%",
+		'#f1f2f2': "gray 5%",
+		
+		'#553788': "Dark purple",
+		'#553986': "R=85 G=57 B=134 1",
+		'#744eaa': "Deep purple",
+		'#7450a8': "R=116 G=80 B=168 1",
+		'#9266cc': "Purple",
+		'#9268ca': "R=146 G=104 B=202 1",
+		'#aa8dd8': "Light purple",
+		'#aa8ed6': "R=170 G=142 B=214 1",
+		'#cbb7ea': "Faded purple",
+		'#cbb8e9': "R=203 G=184 B=233 1",
+		
+		'#a0041e': "Dark red",
+		'#9d0522': "R=157 G=5 B=34 1",
+		'#be1931': "Deep red",
+		'#bb1a34': "R=187 G=26 B=52 1",
+		'#dd2e44': "Red",
+		'#da2f47': "R=218 G=47 B=71 1",
+		'#ea596e': "Light red",
+		'#e75a70': "R=231 G=90 B=112 1",
+		'#f4abba': "Faded red",
+		'#f2abba': "R=242 G=171 B=186 1",
+		
+		'#3e721d': "Dark green",
+		'#3f7123': "R=63 G=113 B=35 1",
+		'#5c913b': "Deep green",
+		'#5d9040': "R=93 G=144 B=64 1",
+		'#77b255': "Green",
+		'#78b159': "R=120 G=177 B=89 1",
+		'#a6d388': "Light green",
+		'#a7d28b': "R=167 G=210 B=139 1",
+		'#c6e5b3': "Faded green",
+		'#c6e4b5': "R=198 G=228 B=181 1",
+		
+		'#f4900c': "Dark orange",
+		'#f18f26': "R=241 G=143 B=38 1",
+		'#ffac33': "Orange",
+		'#fcab40': "R=252 G=171 B=64 1",
+		'#ffcc4d': "Yellow",
+		'#fdcb58': "R=253 G=203 B=88 1",
+		'#ffd983': "Light yellow",
+		'#fdd888': "R=253 G=216 B=136 1",
+		'#ffe8b6': "Faded yellow",
+		'#fee7b8': "R=254 G=231 B=184 1",
+		
+		'#226699': "Dark blue",
+		'#2a6797': "R=42 G=103 B=151 1",
+		'#3b88c3': "Deep blue",
+		'#4289c1': "R=66 G=137 B=193 1",
+		'#55acee': "Twitter blue",
+		'#5dadec': "R=93 G=173 B=236 1",
+		'#88c9f9': "Light blue",
+		'#8ccaf7': "R=140 G=202 B=247 1",
+		'#bbddf5': "Faded blue",
+		'#bdddf4': "R=189 G=221 B=244 1",
+		
+		'#fcb1e3': 'pink? 252 177 227',
+		
+		"#31373d": 'new black',
+	}
+	{
+		let sc2 = {}
+		let prev = ""
+		for (let k in standard_colors) {
+			let val = standard_colors[k]
+			if (val.endsWith(" 1"))
+				sc2[k] = "⚠ →"+prev
+			else
+				sc2[k] = val
+			prev = k
+		}
+		standard_colors = sc2
+	}
+
+	function findmaybecolor(elem) {
+		let col
+		for (let an of ['color','fill','stroke']) {
+			let col = elem.getAttribute(an)
+			if (col && col!='none')
+				return col
+		}
+		let p = elem.parentElement
+		if (!p || p instanceof SVGSVGElement)
+			return "unset"
+		return findmaybecolor(p)
+	}
+	
+	function show_layers($layers, svg) {
+		$layers.textContent = ""
+		
+		for (let cl of svg.querySelectorAll('clipPath')) {
+			let clip2 = cl.cloneNode(true)
+			let g = document.createElementNS('http://www.w3.org/2000/svg','g')
+			//g.style.opacity = "0"
+			g.append(...clip2.childNodes)
+			svg.append(g)
+			g.classList.add('clip-display')
+			g.setAttribute('fill', '#A08')
+		}
+		
+		//let items = svg.children
+		let items = svg.querySelectorAll('*:not(g,svg,clipPath,defs,clipPath *)')
+		
+		for (let elem of items) {
+			if (elem.style.display=="none")
+				//box.$root.dataset.hidden = ""
+				continue
+			let box = layer()
+			let svg2 = svg.cloneNode(false)
+			let elem2 = elem.cloneNode(true)
+			svg2.append(elem2)
+			svg2.setAttribute('fill', 'none')
+			box.$root.prepend(svg2)
+			
+			box.$root.dataset.kind = elem2.nodeName
+			
+			let sym 
+			if (elem2.nodeName=="use") {
+				sym = "*" + " " + elem2.getAttribute('href').split("#")[1] + ""
+			} else {
+				sym = "<"+elem2.nodeName+">"
+				if (elem2 instanceof SVGPathElement)
+					sym += " ("+elem2.getAttribute('d').length+")"
+			}
+			let tf = elem2.transform?.baseVal // todo: need to check parent etc. we should switch to a kind of tree view i think. except, with like, table cell boxes etc?
+			/*
+				+---+--------+
+				|   |[] path |
+				| g |--------+
+				|   |[] path |
+				+--------+---+
+				|[] path |
+				+--------+
+			 */
+			if (tf)
+				for (let {type, matrix} of tf) {
+					// only indicate 'strange' matricies (i.e. not ones that just flip or translate)
+					if (matrix.b || matrix.c || Math.abs(matrix.a)!=1 || Math.abs(matrix.d)!=1) {
+						if (type==SVGTransform.SVG_TRANSFORM_ROTATE)
+							sym = "r" + sym
+						if (type==SVGTransform.SVG_TRANSFORM_SCALE)
+							sym = "s" + sym
+						else
+							sym = "t" + sym
+					} else if (matrix.a==-1 || matrix.d==-1) {
+						sym = "f" + sym
+					}
+				}
+			
+			tf.initialize(tf.createSVGTransformFromMatrix(elem.getTransformToElement(svg)))
+			
+			let id = elem2.id || elem2.parentNode?.id
+			if (id) {
+				id = {
+					eye1: "👁",
+					eye2: "👁",
+					mouth: "👄",
+					eyebrow1: "〰️",
+					eyebrow2: "〰️",
+					head: "🟡",
+				}[id] ?? "#"+id
+				
+				box.$variants.append(id)
+			}
+			
+			box.$row1.append(sym)
+			
+			let g = elem2.getAttribute('ts:gender')
+			if (g) {
+				g = g.split(/[, ]/)
+				box.$variants.append(" "+g.map(x=>({neutral:'X',male:'M',female:'F',mixed:'2'}[x])).join(""))
+			} else
+				box.$root.dataset.shared = ""
+			
+			
+			let skin = elem2.getAttribute('ts:skin')
+			col: if (skin) {
+				box.$row2.append("🎨︎ "+skin+"")
+			} else {
+				let clip = elem.closest('.clip-display')
+				if (clip) {
+					elem.style.fill = 'inherit'
+					box.$row2.append('✂️ #'+clip.id)
+					elem2.setAttribute('fill', '#A08')
+					break col
+				}
+				/*let col = elem2.getAttribute('color')
+					if (!col)
+					col = elem2.getAttribute('fill')
+					if (!col || col=="none")
+					col = elem2.getAttribute('stroke')*/
+				
+				let col = findmaybecolor(elem)
+				
+				/*
+					let rgb = col.match(/\d+/g)
+					if (rgb) {
+					let [r,g,b] = rgb
+					col = ("#"+(+r).toString(16).padStart(2,'0')+(+g).toString(16).padStart(2,'0')+(+b).toString(16).padStart(2,'0'))//.toUpperCase()
+					}
+				 */
+				
+				col = String(col).toLowerCase()
+				col = col.replace("^#(.)(.)(.)$","#$1$1$2$2$3$3")
+				
+				//if (col!='#000000') {
+				let cs = document.createElement('div')
+				cs.classList.add('color-square')
+				cs.style.color = col
+				
+				let cn = standard_colors[col]
+				if (cn) {
+					col = cn + col
+					//box.$row2.style.fontStyle='italic'
+				}
+				
+				box.$row2.append(cs, col)
+				//}
+			}
+			box.$root.onpointerenter = ev=>{
+				elem.classList.add('highlight')
+			}
+			box.$root.onpointerleave = ev=>{
+				elem.classList.remove('highlight')
+			}
+			box.$root.title = elem.outerHTML
+			
+			$layers.append(box.$root)
+			//▬●⬬ ▭⬭○ ▢ ⬤⬛
+			
+			elem2.removeAttribute('id')
+		}
+	}
+	
 	{
 		let template = ([html])=>{
 			let temp = document.createElement('template')
@@ -40,17 +351,7 @@
 		<!--<label>Original<input autocomplete=off type=checkbox name=hide></label>
 		<label>Difference<input autocomplete=off type=checkbox name=diff></label>-->
 	</form>
-	<div id=$box class='compare-box'>
-		<br>
-		<br>
-		<br>
-		<svg viewBox="0 0 36 36" id=$custom style="background:none;pointer-events:none !important;"></svg>
-	</div>
-	<form onsubmit="$custom.innerHTML=this.t.value;return undefined" method=dialog onkeydown="if (event.key=='Enter' && !event.shiftKey) event.preventDefault(),this.submit.click()">
-		<textarea name=t style="width:100%;line-break:anywhere;width:-moz-available;display:block;"></textarea>
-		<br>
-		<button name=submit>update</button>
-	</form>
+	<div id=$box class='compare-box'></div>
 </div>
 <div id=$layers class='scroll'></div>
 <style>
@@ -102,6 +403,75 @@
 		fill: none !important;
 		stroke: black !important;
 		stroke-width: 0.1;
+	}
+	.scroll {
+		overflow-y: scroll;
+	}
+	.layer-box {
+		line-break: anywhere;
+		display: grid;
+		grid-template:
+			'svg row1' auto
+		'svg row2' auto
+			/ auto 150px;
+		margin: 4px;
+		column-gap: 4px;
+		padding-right: 4px;
+		background: linear-gradient(to left, white -10px , var(--color) 400% );
+		border-left: 12px solid white;
+		background-clip: padding-box;
+		--color: gray;
+	}
+	.layer-box[data-shared] {
+		--color: yellowgreen;
+	}
+	.layer-box[data-kind=use] {
+		--color: blue;
+	}
+	.layer-box[data-kind=ellipse], .layer-box[data-kind=circle], .layer-box[data-kind=rect] {
+		--color: teal;
+	}
+	.layer-box[data-kind=use] > svg{
+		border-color: slateblue;
+		/*deepskyblue;*/
+		/*border-radius: 10px;*/
+	}
+	.layer-box[data-hidden] {
+		opacity: 0.2;
+		--color: black !important;
+	}
+	.layer-box > svg {
+		grid-area: svg;
+		background: white;
+		border: solid; /*var(--color);*/
+		width: 36px;
+		height: 36px;
+		paint-order: stroke;
+		stroke: black;
+		stroke-width: 2px;
+		vector-effect: non-scaling-stroke;
+		margin: -1px;
+		margin-left: -12px;
+		border-radius: 5px;
+	}
+	#\\$layers {
+		place-self: stretch start;
+	}
+	.layer-genders {
+		background: #A804;
+		padding: 0 0.5ch;
+		line-height: 1.2;
+	}
+	
+	.color-square {
+		display: inline-block;
+		vertical-align: top;
+		width: 1em;
+		height: 1em;
+		background-color: currentColor;
+		margin-right: 3px;
+		border: 1px solid black;
+		box-sizing: border-box;
 	}
 </style>
 `
