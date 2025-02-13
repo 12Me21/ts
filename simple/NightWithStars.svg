@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	<path d="M 32,0 a 4,4 0 01 4,4 v22 h-36 v-22 a 4,4 0 01 4,-4 h28 Z"  fill="#269"/>
-	<path d="M 10,36 v-29 l 4,-4 h2 l 4,4 v29 h-10 Z"  fill="#3F484C"/>
-	<path d="M 33,11 v25 h-9 v-25 c 0,-1 1,-1 1,-1 h7 s 1,0 1,1 Z"  fill="#3F484C"/>
+	<path d="M 32,0 a 4,4 0 01 4,4 v21 l -4,4 h-24 l -8,-16 v-9 a 4,4 0 01 4,-4 h28 Z" fill="#269"/>
+	<path d="M 20,7 v27 l-2,2 h-6 l-2,-2 v-27 l 4,-4 h2 l 4,4 Z" fill="#3F484C"/>
+	<path d="M 33,11 v23 l-2,2 h-3 l-4,-4 v-21 c 0,-1 1,-1 1,-1 h7 s 1,0 1,1 Z"  fill="#3F484C"/>
 	<path d="M 28,19 v17 h-10 v-17 s 0,-1 1,-1 h8 s 1,0 1,1 Z"  fill="#292F33"/>
 	<path d="M 11,21 c 1,0 1,1 1,1 v14 h-8 a 4,4 0 01 -4,-4 v-19 h5 c 1,0 1,1 1,1 v7 h5 Z"  fill="#292F33"/>
 	<path d="M 32,25 h4 v7 a 4,4 0 01 -4,4 h-1 v-10 s 0,-1 1,-1 Z"  fill="#292F33"/>

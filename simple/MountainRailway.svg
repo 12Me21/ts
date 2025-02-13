@@ -1,14 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	<path d="M 0,35 v-21 s 4,-7 5,-7 s 2.5,1.5 4,3 s 4,3 6,1 s 9,-11 12,-11 s 9,10 9,10 v25 h-36 Z"   fill="#D1D3D4"/>
+	<path d="M 0,34 v-20 s 4,-7 5,-7 s 2.5,1.5 4,3 s 4,3 6,1 s 9,-11 12,-11 s 9,10 9,10 v24 l-1,1 h-34 l-1,-1 Z"   fill="#D1D3D4"/>
 	<path d="M 0,34 h36 v2 h-36 v-2 Z"   fill="#939598"/>
 	<circle fill="#58595B" cx="11" cy="32" r="3"/>
 	<circle cx="19" cy="32" r="3"  fill="#58595B"/>
 	<circle fill="#292F33" cx="11" cy="32" r="2"/>
 	<circle cx="19" cy="32" r="2"  fill="#292F33"/>
-	<path d="M 36,14 v14 h-33 v-10 a 4,4 0 01 4,-4 h29 Z"   fill="#FFE8B6"/>
-	<path d="M 36,14 v2 h-32.445 a 4,4 0 01 3.445,-2 h29 Z"   fill="#77B255"/>
-	<path d="M 36,27 v5 h-29 a 4,4 0 01 -4,-4 l 1,-1 h32 Z"   fill="#5C913B"/>
-	<path d="M 3,26 h33 v2 h-33 v-2 Z"   fill="#FFAC33"/>
+	
+	<path d="M 36,14 v2 l-2,2 h-28.464 l-2,-2 a 4,4 0 01 3.464,-2 h29 Z" fill="#77B255"/>
+	<path d="M 3,26 l 2,-2 h29 l 2,2 v2 l -2,2 h-29 l -2,-2 v-2 Z" fill="#FFAC33"/>
+	<path d="M 36,14 v12 h-33 v-2 l2.5,-2.5 l-2.5,-2.5 v-1 a 4,4 0 01 0.536,-2 h32.464 v-2 Z" fill="#FFE8B6"/>
+	<path d="M 36,28 v4 h-29 a 4,4 0 01 -4,-4 h33 Z" fill="#5C913B"/>
+	
+	
 	<path d="M 3,19 h6 v5 h-6 v-5 Z"   fill="#55ACEE"/>
 	<rect x="11" y="19" width="4" height="4" rx="1"  fill="#55ACEE"/>
 	<rect x="16" y="19" width="4" height="4" rx="1"  fill="#55ACEE"/>
