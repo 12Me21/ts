@@ -1,44 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	<defs>
-		<clipPath id="bus1">
-			<rect width="36" height="20" x="0" y="11" rx="3"/>	
-		</clipPath>
-	</defs>
+	<g>
+		<path d="M 15,11 c 5,-6 12,-7 12,-7 h3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#6D6E71"/>
+		<!--<path fill="#6D6E71" d="M 15,12 c -0.226,0 -0.453,-0.076 -0.64,-0.232 c -0.424,-0.354 -0.482,-0.984 -0.128,-1.408 c 5.186,-6.224 12.325,-7.307 12.626,-7.35 c 0.047,-0.007 0.095,-0.01 0.142,-0.01 h3 a 1,1 0 01 1,1 a 1,1 0 01 -1,1 h-2.919 c -0.69,0.119 -6.878,1.319 -11.312,6.641 c -0.198,0.237 -0.482,0.359 -0.769,0.359 Z"/>-->
+		<path fill="#A7A9AC" d="M 11,9 h14 v4 h-14 v-4 Z"/>
+	</g>
+	<path d="M 0,14 a 3,3 0 01 3,-3 h30 a 3,3 0 01 3,3 v8 l-2,2 h-32 v-7 l-2,-2 Z" fill="#E6E7E8"/>
+	<path d="M 0,24 l1,-1 h34 l1,1 v1 l-1,1 l1,1 L36,28 A 3,3 0 01 34.957,30.274 L33,29 L25,29 L23,31 L13,31 l-2,-2 h-8 L 1.043,30.274 A 3,3 0 01 0,28 v-1 l1,-1 l-1,-1 Z" fill="#77B255"/>
 	
 	<g>
-		note: i adjusted colors
-		<path d="M 15,11 c 5,-6 12,-7 12,-7 h3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#66757F"/>
-		<rect width="14" height="4" x="11" y="9" fill="#99AAB5"/>
-	</g>
-	
-	<g clip-path="url(#bus1)">
-		<rect width="36" height="23" fill="#E1E8ED"/>
-		<rect width="36" height="13" y="23" fill="#77B255"/>
-		<rect width="36" height="2" x="0" y="22" fill="#5C913B"/>
-		
-		windows:
-		<g fill="#55ACEE">
-			<rect width="7" height="7" rx="1" x="-1" y="15"/>
-			<rect x="8" y="15" width="5" height="5" rx="1"/>
-			<rect x="15" y="15" width="5" height="5" rx="1"/>
-			<rect x="22" y="15" width="5" height="5" rx="1"/>
-			<rect x="29" y="15" width="5" height="5" rx="1"/>
-		</g>
-		
-		<circle cx="7" cy="31" r="6" fill="#5C913B"/>
-		<circle cx="29" cy="31" r="6" fill="#5C913B"/>
-	</g>
-	
-	<g>
-		<rect width="1" height="2" x="0" y="25" fill="#FFE8B6"/>
-		<rect width="1" height="2" x="35" y="25" fill="#EA596E"/>
-		<rect width="1" height="2" x="35" y="22" fill="#F4ABBA"/>
-	</g>
-	
-	<g>
+		<path d="M3,31 A 3,3 0 01 1.043,30.274 A 6,6 0 01 7,25 A 6,6 0 01 13,31 Z" fill="#5C913B"/>
+		<path d="M 33,31 h-10 a 6,6 0 01 6,-6 a 6,6 0 01 5.957,5.274 a 3,3 0 01 -1.957,0.726 Z" fill="#5C913B"/>
+		wheels
 		<circle cx="7" cy="31" r="4" fill="#000000"/>
-		<circle fill="#99AAB5" cx="7" cy="31" r="2"/>
 		<circle cx="29" cy="31" r="4" fill="#000000"/>
+		<circle fill="#99AAB5" cx="7" cy="31" r="2"/>
 		<circle fill="#99AAB5" cx="29" cy="31" r="2"/>
+	</g>
+
+	windows:
+	<g fill="#55ACEE">
+		<path d="M 0,15 h5 a 1,1 0 01 1,1 v5 a 1,1 0 01 -1,1 v1 h-4 l-1,-1 Z"/>
+		<path d="M 8,16 a 1,1 0 01 1,-1 h3 a 1,1 0 01 1,1 v3 a 1,1 0 01 -1,1 h-3 a 1,1 0 01 -1,-1 v-3 Z"/>
+		<path d="M 15,16 a 1,1 0 01 1,-1 h3 a 1,1 0 01 1,1 v3 a 1,1 0 01 -1,1 h-3 a 1,1 0 01 -1,-1 v-3 Z"/>
+		<path d="M 22,16 a 1,1 0 01 1,-1 h3 a 1,1 0 01 1,1 v3 a 1,1 0 01 -1,1 h-3 a 1,1 0 01 -1,-1 v-3 Z"/>
+		<path d="M 29,16 a 1,1 0 01 1,-1 h3 a 1,1 0 01 1,1 v3 a 1,1 0 01 -1,1 h-3 a 1,1 0 01 -1,-1 v-3 Z"/>
+	</g>
+	
+	<path fill="#5C913B" d="M 0,22 h35 l0.5,1 l-0.5,1 h-35 v-2 Z"/>
+	
+	lights
+	<g>
+		<path fill="#FFE8B6" d="M 0,25 h1 v2 h-1 v-2 Z"/>
+		<path fill="#EA596E" d="M 35,25 h1 v2 h-1 v-2 Z"/>
+		<path fill="#F4ABBA" d="M 35,22 h1 v2 h-1 v-2 Z"/>
 	</g>
 </svg>
