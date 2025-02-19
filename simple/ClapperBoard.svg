@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<defs>
 		<g id="stripes">
-			<rect width="34" height="7" x="0" y="0" fill="#ccd6dd"/>
+			<path d="M 4,0 h7 l2,3 l5,-3 h7 l2,3 l5,-3 h2 v7 h-6 l-2,-3 l-5,3 h-7 l-2,-3 l-5,3 h-7 l1,-5 z" fill="#ccd6dd"/>
 			<path d="M 0,0 h4 l -4,7 v-7 ZM 11,0 l -4,7 h7 l 4,-7 h-7 ZM 25,0 l -4,7 h7 l 4,-7 h-7 Z" fill="#292f33"/>
 		</g>
 	</defs>
 	
 	<g transform="translate(0.845)">
-		<rect width="34" height="18" rx="4" x="1" y="18" fill="#3e721d"/>
+		<path fill="#3e721d" d="M 1,22 l 4,-4 h26 l 4,4 v10 a 4,4 0 01 -4,4 h-26 a 4,4 0 01 -4,-4 v-10 Z"/>
 		
 		<use href="#stripes" x="1" y="15"/>
 		
