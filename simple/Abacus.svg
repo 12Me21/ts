@@ -5,7 +5,7 @@
 		<rect x="3" y="21" width="30" height="2"/>
 		<rect x="3" y="28" width="30" height="2"/>
 	</g>
-	<g fill="#D99E82"> changed from #D5AB88 (that color is meant for use as a skin tone)
+	<g fill="#D5AB88"> #D5AB88 is meant for use as a skin tone. should this be #D99E82 instead?
 		<rect x="1" y="0" width="3" height="35" rx="1"/>
 		<rect x="32" y="0" width="3" height="35" rx="1"/>
 		<rect x="2" y="1" width="32" height="3"/>
