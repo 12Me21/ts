@@ -7,19 +7,19 @@
 		</clipPath>
 	</defs>
 	
-	<path d="M 4,1 h4 a 4,4 0 01 4,4 v3 a 4,4 0 01 -4,4 h-4 c -4,0 -4,-11 0,-11 Z" fill="#269"/>
-	<path d="M 6,12 h10 a 4,4 0 01 4,4 v1 a 4,4 0 01 -4,4 h-10 c -4,0 -4,-9 0,-9 Z" fill="#F4900C"/>
-	<path d="M 5,21 h7 c 2.209,0 3,1.791 3,4 v6 c 0,2.209 -0.791,4 -3,4 h-7 c -4,0 -4,-14 0,-14 Z" fill="#553788"/>
+	<path d="M 5,21 h1 v-2 h7 v12 l -3,4 h-5 c -4,0 -4,-14 0,-14 Z" fill="#553788"/>
+	<path d="M 34,33 a 1,1 0 01 0,2 h-24 c -4,0 -4,-14 0,-14 v-2 h24 v2 a 1,1 0 01 0,2 v10 Z"   fill="#9266CC"/>
 	
-	<path d="M 31,10 a 1,1 0 01 0,2 h-24 c -4,0 -4,-11 0,-11 h24 a 1,1 0 01 0,2 v7 Z"   fill="#55ACEE"/>
+	<path d="M 6,12 h9 l 4,4 v1 l -4,4 h-9 c -4,0 -4,-9 0,-9 Z" fill="#F4900C"/>
 	<path d="M 35,19 a 1,1 0 01 0,2 h-20 c -4,0 -4,-9 0,-9 h20 a 1,1 0 01 0,2 v5 Z"   fill="#FFAC33"/>
-	<path d="M 34,33 a 1,1 0 01 0,2 h-24 c -4,0 -4,-14 0,-14 h24 a 1,1 0 01 0,2 v10 Z"   fill="#9266CC"/>
+	
+	<path d="M 4,1 h3 l 4,4 v3 l -4,4 h-3 c -4,0 -4,-11 0,-11 Z" fill="#269"/>
+	<path d="M 31,10 a 1,1 0 01 0,2 h-24 c -4,0 -4,-11 0,-11 h24 a 1,1 0 01 0,2 v7 Z"   fill="#55ACEE"/>
 	
 	<g clip-path="url(#pages)">
 		<rect width="36" height="36" fill="#99AAB5"/>
-		
-		<path d="M 8,5 h24 v7 h-24 c -2,0 -2,-7 0,-7 Z"    fill="#CCD6DD"/>
-		<path d="M 16,16 h20 v5 h-20 c -2,0 -2,-5 0,-5 Z"    fill="#CCD6DD"/>
 		<path d="M 11.5,25 h24 v10 h-24 c -2,0 -2,-10 0,-10 Z"    fill="#CCD6DD"/>
+		<path d="M 16,16 h20 v5 h-20 c -2,0 -2,-5 0,-5 Z"    fill="#CCD6DD"/>
+		<path d="M 8,5 h24 v7 h-24 c -2,0 -2,-7 0,-7 Z"    fill="#CCD6DD"/>
 	</g>
 </svg>
