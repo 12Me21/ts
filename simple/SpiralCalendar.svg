@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	Similar to SpiralNotebook
+	Similar to SpiralNotebook. 
+	i wonder where the spirals originate from:
+	Ledger, SpiralNotebook, or SpiralCalendar?
 	<defs>
 		<clipPath id="clipPath30">
 			<path d="M 6,4 h24 a 4,4 0 01 4,4 v24 a 4,4 0 01 -4,4 h-24 a 4,4 0 01 -4,-4 v-24 a 4,4 0 01 4,-4 Z"/>
