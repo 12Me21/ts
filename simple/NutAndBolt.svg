@@ -16,8 +16,8 @@
 		</g>
 	</g>
 	<g>
-		<path d="M 3,9 L 9,3 h5 v5 l -6,6 h-5 v-5 z" fill="#ccd6dd"/>
-		<path d="M 3,9 L 9,3 h5 v5 l -6,6 h-5 v-5 z" fill="#ccd6dd" transform="translate(12 12)"/>
+		<path d="M 3,9 L 9,3 h3 l2,2 v3 l -6,6 h-3 l-2,-2 v-3 z" fill="#ccd6dd"/>
+		<path d="M 3,9 L 9,3 h3 l2,2 v3 l -6,6 h-3 l-2,-2 v-3 z" fill="#ccd6dd" transform="translate(12 12)"/>
 		<path d="M 9,3 l 2,-2 s 1,-1 2,0 l 3,3 s 1,1 0,2 L 14,8 z" fill="#e1e8ed"/>
 		<path d="M 9,3 l 2,-2 s 1,-1 2,0 l 3,3 s 1,1 0,2 L 14,8 z" fill="#e1e8ed" transform="translate(12 12)"/>
 		<path d="M 3,9 l -2,2 s -1,1 0,2 l 3,3 s 1,1 2,0 l 2,-2 l -5,-5 Z" fill="#8899a6"/>
