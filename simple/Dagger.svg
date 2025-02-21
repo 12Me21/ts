@@ -5,10 +5,6 @@
 		</clipPath>
 	</defs>
 	<g transform="translate(0.75, 36) rotate(-45)">
-		<g>
-			<path d="M 28,4 c -1,0 -14,4 -28,-4 l 5,-2 h24 l 1,2 c 0,1 -2,4 -2,4 Z" fill="#99aab5"/>
-			<path d="M 28,-4 s 2,3 2,4 h-30 c 14,-8 27,-4 28,-4 Z" fill="#ccd6dd"/>
-		</g>
 		<g clip-path="url(#clipPath36)">
 			<rect x="18" y="-18" width="36" height="36" fill="#D99E82"/>
 			<g fill="#c1694f">
@@ -20,6 +16,12 @@
 			</g>
 		</g>
 		<circle r="4" cx="44" cy="0" fill="#8a4633"/>
+		
+		<g>
+			<path d="M 28,4 c -1,0 -14,4 -28,-4 c 0,0 7,-2 11,-2 h19 l 1,2 c 0,1 -2,4 -2,4 Z" fill="#99aab5"/>
+			<path d="M 29,-4 s 2,3 2,4 h-31 c 14,-8 27,-4 28,-4 Z" fill="#ccd6dd"/>
+		</g>
+		
 		<g>
 			<rect width="2.134" height="9.014" rx="1.067" x="39.954" y="-4.507" fill="#FFAC33"/>
 		</g>
