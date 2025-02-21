@@ -20,13 +20,15 @@
 </svg>
 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	<path fill="#d99e82" d="M35 36H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h34c.55 0 1 .45 1 1v34c0 .55-.45 1-1 1z"/>
-	<path fill="#c1694f" d="M1 36h34c.55 0 1-.45 1-1V1c0-.275-.112-.525-.294-.706L.294 35.706C.475 35.888.725 36 1 36z"/>
-	<g>
-	<rect x="2" y="2" width="15" height="15" fill="#88c9f9"/>
-	<rect x="19" y="2" width="15" height="15" fill="#88c9f9"/>
-	<rect x="2" y="19" width="15" height="15" fill="#88c9f9"/>
-	<rect x="19" y="19" width="15" height="15" fill="#88c9f9"/>
-	<path opacity=".5" fill="#FFF" d="M2 34V2h32z"/>
+	<path fill="#d99e82" d="M 35,36 h-34 a 1,1 0 01 -1,-1 v-34 a 1,1 0 01 1,-1 h34 a 1,1 0 01 1,1 v34 a 1,1 0 01 -1,1 Z"/>
+	<path fill="#c1694f" d="M 1,36 c -0.275,0 -0.525,-0.112 -0.706,-0.294 l 35.412,-35.412 c 0.182,0.181 0.294,0.431 0.294,0.706 v34 a 1,1 0 01 -1,1 h-34 Z"/>
+	
+	
+	<rect x="1" y="1" width="34" height="34" fill="#88c9f9"/>
+	<path opacity=".5" fill="#FFF" d="M1 35V1H35z"/>
+	<g fill="#c1694f">
+		<rect x="17" y="1" width="2" height="34"/>
+		<rect x="1" y="17" width="34" height="2"/>
 	</g>
+	<path d="M 35,1 L35.707,.293 C 35.888,0.474 36,0.724 36,1 L 36,35 a 1,1 0 01 -1,1 L 1,36 C 0.724,36 0.474,35.888 0.293,35.707 L 1,35 L1,1 Z"/>
 </svg>
