@@ -1,18 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<path fill="none" stroke="#292F33" stroke-width="3" d="M 8,8 V 4 a 2,2 0 01 2,-2 h 16 a 2,2 0 01 2,2 v4"/>
-	<path fill="#DD2E44" d="M 34,-4 s 0,4 -4,4 h-26 c -4,0 -4,-4 -4,-4 v-19 c 0,-4 4,-4 4,-4 h26 s 4,0 4,4 v19 Z" transform="translate(0 36) scale(1.05882)"/> 1.05882.. = 36/34 (i.e. this was initially drawn at 34 units wide and then scaled up to 36)
+		<path fill="#DD2E44" d="M 34,-4 s 0,4 -4,4 h-26 c -4,0 -4,-4 -4,-4 v-19 c 0,-4 4,-4 4,-4 h26 s 4,0 4,4 v19 Z" transform="translate(0 36) scale(1.05882)"/> 1.05882.. = 36/34 (i.e. this was initially drawn at 34 units wide and then scaled up to 36)
+	<!--<path fill="#292F33" d="M 26,0.5 a 3.5,3.5 0 01 3.5,3.5 v6 h-3 v-6 a 0.5,0.5 0 00 -0.5,-0.5 h-16 a 0.5,0.5 0 00 -0.5,0.5 v6 h-3 v-6 a 3.5,3.5 0 01 3.5,-3.5 h16 Z"></path>
+	baked indents
+	<path fill="#DD2E44" d=" M
+36,31.765
+ C 36,31.765 36,36
+31.765,36
+ L
+4.235,36
+ C 0,36 0,31.765
+0,31.765
+ V17
+l1,-1
+l-1,-1
+L 
+0,11.647
+ C 0,7.412 4.235,7.412
+4.235,7.412
+ L
+31.765,7.412
+ C 31.765,7.412 36,7.412
+36,11.647
+ V 15
+l-1,1
+l1,1
+ L
+36,31.765
+ Z"/>-->
+	
 	<g fill="#BE1931">
 		<rect width="36" height="2" x="0" y="15"/>
-		<rect width="28" height="2" x="4" y="24"/>
-		<rect width="28" height="2" x="4" y="30"/>
+		<path d="M 4,24 l1,-1 h26 l1,1 v2 h-28 v-2 Z"/>
+		<path d="M 4,30 l1,-1 h26 l1,1 v2 h-28 v-2 Z"/>
 	</g>
 	<g fill="#CCD6DD">
 		<rect width="28" height="2" x="4" y="22"/>
 		<rect width="28" height="2" x="4" y="28"/>
 	</g>
 	<g fill="#AAB8C2">
-		<rect width="4" height="6" rx="1" x="7" y="13"/>
-		<rect width="4" height="6" rx="1" x="25" y="13"/>
+		<path d="M 7,14 a 1,1 0 01 1,-1 h2 a 1,1 0 01 1,1 v3 l -1,1 h-2 l -1,-1 v-3 Z"/>
+		<path d="M 25,14 a 1,1 0 01 1,-1 h2 a 1,1 0 01 1,1 v3 l -1,1 h-2 l -1,-1 v-3 Z"/>
 	</g>
 	<g fill="#292F33">
 		<g>
