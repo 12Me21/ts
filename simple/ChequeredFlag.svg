@@ -2,8 +2,8 @@
 	similar to Black Flag
 	<g>
 		these 2 layers were duplicated before
-		<path d="M 5,36 a 2,2 0 01 -2,-2 l 0.5,-0.5 V 2.5 L 6,2 l 1,1 v31 a 2,2 0 01 -2,2 Z" fill="#8899a6"/>
-		<path d="M 5,1 a 2,2 0 01 2,2 h-1.586 a 1.414,1.414 0 00 -1.414,1.414 v29.586 a 0.5,0.5 0 01 -0.5,0.5 a 0.5,0.5 0 01 -0.5,-0.5 v-31 a 2,2 0 01 2,-2 Z" fill="#aab8c2"/>
+		<path d="M 7,34 a 2,2 0 01 -4,0 h0.5 V3 l 1.5,-1 l 2,1 v31 Z" fill="#8899a6"/>
+		<path d="M 3,3 a 2,2 0 01 4,0 h-1.586 a 1.414,1.414 0 00 -1.414,1.414 v29.586 a 0.5,0.5 0 01 -1,0 v-31 Z" fill="#aab8c2"/>
 	</g>
 	(I improved the cutouts)
 	<g>
