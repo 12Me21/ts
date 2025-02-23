@@ -3,17 +3,55 @@
 		<clipPath id="body1">
 			<path d="M 7,14 c 3,0 5,-1 6,-1 c 5.099,0 7,3 9,3 c 4,0 7,-1 9,0 s 3,2 2,7 s -2,13 -2,13 h-6 s -1,-1 1,-2 l 2,-1 v-2 s -2,-1 -4,-4 c 0,0 -4,1 -6,1 h-3 l -1,8 h-6 s 0,-2 1,-2 s 2,-1 2,-1 l -1,-10 h-3 c -2.829,0 -5,1 -5,1 s -2,-1.625 -2,-3.625 s 4,-6.375 7,-6.375 Z"/>
 		</clipPath>
-		<path id="stripe" d="M 0,0 c 1,-1 3,0 3,0 s 0,6 -2,9 c 1,-5 -1,-9 -1,-9 Z" fill="rgb(41,47,51)"/>
+		<path id="stripe" d="M 0,0 c 1,-1 3,0 3,0 s 0,6 -2,9 c 1,-5 -1,-9 -1,-9 Z" fill="#292f33"/>
 	</defs>
 	* ear:
-	<ellipse rx="1.333" ry="2" cx="7.333" cy="14" fill="rgb(255,172,51)"/>
+	<ellipse rx="1.333" ry="2" cx="7.333" cy="14" fill="#ffac33"/>
 	* tail:
-	<path d="M 28,17 c 4,0 7,2 7,5 s 0,6 -2,9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" stroke="rgb(255,172,51)"/>	
+	<path d="M 28,17 c 4,0 7,2 7,5 s 0,6 -2,9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" stroke="#ffac33"/>	
 	* body:
 	<g clip-path="url(#body1)">
-		<rect width="36" height="36" fill="rgb(255,172,51)"/>
+		<path d=" M
+0,0
+ L
+12.43,13.071
+ L
+14,14
+ L
+14.959,13.159
+ V0L
+16.126,13.424
+ L
+17.5,15
+ L
+18.932,14.651
+ V0L
+19.372,14.906
+ L
+21,16.5
+ L
+21.9,15.998
+ V0L
+22.953,15.982
+ L
+24,16.5
+ L
+24.814,15.859
+ V0L
+26.09,15.735
+ L
+27,16
+ L
+27.72,15.59
+ V0L
+28.445,15.558
+ L
+30,16.5
+ L
+30.936,15.969
+L36,0 V36 H0 Z" fill="#ffac33"/>
 		stripes:
-		<path d="M 0,0 c 1,-1 3,0 3,0 s 0,8 -3,12 c 2,-6 0,-12 0,-12 Z" transform="translate(16 13)" fill="rgb(41,47,51)"/>
+		<path d="M 0,0 c 1,-1 3,0 3,0 s 0,8 -3,12 c 2,-6 0,-12 0,-12 Z" transform="translate(16 13)" fill="#292f33"/>
 		<use href="#stripe" x="19" y="14"/>
 		<use href="#stripe" x="22" y="13"/>
 		<use href="#stripe" x="25" y="12"/>
@@ -21,7 +59,7 @@
 		<use href="#stripe" x="12" y="12"/>
 	</g>
 	* eye:
-	<circle cx="5" cy="17" r="1" fill="rgb(41,47,51)"/>
+	<circle cx="5" cy="17" r="1" fill="#292f33"/>
 	* nose:
-	<path d="M 0 20 c 1,-1 2,0 2,0 s -1,0 -1,2 c -1,0 -1,-2 -1,-2 Z" fill="rgb(41,47,51)"/>
+	<path d="M 0 20 c 1,-1 2,0 2,0 s -1,0 -1,2 c -1,0 -1,-2 -1,-2 Z" fill="#292f33"/>
 </svg>
