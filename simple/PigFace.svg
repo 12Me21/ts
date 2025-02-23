@@ -3,6 +3,8 @@
 	<path d="M 7.398,5.965 c -2.112,1.738 -3.879,3.937 -5.152,6.42 c -0.731,-3.267 -0.218,-7.928 0.352,-8.265 c 0.398,-0.235 2.634,0.578 4.8,1.845 Z"  fill="#EA596E"/>
 	<path d="M 33.753,12.384 c -1.272,-2.482 -3.038,-4.681 -5.152,-6.42 c 2.166,-1.267 4.403,-2.08 4.801,-1.845 c 0.57,0.337 1.084,4.998 0.351,8.265 Z"  fill="#EA596E"/>
 	<!-- I'd like to split the ears off but yeahh good luck. maybe if i can find a ref but.. (hm maybe boar face?) -->
+	ok so the base shape is a 36x36 ellipse distorted, thats easy. but the ears.. idk..
+	oh they are similar to Boar though. so maybe like  they started as a radius 6 circle i think  
 	
 	<path d="M 18,17.5 c 6.904,0 10,1.138 10,5.625 s -3.096,9.375 -10,9.375 s -10,-4.888 -10,-9.375 s 3.096,-5.625 10,-5.625 Z" fill="#EA596E"/>
 	
