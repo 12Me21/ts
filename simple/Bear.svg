@@ -6,9 +6,11 @@
 	
 	ok what is this one?
 	best i can is something like 18,34 with control points at 7.2261 and 10.237 which strangely i found by adjusting by hand and then clicking Balance which got it basically exact somehow. i wonder if that means anything
+	-- nevermind i found it, from Panda !
 	<!-- orig<path d="M 35,22 c 0,5.872 -4.499,10.323 -12.216,11.61 c -1.096,1.45 -2.828,2.39 -4.784,2.39 s -3.689,-0.94 -4.784,-2.39 c -7.717,-1.287 -12.216,-5.738 -12.216,-11.61 c 0,0 1.308,-22 17,-22 s 17,22 17,22 Z"  fill="#C1694F"/>-->
 	<circle fill="#C1694F" cx="18" cy="30" r="6"/>
-	<path fill="#C1694F" d="M 1,22 s 1.308,-22 17,-22 s 17,22 17,22 c 0,7.226 -6.763,12 -17,12 s -17,-4.774 -17,-12 Z"/>
+	<!--<path fill="#C1694F" d="M 1,22 s 1.308,-22 17,-22 s 17,22 17,22 c 0,7.226 -6.763,12 -17,12 s -17,-4.774 -17,-12 Z"/> mine-->
+	<path d="M 35,22 c 0,7 -6.375,12 -17,12 s -17,-5 -17,-12 c 0,0 1.308,-22 17,-22 s 17,22 17,22 Z" fill="#C1694F"/>
 	
 	
 	<circle fill="#DD2E44" cx="18" cy="30" r="4"/>
