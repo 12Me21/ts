@@ -68,7 +68,7 @@
 	</g>
 	shell front
 	<g>
-		<path d="M 6,27 a 4,4 0 00 4,-4 a 12,16 0 01 24,0 l -20,5 l -7,1 h-1 v-2 Z" fill="#ffe8b6"/>
+		<path d="M 6,27 a 4,4 0 00 4,-4 a 12,16 0 01 24,0 h-18 a 10,6 0 01 -10,6 v-2 Z" fill="#ffe8b6"/>
 		<path d="M 12,23 a 12,16 0 01 24,0 a 6,6 0 01 -6,6 h-24 a 6,6 0 00 6,-6 Z" fill="#ffac33"/>
 		<g fill="#f4900c">
 			<circle r="1" cx="17" cy="25"/>
