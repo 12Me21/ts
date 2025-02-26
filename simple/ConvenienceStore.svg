@@ -4,26 +4,26 @@
 
 	<path d="M 33,16 a 2,2 0 01 2,2 l -2,2 h-12 v-2 l 2,-2 h10 Z" fill="#292F33"/>
 	
-	<path fill="#AAB8C2" d="M 13,26 l 8,-8 h14 v16 a 2,2 0 01 -2,2 h-10 l -10,-10 Z"/>
-	<path d="M 19,26 h16 v4 h-16 v-4 Z" fill="#A0041E"/>
-	
+	<path fill="#AAB8C2" d="M 13,26 l 8,-8 h14 v8 l-2,2,2,2 v4 a 2,2 0 01 -2,2 h-10 l -10,-10 Z"/>
 	
 	<path d="M 3,16 h20 v2 l -2,2 h-18 l -2,-2 a 2,2 0 01 2,-2 Z" fill="#66757F"/>
 	
-	<path d="M 3,18 h20 v18 h-20 a 2,2 0 01 -2,-2 v-16 h2 Z" fill="#CCD6DD"/>
+	<path d="M 3,18 h20 v18 h-2 l-2,-2 h-14 l-2,2 a 2,2 0 01 -2,-2 v-4 l2,-2,-2,-2 v-8 h2 Z" fill="#CCD6DD"/>
 	
 	<!-- front windows -->
 	<path d="M 3,20 h4 v4 h-4 v-4 Z" fill="#55ACEE"/>
 	<path d="M 10,20 h4 v4 h-4 v-4 Z" fill="#55ACEE"/>
 	<path d="M 17,20 h4 v4 h-4 v-4 Z" fill="#55ACEE"/>
-	<path d="M 3,30 h18 v6 h-18 v-6 Z" fill="#55ACEE"/>
+	<path d="M 3,28 h18 v8 h-4 l-2,-2 h-6 l-2,2 h-4 v-8 Z" fill="#55ACEE"/>
 	<!-- side windows -->
 	<path d="M 23,20 h4 v4 h-4 v-4 Z" fill="#3B88C3"/>
 	<path d="M 29,20 h4 v4 h-4 v-4 Z" fill="#3B88C3"/>
-	<path d="M 23,30 h10 v4 h-10 v-4 Z" fill="#3B88C3"/>
+	<path d="M 23,28 h10 v6 h-10 v-6 Z" fill="#3B88C3"/>
 	<!-- door -->
-	<path d="M 7,30 h10 v6 h-10 v-6 Z" fill="#3B88C3"/>
+	<path d="M 7,28 h10 v8 h-10 v-8 Z" fill="#3B88C3"/>
 	
+	stripe
+	<path d="M 23,26 h12 v4 h-12 l-2,-2,2,-2 Z" fill="#A0041E"/>
 	<path fill="#DD2E44" d="M 3,2 a 2,2 0 01 2,-2 h14 a 2,2 0 01 2,2 v10 a 2,2 0 01 -2,2 h-14 a 2,2 0 01 -2,-2 v-10 Z"/>
 	
 	<path d="M 1,26 h22 v4 h-22 v-4 Z" fill="#DD2E44"/>
