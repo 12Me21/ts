@@ -2,11 +2,13 @@
 	<!-- based on Church -->
 	<path d="M 18,1 L 18,9 M 20,3 L 16,3"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#BCBEC0"/>
 	
+	<!--<path fill="#F4ABBA" d="M 18,9 l 5.143,4 h-0.143 v9 h-10 v-9 h-0.143 l 5.143,-4 Z"/> orig-->
 	<path d="M 18,9 l 5,4 v9 h-10 v-9 l 5,-4 Z"  fill="#F4ABBA"/>
 	
-	<path d="M 18,18 l 14,8 v9 a 1,1 0 01 -1,1 h-26 a 1,1 0 01 -1,-1 v-9 l 14,-8 Z"  fill="#F4ABBA"/>
+	<path fill="#662113" d="M 20,15 v7 h-4 v-7 a 2,2 0 01 4,0 Z"/>
 	
-	<path d="M 20,15 v3.5 h-4 v-3.5 a 2,2 0 01 4,0 Z"   fill="#662113"/>
+	<path d="M 18,18 l 14,8 v9 a 1,1 0 01 -1,1 h-4 l-2,-2,-2,2 h-3 l-2,-2,-2,2 h-3 l-2,-2,-2,2 h-4 a 1,1 0 01 -1,-1 v-9 l 14,-8 Z"  fill="#F4ABBA"/>
+	
 	<path d="M 13,31 v5 h-4 v-5 a 2,2 0 01 4,0 Z"   fill="#662113"/>
 	<path d="M 20,29 v7 h-4 v-7 a 2,2 0 01 4,0 Z"   fill="#662113"/>
 	<path d="M 27,31 v5 h-4 v-5 a 2,2 0 01 4,0 Z"   fill="#662113"/>
