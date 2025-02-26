@@ -3,21 +3,21 @@
 	<path d="M 30,8 h2 v5 h-2 v-5 Z" fill="#58595B"/>
 	
 	<path d="M 34,12 a 2,2 0 01 2,2 l-2,2 h-16 v-4 h16 Z" fill="#BCBEC0"/>
-	<path fill="#FFCC4D" d="M 36,14 v20 a 2,2 0 01 -2,2 h-14 l-11,-11 l11,-11 Z"/>
-	
 	<path d="M 18,0 a 2,2 0 01 2,2 l-2,2 h-16 l-2,-2 a 2,2 0 01 2,-2 h16 Z" fill="#BCBEC0"/>
-	<path d="M 0,34 v-32 h20 v34 h-18 a 2,2 0 01 -2,-2 Z" fill="#FFE8B6"/>
 	
+	<path fill="#FFCC4D" d="M 36,14 v20 a 2,2 0 01 -2,2 l -25,-11 l 11,-11 h16 Z"/>
+	
+	<path d="M 18,16 h16 v4 h-16 v-4 Z" fill="#55ACEE"/>
+	<path d="M 18,22 h16 v4 h-16 v-4 Z" fill="#55ACEE"/>
+	<path d="M 18,28 h16 v8 h-3 l-2,-2 h-4 l-2,2 h-3 l-2,-2 v-6 Z" fill="#55ACEE"/>
+	bldg 2
+	<path d="M 0,34 v-32 h20 v34 h-2 l-2,-2 h-12 l-2,2 a 2,2 0 01 -2,-2 Z" fill="#FFE8B6"/>
 	<path d="M 2,4 h16 v4 h-16 v-4 Z" fill="#55ACEE"/>
 	<path d="M 2,10 h16 v4 h-16 v-4 Z" fill="#55ACEE"/>
 	<path d="M 2,16 h16 v4 h-16 v-4 Z" fill="#55ACEE"/>
 	<path d="M 2,22 h16 v4 h-16 v-4 Z" fill="#55ACEE"/>
 	
-	<path d="M 2,28 h16 v8 h-16 v-8 Z" fill="#55ACEE"/>
-	
-	<path d="M 20,16 h14 v4 h-14 v-4 Z" fill="#55ACEE"/>
-	<path d="M 20,22 h14 v4 h-14 v-4 Z" fill="#55ACEE"/>
-	<path d="M 20,28 h14 v8 h-14 v-8 Z" fill="#55ACEE"/>
+	<path d="M 2,28 h16 v8 h-4 l-2,-2 h-4 l-2,2 h-4 v-8 Z" fill="#55ACEE"/>
 	
 	<path d="M 6,32 h8 v4 h-8 v-4 Z" fill="#3B88C3"/>
 	<path d="M 23,32 h8 v4 h-8 v-4 Z" fill="#3B88C3"/>
