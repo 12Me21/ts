@@ -1,40 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<rect x="2" y="9" width="10" height="6" rx="2"  fill="#DAC8B1"/>
 	<rect x="24" y="9" width="10" height="6" rx="2"  fill="#DAC8B1"/>
-	<rect x="0" y="11" width="36" height="25" rx="2"  fill="#F1DCC1"/>
-	<rect x="13" y="9" height="27" width="10" fill="#DAC8B1"/>
-	<rect x="14" y="5" height="4" width="8" rx="2" fill="#DAC8B1"/>
 	<rect x="15" y="3" height="6" width="6" rx="2" fill="#DAC8B1"/>
+	<path fill="#F1DCC1" d="M 0,13 a 2,2 0 01 2,-2 h32 a 2,2 0 01 2,2 v21 a 2,2 0 01 -2,2 l-1,-1,-1,1 h-2 l-1,-1,-1,1 h-2 l-1,-1,-1,1 h-1 l-5,-5 l-5,5 h-1 l-1,-1,-1,1 h-2 l-1,-1,-1,1 h-2 l-1,-1,-1,1 a 2,2 0 01 -2,-2 v-21 Z"/>
 	
-	<path d="M 14,7 h2 v2 h-2 v-2 Z"  fill="#55ACEE"/>
-	<path d="M 17,7 h2 v2 h-2 v-2 Z"  fill="#55ACEE"/>
-	<path d="M 20,7 h2 v2 h-2 v-2 Z"  fill="#55ACEE"/>
-	
-	<path d="M 2,17 h2 v12 h-2 v-12 Z"  fill="#55ACEE"/>
-	<path d="M 6,17 h2 v12 h-2 v-12 Z"  fill="#55ACEE"/>
-	<path d="M 10,17 h2 v12 h-2 v-12 Z"  fill="#55ACEE"/>
-	<path d="M 24,17 h2 v12 h-2 v-12 Z"  fill="#55ACEE"/>
-	<path d="M 28,17 h2 v12 h-2 v-12 Z"  fill="#55ACEE"/>
-	<path d="M 32,17 h2 v12 h-2 v-12 Z"  fill="#55ACEE"/>
-	
-	<path d="M 2,30 h2 v2 h-2 v-2 Z"  fill="#55ACEE"/>
-	<path d="M 6,30 h2 v2 h-2 v-2 Z"  fill="#55ACEE"/>
-	<path d="M 10,30 h2 v2 h-2 v-2 Z"  fill="#55ACEE"/>
-	<path d="M 24,30 h2 v2 h-2 v-2 Z"  fill="#55ACEE"/>
-	<path d="M 28,30 h2 v2 h-2 v-2 Z"  fill="#55ACEE"/>
-	<path d="M 32,30 h2 v2 h-2 v-2 Z"  fill="#55ACEE"/>
-	
-	<path d="M 15,15 h2 v14 h-2 v-14 Z"  fill="#3B88C3"/>
-	<path d="M 19,15 h2 v14 h-2 v-14 Z"  fill="#3B88C3"/>
-	<path d="M 15,30 h2 v2 h-2 v-2 Z"  fill="#3B88C3"/>
-	<path d="M 19,30 h2 v2 h-2 v-2 Z"  fill="#3B88C3"/>
-	
-	<path d="M 2,33 h2 v3 h-2 v-3 Z"  fill="#66757F"/>
-	<path d="M 6,33 h2 v3 h-2 v-3 Z"  fill="#66757F"/>
-	<path d="M 10,33 h2 v3 h-2 v-3 Z"  fill="#66757F"/>
-	<path d="M 15,33 h2 v3 h-2 v-3 Z"  fill="#66757F"/>
-	<path d="M 19,33 h2 v3 h-2 v-3 Z"  fill="#66757F"/>
-	<path d="M 24,33 h2 v3 h-2 v-3 Z"  fill="#66757F"/>
-	<path d="M 28,33 h2 v3 h-2 v-3 Z"  fill="#66757F"/>
-	<path d="M 32,33 h2 v3 h-2 v-3 Z"  fill="#66757F"/>
+	<path fill="#DAC8B1" d="M 13,9 h1 l1,-1,-1,-1 a 2,2 0 01 2,-2 h4 a 2,2 0 01 2,2 l-1,1,1,1 h1 v27 h-2 l-1,-1,-1,1 h-2 l-1,-1,-1,1 h-2 v-27 Z"/>	
+	<g fill="#55ACEE">
+		<path d="M 14,7 h2 v2 h-2 v-2 Z"/>
+		<path d="M 17,7 h2 v2 h-2 v-2 Z"/>
+		<path d="M 20,7 h2 v2 h-2 v-2 Z"/>
+		
+		<path d="M 2,17 h2 v12 h-2 v-12 Z"/>
+		<path d="M 6,17 h2 v12 h-2 v-12 Z"/>
+		<path d="M 10,17 h2 v12 h-2 v-12 Z"/>
+		<path d="M 24,17 h2 v12 h-2 v-12 Z"/>
+		<path d="M 28,17 h2 v12 h-2 v-12 Z"/>
+		<path d="M 32,17 h2 v12 h-2 v-12 Z"/>
+		
+		<path d="M 2,30 h2 v2 h-2 v-2 Z"/>
+		<path d="M 6,30 h2 v2 h-2 v-2 Z"/>
+		<path d="M 10,30 h2 v2 h-2 v-2 Z"/>
+		<path d="M 24,30 h2 v2 h-2 v-2 Z"/>
+		<path d="M 28,30 h2 v2 h-2 v-2 Z"/>
+		<path d="M 32,30 h2 v2 h-2 v-2 Z"/>
+	</g>
+	<g fill="#3B88C3">
+		<path d="M 15,15 h2 v14 h-2 v-14 Z"/>
+		<path d="M 19,15 h2 v14 h-2 v-14 Z"/>
+		<path d="M 15,30 h2 v2 h-2 v-2 Z"/>
+		<path d="M 19,30 h2 v2 h-2 v-2 Z"/>
+	</g>
+	<g fill="#66757F">
+		<path d="M 2,33 h2 v3 h-2 v-3 Z"/>
+		<path d="M 6,33 h2 v3 h-2 v-3 Z"/>
+		<path d="M 10,33 h2 v3 h-2 v-3 Z"/>
+		<path d="M 15,33 h2 v3 h-2 v-3 Z"/>
+		<path d="M 19,33 h2 v3 h-2 v-3 Z"/>
+		<path d="M 24,33 h2 v3 h-2 v-3 Z"/>
+		<path d="M 28,33 h2 v3 h-2 v-3 Z"/>
+		<path d="M 32,33 h2 v3 h-2 v-3 Z"/>
+	</g>
 </svg>
