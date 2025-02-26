@@ -1,27 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	the original had lots of extra layers masking off stuff. kinda interesting
 	
-	<path d="M 0,18 h36 v16 a 2,2 0 01 -2,2 h-32 a 2,2 0 01 -2,-2 v-16 Z"  fill="#AAB8C2"/>
+	
 	<!-- orig <path d="M 0,18 l 18,-6.352 l 18,6.352 h-36 Z"  fill="#66757F"/>-->
-	<path d="M 0,18 l 17,-6 h2 l 17,6 h-36 Z" fill="#66757F"/>
-	<path d="M 8,5 l 10,-5 l 10,5 h-20 Z"  fill="#66757F"/>
+	roof back
+	<path d="M 0,18 l 17,-6 h2 l 17,6 l-4,4 L 4,22 Z" fill="#66757F"/>
+	roof
+	<path d="M 8,5 l 10,-5 l 10,5 l-4,4 h-12 Z"  fill="#66757F"/>
+	wall back
+	<path d="M 0,18 h36 v16 a 2,2 0 01 -2,2 h-6 l-10,-10,-10,10 h-6 a 2,2 0 01 -2,-2 v-16 Z"  fill="#AAB8C2"/>
+	wall
+	<path d="M 8,5 h20 v31 h-8 l-2,-2,-2,2 h-8 v-31 Z"  fill="#CCD6DD"/>
 	
-	<path d="M 8,5 h20 v31 h-20 v-31 Z"  fill="#CCD6DD"/>
-	
-	
+	windows back
 	<rect x="2" y="20" width="4" height="4" fill="#55ACEE"/>
 	<rect x="2" y="26" width="4" height="4" fill="#55ACEE"/>
+	<rect x="30" y="20" width="4" height="4" fill="#55ACEE"/>
+	<rect x="30" y="26" width="4" height="4" fill="#55ACEE"/>
+	windows
 	<rect x="10" y="20" width="4" height="4" fill="#55ACEE"/>
 	<rect x="10" y="26" width="4" height="4" fill="#55ACEE"/>
 	<rect x="16" y="20" width="4" height="4" fill="#55ACEE"/>
 	<rect x="16" y="26" width="4" height="4" fill="#55ACEE"/>
 	<rect x="22" y="20" width="4" height="4" fill="#55ACEE"/>
 	<rect x="22" y="26" width="4" height="4" fill="#55ACEE"/>
-	<rect x="30" y="20" width="4" height="4" fill="#55ACEE"/>
-	<rect x="30" y="26" width="4" height="4" fill="#55ACEE"/>
 	
+	door
 	<path d="M 16,32 h4 v4 h-4 v-4 Z"  fill="#3B88C3"/>
-	
+	sign
 	<path d="M 13,7 h10 v2 h-10 v-2 Z M 13,11 h10 v2 h-4 v4 h-2 v-4 h-4 v-2 Z"  fill="#DD2E44"/>
-	
 </svg>
