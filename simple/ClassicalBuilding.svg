@@ -1,9 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	<path d="M 7,11 h22 v18 h-22 v-18 Z"  fill="#292F33"/>
-	<rect x="4" y="9" width="4" height="22" rx="1.33325" ry="2"  fill="#CCD6DD"/>
-	<rect x="12" y="9" width="4" height="22" rx="1.3335" ry="2"  fill="#CCD6DD"/>
-	<rect x="20" y="9" width="4" height="22" rx="1.334" ry="2"  fill="#CCD6DD"/>
-	<rect x="28" y="9" width="4" height="22" rx="1.333" ry="2"  fill="#CCD6DD"/>
+	<path d="M 6,10 h24 v20 h-24 v-20 Z"  fill="#292F33"/>
+	columns
+	<rect x="4" y="9" width="4" height="22" rx="1.3333" ry="2"  fill="#CCD6DD"/>
+	<rect x="12" y="9" width="4" height="22" rx="1.3333" ry="2"  fill="#CCD6DD"/>
+	<rect x="20" y="9" width="4" height="22" rx="1.3333" ry="2"  fill="#CCD6DD"/>
+	<rect x="28" y="9" width="4" height="22" rx="1.3333" ry="2"  fill="#CCD6DD"/>
 	<rect x="3" y="28" width="30" height="4" rx="2"  fill="#99aab5"/>
 	<rect x="1" y="30" width="34" height="4" rx="2"  fill="#CCD6DD"/>
 	<rect x="0" y="32" width="36" height="3" rx="1.5"  fill="#E1E8ED"/>
@@ -15,6 +16,7 @@
 	<rect x="28" y="10" width="4" height="3" fill="#99aab5"/>
 	
 	<path d="M 2,8.444 c 0,-1.031 1.012,-1.444 1.012,-1.444 l 14.904,-7 l 15.047,7 s 1.037,0.231 1.037,1.45 v0.55 h-32 v-0.556 Z"  fill="#CCD6DD"/>
+	messy, probably hand drawn:
 	<path d="M 18,2.542 s 10.422,4.77 11.266,5.208 c 0.843,0.438 1.093,1.25 0.031,1.25 h-22.646 c -0.687,0 -1.032,-0.719 -0.001,-1.156 s 11.35,-5.302 11.35,-5.302 Z"  fill="#99aab5"/>
 	<path d="M 34,9 c 0,0.552 -0.447,1 -1,1 h-30 c -0.552,0 -1,-0.448 -1,-1 s 0.448,-1 1,-1 l 30,0.006 c 0.553,0 1,0.442 1,0.994 Z"  fill="#CCD6DD"/>
-	</svg>
+</svg>
