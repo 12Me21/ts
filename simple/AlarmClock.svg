@@ -5,11 +5,8 @@
 	could be something like 36:36.5 (0.9863), idk.
 	
 	uses old grays
-	<!--<path d="M 8.5137,35.841 a 1.5,1.5 0 01 -0.666,-2.028 l 8.94,-18.126 a 1.5,1.5 0 01 1.333,-0.835 a 1.5,1.5 0 01 1.332,0.835 l 8.942,18.126 a 1.5,1.5 0 01 -0.666,2.028 a 1.5,1.5 0 01 -1.999,-0.676 l -7.609,-15.425 l -7.608,15.425 a 1.5,1.5 0 01 -1.999,0.676 Z" fill="#ffac33"/> scaled down for sure?-->
-	<path fill="#FFAC33" d="M9.18 36c-.224 0-.452-.052-.666-.159-.736-.374-1.035-1.28-.667-2.027l8.94-18.127c.252-.512.768-.835 1.333-.835s1.081.323 1.333.835l8.941 18.127c.368.747.07 1.653-.666 2.027-.736.372-1.631.07-1.999-.676L18.121 19.74l-7.607 15.425c-.262.529-.788.835-1.334.835z"/>
 	
-
-	<path d="M 17.4191,20.0966 l -13.907,-14.099 a 1,1 0 01 1.404,-1.424 l 13.205,13.386 l 13.203,-13.386 a 1,1 0 01 1.405,1.424 l -13.905,14.099 a 1,1 0 01 -1.405,0 Z" fill="#58595B"/>
+	<!--<path d="M 17.4191,20.0966 l -13.907,-14.099 a 1,1 0 01 1.404,-1.424 l 13.205,13.386 l 13.203,-13.386 a 1,1 0 01 1.405,1.424 l -13.905,14.099 a 1,1 0 01 -1.405,0 Z" fill="#58595B"/>-->
 	seems to derive from
 	<path d="M0,1 L 34.5,36"/>
 	and maybe:
@@ -18,19 +15,22 @@
 	
 	hmm those approximate intersecting at our center point: 18.21,19.40 ish
 	
-	<path d="M 30.04,1.2573 a 5.96,6.042 0 01 5.96,6.042 a 5.96,6.042 0 01  -1.745,4.272 l -8.429,-8.544 a 5.96,6.042 0 01 4.214,-1.77 Z" fill="#ffcc4d"/>
-	<path d="M 5.96,1.2573 a 5.96,6.042 0 01  4.214,1.77 l -8.429,8.544 a 5.96,6.042 0 01  -1.745,-4.272 a 5.96,6.042 0 01 5.96,-6.042 Z" fill="#ffcc4d"/>
+	<!--<path d="M 30.04,1.2573 a 5.96,6.042 0 01 5.96,6.042 a 5.96,6.042 0 01  -1.745,4.272 l -8.429,-8.544 a 5.96,6.042 0 01 4.214,-1.77 Z" fill="#ffcc4d"/>
+	<path d="M 5.96,1.2573 a 5.96,6.042 0 01  4.214,1.77 l -8.429,8.544 a 5.96,6.042 0 01  -1.745,-4.272 a 5.96,6.042 0 01 5.96,-6.042 Z" fill="#ffcc4d"/>-->
 	
-	<!--<rect width="4" height="8.056" rx="2" ry="2.014" x="16" y="0" fill="#ffcc4d"/>-->
-	<path d="M 20,6.0415 c 0,1.112 -0.903,2.014 -2,2.014 s -2,-0.902 -2,-2.014 v-4.028 c 0,-1.112 0.903,-2.014 2,-2.014 s 2,0.902 2,2.014 v4.028 Z" fill="#ffcc4d"/>
-	
-	<!--<ellipse rx="15.8935" ry="16.112" cx="18.121" cy="19.384" fill="#dd2e44"/>
-	<ellipse rx="11.9195" ry="12.0845" cx="18.121" cy="19.384" fill="#E6E7E8"/>-->
-	these have a size ratio of 1.3333:1
-	
-	<path d="M 18,10 L 18,19 L 23,19" stroke="#414042" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+	<rect width="4" height="8.056" rx="2" ry="2.014" x="16" y="0" fill="#ffcc4d"/> real
 	<g transform="translate(18.121 19.384) scale(0.9933 1.007)">
+		transform="translate(18 19.5)"
+		its like someone finished the design and then clicked a "scale everything to fit canvas" button
+		<path d="M-9,15 L0,-3 L 9,15" fill="none" stroke="#FFAC33" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+		
+		<path d="M-14,-14 l14,14 14,-14" fill="none" stroke="#58595B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+		<circle r="6" cx="12" cy="-12" fill="#ffcc4d"/>
+		<circle r="6" cx="-12.243" cy="-12" fill="#ffcc4d"/>
+		
+		
 		<circle r="16" fill="#dd2e44"/>
 		<circle r="12" fill="#E6E7E8"/>
 	</g>
+	<path d="M 18,10 L 18,19 L 23,19" stroke="#414042" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> real
 </svg>
