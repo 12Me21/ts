@@ -16,14 +16,21 @@
 	<path d="M36,1.25 L 1.75,36"/>
 	or something?
 	
+	hmm those approximate intersecting at our center point: 18.21,19.40 ish
+	
 	<path d="M 30.04,1.2573 a 5.96,6.042 0 01 5.96,6.042 a 5.96,6.042 0 01  -1.745,4.272 l -8.429,-8.544 a 5.96,6.042 0 01 4.214,-1.77 Z" fill="#ffcc4d"/>
 	<path d="M 5.96,1.2573 a 5.96,6.042 0 01  4.214,1.77 l -8.429,8.544 a 5.96,6.042 0 01  -1.745,-4.272 a 5.96,6.042 0 01 5.96,-6.042 Z" fill="#ffcc4d"/>
 	
-	<rect width="4" height="8.056" rx="2" ry="2.014" x="16" y="0" fill="#ffcc4d"/>
+	<!--<rect width="4" height="8.056" rx="2" ry="2.014" x="16" y="0" fill="#ffcc4d"/>-->
+	<path d="M 20,6.0415 c 0,1.112 -0.903,2.014 -2,2.014 s -2,-0.902 -2,-2.014 v-4.028 c 0,-1.112 0.903,-2.014 2,-2.014 s 2,0.902 2,2.014 v4.028 Z" fill="#ffcc4d"/>
 	
-	<ellipse rx="15.8935" ry="16.112" cx="18.121" cy="19.384" fill="#dd2e44"/>
-	<ellipse rx="11.9195" ry="12.0845" cx="18.121" cy="19.384" fill="#E6E7E8"/>
+	<!--<ellipse rx="15.8935" ry="16.112" cx="18.121" cy="19.384" fill="#dd2e44"/>
+	<ellipse rx="11.9195" ry="12.0845" cx="18.121" cy="19.384" fill="#E6E7E8"/>-->
 	these have a size ratio of 1.3333:1
 	
 	<path d="M 18,10 L 18,19 L 23,19" stroke="#414042" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+	<g transform="translate(18.121 19.384) scale(0.9933 1.007)">
+		<circle r="16" fill="#dd2e44"/>
+		<circle r="12" fill="#E6E7E8"/>
+	</g>
 </svg>
