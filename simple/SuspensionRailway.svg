@@ -3,24 +3,65 @@
 	
 	rail
 	<g>
-		<rect width="36" height="6" x="0" y="2" fill="#808285"/>
+		<path fill="#808285" d="M 0,2 h36 v2 l-1,1,1,1 v2 h-36 v-2 l1,-1,-1,-1 v-2 Z"/>
 		<rect width="36" height="2" x="0" y="4" fill="#414042"/>
 	</g>
 	
 	<g>
 		<g>
-			<path d="M 21,10 v-6 h4 v6 l 4,4 h-12 l 4,-4 Z" fill="#a7a9ac"/>
-			<rect width="16" height="6" rx="3" x="15" y="0" fill="#a7a9ac"/>
+			<!--<path d="M 21,10 v-6 h4 v6 l 4,4 h-12 l 4,-4 Z" fill="#a7a9ac"/>
+				<rect width="16" height="6" rx="3" x="15" y="0" fill="#a7a9ac"/>-->
+			
+			<path fill="#a7a9ac" d=" M
+18,0
+ L
+28,0
+ A 3,3 0 01
+28,6
+ L25,6
+ L
+25,10
+ L
+29,14
+ L
+17,14
+ L
+21,10
+ L21,6
+L
+18,6
+ A 3,3 0 01
+18,0
+ Z"/>
 			<rect width="14" height="6" rx="2" x="16" y="12" fill="#58595b"/>
 		</g>
 		<clipPath id="car">
 			<path d="M 4,14 h32 v22 h-28 a 8,8 0 01 -8,-8 v-10 a 4,4 0 01 4,-4 Z"/>
 		</clipPath>
-		<g clip-path="url(#car)">
-			<circle r="999" fill="#f4900c"/>
-			<rect width="22" height="20" x="14" y="10" fill="#3b88c3"/>
+		
+			<path d=" M
+4,14
+L14,14
+L36,31
+ L
+36,36
+ L
+8,36
+ A 8,8 0 01
+0,28
+ v-1 
+l1,-2
+L1,19
+ L
+0,18
+ A 4,4 0 01
+4,14
+ Z" fill="#f4900c"/>
+			<path fill="#3b88c3" d="M 14,30 L14,14 H36 V29 l-1,1 Z"/>
+			<g clip-path="url(#car)">
 			<rect y="29" height="2" width="36" fill="#ffd983"/>
 		</g>
+		<!--<path d="M 36,29 v2 h-35.418 c -0.255,-0.631 -0.433,-1.301 -0.52,-2 h35.938 Z" fill="#ffd983"/> baked -->
 		<g>
 			<path d="M 0,17 a 2,2 0 01 2,2 v6 a 2,2 0 01 -2,2 v-10 Z" fill="#58595b"/>
 			<rect width="8" height="10" rx="2" x="4" y="17" fill="#58595b"/>
