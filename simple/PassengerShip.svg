@@ -30,9 +30,13 @@
  L
 34.599,14
  L
+34.333,14.5
+ L
 34.733,15
  L
 34.866,16
+ L
+34.666,16.5
  L
 35,17
  L
@@ -55,19 +59,26 @@
 8.342,9
  Z" fill="#ccd6dd"/>
 		</g>
-		hull:
-		<g clip-path="url(#hull1)" class="toolight">
-			i swapped the layering here
-			<circle r="999" fill="#ccd6dd"/>
-			<rect width="36" y="21" height="12" fill="#226699"/>
-		</g>
-	</g>
-	windows:
+			windows:
 	<g>
 		<path d="M 9,10 h5 l 0.291,1 h-5.741 l 0.45,-1 Z" fill="#226699"/>
 		<path d="M 8.75,12 h26.45 l 0.176,1 h-26.954 l 0.328,-1 Z" fill="#226699"/>
-		<path d="M 34.6,14 l 0.119,1 h-26.969 l 0.344,-1 h26.506 Z" fill="#226699"/>
-		<path d="M 35,17 h-27.875 l 0.325,-1 h27.425 l 0.125,1 Z" fill="#226699"/>
+		<!--orig <path d="M 34.6,14 l 0.119,1 h-26.969 l 0.344,-1 h26.506 Z" fill="#226699"/>
+			<path d="M 35,17 h-27.875 l 0.325,-1 h27.425 l 0.125,1 Z" fill="#226699"/>-->
+		<path d="M 34.599,14 l 0.134,1 h-26.983 l 0.344,-1 h26.505 Z" fill="#226699"/>
+		<path d="M 35,17 h-27.875 l 0.325,-1 h27.416 l 0.134,1 Z" fill="#226699"/>
+	</g>
+
+		hull:
+		<!--<g clip-path="url(#hull1)" class="toolight">
+			i swapped the layering here
+			<circle r="999" fill="#ccd6dd"/>
+			<rect width="36" y="21" height="12" fill="#226699"/>
+			</g>-->
+		baked
+		<path fill="#226699" d="M 33,23.964 s 0.77,-1.142 1.355,-2.964 l -2.355,-2 h-27 l -0.064,2 c 0.438,0.522 0.814,1.113 1.064,1.818 c 2.272,6.4 27,1.146 27,1.146 Z"/>
+		<path fill="#ccd6dd" d="M 1,17 c 0.75,1.5 2.624,2.437 3.936,4 h29.419 c 0.357,-1.114 0.645,-2.482 0.645,-4 h-34 Z"/>
+		
 	</g>
 
 	water
