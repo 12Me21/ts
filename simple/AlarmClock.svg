@@ -1,36 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	<!-- weird distortions... -->
-	aspect ratio of 0.9864 ish
-	(note the ellipses)
-	could be something like 36:36.5 (0.9863), idk.
-	
-	uses old grays
-	
-	<!--<path d="M 17.4191,20.0966 l -13.907,-14.099 a 1,1 0 01 1.404,-1.424 l 13.205,13.386 l 13.203,-13.386 a 1,1 0 01 1.405,1.424 l -13.905,14.099 a 1,1 0 01 -1.405,0 Z" fill="#58595B"/>-->
-	seems to derive from
-	<path d="M0,1 L 34.5,36"/>
-	and maybe:
-	<path d="M36,1.25 L 1.75,36"/>
-	or something?
-	
-	hmm those approximate intersecting at our center point: 18.21,19.40 ish
-	
-	<!--<path d="M 30.04,1.2573 a 5.96,6.042 0 01 5.96,6.042 a 5.96,6.042 0 01  -1.745,4.272 l -8.429,-8.544 a 5.96,6.042 0 01 4.214,-1.77 Z" fill="#ffcc4d"/>
-	<path d="M 5.96,1.2573 a 5.96,6.042 0 01  4.214,1.77 l -8.429,8.544 a 5.96,6.042 0 01  -1.745,-4.272 a 5.96,6.042 0 01 5.96,-6.042 Z" fill="#ffcc4d"/>-->
-	
-	<rect width="4" height="8.056" rx="2" ry="2.014" x="16" y="0" fill="#ffcc4d"/> real
+	<rect width="4" height="8.056" rx="2" ry="2.014" x="16" y="0" fill="#ffcc4d"/> hm note that this is scaled by 1.007 vertically but not scaled down horizontally..
 	<g transform="translate(18.121 19.384) scale(0.9933 1.007)">
 		transform="translate(18 19.5)"
-		its like someone finished the design and then clicked a "scale everything to fit canvas" button
+		its like someone mostly finished the design and then clicked a "scale everything to fit canvas" button
 		<path d="M-9,15 L0,-3 L 9,15" fill="none" stroke="#FFAC33" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 		
 		<path d="M-14,-14 l14,14 14,-14" fill="none" stroke="#58595B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-		<circle r="6" cx="12" cy="-12" fill="#ffcc4d"/>
-		<circle r="6" cx="-12.243" cy="-12" fill="#ffcc4d"/>
+		<!--<circle r="6" cx="12" cy="-12" fill="#ffcc4d"/>
+			<circle r="6" cx="-12.243" cy="-12" fill="#ffcc4d"/> misaligned-->
+		<path fill="#ffcc4d" d="M -6,0 a 6,6 0 01 12,0 Z" transform="translate(12 -12) rotate(45)"/>
+		<path fill="#ffcc4d" d="M -6,0 a 6,6 0 01 12,0 Z" transform="translate(-12.243 -12) rotate(-45)"/>
 		
 		
 		<circle r="16" fill="#dd2e44"/>
 		<circle r="12" fill="#E6E7E8"/>
 	</g>
-	<path d="M 18,10 L 18,19 L 23,19" stroke="#414042" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> real
+	<path d="M 18,10 L 18,19 L 23,19" stroke="#414042" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> drawn after
 </svg>
