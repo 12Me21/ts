@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<defs>
 		<clipPath id="ribbon1">
-			<path d="M 25,0 a 2,2 0 01 2,2 v11 s 0,1 -1,2 l -7,5.444 v0.556 h-2 v-0.556 l -7,-5.444 c -1,-1 -1,-2 -1,-2 v-11 a 2,2 0 01 2,-2 h7 h7 Z"/>
+			<path d="M 25,0 a 2,2 0 01 2,2 v11 s 0,1 -1,2 l -9,7 h2 l -9,-7 c -1,-1 -1,-2 -1,-2 v-11 a 2,2 0 01 2,-2 h7 h7 Z"/>
 		</clipPath>
 	</defs>
 	
@@ -10,6 +10,11 @@
 		<rect x="12" y="0" width="12" height="20" fill="#e1e8ed"/>
 		<rect x="14" y="0" width="8" height="20" fill="#dd2e44"/>
 	</g>
+	<!-- baked <path d="M 9,2 a 2,2 0 01 2,-2 h1 l 6,6 l 6,-6 h1 a 2,2 0 01 2,2 v11 s 0,1 -1,2 l -2,1.556 h-12 l -2,-1.556 c -1,-1 -1,-2 -1,-2 v-11 Z" fill="#55acee"/>
+	<path d="M 12,0 h2 l 4,4 l 4,-4 h2 v16.556 l -2,1.555 h-8 l -2,-1.555 v-16.556 Z" fill="#e1e8ed"/>
+	<path d="M 14,0 h8 v18.111 l -4,3.111 l -4,-3.111 v-18.111 Z" fill="#dd2e44"/>-->
+	
+	
 	<rect x="14" y="19" width="8" height="3" rx="1.5" fill="#ffac33"/>
 	<circle cx="18" cy="28" r="8" fill="#ffac33"/>
 	<circle cx="18" cy="28" r="6" fill="#ffd983"/>
