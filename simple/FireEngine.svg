@@ -1,15 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<g fill="#ccd6dd">
-		<rect width="2" height="4" x="15" y="9"/>
+		<path d="M 13,12 h2 v-2 h-2 a 1,1 0 01 0,-2 h22 a 1,1 0 01 0,2 h-2 v2 h2 a 1,1 0 01 0,2 h-3 v2 h-19 v-2 a 1,1 0 01 0,-2 ZM 31,10 h-2 v2 h2 v-2 ZM 27,10 h-2 v2 h2 v-2 ZM 23,10 h-2 v2 h2 v-2 ZM 19,10 h-2 v2 h2 v-2 Z"/>
+		<!--<rect width="2" height="4" x="15" y="9"/>
 		<rect width="2" height="4" x="19" y="9"/>
 		<rect width="2" height="4" x="23" y="9"/>
 		<rect width="2" height="4" x="27" y="9"/>
 		<rect width="2" height="4" x="31" y="9"/>
-		<rect width="24" height="2" rx="1" x="12" y="8"/>
-		<rect width="24" height="2" rx="1" x="12" y="12"/>
+		<path d="M 13,8 h22 a 1,1 0 01 0,2 h-22 a 1,1 0 01 0,-2 Z"/>
+		<path d="M 13,12 h22 a 1,1 0 01 0,2 h-22 a 1,1 0 01 0,-2 Z"/>-->
 	</g>
 	<g>
-		<path d="M 32,14 a 4,4 0 01 4,4 v9 a 4,4 0 01 -4,4 h-28 a 4,4 0 01 -4,-4 v-7.041 s 0,-7.959 5.146,-7.959 h5.875 c 3.02,0 2.979,2 2.979,2 h18 Z" fill="#dd2e44"/>
+		<!--<path d="M 32,14 a 4,4 0 01 4,4 v9 a 4,4 0 01 -4,4 h-28 a 4,4 0 01 -4,-4 v-7.041 s 0,-7.959 5.146,-7.959 h5.875 c 3.02,0 2.979,2 2.979,2 h18 Z" fill="#dd2e44"/>-->
+		<path fill="#DD2E44" d=" M
+32,14
+ A 4,4 0 01
+36,18
+ L
+36,27
+ A 4,4 0 01
+32,31
+ L
+4,31
+ A 4,4 0 01
+0,27
+ L
+0,19.959
+ C 0,19.959 0,12
+5.146,12
+v-1
+H9
+v1
+ L
+11.021,12
+ C 14.041,12 14,14
+14,14
+ L
+22,14
+ L
+32,14
+ Z"/>
 	</g>
 	<rect width="32" height="3" x="2" y="22" fill="#f5f8fa"/>
 	<g fill="#55acee">
@@ -23,7 +52,8 @@
 		<circle r="2" cx="28" cy="31" fill="#8899a6"/>
 	</g>
 	<g>
-		<rect width="4" height="2" rx="1" x="4" y="10" fill="#ffac33"/>
+		<!--<rect width="4" height="2" rx="1" x="4" y="10" fill="#ffac33"/>-->
+		<path fill="#ffac33" d="M 5,10 h2 v2 h-2 a 1,1 0 01 0,-2 Z"/>
 		<rect width="4" height="2" rx="1" x="6" y="10" fill="#3b88c3"/>
 	</g>
 </svg>
