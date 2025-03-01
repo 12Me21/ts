@@ -1,29 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	tires
 	<rect x="5" y="25" width="6" height="11" rx="2"  fill="#292F33"/>
 	<rect x="25" y="25" width="6" height="11" rx="2"  fill="#292F33"/>
-	
+	mirrors
 	<rect x="0" y="9" width="3" height="9" rx="1"  fill="#99AAB5"/>
 	<rect x="33" y="9" width="3" height="9" rx="1"  fill="#99AAB5"/>
-	<rect x="1" y="10" width="34" height="2"  fill="#99AAB5"/>
-	<rect x="1" y="14" width="34" height="2"  fill="#99AAB5"/>
-	
+	<rect x="1" y="10" width="34" height="2" rx="1" fill="#99AAB5"/>
+	<rect x="1" y="14" width="34" height="2" rx="1"  fill="#99AAB5"/>
+	top
 	<rect x="12" y="0" width="12" height="4" rx="2"  fill="#CCD6DD"/>
-	<path d="M 28,2 a 4,4 0 01 4,4 v26 h-28 v-26 a 4,4 0 01 4,-4 h20 Z"   fill="#CCD6DD"/>
-	<rect width="28" height="16" x="4" y="16" fill="#FFCC4D"/>
-	<rect width="28" height="6" x="4" y="25" fill="#FFAC33"/>
-	
-	<rect width="7" height="3" x="5" y="25" fill="#FFF"/>
-	<rect width="7" height="3" x="24" y="25" fill="#FFF"/>
+	<path d="M 28,2 a 4,4 0 01 4,4 v4 h-28 v-4 a 4,4 0 01 4,-4 h20 Z"   fill="#CCD6DD"/>
+	bottom
+	<path fill="#FFCC4D" d="M 4,17 h28 v8 l-4,4 h-20 l-4,-4 v-8 Z"/>
+	<path fill="#FFAC33" d="M 12,25 h2 l1,1 h6 l1,-1 h2 l8,3 v4 h-28 v-4 l8,-3 Z"/>
+	lights
+	<path fill="#FFF" d="M 12,25 v3 h-6 l -1,-1 v-1 l 1,-1 h6 Z"/>
+	<path fill="#FFF" d="M 24,25 h6 l1,1 v1 l-1,1 h-6 v-3 Z"/>
 	<rect width="2" height="3" x="4" y="25" fill="#DD2E44"/>
 	<rect width="2" height="3" x="30" y="25" fill="#DD2E44"/>
-	
+	grille
 	<rect width="8" height="3" x="14" y="25" fill="#66757F"/>
-	
+	bumper
 	<rect x="3" y="30" width="30" height="3" rx="1"  fill="#66757F"/>
-	
+	windshield
 	<rect x="4" y="7" width="28" height="13" rx="3"  fill="#66757F"/>
 	<rect x="6" y="9" width="24" height="9" rx="2"  fill="#88C9F9"/>
-	
-	
+	sign
 	<rect x="14" y="2" width="8" height="3" rx="1.5"  fill="#292F33"/>
 </svg>
