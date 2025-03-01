@@ -2,10 +2,8 @@
 	tires
 	<!--<rect x="2" y="23" width="7" height="12" rx="2"  fill="#292F33"/>
 		<rect x="27" y="23" width="7" height="12" rx="2"  fill="#292F33"/>-->
-	<g fill="#292F33">
-		<path d="M 2,28 L 9,25 v8 a 2,2 0 01 -2,2 h-3 a 2,2 0 01 -2,-2 v-8 Z"/>
-		<path d="M 27,25 L34,28 v5 a 2,2 0 01 -2,2 h-3 a 2,2 0 01 -2,-2 v-8 Z"/>
-	</g>
+	<path d="M 2,28 l 7,-3 v8 a 2,2 0 01 -2,2 h-3 a 2,2 0 01 -2,-2 v-5 v3 Z" fill="#292F33"/>
+	<path d="M 27,25 l 7,3 v5 a 2,2 0 01 -2,2 h-3 a 2,2 0 01 -2,-2 v-8 Z" fill="#292F33"/>
 	mirrors
 	<rect x="0" y="14" width="5" height="3" rx="1.5"  fill="#3B88C3"/>
 	<rect x="31" y="14" width="5" height="3" rx="1.5"  fill="#3B88C3"/>

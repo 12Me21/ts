@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	similar to OncomingAutomobile
+	tires
+	<path d="M 2,28 l 7,-3 v8 a 2,2 0 01 -2,2 h-3 a 2,2 0 01 -2,-2 v-5 v3 Z" fill="#292F33"/>
+	<path d="M 27,25 l 7,3 v5 a 2,2 0 01 -2,2 h-3 a 2,2 0 01 -2,-2 v-8 Z" fill="#292F33"/>
+	mirrors
+	<rect x="0" y="14" width="5" height="3" rx="1.5"  fill="#FFCC4D"/>
+	<rect x="31" y="14" width="5" height="3" rx="1.5"  fill="#FFCC4D"/>
+	body
+	<path d="M 9,5 c 4,-1 14,-1 18,0 c 3.881,0.97 5,11 5,11 s 2,0 2,4 v4 l-2,2,2,2 s 0.123,4 -4,4 h-24 c -4.123,0 -4,-4 -4,-4 l2,-2,-2,-2 v-4 s 0,-4 2,-4 c 0,0 1.12,-10.03 5,-11 Z"  fill="#FFCC4D"/>
+	windshield
+	<path d="M 7,10 c 1,-3 7,-3 11,-3 s 10,0 11,3 l 1,5.562 c -3.377,-0.362 -8.095,-0.562 -12,-0.562 s -8.623,0.2 -12,0.562 l 1,-5.562 Z" fill="#55ACEE"/>
+	
+	<!-- unused <rect x="4" y="20" width="7" height="6" rx="3"  fill="#FFCC4D"/>
+		<rect x="25" y="20" width="7" height="6" rx="3"  fill="#FFCC4D"/>-->
+	hood
+	<!--<path d="M 25,22 h-14 c -2.456,0 -4.486,-3.336 -4.868,-4.004 c -0.274,-0.479 -0.107,-1.089 0.372,-1.363 c 0.478,-0.275 1.089,-0.108 1.364,0.37 c 0.694,1.208 2.169,2.997 3.132,2.997 h14 c 0.983,0 2.46,-1.655 3.148,-2.773 c 0.289,-0.471 0.903,-0.618 1.376,-0.328 c 0.47,0.29 0.616,0.905 0.327,1.376 c -0.234,0.381 -2.364,3.725 -4.851,3.725 Z"  fill="#FFAC33"/>-->
+	<path d="M 7,17.5 s 2,3.5 4,3.5 h14 c 2,0 4,-3.25 4,-3.25" fill="none" stroke="#FFAC33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+	
+	stripe
+	<path d="M 2,24 h4 v4 h-4 v-4 Z"  fill="#F4900C"/>
+	<path d="M 30,24 h4 v4 h-4 v-4 Z"  fill="#F4900C"/>
+	headlights
+	<rect x="4" y="24" width="6" height="4" rx="2"  fill="#FFF"/>
+	<rect x="26" y="24" width="6" height="4" rx="2"  fill="#FFF"/>
+	grille
+	<rect x="11" y="24" width="14" height="4" rx="2"  fill="#66757F"/>
+	top
+	<path d="M 22,2 a 3,3 0 01 3,3 h-3 l-1,-1 h-6 l-1,1 h-3 a 3,3 0 01 3,-3 h8 Z" fill="#FFE8B6"/>
+	<path d="M 14,3 h8 v2 h-2 l-.5,-.5 h-3 l-.5,.5 h-2 v-2 Z"  fill="#CCD6DD"/>
+	<path d="M 16,4 h4 v1 h-4 v-1 Z"  fill="#99AAB5"/>
+</svg>
