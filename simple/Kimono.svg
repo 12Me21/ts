@@ -1,8 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+
 	<g fill="#3b88c3">
-		<path d="M 14,0 l 2,10.577 l -6,16.423 l -9,-0.885 l 5,-23.307 l 5,-2.808 h3 Z"/>
-		<path d="M 22,0 h3 l 5,2.808 l 5,23.307 l -9,0.885 l -6,-16.423 l 2,-10.577 Z"/>
-		<path d="M 11,36 v-31 h14 v31 h-14 Z"/>
+		<path d="M 16,10.577 l -6,16.423 l -9,-0.885 l 5,-23.307 l 5,-2.808 l5,3 Z"/><path d="M 20,10.577 v-7.577 l 5,-3 l 5,2.808 l 5,23.307 l -9,0.885 l -6,-16.423 Z"/>
+		<!-- origs <path d="M 22,0 h3 l 5,2.808 l 5,23.307 l -9,0.885 l -6,-16.423 l 2,-10.577 Z"/>-->
+		<path d="M 11,36 v-11 l-2,-2 l2,-18 h14 l2,18 l-2,2 v11 h-14 Z"/> adjusted to fix seams
 	</g>
 	<g fill="#226699">
 		<!-- tabs on these layers to cover slit between adjacent layer -->
@@ -15,7 +16,7 @@
 		<path d="M 25,18 s -1.167,1 -7,1 s -7,-1 -7,-1 v-2 h14 v2 Z" fill="#ffffff"/>
 	</g>
 	<g>
-		<path d="M 18,9 l -7,-9 h14 l -7,9 Z" fill="#ffffff"/>
+		<path d="M 18,9 l -7,-9 h4.667 l2.333,1 l2.333,-1 h4.667 l -7,9 Z" fill="#ffffff"/>
 		<path d="M 18,3 l -2.333,-3 h4.666 l -2.333,3 Z" fill="#99aab5"/>
 	</g>
 </svg>
