@@ -125,7 +125,12 @@ v-6 Z"   fill="#99AAB5"/>
 	<g clip-path="url(#env)">
 		so this is like l18,18,18,-18 but with a corner radius of 4
 		2.828 ≈ sqrt(4^2/2)
-		<path fill="#E1E8ED" d=" M
+		
+		<path d="M36,0 H4 a 4,4 0 01 -4,-4 V-36 Z" transform="translate(18 24.87) rotate(-45)" fill="#E1E8ED"/>
+		
+
+		
+		<!--<path fill="#E1E8ED" d=" M
 36,6.87
  L
 20.829,22.042
@@ -135,7 +140,7 @@ v-6 Z"   fill="#99AAB5"/>
 0,6.87
 V0
 H36
- Z"/>
+ Z"/>-->
 	</g>
 	<!--<g>
 		<path fill="#CCD6DD" d="M 36,27 c 0,2.209 -1.791,4 -4,4 h-28 c -2.209,0 -4,-1.791 -4,-4 v-18 c 0,-2.209 1.791,-4 4,-4 h28 c 2.209,0 4,1.791 4,4 v18 Z"/>
