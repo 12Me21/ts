@@ -2,18 +2,19 @@
 	<!--<path d="M 27,19.2757 h5 v5 a 5,5 0 01 -5,5 a 5,5 0 01 -4.966,-4.667 h2.299 v-4.549 a 5,5 0 01 2.667,-0.784 Z" fill="#55acee"/>
 	<path d="M 15,15.2757 h5 v5 a 5,5 0 01 -5,5 a 5,5 0 01 -4.966,-4.667 h2.299 v-4.549 a 5,5 0 01 2.667,-0.784 Z" fill="#55acee"/>-->
 	
-	<path d="M 18,0 a 2,2 0 01 2,2 v2 l -4.5,4.5 l -4.5,-4.5 v-2 a 2,2 0 01 2,-2 h5 Z" fill="#55acee"/>
-	<path d="M 18,0 a 2,2 0 01 2,2 v2 l -4.5,4.5 l -4.5,-4.5 v-2 a 2,2 0 01 2,-2 h5 Z" fill="#55acee" transform="translate(12 4)"/>
+	<!--<circle cx="8.5" cy="27.5" r="4.5" fill="#55acee"/>
+	<circle cx="8.5" cy="27.5" r="4.5" fill="#55acee" transform="translate(12 4)"/>-->
 	
-	<circle cx="8.5" cy="27.5" r="4.5" fill="#55acee"/>
-	<circle cx="8.5" cy="27.5" r="4.5" fill="#55acee" transform="translate(12 4)"/>
-	
-	<path d="M 20,19 v 1.276 a 5,5 0 01 -5,5 L 12.5,18.276 h7 z" fill="#55acee"/>
-	<path d="M 20,19 v 1.276 a 5,5 0 01 -5,5 L 12.5,18.276 h7 z" fill="#55acee" transform="translate(12 4)"/>
+	<path d="M 20,19 v 1.276 a 5,5 0 01 -5,5 L 12.5,20 V17 h5.5 z" fill="#55acee"/>
+	<path d="M 20,19 v 1.276 a 5,5 0 01 -5,5 L 12.5,20 V17 h5.5 z" fill="#55acee" transform="translate(12 4)"/>
 	
 	<g fill="#1c6399">
-		<rect x="11" y="4" width="9" height="15"/>
-		<path d="M 11.69,30.69 s -0.133,-1.149 -2.674,-3.69 s -3.69,-2.674 -3.69,-2.674 l 6.881,-6.875 l 6.364,6.364 l -6.881,6.875 Z"/>	
+		<path d="M 11,4 l2,-2 h5 l2,2 v2 l-1,1,1,1 v2 l-1,1,1,1 v7 h-9 v-7 l1,-1,-1,-1 v-2 l1,-1,-1,-1 v-2 Z"/>
+		<!--<path d="M 11.69,30.69 s -0.133,-1.149 -2.674,-3.69 s -3.69,-2.674 -3.69,-2.674 l 6.881,-6.875 l 6.364,6.364 l -6.881,6.875 Z"/>	 todo" this is way off-->
+		orig
+	<path d="M 23.6765,34.682 l -6.354,-6.354 l 6.881,-6.875 l 6.354,6.354 l -6.881,6.875 Z"/>
+	<path d="M 23.6765,34.682 c -1.757,1.757 -4.607,1.757 -6.364,0 s -1.757,-4.607 0,-6.364 c 0,0 1.149,0.133 3.69,2.674 s 2.674,3.69 2.674,3.69 Z" fill="#55acee"/>' abs
+	why is the straight part off while the round part is not  need to fix all this  goodnight
 	</g>
 	<g fill="#1c6399" transform="translate(12 4)">
 		<rect x="11" y="4" width="9" height="15"/>
@@ -32,4 +33,9 @@
 		<path d="M 11,8.067 v-2 h9 v2 h-9 Z"/>
 		<path d="M 11,12.067 v-2 h9 v2 h-9 Z"/>
 	</g>
+	
+	<path d="M 18,0 a 2,2 0 01 2,2 v2 h-9 v-2 a 2,2 0 01 2,-2 h5 Z" fill="#55acee"/>
+	<path d="M 18,0 a 2,2 0 01 2,2 v2 h-9 v-2 a 2,2 0 01 2,-2 h5 Z" fill="#55acee" transform="translate(12 4)"/>
+	
+	
 </svg>
