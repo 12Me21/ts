@@ -5,9 +5,9 @@
 	<!--<circle cx="8.5" cy="27.5" r="4.5" fill="#55acee"/>
 	<circle cx="8.5" cy="27.5" r="4.5" fill="#55acee" transform="translate(12 4)"/>-->
 	
-	heel circle located at: 15,20.293
 	<!--<circle cx="8.5" cy="27.5" r="4.5" fill="#55acee"/>-->
-	<path d="M11.682,30.682 L 5.318,24.318 L 12.172,17.464 L 18.534,23.828" fill="#1c6399"/> straightedge and compass
+	<path d="M 20,19 v 1.276 a 5,5 0 01 -5,5 L 12.5,20 V17 h5.5 z" fill="#55acee"/>
+	<path d="M 11.682,30.682 l -6.364,-6.364 l 6.875,-6.875 l 6.364,6.364" fill="#1c6399"/>
 	<rect x="11" y="4" width="9" height="15" fill="#1c6399"/>
 	<path d=" M
 11.682,30.682
@@ -20,6 +20,7 @@
  C 11.549,29.533 11.682,30.682
 11.682,30.682
  Z" fill="#55acee"/> orig, was good and very symmetrical and we just shifted the whole thing a few units
+	
 	
 <!--	<path d="M 20,19 v 1.276 a 5,5 0 01 -5,5 L 12.5,20 V17 h5.5 z" fill="#55acee"/>
 	<path d="M 20,19 v 1.276 a 5,5 0 01 -5,5 L 12.5,20 V17 h5.5 z" fill="#55acee" transform="translate(12 4)"/>
