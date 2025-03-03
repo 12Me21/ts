@@ -1,8 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	the arcs were strangely corrupted before, for some reason. but i am confident in this reconstruction
 	<g fill="#d99e82">
 		<rect x="2" y="12" width="32" height="23" rx="4"/>
 		<rect width="36" height="17" rx="10.5" ry="8.5" x="0" y="5"/>
 	</g>
+	note: .476 was aligned to an point on the union of those first two rects. however this was calculated badly and it should actually be .4887 ish. so  what to do..
 	<rect width="16" height="1.5" x="18" y="18.476" fill="#cc927a"/>
 	<g fill="#ffe8b6"> 
 		<rect x="4" y="14" width="15" height="19" rx="3"/>
