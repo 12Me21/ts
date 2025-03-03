@@ -1,4 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	interestingly, MoonViewingCeremony and SheafOfRice both use the same sheaf of rice component, but they seem to have diverged after that.
+	in my oldest files:
+	- MoonViewingCeremony - green strokes separate, yellow strokes full
+	- SheafOfRice - green strokes merged into one layer, yellow strokes full
+	in the current twemoji official:
+	- MoonViewingCeremony - green strokes merged and clipped (pretty badly clipped), with intersection points added with the yellow parts, yellow strokes shaved down very far (everything beyond the intersection points replaced with a single curve iirc)
+	- SheafOfRice - unchanged, i think
+	
+	so what i did for my seam fixes was, take the green strokes from SheafOfRice, and re-clip them for MoonViewingCeremony (i have, somewhat confidently, the original strokes, but i dont have a good method of converting them to fills, so i like to reuse the old twemoji ones)
+	and then redo the yellow parts completely (from my strokes), simplifying with fontforge and by hand, and clipping to not stick out from the green paths
+	
+	note that i did use my new good quality green strokes to calculate the edge setbacks for the background rect.
+	
 	<defs>
 		<clipPath id="rect2">
 			<rect x="0" y="0" width="36" height="36" rx="4"/>
@@ -28,6 +41,9 @@
 		<path d="M 18,32 h15 v4 h-15 v-4 Z" fill="#c1694f"/>
 		
 		<!-- not totally confident with these paths but visually they're fine -->
+		
+		<!-- hand optimized from my strokes: <path d="M 12,24 c -0.392,0 -0.731,-0.226 -0.895,-0.554 c -1.179,-2.359 -1.3,-4.856 1.095,-8.045 c 2.166,-2.889 3.469,-3.786 4.566,-3.786 c 2.234,0 2.234,3.35 2.234,4.385 c 0,0 -5,4 -7,8 Z" fill="#ffcc4d"/>
+		<path d="M 9,16 c -0.392,0 -0.731,-0.226 -0.895,-0.554 c -1.027,-2.055 -2.259,-4.518 0.063,-8 c 1.886,-2.827 4.262,-4.821 6.222,-4.821 c 1.028,0 2.211,0.583 2.528,2.375 c -4,4 -7.918,11 -7.918,11 Z" fill="#ffcc4d"/>-->
 		<g stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#77b255">
 			<path d="M 12,23 c -1,-2 -1.17952,-4.09715 1,-7 c 3,-4 5,-5 5,0 c -1,1 -6,7 -6,7" fill="#ffcc4d" stroke="#ffcc4d"/>
 			<path d="M 16,6 c -1,1 -7,9 -7,9 c -1,-2 -2,-4 0,-7 c 3.13,-4.69 7,-6 7,-2" fill="#ffcc4d" stroke="#ffcc4d"/>
