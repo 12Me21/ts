@@ -3,13 +3,14 @@
 		<path d="M -12,-1 s 12,0.448 12,1 s -12,1 -12,1 a 1,1 0 01 0,-2 Z" fill="#CCD6DD"/>
 	<path d="M -12.5,3 a 1.5,1.5 0 01 -1.5,-1.5 v-3 a 1.5,1.5 0 01 1.5,-1.5 c 0.828,0 3.936,1.465 3.936,2.293 v1.414 c 0,0.828 -3.108,2.293 -3.936,2.293 Z" fill="#ADD3E0"/>
 	<g>
-		<rect width="21" height="10" rx="2" x="-32.585" y="-5" fill="#C1E1EA"/>
+		<!-- good <rect width="21" height="10" rx="2" x="-32.585" y="-5" fill="#C1E1EA"/> -->
+		<path fill="#C1E1EA" d="M -32.585,-3 l 1,-1 h19 l1,1 v6 a 2,2 0 01 -2,2 h-17 a 2,2 0 01 -2,-2 v-6 Z"/>
 		<path d="M -32.585,-3 a 2,2 0 01 2,-2 h17 a 2,2 0 01 2,2 h-21 Z" fill="#D2ECF3"/>
 	</g>
-	<rect width="17" height="6" x="-43" y="-3" fill="#CCD6DD"/>
+	<rect width="18.5" height="6" x="-44.5" y="-3" fill="#CCD6DD"/>
 	
 	<g>
-		<rect width="1.47361" height="10" x="-26.50307" y="-5" fill="#292F33"/>
+		<rect width="1.47361" height="8" x="-26.50307" y="-3" fill="#292F33"/>
 		<rect width="1.47361" height="2" x="-26.50307" y="-5" fill="#66757F"/>
 	</g>
 	
