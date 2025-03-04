@@ -1,12 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	<defs>
+		<clipPath id="spinny">
+			<rect x="11" y="11" width="14" height="23"/>
+		</clipPath>
+	</defs>
 	<circle fill="#CCD6DD" cx="18" cy="6" r="6"/>
-	<path d="M 11,12 h14 v21 h-14 v-21 Z"  fill="#FFF"/>
-	
-	<path d="M 13.697,12 h11.303 v5.514 l -11.303,-5.514 Z" fill="#DD2E44"/>
-	<path d="M 11,28.487 v-4.451 l 14,6.831 v4.45 l -14,-6.83 Z" fill="#DD2E44"/>
-	
-	<path d="M 11,19.585 v-4.451 l 14,6.831 v4.45 l -14,-6.83 Z" fill="#55ACEE"/>
-	
-	<rect x="9" y="9" width="18" height="4" rx="2"  fill="#99AAB5"/>
-	<rect x="9" y="32" width="18" height="4" rx="2"  fill="#99AAB5"/>
-	</svg>
+	<rect x="11" y="11" width="14" height="23" fill="#ffffff"/>
+	<g clip-path="url(#spinny)">
+		<g transform="translate(18 23) rotate(26)">
+			<rect x="-13" y="-12" width="26" height="4" fill="#dd2e44"/>
+			<rect x="-13" y="4" width="26" height="4" fill="#dd2e44"/>
+			<rect x="-13" y="-4" width="26" height="4" fill="#55acee"/>
+		</g>
+	</g>
+	<!-- baked <path d="M 25,26.414 v4.45 l -2.696,3.136 h-11.304 v-5.514 l 1.5,-1.486 l -1.5,-2.964 v-4.45 l 1.5,-1.586 l -1.5,-2.864 v-4.136 h11 l 3,6.514 v4.45 l -1.5,1.036 l 1.5,3.414 Z" fill="#ffffff"/>
+	<path d="M 25,34 h-2.696 l -11.304,-5.514 v-4.45 l 14,6.828 v3.136 Z" fill="#dd2e44"/>
+	<path d="M 25,11 v6.514 l -13.354,-6.514 h13.354 Z" fill="#dd2e44"/>
+	<path d="M 11,19.586 v-4.45 l 14,6.828 v4.45 l -14,-6.828 Z" fill="#55acee"/>-->
+	<rect x="9" y="9" width="18" height="4" rx="2" fill="#99AAB5"/>
+	<rect x="9" y="32" width="18" height="4" rx="2" fill="#99AAB5"/>
+</svg>
