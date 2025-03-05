@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+	probably this started as straight lines and then each corner was replaced by a cubic bezier corner "radius" i.e. points set back 1 unit from the corner and then with a control point located 0.55 units out from each one.
+	then the bottom side was made from an ellipse (18x14) and connected with control points of distance 12, after the corners were rounded.
 	<path d="M 36,20 c 0,7.732 -8.059,16 -18,16 s -18,-8.268 -18,-16 c 0,-12 7.697,-17.424 7.697,-17.424 c 0.45,-0.317 1.019,-0.173 1.263,0.319 l 2.595,5.21 c 0.245,0.492 0.695,0.521 1,0.064 l 4.89,-7.309 c 0.305,-0.457 0.805,-0.457 1.11,0 l 4.89,7.309 c 0.305,0.457 0.755,0.428 1,-0.064 l 2.595,-5.21 c 0.244,-0.492 0.813,-0.636 1.263,-0.319 c 0,0 7.697,5.424 7.697,17.424 Z" fill="#dd2e44"/>
 	<rect width="28" height="11" rx="2" x="4" y="14" fill="#f5f8fa"/>
 </svg>
