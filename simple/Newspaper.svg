@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	<path d="M 33,36 h-29 c 4,0 3,-9 3,-9 c 0,-2.209 1.791,-15 4,-15 h21 s 4,0 4,4 v17 s 0,3 -3,3 Z"  fill="#99AAB5"/>
-	<path d="M 30,33 c 0,3 3,3 3,3 h-30 s -3,0 -3,-4 v-28 a 4,4 0 01 4,-4 h22 a 4,4 0 01 4,4 v29 Z"   fill="#CCD6DD"/>
+	<!--<path d="M 33,36 h-29 c 4,0 3,-9 3,-9 c 0,-2.209 1.791,-15 4,-15 h21 s 4,0 4,4 v17 s 0,3 -3,3 Z"  fill="#99AAB5"/> orig -->
+	<path d="M 33,36 h-30 s -3,0 -3,-4 v-28 a 4,4 0 01 4,-4 h22 a 4,4 0 01 4,4 v8 l3,3 Z"   fill="#CCD6DD"/>
+	<path d="M 30,12 h2 s 4,0 4,4 v17 s 0,3 -3,3 c 0,0 -3,0 -3,-3 z"  fill="#99AAB5"/>
 	<rect x="17" y="19" width="10" height="2" rx="1"  fill="#99AAB5"/>
 	<rect x="17" y="15" width="10" height="2" rx="1"  fill="#99AAB5"/>
 	<rect x="17" y="11" width="10" height="2" rx="1"  fill="#99AAB5"/>
