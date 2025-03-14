@@ -1,5 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<g>
+		todo:
+		a: can we figure out the source for this
+		b: fix seams on the rectangles
+		c: normalize them (like, get a center point and paste the same thing on each place and maybe extend/reduce the length if needed)
+		
+		probably 0.923 wide
+		
 		1<path fill="#77B255" d="M 5.5273,30.6006 l -3.431,-3.432 l 0.923,-0.922 l 3.431,3.431 l -0.923,0.923 Z"/>
 		4<path fill="#77B255" d="M 17.479,18.7314 l -3.431,-3.431 l 0.923,-0.923 l 3.431,3.431 l -0.923,0.923 Z"/>
 		7<path fill="#77B255" d="M 29.5215,6.6069 l -3.432,-3.432 l 0.923,-0.922 l 3.432,3.431 l -0.923,0.923 Z"/>
