@@ -1,0 +1,37 @@
+steps:
+1: make a list of known points in both the original and transformed outlines
+2: within each of these two, calculate all distances and angles between all the points
+3: compare the resulting lists, and average the results. to get the overall rotation and scale factors. then, position can be done later
+
+<path d="M-7.0475,21.2993	
+-0.0365,24.6723	
+4.5815,23.2493	
+8.7365,26.6363	
+9.6795,26.5403	
+13.9225,26.1083	
+18.2495,22.8093	
+23.0325,26.7083	
+19.1335,31.4913	
+14.5945,32.7073	
+10.4485,34.0823	
+0.9245,34.1003	
+-5.7025,34.4983	
+-12.9745,28.5713"/>
+<path d="M6,8.709      
+13,13        
+18,12        
+22,16        
+23,16        
+27.5,16      
+32.396,13    
+37,17.604    
+32.396,22.208
+27.5,23      
+23,24        
+13,23        
+6,22.709 
+-1,15.709"/>
+
+AVG_ANGLE -5.816952376493907
+AVG_SCALE 0.947647127691971
+AVG_OFFS -13.54071,13.66512
