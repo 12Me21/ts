@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-	<path d="M 32,0 a 4,4 0 01 4,4 v21 l -4,4 h-24 l -8,-16 v-9 a 4,4 0 01 4,-4 h28 Z" fill="#269"/>
+	<path d="M 32,0 a 4,4 0 01 4,4 v21 l -4,4 h-26 l -6,-16 v-9 a 4,4 0 01 4,-4 h28 Z" fill="#269"/>
 	<path d="M 20,7 v27 l-2,2 h-6 l-2,-2 v-27 l 4,-4 h2 l 4,4 Z" fill="#3F484C"/>
 	<path d="M 33,11 v23 l-2,2 h-3 l-4,-4 v-21 c 0,-1 1,-1 1,-1 h7 s 1,0 1,1 Z"  fill="#3F484C"/>
 	<path d="M 28,19 v17 h-10 v-17 s 0,-1 1,-1 h8 s 1,0 1,1 Z"  fill="#292F33"/>
@@ -17,19 +17,16 @@
 	<path d="M 29,12 h2 v2 h-2 v-2 Z"  fill="#FFCC4D"/>
 	<path d="M 29,16 h2 v2 h-2 v-2 Z"  fill="#FFCC4D"/>
 	
-	<path d="
-M 6.5,7 
-a 2.5,2.5 0 00 0.853,-0.159
-a 3,3 0 01 -2.353,1.159 
-a 3,3 0 01 0,-6 
-a 3,3 0 01 0.784,0.117 
-a 2.5,2.5 0 00 -1.784,2.383 
-a 2.5,2.5 0 00 2.5,2.5 
-Z" fill="#FFF"/>
-	<circle cx="10.5" cy="2.5" r=".5" fill="#FFF"/>
-	<circle cx="7.5" cy="11.5" r=".5" fill="#FFF"/>
-	<circle cx="22" cy="5" r="1" fill="#FFF"/>
-	<circle cx="26.5" cy="5.5" r=".5" fill="#FFF"/>
-	<circle cx="31" cy="3" r="1" fill="#FFF"/>
-	<circle cx="31.5" cy="7.5" r=".5" fill="#FFF"/>
+	<g fill="#FFF">
+		similar to BridgeAtNight
+	<!-- moon from <circle cx="5" cy="5" r="3"/>
+		<circle cx="6.5" cy="4.5" r="2.5"/>-->
+		<path d="M 4,4.5 a 2.5,2.5 0 00 2.5,2.5 c 0.304,0 0.595,-0.054 0.865,-0.153 c -0.549,0.702 -1.404,1.153 -2.365,1.153 a 3,3 0 01 0,-6 c 0.272,0 0.535,0.036 0.785,0.104 c -1.032,0.307 -1.785,1.264 -1.785,2.396 Z"/>
+		<circle cx="10.5" cy="2.5" r=".5"/>
+		<circle cx="7.5" cy="11.5" r=".5"/>
+		<circle cx="22" cy="5" r="1"/>
+		<circle cx="26.5" cy="5.5" r=".5"/>
+		<circle cx="31" cy="3" r="1"/>
+		<circle cx="31.5" cy="7.5" r=".5"/>
+	</g>
 </svg>
