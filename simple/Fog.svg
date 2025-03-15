@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
 	<defs>
 		<g id="rept">
-			<circle cx="6" cy="15.71" r="7"/>
+			<circle cx="6" cy="15.709" r="7"/>
 			<circle cx="13" cy="18" r="5"/>
 			<circle cx="18" cy="16" r="4"/>
 			<circle cx="23" cy="20" r="4"/>
 			<circle cx="27.5" cy="19.5" r="3.5"/>
-			<circle cx="32.4" cy="17.6" r="4.6"/>
+			<circle cx="32.396" cy="17.604" r="4.604"/> algn to 37,13
 		</g>
 		<g id="rep2">
 			<circle cx="3" cy="10" r="5"/>
@@ -16,13 +16,32 @@
 			<circle cx="21.5" cy="11.5" r="4.5"/>
 			<circle cx="24.5" cy="14.5" r="3.5"/>
 			<circle cx="27.5" cy="13.5" r="4.5"/>
-			<circle cx="33.81" cy="12.81" r="4.19"/>
+			<circle cx="33.8125" cy="12.8125" r="4.1875"/> algn to 38,17
 		</g>
 		<clipPath id="all">
 			<rect width="36" height="36" rx="4"/>
 		</clipPath>
-	</defs>	
-	
+	</defs>
+
+-7.0475,21.2993 = c1.top | 
+-0.0365,24.6723 = c2.top
+4.5815,23.2493 = c3.top
+8.7365,26.6363 = c3.right ?
+9.6795,26.5403 = c4.top
+13.9225,26.1083 = c5.top
+18.2495,22.8093 = c6.top
+23.0325,26.7083 = c6.right
+19.1335,31.4913 = c6.bot
+14.5945,32.7073 = c5.bot
+10.4485,34.0823 = c4.bot
+4.8945,32.7433 = mystery.bot
+0.9245,34.1003 = c2.bot
+-5.7025,34.4983 = c1.bot
+-12.9745,28.5713 = c1.left
+
+once we solve this rotated one, we can discover that extra mystery circle which is only visible from the rotated layer (hidden otherwise)
+likely: algn sw to 14,22, radius around 3.3 ish?
+
 	<g clip-path="url(#all)">
 		<rect width="36" height="36" fill="#F5F8FA"/>
 		
@@ -34,6 +53,7 @@
 		
 		<use href="#rep2" fill="#E1E8ED" transform="matrix(-1 0 0 1 37 15)"/>
 		<use href="#rept" fill="#F5F8FA" transform="translate(-13.5 13.6) scale(0.9476) rotate(-5.85)"/> <!-- todo: position this one correctly -->
+		angle 5.82
 		
 		<circle cx="25" cy="29" r="4" fill="#F5F8FA"/>
 		
