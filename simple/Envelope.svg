@@ -117,9 +117,7 @@ l -14.528,-14.526
 v-6 Z"   fill="#99AAB5"/>
 		<path d="M 36,6.87 L 20.828,22.042 a 4,4 0 01 -5.657,0 L 0,6.87 V 4 h 36 z"  fill="#E1E8ED"/>
 		</g>-->
-	<!--
-GOOD
-<defs>
+	<defs>
 		<clipPath id="env">
 			<rect x="0" y="5" width="36" height="26" rx="4"/>
 		</clipPath>
@@ -131,10 +129,10 @@ GOOD
 	<g clip-path="url(#env)">
 		<rect y="10" width="36" height="27" fill="#CCD6DD"/>
 		<g fill="none" stroke-width="2" stroke="#99AAB5">
-(simplified)
+			(simplified)
 			<path d="M 0,31 L 18,13"/>
 			<path d="M 36,31 L 18,13"/>
-OR (matches original, the hidden part and incl the tiny amount of radius we can see in the lower ends)
+			OR (matches original, the hidden part and incl the tiny amount of radius we can see in the lower ends)
          <path transform="translate(7 24) rotate(-45)" d="M-8,0H8" fill="none"  stroke-width="2" stroke="#99AAB5" stroke-linecap="round"/>
         	<path transform="translate(29 24) rotate(45)" d="M-8,0H8" fill="none"  stroke-width="2" stroke="#99AAB5" stroke-linecap="round"/>
 		</g>
@@ -145,20 +143,22 @@ OR (matches original, the hidden part and incl the tiny amount of radius we can 
 		</g>
 		
 		<path d="M36,0 H4 a 4,4 0 01 -4,-4 V-36 Z" transform="translate(18 24.87) rotate(-45)" fill="#E1E8ED"/>
-		</g>
-	-->
+	</g>
+	<!-- 
+my baked
 	<path d="M 36,10.009 V27 a 4,4 0 01 -4,4 h-28 a 4,4 0 01 -4,-4 V10.03Z" fill="#CCD6DD"/>
 	
-	<!--<path d="M 18,11.586 l -17.446,17.446 c 0.345,0.582 0.832,1.069 1.414,1.414 l 16.032,-16.032 l 16.032,16.032 c 0.582,-0.345 1.069,-0.832 1.414,-1.414 l -17.446,-17.446 Z" fill="#99AAB5"/> simpl-->
+	<path d="M 18,11.586 l -17.446,17.446 c 0.345,0.582 0.832,1.069 1.414,1.414 l 16.032,-16.032 l 16.032,16.032 c 0.582,-0.345 1.069,-0.832 1.414,-1.414 l -17.446,-17.446 Z" fill="#99AAB5"/> simpl
 	faithful
 	<path d="M 24.05,17.636 l 11.314,11.314 c 0.028,0.028 0.054,0.057 0.078,0.088 c -0.343,0.577 -0.827,1.061 -1.404,1.404 c -0.031,-0.024 -0.06,-0.05 -0.088,-0.078 l -11.314,-11.314 c -0.39,-0.39 -0.39,-1.024 0,-1.414 s 1.024,-0.39 1.414,0 Z" fill="#99AAB5"/>
 	<path d="M 0.558,29.038 c 0.024,-0.031 0.05,-0.06 0.078,-0.088 l 11.314,-11.314 c 0.39,-0.39 1.024,-0.39 1.414,0 s 0.39,1.024 0,1.414 l -11.314,11.314 c -0.028,0.028 -0.057,0.054 -0.088,0.078 c -0.577,-0.343 -1.061,-0.827 -1.404,-1.404 Z" fill="#99AAB5"/>
 	
-	<!-- <path d="M 36,10 v-1 c 0,-0.621 -0.142,-1.21 -0.395,-1.735 h-35.21 c -0.253,0.525 -0.395,1.114 -0.395,1.735 v1 l 14.558,14.558 c 1.9,1.9 4.984,1.9 6.884,0 l 14.558,-14.558 Z" fill="#99AAB5"/> fixe-->
+	<path d="M 36,10 v-1 c 0,-0.621 -0.142,-1.21 -0.395,-1.735 h-35.21 c -0.253,0.525 -0.395,1.114 -0.395,1.735 v1 l 14.558,14.558 c 1.9,1.9 4.984,1.9 6.884,0 l 14.558,-14.558 Z" fill="#99AAB5"/> fixe
 	faithful
 	<path d="M 35.605,7.265 h-35.21 c -0.253,0.525 -0.395,1.114 -0.395,1.735 v1.03 l 14.528,14.495 c 1.894,1.894 4.988,1.894 6.884,0 l 14.588,-14.516 v-1.009 c 0,-0.621 -0.142,-1.21 -0.395,-1.735 Z" fill="#99AAB5"/>
 	
 	<path d="M 35.605,7.265 c -0.647,-1.34 -2.019,-2.265 -3.605,-2.265 h-28 c -1.586,0 -2.958,0.925 -3.605,2.265 l 14.777,14.777 c 1.561,1.561 4.095,1.561 5.656,0 l 14.777,-14.777 Z" fill="#E1E8ED"/>
+	-->
 		<!--<path fill="#E1E8ED" d=" M
 36,6.87
  L
