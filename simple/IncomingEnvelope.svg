@@ -10,7 +10,7 @@
 	<clipPath id="env_skew">
 		<path d="M 28,6 a 4,4 0 01 -4,4 h-20 a 4,4 0 01 -4,-4 v-12 a 4,4 0 01 4,-4 h20 a 4,4 0 01 4,4 v12 Z" transform="translate(6 19) matrix(1 0 -0.28325 1 0 0)"/>
 	</clipPath>
-	<g transform="translate(6 19) matrix(1 0 -0.28325 1 0 0)">
+	<g trrfansform="translate(6 19) matrix(1 0 -0.28325 1 0 0)">
 		<clipPath id="env">
 			<path d="M 28,6 a 4,4 0 01 -4,4 h-20 a 4,4 0 01 -4,-4 v-12 a 4,4 0 01 4,-4 h20 a 4,4 0 01 4,4 v12 Z"/>
 		</clipPath>
@@ -20,9 +20,12 @@
 		<g clip-path="url(#env)">
 			todo: actually these are not technically strokes
 			it seems like they started as strokes drawn at 45°, but then the endcaps were moved (i.e. the endcaps are at 45° but the line part is not)
-		<g stroke-width="2" stroke-linecap="round" stroke="#99AAB5" fill="none">
+		<!--<g stroke-width="2" stroke-linecap="round" stroke="#99AAB5" fill="none">
 			<path d="M 1.343,8.657 L 11.657,-0.657"/>
 			<path d="M 1.343,8.657 L 11.657,-0.657" transform="matrix(-1 0 0 1 28 0)"/>
+			</g>-->
+		<g fill="#99AAB5">
+			<path d="M 0.636,7.95 l 10.314,-9.314 a 1,1 0 01 1.414,0 a 1,1 0 01 0,1.414 L 12.364,0.05 l -10.314,9.314 a 1,1 0 01 -1.414,0 a 1,1 0 01 0,-1.414 Z"/>
 		</g>
 		</g>
 		
